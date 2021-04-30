@@ -7,7 +7,11 @@ from django.core.management import call_command
 from django.core.management.base import BaseCommand
 
 from contexttimer import Timer
-from scaife_viewer.atlas import importers, tokenizers
+from scaife_viewer.atlas.importers import versions
+from scaife_viewer.atlas.importers import alignments
+from scaife_viewer.atlas import tokenizers
+
+from ...temp import process_alignments
 
 
 class Command(BaseCommand):
@@ -67,27 +71,27 @@ class Command(BaseCommand):
 
         self.emit_log("migrate", t.elapsed)
 
-        self.do_step("Loading versions", importers.versions.import_versions)
+        self.do_step("Loading versions", versions.import_versions)
 
         stage_1 = {
             "name": "stage 1",
             "callbacks": [
-                (
-                    "Loading text annotations",
-                    importers.text_annotations.import_text_annotations,
-                ),
-                (
-                    "Loading metrical annotations",
-                    importers.metrical_annotations.import_metrical_annotations,
-                ),
-                (
-                    "Loading image annotations",
-                    importers.image_annotations.import_image_annotations,
-                ),
-                (
-                    "Loading audio annotations",
-                    importers.audio_annotations.import_audio_annotations,
-                ),
+                # (
+                #     "Loading text annotations",
+                #     importers.text_annotations.import_text_annotations,
+                # ),
+                # (
+                #     "Loading metrical annotations",
+                #     importers.metrical_annotations.import_metrical_annotations,
+                # ),
+                # (
+                #     "Loading image annotations",
+                #     importers.image_annotations.import_image_annotations,
+                # ),
+                # (
+                #     "Loading audio annotations",
+                #     importers.audio_annotations.import_audio_annotations,
+                # ),
             ],
         }
         self.do_stage(stage_1)
@@ -106,15 +110,15 @@ class Command(BaseCommand):
         stage_2 = {
             "name": "stage 2",
             "callbacks": [
-                (
-                    "Loading token annotations",
-                    importers.token_annotations.apply_token_annotations,
-                ),
-                (
-                    "Loading named entity annotations",
-                    importers.named_entities.apply_named_entities,
-                ),
-                ("Loading alignments", importers.alignments.process_alignments),
+                # (
+                #     "Loading token annotations",
+                #     importers.token_annotations.apply_token_annotations,
+                # ),
+                # (
+                #     "Loading named entity annotations",
+                #     importers.named_entities.apply_named_entities,
+                # ),
+                ("Loading alignments", process_alignments),
             ],
         }
         self.do_stage(stage_2)
