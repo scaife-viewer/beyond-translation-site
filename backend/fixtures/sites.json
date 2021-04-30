@@ -1,0 +1,18 @@
+[
+    {
+        "pk": 1,
+        "model": "sites.site",
+        "fields": {
+            "domain": "localhost:8000",
+            "name": "Scaife Stack [localhost]"
+        }
+    },
+    {
+        "pk": 2,
+        "model": "sites.site",
+        "fields": {
+            "domain": "scaife-stack.scaife-viewer.org",
+            "name": "Scaife Stack"
+        }
+    }
+]

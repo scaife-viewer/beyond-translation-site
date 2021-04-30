@@ -1,0 +1,56 @@
+name: Backend CI
+
+on:
+  push:
+    branches:
+      - "**"
+    paths:
+      - 'backend/**'
+      - .github/workflows/ci-backend.yml
+
+jobs:
+  qa:
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: ./backend
+
+    steps:
+      - uses: actions/checkout@v2
+      - name: Set up Python 3.9
+        uses: actions/setup-python@v2
+        with:
+          python-version: 3.9
+      - name: Configure cache
+        id: python-cache
+        uses: actions/cache@v2
+        if: startsWith(runner.os, 'Linux')
+        with:
+          path: |
+            ${{ env.pythonLocation}}
+          key: v2-${{ runner.os }}-${{ hashFiles('**/requirements*.txt') }}
+      - name: Install deps using Pip
+        run: pip install -r requirements-dev.txt
+        if: steps.python-cache.outputs.cache-hit != 'true'
+      - name: Run linting checks
+        run: |
+          isort scaife_stack_atlas -rc --check-only
+          black scaife_stack_atlas --check
+          flake8 scaife_stack_atlas
+      - name: Run tests
+        run: pytest
+
+  # deploy:
+  #   needs: qa
+  #   runs-on: ubuntu-latest
+  #   if: ${{ github.ref == 'refs/heads/main' }}
+  #   steps:
+  #     - uses: actions/checkout@v2
+  #     - run: |
+  #         git fetch --prune --unshallow
+  #     - name: Deploy "main" to QA Instance
+  #       env:
+  #         HEROKU_API_KEY: ${{ secrets.HEROKU_API_KEY }}
+  #         HEROKU_APP_NAME: ${{ secrets.HEROKU_APP_NAME }}
+  #       run: |
+  #         git push -f https://heroku:$HEROKU_API_KEY@git.heroku.com/$HEROKU_APP_NAME.git HEAD:main

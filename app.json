@@ -1,0 +1,14 @@
+{
+  "name": "scaife-stack",
+  "env": {},
+  "formation": {
+    "web": {
+      "quantity": 1,
+      "size": "hobby"
+    }
+  },
+  "addons": [
+    "logdna:quaco"
+  ],
+  "stack": "container"
+}

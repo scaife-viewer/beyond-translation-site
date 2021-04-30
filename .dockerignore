@@ -1,0 +1,9 @@
+.git
+.gitignore
+.dockerignore
+*.dockerfile
+
+frontend/node_modules
+
+backend/static
+backend/scaife_stack_atlas/site_media

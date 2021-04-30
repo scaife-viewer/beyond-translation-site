@@ -1,0 +1,33 @@
+name: Frontend CI
+
+on:
+  push:
+    branches:
+      - "**"
+    paths:
+      - 'frontend/**'
+      - .github/workflows/ci-frontend.yml
+
+jobs:
+
+  test:
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: ./frontend
+
+    steps:
+      - uses: actions/checkout@v2
+      - name: Set up Node.js 12
+        uses: actions/setup-node@v1
+        with:
+          node-version: 12.x
+      - name: Install deps using Yarn from Cache
+        uses: bahmutov/npm-install@v1.4.3
+        with:
+          working-directory: ./frontend
+      - name: Run linting checks
+        run: yarn run lint --no-fix
+      # TODO: restore project-level tests
+      # - name: Run tests
+      #   run: yarn run test

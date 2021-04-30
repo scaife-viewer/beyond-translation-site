@@ -1,0 +1,11 @@
+*.pyc
+dev.db
+db.sqlite3
+site_media/
+.DS_Store
+.vscode
+Pipfile
+Pipfile.lock
+.venv/
+.hypothesis/
+.coverage

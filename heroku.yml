@@ -1,0 +1,5 @@
+build:
+  docker:
+    web: heroku.dockerfile
+run:
+  web: gunicorn scaife_stack_atlas.wsgi
