@@ -16,7 +16,7 @@
       "version_kind": "edition",
       "lang": "far",
       "first_passage_urn": "urn:cts:farsiLit:hafez.divan.perseus-far1:1.1",
-      "citation_scheme": ["poem", "line"],
+      "citation_scheme": ["letter", "poem"],
       "label": [
         {
           "lang": "eng",
@@ -37,7 +37,7 @@
       "version_kind": "translation",
       "lang": "eng",
       "first_passage_urn": "urn:cts:farsiLit:hafez.divan.perseus-eng1:1.1",
-      "citation_scheme": ["poem", "line"],
+      "citation_scheme": ["letter", "poem"],
       "label": [
         {
           "lang": "eng",
