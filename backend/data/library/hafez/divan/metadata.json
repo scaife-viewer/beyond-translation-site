@@ -30,7 +30,6 @@
         }
       ]
     },
-
     {
       "urn": "urn:cts:farsiLit:hafez.divan.perseus-eng1:",
       "node_kind": "version",
@@ -48,6 +47,26 @@
         {
           "lang": "eng",
           "value": "Perseus:bib:oclc, 559481156. The Dīvān .Translated for the first time out of the Persian into English prose, with critical and explanatory remarks, with an introductory preface, with a note on Ṣūfīism, and with a life of the author, by H. Wilberforce Clarke. Calcutta, India. 1891."
+        }
+      ]
+    },
+    {
+      "urn": "urn:cts:farsiLit:hafez.divan.perseus-ger1:",
+      "node_kind": "version",
+      "version_kind": "translation",
+      "lang": "ger",
+      "first_passage_urn": "urn:cts:farsiLit:hafez.divan.perseus-ger1:1.3",
+      "citation_scheme": ["letter", "poem"],
+      "label": [
+        {
+          "lang": "eng",
+          "value": "Divān (German)"
+        }
+      ],
+      "description": [
+        {
+          "lang": "eng",
+          "value": "Perseus:bib:oclc, 6773200. Mohammed Schemsed-din Hafis, Der Diwan, Aus dem Persischen zum erstenmal ganz übersetzt von Joseph von Hammer-Purgstall. Stuttgart and Tübingen, 1812."
         }
       ]
     }

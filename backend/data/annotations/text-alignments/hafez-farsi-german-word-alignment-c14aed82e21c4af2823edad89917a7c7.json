@@ -1,0 +1,923 @@
+{
+  "urn": "urn:cite2:scaife-viewer:alignment.v1:hafez-farsi-german-word-alignment-c14aed82e21c4af2823edad89917a7c7",
+  "label": "Hafez Farsi / German Word Alignment",
+  "format": "atlas-standoff-annotation",
+  "versions": [
+    "urn:cts:farsiLit:hafez.divan.perseus-far1:",
+    "urn:cts:farsiLit:hafez.divan.perseus-ger1:"
+  ],
+  "records": [
+    {
+      "urn": "urn:cite2:scaife-viewer:alignment-record.v1:hafez-farsi-german-word-alignment-c14aed82e21c4af2823edad89917a7c7_0",
+      "relations": [
+        [
+          "urn:cts:farsiLit:hafez.divan.perseus-far1:1.3.t1",
+          "urn:cts:farsiLit:hafez.divan.perseus-far1:1.3.t7"
+        ],
+        [
+          "urn:cts:farsiLit:hafez.divan.perseus-ger1:1.3.t1"
+        ]
+      ]
+    },
+    {
+      "urn": "urn:cite2:scaife-viewer:alignment-record.v1:hafez-farsi-german-word-alignment-c14aed82e21c4af2823edad89917a7c7_1",
+      "relations": [
+        [
+          "urn:cts:farsiLit:hafez.divan.perseus-far1:1.3.t2"
+        ],
+        [
+          "urn:cts:farsiLit:hafez.divan.perseus-ger1:1.3.t7"
+        ]
+      ]
+    },
+    {
+      "urn": "urn:cite2:scaife-viewer:alignment-record.v1:hafez-farsi-german-word-alignment-c14aed82e21c4af2823edad89917a7c7_2",
+      "relations": [
+        [
+          "urn:cts:farsiLit:hafez.divan.perseus-far1:1.3.t3"
+        ],
+        [
+          "urn:cts:farsiLit:hafez.divan.perseus-ger1:1.3.t8",
+          "urn:cts:farsiLit:hafez.divan.perseus-ger1:1.3.t9"
+        ]
+      ]
+    },
+    {
+      "urn": "urn:cite2:scaife-viewer:alignment-record.v1:hafez-farsi-german-word-alignment-c14aed82e21c4af2823edad89917a7c7_3",
+      "relations": [
+        [
+          "urn:cts:farsiLit:hafez.divan.perseus-far1:1.3.t4"
+        ],
+        [
+          "urn:cts:farsiLit:hafez.divan.perseus-ger1:1.3.t10",
+          "urn:cts:farsiLit:hafez.divan.perseus-ger1:1.3.t11"
+        ]
+      ]
+    },
+    {
+      "urn": "urn:cite2:scaife-viewer:alignment-record.v1:hafez-farsi-german-word-alignment-c14aed82e21c4af2823edad89917a7c7_4",
+      "relations": [
+        [
+          "urn:cts:farsiLit:hafez.divan.perseus-far1:1.3.t5"
+        ],
+        [
+          "urn:cts:farsiLit:hafez.divan.perseus-ger1:1.3.t4"
+        ]
+      ]
+    },
+    {
+      "urn": "urn:cite2:scaife-viewer:alignment-record.v1:hafez-farsi-german-word-alignment-c14aed82e21c4af2823edad89917a7c7_5",
+      "relations": [
+        [
+          "urn:cts:farsiLit:hafez.divan.perseus-far1:1.3.t6"
+        ],
+        [
+          "urn:cts:farsiLit:hafez.divan.perseus-ger1:1.3.t5",
+          "urn:cts:farsiLit:hafez.divan.perseus-ger1:1.3.t6"
+        ]
+      ]
+    },
+    {
+      "urn": "urn:cite2:scaife-viewer:alignment-record.v1:hafez-farsi-german-word-alignment-c14aed82e21c4af2823edad89917a7c7_6",
+      "relations": [
+        [
+          "urn:cts:farsiLit:hafez.divan.perseus-far1:1.3.t8"
+        ],
+        [
+          "urn:cts:farsiLit:hafez.divan.perseus-ger1:1.3.t3"
+        ]
+      ]
+    },
+    {
+      "urn": "urn:cite2:scaife-viewer:alignment-record.v1:hafez-farsi-german-word-alignment-c14aed82e21c4af2823edad89917a7c7_7",
+      "relations": [
+        [
+          "urn:cts:farsiLit:hafez.divan.perseus-far1:1.3.t9"
+        ],
+        [
+          "urn:cts:farsiLit:hafez.divan.perseus-ger1:1.3.t2"
+        ]
+      ]
+    },
+    {
+      "urn": "urn:cite2:scaife-viewer:alignment-record.v1:hafez-farsi-german-word-alignment-c14aed82e21c4af2823edad89917a7c7_8",
+      "relations": [
+        [
+          "urn:cts:farsiLit:hafez.divan.perseus-far1:1.3.t12"
+        ],
+        [
+          "urn:cts:farsiLit:hafez.divan.perseus-ger1:1.3.t16"
+        ]
+      ]
+    },
+    {
+      "urn": "urn:cite2:scaife-viewer:alignment-record.v1:hafez-farsi-german-word-alignment-c14aed82e21c4af2823edad89917a7c7_9",
+      "relations": [
+        [
+          "urn:cts:farsiLit:hafez.divan.perseus-far1:1.3.t13"
+        ],
+        [
+          "urn:cts:farsiLit:hafez.divan.perseus-ger1:1.3.t17"
+        ]
+      ]
+    },
+    {
+      "urn": "urn:cite2:scaife-viewer:alignment-record.v1:hafez-farsi-german-word-alignment-c14aed82e21c4af2823edad89917a7c7_10",
+      "relations": [
+        [
+          "urn:cts:farsiLit:hafez.divan.perseus-far1:1.3.t15"
+        ],
+        [
+          "urn:cts:farsiLit:hafez.divan.perseus-ger1:1.3.t14",
+          "urn:cts:farsiLit:hafez.divan.perseus-ger1:1.3.t15"
+        ]
+      ]
+    },
+    {
+      "urn": "urn:cite2:scaife-viewer:alignment-record.v1:hafez-farsi-german-word-alignment-c14aed82e21c4af2823edad89917a7c7_11",
+      "relations": [
+        [
+          "urn:cts:farsiLit:hafez.divan.perseus-far1:1.3.t16"
+        ],
+        [
+          "urn:cts:farsiLit:hafez.divan.perseus-ger1:1.3.t18"
+        ]
+      ]
+    },
+    {
+      "urn": "urn:cite2:scaife-viewer:alignment-record.v1:hafez-farsi-german-word-alignment-c14aed82e21c4af2823edad89917a7c7_12",
+      "relations": [
+        [
+          "urn:cts:farsiLit:hafez.divan.perseus-far1:1.3.t17"
+        ],
+        [
+          "urn:cts:farsiLit:hafez.divan.perseus-ger1:1.3.t19"
+        ]
+      ]
+    },
+    {
+      "urn": "urn:cite2:scaife-viewer:alignment-record.v1:hafez-farsi-german-word-alignment-c14aed82e21c4af2823edad89917a7c7_13",
+      "relations": [
+        [
+          "urn:cts:farsiLit:hafez.divan.perseus-far1:1.3.t18"
+        ],
+        [
+          "urn:cts:farsiLit:hafez.divan.perseus-ger1:1.3.t20"
+        ]
+      ]
+    },
+    {
+      "urn": "urn:cite2:scaife-viewer:alignment-record.v1:hafez-farsi-german-word-alignment-c14aed82e21c4af2823edad89917a7c7_14",
+      "relations": [
+        [
+          "urn:cts:farsiLit:hafez.divan.perseus-far1:1.3.t21"
+        ],
+        [
+          "urn:cts:farsiLit:hafez.divan.perseus-ger1:1.3.t23"
+        ]
+      ]
+    },
+    {
+      "urn": "urn:cite2:scaife-viewer:alignment-record.v1:hafez-farsi-german-word-alignment-c14aed82e21c4af2823edad89917a7c7_15",
+      "relations": [
+        [
+          "urn:cts:farsiLit:hafez.divan.perseus-far1:1.3.t22"
+        ],
+        [
+          "urn:cts:farsiLit:hafez.divan.perseus-ger1:1.3.t25"
+        ]
+      ]
+    },
+    {
+      "urn": "urn:cite2:scaife-viewer:alignment-record.v1:hafez-farsi-german-word-alignment-c14aed82e21c4af2823edad89917a7c7_16",
+      "relations": [
+        [
+          "urn:cts:farsiLit:hafez.divan.perseus-far1:1.3.t23"
+        ],
+        [
+          "urn:cts:farsiLit:hafez.divan.perseus-ger1:1.3.t26",
+          "urn:cts:farsiLit:hafez.divan.perseus-ger1:1.3.t27"
+        ]
+      ]
+    },
+    {
+      "urn": "urn:cite2:scaife-viewer:alignment-record.v1:hafez-farsi-german-word-alignment-c14aed82e21c4af2823edad89917a7c7_17",
+      "relations": [
+        [
+          "urn:cts:farsiLit:hafez.divan.perseus-far1:1.3.t26"
+        ],
+        [
+          "urn:cts:farsiLit:hafez.divan.perseus-ger1:1.3.t29"
+        ]
+      ]
+    },
+    {
+      "urn": "urn:cite2:scaife-viewer:alignment-record.v1:hafez-farsi-german-word-alignment-c14aed82e21c4af2823edad89917a7c7_18",
+      "relations": [
+        [
+          "urn:cts:farsiLit:hafez.divan.perseus-far1:1.3.t27"
+        ],
+        [
+          "urn:cts:farsiLit:hafez.divan.perseus-ger1:1.3.t30"
+        ]
+      ]
+    },
+    {
+      "urn": "urn:cite2:scaife-viewer:alignment-record.v1:hafez-farsi-german-word-alignment-c14aed82e21c4af2823edad89917a7c7_19",
+      "relations": [
+        [
+          "urn:cts:farsiLit:hafez.divan.perseus-far1:1.3.t28",
+          "urn:cts:farsiLit:hafez.divan.perseus-far1:1.3.t29"
+        ],
+        [
+          "urn:cts:farsiLit:hafez.divan.perseus-ger1:1.3.t31",
+          "urn:cts:farsiLit:hafez.divan.perseus-ger1:1.3.t32",
+          "urn:cts:farsiLit:hafez.divan.perseus-ger1:1.3.t33"
+        ]
+      ]
+    },
+    {
+      "urn": "urn:cite2:scaife-viewer:alignment-record.v1:hafez-farsi-german-word-alignment-c14aed82e21c4af2823edad89917a7c7_20",
+      "relations": [
+        [
+          "urn:cts:farsiLit:hafez.divan.perseus-far1:1.3.t31",
+          "urn:cts:farsiLit:hafez.divan.perseus-far1:1.3.t32"
+        ],
+        [
+          "urn:cts:farsiLit:hafez.divan.perseus-ger1:1.3.t38"
+        ]
+      ]
+    },
+    {
+      "urn": "urn:cite2:scaife-viewer:alignment-record.v1:hafez-farsi-german-word-alignment-c14aed82e21c4af2823edad89917a7c7_21",
+      "relations": [
+        [
+          "urn:cts:farsiLit:hafez.divan.perseus-far1:1.3.t33",
+          "urn:cts:farsiLit:hafez.divan.perseus-far1:1.3.t34"
+        ],
+        [
+          "urn:cts:farsiLit:hafez.divan.perseus-ger1:1.3.t35"
+        ]
+      ]
+    },
+    {
+      "urn": "urn:cite2:scaife-viewer:alignment-record.v1:hafez-farsi-german-word-alignment-c14aed82e21c4af2823edad89917a7c7_22",
+      "relations": [
+        [
+          "urn:cts:farsiLit:hafez.divan.perseus-far1:1.3.t35"
+        ],
+        [
+          "urn:cts:farsiLit:hafez.divan.perseus-ger1:1.3.t40"
+        ]
+      ]
+    },
+    {
+      "urn": "urn:cite2:scaife-viewer:alignment-record.v1:hafez-farsi-german-word-alignment-c14aed82e21c4af2823edad89917a7c7_23",
+      "relations": [
+        [
+          "urn:cts:farsiLit:hafez.divan.perseus-far1:1.3.t37"
+        ],
+        [
+          "urn:cts:farsiLit:hafez.divan.perseus-ger1:1.3.t41"
+        ]
+      ]
+    },
+    {
+      "urn": "urn:cite2:scaife-viewer:alignment-record.v1:hafez-farsi-german-word-alignment-c14aed82e21c4af2823edad89917a7c7_24",
+      "relations": [
+        [
+          "urn:cts:farsiLit:hafez.divan.perseus-far1:1.3.t40"
+        ],
+        [
+          "urn:cts:farsiLit:hafez.divan.perseus-ger1:1.3.t46"
+        ]
+      ]
+    },
+    {
+      "urn": "urn:cite2:scaife-viewer:alignment-record.v1:hafez-farsi-german-word-alignment-c14aed82e21c4af2823edad89917a7c7_25",
+      "relations": [
+        [
+          "urn:cts:farsiLit:hafez.divan.perseus-far1:1.3.t42"
+        ],
+        [
+          "urn:cts:farsiLit:hafez.divan.perseus-ger1:1.3.t49"
+        ]
+      ]
+    },
+    {
+      "urn": "urn:cite2:scaife-viewer:alignment-record.v1:hafez-farsi-german-word-alignment-c14aed82e21c4af2823edad89917a7c7_26",
+      "relations": [
+        [
+          "urn:cts:farsiLit:hafez.divan.perseus-far1:1.3.t44",
+          "urn:cts:farsiLit:hafez.divan.perseus-far1:1.3.t45"
+        ],
+        [
+          "urn:cts:farsiLit:hafez.divan.perseus-ger1:1.3.t54",
+          "urn:cts:farsiLit:hafez.divan.perseus-ger1:1.3.t55"
+        ]
+      ]
+    },
+    {
+      "urn": "urn:cite2:scaife-viewer:alignment-record.v1:hafez-farsi-german-word-alignment-c14aed82e21c4af2823edad89917a7c7_27",
+      "relations": [
+        [
+          "urn:cts:farsiLit:hafez.divan.perseus-far1:1.3.t48",
+          "urn:cts:farsiLit:hafez.divan.perseus-far1:1.3.t53"
+        ],
+        [
+          "urn:cts:farsiLit:hafez.divan.perseus-ger1:1.3.t63"
+        ]
+      ]
+    },
+    {
+      "urn": "urn:cite2:scaife-viewer:alignment-record.v1:hafez-farsi-german-word-alignment-c14aed82e21c4af2823edad89917a7c7_28",
+      "relations": [
+        [
+          "urn:cts:farsiLit:hafez.divan.perseus-far1:1.3.t49"
+        ],
+        [
+          "urn:cts:farsiLit:hafez.divan.perseus-ger1:1.3.t57"
+        ]
+      ]
+    },
+    {
+      "urn": "urn:cite2:scaife-viewer:alignment-record.v1:hafez-farsi-german-word-alignment-c14aed82e21c4af2823edad89917a7c7_29",
+      "relations": [
+        [
+          "urn:cts:farsiLit:hafez.divan.perseus-far1:1.3.t50"
+        ],
+        [
+          "urn:cts:farsiLit:hafez.divan.perseus-ger1:1.3.t60",
+          "urn:cts:farsiLit:hafez.divan.perseus-ger1:1.3.t61"
+        ]
+      ]
+    },
+    {
+      "urn": "urn:cite2:scaife-viewer:alignment-record.v1:hafez-farsi-german-word-alignment-c14aed82e21c4af2823edad89917a7c7_30",
+      "relations": [
+        [
+          "urn:cts:farsiLit:hafez.divan.perseus-far1:1.3.t51"
+        ],
+        [
+          "urn:cts:farsiLit:hafez.divan.perseus-ger1:1.3.t58"
+        ]
+      ]
+    },
+    {
+      "urn": "urn:cite2:scaife-viewer:alignment-record.v1:hafez-farsi-german-word-alignment-c14aed82e21c4af2823edad89917a7c7_31",
+      "relations": [
+        [
+          "urn:cts:farsiLit:hafez.divan.perseus-far1:1.3.t52"
+        ],
+        [
+          "urn:cts:farsiLit:hafez.divan.perseus-ger1:1.3.t59"
+        ]
+      ]
+    },
+    {
+      "urn": "urn:cite2:scaife-viewer:alignment-record.v1:hafez-farsi-german-word-alignment-c14aed82e21c4af2823edad89917a7c7_32",
+      "relations": [
+        [
+          "urn:cts:farsiLit:hafez.divan.perseus-far1:1.3.t54"
+        ],
+        [
+          "urn:cts:farsiLit:hafez.divan.perseus-ger1:1.3.t64",
+          "urn:cts:farsiLit:hafez.divan.perseus-ger1:1.3.t65"
+        ]
+      ]
+    },
+    {
+      "urn": "urn:cite2:scaife-viewer:alignment-record.v1:hafez-farsi-german-word-alignment-c14aed82e21c4af2823edad89917a7c7_33",
+      "relations": [
+        [
+          "urn:cts:farsiLit:hafez.divan.perseus-far1:1.3.t60"
+        ],
+        [
+          "urn:cts:farsiLit:hafez.divan.perseus-ger1:1.3.t69"
+        ]
+      ]
+    },
+    {
+      "urn": "urn:cite2:scaife-viewer:alignment-record.v1:hafez-farsi-german-word-alignment-c14aed82e21c4af2823edad89917a7c7_34",
+      "relations": [
+        [
+          "urn:cts:farsiLit:hafez.divan.perseus-far1:1.3.t61"
+        ],
+        [
+          "urn:cts:farsiLit:hafez.divan.perseus-ger1:1.3.t68"
+        ]
+      ]
+    },
+    {
+      "urn": "urn:cite2:scaife-viewer:alignment-record.v1:hafez-farsi-german-word-alignment-c14aed82e21c4af2823edad89917a7c7_35",
+      "relations": [
+        [
+          "urn:cts:farsiLit:hafez.divan.perseus-far1:1.3.t63"
+        ],
+        [
+          "urn:cts:farsiLit:hafez.divan.perseus-ger1:1.3.t72",
+          "urn:cts:farsiLit:hafez.divan.perseus-ger1:1.3.t73"
+        ]
+      ]
+    },
+    {
+      "urn": "urn:cite2:scaife-viewer:alignment-record.v1:hafez-farsi-german-word-alignment-c14aed82e21c4af2823edad89917a7c7_36",
+      "relations": [
+        [
+          "urn:cts:farsiLit:hafez.divan.perseus-far1:1.3.t64"
+        ],
+        [
+          "urn:cts:farsiLit:hafez.divan.perseus-ger1:1.3.t74",
+          "urn:cts:farsiLit:hafez.divan.perseus-ger1:1.3.t75"
+        ]
+      ]
+    },
+    {
+      "urn": "urn:cite2:scaife-viewer:alignment-record.v1:hafez-farsi-german-word-alignment-c14aed82e21c4af2823edad89917a7c7_37",
+      "relations": [
+        [
+          "urn:cts:farsiLit:hafez.divan.perseus-far1:1.3.t65",
+          "urn:cts:farsiLit:hafez.divan.perseus-far1:1.3.t66"
+        ],
+        [
+          "urn:cts:farsiLit:hafez.divan.perseus-ger1:1.3.t70",
+          "urn:cts:farsiLit:hafez.divan.perseus-ger1:1.3.t71"
+        ]
+      ]
+    },
+    {
+      "urn": "urn:cite2:scaife-viewer:alignment-record.v1:hafez-farsi-german-word-alignment-c14aed82e21c4af2823edad89917a7c7_38",
+      "relations": [
+        [
+          "urn:cts:farsiLit:hafez.divan.perseus-far1:1.3.t69",
+          "urn:cts:farsiLit:hafez.divan.perseus-far1:1.3.t70",
+          "urn:cts:farsiLit:hafez.divan.perseus-far1:1.3.t71",
+          "urn:cts:farsiLit:hafez.divan.perseus-far1:1.3.t72",
+          "urn:cts:farsiLit:hafez.divan.perseus-far1:1.3.t73",
+          "urn:cts:farsiLit:hafez.divan.perseus-far1:1.3.t74",
+          "urn:cts:farsiLit:hafez.divan.perseus-far1:1.3.t75"
+        ],
+        [
+          "urn:cts:farsiLit:hafez.divan.perseus-ger1:1.3.t82"
+        ]
+      ]
+    },
+    {
+      "urn": "urn:cite2:scaife-viewer:alignment-record.v1:hafez-farsi-german-word-alignment-c14aed82e21c4af2823edad89917a7c7_39",
+      "relations": [
+        [
+          "urn:cts:farsiLit:hafez.divan.perseus-far1:1.3.t76",
+          "urn:cts:farsiLit:hafez.divan.perseus-far1:1.3.t77"
+        ],
+        [
+          "urn:cts:farsiLit:hafez.divan.perseus-ger1:1.3.t80",
+          "urn:cts:farsiLit:hafez.divan.perseus-ger1:1.3.t81"
+        ]
+      ]
+    },
+    {
+      "urn": "urn:cite2:scaife-viewer:alignment-record.v1:hafez-farsi-german-word-alignment-c14aed82e21c4af2823edad89917a7c7_40",
+      "relations": [
+        [
+          "urn:cts:farsiLit:hafez.divan.perseus-far1:1.3.t78"
+        ],
+        [
+          "urn:cts:farsiLit:hafez.divan.perseus-ger1:1.3.t79"
+        ]
+      ]
+    },
+    {
+      "urn": "urn:cite2:scaife-viewer:alignment-record.v1:hafez-farsi-german-word-alignment-c14aed82e21c4af2823edad89917a7c7_41",
+      "relations": [
+        [
+          "urn:cts:farsiLit:hafez.divan.perseus-far1:1.3.t79"
+        ],
+        [
+          "urn:cts:farsiLit:hafez.divan.perseus-ger1:1.3.t78"
+        ]
+      ]
+    },
+    {
+      "urn": "urn:cite2:scaife-viewer:alignment-record.v1:hafez-farsi-german-word-alignment-c14aed82e21c4af2823edad89917a7c7_42",
+      "relations": [
+        [
+          "urn:cts:farsiLit:hafez.divan.perseus-far1:1.3.t85"
+        ],
+        [
+          "urn:cts:farsiLit:hafez.divan.perseus-ger1:1.3.t87"
+        ]
+      ]
+    },
+    {
+      "urn": "urn:cite2:scaife-viewer:alignment-record.v1:hafez-farsi-german-word-alignment-c14aed82e21c4af2823edad89917a7c7_43",
+      "relations": [
+        [
+          "urn:cts:farsiLit:hafez.divan.perseus-far1:1.3.t86"
+        ],
+        [
+          "urn:cts:farsiLit:hafez.divan.perseus-ger1:1.3.t86"
+        ]
+      ]
+    },
+    {
+      "urn": "urn:cite2:scaife-viewer:alignment-record.v1:hafez-farsi-german-word-alignment-c14aed82e21c4af2823edad89917a7c7_44",
+      "relations": [
+        [
+          "urn:cts:farsiLit:hafez.divan.perseus-far1:1.3.t88"
+        ],
+        [
+          "urn:cts:farsiLit:hafez.divan.perseus-ger1:1.3.t85"
+        ]
+      ]
+    },
+    {
+      "urn": "urn:cite2:scaife-viewer:alignment-record.v1:hafez-farsi-german-word-alignment-c14aed82e21c4af2823edad89917a7c7_45",
+      "relations": [
+        [
+          "urn:cts:farsiLit:hafez.divan.perseus-far1:1.3.t92"
+        ],
+        [
+          "urn:cts:farsiLit:hafez.divan.perseus-ger1:1.3.t95"
+        ]
+      ]
+    },
+    {
+      "urn": "urn:cite2:scaife-viewer:alignment-record.v1:hafez-farsi-german-word-alignment-c14aed82e21c4af2823edad89917a7c7_46",
+      "relations": [
+        [
+          "urn:cts:farsiLit:hafez.divan.perseus-far1:1.3.t93"
+        ],
+        [
+          "urn:cts:farsiLit:hafez.divan.perseus-ger1:1.3.t92"
+        ]
+      ]
+    },
+    {
+      "urn": "urn:cite2:scaife-viewer:alignment-record.v1:hafez-farsi-german-word-alignment-c14aed82e21c4af2823edad89917a7c7_47",
+      "relations": [
+        [
+          "urn:cts:farsiLit:hafez.divan.perseus-far1:1.3.t95"
+        ],
+        [
+          "urn:cts:farsiLit:hafez.divan.perseus-ger1:1.3.t97",
+          "urn:cts:farsiLit:hafez.divan.perseus-ger1:1.3.t98"
+        ]
+      ]
+    },
+    {
+      "urn": "urn:cite2:scaife-viewer:alignment-record.v1:hafez-farsi-german-word-alignment-c14aed82e21c4af2823edad89917a7c7_48",
+      "relations": [
+        [
+          "urn:cts:farsiLit:hafez.divan.perseus-far1:1.3.t99"
+        ],
+        [
+          "urn:cts:farsiLit:hafez.divan.perseus-ger1:1.3.t100"
+        ]
+      ]
+    },
+    {
+      "urn": "urn:cite2:scaife-viewer:alignment-record.v1:hafez-farsi-german-word-alignment-c14aed82e21c4af2823edad89917a7c7_49",
+      "relations": [
+        [
+          "urn:cts:farsiLit:hafez.divan.perseus-far1:1.3.t102",
+          "urn:cts:farsiLit:hafez.divan.perseus-far1:1.3.t103",
+          "urn:cts:farsiLit:hafez.divan.perseus-far1:1.3.t104"
+        ],
+        [
+          "urn:cts:farsiLit:hafez.divan.perseus-ger1:1.3.t103",
+          "urn:cts:farsiLit:hafez.divan.perseus-ger1:1.3.t104",
+          "urn:cts:farsiLit:hafez.divan.perseus-ger1:1.3.t105",
+          "urn:cts:farsiLit:hafez.divan.perseus-ger1:1.3.t106"
+        ]
+      ]
+    },
+    {
+      "urn": "urn:cite2:scaife-viewer:alignment-record.v1:hafez-farsi-german-word-alignment-c14aed82e21c4af2823edad89917a7c7_50",
+      "relations": [
+        [
+          "urn:cts:farsiLit:hafez.divan.perseus-far1:1.3.t112"
+        ],
+        [
+          "urn:cts:farsiLit:hafez.divan.perseus-ger1:1.3.t115"
+        ]
+      ]
+    },
+    {
+      "urn": "urn:cite2:scaife-viewer:alignment-record.v1:hafez-farsi-german-word-alignment-c14aed82e21c4af2823edad89917a7c7_51",
+      "relations": [
+        [
+          "urn:cts:farsiLit:hafez.divan.perseus-far1:1.3.t113"
+        ],
+        [
+          "urn:cts:farsiLit:hafez.divan.perseus-ger1:1.3.t116"
+        ]
+      ]
+    },
+    {
+      "urn": "urn:cite2:scaife-viewer:alignment-record.v1:hafez-farsi-german-word-alignment-c14aed82e21c4af2823edad89917a7c7_52",
+      "relations": [
+        [
+          "urn:cts:farsiLit:hafez.divan.perseus-far1:1.3.t114"
+        ],
+        [
+          "urn:cts:farsiLit:hafez.divan.perseus-ger1:1.3.t117",
+          "urn:cts:farsiLit:hafez.divan.perseus-ger1:1.3.t119"
+        ]
+      ]
+    },
+    {
+      "urn": "urn:cite2:scaife-viewer:alignment-record.v1:hafez-farsi-german-word-alignment-c14aed82e21c4af2823edad89917a7c7_53",
+      "relations": [
+        [
+          "urn:cts:farsiLit:hafez.divan.perseus-far1:1.3.t116"
+        ],
+        [
+          "urn:cts:farsiLit:hafez.divan.perseus-ger1:1.3.t118"
+        ]
+      ]
+    },
+    {
+      "urn": "urn:cite2:scaife-viewer:alignment-record.v1:hafez-farsi-german-word-alignment-c14aed82e21c4af2823edad89917a7c7_54",
+      "relations": [
+        [
+          "urn:cts:farsiLit:hafez.divan.perseus-far1:1.3.t119"
+        ],
+        [
+          "urn:cts:farsiLit:hafez.divan.perseus-ger1:1.3.t123",
+          "urn:cts:farsiLit:hafez.divan.perseus-ger1:1.3.t124"
+        ]
+      ]
+    },
+    {
+      "urn": "urn:cite2:scaife-viewer:alignment-record.v1:hafez-farsi-german-word-alignment-c14aed82e21c4af2823edad89917a7c7_55",
+      "relations": [
+        [
+          "urn:cts:farsiLit:hafez.divan.perseus-far1:1.3.t120",
+          "urn:cts:farsiLit:hafez.divan.perseus-far1:1.3.t121"
+        ],
+        [
+          "urn:cts:farsiLit:hafez.divan.perseus-ger1:1.3.t122"
+        ]
+      ]
+    },
+    {
+      "urn": "urn:cite2:scaife-viewer:alignment-record.v1:hafez-farsi-german-word-alignment-c14aed82e21c4af2823edad89917a7c7_56",
+      "relations": [
+        [
+          "urn:cts:farsiLit:hafez.divan.perseus-far1:1.3.t123"
+        ],
+        [
+          "urn:cts:farsiLit:hafez.divan.perseus-ger1:1.3.t126"
+        ]
+      ]
+    },
+    {
+      "urn": "urn:cite2:scaife-viewer:alignment-record.v1:hafez-farsi-german-word-alignment-c14aed82e21c4af2823edad89917a7c7_57",
+      "relations": [
+        [
+          "urn:cts:farsiLit:hafez.divan.perseus-far1:1.3.t124",
+          "urn:cts:farsiLit:hafez.divan.perseus-far1:1.3.t125",
+          "urn:cts:farsiLit:hafez.divan.perseus-far1:1.3.t126",
+          "urn:cts:farsiLit:hafez.divan.perseus-far1:1.3.t127"
+        ],
+        [
+          "urn:cts:farsiLit:hafez.divan.perseus-ger1:1.3.t134"
+        ]
+      ]
+    },
+    {
+      "urn": "urn:cite2:scaife-viewer:alignment-record.v1:hafez-farsi-german-word-alignment-c14aed82e21c4af2823edad89917a7c7_58",
+      "relations": [
+        [
+          "urn:cts:farsiLit:hafez.divan.perseus-far1:1.3.t129"
+        ],
+        [
+          "urn:cts:farsiLit:hafez.divan.perseus-ger1:1.3.t132"
+        ]
+      ]
+    },
+    {
+      "urn": "urn:cite2:scaife-viewer:alignment-record.v1:hafez-farsi-german-word-alignment-c14aed82e21c4af2823edad89917a7c7_59",
+      "relations": [
+        [
+          "urn:cts:farsiLit:hafez.divan.perseus-far1:1.3.t130"
+        ],
+        [
+          "urn:cts:farsiLit:hafez.divan.perseus-ger1:1.3.t131"
+        ]
+      ]
+    },
+    {
+      "urn": "urn:cite2:scaife-viewer:alignment-record.v1:hafez-farsi-german-word-alignment-c14aed82e21c4af2823edad89917a7c7_60",
+      "relations": [
+        [
+          "urn:cts:farsiLit:hafez.divan.perseus-far1:1.3.t131"
+        ],
+        [
+          "urn:cts:farsiLit:hafez.divan.perseus-ger1:1.3.t138",
+          "urn:cts:farsiLit:hafez.divan.perseus-ger1:1.3.t139"
+        ]
+      ]
+    },
+    {
+      "urn": "urn:cite2:scaife-viewer:alignment-record.v1:hafez-farsi-german-word-alignment-c14aed82e21c4af2823edad89917a7c7_61",
+      "relations": [
+        [
+          "urn:cts:farsiLit:hafez.divan.perseus-far1:1.3.t132"
+        ],
+        [
+          "urn:cts:farsiLit:hafez.divan.perseus-ger1:1.3.t140",
+          "urn:cts:farsiLit:hafez.divan.perseus-ger1:1.3.t141"
+        ]
+      ]
+    },
+    {
+      "urn": "urn:cite2:scaife-viewer:alignment-record.v1:hafez-farsi-german-word-alignment-c14aed82e21c4af2823edad89917a7c7_62",
+      "relations": [
+        [
+          "urn:cts:farsiLit:hafez.divan.perseus-far1:1.3.t136",
+          "urn:cts:farsiLit:hafez.divan.perseus-far1:1.3.t137",
+          "urn:cts:farsiLit:hafez.divan.perseus-far1:1.3.t138",
+          "urn:cts:farsiLit:hafez.divan.perseus-far1:1.3.t139",
+          "urn:cts:farsiLit:hafez.divan.perseus-far1:1.3.t140",
+          "urn:cts:farsiLit:hafez.divan.perseus-far1:1.3.t141"
+        ],
+        [
+          "urn:cts:farsiLit:hafez.divan.perseus-ger1:1.3.t144",
+          "urn:cts:farsiLit:hafez.divan.perseus-ger1:1.3.t145",
+          "urn:cts:farsiLit:hafez.divan.perseus-ger1:1.3.t146",
+          "urn:cts:farsiLit:hafez.divan.perseus-ger1:1.3.t148",
+          "urn:cts:farsiLit:hafez.divan.perseus-ger1:1.3.t149"
+        ]
+      ]
+    },
+    {
+      "urn": "urn:cite2:scaife-viewer:alignment-record.v1:hafez-farsi-german-word-alignment-c14aed82e21c4af2823edad89917a7c7_63",
+      "relations": [
+        [
+          "urn:cts:farsiLit:hafez.divan.perseus-far1:1.3.t143",
+          "urn:cts:farsiLit:hafez.divan.perseus-far1:1.3.t144"
+        ],
+        [
+          "urn:cts:farsiLit:hafez.divan.perseus-ger1:1.3.t153",
+          "urn:cts:farsiLit:hafez.divan.perseus-ger1:1.3.t154"
+        ]
+      ]
+    },
+    {
+      "urn": "urn:cite2:scaife-viewer:alignment-record.v1:hafez-farsi-german-word-alignment-c14aed82e21c4af2823edad89917a7c7_64",
+      "relations": [
+        [
+          "urn:cts:farsiLit:hafez.divan.perseus-far1:1.3.t145",
+          "urn:cts:farsiLit:hafez.divan.perseus-far1:1.3.t146"
+        ],
+        [
+          "urn:cts:farsiLit:hafez.divan.perseus-ger1:1.3.t151",
+          "urn:cts:farsiLit:hafez.divan.perseus-ger1:1.3.t152"
+        ]
+      ]
+    },
+    {
+      "urn": "urn:cite2:scaife-viewer:alignment-record.v1:hafez-farsi-german-word-alignment-c14aed82e21c4af2823edad89917a7c7_65",
+      "relations": [
+        [
+          "urn:cts:farsiLit:hafez.divan.perseus-far1:1.3.t149",
+          "urn:cts:farsiLit:hafez.divan.perseus-far1:1.3.t150"
+        ],
+        [
+          "urn:cts:farsiLit:hafez.divan.perseus-ger1:1.3.t156",
+          "urn:cts:farsiLit:hafez.divan.perseus-ger1:1.3.t158",
+          "urn:cts:farsiLit:hafez.divan.perseus-ger1:1.3.t159",
+          "urn:cts:farsiLit:hafez.divan.perseus-ger1:1.3.t160"
+        ]
+      ]
+    },
+    {
+      "urn": "urn:cite2:scaife-viewer:alignment-record.v1:hafez-farsi-german-word-alignment-c14aed82e21c4af2823edad89917a7c7_66",
+      "relations": [
+        [
+          "urn:cts:farsiLit:hafez.divan.perseus-far1:1.3.t152"
+        ],
+        [
+          "urn:cts:farsiLit:hafez.divan.perseus-ger1:1.3.t157",
+          "urn:cts:farsiLit:hafez.divan.perseus-ger1:1.3.t162",
+          "urn:cts:farsiLit:hafez.divan.perseus-ger1:1.3.t164",
+          "urn:cts:farsiLit:hafez.divan.perseus-ger1:1.3.t165"
+        ]
+      ]
+    },
+    {
+      "urn": "urn:cite2:scaife-viewer:alignment-record.v1:hafez-farsi-german-word-alignment-c14aed82e21c4af2823edad89917a7c7_67",
+      "relations": [
+        [
+          "urn:cts:farsiLit:hafez.divan.perseus-far1:1.3.t159"
+        ],
+        [
+          "urn:cts:farsiLit:hafez.divan.perseus-ger1:1.3.t168"
+        ]
+      ]
+    },
+    {
+      "urn": "urn:cite2:scaife-viewer:alignment-record.v1:hafez-farsi-german-word-alignment-c14aed82e21c4af2823edad89917a7c7_68",
+      "relations": [
+        [
+          "urn:cts:farsiLit:hafez.divan.perseus-far1:1.3.t160"
+        ],
+        [
+          "urn:cts:farsiLit:hafez.divan.perseus-ger1:1.3.t169",
+          "urn:cts:farsiLit:hafez.divan.perseus-ger1:1.3.t170",
+          "urn:cts:farsiLit:hafez.divan.perseus-ger1:1.3.t171"
+        ]
+      ]
+    },
+    {
+      "urn": "urn:cite2:scaife-viewer:alignment-record.v1:hafez-farsi-german-word-alignment-c14aed82e21c4af2823edad89917a7c7_69",
+      "relations": [
+        [
+          "urn:cts:farsiLit:hafez.divan.perseus-far1:1.3.t161"
+        ],
+        [
+          "urn:cts:farsiLit:hafez.divan.perseus-ger1:1.3.t174"
+        ]
+      ]
+    },
+    {
+      "urn": "urn:cite2:scaife-viewer:alignment-record.v1:hafez-farsi-german-word-alignment-c14aed82e21c4af2823edad89917a7c7_70",
+      "relations": [
+        [
+          "urn:cts:farsiLit:hafez.divan.perseus-far1:1.3.t162"
+        ],
+        [
+          "urn:cts:farsiLit:hafez.divan.perseus-ger1:1.3.t175"
+        ]
+      ]
+    },
+    {
+      "urn": "urn:cite2:scaife-viewer:alignment-record.v1:hafez-farsi-german-word-alignment-c14aed82e21c4af2823edad89917a7c7_71",
+      "relations": [
+        [
+          "urn:cts:farsiLit:hafez.divan.perseus-far1:1.3.t163"
+        ],
+        [
+          "urn:cts:farsiLit:hafez.divan.perseus-ger1:1.3.t176"
+        ]
+      ]
+    },
+    {
+      "urn": "urn:cite2:scaife-viewer:alignment-record.v1:hafez-farsi-german-word-alignment-c14aed82e21c4af2823edad89917a7c7_72",
+      "relations": [
+        [
+          "urn:cts:farsiLit:hafez.divan.perseus-far1:1.3.t168"
+        ],
+        [
+          "urn:cts:farsiLit:hafez.divan.perseus-ger1:1.3.t172"
+        ]
+      ]
+    },
+    {
+      "urn": "urn:cite2:scaife-viewer:alignment-record.v1:hafez-farsi-german-word-alignment-c14aed82e21c4af2823edad89917a7c7_73",
+      "relations": [
+        [
+          "urn:cts:farsiLit:hafez.divan.perseus-far1:1.3.t170"
+        ],
+        [
+          "urn:cts:farsiLit:hafez.divan.perseus-ger1:1.3.t181"
+        ]
+      ]
+    },
+    {
+      "urn": "urn:cite2:scaife-viewer:alignment-record.v1:hafez-farsi-german-word-alignment-c14aed82e21c4af2823edad89917a7c7_74",
+      "relations": [
+        [
+          "urn:cts:farsiLit:hafez.divan.perseus-far1:1.3.t174"
+        ],
+        [
+          "urn:cts:farsiLit:hafez.divan.perseus-ger1:1.3.t185"
+        ]
+      ]
+    },
+    {
+      "urn": "urn:cite2:scaife-viewer:alignment-record.v1:hafez-farsi-german-word-alignment-c14aed82e21c4af2823edad89917a7c7_75",
+      "relations": [
+        [
+          "urn:cts:farsiLit:hafez.divan.perseus-far1:1.3.t175"
+        ],
+        [
+          "urn:cts:farsiLit:hafez.divan.perseus-ger1:1.3.t183",
+          "urn:cts:farsiLit:hafez.divan.perseus-ger1:1.3.t184"
+        ]
+      ]
+    },
+    {
+      "urn": "urn:cite2:scaife-viewer:alignment-record.v1:hafez-farsi-german-word-alignment-c14aed82e21c4af2823edad89917a7c7_76",
+      "relations": [
+        [
+          "urn:cts:farsiLit:hafez.divan.perseus-far1:1.3.t177"
+        ],
+        [
+          "urn:cts:farsiLit:hafez.divan.perseus-ger1:1.3.t182"
+        ]
+      ]
+    }
+  ]
+}
