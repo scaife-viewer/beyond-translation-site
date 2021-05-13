@@ -31,6 +31,26 @@
       ]
     },
     {
+      "urn": "urn:cts:farsiLit:hafez.divan.perseus-far1-hemis:",
+      "node_kind": "version",
+      "version_kind": "edition",
+      "lang": "far",
+      "first_passage_urn": "urn:cts:farsiLit:hafez.divan.perseus-far1-hemis:1.3.1-1.3.5",
+      "citation_scheme": ["letter", "poem", "line", "hemi"],
+      "label": [
+        {
+          "lang": "eng",
+          "value": "Divān (Hemis)"
+        }
+      ],
+      "description": [
+        {
+          "lang": "eng",
+          "value": "Derived from urn:cts:farsiLit:hafez.divan.perseus-far1: and edited by Jacob Wegner"
+        }
+      ]
+    },
+    {
       "urn": "urn:cts:farsiLit:hafez.divan.perseus-eng1:",
       "node_kind": "version",
       "version_kind": "translation",
