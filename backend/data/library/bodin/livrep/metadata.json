@@ -1,0 +1,54 @@
+{
+  "urn": "urn:cts:pdlpsci:bodin.livrep:",
+  "group_urn": "urn:cts:pdlpsci:bodin:",
+  "node_kind": "work",
+  "lang": "far",
+  "title": [
+    {
+      "lang": "eng",
+      "value": "The Six Books of a Commonweale"
+    }
+  ],
+  "versions": [
+    {
+      "urn": "urn:cts:pdlpsci:bodin.livrep.ta-fre1:",
+      "node_kind": "version",
+      "version_kind": "edition",
+      "lang": "fre",
+      "first_passage_urn": "urn:cts:pdlpsci:bodin.livrep.ta-fre1:1-10",
+      "citation_scheme": ["line"],
+      "label": [
+        {
+          "lang": "fre",
+          "value": "Les six livres de la république"
+        }
+      ],
+      "description": [
+        {
+          "lang": "eng",
+          "value": "1577"
+        }
+      ]
+    },
+    {
+      "urn": "urn:cts:pdlpsci:bodin.livrep.ta-eng1:",
+      "node_kind": "version",
+      "version_kind": "edition",
+      "lang": "eng",
+      "first_passage_urn": "urn:cts:pdlpsci:bodin.livrep.ta-eng1:1-10",
+      "citation_scheme": ["line"],
+      "label": [
+        {
+          "lang": "eng",
+          "value": "The Six Books of a Commonweale"
+        }
+      ],
+      "description": [
+        {
+          "lang": "eng",
+          "value": "1606"
+        }
+      ]
+    }
+  ]
+}
