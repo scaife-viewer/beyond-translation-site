@@ -136,6 +136,8 @@ def main():
     fra_data = extract_from_text(FRENCH)
 
     records = extract_alignment_records(eng_data, fra_data)
+    # NOTE: We insert a record to pick up two lines that were not mapped
+    records.insert(1, ([1, 2], []))
     cts_ref_records = convert_records_to_cts_refs(eng_data, fra_data, records)
     # alignment_urn = generate_alignment_urn("livrep-english-french-sentence-alignment")
     alignment_urn = "urn:cite2:scaife-viewer:alignment.v1:livrep-english-french-sentence-alignment-6d26700b93a44d1b929b6d959295c25d"
