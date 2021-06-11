@@ -7,9 +7,8 @@ from django.core.management import call_command
 from django.core.management.base import BaseCommand
 
 from contexttimer import Timer
-from scaife_viewer.atlas.importers import versions
-from scaife_viewer.atlas.importers import alignments
 from scaife_viewer.atlas import tokenizers
+from scaife_viewer.atlas.importers import alignments, versions
 
 from ...temp import process_alignments
 
