@@ -11,36 +11,16 @@
   ],
   "versions": [
     {
-      "urn": "urn:cts:farsiLit:hafez.divan.perseus-far1:",
-      "node_kind": "version",
-      "version_kind": "edition",
-      "lang": "far",
-      "first_passage_urn": "urn:cts:farsiLit:hafez.divan.perseus-far1:1.1",
-      "citation_scheme": ["letter", "poem"],
-      "label": [
-        {
-          "lang": "eng",
-          "value": "Divān"
-        }
-      ],
-      "description": [
-        {
-          "lang": "eng",
-          "value": "Perseus:bib:oclc, 254557372. Diwan-i Hwaga Sams-ad-Din Muhammad Hafiz Sirazi qaddas sarra-yi al-aziz ba tamam. edited by Muhammad Qazwini and Qasim Gani as available on ganjoor.net. Tehran, Caphana-i Maglis. 1941."
-        }
-      ]
-    },
-    {
       "urn": "urn:cts:farsiLit:hafez.divan.perseus-far1-hemis:",
       "node_kind": "version",
       "version_kind": "edition",
       "lang": "far",
-      "first_passage_urn": "urn:cts:farsiLit:hafez.divan.perseus-far1-hemis:1.1.1-1.1.7",
+      "first_passage_urn": "urn:cts:farsiLit:hafez.divan.perseus-far1-hemis:1.1",
       "citation_scheme": ["letter", "poem", "line", "half-line"],
       "label": [
         {
           "lang": "eng",
-          "value": "Divān (Half-lines)"
+          "value": "Divān"
         }
       ],
       "description": [
@@ -51,12 +31,12 @@
       ]
     },
     {
-      "urn": "urn:cts:farsiLit:hafez.divan.perseus-eng1:",
+      "urn": "urn:cts:farsiLit:hafez.divan.perseus-eng1-hemis:",
       "node_kind": "version",
       "version_kind": "translation",
       "lang": "eng",
-      "first_passage_urn": "urn:cts:farsiLit:hafez.divan.perseus-eng1:1.1",
-      "citation_scheme": ["letter", "poem"],
+      "first_passage_urn": "urn:cts:farsiLit:hafez.divan.perseus-eng1-hemis:1.1",
+      "citation_scheme": ["letter", "poem", "line", "half-line"],
       "label": [
         {
           "lang": "eng",
@@ -71,56 +51,16 @@
       ]
     },
     {
-      "urn": "urn:cts:farsiLit:hafez.divan.perseus-eng1-hemis:",
-      "node_kind": "version",
-      "version_kind": "translation",
-      "lang": "eng",
-      "first_passage_urn": "urn:cts:farsiLit:hafez.divan.perseus-eng1-hemis:1.1.1-1.1.7",
-      "citation_scheme": ["letter", "poem", "line", "half-line"],
-      "label": [
-        {
-          "lang": "eng",
-          "value": "Divān (English, half-lines)"
-        }
-      ],
-      "description": [
-        {
-          "lang": "eng",
-          "value": "Perseus:bib:oclc, 559481156. The Dīvān .Translated for the first time out of the Persian into English prose, with critical and explanatory remarks, with an introductory preface, with a note on Ṣūfīism, and with a life of the author, by H. Wilberforce Clarke. Calcutta, India. 1891."
-        }
-      ]
-    },
-    {
-      "urn": "urn:cts:farsiLit:hafez.divan.perseus-ger1:",
-      "node_kind": "version",
-      "version_kind": "translation",
-      "lang": "ger",
-      "first_passage_urn": "urn:cts:farsiLit:hafez.divan.perseus-ger1:1.3",
-      "citation_scheme": ["letter", "poem"],
-      "label": [
-        {
-          "lang": "eng",
-          "value": "Divān (German)"
-        }
-      ],
-      "description": [
-        {
-          "lang": "eng",
-          "value": "Perseus:bib:oclc, 6773200. Mohammed Schemsed-din Hafis, Der Diwan, Aus dem Persischen zum erstenmal ganz übersetzt von Joseph von Hammer-Purgstall. Stuttgart and Tübingen, 1812."
-        }
-      ]
-    },
-    {
       "urn": "urn:cts:farsiLit:hafez.divan.perseus-ger1-hemis:",
       "node_kind": "version",
       "version_kind": "translation",
       "lang": "ger",
-      "first_passage_urn": "urn:cts:farsiLit:hafez.divan.perseus-ger1-hemis:1.3.1-1.3.9",
+      "first_passage_urn": "urn:cts:farsiLit:hafez.divan.perseus-ger1-hemis:1.3",
       "citation_scheme": ["letter", "poem", "line", "half-line"],
       "label": [
         {
           "lang": "eng",
-          "value": "Divān (German, half-lines)"
+          "value": "Divān (German)"
         }
       ],
       "description": [
