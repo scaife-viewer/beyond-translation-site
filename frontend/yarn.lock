@@ -1405,9 +1405,9 @@
     mapbox-gl "^1.11.0"
     vue-mapbox "^0.4.1"
 
-"@scaife-viewer/reader-alignments-mode@https://gitpkg.now.sh/scaife-viewer/frontend/packages/reader-alignments-mode?61189b1a9840d070020d538b649c988742b7e8cd":
+"@scaife-viewer/reader-alignments-mode@https://gitpkg.now.sh/scaife-viewer/frontend/packages/reader-alignments-mode?67528eae4456c6575d403cc68ac4efafff4123e0":
   version "0.4.0"
-  resolved "https://gitpkg.now.sh/scaife-viewer/frontend/packages/reader-alignments-mode?61189b1a9840d070020d538b649c988742b7e8cd#03d5a5ca4006bc0efa75ce3188a8da5de3cbf2c7"
+  resolved "https://gitpkg.now.sh/scaife-viewer/frontend/packages/reader-alignments-mode?67528eae4456c6575d403cc68ac4efafff4123e0#01ee266e12f78cafe5b3138d3e2795aff289cc41"
   dependencies:
     "@scaife-viewer/common" "^0.4.0"
     "@scaife-viewer/store" "^0.4.0"
@@ -1610,9 +1610,9 @@
     graphql-tag "^2.10.3"
     vue-apollo "^3.0.4"
 
-"@scaife-viewer/widget-reader@https://gitpkg.now.sh/scaife-viewer/frontend/packages/widget-reader?61189b1a9840d070020d538b649c988742b7e8cd":
+"@scaife-viewer/widget-reader@https://gitpkg.now.sh/scaife-viewer/frontend/packages/widget-reader?67528eae4456c6575d403cc68ac4efafff4123e0":
   version "0.4.0"
-  resolved "https://gitpkg.now.sh/scaife-viewer/frontend/packages/widget-reader?61189b1a9840d070020d538b649c988742b7e8cd#f4b340b0dedd2efc286027df259e288259553316"
+  resolved "https://gitpkg.now.sh/scaife-viewer/frontend/packages/widget-reader?67528eae4456c6575d403cc68ac4efafff4123e0#0ae02edbf32ece184e0e13c8a669d0449002aea5"
   dependencies:
     "@scaife-viewer/common" "^0.4.0"
     "@scaife-viewer/store" "^0.4.0"
