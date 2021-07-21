@@ -1,0 +1,34 @@
+{
+  "urn": "urn:cts:greekLit:tlg0012.tlg002:",
+  "groupUrn": "urn:cts:greekLit:tlg0012:",
+  "node_kind": "work",
+  "lang": "grc",
+  "title": [
+    {
+      "lang": "eng",
+      "value": "Odyssey"
+    }
+  ],
+  "versions": [
+    {
+      "urn": "urn:cts:greekLit:tlg0012.tlg002.perseus-grc2:",
+      "node_kind": "version",
+      "version_kind": "edition",
+      "lang": "grc",
+      "first_passage_urn": "urn:cts:greekLit:tlg0012.tlg002.perseus-grc2:1.1-1.10",
+      "citation_scheme": ["book", "line"],
+      "label": [
+        {
+          "lang": "eng",
+          "value": "Odyssey (Greek Text of Murray)"
+        }
+      ],
+      "description": [
+        {
+          "lang": "eng",
+          "value": "Homer, creator; Murray, A. T. (Augustus Taber), 1866-1940, editor"
+        }
+      ]
+    }
+  ]
+}
