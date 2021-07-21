@@ -8,7 +8,7 @@ from django.core.management.base import BaseCommand
 
 from contexttimer import Timer
 from scaife_viewer.atlas import tokenizers
-from scaife_viewer.atlas.importers import alignments, versions
+from scaife_viewer.atlas.importers import alignments, versions, named_entities
 
 from ...temp import process_alignments
 
@@ -113,10 +113,10 @@ class Command(BaseCommand):
                 #     "Loading token annotations",
                 #     importers.token_annotations.apply_token_annotations,
                 # ),
-                # (
-                #     "Loading named entity annotations",
-                #     importers.named_entities.apply_named_entities,
-                # ),
+                (
+                    "Loading named entity annotations",
+                    named_entities.apply_named_entities,
+                ),
                 ("Loading alignments", process_alignments),
             ],
         }
