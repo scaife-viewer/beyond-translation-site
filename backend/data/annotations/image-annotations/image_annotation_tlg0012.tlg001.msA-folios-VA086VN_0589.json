@@ -1,0 +1,342 @@
+[
+  {
+    "data": {
+      "urn:cite2:hmt:vaimg.2017a.urn:": "urn:cite2:hmt:vaimg.2017a:VA086VN_0589",
+      "urn:cite2:hmt:vaimg.2017a.rights:": "This image was derived from an original ©2007, Biblioteca Nazionale Marciana, Venezie, Italia. The derivative image is ©2010, Center for Hellenic Studies. Original and derivative are licensed under the Creative Commons Attribution-Noncommercial-Share Alike 3.0 License. The CHS/Marciana Imaging Project was directed by David Jacobs of the British Library.",
+      "urn:cite2:hmt:vaimg.2017a.caption:": "Venetus A: Marcianus Graecus Z. 454 (= 822), folio 86, verso."
+    },
+    "urn": "urn:cite2:hmt:vaimg.2017a:VA086VN_0589",
+    "canvas_url": "https://rosetest.library.jhu.edu/rosademo/iiif/homer/VA/VA086VN-0589/canvas",
+    "image_url": "https://image.library.jhu.edu/iiif/homer%2FVA%2FVA086VN-0589/",
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:86v"
+    ],
+    "regions_of_interest": [
+      {
+        "data": {
+          "urn:cite2:hmt:va_dse.v1.urn:": "urn:cite2:hmt:va_dse.v1:il3705",
+          "urn:cite2:hmt:va_dse.v1.label:": "DSE record for Iliad 6.306",
+          "urn:cite2:hmt:va_dse.v1.passage:": "urn:cts:greekLit:tlg0012.tlg001.msA:6.306",
+          "urn:cite2:hmt:va_dse.v1.surface:": "urn:cite2:hmt:msA.v1:86v",
+          "urn:cite2:hmt:va_dse.v1.imageroi:": "urn:cite2:hmt:vaimg.2017a:VA086VN_0589@0.413,0.2254,0.397,0.0331"
+        },
+        "urn": "urn:cite2:hmt:va_dse.v1:il3705",
+        "references": [
+          "urn:cts:greekLit:tlg0012.tlg001.msA-folios:86v.6.306"
+        ]
+      },
+      {
+        "data": {
+          "urn:cite2:hmt:va_dse.v1.urn:": "urn:cite2:hmt:va_dse.v1:il3706",
+          "urn:cite2:hmt:va_dse.v1.label:": "DSE record for Iliad 6.307",
+          "urn:cite2:hmt:va_dse.v1.passage:": "urn:cts:greekLit:tlg0012.tlg001.msA:6.307",
+          "urn:cite2:hmt:va_dse.v1.surface:": "urn:cite2:hmt:msA.v1:86v",
+          "urn:cite2:hmt:va_dse.v1.imageroi:": "urn:cite2:hmt:vaimg.2017a:VA086VN_0589@0.418,0.2442,0.445,0.0346"
+        },
+        "urn": "urn:cite2:hmt:va_dse.v1:il3706",
+        "references": [
+          "urn:cts:greekLit:tlg0012.tlg001.msA-folios:86v.6.307"
+        ]
+      },
+      {
+        "data": {
+          "urn:cite2:hmt:va_dse.v1.urn:": "urn:cite2:hmt:va_dse.v1:il3707",
+          "urn:cite2:hmt:va_dse.v1.label:": "DSE record for Iliad 6.308",
+          "urn:cite2:hmt:va_dse.v1.passage:": "urn:cts:greekLit:tlg0012.tlg001.msA:6.308",
+          "urn:cite2:hmt:va_dse.v1.surface:": "urn:cite2:hmt:msA.v1:86v",
+          "urn:cite2:hmt:va_dse.v1.imageroi:": "urn:cite2:hmt:vaimg.2017a:VA086VN_0589@0.421,0.2615,0.445,0.0346"
+        },
+        "urn": "urn:cite2:hmt:va_dse.v1:il3707",
+        "references": [
+          "urn:cts:greekLit:tlg0012.tlg001.msA-folios:86v.6.308"
+        ]
+      },
+      {
+        "data": {
+          "urn:cite2:hmt:va_dse.v1.urn:": "urn:cite2:hmt:va_dse.v1:il3708",
+          "urn:cite2:hmt:va_dse.v1.label:": "DSE record for Iliad 6.309",
+          "urn:cite2:hmt:va_dse.v1.passage:": "urn:cts:greekLit:tlg0012.tlg001.msA:6.309",
+          "urn:cite2:hmt:va_dse.v1.surface:": "urn:cite2:hmt:msA.v1:86v",
+          "urn:cite2:hmt:va_dse.v1.imageroi:": "urn:cite2:hmt:vaimg.2017a:VA086VN_0589@0.421,0.2825,0.445,0.0346"
+        },
+        "urn": "urn:cite2:hmt:va_dse.v1:il3708",
+        "references": [
+          "urn:cts:greekLit:tlg0012.tlg001.msA-folios:86v.6.309"
+        ]
+      },
+      {
+        "data": {
+          "urn:cite2:hmt:va_dse.v1.urn:": "urn:cite2:hmt:va_dse.v1:il3709",
+          "urn:cite2:hmt:va_dse.v1.label:": "DSE record for Iliad 6.310",
+          "urn:cite2:hmt:va_dse.v1.passage:": "urn:cts:greekLit:tlg0012.tlg001.msA:6.310",
+          "urn:cite2:hmt:va_dse.v1.surface:": "urn:cite2:hmt:msA.v1:86v",
+          "urn:cite2:hmt:va_dse.v1.imageroi:": "urn:cite2:hmt:vaimg.2017a:VA086VN_0589@0.424,0.3013,0.445,0.0346"
+        },
+        "urn": "urn:cite2:hmt:va_dse.v1:il3709",
+        "references": [
+          "urn:cts:greekLit:tlg0012.tlg001.msA-folios:86v.6.310"
+        ]
+      },
+      {
+        "data": {
+          "urn:cite2:hmt:va_dse.v1.urn:": "urn:cite2:hmt:va_dse.v1:il3710",
+          "urn:cite2:hmt:va_dse.v1.label:": "DSE record for Iliad 6.311",
+          "urn:cite2:hmt:va_dse.v1.passage:": "urn:cts:greekLit:tlg0012.tlg001.msA:6.311",
+          "urn:cite2:hmt:va_dse.v1.surface:": "urn:cite2:hmt:msA.v1:86v",
+          "urn:cite2:hmt:va_dse.v1.imageroi:": "urn:cite2:hmt:vaimg.2017a:VA086VN_0589@0.422,0.3201,0.445,0.0346"
+        },
+        "urn": "urn:cite2:hmt:va_dse.v1:il3710",
+        "references": [
+          "urn:cts:greekLit:tlg0012.tlg001.msA-folios:86v.6.311"
+        ]
+      },
+      {
+        "data": {
+          "urn:cite2:hmt:va_dse.v1.urn:": "urn:cite2:hmt:va_dse.v1:il3711",
+          "urn:cite2:hmt:va_dse.v1.label:": "DSE record for Iliad 6.312",
+          "urn:cite2:hmt:va_dse.v1.passage:": "urn:cts:greekLit:tlg0012.tlg001.msA:6.312",
+          "urn:cite2:hmt:va_dse.v1.surface:": "urn:cite2:hmt:msA.v1:86v",
+          "urn:cite2:hmt:va_dse.v1.imageroi:": "urn:cite2:hmt:vaimg.2017a:VA086VN_0589@0.419,0.3403,0.445,0.0346"
+        },
+        "urn": "urn:cite2:hmt:va_dse.v1:il3711",
+        "references": [
+          "urn:cts:greekLit:tlg0012.tlg001.msA-folios:86v.6.312"
+        ]
+      },
+      {
+        "data": {
+          "urn:cite2:hmt:va_dse.v1.urn:": "urn:cite2:hmt:va_dse.v1:il3712",
+          "urn:cite2:hmt:va_dse.v1.label:": "DSE record for Iliad 6.313",
+          "urn:cite2:hmt:va_dse.v1.passage:": "urn:cts:greekLit:tlg0012.tlg001.msA:6.313",
+          "urn:cite2:hmt:va_dse.v1.surface:": "urn:cite2:hmt:msA.v1:86v",
+          "urn:cite2:hmt:va_dse.v1.imageroi:": "urn:cite2:hmt:vaimg.2017a:VA086VN_0589@0.42,0.3584,0.445,0.0346"
+        },
+        "urn": "urn:cite2:hmt:va_dse.v1:il3712",
+        "references": [
+          "urn:cts:greekLit:tlg0012.tlg001.msA-folios:86v.6.313"
+        ]
+      },
+      {
+        "data": {
+          "urn:cite2:hmt:va_dse.v1.urn:": "urn:cite2:hmt:va_dse.v1:il3713",
+          "urn:cite2:hmt:va_dse.v1.label:": "DSE record for Iliad 6.314",
+          "urn:cite2:hmt:va_dse.v1.passage:": "urn:cts:greekLit:tlg0012.tlg001.msA:6.314",
+          "urn:cite2:hmt:va_dse.v1.surface:": "urn:cite2:hmt:msA.v1:86v",
+          "urn:cite2:hmt:va_dse.v1.imageroi:": "urn:cite2:hmt:vaimg.2017a:VA086VN_0589@0.44,0.3772,0.445,0.0346"
+        },
+        "urn": "urn:cite2:hmt:va_dse.v1:il3713",
+        "references": [
+          "urn:cts:greekLit:tlg0012.tlg001.msA-folios:86v.6.314"
+        ]
+      },
+      {
+        "data": {
+          "urn:cite2:hmt:va_dse.v1.urn:": "urn:cite2:hmt:va_dse.v1:il3714",
+          "urn:cite2:hmt:va_dse.v1.label:": "DSE record for Iliad 6.315",
+          "urn:cite2:hmt:va_dse.v1.passage:": "urn:cts:greekLit:tlg0012.tlg001.msA:6.315",
+          "urn:cite2:hmt:va_dse.v1.surface:": "urn:cite2:hmt:msA.v1:86v",
+          "urn:cite2:hmt:va_dse.v1.imageroi:": "urn:cite2:hmt:vaimg.2017a:VA086VN_0589@0.432,0.3982,0.445,0.0346"
+        },
+        "urn": "urn:cite2:hmt:va_dse.v1:il3714",
+        "references": [
+          "urn:cts:greekLit:tlg0012.tlg001.msA-folios:86v.6.315"
+        ]
+      },
+      {
+        "data": {
+          "urn:cite2:hmt:va_dse.v1.urn:": "urn:cite2:hmt:va_dse.v1:il3715",
+          "urn:cite2:hmt:va_dse.v1.label:": "DSE record for Iliad 6.316",
+          "urn:cite2:hmt:va_dse.v1.passage:": "urn:cts:greekLit:tlg0012.tlg001.msA:6.316",
+          "urn:cite2:hmt:va_dse.v1.surface:": "urn:cite2:hmt:msA.v1:86v",
+          "urn:cite2:hmt:va_dse.v1.imageroi:": "urn:cite2:hmt:vaimg.2017a:VA086VN_0589@0.428,0.4162,0.445,0.0346"
+        },
+        "urn": "urn:cite2:hmt:va_dse.v1:il3715",
+        "references": [
+          "urn:cts:greekLit:tlg0012.tlg001.msA-folios:86v.6.316"
+        ]
+      },
+      {
+        "data": {
+          "urn:cite2:hmt:va_dse.v1.urn:": "urn:cite2:hmt:va_dse.v1:il3716",
+          "urn:cite2:hmt:va_dse.v1.label:": "DSE record for Iliad 6.317",
+          "urn:cite2:hmt:va_dse.v1.passage:": "urn:cts:greekLit:tlg0012.tlg001.msA:6.317",
+          "urn:cite2:hmt:va_dse.v1.surface:": "urn:cite2:hmt:msA.v1:86v",
+          "urn:cite2:hmt:va_dse.v1.imageroi:": "urn:cite2:hmt:vaimg.2017a:VA086VN_0589@0.431,0.4358,0.445,0.0346"
+        },
+        "urn": "urn:cite2:hmt:va_dse.v1:il3716",
+        "references": [
+          "urn:cts:greekLit:tlg0012.tlg001.msA-folios:86v.6.317"
+        ]
+      },
+      {
+        "data": {
+          "urn:cite2:hmt:va_dse.v1.urn:": "urn:cite2:hmt:va_dse.v1:il3717",
+          "urn:cite2:hmt:va_dse.v1.label:": "DSE record for Iliad 6.318",
+          "urn:cite2:hmt:va_dse.v1.passage:": "urn:cts:greekLit:tlg0012.tlg001.msA:6.318",
+          "urn:cite2:hmt:va_dse.v1.surface:": "urn:cite2:hmt:msA.v1:86v",
+          "urn:cite2:hmt:va_dse.v1.imageroi:": "urn:cite2:hmt:vaimg.2017a:VA086VN_0589@0.436,0.4515,0.445,0.0346"
+        },
+        "urn": "urn:cite2:hmt:va_dse.v1:il3717",
+        "references": [
+          "urn:cts:greekLit:tlg0012.tlg001.msA-folios:86v.6.318"
+        ]
+      },
+      {
+        "data": {
+          "urn:cite2:hmt:va_dse.v1.urn:": "urn:cite2:hmt:va_dse.v1:il3718",
+          "urn:cite2:hmt:va_dse.v1.label:": "DSE record for Iliad 6.319",
+          "urn:cite2:hmt:va_dse.v1.passage:": "urn:cts:greekLit:tlg0012.tlg001.msA:6.319",
+          "urn:cite2:hmt:va_dse.v1.surface:": "urn:cite2:hmt:msA.v1:86v",
+          "urn:cite2:hmt:va_dse.v1.imageroi:": "urn:cite2:hmt:vaimg.2017a:VA086VN_0589@0.436,0.4718,0.445,0.0346"
+        },
+        "urn": "urn:cite2:hmt:va_dse.v1:il3718",
+        "references": [
+          "urn:cts:greekLit:tlg0012.tlg001.msA-folios:86v.6.319"
+        ]
+      },
+      {
+        "data": {
+          "urn:cite2:hmt:va_dse.v1.urn:": "urn:cite2:hmt:va_dse.v1:il3719",
+          "urn:cite2:hmt:va_dse.v1.label:": "DSE record for Iliad 6.320",
+          "urn:cite2:hmt:va_dse.v1.passage:": "urn:cts:greekLit:tlg0012.tlg001.msA:6.320",
+          "urn:cite2:hmt:va_dse.v1.surface:": "urn:cite2:hmt:msA.v1:86v",
+          "urn:cite2:hmt:va_dse.v1.imageroi:": "urn:cite2:hmt:vaimg.2017a:VA086VN_0589@0.434,0.4921,0.445,0.0346"
+        },
+        "urn": "urn:cite2:hmt:va_dse.v1:il3719",
+        "references": [
+          "urn:cts:greekLit:tlg0012.tlg001.msA-folios:86v.6.320"
+        ]
+      },
+      {
+        "data": {
+          "urn:cite2:hmt:va_dse.v1.urn:": "urn:cite2:hmt:va_dse.v1:il3720",
+          "urn:cite2:hmt:va_dse.v1.label:": "DSE record for Iliad 6.321",
+          "urn:cite2:hmt:va_dse.v1.passage:": "urn:cts:greekLit:tlg0012.tlg001.msA:6.321",
+          "urn:cite2:hmt:va_dse.v1.surface:": "urn:cite2:hmt:msA.v1:86v",
+          "urn:cite2:hmt:va_dse.v1.imageroi:": "urn:cite2:hmt:vaimg.2017a:VA086VN_0589@0.434,0.5101,0.445,0.0346"
+        },
+        "urn": "urn:cite2:hmt:va_dse.v1:il3720",
+        "references": [
+          "urn:cts:greekLit:tlg0012.tlg001.msA-folios:86v.6.321"
+        ]
+      },
+      {
+        "data": {
+          "urn:cite2:hmt:va_dse.v1.urn:": "urn:cite2:hmt:va_dse.v1:il3721",
+          "urn:cite2:hmt:va_dse.v1.label:": "DSE record for Iliad 6.322",
+          "urn:cite2:hmt:va_dse.v1.passage:": "urn:cts:greekLit:tlg0012.tlg001.msA:6.322",
+          "urn:cite2:hmt:va_dse.v1.surface:": "urn:cite2:hmt:msA.v1:86v",
+          "urn:cite2:hmt:va_dse.v1.imageroi:": "urn:cite2:hmt:vaimg.2017a:VA086VN_0589@0.436,0.5304,0.445,0.0346"
+        },
+        "urn": "urn:cite2:hmt:va_dse.v1:il3721",
+        "references": [
+          "urn:cts:greekLit:tlg0012.tlg001.msA-folios:86v.6.322"
+        ]
+      },
+      {
+        "data": {
+          "urn:cite2:hmt:va_dse.v1.urn:": "urn:cite2:hmt:va_dse.v1:il3722",
+          "urn:cite2:hmt:va_dse.v1.label:": "DSE record for Iliad 6.323",
+          "urn:cite2:hmt:va_dse.v1.passage:": "urn:cts:greekLit:tlg0012.tlg001.msA:6.323",
+          "urn:cite2:hmt:va_dse.v1.surface:": "urn:cite2:hmt:msA.v1:86v",
+          "urn:cite2:hmt:va_dse.v1.imageroi:": "urn:cite2:hmt:vaimg.2017a:VA086VN_0589@0.437,0.5477,0.445,0.0346"
+        },
+        "urn": "urn:cite2:hmt:va_dse.v1:il3722",
+        "references": [
+          "urn:cts:greekLit:tlg0012.tlg001.msA-folios:86v.6.323"
+        ]
+      },
+      {
+        "data": {
+          "urn:cite2:hmt:va_dse.v1.urn:": "urn:cite2:hmt:va_dse.v1:il3723",
+          "urn:cite2:hmt:va_dse.v1.label:": "DSE record for Iliad 6.324",
+          "urn:cite2:hmt:va_dse.v1.passage:": "urn:cts:greekLit:tlg0012.tlg001.msA:6.324",
+          "urn:cite2:hmt:va_dse.v1.surface:": "urn:cite2:hmt:msA.v1:86v",
+          "urn:cite2:hmt:va_dse.v1.imageroi:": "urn:cite2:hmt:vaimg.2017a:VA086VN_0589@0.438,0.5665,0.445,0.0346"
+        },
+        "urn": "urn:cite2:hmt:va_dse.v1:il3723",
+        "references": [
+          "urn:cts:greekLit:tlg0012.tlg001.msA-folios:86v.6.324"
+        ]
+      },
+      {
+        "data": {
+          "urn:cite2:hmt:va_dse.v1.urn:": "urn:cite2:hmt:va_dse.v1:il3724",
+          "urn:cite2:hmt:va_dse.v1.label:": "DSE record for Iliad 6.325",
+          "urn:cite2:hmt:va_dse.v1.passage:": "urn:cts:greekLit:tlg0012.tlg001.msA:6.325",
+          "urn:cite2:hmt:va_dse.v1.surface:": "urn:cite2:hmt:msA.v1:86v",
+          "urn:cite2:hmt:va_dse.v1.imageroi:": "urn:cite2:hmt:vaimg.2017a:VA086VN_0589@0.437,0.5875,0.445,0.0346"
+        },
+        "urn": "urn:cite2:hmt:va_dse.v1:il3724",
+        "references": [
+          "urn:cts:greekLit:tlg0012.tlg001.msA-folios:86v.6.325"
+        ]
+      },
+      {
+        "data": {
+          "urn:cite2:hmt:va_dse.v1.urn:": "urn:cite2:hmt:va_dse.v1:il3725",
+          "urn:cite2:hmt:va_dse.v1.label:": "DSE record for Iliad 6.326",
+          "urn:cite2:hmt:va_dse.v1.passage:": "urn:cts:greekLit:tlg0012.tlg001.msA:6.326",
+          "urn:cite2:hmt:va_dse.v1.surface:": "urn:cite2:hmt:msA.v1:86v",
+          "urn:cite2:hmt:va_dse.v1.imageroi:": "urn:cite2:hmt:vaimg.2017a:VA086VN_0589@0.438,0.6048,0.445,0.0346"
+        },
+        "urn": "urn:cite2:hmt:va_dse.v1:il3725",
+        "references": [
+          "urn:cts:greekLit:tlg0012.tlg001.msA-folios:86v.6.326"
+        ]
+      },
+      {
+        "data": {
+          "urn:cite2:hmt:va_dse.v1.urn:": "urn:cite2:hmt:va_dse.v1:il3726",
+          "urn:cite2:hmt:va_dse.v1.label:": "DSE record for Iliad 6.327",
+          "urn:cite2:hmt:va_dse.v1.passage:": "urn:cts:greekLit:tlg0012.tlg001.msA:6.327",
+          "urn:cite2:hmt:va_dse.v1.surface:": "urn:cite2:hmt:msA.v1:86v",
+          "urn:cite2:hmt:va_dse.v1.imageroi:": "urn:cite2:hmt:vaimg.2017a:VA086VN_0589@0.437,0.6251,0.445,0.0346"
+        },
+        "urn": "urn:cite2:hmt:va_dse.v1:il3726",
+        "references": [
+          "urn:cts:greekLit:tlg0012.tlg001.msA-folios:86v.6.327"
+        ]
+      },
+      {
+        "data": {
+          "urn:cite2:hmt:va_dse.v1.urn:": "urn:cite2:hmt:va_dse.v1:il3727",
+          "urn:cite2:hmt:va_dse.v1.label:": "DSE record for Iliad 6.328",
+          "urn:cite2:hmt:va_dse.v1.passage:": "urn:cts:greekLit:tlg0012.tlg001.msA:6.328",
+          "urn:cite2:hmt:va_dse.v1.surface:": "urn:cite2:hmt:msA.v1:86v",
+          "urn:cite2:hmt:va_dse.v1.imageroi:": "urn:cite2:hmt:vaimg.2017a:VA086VN_0589@0.44,0.6439,0.445,0.0346"
+        },
+        "urn": "urn:cite2:hmt:va_dse.v1:il3727",
+        "references": [
+          "urn:cts:greekLit:tlg0012.tlg001.msA-folios:86v.6.328"
+        ]
+      },
+      {
+        "data": {
+          "urn:cite2:hmt:va_dse.v1.urn:": "urn:cite2:hmt:va_dse.v1:il3728",
+          "urn:cite2:hmt:va_dse.v1.label:": "DSE record for Iliad 6.329",
+          "urn:cite2:hmt:va_dse.v1.passage:": "urn:cts:greekLit:tlg0012.tlg001.msA:6.329",
+          "urn:cite2:hmt:va_dse.v1.surface:": "urn:cite2:hmt:msA.v1:86v",
+          "urn:cite2:hmt:va_dse.v1.imageroi:": "urn:cite2:hmt:vaimg.2017a:VA086VN_0589@0.44,0.6612,0.445,0.0346"
+        },
+        "urn": "urn:cite2:hmt:va_dse.v1:il3728",
+        "references": [
+          "urn:cts:greekLit:tlg0012.tlg001.msA-folios:86v.6.329"
+        ]
+      },
+      {
+        "data": {
+          "urn:cite2:hmt:va_dse.v1.urn:": "urn:cite2:hmt:va_dse.v1:il3729",
+          "urn:cite2:hmt:va_dse.v1.label:": "DSE record for Iliad 6.330",
+          "urn:cite2:hmt:va_dse.v1.passage:": "urn:cts:greekLit:tlg0012.tlg001.msA:6.330",
+          "urn:cite2:hmt:va_dse.v1.surface:": "urn:cite2:hmt:msA.v1:86v",
+          "urn:cite2:hmt:va_dse.v1.imageroi:": "urn:cite2:hmt:vaimg.2017a:VA086VN_0589@0.447,0.6799,0.445,0.0346"
+        },
+        "urn": "urn:cite2:hmt:va_dse.v1:il3729",
+        "references": [
+          "urn:cts:greekLit:tlg0012.tlg001.msA-folios:86v.6.330"
+        ]
+      }
+    ]
+  }
+]

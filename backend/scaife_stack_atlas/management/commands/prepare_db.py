@@ -8,7 +8,16 @@ from django.core.management.base import BaseCommand
 
 from contexttimer import Timer
 from scaife_viewer.atlas import tokenizers
-from scaife_viewer.atlas.importers import alignments, versions, named_entities
+from scaife_viewer.atlas.importers import (
+    # alignments,
+    audio_annotations,
+    token_annotations,
+    image_annotations,
+    metrical_annotations,
+    named_entities,
+    text_annotations,
+    versions,
+)
 
 from ...temp import process_alignments
 
@@ -75,22 +84,19 @@ class Command(BaseCommand):
         stage_1 = {
             "name": "stage 1",
             "callbacks": [
-                # (
-                #     "Loading text annotations",
-                #     importers.text_annotations.import_text_annotations,
-                # ),
-                # (
-                #     "Loading metrical annotations",
-                #     importers.metrical_annotations.import_metrical_annotations,
-                # ),
-                # (
-                #     "Loading image annotations",
-                #     importers.image_annotations.import_image_annotations,
-                # ),
-                # (
-                #     "Loading audio annotations",
-                #     importers.audio_annotations.import_audio_annotations,
-                # ),
+                ("Loading text annotations", text_annotations.import_text_annotations,),
+                (
+                    "Loading metrical annotations",
+                    metrical_annotations.import_metrical_annotations,
+                ),
+                (
+                    "Loading image annotations",
+                    image_annotations.import_image_annotations,
+                ),
+                (
+                    "Loading audio annotations",
+                    audio_annotations.import_audio_annotations,
+                ),
             ],
         }
         self.do_stage(stage_1)
@@ -109,10 +115,10 @@ class Command(BaseCommand):
         stage_2 = {
             "name": "stage 2",
             "callbacks": [
-                # (
-                #     "Loading token annotations",
-                #     importers.token_annotations.apply_token_annotations,
-                # ),
+                (
+                    "Loading token annotations",
+                    token_annotations.apply_token_annotations,
+                ),
                 (
                     "Loading named entity annotations",
                     named_entities.apply_named_entities,
