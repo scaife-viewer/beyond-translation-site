@@ -1,10 +1,9 @@
-import os
 import json
+import os
 
 from scaife_viewer.atlas.backports.scaife_viewer.cts.utils import natural_keys
 from scaife_viewer.atlas.conf import settings
-from scaife_viewer.atlas.urn import URN
-
+from scaife_viewer.atlas.importers.token_annotations import apply_token_annotations
 from scaife_viewer.atlas.models import (
     Node,
     TextAlignment,
@@ -12,6 +11,8 @@ from scaife_viewer.atlas.models import (
     TextAlignmentRecordRelation,
     Token,
 )
+from scaife_viewer.atlas.urn import URN
+
 
 ANNOTATIONS_DATA_PATH = os.path.join(
     settings.SV_ATLAS_DATA_DIR, "annotations", "text-alignments"
@@ -49,7 +50,9 @@ def process_file(path):
         record.save()
         idx += 1
         for version_obj, relation in zip(version_objs, row["relations"]):
-            relation_obj = TextAlignmentRecordRelation(version=version_obj, record=record)
+            relation_obj = TextAlignmentRecordRelation(
+                version=version_obj, record=record
+            )
             relation_obj.save()
             tokens = []
             # TODO: Can we build up a veref map and validate?
@@ -76,3 +79,7 @@ def process_alignments(reset=False):
         process_file(path)
         created_count += 1
     print(f"Alignments created: {created_count}")
+
+
+def load_token_annotations(reset=False):
+    apply_token_annotations()

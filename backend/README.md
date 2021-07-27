@@ -26,7 +26,7 @@ python manage.py stage_atlas_data
 Populate the database:
 
 ```
-./manage.py prepare_db
+./manage.py prepare_atlas_db
 ./manage.py loaddata sites
 ```
 
@@ -231,11 +231,11 @@ level of `Version` nodes, maintaining the tree structure in the final payload.
 
 ## Annotations
 
-The annotations below are invoked by the `prepare_db` script.
+The annotations below are invoked by the `prepare_atlas_db` script.
 
 While developing new annotations or ingesting data in alternate formats,
 it can be helpful to run the annotation importer script in isolation
-from `prepare_db`:
+from `prepare_atlas_db`:
 
 ```python
 from scaife_stack_atlas import importers

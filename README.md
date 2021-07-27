@@ -61,7 +61,7 @@ incremental updates in the future.
 <!-- TODO: Prefer prepare_atlas_db command? -->
 For the `translation-alignments-stack`, load data via
 ```shell
-docker-compose exec atlas python manage.py prepare_db
+docker-compose exec atlas python manage.py prepare_atlas_db
 ```
 
 ## Deployment
