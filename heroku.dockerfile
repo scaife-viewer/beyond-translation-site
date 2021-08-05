@@ -24,7 +24,7 @@ RUN set -x \
     && virtualenv /opt/scaife-stack \
     && pip install -r requirements.txt
 
-FROM python:3.9-alpine as backend-prep
+FROM backend-build as backend-prep
 RUN apk --no-cache add curl
 
 ENV PYTHONUNBUFFERED=1 \
@@ -35,8 +35,6 @@ ENV PYTHONUNBUFFERED=1 \
     DB_DATA_PATH="/opt/scaife-stack/db-data"
 
 WORKDIR /opt/scaife-stack/src/
-
-COPY --from=backend-build /opt/scaife-stack/ /opt/scaife-stack/
 COPY ./backend .
 
 ARG HEROKU_APP_NAME
@@ -60,6 +58,7 @@ ENV PYTHONUNBUFFERED=1 \
     PORT=8000
 
 COPY --from=frontend-build /app/dist /opt/scaife-stack/src/static
+# TODO: we may be able to tweak this COPY directive slightly
 COPY --from=backend-prep /opt/scaife-stack /opt/scaife-stack
 
 RUN set -x \
