@@ -30,7 +30,16 @@
   export default {
     name: 'ReaderView',
     beforeCreate() {
-      if (!this.$route.query.urn) {
+      const { firstPassageUrn } = this.$scaife.config;
+      const noPassage = !this.$route.query.urn;
+      if (noPassage && firstPassageUrn) {
+        this.$router.push({
+          to: 'reader',
+          params: {
+            urn: firstPassageUrn,
+          },
+        });
+      } else if (noPassage && !firstPassageUrn) {
         // load the first version returned from ATLAS
         this.$store.dispatch(`${MODULE_NS}/${FETCH_METADATA}`);
       }

@@ -54,6 +54,7 @@ Vue.use(SkeletonPlugin, {
         'pk.eyJ1IjoicGFsdG1hbiIsImEiOiJja2JpNDVpbmUwOGF1MnJwZm91c3VybDVrIn0.KRcXBGtiUWFXkp2uaE5LLw',
       mapStyle: 'mapbox://styles/paltman/ckbi4thqt156y1ijz5wldui14',
     },
+    firstPassageUrn: 'urn:cts:greekLit:tlg0012.tlg001.perseus-grc2:1.1-1.7',
     readerComponents: {
       [DISPLAY_MODE_DEFAULT]: DefaultModeReader,
       [DISPLAY_MODE_INTERLINEAR]: InterlinearModeReader,
