@@ -37,6 +37,8 @@ import store, { apolloProvider } from '@/store';
 
 sync(store, router);
 
+const siteLabel = 'Beyond Translation';
+
 Vue.use(SkeletonPlugin, {
   iconMap: {
     ...commonIconMap,
@@ -61,7 +63,7 @@ Vue.use(SkeletonPlugin, {
       [DISPLAY_MODE_ALIGNMENTS]: AlignmentsModeReader,
       [DISPLAY_MODE_SYNTAX_TREES]: SyntaxTreesModeReader,
     },
-    pageTitle: title => `Scaife Stack | ${title}`,
+    pageTitle: title => (title ? `${siteLabel} | ${title}` : `${siteLabel}`),
   },
 });
 
