@@ -8,5 +8,5 @@ django==2.2.15
 gunicorn==20.0.0
 pandas==1.3.1
 PyYAML==5.3.1
-scaife-viewer-atlas @https://github.com/scaife-viewer/backend/archive/ca6d3652ae12d98e642b8d3b41c9415ccd18c3ce.zip#subdirectory=atlas
+scaife-viewer-atlas @https://github.com/scaife-viewer/backend/archive/dc36895c60b8d47a176802c7bed405fcaed9a1be.zip#subdirectory=atlas
 whitenoise==4.1.4
