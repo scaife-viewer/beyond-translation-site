@@ -1,0 +1,3292 @@
+[
+  {
+    "urn": "urn:cite2:scaife-viewer:syntaxTree.v1:syntaxTree1",
+    "treebank_id": 1,
+    "words": [
+      {
+        "id": 1,
+        "value": "Sing",
+        "head_id": 0,
+        "relation": "ROOT"
+      },
+      {
+        "id": 2,
+        "value": ",",
+        "head_id": 1,
+        "relation": "punct"
+      },
+      {
+        "id": 3,
+        "value": "goddess",
+        "head_id": 1,
+        "relation": "npadvmod"
+      },
+      {
+        "id": 4,
+        "value": ",",
+        "head_id": 3,
+        "relation": "punct"
+      },
+      {
+        "id": 5,
+        "value": "the",
+        "head_id": 7,
+        "relation": "det"
+      },
+      {
+        "id": 6,
+        "value": "godlike",
+        "head_id": 7,
+        "relation": "amod"
+      },
+      {
+        "id": 7,
+        "value": "wrath",
+        "head_id": 3,
+        "relation": "appos"
+      },
+      {
+        "id": 8,
+        "value": "of",
+        "head_id": 7,
+        "relation": "prep"
+      },
+      {
+        "id": 9,
+        "value": "Achilles",
+        "head_id": 8,
+        "relation": "pobj"
+      },
+      {
+        "id": 10,
+        "value": ",",
+        "head_id": 9,
+        "relation": "punct"
+      },
+      {
+        "id": 11,
+        "value": "son",
+        "head_id": 9,
+        "relation": "appos"
+      },
+      {
+        "id": 12,
+        "value": "of",
+        "head_id": 11,
+        "relation": "prep"
+      },
+      {
+        "id": 13,
+        "value": "Peleus",
+        "head_id": 12,
+        "relation": "pobj"
+      },
+      {
+        "id": 14,
+        "value": ",",
+        "head_id": 1,
+        "relation": "punct"
+      },
+      {
+        "id": 15,
+        "value": "that",
+        "head_id": 17,
+        "relation": "det"
+      },
+      {
+        "id": 16,
+        "value": "sociopathic",
+        "head_id": 17,
+        "relation": "amod"
+      },
+      {
+        "id": 17,
+        "value": "wrath",
+        "head_id": 1,
+        "relation": "npadvmod"
+      },
+      {
+        "id": 18,
+        "value": "that",
+        "head_id": 19,
+        "relation": "nsubj"
+      },
+      {
+        "id": 19,
+        "value": "caused",
+        "head_id": 17,
+        "relation": "relcl"
+      },
+      {
+        "id": 20,
+        "value": "countless",
+        "head_id": 21,
+        "relation": "amod"
+      },
+      {
+        "id": 21,
+        "value": "pains",
+        "head_id": 19,
+        "relation": "dobj"
+      },
+      {
+        "id": 22,
+        "value": "for",
+        "head_id": 21,
+        "relation": "prep"
+      },
+      {
+        "id": 23,
+        "value": "the",
+        "head_id": 24,
+        "relation": "det"
+      },
+      {
+        "id": 24,
+        "value": "Achaeans",
+        "head_id": 22,
+        "relation": "pobj"
+      },
+      {
+        "id": 25,
+        "value": ".",
+        "head_id": 1,
+        "relation": "punct"
+      }
+    ],
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.parrish-eng1:1.1",
+      "urn:cts:greekLit:tlg0012.tlg001.parrish-eng1:1.2"
+    ],
+    "citation": "1.1-1.2"
+  },
+  {
+    "urn": "urn:cite2:scaife-viewer:syntaxTree.v1:syntaxTree2",
+    "treebank_id": 2,
+    "words": [
+      {
+        "id": 1,
+        "value": "It",
+        "head_id": 2,
+        "relation": "nsubj"
+      },
+      {
+        "id": 2,
+        "value": "hurled",
+        "head_id": 0,
+        "relation": "ROOT"
+      },
+      {
+        "id": 3,
+        "value": "to",
+        "head_id": 2,
+        "relation": "prep"
+      },
+      {
+        "id": 4,
+        "value": "Hades",
+        "head_id": 3,
+        "relation": "pobj"
+      },
+      {
+        "id": 5,
+        "value": "many",
+        "head_id": 7,
+        "relation": "amod"
+      },
+      {
+        "id": 6,
+        "value": "precious",
+        "head_id": 7,
+        "relation": "amod"
+      },
+      {
+        "id": 7,
+        "value": "lives",
+        "head_id": 2,
+        "relation": "dobj"
+      },
+      {
+        "id": 8,
+        "value": "of",
+        "head_id": 7,
+        "relation": "prep"
+      },
+      {
+        "id": 9,
+        "value": "warriors",
+        "head_id": 8,
+        "relation": "pobj"
+      },
+      {
+        "id": 10,
+        "value": ".",
+        "head_id": 2,
+        "relation": "punct"
+      }
+    ],
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.parrish-eng1:1.3",
+      "urn:cts:greekLit:tlg0012.tlg001.parrish-eng1:1.4"
+    ],
+    "citation": "1.3-1.4"
+  },
+  {
+    "urn": "urn:cite2:scaife-viewer:syntaxTree.v1:syntaxTree3",
+    "treebank_id": 3,
+    "words": [
+      {
+        "id": 1,
+        "value": "And",
+        "head_id": 3,
+        "relation": "cc"
+      },
+      {
+        "id": 2,
+        "value": "it",
+        "head_id": 3,
+        "relation": "nsubj"
+      },
+      {
+        "id": 3,
+        "value": "began",
+        "head_id": 0,
+        "relation": "ROOT"
+      },
+      {
+        "id": 4,
+        "value": "to",
+        "head_id": 5,
+        "relation": "aux"
+      },
+      {
+        "id": 5,
+        "value": "make",
+        "head_id": 3,
+        "relation": "xcomp"
+      },
+      {
+        "id": 6,
+        "value": "their",
+        "head_id": 7,
+        "relation": "poss"
+      },
+      {
+        "id": 7,
+        "value": "bodies",
+        "head_id": 5,
+        "relation": "dobj"
+      },
+      {
+        "id": 8,
+        "value": "into",
+        "head_id": 5,
+        "relation": "prep"
+      },
+      {
+        "id": 9,
+        "value": "picked",
+        "head_id": 12,
+        "relation": "amod"
+      },
+      {
+        "id": 10,
+        "value": "-",
+        "head_id": 9,
+        "relation": "punct"
+      },
+      {
+        "id": 11,
+        "value": "over",
+        "head_id": 9,
+        "relation": "prt"
+      },
+      {
+        "id": 12,
+        "value": "scraps",
+        "head_id": 8,
+        "relation": "pobj"
+      },
+      {
+        "id": 13,
+        "value": "for",
+        "head_id": 12,
+        "relation": "prep"
+      },
+      {
+        "id": 14,
+        "value": "dogs",
+        "head_id": 13,
+        "relation": "pobj"
+      },
+      {
+        "id": 15,
+        "value": "and",
+        "head_id": 13,
+        "relation": "cc"
+      },
+      {
+        "id": 16,
+        "value": "for",
+        "head_id": 13,
+        "relation": "conj"
+      },
+      {
+        "id": 17,
+        "value": "birds",
+        "head_id": 16,
+        "relation": "pobj"
+      },
+      {
+        "id": 18,
+        "value": ",",
+        "head_id": 3,
+        "relation": "punct"
+      },
+      {
+        "id": 19,
+        "value": "all",
+        "head_id": 3,
+        "relation": "dep"
+      },
+      {
+        "id": 20,
+        "value": "of",
+        "head_id": 19,
+        "relation": "prep"
+      },
+      {
+        "id": 21,
+        "value": "them",
+        "head_id": 20,
+        "relation": "pobj"
+      },
+      {
+        "id": 22,
+        "value": ";",
+        "head_id": 3,
+        "relation": "punct"
+      },
+      {
+        "id": 23,
+        "value": "and",
+        "head_id": 3,
+        "relation": "cc"
+      },
+      {
+        "id": 24,
+        "value": "the",
+        "head_id": 25,
+        "relation": "det"
+      },
+      {
+        "id": 25,
+        "value": "plan",
+        "head_id": 28,
+        "relation": "nsubj"
+      },
+      {
+        "id": 26,
+        "value": "of",
+        "head_id": 25,
+        "relation": "prep"
+      },
+      {
+        "id": 27,
+        "value": "Zeus",
+        "head_id": 26,
+        "relation": "pobj"
+      },
+      {
+        "id": 28,
+        "value": "began",
+        "head_id": 3,
+        "relation": "conj"
+      },
+      {
+        "id": 29,
+        "value": "to",
+        "head_id": 31,
+        "relation": "aux"
+      },
+      {
+        "id": 30,
+        "value": "be",
+        "head_id": 31,
+        "relation": "auxpass"
+      },
+      {
+        "id": 31,
+        "value": "fulfilled",
+        "head_id": 28,
+        "relation": "xcomp"
+      },
+      {
+        "id": 32,
+        "value": ",",
+        "head_id": 28,
+        "relation": "punct"
+      },
+      {
+        "id": 33,
+        "value": "from",
+        "head_id": 28,
+        "relation": "prep"
+      },
+      {
+        "id": 34,
+        "value": "the",
+        "head_id": 35,
+        "relation": "det"
+      },
+      {
+        "id": 35,
+        "value": "point",
+        "head_id": 33,
+        "relation": "pobj"
+      },
+      {
+        "id": 36,
+        "value": "where",
+        "head_id": 44,
+        "relation": "advmod"
+      },
+      {
+        "id": 37,
+        "value": " ",
+        "head_id": 36,
+        "relation": "nmod"
+      },
+      {
+        "id": 38,
+        "value": "first",
+        "head_id": 37,
+        "relation": "advmod"
+      },
+      {
+        "id": 39,
+        "value": ",",
+        "head_id": 44,
+        "relation": "punct"
+      },
+      {
+        "id": 40,
+        "value": "the",
+        "head_id": 41,
+        "relation": "det"
+      },
+      {
+        "id": 41,
+        "value": "two",
+        "head_id": 44,
+        "relation": "nsubj"
+      },
+      {
+        "id": 42,
+        "value": "having",
+        "head_id": 44,
+        "relation": "aux"
+      },
+      {
+        "id": 43,
+        "value": "both",
+        "head_id": 44,
+        "relation": "dep"
+      },
+      {
+        "id": 44,
+        "value": "begun",
+        "head_id": 35,
+        "relation": "relcl"
+      },
+      {
+        "id": 45,
+        "value": "a",
+        "head_id": 46,
+        "relation": "det"
+      },
+      {
+        "id": 46,
+        "value": "competition",
+        "head_id": 44,
+        "relation": "dobj"
+      },
+      {
+        "id": 47,
+        "value": "with",
+        "head_id": 46,
+        "relation": "prep"
+      },
+      {
+        "id": 48,
+        "value": "each",
+        "head_id": 49,
+        "relation": "det"
+      },
+      {
+        "id": 49,
+        "value": "other",
+        "head_id": 47,
+        "relation": "pobj"
+      },
+      {
+        "id": 50,
+        "value": ",",
+        "head_id": 54,
+        "relation": "punct"
+      },
+      {
+        "id": 51,
+        "value": "both",
+        "head_id": 54,
+        "relation": "nsubj"
+      },
+      {
+        "id": 52,
+        "value": "of",
+        "head_id": 51,
+        "relation": "prep"
+      },
+      {
+        "id": 53,
+        "value": "them",
+        "head_id": 52,
+        "relation": "pobj"
+      },
+      {
+        "id": 54,
+        "value": "faced",
+        "head_id": 28,
+        "relation": "conj"
+      },
+      {
+        "id": 55,
+        "value": "off",
+        "head_id": 54,
+        "relation": "prt"
+      },
+      {
+        "id": 56,
+        "value": ",",
+        "head_id": 54,
+        "relation": "punct"
+      },
+      {
+        "id": 57,
+        "value": "the",
+        "head_id": 58,
+        "relation": "det"
+      },
+      {
+        "id": 58,
+        "value": "son",
+        "head_id": 54,
+        "relation": "dobj"
+      },
+      {
+        "id": 59,
+        "value": "of",
+        "head_id": 58,
+        "relation": "prep"
+      },
+      {
+        "id": 60,
+        "value": "Atreus",
+        "head_id": 59,
+        "relation": "pobj"
+      },
+      {
+        "id": 61,
+        "value": ",",
+        "head_id": 54,
+        "relation": "punct"
+      },
+      {
+        "id": 62,
+        "value": "lord",
+        "head_id": 54,
+        "relation": "npadvmod"
+      },
+      {
+        "id": 63,
+        "value": "of",
+        "head_id": 62,
+        "relation": "prep"
+      },
+      {
+        "id": 64,
+        "value": "men",
+        "head_id": 63,
+        "relation": "pobj"
+      },
+      {
+        "id": 65,
+        "value": ",",
+        "head_id": 54,
+        "relation": "punct"
+      },
+      {
+        "id": 66,
+        "value": "and",
+        "head_id": 54,
+        "relation": "cc"
+      },
+      {
+        "id": 67,
+        "value": "god",
+        "head_id": 69,
+        "relation": "npadvmod"
+      },
+      {
+        "id": 68,
+        "value": "-",
+        "head_id": 69,
+        "relation": "punct"
+      },
+      {
+        "id": 69,
+        "value": "like",
+        "head_id": 70,
+        "relation": "amod"
+      },
+      {
+        "id": 70,
+        "value": "Achilles",
+        "head_id": 54,
+        "relation": "dep"
+      },
+      {
+        "id": 71,
+        "value": ".",
+        "head_id": 28,
+        "relation": "punct"
+      }
+    ],
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.parrish-eng1:1.4",
+      "urn:cts:greekLit:tlg0012.tlg001.parrish-eng1:1.5",
+      "urn:cts:greekLit:tlg0012.tlg001.parrish-eng1:1.6",
+      "urn:cts:greekLit:tlg0012.tlg001.parrish-eng1:1.7"
+    ],
+    "citation": "1.4-1.7"
+  },
+  {
+    "urn": "urn:cite2:scaife-viewer:syntaxTree.v1:syntaxTree4",
+    "treebank_id": 4,
+    "words": [
+      {
+        "id": 1,
+        "value": "Who",
+        "head_id": 2,
+        "relation": "nsubj"
+      },
+      {
+        "id": 2,
+        "value": " ",
+        "head_id": 7,
+        "relation": "csubj"
+      },
+      {
+        "id": 3,
+        "value": "then",
+        "head_id": 2,
+        "relation": "advmod"
+      },
+      {
+        "id": 4,
+        "value": "of",
+        "head_id": 2,
+        "relation": "prep"
+      },
+      {
+        "id": 5,
+        "value": "the",
+        "head_id": 6,
+        "relation": "det"
+      },
+      {
+        "id": 6,
+        "value": "gods",
+        "head_id": 4,
+        "relation": "pobj"
+      },
+      {
+        "id": 7,
+        "value": "threw",
+        "head_id": 0,
+        "relation": "ROOT"
+      },
+      {
+        "id": 8,
+        "value": "together",
+        "head_id": 7,
+        "relation": "advmod"
+      },
+      {
+        "id": 9,
+        "value": "the",
+        "head_id": 10,
+        "relation": "det"
+      },
+      {
+        "id": 10,
+        "value": "two",
+        "head_id": 7,
+        "relation": "dobj"
+      },
+      {
+        "id": 11,
+        "value": "of",
+        "head_id": 10,
+        "relation": "prep"
+      },
+      {
+        "id": 12,
+        "value": "them",
+        "head_id": 11,
+        "relation": "pobj"
+      },
+      {
+        "id": 13,
+        "value": "to",
+        "head_id": 14,
+        "relation": "aux"
+      },
+      {
+        "id": 14,
+        "value": "fight",
+        "head_id": 7,
+        "relation": "advcl"
+      },
+      {
+        "id": 15,
+        "value": "in",
+        "head_id": 14,
+        "relation": "prep"
+      },
+      {
+        "id": 16,
+        "value": "competition",
+        "head_id": 15,
+        "relation": "pobj"
+      },
+      {
+        "id": 17,
+        "value": "with",
+        "head_id": 16,
+        "relation": "prep"
+      },
+      {
+        "id": 18,
+        "value": "one",
+        "head_id": 17,
+        "relation": "pobj"
+      },
+      {
+        "id": 19,
+        "value": "another",
+        "head_id": 18,
+        "relation": "det"
+      },
+      {
+        "id": 20,
+        "value": "?",
+        "head_id": 7,
+        "relation": "punct"
+      }
+    ],
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.parrish-eng1:1.8"
+    ],
+    "citation": "1.8"
+  },
+  {
+    "urn": "urn:cite2:scaife-viewer:syntaxTree.v1:syntaxTree5",
+    "treebank_id": 5,
+    "words": [
+      {
+        "id": 1,
+        "value": "The",
+        "head_id": 2,
+        "relation": "det"
+      },
+      {
+        "id": 2,
+        "value": "son",
+        "head_id": 0,
+        "relation": "ROOT"
+      },
+      {
+        "id": 3,
+        "value": "of",
+        "head_id": 2,
+        "relation": "prep"
+      },
+      {
+        "id": 4,
+        "value": "Leto",
+        "head_id": 3,
+        "relation": "pobj"
+      },
+      {
+        "id": 5,
+        "value": "and",
+        "head_id": 3,
+        "relation": "cc"
+      },
+      {
+        "id": 6,
+        "value": "of",
+        "head_id": 3,
+        "relation": "conj"
+      },
+      {
+        "id": 7,
+        "value": "Zeus",
+        "head_id": 6,
+        "relation": "pobj"
+      },
+      {
+        "id": 8,
+        "value": ":",
+        "head_id": 2,
+        "relation": "punct"
+      },
+      {
+        "id": 9,
+        "value": "for",
+        "head_id": 20,
+        "relation": "prep"
+      },
+      {
+        "id": 10,
+        "value": "that",
+        "head_id": 11,
+        "relation": "det"
+      },
+      {
+        "id": 11,
+        "value": "one",
+        "head_id": 9,
+        "relation": "pobj"
+      },
+      {
+        "id": 12,
+        "value": ",",
+        "head_id": 11,
+        "relation": "punct"
+      },
+      {
+        "id": 13,
+        "value": "filled",
+        "head_id": 11,
+        "relation": "acl"
+      },
+      {
+        "id": 14,
+        "value": "with",
+        "head_id": 13,
+        "relation": "prep"
+      },
+      {
+        "id": 15,
+        "value": "anger",
+        "head_id": 14,
+        "relation": "pobj"
+      },
+      {
+        "id": 16,
+        "value": "at",
+        "head_id": 13,
+        "relation": "prep"
+      },
+      {
+        "id": 17,
+        "value": "the",
+        "head_id": 18,
+        "relation": "det"
+      },
+      {
+        "id": 18,
+        "value": "king",
+        "head_id": 16,
+        "relation": "pobj"
+      },
+      {
+        "id": 19,
+        "value": ",",
+        "head_id": 11,
+        "relation": "punct"
+      },
+      {
+        "id": 20,
+        "value": "set",
+        "head_id": 2,
+        "relation": "relcl"
+      },
+      {
+        "id": 21,
+        "value": "in",
+        "head_id": 20,
+        "relation": "prep"
+      },
+      {
+        "id": 22,
+        "value": "motion",
+        "head_id": 21,
+        "relation": "pobj"
+      },
+      {
+        "id": 23,
+        "value": "an",
+        "head_id": 25,
+        "relation": "det"
+      },
+      {
+        "id": 24,
+        "value": "evil",
+        "head_id": 25,
+        "relation": "amod"
+      },
+      {
+        "id": 25,
+        "value": "sickness",
+        "head_id": 20,
+        "relation": "dobj"
+      },
+      {
+        "id": 26,
+        "value": "up",
+        "head_id": 20,
+        "relation": "prt"
+      },
+      {
+        "id": 27,
+        "value": "through",
+        "head_id": 20,
+        "relation": "prep"
+      },
+      {
+        "id": 28,
+        "value": "the",
+        "head_id": 29,
+        "relation": "det"
+      },
+      {
+        "id": 29,
+        "value": "camp",
+        "head_id": 27,
+        "relation": "pobj"
+      },
+      {
+        "id": 30,
+        "value": ".",
+        "head_id": 2,
+        "relation": "punct"
+      }
+    ],
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.parrish-eng1:1.9",
+      "urn:cts:greekLit:tlg0012.tlg001.parrish-eng1:1.10"
+    ],
+    "citation": "1.9-1.10"
+  },
+  {
+    "urn": "urn:cite2:scaife-viewer:syntaxTree.v1:syntaxTree6",
+    "treebank_id": 6,
+    "words": [
+      {
+        "id": 1,
+        "value": "And",
+        "head_id": 4,
+        "relation": "cc"
+      },
+      {
+        "id": 2,
+        "value": "the",
+        "head_id": 3,
+        "relation": "det"
+      },
+      {
+        "id": 3,
+        "value": "soldiers",
+        "head_id": 4,
+        "relation": "nsubj"
+      },
+      {
+        "id": 4,
+        "value": "began",
+        "head_id": 0,
+        "relation": "ROOT"
+      },
+      {
+        "id": 5,
+        "value": "to",
+        "head_id": 7,
+        "relation": "aux"
+      },
+      {
+        "id": 6,
+        "value": "be",
+        "head_id": 7,
+        "relation": "auxpass"
+      },
+      {
+        "id": 7,
+        "value": "killed",
+        "head_id": 4,
+        "relation": "xcomp"
+      },
+      {
+        "id": 8,
+        "value": ",",
+        "head_id": 4,
+        "relation": "punct"
+      },
+      {
+        "id": 9,
+        "value": "because",
+        "head_id": 11,
+        "relation": "mark"
+      },
+      {
+        "id": 10,
+        "value": "he",
+        "head_id": 11,
+        "relation": "nsubj"
+      },
+      {
+        "id": 11,
+        "value": "showed",
+        "head_id": 4,
+        "relation": "advcl"
+      },
+      {
+        "id": 12,
+        "value": "disrespect",
+        "head_id": 11,
+        "relation": "dobj"
+      },
+      {
+        "id": 13,
+        "value": "to",
+        "head_id": 12,
+        "relation": "prep"
+      },
+      {
+        "id": 14,
+        "value": "that",
+        "head_id": 15,
+        "relation": "det"
+      },
+      {
+        "id": 15,
+        "value": "man",
+        "head_id": 13,
+        "relation": "pobj"
+      },
+      {
+        "id": 16,
+        "value": "Chryses",
+        "head_id": 11,
+        "relation": "dobj"
+      },
+      {
+        "id": 17,
+        "value": ",",
+        "head_id": 16,
+        "relation": "punct"
+      },
+      {
+        "id": 18,
+        "value": "the",
+        "head_id": 21,
+        "relation": "det"
+      },
+      {
+        "id": 19,
+        "value": "god",
+        "head_id": 21,
+        "relation": "compound"
+      },
+      {
+        "id": 20,
+        "value": "-",
+        "head_id": 21,
+        "relation": "punct"
+      },
+      {
+        "id": 21,
+        "value": "talker",
+        "head_id": 16,
+        "relation": "appos"
+      },
+      {
+        "id": 22,
+        "value": ".",
+        "head_id": 4,
+        "relation": "punct"
+      }
+    ],
+    "references": [],
+    "citation": "6"
+  },
+  {
+    "urn": "urn:cite2:scaife-viewer:syntaxTree.v1:syntaxTree7",
+    "treebank_id": 7,
+    "words": [
+      {
+        "id": 1,
+        "value": "What",
+        "head_id": 2,
+        "relation": "det"
+      },
+      {
+        "id": 2,
+        "value": "man",
+        "head_id": 0,
+        "relation": "ROOT"
+      },
+      {
+        "id": 3,
+        "value": "?",
+        "head_id": 2,
+        "relation": "punct"
+      },
+      {
+        "id": 4,
+        "value": "--",
+        "head_id": 2,
+        "relation": "punct"
+      },
+      {
+        "id": 5,
+        "value": "the",
+        "head_id": 6,
+        "relation": "det"
+      },
+      {
+        "id": 6,
+        "value": "son",
+        "head_id": 2,
+        "relation": "appos"
+      },
+      {
+        "id": 7,
+        "value": "of",
+        "head_id": 6,
+        "relation": "prep"
+      },
+      {
+        "id": 8,
+        "value": "Atreus",
+        "head_id": 7,
+        "relation": "pobj"
+      },
+      {
+        "id": 9,
+        "value": ".",
+        "head_id": 2,
+        "relation": "punct"
+      }
+    ],
+    "references": [],
+    "citation": "7"
+  },
+  {
+    "urn": "urn:cite2:scaife-viewer:syntaxTree.v1:syntaxTree8",
+    "treebank_id": 8,
+    "words": [
+      {
+        "id": 1,
+        "value": "This",
+        "head_id": 2,
+        "relation": "nsubj"
+      },
+      {
+        "id": 2,
+        "value": "is",
+        "head_id": 0,
+        "relation": "ROOT"
+      },
+      {
+        "id": 3,
+        "value": "why",
+        "head_id": 8,
+        "relation": "advmod"
+      },
+      {
+        "id": 4,
+        "value": ":",
+        "head_id": 8,
+        "relation": "punct"
+      },
+      {
+        "id": 5,
+        "value": "that",
+        "head_id": 6,
+        "relation": "det"
+      },
+      {
+        "id": 6,
+        "value": "man",
+        "head_id": 8,
+        "relation": "nsubj"
+      },
+      {
+        "id": 7,
+        "value": ",",
+        "head_id": 8,
+        "relation": "punct"
+      },
+      {
+        "id": 8,
+        "value": "came",
+        "head_id": 2,
+        "relation": "ccomp"
+      },
+      {
+        "id": 9,
+        "value": "to",
+        "head_id": 8,
+        "relation": "prep"
+      },
+      {
+        "id": 10,
+        "value": "the",
+        "head_id": 12,
+        "relation": "det"
+      },
+      {
+        "id": 11,
+        "value": "swift",
+        "head_id": 12,
+        "relation": "amod"
+      },
+      {
+        "id": 12,
+        "value": "ships",
+        "head_id": 9,
+        "relation": "pobj"
+      },
+      {
+        "id": 13,
+        "value": "of",
+        "head_id": 12,
+        "relation": "prep"
+      },
+      {
+        "id": 14,
+        "value": "the",
+        "head_id": 15,
+        "relation": "det"
+      },
+      {
+        "id": 15,
+        "value": "Achaeans",
+        "head_id": 13,
+        "relation": "pobj"
+      },
+      {
+        "id": 16,
+        "value": "in",
+        "head_id": 8,
+        "relation": "prep"
+      },
+      {
+        "id": 17,
+        "value": "order",
+        "head_id": 16,
+        "relation": "pobj"
+      },
+      {
+        "id": 18,
+        "value": "to",
+        "head_id": 19,
+        "relation": "aux"
+      },
+      {
+        "id": 19,
+        "value": "free",
+        "head_id": 17,
+        "relation": "acl"
+      },
+      {
+        "id": 20,
+        "value": " ",
+        "head_id": 19,
+        "relation": "dobj"
+      },
+      {
+        "id": 21,
+        "value": "his",
+        "head_id": 22,
+        "relation": "poss"
+      },
+      {
+        "id": 22,
+        "value": "daughter",
+        "head_id": 19,
+        "relation": "dobj"
+      },
+      {
+        "id": 23,
+        "value": "and",
+        "head_id": 22,
+        "relation": "cc"
+      },
+      {
+        "id": 24,
+        "value": "bearing",
+        "head_id": 22,
+        "relation": "conj"
+      },
+      {
+        "id": 25,
+        "value": "boundless",
+        "head_id": 26,
+        "relation": "amod"
+      },
+      {
+        "id": 26,
+        "value": "ransom",
+        "head_id": 24,
+        "relation": "dobj"
+      },
+      {
+        "id": 27,
+        "value": ",",
+        "head_id": 19,
+        "relation": "punct"
+      },
+      {
+        "id": 28,
+        "value": "holding",
+        "head_id": 19,
+        "relation": "advcl"
+      },
+      {
+        "id": 29,
+        "value": "the",
+        "head_id": 30,
+        "relation": "det"
+      },
+      {
+        "id": 30,
+        "value": "wreaths",
+        "head_id": 28,
+        "relation": "dobj"
+      },
+      {
+        "id": 31,
+        "value": "of",
+        "head_id": 30,
+        "relation": "prep"
+      },
+      {
+        "id": 32,
+        "value": "the",
+        "head_id": 36,
+        "relation": "det"
+      },
+      {
+        "id": 33,
+        "value": "far",
+        "head_id": 35,
+        "relation": "advmod"
+      },
+      {
+        "id": 34,
+        "value": "-",
+        "head_id": 35,
+        "relation": "punct"
+      },
+      {
+        "id": 35,
+        "value": "shooter",
+        "head_id": 36,
+        "relation": "amod"
+      },
+      {
+        "id": 36,
+        "value": "Apollo",
+        "head_id": 31,
+        "relation": "pobj"
+      },
+      {
+        "id": 37,
+        "value": "in",
+        "head_id": 28,
+        "relation": "prep"
+      },
+      {
+        "id": 38,
+        "value": "his",
+        "head_id": 39,
+        "relation": "poss"
+      },
+      {
+        "id": 39,
+        "value": "hands",
+        "head_id": 37,
+        "relation": "pobj"
+      },
+      {
+        "id": 40,
+        "value": "high",
+        "head_id": 8,
+        "relation": "advcl"
+      },
+      {
+        "id": 41,
+        "value": "up",
+        "head_id": 40,
+        "relation": "prt"
+      },
+      {
+        "id": 42,
+        "value": "on",
+        "head_id": 40,
+        "relation": "prep"
+      },
+      {
+        "id": 43,
+        "value": "his",
+        "head_id": 45,
+        "relation": "poss"
+      },
+      {
+        "id": 44,
+        "value": "golden",
+        "head_id": 45,
+        "relation": "amod"
+      },
+      {
+        "id": 45,
+        "value": "staff",
+        "head_id": 42,
+        "relation": "pobj"
+      },
+      {
+        "id": 46,
+        "value": ".",
+        "head_id": 2,
+        "relation": "punct"
+      }
+    ],
+    "references": [],
+    "citation": "8"
+  },
+  {
+    "urn": "urn:cite2:scaife-viewer:syntaxTree.v1:syntaxTree9",
+    "treebank_id": 9,
+    "words": [
+      {
+        "id": 1,
+        "value": "And",
+        "head_id": 3,
+        "relation": "cc"
+      },
+      {
+        "id": 2,
+        "value": "he",
+        "head_id": 3,
+        "relation": "nsubj"
+      },
+      {
+        "id": 3,
+        "value": "began",
+        "head_id": 0,
+        "relation": "ROOT"
+      },
+      {
+        "id": 4,
+        "value": "to",
+        "head_id": 5,
+        "relation": "aux"
+      },
+      {
+        "id": 5,
+        "value": "plead",
+        "head_id": 3,
+        "relation": "xcomp"
+      },
+      {
+        "id": 6,
+        "value": "with",
+        "head_id": 5,
+        "relation": "prep"
+      },
+      {
+        "id": 7,
+        "value": "all",
+        "head_id": 9,
+        "relation": "predet"
+      },
+      {
+        "id": 8,
+        "value": "the",
+        "head_id": 9,
+        "relation": "det"
+      },
+      {
+        "id": 9,
+        "value": "Achaeans",
+        "head_id": 6,
+        "relation": "pobj"
+      },
+      {
+        "id": 10,
+        "value": ",",
+        "head_id": 5,
+        "relation": "punct"
+      },
+      {
+        "id": 11,
+        "value": "and",
+        "head_id": 3,
+        "relation": "cc"
+      },
+      {
+        "id": 12,
+        "value": "especially",
+        "head_id": 15,
+        "relation": "advmod"
+      },
+      {
+        "id": 13,
+        "value": "the",
+        "head_id": 15,
+        "relation": "det"
+      },
+      {
+        "id": 14,
+        "value": "two",
+        "head_id": 15,
+        "relation": "nummod"
+      },
+      {
+        "id": 15,
+        "value": "sons",
+        "head_id": 41,
+        "relation": "nsubj"
+      },
+      {
+        "id": 16,
+        "value": "of",
+        "head_id": 15,
+        "relation": "prep"
+      },
+      {
+        "id": 17,
+        "value": "Atreus",
+        "head_id": 16,
+        "relation": "pobj"
+      },
+      {
+        "id": 18,
+        "value": ",",
+        "head_id": 15,
+        "relation": "punct"
+      },
+      {
+        "id": 19,
+        "value": "the",
+        "head_id": 20,
+        "relation": "det"
+      },
+      {
+        "id": 20,
+        "value": "organizers",
+        "head_id": 15,
+        "relation": "appos"
+      },
+      {
+        "id": 21,
+        "value": "of",
+        "head_id": 20,
+        "relation": "prep"
+      },
+      {
+        "id": 22,
+        "value": "the",
+        "head_id": 23,
+        "relation": "det"
+      },
+      {
+        "id": 23,
+        "value": "soldiers",
+        "head_id": 21,
+        "relation": "pobj"
+      },
+      {
+        "id": 24,
+        "value": ":",
+        "head_id": 15,
+        "relation": "punct"
+      },
+      {
+        "id": 25,
+        "value": "“",
+        "head_id": 15,
+        "relation": "punct"
+      },
+      {
+        "id": 26,
+        "value": "Sons",
+        "head_id": 15,
+        "relation": "appos"
+      },
+      {
+        "id": 27,
+        "value": "of",
+        "head_id": 26,
+        "relation": "prep"
+      },
+      {
+        "id": 28,
+        "value": "Atreus",
+        "head_id": 27,
+        "relation": "pobj"
+      },
+      {
+        "id": 29,
+        "value": "and",
+        "head_id": 26,
+        "relation": "cc"
+      },
+      {
+        "id": 30,
+        "value": "also",
+        "head_id": 36,
+        "relation": "advmod"
+      },
+      {
+        "id": 31,
+        "value": "all",
+        "head_id": 36,
+        "relation": "predet"
+      },
+      {
+        "id": 32,
+        "value": "the",
+        "head_id": 36,
+        "relation": "det"
+      },
+      {
+        "id": 33,
+        "value": "well",
+        "head_id": 35,
+        "relation": "advmod"
+      },
+      {
+        "id": 34,
+        "value": "-",
+        "head_id": 35,
+        "relation": "punct"
+      },
+      {
+        "id": 35,
+        "value": "greaved",
+        "head_id": 36,
+        "relation": "amod"
+      },
+      {
+        "id": 36,
+        "value": "Achaeans",
+        "head_id": 26,
+        "relation": "conj"
+      },
+      {
+        "id": 37,
+        "value": ",",
+        "head_id": 26,
+        "relation": "punct"
+      },
+      {
+        "id": 38,
+        "value": "with",
+        "head_id": 26,
+        "relation": "prep"
+      },
+      {
+        "id": 39,
+        "value": "my",
+        "head_id": 40,
+        "relation": "poss"
+      },
+      {
+        "id": 40,
+        "value": "blessing",
+        "head_id": 38,
+        "relation": "pobj"
+      },
+      {
+        "id": 41,
+        "value": "may",
+        "head_id": 3,
+        "relation": "conj"
+      },
+      {
+        "id": 42,
+        "value": "the",
+        "head_id": 43,
+        "relation": "det"
+      },
+      {
+        "id": 43,
+        "value": "gods",
+        "head_id": 41,
+        "relation": "dobj"
+      },
+      {
+        "id": 44,
+        "value": ",",
+        "head_id": 41,
+        "relation": "punct"
+      },
+      {
+        "id": 45,
+        "value": "having",
+        "head_id": 41,
+        "relation": "advcl"
+      },
+      {
+        "id": 46,
+        "value": "homes",
+        "head_id": 45,
+        "relation": "dobj"
+      },
+      {
+        "id": 47,
+        "value": "on",
+        "head_id": 46,
+        "relation": "prep"
+      },
+      {
+        "id": 48,
+        "value": "Olympus",
+        "head_id": 47,
+        "relation": "pobj"
+      },
+      {
+        "id": 49,
+        "value": ",",
+        "head_id": 50,
+        "relation": "punct"
+      },
+      {
+        "id": 50,
+        "value": "grant",
+        "head_id": 45,
+        "relation": "ccomp"
+      },
+      {
+        "id": 51,
+        "value": "to",
+        "head_id": 50,
+        "relation": "dative"
+      },
+      {
+        "id": 52,
+        "value": "you",
+        "head_id": 51,
+        "relation": "pobj"
+      },
+      {
+        "id": 53,
+        "value": "to",
+        "head_id": 54,
+        "relation": "aux"
+      },
+      {
+        "id": 54,
+        "value": "sack",
+        "head_id": 50,
+        "relation": "advcl"
+      },
+      {
+        "id": 55,
+        "value": "utterly",
+        "head_id": 54,
+        "relation": "advmod"
+      },
+      {
+        "id": 56,
+        "value": "the",
+        "head_id": 57,
+        "relation": "det"
+      },
+      {
+        "id": 57,
+        "value": "city",
+        "head_id": 54,
+        "relation": "dobj"
+      },
+      {
+        "id": 58,
+        "value": "of",
+        "head_id": 57,
+        "relation": "prep"
+      },
+      {
+        "id": 59,
+        "value": "Priam",
+        "head_id": 58,
+        "relation": "pobj"
+      },
+      {
+        "id": 60,
+        "value": ",",
+        "head_id": 54,
+        "relation": "punct"
+      },
+      {
+        "id": 61,
+        "value": "and",
+        "head_id": 54,
+        "relation": "cc"
+      },
+      {
+        "id": 62,
+        "value": "to",
+        "head_id": 63,
+        "relation": "aux"
+      },
+      {
+        "id": 63,
+        "value": "return",
+        "head_id": 54,
+        "relation": "conj"
+      },
+      {
+        "id": 64,
+        "value": "homewards",
+        "head_id": 63,
+        "relation": "dobj"
+      },
+      {
+        "id": 65,
+        "value": "well",
+        "head_id": 63,
+        "relation": "advmod"
+      },
+      {
+        "id": 66,
+        "value": ";",
+        "head_id": 3,
+        "relation": "punct"
+      },
+      {
+        "id": 67,
+        "value": "but",
+        "head_id": 3,
+        "relation": "cc"
+      },
+      {
+        "id": 68,
+        "value": "for",
+        "head_id": 70,
+        "relation": "prep"
+      },
+      {
+        "id": 69,
+        "value": "me",
+        "head_id": 68,
+        "relation": "pobj"
+      },
+      {
+        "id": 70,
+        "value": "free",
+        "head_id": 3,
+        "relation": "conj"
+      },
+      {
+        "id": 71,
+        "value": "my",
+        "head_id": 73,
+        "relation": "poss"
+      },
+      {
+        "id": 72,
+        "value": "beloved",
+        "head_id": 73,
+        "relation": "amod"
+      },
+      {
+        "id": 73,
+        "value": "child",
+        "head_id": 70,
+        "relation": "dobj"
+      },
+      {
+        "id": 74,
+        "value": ",",
+        "head_id": 70,
+        "relation": "punct"
+      },
+      {
+        "id": 75,
+        "value": "and",
+        "head_id": 70,
+        "relation": "cc"
+      },
+      {
+        "id": 76,
+        "value": "accept",
+        "head_id": 70,
+        "relation": "conj"
+      },
+      {
+        "id": 77,
+        "value": "this",
+        "head_id": 78,
+        "relation": "det"
+      },
+      {
+        "id": 78,
+        "value": "ransom",
+        "head_id": 76,
+        "relation": "dobj"
+      },
+      {
+        "id": 79,
+        "value": ",",
+        "head_id": 76,
+        "relation": "punct"
+      },
+      {
+        "id": 80,
+        "value": "showing",
+        "head_id": 76,
+        "relation": "advcl"
+      },
+      {
+        "id": 81,
+        "value": "reverence",
+        "head_id": 80,
+        "relation": "dobj"
+      },
+      {
+        "id": 82,
+        "value": "for",
+        "head_id": 81,
+        "relation": "prep"
+      },
+      {
+        "id": 83,
+        "value": "the",
+        "head_id": 84,
+        "relation": "det"
+      },
+      {
+        "id": 84,
+        "value": "son",
+        "head_id": 82,
+        "relation": "pobj"
+      },
+      {
+        "id": 85,
+        "value": "of",
+        "head_id": 84,
+        "relation": "prep"
+      },
+      {
+        "id": 86,
+        "value": "Zeus",
+        "head_id": 85,
+        "relation": "pobj"
+      },
+      {
+        "id": 87,
+        "value": ",",
+        "head_id": 84,
+        "relation": "punct"
+      },
+      {
+        "id": 88,
+        "value": "the",
+        "head_id": 92,
+        "relation": "det"
+      },
+      {
+        "id": 89,
+        "value": "far",
+        "head_id": 91,
+        "relation": "advmod"
+      },
+      {
+        "id": 90,
+        "value": "-",
+        "head_id": 91,
+        "relation": "punct"
+      },
+      {
+        "id": 91,
+        "value": "shooter",
+        "head_id": 92,
+        "relation": "compound"
+      },
+      {
+        "id": 92,
+        "value": "Apollo",
+        "head_id": 84,
+        "relation": "appos"
+      },
+      {
+        "id": 93,
+        "value": ".",
+        "head_id": 70,
+        "relation": "punct"
+      }
+    ],
+    "references": [],
+    "citation": "9"
+  },
+  {
+    "urn": "urn:cite2:scaife-viewer:syntaxTree.v1:syntaxTree10",
+    "treebank_id": 10,
+    "words": [
+      {
+        "id": 1,
+        "value": "At",
+        "head_id": 8,
+        "relation": "prep"
+      },
+      {
+        "id": 2,
+        "value": "that",
+        "head_id": 3,
+        "relation": "det"
+      },
+      {
+        "id": 3,
+        "value": "point",
+        "head_id": 1,
+        "relation": "pobj"
+      },
+      {
+        "id": 4,
+        "value": "indeed",
+        "head_id": 8,
+        "relation": "advmod"
+      },
+      {
+        "id": 5,
+        "value": "all",
+        "head_id": 7,
+        "relation": "predet"
+      },
+      {
+        "id": 6,
+        "value": "the",
+        "head_id": 7,
+        "relation": "det"
+      },
+      {
+        "id": 7,
+        "value": "Achaeans",
+        "head_id": 8,
+        "relation": "nsubj"
+      },
+      {
+        "id": 8,
+        "value": "shouted",
+        "head_id": 0,
+        "relation": "ROOT"
+      },
+      {
+        "id": 9,
+        "value": "their",
+        "head_id": 10,
+        "relation": "poss"
+      },
+      {
+        "id": 10,
+        "value": "approval",
+        "head_id": 8,
+        "relation": "dobj"
+      },
+      {
+        "id": 11,
+        "value": ",",
+        "head_id": 8,
+        "relation": "punct"
+      },
+      {
+        "id": 12,
+        "value": "both",
+        "head_id": 14,
+        "relation": "preconj"
+      },
+      {
+        "id": 13,
+        "value": "to",
+        "head_id": 14,
+        "relation": "aux"
+      },
+      {
+        "id": 14,
+        "value": "treat",
+        "head_id": 8,
+        "relation": "advcl"
+      },
+      {
+        "id": 15,
+        "value": "with",
+        "head_id": 14,
+        "relation": "prep"
+      },
+      {
+        "id": 16,
+        "value": "decency",
+        "head_id": 15,
+        "relation": "pobj"
+      },
+      {
+        "id": 17,
+        "value": "the",
+        "head_id": 20,
+        "relation": "det"
+      },
+      {
+        "id": 18,
+        "value": "sacrifice",
+        "head_id": 20,
+        "relation": "compound"
+      },
+      {
+        "id": 19,
+        "value": "-",
+        "head_id": 20,
+        "relation": "punct"
+      },
+      {
+        "id": 20,
+        "value": "leader",
+        "head_id": 14,
+        "relation": "dobj"
+      },
+      {
+        "id": 21,
+        "value": "and",
+        "head_id": 14,
+        "relation": "cc"
+      },
+      {
+        "id": 22,
+        "value": "to",
+        "head_id": 23,
+        "relation": "aux"
+      },
+      {
+        "id": 23,
+        "value": "accept",
+        "head_id": 14,
+        "relation": "conj"
+      },
+      {
+        "id": 24,
+        "value": "the",
+        "head_id": 26,
+        "relation": "det"
+      },
+      {
+        "id": 25,
+        "value": "shining",
+        "head_id": 26,
+        "relation": "amod"
+      },
+      {
+        "id": 26,
+        "value": "ransom",
+        "head_id": 23,
+        "relation": "dobj"
+      },
+      {
+        "id": 27,
+        "value": ";",
+        "head_id": 8,
+        "relation": "punct"
+      }
+    ],
+    "references": [],
+    "citation": "10"
+  },
+  {
+    "urn": "urn:cite2:scaife-viewer:syntaxTree.v1:syntaxTree11",
+    "treebank_id": 11,
+    "words": [
+      {
+        "id": 1,
+        "value": "However",
+        "head_id": 4,
+        "relation": "advmod"
+      },
+      {
+        "id": 2,
+        "value": ",",
+        "head_id": 4,
+        "relation": "punct"
+      },
+      {
+        "id": 3,
+        "value": "this",
+        "head_id": 4,
+        "relation": "nsubj"
+      },
+      {
+        "id": 4,
+        "value": "was",
+        "head_id": 21,
+        "relation": "ccomp"
+      },
+      {
+        "id": 5,
+        "value": "not",
+        "head_id": 4,
+        "relation": "neg"
+      },
+      {
+        "id": 6,
+        "value": "sweet",
+        "head_id": 4,
+        "relation": "acomp"
+      },
+      {
+        "id": 7,
+        "value": "to",
+        "head_id": 6,
+        "relation": "prep"
+      },
+      {
+        "id": 8,
+        "value": "Atreus",
+        "head_id": 10,
+        "relation": "poss"
+      },
+      {
+        "id": 9,
+        "value": "’",
+        "head_id": 8,
+        "relation": "punct"
+      },
+      {
+        "id": 10,
+        "value": "son",
+        "head_id": 7,
+        "relation": "pobj"
+      },
+      {
+        "id": 11,
+        "value": ",",
+        "head_id": 10,
+        "relation": "punct"
+      },
+      {
+        "id": 12,
+        "value": "Agamemnon",
+        "head_id": 10,
+        "relation": "appos"
+      },
+      {
+        "id": 13,
+        "value": ",",
+        "head_id": 4,
+        "relation": "punct"
+      },
+      {
+        "id": 14,
+        "value": "in",
+        "head_id": 21,
+        "relation": "prep"
+      },
+      {
+        "id": 15,
+        "value": "his",
+        "head_id": 16,
+        "relation": "poss"
+      },
+      {
+        "id": 16,
+        "value": "heart",
+        "head_id": 14,
+        "relation": "pobj"
+      },
+      {
+        "id": 17,
+        "value": ",",
+        "head_id": 21,
+        "relation": "punct"
+      },
+      {
+        "id": 18,
+        "value": "Instead",
+        "head_id": 21,
+        "relation": "advmod"
+      },
+      {
+        "id": 19,
+        "value": ",",
+        "head_id": 21,
+        "relation": "punct"
+      },
+      {
+        "id": 20,
+        "value": "he",
+        "head_id": 21,
+        "relation": "nsubj"
+      },
+      {
+        "id": 21,
+        "value": "dismissed",
+        "head_id": 0,
+        "relation": "ROOT"
+      },
+      {
+        "id": 22,
+        "value": "him",
+        "head_id": 21,
+        "relation": "dobj"
+      },
+      {
+        "id": 23,
+        "value": "cruelly",
+        "head_id": 21,
+        "relation": "advmod"
+      },
+      {
+        "id": 24,
+        "value": ".",
+        "head_id": 21,
+        "relation": "punct"
+      }
+    ],
+    "references": [],
+    "citation": "11"
+  },
+  {
+    "urn": "urn:cite2:scaife-viewer:syntaxTree.v1:syntaxTree12",
+    "treebank_id": 12,
+    "words": [
+      {
+        "id": 1,
+        "value": " ",
+        "head_id": 3,
+        "relation": "npadvmod"
+      },
+      {
+        "id": 2,
+        "value": "He",
+        "head_id": 3,
+        "relation": "nsubj"
+      },
+      {
+        "id": 3,
+        "value": "began",
+        "head_id": 0,
+        "relation": "ROOT"
+      },
+      {
+        "id": 4,
+        "value": "to",
+        "head_id": 5,
+        "relation": "aux"
+      },
+      {
+        "id": 5,
+        "value": "impose",
+        "head_id": 3,
+        "relation": "xcomp"
+      },
+      {
+        "id": 6,
+        "value": "a",
+        "head_id": 8,
+        "relation": "det"
+      },
+      {
+        "id": 7,
+        "value": "harsh",
+        "head_id": 8,
+        "relation": "amod"
+      },
+      {
+        "id": 8,
+        "value": "command",
+        "head_id": 5,
+        "relation": "dobj"
+      },
+      {
+        "id": 9,
+        "value": ":",
+        "head_id": 3,
+        "relation": "punct"
+      },
+      {
+        "id": 10,
+        "value": "“",
+        "head_id": 3,
+        "relation": "punct"
+      },
+      {
+        "id": 11,
+        "value": "May",
+        "head_id": 12,
+        "relation": "aux"
+      },
+      {
+        "id": 12,
+        "value": "emphasizing",
+        "head_id": 3,
+        "relation": "xcomp"
+      },
+      {
+        "id": 13,
+        "value": "with",
+        "head_id": 12,
+        "relation": "prep"
+      },
+      {
+        "id": 14,
+        "value": "tone",
+        "head_id": 13,
+        "relation": "pobj"
+      },
+      {
+        "id": 15,
+        "value": "and",
+        "head_id": 14,
+        "relation": "cc"
+      },
+      {
+        "id": 16,
+        "value": "body",
+        "head_id": 17,
+        "relation": "compound"
+      },
+      {
+        "id": 17,
+        "value": "language",
+        "head_id": 14,
+        "relation": "conj"
+      },
+      {
+        "id": 18,
+        "value": "the",
+        "head_id": 19,
+        "relation": "det"
+      },
+      {
+        "id": 19,
+        "value": "pronoun",
+        "head_id": 12,
+        "relation": "dobj"
+      },
+      {
+        "id": 20,
+        "value": "“",
+        "head_id": 21,
+        "relation": "punct"
+      },
+      {
+        "id": 21,
+        "value": "I",
+        "head_id": 12,
+        "relation": "dobj"
+      },
+      {
+        "id": 22,
+        "value": "”",
+        "head_id": 21,
+        "relation": "punct"
+      },
+      {
+        "id": 23,
+        "value": ")",
+        "head_id": 12,
+        "relation": "punct"
+      }
+    ],
+    "references": [],
+    "citation": "12"
+  },
+  {
+    "urn": "urn:cite2:scaife-viewer:syntaxTree.v1:syntaxTree13",
+    "treebank_id": 13,
+    "words": [
+      {
+        "id": 1,
+        "value": "I",
+        "head_id": 3,
+        "relation": "nsubj"
+      },
+      {
+        "id": 2,
+        "value": "not",
+        "head_id": 3,
+        "relation": "neg"
+      },
+      {
+        "id": 3,
+        "value": "come",
+        "head_id": 0,
+        "relation": "ROOT"
+      },
+      {
+        "id": 4,
+        "value": "upon",
+        "head_id": 3,
+        "relation": "prep"
+      },
+      {
+        "id": 5,
+        "value": "you",
+        "head_id": 4,
+        "relation": "pobj"
+      },
+      {
+        "id": 6,
+        "value": ",",
+        "head_id": 3,
+        "relation": "punct"
+      },
+      {
+        "id": 7,
+        "value": "old",
+        "head_id": 8,
+        "relation": "amod"
+      },
+      {
+        "id": 8,
+        "value": "man",
+        "head_id": 3,
+        "relation": "npadvmod"
+      },
+      {
+        "id": 9,
+        "value": ",",
+        "head_id": 8,
+        "relation": "punct"
+      },
+      {
+        "id": 10,
+        "value": "near",
+        "head_id": 3,
+        "relation": "prep"
+      },
+      {
+        "id": 11,
+        "value": "the",
+        "head_id": 13,
+        "relation": "det"
+      },
+      {
+        "id": 12,
+        "value": "hollow",
+        "head_id": 13,
+        "relation": "amod"
+      },
+      {
+        "id": 13,
+        "value": "ships",
+        "head_id": 10,
+        "relation": "pobj"
+      },
+      {
+        "id": 14,
+        "value": ",",
+        "head_id": 3,
+        "relation": "punct"
+      },
+      {
+        "id": 15,
+        "value": "either",
+        "head_id": 16,
+        "relation": "preconj"
+      },
+      {
+        "id": 16,
+        "value": "hanging",
+        "head_id": 3,
+        "relation": "advcl"
+      },
+      {
+        "id": 17,
+        "value": "around",
+        "head_id": 16,
+        "relation": "advmod"
+      },
+      {
+        "id": 18,
+        "value": "now",
+        "head_id": 16,
+        "relation": "advmod"
+      },
+      {
+        "id": 19,
+        "value": "or",
+        "head_id": 16,
+        "relation": "cc"
+      },
+      {
+        "id": 20,
+        "value": "returning",
+        "head_id": 16,
+        "relation": "conj"
+      },
+      {
+        "id": 21,
+        "value": "back",
+        "head_id": 20,
+        "relation": "advmod"
+      },
+      {
+        "id": 22,
+        "value": "later",
+        "head_id": 20,
+        "relation": "advmod"
+      },
+      {
+        "id": 23,
+        "value": ",",
+        "head_id": 16,
+        "relation": "punct"
+      },
+      {
+        "id": 24,
+        "value": "lest",
+        "head_id": 37,
+        "relation": "mark"
+      },
+      {
+        "id": 25,
+        "value": "at",
+        "head_id": 37,
+        "relation": "prep"
+      },
+      {
+        "id": 26,
+        "value": "that",
+        "head_id": 27,
+        "relation": "det"
+      },
+      {
+        "id": 27,
+        "value": "time",
+        "head_id": 25,
+        "relation": "pobj"
+      },
+      {
+        "id": 28,
+        "value": "the",
+        "head_id": 29,
+        "relation": "det"
+      },
+      {
+        "id": 29,
+        "value": "staff",
+        "head_id": 37,
+        "relation": "nsubj"
+      },
+      {
+        "id": 30,
+        "value": "and",
+        "head_id": 29,
+        "relation": "cc"
+      },
+      {
+        "id": 31,
+        "value": "wreaths",
+        "head_id": 29,
+        "relation": "conj"
+      },
+      {
+        "id": 32,
+        "value": "of",
+        "head_id": 31,
+        "relation": "prep"
+      },
+      {
+        "id": 33,
+        "value": "the",
+        "head_id": 34,
+        "relation": "det"
+      },
+      {
+        "id": 34,
+        "value": "god",
+        "head_id": 32,
+        "relation": "pobj"
+      },
+      {
+        "id": 35,
+        "value": "may",
+        "head_id": 37,
+        "relation": "aux"
+      },
+      {
+        "id": 36,
+        "value": "not",
+        "head_id": 37,
+        "relation": "neg"
+      },
+      {
+        "id": 37,
+        "value": "protect",
+        "head_id": 16,
+        "relation": "advcl"
+      },
+      {
+        "id": 38,
+        "value": "you",
+        "head_id": 37,
+        "relation": "dobj"
+      },
+      {
+        "id": 39,
+        "value": ".",
+        "head_id": 3,
+        "relation": "punct"
+      }
+    ],
+    "references": [],
+    "citation": "13"
+  },
+  {
+    "urn": "urn:cite2:scaife-viewer:syntaxTree.v1:syntaxTree14",
+    "treebank_id": 14,
+    "words": [
+      {
+        "id": 1,
+        "value": "that",
+        "head_id": 2,
+        "relation": "det"
+      },
+      {
+        "id": 2,
+        "value": "woman",
+        "head_id": 6,
+        "relation": "nsubj"
+      },
+      {
+        "id": 3,
+        "value": "(",
+        "head_id": 6,
+        "relation": "punct"
+      },
+      {
+        "id": 4,
+        "value": "again",
+        "head_id": 6,
+        "relation": "advmod"
+      },
+      {
+        "id": 5,
+        "value": ",",
+        "head_id": 6,
+        "relation": "punct"
+      },
+      {
+        "id": 6,
+        "value": "emphasizing",
+        "head_id": 0,
+        "relation": "ROOT"
+      },
+      {
+        "id": 7,
+        "value": "with",
+        "head_id": 6,
+        "relation": "prep"
+      },
+      {
+        "id": 8,
+        "value": "tone",
+        "head_id": 7,
+        "relation": "pobj"
+      },
+      {
+        "id": 9,
+        "value": "and",
+        "head_id": 8,
+        "relation": "cc"
+      },
+      {
+        "id": 10,
+        "value": "body",
+        "head_id": 11,
+        "relation": "compound"
+      },
+      {
+        "id": 11,
+        "value": "language",
+        "head_id": 8,
+        "relation": "conj"
+      },
+      {
+        "id": 12,
+        "value": "the",
+        "head_id": 13,
+        "relation": "det"
+      },
+      {
+        "id": 13,
+        "value": "pronoun",
+        "head_id": 6,
+        "relation": "dobj"
+      },
+      {
+        "id": 14,
+        "value": "“",
+        "head_id": 15,
+        "relation": "punct"
+      },
+      {
+        "id": 15,
+        "value": "I",
+        "head_id": 6,
+        "relation": "dobj"
+      },
+      {
+        "id": 16,
+        "value": "”",
+        "head_id": 15,
+        "relation": "punct"
+      },
+      {
+        "id": 17,
+        "value": ")",
+        "head_id": 6,
+        "relation": "punct"
+      }
+    ],
+    "references": [],
+    "citation": "14"
+  },
+  {
+    "urn": "urn:cite2:scaife-viewer:syntaxTree.v1:syntaxTree15",
+    "treebank_id": 15,
+    "words": [
+      {
+        "id": 1,
+        "value": "I",
+        "head_id": 4,
+        "relation": "nsubj"
+      },
+      {
+        "id": 2,
+        "value": "will",
+        "head_id": 4,
+        "relation": "aux"
+      },
+      {
+        "id": 3,
+        "value": "not",
+        "head_id": 4,
+        "relation": "neg"
+      },
+      {
+        "id": 4,
+        "value": "free",
+        "head_id": 0,
+        "relation": "ROOT"
+      },
+      {
+        "id": 5,
+        "value": ",",
+        "head_id": 4,
+        "relation": "punct"
+      },
+      {
+        "id": 6,
+        "value": "until",
+        "head_id": 9,
+        "relation": "mark"
+      },
+      {
+        "id": 7,
+        "value": "(",
+        "head_id": 9,
+        "relation": "punct"
+      },
+      {
+        "id": 8,
+        "value": "Agamemnon",
+        "head_id": 9,
+        "relation": "nsubj"
+      },
+      {
+        "id": 9,
+        "value": "emphasizes",
+        "head_id": 4,
+        "relation": "advcl"
+      },
+      {
+        "id": 10,
+        "value": "the",
+        "head_id": 13,
+        "relation": "det"
+      },
+      {
+        "id": 11,
+        "value": "next",
+        "head_id": 13,
+        "relation": "amod"
+      },
+      {
+        "id": 12,
+        "value": "two",
+        "head_id": 13,
+        "relation": "nummod"
+      },
+      {
+        "id": 13,
+        "value": "words",
+        "head_id": 9,
+        "relation": "dobj"
+      },
+      {
+        "id": 14,
+        "value": "as",
+        "head_id": 13,
+        "relation": "prep"
+      },
+      {
+        "id": 15,
+        "value": "a",
+        "head_id": 16,
+        "relation": "det"
+      },
+      {
+        "id": 16,
+        "value": "taunt",
+        "head_id": 14,
+        "relation": "pobj"
+      },
+      {
+        "id": 17,
+        "value": ")",
+        "head_id": 19,
+        "relation": "punct"
+      },
+      {
+        "id": 18,
+        "value": "old",
+        "head_id": 19,
+        "relation": "amod"
+      },
+      {
+        "id": 19,
+        "value": "age",
+        "head_id": 20,
+        "relation": "nsubj"
+      },
+      {
+        "id": 20,
+        "value": "comes",
+        "head_id": 9,
+        "relation": "ccomp"
+      },
+      {
+        "id": 21,
+        "value": "upon",
+        "head_id": 20,
+        "relation": "prep"
+      },
+      {
+        "id": 22,
+        "value": "her",
+        "head_id": 21,
+        "relation": "pobj"
+      },
+      {
+        "id": 23,
+        "value": "in",
+        "head_id": 20,
+        "relation": "prep"
+      },
+      {
+        "id": 24,
+        "value": "our",
+        "head_id": 25,
+        "relation": "poss"
+      },
+      {
+        "id": 25,
+        "value": "house",
+        "head_id": 23,
+        "relation": "pobj"
+      },
+      {
+        "id": 26,
+        "value": "in",
+        "head_id": 25,
+        "relation": "prep"
+      },
+      {
+        "id": 27,
+        "value": "Argos",
+        "head_id": 26,
+        "relation": "pobj"
+      },
+      {
+        "id": 28,
+        "value": ",",
+        "head_id": 20,
+        "relation": "punct"
+      },
+      {
+        "id": 29,
+        "value": "far",
+        "head_id": 30,
+        "relation": "advmod"
+      },
+      {
+        "id": 30,
+        "value": "from",
+        "head_id": 20,
+        "relation": "prep"
+      },
+      {
+        "id": 31,
+        "value": "her",
+        "head_id": 32,
+        "relation": "poss"
+      },
+      {
+        "id": 32,
+        "value": "fatherland",
+        "head_id": 30,
+        "relation": "pobj"
+      },
+      {
+        "id": 33,
+        "value": ",",
+        "head_id": 20,
+        "relation": "punct"
+      },
+      {
+        "id": 34,
+        "value": "working",
+        "head_id": 20,
+        "relation": "advcl"
+      },
+      {
+        "id": 35,
+        "value": "the",
+        "head_id": 36,
+        "relation": "det"
+      },
+      {
+        "id": 36,
+        "value": "loom",
+        "head_id": 34,
+        "relation": "dobj"
+      },
+      {
+        "id": 37,
+        "value": "and",
+        "head_id": 34,
+        "relation": "cc"
+      },
+      {
+        "id": 38,
+        "value": "serving",
+        "head_id": 34,
+        "relation": "conj"
+      },
+      {
+        "id": 39,
+        "value": "my",
+        "head_id": 40,
+        "relation": "poss"
+      },
+      {
+        "id": 40,
+        "value": "bed",
+        "head_id": 38,
+        "relation": "dobj"
+      },
+      {
+        "id": 41,
+        "value": ".",
+        "head_id": 4,
+        "relation": "punct"
+      }
+    ],
+    "references": [],
+    "citation": "15"
+  },
+  {
+    "urn": "urn:cite2:scaife-viewer:syntaxTree.v1:syntaxTree16",
+    "treebank_id": 16,
+    "words": [
+      {
+        "id": 1,
+        "value": "Instead",
+        "head_id": 2,
+        "relation": "advmod"
+      },
+      {
+        "id": 2,
+        "value": "go",
+        "head_id": 0,
+        "relation": "ROOT"
+      },
+      {
+        "id": 3,
+        "value": "away",
+        "head_id": 2,
+        "relation": "advmod"
+      },
+      {
+        "id": 4,
+        "value": "!",
+        "head_id": 2,
+        "relation": "punct"
+      }
+    ],
+    "references": [],
+    "citation": "16"
+  },
+  {
+    "urn": "urn:cite2:scaife-viewer:syntaxTree.v1:syntaxTree17",
+    "treebank_id": 17,
+    "words": [
+      {
+        "id": 1,
+        "value": "Do",
+        "head_id": 3,
+        "relation": "aux"
+      },
+      {
+        "id": 2,
+        "value": "not",
+        "head_id": 3,
+        "relation": "neg"
+      },
+      {
+        "id": 3,
+        "value": "keep",
+        "head_id": 0,
+        "relation": "ROOT"
+      },
+      {
+        "id": 4,
+        "value": "provoking",
+        "head_id": 3,
+        "relation": "xcomp"
+      },
+      {
+        "id": 5,
+        "value": "me",
+        "head_id": 4,
+        "relation": "dobj"
+      },
+      {
+        "id": 6,
+        "value": "me",
+        "head_id": 4,
+        "relation": "dobj"
+      },
+      {
+        "id": 7,
+        "value": "thus",
+        "head_id": 4,
+        "relation": "advmod"
+      },
+      {
+        "id": 8,
+        "value": "so",
+        "head_id": 12,
+        "relation": "mark"
+      },
+      {
+        "id": 9,
+        "value": "that",
+        "head_id": 12,
+        "relation": "mark"
+      },
+      {
+        "id": 10,
+        "value": "you",
+        "head_id": 12,
+        "relation": "nsubj"
+      },
+      {
+        "id": 11,
+        "value": "might",
+        "head_id": 12,
+        "relation": "aux"
+      },
+      {
+        "id": 12,
+        "value": "make",
+        "head_id": 3,
+        "relation": "advcl"
+      },
+      {
+        "id": 13,
+        "value": "your",
+        "head_id": 14,
+        "relation": "poss"
+      },
+      {
+        "id": 14,
+        "value": "way",
+        "head_id": 12,
+        "relation": "dobj"
+      },
+      {
+        "id": 15,
+        "value": "home",
+        "head_id": 12,
+        "relation": "advmod"
+      },
+      {
+        "id": 16,
+        "value": "more",
+        "head_id": 17,
+        "relation": "advmod"
+      },
+      {
+        "id": 17,
+        "value": "safely",
+        "head_id": 12,
+        "relation": "advmod"
+      },
+      {
+        "id": 18,
+        "value": "than",
+        "head_id": 21,
+        "relation": "mark"
+      },
+      {
+        "id": 19,
+        "value": "if",
+        "head_id": 21,
+        "relation": "mark"
+      },
+      {
+        "id": 20,
+        "value": "you",
+        "head_id": 21,
+        "relation": "nsubj"
+      },
+      {
+        "id": 21,
+        "value": "remain",
+        "head_id": 17,
+        "relation": "advcl"
+      },
+      {
+        "id": 22,
+        "value": ".",
+        "head_id": 3,
+        "relation": "punct"
+      }
+    ],
+    "references": [],
+    "citation": "17"
+  }
+]
