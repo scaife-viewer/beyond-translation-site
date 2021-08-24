@@ -31,7 +31,7 @@
     name: 'ReaderView',
     beforeCreate() {
       const { firstPassageUrn } = this.$scaife.config;
-      const noPassage = !this.$route.query.urn;
+      const noPassage = !this.$route.params.urn;
       if (noPassage && firstPassageUrn) {
         this.$router.push({
           to: 'reader',
