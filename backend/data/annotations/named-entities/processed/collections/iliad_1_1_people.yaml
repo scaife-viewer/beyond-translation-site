@@ -1,0 +1,55 @@
+label: People in Iliad 1.1-1.20
+urn: urn:cite2:beyond-translation:named_entity_collection.atlas_v1:il_1_1_people
+metadata:
+  attributions:
+  - name: James Tauber
+    role: Author
+entities:
+- title: Achilles
+  description: hero of the Iliad, greatest warrior of the Greeks at Troy
+  kind: person
+  url: https://en.wikipedia.org/wiki/Achilles
+  data: {}
+  urn: urn:cite2:hmt:pers.v1:pers1
+- title: Zeus
+  description: king of the gods
+  kind: person
+  url: https://en.wikipedia.org/wiki/Zeus
+  data: {}
+  urn: urn:cite2:hmt:pers.v1:pers8
+- title: Agamemnon
+  description: leader of the Greek forces at Troy
+  kind: person
+  url: https://en.wikipedia.org/wiki/Agamemnon
+  data: {}
+  urn: urn:cite2:hmt:pers.v1:pers22
+- title: Leto
+  description: Titan, mother of Apollo and Artemis
+  kind: person
+  url: https://en.wikipedia.org/wiki/Leto
+  data: {}
+  urn: urn:cite2:hmt:pers.v1:pers35
+- title: Apollo
+  description: god of prophecy and archery
+  kind: person
+  url: https://en.wikipedia.org/wiki/Apollo
+  data: {}
+  urn: urn:cite2:hmt:pers.v1:pers40
+- title: Chryses
+  description: priest of Apollo
+  kind: person
+  url: https://en.wikipedia.org/wiki/Chryses_of_Troy
+  data: {}
+  urn: urn:cite2:hmt:pers.v1:pers44
+- title: Menelaus
+  description: king of Sparta, brother of Agamemnon
+  kind: person
+  url: https://en.wikipedia.org/wiki/Menelaus
+  data: {}
+  urn: urn:cite2:hmt:pers.v1:pers119
+- title: Priam
+  description: king of Troy, father of Hector and Paris
+  kind: person
+  url: https://en.wikipedia.org/wiki/Priam
+  data: {}
+  urn: urn:cite2:hmt:pers.v1:pers145

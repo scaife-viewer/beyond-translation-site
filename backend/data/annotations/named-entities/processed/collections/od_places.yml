@@ -1,0 +1,790 @@
+label: People in the Odyssey
+urn: urn:cite2:beyond-translation:named_entity_collection.atlas_v1:od_places
+metadata:
+  attributions:
+  - name: Josh Kemp
+    role: Annotator
+  - name: Chiara Palladino
+    role: Prepared under the supervision of
+entities:
+- title: 'Thebes (Egypt : Extinct city)'
+  description: ''
+  kind: place
+  url: http://geo-kima.org/place/2262
+  data: {}
+  urn: urn:cite2:beyond-translation.scaife-viewer.org:place.v1:0
+- title: Scheria (Island)
+  description: ''
+  kind: place
+  url: http://geo-kima.org/place/22949
+  data: {}
+  urn: urn:cite2:beyond-translation.scaife-viewer.org:place.v1:1
+- title: Dardanelles Strait (Turkey)
+  description: strait in northwestern Turkey
+  kind: place
+  url: http://geo-kima.org/place/3584
+  data:
+    coordinates: 40.2, 26.4
+  urn: urn:cite2:beyond-translation.scaife-viewer.org:place.v1:2
+- title: Olympus, Mount (Greece)
+  description: mountain of Greece
+  kind: place
+  url: http://geo-kima.org/place/3789
+  data:
+    coordinates: 40.06, 22.35
+  urn: urn:cite2:beyond-translation.scaife-viewer.org:place.v1:3
+- title: Amnisos (Extinct city)
+  description: ''
+  kind: place
+  url: http://geo-kima.org/place/4098
+  data:
+    coordinates: 35.33088, 25.20608
+  urn: urn:cite2:beyond-translation.scaife-viewer.org:place.v1:4
+- title: Ethiopia
+  description: country in East Africa
+  kind: place
+  url: http://geo-kima.org/place/6924
+  data:
+    coordinates: 9, 40
+  urn: urn:cite2:beyond-translation.scaife-viewer.org:place.v1:5
+- title: Hellas
+  description: 'An ancient place, cited: BAtlas 102 D4 no. 10 (Hellas)'
+  kind: place
+  url: http://pleiades.stoa.org/places/1001896
+  data:
+    coordinates: 22.5, 37.5
+  urn: urn:cite2:beyond-translation.scaife-viewer.org:place.v1:6
+- title: Aethiopia
+  description: Aethiopia is a term used in the Classical sources to refer both to
+    Upper Egypt and the regions south of the Sahara desert. It is employed as early
+    as the time of Homer.
+  kind: place
+  url: http://pleiades.stoa.org/places/334481
+  data:
+    coordinates: 3.5, 32.5
+  urn: urn:cite2:beyond-translation.scaife-viewer.org:place.v1:7
+- title: Temesa/Tempsa
+  description: An ancient city located on the west coast of Bruttium, just north of
+    the Gulf of Hipponium.
+  kind: place
+  url: http://pleiades.stoa.org/places/452469
+  data:
+    coordinates: 16.159633, 39.036454
+  urn: urn:cite2:beyond-translation.scaife-viewer.org:place.v1:8
+- title: Aeoliae (islands)
+  description: A volcanic archipelago in the Tyrrhenian Sea composed of eight islands.
+  kind: place
+  url: http://pleiades.stoa.org/places/462076
+  data:
+    coordinates: 14.8824195, 38.57980975
+  urn: urn:cite2:beyond-translation.scaife-viewer.org:place.v1:9
+- title: Arethusae Fons
+  description: Arethusae Fons is a spring in Ortygia, Sicily, traditionally connected
+    with the nymph Arethusa.
+  kind: place
+  url: http://pleiades.stoa.org/places/462101
+  data:
+    coordinates: 15.292958, 37.057294
+  urn: urn:cite2:beyond-translation.scaife-viewer.org:place.v1:10
+- title: Ortygia (island)
+  description: A coastal island of Sicily that became the center of ancient Syracuse.
+  kind: place
+  url: http://pleiades.stoa.org/places/462402
+  data:
+    coordinates: 15.29293, 37.0570712
+  urn: urn:cite2:beyond-translation.scaife-viewer.org:place.v1:11
+- title: Sicilia (island)
+  description: Sicily is the largest island in the Mediterranean Sea and has been
+    the site of human habitation since ca. 8,000 BC. In historical terms Sicily has
+    seen important settlement activity connected to numerous culture groups - Punic,
+    Carthaginian, Greek, Roman, Vandalic, Ostrogothic, Byzantine, Arabic, and Norman.
+  kind: place
+  url: http://pleiades.stoa.org/places/462492
+  data:
+    coordinates: 14.130954889982146, 37.54396265585135
+  urn: urn:cite2:beyond-translation.scaife-viewer.org:place.v1:12
+- title: Ogygia
+  description: An ancient island or island group, attested by literary or documentary
+    sources, whose precise location cannot be determined today
+  kind: place
+  url: http://pleiades.stoa.org/places/465964
+  data:
+    coordinates: ''
+  urn: urn:cite2:beyond-translation.scaife-viewer.org:place.v1:13
+- title: Doliche
+  description: 'An ancient place, cited: BAtlas 50 B4 Doliche'
+  kind: place
+  url: http://pleiades.stoa.org/places/491576
+  data:
+    coordinates: 22.169466, 40.059406
+  urn: urn:cite2:beyond-translation.scaife-viewer.org:place.v1:14
+- title: Olympos (mountain in Greece)
+  description: Olympus is the highest mountain in Greece, located in the Olympus Range.
+    In Greek mythology, it is the home of the Olympian gods.
+  kind: place
+  url: http://pleiades.stoa.org/places/491677
+  data:
+    coordinates: 22.358611, 40.085556
+  urn: urn:cite2:beyond-translation.scaife-viewer.org:place.v1:15
+- title: Pieria
+  description: Originally the territory of the Pieres, later incoporated into Macedonia
+  kind: place
+  url: http://pleiades.stoa.org/places/491696
+  data:
+    coordinates: 22.424792491340284, 40.13002811595563
+  urn: urn:cite2:beyond-translation.scaife-viewer.org:place.v1:16
+- title: Sintia
+  description: 'An ancient place, cited: BAtlas 50 D2 Sintia'
+  kind: place
+  url: http://pleiades.stoa.org/places/491719
+  data:
+    coordinates: 23.207402, 41.397636
+  urn: urn:cite2:beyond-translation.scaife-viewer.org:place.v1:17
+- title: Ismaros/Ismara/Parthenion/Phalesina
+  description: 'An ancient place, cited: BAtlas 51 unlocated Ismaros/Ismara/Parthenion/Phalesina'
+  kind: place
+  url: http://pleiades.stoa.org/places/507409
+  data:
+    coordinates: ''
+  urn: urn:cite2:beyond-translation.scaife-viewer.org:place.v1:18
+- title: Acheron (river)
+  description: A river of Epirus.
+  kind: place
+  url: http://pleiades.stoa.org/places/530769
+  data:
+    coordinates: 20.4831346, 39.2348296
+  urn: urn:cite2:beyond-translation.scaife-viewer.org:place.v1:19
+- title: Asteria (island)
+  description: 'An ancient place, cited: BAtlas 54 C5 Asteria Ins.'
+  kind: place
+  url: http://pleiades.stoa.org/places/530816
+  data:
+    coordinates: 20.5981, 38.4316
+  urn: urn:cite2:beyond-translation.scaife-viewer.org:place.v1:20
+- title: Cephallania (island)
+  description: The largest of the Ionian islands.
+  kind: place
+  url: http://pleiades.stoa.org/places/530826
+  data:
+    coordinates: 20.59, 38.2
+  urn: urn:cite2:beyond-translation.scaife-viewer.org:place.v1:21
+- title: Dodona
+  description: An ancient site of northwestern Epirus, Dodona was home to one of the
+    most ancient oracular traditions of the Hellenic world.
+  kind: place
+  url: http://pleiades.stoa.org/places/530843
+  data:
+    coordinates: 20.78773144481574, 39.54643627193697
+  urn: urn:cite2:beyond-translation.scaife-viewer.org:place.v1:22
+- title: Dolicha? Ins.
+  description: 'An ancient place, cited: BAtlas 54 D5 Dolicha? Ins.'
+  kind: place
+  url: http://pleiades.stoa.org/places/530845
+  data:
+    coordinates: 21.25, 38.25
+  urn: urn:cite2:beyond-translation.scaife-viewer.org:place.v1:23
+- title: Ephyra/Kichyros
+  description: 'An ancient place, cited: BAtlas 54 C3 Ephyra/Kichyros'
+  kind: place
+  url: http://pleiades.stoa.org/places/530870
+  data:
+    coordinates: 20.527922, 39.246912
+  urn: urn:cite2:beyond-translation.scaife-viewer.org:place.v1:24
+- title: Ithaca (island)
+  description: 'An ancient place, cited: BAtlas 54 C5 Ithaca Ins.'
+  kind: place
+  url: http://pleiades.stoa.org/places/530906
+  data:
+    coordinates: 20.71, 38.34
+  urn: urn:cite2:beyond-translation.scaife-viewer.org:place.v1:25
+- title: Nerikos?
+  description: 'An ancient place, cited: BAtlas 54 C4 Nerikos?'
+  kind: place
+  url: http://pleiades.stoa.org/places/531012
+  data:
+    coordinates: 20.735417, 38.792331
+  urn: urn:cite2:beyond-translation.scaife-viewer.org:place.v1:26
+- title: Same
+  description: 'An ancient place, cited: BAtlas 54 C5 Same'
+  kind: place
+  url: http://pleiades.stoa.org/places/531093
+  data:
+    coordinates: 20.658925, 38.254596
+  urn: urn:cite2:beyond-translation.scaife-viewer.org:place.v1:27
+- title: Syria
+  description: 'An ancient place, cited: BAtlas 54 C5 Syria'
+  kind: place
+  url: http://pleiades.stoa.org/places/531109
+  data:
+    coordinates: 20.679333, 38.1986325
+  urn: urn:cite2:beyond-translation.scaife-viewer.org:place.v1:28
+- title: Taphos (island)
+  description: 'An ancient place, cited: BAtlas 54 C4 Taphos Ins.'
+  kind: place
+  url: http://pleiades.stoa.org/places/531114
+  data:
+    coordinates: 20.77, 38.652
+  urn: urn:cite2:beyond-translation.scaife-viewer.org:place.v1:29
+- title: Thesprotia
+  description: One of the three main ancient tribes of Epirus.
+  kind: place
+  url: http://pleiades.stoa.org/places/531117
+  data:
+    coordinates: 20.789351070564038, 39.51724200831208
+  urn: urn:cite2:beyond-translation.scaife-viewer.org:place.v1:30
+- title: Zacynthus
+  description: 'An ancient place, cited: BAtlas 54 inset Zacynthus'
+  kind: place
+  url: http://pleiades.stoa.org/places/531154
+  data:
+    coordinates: 20.892091, 37.787178
+  urn: urn:cite2:beyond-translation.scaife-viewer.org:place.v1:31
+- title: Calydon
+  description: An ancient Greek city of Aetolia that derives its name from its founder
+    Calydon, son of Aetolus.
+  kind: place
+  url: http://pleiades.stoa.org/places/540699
+  data:
+    coordinates: 21.533182500000002, 38.372926
+  urn: urn:cite2:beyond-translation.scaife-viewer.org:place.v1:32
+- title: Chalcis
+  description: 'An ancient place, cited: BAtlas 55 F4 Chalcis'
+  kind: place
+  url: http://pleiades.stoa.org/places/540703
+  data:
+    coordinates: 23.621937, 38.457139
+  urn: urn:cite2:beyond-translation.scaife-viewer.org:place.v1:33
+- title: Delphi
+  description: The ancient pan-Hellenic sanctuary of Delphi in Greece, seat of the
+    oracle of Apollo.
+  kind: place
+  url: http://pleiades.stoa.org/places/540726
+  data:
+    coordinates: 22.501169, 38.482289
+  urn: urn:cite2:beyond-translation.scaife-viewer.org:place.v1:34
+- title: Euboea (island)
+  description: Euboea is the second largest Greek island by area and is separated
+    from the Greek mainland by the Euripus Strait.
+  kind: place
+  url: http://pleiades.stoa.org/places/540775
+  data:
+    coordinates: 23.87, 38.53
+  urn: urn:cite2:beyond-translation.scaife-viewer.org:place.v1:35
+- title: Iolkos
+  description: Iolkos was an ancient city located in Magnesia, Thessaly, Greece.
+  kind: place
+  url: http://pleiades.stoa.org/places/540837
+  data:
+    coordinates: 22.96886, 39.366305
+  urn: urn:cite2:beyond-translation.scaife-viewer.org:place.v1:36
+- title: Oichalia
+  description: 'An ancient place, cited: BAtlas 55 B3 Oichalia'
+  kind: place
+  url: http://pleiades.stoa.org/places/540970
+  data:
+    coordinates: 21.765085149999997, 38.9083155
+  urn: urn:cite2:beyond-translation.scaife-viewer.org:place.v1:37
+- title: Orchomenos/Orchomenus
+  description: The so-called "Boeotian Orchomenos", located in the vicinity of the
+    Byzantine church of Panaghia Skripou. The longer, modern title is used to distinguish
+    this settlement from another Greek site with the same ancient name located in
+    Arcadia in the Peloponnese.
+  kind: place
+  url: http://pleiades.stoa.org/places/540987
+  data:
+    coordinates: 22.978315, 38.49457533333334
+  urn: urn:cite2:beyond-translation.scaife-viewer.org:place.v1:38
+- title: Ossa (mountain)
+  description: A mountain in central Greece (between Olympus and Pelion), important
+    in Greek mythology. Several ancient cities and a shrine to the Muses were located
+    on its western slopes.
+  kind: place
+  url: http://pleiades.stoa.org/places/540993
+  data:
+    coordinates: 22.6851958, 39.7957751
+  urn: urn:cite2:beyond-translation.scaife-viewer.org:place.v1:39
+- title: Panopeos/Phanotis
+  description: A city of Phocis on the Boeotian frontier.
+  kind: place
+  url: http://pleiades.stoa.org/places/541008
+  data:
+    coordinates: 22.822117, 38.498702
+  urn: urn:cite2:beyond-translation.scaife-viewer.org:place.v1:40
+- title: Parnassus (mountain)
+  description: A mountain of central Greece located north of the Gulf of Corinth.
+    In Greek mythology Parnassus was sacred to Apollo and was the home of the Muses.
+  kind: place
+  url: http://pleiades.stoa.org/places/541012
+  data:
+    coordinates: 22.621902, 38.535435
+  urn: urn:cite2:beyond-translation.scaife-viewer.org:place.v1:41
+- title: Pherai
+  description: Pherai was an ancient city of Thessaly in the district of Pelasgiotis.
+  kind: place
+  url: http://pleiades.stoa.org/places/541044
+  data:
+    coordinates: 22.753851, 39.379043
+  urn: urn:cite2:beyond-translation.scaife-viewer.org:place.v1:42
+- title: Phthiotis
+  description: 'An ancient place, cited: BAtlas 55 C2 Phthiotis'
+  kind: place
+  url: http://pleiades.stoa.org/places/541052
+  data:
+    coordinates: 22.6337672, 38.8678937
+  urn: urn:cite2:beyond-translation.scaife-viewer.org:place.v1:43
+- title: Phylake
+  description: 'An ancient place, cited: BAtlas 55 D2 Phylake'
+  kind: place
+  url: http://pleiades.stoa.org/places/541053
+  data:
+    coordinates: 22.762367, 39.289349
+  urn: urn:cite2:beyond-translation.scaife-viewer.org:place.v1:44
+- title: Scyrus (island)
+  description: The island of Skyros in the Aegean Sea.
+  kind: place
+  url: http://pleiades.stoa.org/places/541093
+  data:
+    coordinates: 24.56, 38.85
+  urn: urn:cite2:beyond-translation.scaife-viewer.org:place.v1:45
+- title: Thebai/Thebae
+  description: The ancient city of Thebes in Boeotia (modern Greece).
+  kind: place
+  url: http://pleiades.stoa.org/places/541138
+  data:
+    coordinates: 23.317577, 38.319156
+  urn: urn:cite2:beyond-translation.scaife-viewer.org:place.v1:46
+- title: Aegae
+  description: 'An ancient place, cited: BAtlas 56 E4 Aegae'
+  kind: place
+  url: http://pleiades.stoa.org/places/550404
+  data:
+    coordinates: 27.19367, 38.83379
+  urn: urn:cite2:beyond-translation.scaife-viewer.org:place.v1:47
+- title: Chios (island)
+  description: Chios is the fifth largest of the Greek islands.
+  kind: place
+  url: http://pleiades.stoa.org/places/550497
+  data:
+    coordinates: 26.053, 38.414
+  urn: urn:cite2:beyond-translation.scaife-viewer.org:place.v1:48
+- title: Ilium/Troia
+  description: An ancient city of northwest Anatolia with occupation ranging from
+    the Bronze Age to the Roman period. Troy features as the central setting of Homer's
+    Iliad.
+  kind: place
+  url: http://pleiades.stoa.org/places/550595
+  data:
+    coordinates: 26.23845862267349, 39.95743278441429
+  urn: urn:cite2:beyond-translation.scaife-viewer.org:place.v1:49
+- title: Lemnos (island)
+  description: 'An ancient place, cited: BAtlas 56 A2 Lemnos Ins.'
+  kind: place
+  url: http://pleiades.stoa.org/places/550693
+  data:
+    coordinates: 25.25, 39.916667
+  urn: urn:cite2:beyond-translation.scaife-viewer.org:place.v1:50
+- title: Lesbos (island)
+  description: Lesbos is an island of the northeastern Aegean Sea and was named for
+    the son of Lapithos, the descendant of Deucalion and Helen.
+  kind: place
+  url: http://pleiades.stoa.org/places/550696
+  data:
+    coordinates: 26.250159394099608, 39.16901707159906
+  urn: urn:cite2:beyond-translation.scaife-viewer.org:place.v1:51
+- title: Mimas (mountain)
+  description: Boz Dağ.
+  kind: place
+  url: http://pleiades.stoa.org/places/550744
+  data:
+    coordinates: 26.469511, 38.5885485
+  urn: urn:cite2:beyond-translation.scaife-viewer.org:place.v1:52
+- title: Psyra (island)
+  description: 'An ancient place, cited: BAtlas 56 B4 Psyra Ins.'
+  kind: place
+  url: http://pleiades.stoa.org/places/550846
+  data:
+    coordinates: 25.586, 38.567
+  urn: urn:cite2:beyond-translation.scaife-viewer.org:place.v1:53
+- title: Tenedos (island)
+  description: An island located in the Aegean Sea 5 km off the coast of Troas.
+  kind: place
+  url: http://pleiades.stoa.org/places/550912
+  data:
+    coordinates: 26.05, 39.816667
+  urn: urn:cite2:beyond-translation.scaife-viewer.org:place.v1:54
+- title: Achaea/Achaia (region)
+  description: An ancient Greek region on the northern coast of the Peloponnese.
+  kind: place
+  url: http://pleiades.stoa.org/places/570028
+  data:
+    coordinates: 22.224585911364017, 38.102121472776034
+  urn: urn:cite2:beyond-translation.scaife-viewer.org:place.v1:55
+- title: Alphe(i)os (river)
+  description: The longest river of the Peloponnesus.
+  kind: place
+  url: http://pleiades.stoa.org/places/570067
+  data:
+    coordinates: 21.451667, 37.6125
+  urn: urn:cite2:beyond-translation.scaife-viewer.org:place.v1:56
+- title: Argos
+  description: Argos was a city of ancient Greece that reached its cultural highpoint
+    under Pheidon in the seventh century BC.
+  kind: place
+  url: http://pleiades.stoa.org/places/570106
+  data:
+    coordinates: 22.719464, 37.631561
+  urn: urn:cite2:beyond-translation.scaife-viewer.org:place.v1:57
+- title: Elis (city)
+  description: Elis was an ancient city that served as the capital of the district
+    of the same name.
+  kind: place
+  url: http://pleiades.stoa.org/places/570220
+  data:
+    coordinates: 21.375091, 37.891781
+  urn: urn:cite2:beyond-translation.scaife-viewer.org:place.v1:58
+- title: Erymanthos M.
+  description: 'An ancient place, cited: BAtlas 58 B2 Erymanthos M.'
+  kind: place
+  url: http://pleiades.stoa.org/places/570238
+  data:
+    coordinates: 21.833333, 37.966667
+  urn: urn:cite2:beyond-translation.scaife-viewer.org:place.v1:59
+- title: Geraistos Pr.
+  description: 'An ancient place, cited: BAtlas 58 H2 Geraistos Pr.'
+  kind: place
+  url: http://pleiades.stoa.org/places/570259
+  data:
+    coordinates: 24.75, 37.75
+  urn: urn:cite2:beyond-translation.scaife-viewer.org:place.v1:60
+- title: Geren(i)a
+  description: 'An ancient place, cited: BAtlas 58 C4 Geren(i)a'
+  kind: place
+  url: http://pleiades.stoa.org/places/570261
+  data:
+    coordinates: 22.208656, 36.927195
+  urn: urn:cite2:beyond-translation.scaife-viewer.org:place.v1:61
+- title: Kyllene (mountain)
+  description: A mountain in Arcadia (Greece), still known as Kyllene today.
+  kind: place
+  url: http://pleiades.stoa.org/places/570391
+  data:
+    coordinates: 22.3969314, 37.9397231
+  urn: urn:cite2:beyond-translation.scaife-viewer.org:place.v1:62
+- title: Kythera
+  description: 'An ancient place, cited: BAtlas 58 inset Kythera'
+  kind: place
+  url: http://pleiades.stoa.org/places/570400
+  data:
+    coordinates: 22.978222, 36.262287
+  urn: urn:cite2:beyond-translation.scaife-viewer.org:place.v1:63
+- title: Lacedaemon/Laconia
+  description: Lacedaemon/Laconia is a region comprising the south-eastern part of
+    the Peloponnese.
+  kind: place
+  url: http://pleiades.stoa.org/places/570406
+  data:
+    coordinates: 22.460186899999997, 37.075742175
+  urn: urn:cite2:beyond-translation.scaife-viewer.org:place.v1:64
+- title: Lapithos (mountain)
+  description: Lapithas.
+  kind: place
+  url: http://pleiades.stoa.org/places/570414
+  data:
+    coordinates: 21.75, 37.75
+  urn: urn:cite2:beyond-translation.scaife-viewer.org:place.v1:65
+- title: Malea
+  description: 'An ancient place, cited: BAtlas 58 C3 Malea'
+  kind: place
+  url: http://pleiades.stoa.org/places/570454
+  data:
+    coordinates: 22.168781, 37.327556
+  urn: urn:cite2:beyond-translation.scaife-viewer.org:place.v1:66
+- title: Malea Pr.
+  description: Cape Maleas is a cape located in the southeast of the Peloponnese.
+  kind: place
+  url: http://pleiades.stoa.org/places/570455
+  data:
+    coordinates: 23.25, 36.25
+  urn: urn:cite2:beyond-translation.scaife-viewer.org:place.v1:67
+- title: Messene
+  description: Capital of Messenia
+  kind: place
+  url: http://pleiades.stoa.org/places/570479
+  data:
+    coordinates: 21.920439, 37.175491
+  urn: urn:cite2:beyond-translation.scaife-viewer.org:place.v1:68
+- title: Mycenae
+  description: Mycenae was an ancient settlement of the Argolid, with the earliest
+    occupation evident ca. 2900 B.C. As the eponymous site of the Mycenaean culture
+    of the Aegean Bronze Age, the site flourished as a fortified citadel during the
+    mid to late second millennium B.C. In the first millennium B.C., the site experienced
+    a revival of fortunes, although by Strabo's time the settlement had vanished.
+  kind: place
+  url: http://pleiades.stoa.org/places/570491
+  data:
+    coordinates: 22.7540710459, 37.730034571139996
+  urn: urn:cite2:beyond-translation.scaife-viewer.org:place.v1:69
+- title: Olympia
+  description: Ancient sanctuary of Zeus and home of the ancient Olympic games.
+  kind: place
+  url: http://pleiades.stoa.org/places/570531
+  data:
+    coordinates: 21.630874780357008, 37.63868942058394
+  urn: urn:cite2:beyond-translation.scaife-viewer.org:place.v1:70
+- title: Pylos
+  description: An archaic through Roman settlement located at the Armatova hill, west
+    of Agrapidochori in Ileia in the Peloponnese.
+  kind: place
+  url: http://pleiades.stoa.org/places/570639
+  data:
+    coordinates: 21.518025, 37.899734
+  urn: urn:cite2:beyond-translation.scaife-viewer.org:place.v1:71
+- title: Pylos/Koryphasion
+  description: A Classical settlement, probably the Pylos of Thucydides, on the Koryphasion
+    promontory, (modern Akr. Koryphasiou in Messenia) in the Peloponnese.
+  kind: place
+  url: http://pleiades.stoa.org/places/570640
+  data:
+    coordinates: 21.659888, 36.9520305
+  urn: urn:cite2:beyond-translation.scaife-viewer.org:place.v1:72
+- title: Sparta
+  description: Sparta was a prominent city-state (polis) of ancient Greece.
+  kind: place
+  url: http://pleiades.stoa.org/places/570685
+  data:
+    coordinates: 22.4272985, 37.077905
+  urn: urn:cite2:beyond-translation.scaife-viewer.org:place.v1:73
+- title: Styx (river)
+  description: 'An ancient place, cited: BAtlas 58 C1 Styx fl.'
+  kind: place
+  url: http://pleiades.stoa.org/places/570698
+  data:
+    coordinates: 22.25, 38.25
+  urn: urn:cite2:beyond-translation.scaife-viewer.org:place.v1:74
+- title: Hyperasia
+  description: 'An ancient place, cited: BAtlas 58 unlocated Hyperasia'
+  kind: place
+  url: http://pleiades.stoa.org/places/573256
+  data:
+    coordinates: ''
+  urn: urn:cite2:beyond-translation.scaife-viewer.org:place.v1:75
+- title: Hypereia
+  description: An ancient settlement, attested by literary or documentary sources,
+    whose precise location cannot be determined today
+  kind: place
+  url: http://pleiades.stoa.org/places/573257
+  data:
+    coordinates: ''
+  urn: urn:cite2:beyond-translation.scaife-viewer.org:place.v1:76
+- title: Athena, T.
+  description: The Temple of Athena at Sounion is an Ionic temple of the fifth century
+    B.C. built atop the foundations of an earlier temple.
+  kind: place
+  url: http://pleiades.stoa.org/places/579884
+  data:
+    coordinates: 24.02708285, 37.6529248
+  urn: urn:cite2:beyond-translation.scaife-viewer.org:place.v1:77
+- title: Athenae
+  description: A major Greek city-state and the principal city of Attika. Modern Athens
+    in Greece.
+  kind: place
+  url: http://pleiades.stoa.org/places/579885
+  data:
+    coordinates: 23.722746101726134, 37.972633872615816
+  urn: urn:cite2:beyond-translation.scaife-viewer.org:place.v1:78
+- title: Marathon
+  description: 'An ancient place, cited: BAtlas 59 C2 Marathon'
+  kind: place
+  url: http://pleiades.stoa.org/places/580021
+  data:
+    coordinates: 23.970146, 38.1465515
+  urn: urn:cite2:beyond-translation.scaife-viewer.org:place.v1:79
+- title: Creta (island)
+  description: The island of Crete is the largest of the Greek islands and the fifth-largest
+    island in the Mediterranean Sea.
+  kind: place
+  url: http://pleiades.stoa.org/places/589748
+  data:
+    coordinates: 24.984579005240445, 35.219518451031014
+  urn: urn:cite2:beyond-translation.scaife-viewer.org:place.v1:80
+- title: Eileithyias Antron
+  description: The Cave of Eileithyia on Crete is an ancient sanctuary sacred to the
+    goddess of childbirth. The shrine was active during Neolithic, Minoan, and Mycenaean
+    phases.
+  kind: place
+  url: http://pleiades.stoa.org/places/589769
+  data:
+    coordinates: 25.21053, 35.318405
+  urn: urn:cite2:beyond-translation.scaife-viewer.org:place.v1:81
+- title: Gortyn(a)
+  description: The Roman capital of Creta et Cyrenaica province, then Creta, and later
+    seat of the Archbishop of Crete, Gortyna was a thriving community from the Geometric
+    period to the Middle Byzantine period. The first traces of urban settlement date
+    from the Archaic period. The ancient Greek law code known as the "Gortyn Code"
+    was discovered there in 1884.
+  kind: place
+  url: http://pleiades.stoa.org/places/589796
+  data:
+    coordinates: 24.946943722222223, 35.062720166666665
+  urn: urn:cite2:beyond-translation.scaife-viewer.org:place.v1:82
+- title: ‘Ketia’? Pr.
+  description: 'An ancient place, cited: BAtlas 60 F2 ‘Ketia’? Pr.'
+  kind: place
+  url: http://pleiades.stoa.org/places/589864
+  data:
+    coordinates: 26.25, 35.25
+  urn: urn:cite2:beyond-translation.scaife-viewer.org:place.v1:83
+- title: Knosos/Col. Iulia Nobilis Cnosos
+  description: A major ancient settlement of Crete located some 5 km southeast of
+    Heraklion, Knossos was occupied from the Neolithic period to the time of the Roman
+    empire.
+  kind: place
+  url: http://pleiades.stoa.org/places/589872
+  data:
+    coordinates: 25.163106, 35.297847
+  urn: urn:cite2:beyond-translation.scaife-viewer.org:place.v1:84
+- title: Kydonia
+  description: An ancient settlement on Crete inhabited since the Neolithic period,
+    Kydonia has been a major center of Minoan, Greek, and Byzantine civilization.
+  kind: place
+  url: http://pleiades.stoa.org/places/589886
+  data:
+    coordinates: 24.01869, 35.515775
+  urn: urn:cite2:beyond-translation.scaife-viewer.org:place.v1:85
+- title: Lato
+  description: Lato was an ancient city of Crete, a Dorian city-state located on Mirabello
+    Bay. The principal ruins date to the fifth and fourth centuries B.C. and the city
+    was destroyed ca. 200 B.C.
+  kind: place
+  url: http://pleiades.stoa.org/places/589899
+  data:
+    coordinates: 25.65567205, 35.1785382
+  urn: urn:cite2:beyond-translation.scaife-viewer.org:place.v1:86
+- title: Phaistos
+  description: An ancient settlement on Crete where occupation began ca. 3000 B.C.,
+    Phaistos was a major center of the Minoan civilization and continued to be a Greek
+    city of the first millennium B.C.
+  kind: place
+  url: http://pleiades.stoa.org/places/589987
+  data:
+    coordinates: 24.8141725, 35.0511785
+  urn: urn:cite2:beyond-translation.scaife-viewer.org:place.v1:87
+- title: Delos (settlement)
+  description: The ancient settlement of Delos, located on the Aegean island of the
+    same name.
+  kind: place
+  url: http://pleiades.stoa.org/places/599587
+  data:
+    coordinates: 25.268194, 37.397274
+  urn: urn:cite2:beyond-translation.scaife-viewer.org:place.v1:88
+- title: Dia? (island)
+  description: 'An ancient place, cited: BAtlas 61 B4 Dia? Ins.'
+  kind: place
+  url: http://pleiades.stoa.org/places/599590
+  data:
+    coordinates: 25.9021818, 36.8896626
+  urn: urn:cite2:beyond-translation.scaife-viewer.org:place.v1:89
+- title: Ortygia
+  description: 'An ancient place, cited: BAtlas 61 E2 Ortygia'
+  kind: place
+  url: http://pleiades.stoa.org/places/599840
+  data:
+    coordinates: 27.339225, 37.829783
+  urn: urn:cite2:beyond-translation.scaife-viewer.org:place.v1:90
+- title: Samos (island)
+  description: The island of Samos.
+  kind: place
+  url: http://pleiades.stoa.org/places/599926
+  data:
+    coordinates: 26.84, 37.73
+  urn: urn:cite2:beyond-translation.scaife-viewer.org:place.v1:91
+- title: Phoenice (region)
+  description: Ancient Phoenicia.
+  kind: place
+  url: http://pleiades.stoa.org/places/678334
+  data:
+    coordinates: 35.25, 33.25
+  urn: urn:cite2:beyond-translation.scaife-viewer.org:place.v1:92
+- title: Sidon/Col. Aurelia Pia
+  description: Sidon/Col. Aurelia Pia is an ancient maritime city and Phoenician metropolis
+  kind: place
+  url: http://pleiades.stoa.org/places/678393
+  data:
+    coordinates: 35.37324, 33.560328
+  urn: urn:cite2:beyond-translation.scaife-viewer.org:place.v1:93
+- title: Cyprus (island)
+  description: Third largest island in the Mediterranean Sea.
+  kind: place
+  url: http://pleiades.stoa.org/places/707498
+  data:
+    coordinates: 33.25778319195364, 35.03226569576321
+  urn: urn:cite2:beyond-translation.scaife-viewer.org:place.v1:94
+- title: (Nea) Paphos
+  description: The legendary birthplace of the goddess Aphrodite, (Nea) Paphos has
+    been a center of activity since the Final Bronze Age when Mycenaeans honored the
+    goddess there. The site was listed on the UNESCO World Heritage List in 1980.
+  kind: place
+  url: http://pleiades.stoa.org/places/707586
+  data:
+    coordinates: 32.406593, 34.757212
+  urn: urn:cite2:beyond-translation.scaife-viewer.org:place.v1:95
+- title: Libya
+  description: 'An ancient place, cited: None'
+  kind: place
+  url: http://pleiades.stoa.org/places/716588
+  data:
+    coordinates: 26.5, 31.5
+  urn: urn:cite2:beyond-translation.scaife-viewer.org:place.v1:96
+- title: Nilus (river)
+  description: The Nile is a major river of northeastern Africa and is generally acknowledged
+    as the longest river in the world, measuring some 6,650 km (4,130 miles) from
+    source to mouth.
+  kind: place
+  url: http://pleiades.stoa.org/places/727172
+  data:
+    coordinates: 30.567329633333333, 19.211408766666665
+  urn: urn:cite2:beyond-translation.scaife-viewer.org:place.v1:97
+- title: Pharos
+  description: The Pharos lighthouse of Alexandria, one of the Seven Wonders of the
+    Ancient World, was built under the Ptolemies between 280 and 247 BC.
+  kind: place
+  url: http://pleiades.stoa.org/places/727197
+  data:
+    coordinates: 29.885368, 31.214039
+  urn: urn:cite2:beyond-translation.scaife-viewer.org:place.v1:98
+- title: Kimmeris/Kimmerikon/Kimmerike/Cimmerium/Kerberias/Cerberion
+  description: 'An ancient place, cited: BAtlas 87 unlocated Kimmeris/Kimmerikon/Kimmerike/Cimmerium/Kerberias/Cerberion'
+  kind: place
+  url: http://pleiades.stoa.org/places/857711
+  data:
+    coordinates: ''
+  urn: urn:cite2:beyond-translation.scaife-viewer.org:place.v1:99
+- title: Cyprus (Roman province)
+  description: The Roman province.
+  kind: place
+  url: http://pleiades.stoa.org/places/981516
+  data:
+    coordinates: ''
+  urn: urn:cite2:beyond-translation.scaife-viewer.org:place.v1:100
+- title: Libya Inferior
+  description: 'An ancient place, cited: BAtlas 101 M5 Libya Inferior'
+  kind: place
+  url: http://pleiades.stoa.org/places/991388
+  data:
+    coordinates: 27.5, 32.5
+  urn: urn:cite2:beyond-translation.scaife-viewer.org:place.v1:101
+- title: Egypt
+  description: Country spanning the northeast corner of Africa and southwest corner
+    of Asia
+  kind: place
+  url: http://sws.geonames.org/357994
+  data:
+    coordinates: 27, 30
+  urn: urn:cite2:beyond-translation.scaife-viewer.org:place.v1:102
+- title: East Macedonia and Thrace
+  description: administrative region of Greece
+  kind: place
+  url: http://sws.geonames.org/6697803
+  data:
+    coordinates: 40.94671, 25.33447
+  urn: urn:cite2:beyond-translation.scaife-viewer.org:place.v1:103
