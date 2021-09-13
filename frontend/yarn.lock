@@ -1405,6 +1405,14 @@
     mapbox-gl "^1.11.0"
     vue-mapbox "^0.4.1"
 
+"@scaife-viewer/entity-map@^0.4.0":
+  version "0.4.0"
+  resolved "https://registry.yarnpkg.com/@scaife-viewer/entity-map/-/entity-map-0.4.0.tgz#f87ab00f0d9727fd5f9520d0746002465ab4bd83"
+  integrity sha512-ty3qKRs4VFH+wjPQWZvJyC5MClm7A9ykpy3l+OSbYD+dLCa4PKmui2w0nWXo5lnyrClVKwYxofBUkuCB7ffoeA==
+  dependencies:
+    mapbox-gl "^1.11.0"
+    vue-mapbox "^0.4.1"
+
 "@scaife-viewer/reader-alignments-mode@https://gitpkg.now.sh/scaife-viewer/frontend/packages/reader-alignments-mode?67528eae4456c6575d403cc68ac4efafff4123e0":
   version "0.4.0"
   resolved "https://gitpkg.now.sh/scaife-viewer/frontend/packages/reader-alignments-mode?67528eae4456c6575d403cc68ac4efafff4123e0#01ee266e12f78cafe5b3138d3e2795aff289cc41"
@@ -1552,6 +1560,16 @@
     "@scaife-viewer/common" "^0.0.7"
     "@scaife-viewer/entity-map" "^0.0.3"
     "@scaife-viewer/store" "^0.0.10"
+    graphql-tag "^2.10.3"
+
+"@scaife-viewer/widget-named-entities@https://gitpkg.now.sh/scaife-viewer/frontend/packages/widget-named-entities?b888c5b4a0e4a5f03e4f010c414adfebaeda3369":
+  version "0.4.0"
+  resolved "https://gitpkg.now.sh/scaife-viewer/frontend/packages/widget-named-entities?b888c5b4a0e4a5f03e4f010c414adfebaeda3369#0eec595f2bd96faa204b6dc8561e7262d0a53459"
+  dependencies:
+    "@fortawesome/free-solid-svg-icons" "^5.14.0"
+    "@scaife-viewer/common" "^0.4.0"
+    "@scaife-viewer/entity-map" "^0.4.0"
+    "@scaife-viewer/store" "^0.4.0"
     graphql-tag "^2.10.3"
 
 "@scaife-viewer/widget-new-alexandria@^0.0.11":
