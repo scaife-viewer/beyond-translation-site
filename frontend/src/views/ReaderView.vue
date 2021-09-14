@@ -30,7 +30,7 @@
   import AudioWidget from '@scaife-viewer/widget-audio';
   import WordListWidget from '@scaife-viewer/widget-word-list';
 
-  import EHNewAlexandriaWidget from '../widgets/EHNewAlexandriaWidget.vue';
+  // import EHNewAlexandriaWidget from '../widgets/EHNewAlexandriaWidget.vue';
 
   export default {
     name: 'ReaderView',
@@ -74,7 +74,7 @@
           NamedEntitiesWidget,
           TokenAnnotationWidget,
           WordListWidget,
-          EHNewAlexandriaWidget,
+          // EHNewAlexandriaWidget,
           ScholiaWidget,
         ];
       },
