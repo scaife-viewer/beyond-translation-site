@@ -1413,9 +1413,9 @@
     mapbox-gl "^1.11.0"
     vue-mapbox "^0.4.1"
 
-"@scaife-viewer/reader-alignments-mode@https://gitpkg.now.sh/scaife-viewer/frontend/packages/reader-alignments-mode?67528eae4456c6575d403cc68ac4efafff4123e0":
+"@scaife-viewer/reader-alignments-mode@https://gitpkg.now.sh/scaife-viewer/frontend/packages/reader-alignments-mode?df1e23cf6a43d8729074bb0709a94601d3101c38":
   version "0.4.0"
-  resolved "https://gitpkg.now.sh/scaife-viewer/frontend/packages/reader-alignments-mode?67528eae4456c6575d403cc68ac4efafff4123e0#01ee266e12f78cafe5b3138d3e2795aff289cc41"
+  resolved "https://gitpkg.now.sh/scaife-viewer/frontend/packages/reader-alignments-mode?df1e23cf6a43d8729074bb0709a94601d3101c38#04fc2db90e5c74b8cfae00e8e15e807793d301d8"
   dependencies:
     "@scaife-viewer/common" "^0.4.0"
     "@scaife-viewer/store" "^0.4.0"
@@ -1551,20 +1551,9 @@
   dependencies:
     "@scaife-viewer/store" "^0.0.10"
 
-"@scaife-viewer/widget-named-entities@^0.0.11":
-  version "0.0.11"
-  resolved "https://registry.yarnpkg.com/@scaife-viewer/widget-named-entities/-/widget-named-entities-0.0.11.tgz#0deea7008ef3f4026c812372b05fd0dde2924ad4"
-  integrity sha512-M/VuDrac9CrzA2IzUXgLGh5ArfifY+kIugu+M1DKY2DvHBkurC3ZP1x5RVmJkzurTDRoQqD7fJxhysVqyO5MRg==
-  dependencies:
-    "@fortawesome/free-solid-svg-icons" "^5.14.0"
-    "@scaife-viewer/common" "^0.0.7"
-    "@scaife-viewer/entity-map" "^0.0.3"
-    "@scaife-viewer/store" "^0.0.10"
-    graphql-tag "^2.10.3"
-
-"@scaife-viewer/widget-named-entities@https://gitpkg.now.sh/scaife-viewer/frontend/packages/widget-named-entities?b888c5b4a0e4a5f03e4f010c414adfebaeda3369":
+"@scaife-viewer/widget-named-entities@https://gitpkg.now.sh/scaife-viewer/frontend/packages/widget-named-entities?df1e23cf6a43d8729074bb0709a94601d3101c38":
   version "0.4.0"
-  resolved "https://gitpkg.now.sh/scaife-viewer/frontend/packages/widget-named-entities?b888c5b4a0e4a5f03e4f010c414adfebaeda3369#0eec595f2bd96faa204b6dc8561e7262d0a53459"
+  resolved "https://gitpkg.now.sh/scaife-viewer/frontend/packages/widget-named-entities?df1e23cf6a43d8729074bb0709a94601d3101c38#53bcde8e99b37a4875fc7a263a7d46cf2d8d208a"
   dependencies:
     "@fortawesome/free-solid-svg-icons" "^5.14.0"
     "@scaife-viewer/common" "^0.4.0"
@@ -1631,6 +1620,16 @@
 "@scaife-viewer/widget-reader@https://gitpkg.now.sh/scaife-viewer/frontend/packages/widget-reader?67528eae4456c6575d403cc68ac4efafff4123e0":
   version "0.4.0"
   resolved "https://gitpkg.now.sh/scaife-viewer/frontend/packages/widget-reader?67528eae4456c6575d403cc68ac4efafff4123e0#0ae02edbf32ece184e0e13c8a669d0449002aea5"
+  dependencies:
+    "@scaife-viewer/common" "^0.4.0"
+    "@scaife-viewer/store" "^0.4.0"
+    graphql "^15.0.0"
+    graphql-tag "^2.10.3"
+    vue-apollo "^3.0.4"
+
+"@scaife-viewer/widget-reader@https://gitpkg.now.sh/scaife-viewer/frontend/packages/widget-reader?df1e23cf6a43d8729074bb0709a94601d3101c38":
+  version "0.4.0"
+  resolved "https://gitpkg.now.sh/scaife-viewer/frontend/packages/widget-reader?df1e23cf6a43d8729074bb0709a94601d3101c38#7b809cf3c37854333ddf98d82fa58e0929e7e266"
   dependencies:
     "@scaife-viewer/common" "^0.4.0"
     "@scaife-viewer/store" "^0.4.0"
