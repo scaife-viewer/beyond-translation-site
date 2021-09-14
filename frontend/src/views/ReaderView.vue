@@ -26,6 +26,11 @@
   import LibraryWidget from '@scaife-viewer/widget-library';
   import NamedEntitiesWidget from '@scaife-viewer/widget-named-entities';
   import DisplayModeWidget from '@scaife-viewer/widget-display-mode';
+  import ScholiaWidget from '@scaife-viewer/widget-scholia';
+  import AudioWidget from '@scaife-viewer/widget-audio';
+  import WordListWidget from '@scaife-viewer/widget-word-list';
+
+  import EHNewAlexandriaWidget from '../widgets/EHNewAlexandriaWidget.vue';
 
   export default {
     name: 'ReaderView',
@@ -56,6 +61,7 @@
           PassageAncestorsWidget,
           PassageSiblingsWidget,
           PassageChildrenWidget,
+          // TOCWidget,
         ];
       },
       rightWidgets() {
@@ -63,9 +69,13 @@
           MetadataWidget,
           TextSizeWidget,
           TextWidthWidget,
+          AudioWidget,
           DisplayModeWidget,
           NamedEntitiesWidget,
           TokenAnnotationWidget,
+          WordListWidget,
+          EHNewAlexandriaWidget,
+          ScholiaWidget,
         ];
       },
     },
