@@ -1,4 +1,5 @@
 import graphene
+
 import scaife_viewer.atlas.schema
 
 

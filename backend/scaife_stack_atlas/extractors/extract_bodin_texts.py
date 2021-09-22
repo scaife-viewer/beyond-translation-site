@@ -38,7 +38,6 @@ def extract_alignment_records(t1_data, t2_data):
     alignments = {}
     for pos, t1_sentence in enumerate(t1_data["sentences"]):
         _, text = t1_sentence.split(" ", maxsplit=1)
-        tokens = text.split()
 
         t1_idx = pos
         # figure out what the original s_id value was
