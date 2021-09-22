@@ -134,6 +134,27 @@
           "value": "Homer, author; Towards a grammatically literal translation of the Iliad, starting with Iliad 1."
         }
       ]
+    },
+    {
+      "urn": "urn:cts:greekLit:tlg0012.tlg001.shamsian-far1:",
+      "format": "text",
+      "node_kind": "version",
+      "version_kind": "translation",
+      "lang": "far",
+      "first_passage_urn": "urn:cts:greekLit:tlg0012.tlg001.shamsian-far1:1.1",
+      "citation_scheme": ["book", "card"],
+      "label": [
+        {
+          "lang": "eng",
+          "value": "Iliad (Persian)"
+        }
+      ],
+      "description": [
+        {
+          "lang": "eng",
+          "value": "Translation of Iliad 1 by Farnoosh Shamsian."
+        }
+      ]
     }
   ]
 }
