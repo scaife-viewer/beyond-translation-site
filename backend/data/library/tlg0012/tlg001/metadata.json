@@ -155,6 +155,26 @@
           "value": "Translation of Iliad 1 by Farnoosh Shamsian."
         }
       ]
+    },
+    {
+      "urn": "urn:cts:greekLit:tlg0012.tlg001.perseus-grc1-sentences:",
+      "node_kind": "version",
+      "version_kind": "edition",
+      "lang": "grc",
+      "first_passage_urn": "urn:cts:greekLit:tlg0012.tlg001.perseus-grc1-sentences:1.2274106-1.2274106e",
+      "citation_scheme": ["book", "sentence"],
+      "label": [
+        {
+          "lang": "eng",
+          "value": "Iliad (Greek Sentences)"
+        }
+      ],
+      "description": [
+        {
+          "lang": "eng",
+          "value": "Sentences from gAGDT"
+        }
+      ]
     }
   ]
 }
