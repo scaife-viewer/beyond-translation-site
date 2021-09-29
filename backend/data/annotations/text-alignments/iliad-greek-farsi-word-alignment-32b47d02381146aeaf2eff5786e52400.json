@@ -3,7 +3,7 @@
   "label": "Iliad Greek / Farsi Word Alignment",
   "format": "atlas-standoff-annotation",
   "versions": [
-    "urn:cts:greekLit:tlg0012.tlg001.perseus-grc2:",
+    "urn:cts:greekLit:tlg0012.tlg001.perseus-grc1-sentences:",
     "urn:cts:greekLit:tlg0012.tlg001.shamsian-far1:"
   ],
   "records": [
@@ -11,7 +11,7 @@
       "urn": "urn:cite2:scaife-viewer:alignment-record.v1:iliad-greek-farsi-word-alignment-32b47d02381146aeaf2eff5786e52400_0",
       "relations": [
         [
-          "urn:cts:greekLit:tlg0012.tlg001.perseus-grc2:1.1.t1"
+          "urn:cts:greekLit:tlg0012.tlg001.perseus-grc1-sentences:1.2274106.t1"
         ],
         [
           "urn:cts:greekLit:tlg0012.tlg001.shamsian-far1:1.2274106.t1"
@@ -22,7 +22,7 @@
       "urn": "urn:cite2:scaife-viewer:alignment-record.v1:iliad-greek-farsi-word-alignment-32b47d02381146aeaf2eff5786e52400_1",
       "relations": [
         [
-          "urn:cts:greekLit:tlg0012.tlg001.perseus-grc2:1.1.t2"
+          "urn:cts:greekLit:tlg0012.tlg001.perseus-grc1-sentences:1.2274106.t2"
         ],
         [
           "urn:cts:greekLit:tlg0012.tlg001.shamsian-far1:1.2274106.t6"
@@ -33,7 +33,7 @@
       "urn": "urn:cite2:scaife-viewer:alignment-record.v1:iliad-greek-farsi-word-alignment-32b47d02381146aeaf2eff5786e52400_2",
       "relations": [
         [
-          "urn:cts:greekLit:tlg0012.tlg001.perseus-grc2:1.1.t3"
+          "urn:cts:greekLit:tlg0012.tlg001.perseus-grc1-sentences:1.2274106.t3"
         ],
         [
           "urn:cts:greekLit:tlg0012.tlg001.shamsian-far1:1.2274106.t7",
@@ -45,7 +45,7 @@
       "urn": "urn:cite2:scaife-viewer:alignment-record.v1:iliad-greek-farsi-word-alignment-32b47d02381146aeaf2eff5786e52400_3",
       "relations": [
         [
-          "urn:cts:greekLit:tlg0012.tlg001.perseus-grc2:1.1.t4"
+          "urn:cts:greekLit:tlg0012.tlg001.perseus-grc1-sentences:1.2274106.t4"
         ],
         [
           "urn:cts:greekLit:tlg0012.tlg001.shamsian-far1:1.2274106.t3",
@@ -57,7 +57,7 @@
       "urn": "urn:cite2:scaife-viewer:alignment-record.v1:iliad-greek-farsi-word-alignment-32b47d02381146aeaf2eff5786e52400_4",
       "relations": [
         [
-          "urn:cts:greekLit:tlg0012.tlg001.perseus-grc2:1.1.t5"
+          "urn:cts:greekLit:tlg0012.tlg001.perseus-grc1-sentences:1.2274106.t5"
         ],
         [
           "urn:cts:greekLit:tlg0012.tlg001.shamsian-far1:1.2274106.t2",
@@ -69,7 +69,7 @@
       "urn": "urn:cite2:scaife-viewer:alignment-record.v1:iliad-greek-farsi-word-alignment-32b47d02381146aeaf2eff5786e52400_5",
       "relations": [
         [
-          "urn:cts:greekLit:tlg0012.tlg001.perseus-grc2:1.2.t1"
+          "urn:cts:greekLit:tlg0012.tlg001.perseus-grc1-sentences:1.2274106.t6"
         ],
         [
           "urn:cts:greekLit:tlg0012.tlg001.shamsian-far1:1.2274106a.t1",
@@ -81,7 +81,7 @@
       "urn": "urn:cite2:scaife-viewer:alignment-record.v1:iliad-greek-farsi-word-alignment-32b47d02381146aeaf2eff5786e52400_6",
       "relations": [
         [
-          "urn:cts:greekLit:tlg0012.tlg001.perseus-grc2:1.2.t2"
+          "urn:cts:greekLit:tlg0012.tlg001.perseus-grc1-sentences:1.2274106a.t1"
         ],
         [
           "urn:cts:greekLit:tlg0012.tlg001.shamsian-far1:1.2274106a.t3"
@@ -92,7 +92,7 @@
       "urn": "urn:cite2:scaife-viewer:alignment-record.v1:iliad-greek-farsi-word-alignment-32b47d02381146aeaf2eff5786e52400_7",
       "relations": [
         [
-          "urn:cts:greekLit:tlg0012.tlg001.perseus-grc2:1.2.t3"
+          "urn:cts:greekLit:tlg0012.tlg001.perseus-grc1-sentences:1.2274106a.t2"
         ],
         [
           "urn:cts:greekLit:tlg0012.tlg001.shamsian-far1:1.2274106a.t7"
@@ -103,7 +103,7 @@
       "urn": "urn:cite2:scaife-viewer:alignment-record.v1:iliad-greek-farsi-word-alignment-32b47d02381146aeaf2eff5786e52400_8",
       "relations": [
         [
-          "urn:cts:greekLit:tlg0012.tlg001.perseus-grc2:1.2.t4"
+          "urn:cts:greekLit:tlg0012.tlg001.perseus-grc1-sentences:1.2274106a.t3"
         ],
         [
           "urn:cts:greekLit:tlg0012.tlg001.shamsian-far1:1.2274106a.t4",
@@ -115,7 +115,7 @@
       "urn": "urn:cite2:scaife-viewer:alignment-record.v1:iliad-greek-farsi-word-alignment-32b47d02381146aeaf2eff5786e52400_9",
       "relations": [
         [
-          "urn:cts:greekLit:tlg0012.tlg001.perseus-grc2:1.2.t5"
+          "urn:cts:greekLit:tlg0012.tlg001.perseus-grc1-sentences:1.2274106a.t4"
         ],
         [
           "urn:cts:greekLit:tlg0012.tlg001.shamsian-far1:1.2274106a.t6"
@@ -126,7 +126,7 @@
       "urn": "urn:cite2:scaife-viewer:alignment-record.v1:iliad-greek-farsi-word-alignment-32b47d02381146aeaf2eff5786e52400_10",
       "relations": [
         [
-          "urn:cts:greekLit:tlg0012.tlg001.perseus-grc2:1.2.t6"
+          "urn:cts:greekLit:tlg0012.tlg001.perseus-grc1-sentences:1.2274106a.t5"
         ],
         [
           "urn:cts:greekLit:tlg0012.tlg001.shamsian-far1:1.2274106a.t8"
@@ -137,7 +137,7 @@
       "urn": "urn:cite2:scaife-viewer:alignment-record.v1:iliad-greek-farsi-word-alignment-32b47d02381146aeaf2eff5786e52400_11",
       "relations": [
         [
-          "urn:cts:greekLit:tlg0012.tlg001.perseus-grc2:1.3.t1"
+          "urn:cts:greekLit:tlg0012.tlg001.perseus-grc1-sentences:1.2274106b.t1"
         ],
         [
           "urn:cts:greekLit:tlg0012.tlg001.shamsian-far1:1.2274106b.t2"
@@ -148,7 +148,7 @@
       "urn": "urn:cite2:scaife-viewer:alignment-record.v1:iliad-greek-farsi-word-alignment-32b47d02381146aeaf2eff5786e52400_12",
       "relations": [
         [
-          "urn:cts:greekLit:tlg0012.tlg001.perseus-grc2:1.3.t2"
+          "urn:cts:greekLit:tlg0012.tlg001.perseus-grc1-sentences:1.2274106b.t2"
         ],
         [
           "urn:cts:greekLit:tlg0012.tlg001.shamsian-far1:1.2274106b.t1"
@@ -159,7 +159,7 @@
       "urn": "urn:cite2:scaife-viewer:alignment-record.v1:iliad-greek-farsi-word-alignment-32b47d02381146aeaf2eff5786e52400_13",
       "relations": [
         [
-          "urn:cts:greekLit:tlg0012.tlg001.perseus-grc2:1.3.t3"
+          "urn:cts:greekLit:tlg0012.tlg001.perseus-grc1-sentences:1.2274106b.t3"
         ],
         [
           "urn:cts:greekLit:tlg0012.tlg001.shamsian-far1:1.2274106b.t4"
@@ -170,7 +170,7 @@
       "urn": "urn:cite2:scaife-viewer:alignment-record.v1:iliad-greek-farsi-word-alignment-32b47d02381146aeaf2eff5786e52400_14",
       "relations": [
         [
-          "urn:cts:greekLit:tlg0012.tlg001.perseus-grc2:1.3.t4"
+          "urn:cts:greekLit:tlg0012.tlg001.perseus-grc1-sentences:1.2274106b.t4"
         ],
         [
           "urn:cts:greekLit:tlg0012.tlg001.shamsian-far1:1.2274106b.t3"
@@ -181,7 +181,7 @@
       "urn": "urn:cite2:scaife-viewer:alignment-record.v1:iliad-greek-farsi-word-alignment-32b47d02381146aeaf2eff5786e52400_15",
       "relations": [
         [
-          "urn:cts:greekLit:tlg0012.tlg001.perseus-grc2:1.3.t5"
+          "urn:cts:greekLit:tlg0012.tlg001.perseus-grc1-sentences:1.2274106b.t5"
         ],
         [
           "urn:cts:greekLit:tlg0012.tlg001.shamsian-far1:1.2274106b.t7",
@@ -193,7 +193,7 @@
       "urn": "urn:cite2:scaife-viewer:alignment-record.v1:iliad-greek-farsi-word-alignment-32b47d02381146aeaf2eff5786e52400_16",
       "relations": [
         [
-          "urn:cts:greekLit:tlg0012.tlg001.perseus-grc2:1.3.t6"
+          "urn:cts:greekLit:tlg0012.tlg001.perseus-grc1-sentences:1.2274106b.t6"
         ],
         [
           "urn:cts:greekLit:tlg0012.tlg001.shamsian-far1:1.2274106b.t9"
@@ -204,7 +204,7 @@
       "urn": "urn:cite2:scaife-viewer:alignment-record.v1:iliad-greek-farsi-word-alignment-32b47d02381146aeaf2eff5786e52400_17",
       "relations": [
         [
-          "urn:cts:greekLit:tlg0012.tlg001.perseus-grc2:1.4.t1"
+          "urn:cts:greekLit:tlg0012.tlg001.perseus-grc1-sentences:1.2274106b.t7"
         ],
         [
           "urn:cts:greekLit:tlg0012.tlg001.shamsian-far1:1.2274106b.t5",
@@ -216,7 +216,7 @@
       "urn": "urn:cite2:scaife-viewer:alignment-record.v1:iliad-greek-farsi-word-alignment-32b47d02381146aeaf2eff5786e52400_18",
       "relations": [
         [
-          "urn:cts:greekLit:tlg0012.tlg001.perseus-grc2:1.4.t2"
+          "urn:cts:greekLit:tlg0012.tlg001.perseus-grc1-sentences:1.2274106c.t1"
         ],
         [
           "urn:cts:greekLit:tlg0012.tlg001.shamsian-far1:1.2274106c.t2",
@@ -228,7 +228,7 @@
       "urn": "urn:cite2:scaife-viewer:alignment-record.v1:iliad-greek-farsi-word-alignment-32b47d02381146aeaf2eff5786e52400_19",
       "relations": [
         [
-          "urn:cts:greekLit:tlg0012.tlg001.perseus-grc2:1.4.t3"
+          "urn:cts:greekLit:tlg0012.tlg001.perseus-grc1-sentences:1.2274106c.t2"
         ],
         [
           "urn:cts:greekLit:tlg0012.tlg001.shamsian-far1:1.2274106c.t1"
@@ -239,7 +239,7 @@
       "urn": "urn:cite2:scaife-viewer:alignment-record.v1:iliad-greek-farsi-word-alignment-32b47d02381146aeaf2eff5786e52400_20",
       "relations": [
         [
-          "urn:cts:greekLit:tlg0012.tlg001.perseus-grc2:1.4.t4"
+          "urn:cts:greekLit:tlg0012.tlg001.perseus-grc1-sentences:1.2274106c.t3"
         ],
         [
           "urn:cts:greekLit:tlg0012.tlg001.shamsian-far1:1.2274106c.t4"
@@ -250,7 +250,7 @@
       "urn": "urn:cite2:scaife-viewer:alignment-record.v1:iliad-greek-farsi-word-alignment-32b47d02381146aeaf2eff5786e52400_21",
       "relations": [
         [
-          "urn:cts:greekLit:tlg0012.tlg001.perseus-grc2:1.4.t5"
+          "urn:cts:greekLit:tlg0012.tlg001.perseus-grc1-sentences:1.2274106c.t4"
         ],
         [
           "urn:cts:greekLit:tlg0012.tlg001.shamsian-far1:1.2274106c.t10"
@@ -261,7 +261,7 @@
       "urn": "urn:cite2:scaife-viewer:alignment-record.v1:iliad-greek-farsi-word-alignment-32b47d02381146aeaf2eff5786e52400_22",
       "relations": [
         [
-          "urn:cts:greekLit:tlg0012.tlg001.perseus-grc2:1.4.t6"
+          "urn:cts:greekLit:tlg0012.tlg001.perseus-grc1-sentences:1.2274106c.t5"
         ],
         [
           "urn:cts:greekLit:tlg0012.tlg001.shamsian-far1:1.2274106c.t5",
@@ -273,7 +273,7 @@
       "urn": "urn:cite2:scaife-viewer:alignment-record.v1:iliad-greek-farsi-word-alignment-32b47d02381146aeaf2eff5786e52400_23",
       "relations": [
         [
-          "urn:cts:greekLit:tlg0012.tlg001.perseus-grc2:1.5.t1"
+          "urn:cts:greekLit:tlg0012.tlg001.perseus-grc1-sentences:1.2274106c.t6"
         ],
         [
           "urn:cts:greekLit:tlg0012.tlg001.shamsian-far1:1.2274106c.t9"
@@ -284,7 +284,7 @@
       "urn": "urn:cite2:scaife-viewer:alignment-record.v1:iliad-greek-farsi-word-alignment-32b47d02381146aeaf2eff5786e52400_24",
       "relations": [
         [
-          "urn:cts:greekLit:tlg0012.tlg001.perseus-grc2:1.5.t2"
+          "urn:cts:greekLit:tlg0012.tlg001.perseus-grc1-sentences:1.2274106c.t7"
         ],
         [
           "urn:cts:greekLit:tlg0012.tlg001.shamsian-far1:1.2274106c.t8"
@@ -295,7 +295,7 @@
       "urn": "urn:cite2:scaife-viewer:alignment-record.v1:iliad-greek-farsi-word-alignment-32b47d02381146aeaf2eff5786e52400_25",
       "relations": [
         [
-          "urn:cts:greekLit:tlg0012.tlg001.perseus-grc2:1.5.t3"
+          "urn:cts:greekLit:tlg0012.tlg001.perseus-grc1-sentences:1.2274106c.t8"
         ],
         [
           "urn:cts:greekLit:tlg0012.tlg001.shamsian-far1:1.2274106c.t6"
@@ -306,7 +306,7 @@
       "urn": "urn:cite2:scaife-viewer:alignment-record.v1:iliad-greek-farsi-word-alignment-32b47d02381146aeaf2eff5786e52400_26",
       "relations": [
         [
-          "urn:cts:greekLit:tlg0012.tlg001.perseus-grc2:1.5.t4"
+          "urn:cts:greekLit:tlg0012.tlg001.perseus-grc1-sentences:1.2274106d.t1"
         ],
         [
           "urn:cts:greekLit:tlg0012.tlg001.shamsian-far1:1.2274106d.t3"
@@ -317,7 +317,7 @@
       "urn": "urn:cite2:scaife-viewer:alignment-record.v1:iliad-greek-farsi-word-alignment-32b47d02381146aeaf2eff5786e52400_27",
       "relations": [
         [
-          "urn:cts:greekLit:tlg0012.tlg001.perseus-grc2:1.5.t5"
+          "urn:cts:greekLit:tlg0012.tlg001.perseus-grc1-sentences:1.2274106d.t2"
         ],
         [
           "urn:cts:greekLit:tlg0012.tlg001.shamsian-far1:1.2274106d.t1"
@@ -328,7 +328,7 @@
       "urn": "urn:cite2:scaife-viewer:alignment-record.v1:iliad-greek-farsi-word-alignment-32b47d02381146aeaf2eff5786e52400_28",
       "relations": [
         [
-          "urn:cts:greekLit:tlg0012.tlg001.perseus-grc2:1.5.t6"
+          "urn:cts:greekLit:tlg0012.tlg001.perseus-grc1-sentences:1.2274106d.t3"
         ],
         [
           "urn:cts:greekLit:tlg0012.tlg001.shamsian-far1:1.2274106d.t4",
@@ -341,7 +341,7 @@
       "urn": "urn:cite2:scaife-viewer:alignment-record.v1:iliad-greek-farsi-word-alignment-32b47d02381146aeaf2eff5786e52400_29",
       "relations": [
         [
-          "urn:cts:greekLit:tlg0012.tlg001.perseus-grc2:1.5.t7"
+          "urn:cts:greekLit:tlg0012.tlg001.perseus-grc1-sentences:1.2274106d.t4"
         ],
         [
           "urn:cts:greekLit:tlg0012.tlg001.shamsian-far1:1.2274106d.t2"
@@ -352,7 +352,7 @@
       "urn": "urn:cite2:scaife-viewer:alignment-record.v1:iliad-greek-farsi-word-alignment-32b47d02381146aeaf2eff5786e52400_30",
       "relations": [
         [
-          "urn:cts:greekLit:tlg0012.tlg001.perseus-grc2:1.6.t1"
+          "urn:cts:greekLit:tlg0012.tlg001.perseus-grc1-sentences:1.2274106e.t1"
         ],
         [
           "urn:cts:greekLit:tlg0012.tlg001.shamsian-far1:1.2274106e.t1"
@@ -363,7 +363,7 @@
       "urn": "urn:cite2:scaife-viewer:alignment-record.v1:iliad-greek-farsi-word-alignment-32b47d02381146aeaf2eff5786e52400_31",
       "relations": [
         [
-          "urn:cts:greekLit:tlg0012.tlg001.perseus-grc2:1.6.t2"
+          "urn:cts:greekLit:tlg0012.tlg001.perseus-grc1-sentences:1.2274106e.t2"
         ],
         [
           "urn:cts:greekLit:tlg0012.tlg001.shamsian-far1:1.2274106e.t2",
@@ -376,7 +376,7 @@
       "urn": "urn:cite2:scaife-viewer:alignment-record.v1:iliad-greek-farsi-word-alignment-32b47d02381146aeaf2eff5786e52400_32",
       "relations": [
         [
-          "urn:cts:greekLit:tlg0012.tlg001.perseus-grc2:1.6.t3"
+          "urn:cts:greekLit:tlg0012.tlg001.perseus-grc1-sentences:1.2274106e.t3"
         ],
         []
       ]
@@ -385,8 +385,8 @@
       "urn": "urn:cite2:scaife-viewer:alignment-record.v1:iliad-greek-farsi-word-alignment-32b47d02381146aeaf2eff5786e52400_33",
       "relations": [
         [
-          "urn:cts:greekLit:tlg0012.tlg001.perseus-grc2:1.6.t4",
-          "urn:cts:greekLit:tlg0012.tlg001.perseus-grc2:1.6.t5"
+          "urn:cts:greekLit:tlg0012.tlg001.perseus-grc1-sentences:1.2274106e.t4",
+          "urn:cts:greekLit:tlg0012.tlg001.perseus-grc1-sentences:1.2274106e.t5"
         ],
         [
           "urn:cts:greekLit:tlg0012.tlg001.shamsian-far1:1.2274106e.t5"
@@ -397,7 +397,7 @@
       "urn": "urn:cite2:scaife-viewer:alignment-record.v1:iliad-greek-farsi-word-alignment-32b47d02381146aeaf2eff5786e52400_34",
       "relations": [
         [
-          "urn:cts:greekLit:tlg0012.tlg001.perseus-grc2:1.6.t6"
+          "urn:cts:greekLit:tlg0012.tlg001.perseus-grc1-sentences:1.2274106e.t6"
         ],
         [
           "urn:cts:greekLit:tlg0012.tlg001.shamsian-far1:1.2274106e.t16",
@@ -409,7 +409,7 @@
       "urn": "urn:cite2:scaife-viewer:alignment-record.v1:iliad-greek-farsi-word-alignment-32b47d02381146aeaf2eff5786e52400_35",
       "relations": [
         [
-          "urn:cts:greekLit:tlg0012.tlg001.perseus-grc2:1.6.t7"
+          "urn:cts:greekLit:tlg0012.tlg001.perseus-grc1-sentences:1.2274106e.t7"
         ],
         [
           "urn:cts:greekLit:tlg0012.tlg001.shamsian-far1:1.2274106e.t6",
@@ -422,7 +422,7 @@
       "urn": "urn:cite2:scaife-viewer:alignment-record.v1:iliad-greek-farsi-word-alignment-32b47d02381146aeaf2eff5786e52400_36",
       "relations": [
         [
-          "urn:cts:greekLit:tlg0012.tlg001.perseus-grc2:1.7.t1"
+          "urn:cts:greekLit:tlg0012.tlg001.perseus-grc1-sentences:1.2274106e.t8"
         ],
         [
           "urn:cts:greekLit:tlg0012.tlg001.shamsian-far1:1.2274106e.t8",
@@ -434,7 +434,7 @@
       "urn": "urn:cite2:scaife-viewer:alignment-record.v1:iliad-greek-farsi-word-alignment-32b47d02381146aeaf2eff5786e52400_37",
       "relations": [
         [
-          "urn:cts:greekLit:tlg0012.tlg001.perseus-grc2:1.7.t2"
+          "urn:cts:greekLit:tlg0012.tlg001.perseus-grc1-sentences:1.2274106e.t9"
         ],
         []
       ]
@@ -443,7 +443,7 @@
       "urn": "urn:cite2:scaife-viewer:alignment-record.v1:iliad-greek-farsi-word-alignment-32b47d02381146aeaf2eff5786e52400_38",
       "relations": [
         [
-          "urn:cts:greekLit:tlg0012.tlg001.perseus-grc2:1.7.t3"
+          "urn:cts:greekLit:tlg0012.tlg001.perseus-grc1-sentences:1.2274106e.t10"
         ],
         [
           "urn:cts:greekLit:tlg0012.tlg001.shamsian-far1:1.2274106e.t10"
@@ -454,7 +454,7 @@
       "urn": "urn:cite2:scaife-viewer:alignment-record.v1:iliad-greek-farsi-word-alignment-32b47d02381146aeaf2eff5786e52400_39",
       "relations": [
         [
-          "urn:cts:greekLit:tlg0012.tlg001.perseus-grc2:1.7.t4"
+          "urn:cts:greekLit:tlg0012.tlg001.perseus-grc1-sentences:1.2274106e.t11"
         ],
         [
           "urn:cts:greekLit:tlg0012.tlg001.shamsian-far1:1.2274106e.t11"
@@ -465,7 +465,7 @@
       "urn": "urn:cite2:scaife-viewer:alignment-record.v1:iliad-greek-farsi-word-alignment-32b47d02381146aeaf2eff5786e52400_40",
       "relations": [
         [
-          "urn:cts:greekLit:tlg0012.tlg001.perseus-grc2:1.7.t5"
+          "urn:cts:greekLit:tlg0012.tlg001.perseus-grc1-sentences:1.2274106e.t12"
         ],
         [
           "urn:cts:greekLit:tlg0012.tlg001.shamsian-far1:1.2274106e.t12"
@@ -476,7 +476,7 @@
       "urn": "urn:cite2:scaife-viewer:alignment-record.v1:iliad-greek-farsi-word-alignment-32b47d02381146aeaf2eff5786e52400_41",
       "relations": [
         [
-          "urn:cts:greekLit:tlg0012.tlg001.perseus-grc2:1.7.t6"
+          "urn:cts:greekLit:tlg0012.tlg001.perseus-grc1-sentences:1.2274106e.t13"
         ],
         [
           "urn:cts:greekLit:tlg0012.tlg001.shamsian-far1:1.2274106e.t14"
@@ -487,7 +487,7 @@
       "urn": "urn:cite2:scaife-viewer:alignment-record.v1:iliad-greek-farsi-word-alignment-32b47d02381146aeaf2eff5786e52400_42",
       "relations": [
         [
-          "urn:cts:greekLit:tlg0012.tlg001.perseus-grc2:1.7.t7"
+          "urn:cts:greekLit:tlg0012.tlg001.perseus-grc1-sentences:1.2274106e.t14"
         ],
         [
           "urn:cts:greekLit:tlg0012.tlg001.shamsian-far1:1.2274106e.t13"
