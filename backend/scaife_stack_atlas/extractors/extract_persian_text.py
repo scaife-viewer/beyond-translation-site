@@ -47,21 +47,20 @@ def write_text(output_path, refs_and_lines):
     """
     Write the text out to the ATLAS / text-server flat file format.
     """
+    ref_to_sentence_id_map = {}
     with output_path.open("w") as f:
         chapter_counter = 1
         for ref, line_chunk in refs_and_lines.items():
-            # chapter_ref = ref.replace("-", "_")
-            chapter_ref = str(chapter_counter)
-            print(f"{chapter_ref}.0 {ref}", file=f)
+            # TODO: Load books from input_path
+            book_ref = "1"
             counter = 1
             for line in line_chunk:
                 content = persian_content(line)
                 for row_ref, row in content:
-                    final_ref = f"{chapter_ref}.{str(counter)}"
-                    # final_ref = f"{chapter_ref}.{row_ref}"
+                    # NOTE: row_ref is the Treebank ID
+                    final_ref = f"{book_ref}.{row_ref}"
                     print(" ".join([final_ref, row]), file=f)
                     counter += 1
-            chapter_counter += 1
 
 
 def main():
