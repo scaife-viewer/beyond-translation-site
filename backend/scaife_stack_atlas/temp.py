@@ -8,6 +8,8 @@ from scaife_viewer.atlas.models import (
     TextAlignment,
     TextAlignmentRecord,
     TextAlignmentRecordRelation,
+    TextAnnotation,
+    TextAnnotationCollection,
     Token,
 )
 from scaife_viewer.atlas.urn import URN
@@ -82,3 +84,16 @@ def process_alignments(reset=False):
 
 def load_token_annotations(reset=False):
     apply_token_annotations()
+
+
+def set_text_annotation_collection(reset=False):
+    # TODO: Reset is a no-op
+    tas = TextAnnotation.objects.filter(
+        urn__istartswith="urn:cite2:exploreHomer:syntaxTree.v1:syntaxTree-grc"
+    )
+    collection = TextAnnotationCollection.objects.create(
+        label="gregorycrane/gAGDT",
+        data={},
+        urn="urn:cite2:beyond-translation:text_annotation_collection.atlas_v1:il_gregorycrane_gAGDT",
+    )
+    tas.update(collection=collection)
