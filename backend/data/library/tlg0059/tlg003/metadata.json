@@ -1,0 +1,37 @@
+{
+  "urn": "urn:cts:greekLit:tlg0059.tlg003:",
+  "group_urn": "urn:cts:greekLit:tlg0059:",
+  "node_kind": "work",
+  "lang": "grc",
+  "title": [
+    {
+      "lang": "eng",
+      "value": "Crito"
+    }
+  ],
+  "versions": [
+    {
+      "urn": "urn:cts:greekLit:tlg0059.tlg003.pedalion-tb:",
+      "node_kind": "version",
+      "version_kind": "treebank",
+      "lang": "grc",
+      "first_passage_urn": "urn:cts:greekLit:tlg0059.tlg003.pedalion-tb:43.1-43.7",
+      "citation_scheme": [
+        "section",
+        "sentence"
+      ],
+      "label": [
+        {
+          "lang": "eng",
+          "value": "Crito (Pedalion Treebank)"
+        }
+      ],
+      "description": [
+        {
+          "lang": "eng",
+          "value": "Yoran Joosten, partially corrected by Toon Van Hal, and based on a preparsed version by Alek Keersmaekers."
+        }
+      ]
+    }
+  ]
+}
