@@ -1,0 +1,36 @@
+{
+  "urn": "urn:cts:greekLit:tlg0086.tlg035:",
+  "group_urn": "urn:cts:greekLit:tlg0086:",
+  "node_kind": "work",
+  "lang": "grc",
+  "title": [
+    {
+      "lang": "eng",
+      "value": "tlg035"
+    }
+  ],
+  "versions": [
+    {
+      "urn": "urn:cts:greekLit:tlg0086.tlg035.perseus-grc1-vgorman1-trees:",
+      "node_kind": "version",
+      "version_kind": "edition",
+      "lang": "grc",
+      "first_passage_urn": "urn:cts:greekLit:tlg0086.tlg035.perseus-grc1-vgorman1-trees:1",
+      "citation_scheme": [
+        "sentence"
+      ],
+      "label": [
+        {
+          "lang": "eng",
+          "value": "perseus-grc1-vgorman1-trees (sentences)"
+        }
+      ],
+      "description": [
+        {
+          "lang": "eng",
+          "value": "Extracted from vgorman1 trees"
+        }
+      ]
+    }
+  ]
+}
