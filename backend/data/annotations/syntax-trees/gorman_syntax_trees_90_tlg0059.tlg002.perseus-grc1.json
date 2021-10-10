@@ -1,6 +1,6 @@
 [
   {
-    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg002-tlg0059-grc-1",
+    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg0059-tlg002-grc-1",
     "treebank_id": "1",
     "words": [
       {
@@ -151,7 +151,7 @@
     "citation": "17a (1)"
   },
   {
-    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg002-tlg0059-grc-2",
+    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg0059-tlg002-grc-2",
     "treebank_id": "2",
     "words": [
       {
@@ -167,7 +167,7 @@
         "value": "δʼ",
         "head_id": 10,
         "relation": "AuxY",
-        "lemma": "δέ",
+        "lemma": "δέ",
         "tag": "d--------"
       },
       {
@@ -199,7 +199,7 @@
         "value": "ὑπʼ",
         "head_id": 10,
         "relation": "AuxP",
-        "lemma": "ὑπό",
+        "lemma": "ὑπό",
         "tag": "r--------"
       },
       {
@@ -283,7 +283,7 @@
     "citation": "17a (2)"
   },
   {
-    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg002-tlg0059-grc-3",
+    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg0059-tlg002-grc-3",
     "treebank_id": "3",
     "words": [
       {
@@ -367,7 +367,7 @@
     "citation": "17a (3)"
   },
   {
-    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg002-tlg0059-grc-4",
+    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg0059-tlg002-grc-4",
     "treebank_id": "4",
     "words": [
       {
@@ -529,7 +529,7 @@
         "value": "ὑπʼ",
         "head_id": 22,
         "relation": "AuxP",
-        "lemma": "ὑπό",
+        "lemma": "ὑπό",
         "tag": "r--------"
       },
       {
@@ -596,7 +596,7 @@
     "citation": "17a (4)"
   },
   {
-    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg002-tlg0059-grc-5",
+    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg0059-tlg002-grc-5",
     "treebank_id": "5",
     "words": [
       {
@@ -652,7 +652,7 @@
         "value": "ὑπʼ",
         "head_id": 9,
         "relation": "AuxP",
-        "lemma": "ὑπό",
+        "lemma": "ὑπό",
         "tag": "r--------"
       },
       {
@@ -709,7 +709,7 @@
         "value": "-δʼ",
         "head_id": 13,
         "relation": "AuxZ",
-        "lemma": "δέ",
+        "lemma": "δέ",
         "tag": "d-------_"
       },
       {
@@ -880,7 +880,7 @@
         "value": "τ-",
         "head_id": 36,
         "relation": "ATR",
-        "lemma": "ὁ",
+        "lemma": "ὁ",
         "tag": "l-s---na-"
       },
       {
@@ -915,7 +915,7 @@
     "citation": "17b (5)"
   },
   {
-    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg002-tlg0059-grc-6",
+    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg0059-tlg002-grc-6",
     "treebank_id": "6",
     "words": [
       {
@@ -1048,7 +1048,7 @@
     "citation": "17b (6)"
   },
   {
-    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg002-tlg0059-grc-7",
+    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg0059-tlg002-grc-7",
     "treebank_id": "7",
     "words": [
       {
@@ -1450,7 +1450,7 @@
         "value": "ἀλλʼ",
         "head_id": 0,
         "relation": "COORD",
-        "lemma": "ἀλλά",
+        "lemma": "ἀλλά",
         "tag": "c--------",
         "original_head_id": 0
       },
@@ -1642,7 +1642,7 @@
     "citation": "17b (7)"
   },
   {
-    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg002-tlg0059-grc-8",
+    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg0059-tlg002-grc-8",
     "treebank_id": "8",
     "words": [
       {
@@ -1832,7 +1832,7 @@
     "citation": "17c (8)"
   },
   {
-    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg002-tlg0059-grc-9",
+    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg0059-tlg002-grc-9",
     "treebank_id": "9",
     "words": [
       {
@@ -1966,7 +1966,7 @@
     "citation": "17c (9)"
   },
   {
-    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg002-tlg0059-grc-10",
+    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg0059-tlg002-grc-10",
     "treebank_id": "10",
     "words": [
       {
@@ -2038,7 +2038,7 @@
         "value": "διʼ",
         "head_id": 12,
         "relation": "AuxP",
-        "lemma": "διά",
+        "lemma": "διά",
         "tag": "r--------"
       },
       {
@@ -2269,7 +2269,7 @@
     "citation": "17c (10)"
   },
   {
-    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg002-tlg0059-grc-11",
+    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg0059-tlg002-grc-11",
     "treebank_id": "11",
     "words": [
       {
@@ -2313,7 +2313,7 @@
     "citation": "17d (11)"
   },
   {
-    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg002-tlg0059-grc-12",
+    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg0059-tlg002-grc-12",
     "treebank_id": "12",
     "words": [
       {
@@ -2414,7 +2414,7 @@
     "citation": "17d (12)"
   },
   {
-    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg002-tlg0059-grc-13",
+    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg0059-tlg002-grc-13",
     "treebank_id": "13",
     "words": [
       {
@@ -2490,7 +2490,7 @@
     "citation": "17d (13)"
   },
   {
-    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg002-tlg0059-grc-14",
+    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg0059-tlg002-grc-14",
     "treebank_id": "14",
     "words": [
       {
@@ -3143,7 +3143,7 @@
     "citation": "17d (14)"
   },
   {
-    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg002-tlg0059-grc-15",
+    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg0059-tlg002-grc-15",
     "treebank_id": "15",
     "words": [
       {
@@ -3217,7 +3217,7 @@
         "value": "τ-",
         "head_id": 10,
         "relation": "ATR",
-        "lemma": "ὁ",
+        "lemma": "ὁ",
         "tag": "l-s---na-"
       },
       {
@@ -3247,7 +3247,7 @@
       },
       {
         "id": 13,
-        "value": "ἐστιν",
+        "value": "ἐστιν",
         "head_id": 8,
         "relation": "PRED_CO",
         "lemma": "εἰμί",
@@ -3255,7 +3255,7 @@
       },
       {
         "id": 14,
-        "value": "ἐστιν",
+        "value": "ἐστιν",
         "head_id": 8,
         "relation": "PRED_CO",
         "lemma": "εἰμί",
@@ -3268,7 +3268,7 @@
     "citation": "18a (15)"
   },
   {
-    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg002-tlg0059-grc-16",
+    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg0059-tlg002-grc-16",
     "treebank_id": "16",
     "words": [
       {
@@ -3539,7 +3539,7 @@
     "citation": "18a (16)"
   },
   {
-    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg002-tlg0059-grc-17",
+    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg0059-tlg002-grc-17",
     "treebank_id": "17",
     "words": [
       {
@@ -3825,7 +3825,7 @@
     "citation": "18b (17)"
   },
   {
-    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg002-tlg0059-grc-18",
+    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg0059-tlg002-grc-18",
     "treebank_id": "18",
     "words": [
       {
@@ -3833,7 +3833,7 @@
         "value": "ἀλλʼ",
         "head_id": 48,
         "relation": "AuxY",
-        "lemma": "ἀλλά",
+        "lemma": "ἀλλά",
         "tag": "d--------"
       },
       {
@@ -4209,7 +4209,7 @@
       },
       {
         "id": 48,
-        "value": "εἴσιν",
+        "value": "εἴσιν",
         "head_id": 0,
         "relation": "PRED",
         "lemma": "εἰμί",
@@ -4223,7 +4223,7 @@
     "citation": "18b (18)"
   },
   {
-    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg002-tlg0059-grc-19",
+    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg0059-tlg002-grc-19",
     "treebank_id": "19",
     "words": [
       {
@@ -4382,7 +4382,7 @@
     "citation": "18c (19)"
   },
   {
-    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg002-tlg0059-grc-20",
+    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg0059-tlg002-grc-20",
     "treebank_id": "20",
     "words": [
       {
@@ -4490,7 +4490,7 @@
     "citation": "18c (20)"
   },
   {
-    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg002-tlg0059-grc-21",
+    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg0059-tlg002-grc-21",
     "treebank_id": "21",
     "words": [
       {
@@ -4833,7 +4833,7 @@
     "citation": "18c (21)"
   },
   {
-    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg002-tlg0059-grc-22",
+    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg0059-tlg002-grc-22",
     "treebank_id": "22",
     "words": [
       {
@@ -5041,7 +5041,7 @@
       },
       {
         "id": 26,
-        "value": "ἐστιν",
+        "value": "ἐστιν",
         "head_id": 0,
         "relation": "PRED",
         "lemma": "εἰμί",
@@ -5050,7 +5050,7 @@
       },
       {
         "id": 27,
-        "value": "ἐστιν",
+        "value": "ἐστιν",
         "head_id": 6,
         "relation": "PNOM",
         "lemma": "εἰμί",
@@ -5058,7 +5058,7 @@
       },
       {
         "id": 28,
-        "value": "ἐστιν",
+        "value": "ἐστιν",
         "head_id": 26,
         "relation": "SBJ",
         "lemma": "εἰμί",
@@ -5071,7 +5071,7 @@
     "citation": "18c (22)"
   },
   {
-    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg002-tlg0059-grc-23",
+    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg0059-tlg002-grc-23",
     "treebank_id": "23",
     "words": [
       {
@@ -5261,7 +5261,7 @@
     "citation": "18d (23)"
   },
   {
-    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg002-tlg0059-grc-24",
+    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg0059-tlg002-grc-24",
     "treebank_id": "24",
     "words": [
       {
@@ -5349,7 +5349,7 @@
         "value": "-δʼ",
         "head_id": 7,
         "relation": "COORD",
-        "lemma": "δέ",
+        "lemma": "δέ",
         "tag": "c--------"
       },
       {
@@ -5382,7 +5382,7 @@
         "value": "ἀλλʼ",
         "head_id": 0,
         "relation": "COORD",
-        "lemma": "ἀλλά",
+        "lemma": "ἀλλά",
         "tag": "c--------",
         "original_head_id": 0
       },
@@ -5498,7 +5498,7 @@
     "citation": "18d (24)"
   },
   {
-    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg002-tlg0059-grc-25",
+    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg0059-tlg002-grc-25",
     "treebank_id": "25",
     "words": [
       {
@@ -5826,7 +5826,7 @@
     "citation": "18d (25)"
   },
   {
-    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg002-tlg0059-grc-26",
+    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg0059-tlg002-grc-26",
     "treebank_id": "26",
     "words": [
       {
@@ -5974,7 +5974,7 @@
     "citation": "18d (26)"
   },
   {
-    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg002-tlg0059-grc-27",
+    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg0059-tlg002-grc-27",
     "treebank_id": "27",
     "words": [
       {
@@ -6002,7 +6002,7 @@
     "citation": "18d (27)"
   },
   {
-    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg002-tlg0059-grc-28",
+    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg0059-tlg002-grc-28",
     "treebank_id": "28",
     "words": [
       {
@@ -6216,7 +6216,7 @@
     "citation": "18d (28)"
   },
   {
-    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg002-tlg0059-grc-29",
+    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg0059-tlg002-grc-29",
     "treebank_id": "29",
     "words": [
       {
@@ -6409,7 +6409,7 @@
       },
       {
         "id": 24,
-        "value": "ἐστιν",
+        "value": "ἐστιν",
         "head_id": 9,
         "relation": "ADV",
         "lemma": "εἰμί",
@@ -6422,7 +6422,7 @@
     "citation": "19a (29)"
   },
   {
-    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg002-tlg0059-grc-30",
+    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg0059-tlg002-grc-30",
     "treebank_id": "30",
     "words": [
       {
@@ -6547,7 +6547,7 @@
     "citation": "19a (30)"
   },
   {
-    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg002-tlg0059-grc-31",
+    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg0059-tlg002-grc-31",
     "treebank_id": "31",
     "words": [
       {
@@ -6683,7 +6683,7 @@
       },
       {
         "id": 17,
-        "value": "ἐστιν",
+        "value": "ἐστιν",
         "head_id": 4,
         "relation": "ADV",
         "lemma": "εἰμί",
@@ -6696,7 +6696,7 @@
     "citation": "19a (31)"
   },
   {
-    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg002-tlg0059-grc-32",
+    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg0059-tlg002-grc-32",
     "treebank_id": "32",
     "words": [
       {
@@ -6917,7 +6917,7 @@
     "citation": "19a (32)"
   },
   {
-    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg002-tlg0059-grc-33",
+    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg0059-tlg002-grc-33",
     "treebank_id": "33",
     "words": [
       {
@@ -6945,7 +6945,7 @@
     "citation": "19b (33)"
   },
   {
-    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg002-tlg0059-grc-34",
+    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg0059-tlg002-grc-34",
     "treebank_id": "34",
     "words": [
       {
@@ -7013,7 +7013,7 @@
     "citation": "19b (34)"
   },
   {
-    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg002-tlg0059-grc-35",
+    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg0059-tlg002-grc-35",
     "treebank_id": "35",
     "words": [
       {
@@ -7105,7 +7105,7 @@
     "citation": "19b (35)"
   },
   {
-    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg002-tlg0059-grc-36",
+    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg0059-tlg002-grc-36",
     "treebank_id": "36",
     "words": [
       {
@@ -7266,7 +7266,7 @@
         "value": "τ-",
         "head_id": 22,
         "relation": "ATR",
-        "lemma": "ὁ",
+        "lemma": "ὁ",
         "tag": "l-p---na-"
       },
       {
@@ -7309,7 +7309,7 @@
     "citation": "19b (36)"
   },
   {
-    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg002-tlg0059-grc-37",
+    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg0059-tlg002-grc-37",
     "treebank_id": "37",
     "words": [
       {
@@ -7353,7 +7353,7 @@
     "citation": "19c (37)"
   },
   {
-    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg002-tlg0059-grc-38",
+    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg0059-tlg002-grc-38",
     "treebank_id": "38",
     "words": [
       {
@@ -7655,7 +7655,7 @@
     "citation": "19c (38)"
   },
   {
-    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg002-tlg0059-grc-39",
+    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg0059-tlg002-grc-39",
     "treebank_id": "39",
     "words": [
       {
@@ -7978,7 +7978,7 @@
     "citation": "19c (39)"
   },
   {
-    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg002-tlg0059-grc-40",
+    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg0059-tlg002-grc-40",
     "treebank_id": "40",
     "words": [
       {
@@ -8418,7 +8418,7 @@
         "value": "τοιαῦτʼ",
         "head_id": 55,
         "relation": "PNOM",
-        "lemma": "τοιοῦτος",
+        "lemma": "τοιοῦτος",
         "tag": "a-p---nn_"
       },
       {
@@ -8442,7 +8442,7 @@
         "value": "τ-",
         "head_id": 58,
         "relation": "ATR",
-        "lemma": "ὁ",
+        "lemma": "ὁ",
         "tag": "l-p---nn-"
       },
       {
@@ -8450,7 +8450,7 @@
         "value": "ἆλλα",
         "head_id": 55,
         "relation": "SBJ",
-        "lemma": "ἄλλος",
+        "lemma": "ἄλλος",
         "tag": "p-p---nn-"
       },
       {
@@ -8517,7 +8517,7 @@
     "citation": "19d (40)"
   },
   {
-    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg002-tlg0059-grc-41",
+    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg0059-tlg002-grc-41",
     "treebank_id": "41",
     "words": [
       {
@@ -8750,7 +8750,7 @@
       },
       {
         "id": 29,
-        "value": "ἐστιν",
+        "value": "ἐστιν",
         "head_id": 10,
         "relation": "PRED_CO",
         "lemma": "εἰμί",
@@ -8763,7 +8763,7 @@
     "citation": "19d (41)"
   },
   {
-    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg002-tlg0059-grc-42",
+    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg0059-tlg002-grc-42",
     "treebank_id": "42",
     "words": [
       {
@@ -9023,7 +9023,7 @@
     "citation": "19e (42)"
   },
   {
-    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg002-tlg0059-grc-43",
+    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg0059-tlg002-grc-43",
     "treebank_id": "43",
     "words": [
       {
@@ -9384,7 +9384,7 @@
     "citation": "19e (43)"
   },
   {
-    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg002-tlg0059-grc-44",
+    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg0059-tlg002-grc-44",
     "treebank_id": "44",
     "words": [
       {
@@ -9500,7 +9500,7 @@
     "citation": "20a (44)"
   },
   {
-    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg002-tlg0059-grc-45",
+    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg0059-tlg002-grc-45",
     "treebank_id": "45",
     "words": [
       {
@@ -9665,7 +9665,7 @@
     "citation": "20a (45)"
   },
   {
-    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg002-tlg0059-grc-46",
+    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg0059-tlg002-grc-46",
     "treebank_id": "46",
     "words": [
       {
@@ -9789,7 +9789,7 @@
         "value": "δʼ",
         "head_id": 0,
         "relation": "COORD",
-        "lemma": "δέ",
+        "lemma": "δέ",
         "tag": "c--------",
         "original_head_id": 0
       },
@@ -9992,7 +9992,7 @@
         "value": "κ-",
         "head_id": 42,
         "relation": "COORD",
-        "lemma": "καί",
+        "lemma": "καί",
         "tag": "c--------"
       },
       {
@@ -10057,7 +10057,7 @@
         "value": "δʼ",
         "head_id": 31,
         "relation": "COORD",
-        "lemma": "δέ",
+        "lemma": "δέ",
         "tag": "c--------"
       },
       {
@@ -10148,7 +10148,7 @@
     "citation": "20a (46)"
   },
   {
-    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg002-tlg0059-grc-47",
+    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg0059-tlg002-grc-47",
     "treebank_id": "47",
     "words": [
       {
@@ -10164,7 +10164,7 @@
         "value": "δʼ",
         "head_id": 11,
         "relation": "AuxY",
-        "lemma": "δέ",
+        "lemma": "δέ",
         "tag": "d--------"
       },
       {
@@ -10273,7 +10273,7 @@
     "citation": "20b (47)"
   },
   {
-    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg002-tlg0059-grc-48",
+    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg0059-tlg002-grc-48",
     "treebank_id": "48",
     "words": [
       {
@@ -10399,7 +10399,7 @@
     "citation": "20b (48)"
   },
   {
-    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg002-tlg0059-grc-49",
+    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg0059-tlg002-grc-49",
     "treebank_id": "49",
     "words": [
       {
@@ -10491,7 +10491,7 @@
     "citation": "20b (49)"
   },
   {
-    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg002-tlg0059-grc-50",
+    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg0059-tlg002-grc-50",
     "treebank_id": "50",
     "words": [
       {
@@ -10585,7 +10585,7 @@
     "citation": "20b (50)"
   },
   {
-    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg002-tlg0059-grc-51",
+    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg0059-tlg002-grc-51",
     "treebank_id": "51",
     "words": [
       {
@@ -10627,7 +10627,7 @@
         "value": "δʼ",
         "head_id": 4,
         "relation": "AuxY",
-        "lemma": "δέ",
+        "lemma": "δέ",
         "tag": "d--------"
       },
       {
@@ -10654,7 +10654,7 @@
     "citation": "20b (51)"
   },
   {
-    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg002-tlg0059-grc-52",
+    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg0059-tlg002-grc-52",
     "treebank_id": "52",
     "words": [
       {
@@ -10688,7 +10688,7 @@
         "value": "δʼ",
         "head_id": 3,
         "relation": "AuxY",
-        "lemma": "δέ",
+        "lemma": "δέ",
         "tag": "d--------"
       },
       {
@@ -10789,7 +10789,7 @@
     "citation": "20b (52)"
   },
   {
-    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg002-tlg0059-grc-53",
+    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg0059-tlg002-grc-53",
     "treebank_id": "53",
     "words": [
       {
@@ -10924,7 +10924,7 @@
     "citation": "20b (53)"
   },
   {
-    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg002-tlg0059-grc-54",
+    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg0059-tlg002-grc-54",
     "treebank_id": "54",
     "words": [
       {
@@ -11072,7 +11072,7 @@
     "citation": "20b (54)"
   },
   {
-    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg002-tlg0059-grc-55",
+    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg0059-tlg002-grc-55",
     "treebank_id": "55",
     "words": [
       {
@@ -11188,7 +11188,7 @@
     "citation": "20c (55)"
   },
   {
-    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg002-tlg0059-grc-56",
+    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg0059-tlg002-grc-56",
     "treebank_id": "56",
     "words": [
       {
@@ -11196,7 +11196,7 @@
         "value": "ἀλλʼ",
         "head_id": 4,
         "relation": "AuxY",
-        "lemma": "ἀλλά",
+        "lemma": "ἀλλά",
         "tag": "d--------"
       },
       {
@@ -11273,7 +11273,7 @@
     "citation": "20c (56)"
   },
   {
-    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg002-tlg0059-grc-57",
+    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg0059-tlg002-grc-57",
     "treebank_id": "57",
     "words": [
       {
@@ -11341,7 +11341,7 @@
     "citation": "20c (57)"
   },
   {
-    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg002-tlg0059-grc-58",
+    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg0059-tlg002-grc-58",
     "treebank_id": "58",
     "words": [
       {
@@ -11349,7 +11349,7 @@
         "value": "ἀλλʼ",
         "head_id": 9,
         "relation": "AuxY",
-        "lemma": "ἀλλά",
+        "lemma": "ἀλλά",
         "tag": "d--------"
       },
       {
@@ -11443,7 +11443,7 @@
     "citation": "20c (58)"
   },
   {
-    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg002-tlg0059-grc-59",
+    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg0059-tlg002-grc-59",
     "treebank_id": "59",
     "words": [
       {
@@ -11511,7 +11511,7 @@
     "citation": "20c (59)"
   },
   {
-    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg002-tlg0059-grc-60",
+    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg0059-tlg002-grc-60",
     "treebank_id": "60",
     "words": [
       {
@@ -11748,7 +11748,7 @@
     "citation": "20c (60)"
   },
   {
-    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg002-tlg0059-grc-61",
+    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg0059-tlg002-grc-61",
     "treebank_id": "61",
     "words": [
       {
@@ -11865,7 +11865,7 @@
     "citation": "20c (61)"
   },
   {
-    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg002-tlg0059-grc-62",
+    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg0059-tlg002-grc-62",
     "treebank_id": "62",
     "words": [
       {
@@ -11938,7 +11938,7 @@
         "value": "κ-",
         "head_id": 0,
         "relation": "COORD",
-        "lemma": "καί",
+        "lemma": "καί",
         "tag": "c--------",
         "original_head_id": 0
       },
@@ -11947,7 +11947,7 @@
         "value": "ἀγὼ",
         "head_id": 12,
         "relation": "SBJ",
-        "lemma": "ἐγώ",
+        "lemma": "ἐγώ",
         "tag": "p-s---mn-"
       },
       {
@@ -11987,7 +11987,7 @@
         "value": "ποτʼ",
         "head_id": 16,
         "relation": "ADV",
-        "lemma": "πότε",
+        "lemma": "πότε",
         "tag": "d--------"
       },
       {
@@ -12094,7 +12094,7 @@
     "citation": "20d (62)"
   },
   {
-    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg002-tlg0059-grc-63",
+    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg0059-tlg002-grc-63",
     "treebank_id": "63",
     "words": [
       {
@@ -12130,7 +12130,7 @@
     "citation": "20d (63)"
   },
   {
-    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg002-tlg0059-grc-64",
+    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg0059-tlg002-grc-64",
     "treebank_id": "64",
     "words": [
       {
@@ -12206,7 +12206,7 @@
     "citation": "20d (64)"
   },
   {
-    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg002-tlg0059-grc-65",
+    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg0059-tlg002-grc-65",
     "treebank_id": "65",
     "words": [
       {
@@ -12299,7 +12299,7 @@
     "citation": "20d (65)"
   },
   {
-    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg002-tlg0059-grc-66",
+    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg0059-tlg002-grc-66",
     "treebank_id": "66",
     "words": [
       {
@@ -12365,7 +12365,7 @@
         "value": "διʼ",
         "head_id": 18,
         "relation": "AuxP",
-        "lemma": "διά",
+        "lemma": "διά",
         "tag": "r--------"
       },
       {
@@ -12381,7 +12381,7 @@
         "value": "ἀλλʼ",
         "head_id": 18,
         "relation": "ADV",
-        "lemma": "ἀλλά",
+        "lemma": "ἀλλά",
         "tag": "d--------"
       },
       {
@@ -12473,7 +12473,7 @@
     "citation": "20d (66)"
   },
   {
-    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg002-tlg0059-grc-67",
+    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg0059-tlg002-grc-67",
     "treebank_id": "67",
     "words": [
       {
@@ -12533,7 +12533,7 @@
     "citation": "20d (67)"
   },
   {
-    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg002-tlg0059-grc-68",
+    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg0059-tlg002-grc-68",
     "treebank_id": "68",
     "words": [
       {
@@ -12593,7 +12593,7 @@
     "citation": "20d (68)"
   },
   {
-    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg002-tlg0059-grc-69",
+    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg0059-tlg002-grc-69",
     "treebank_id": "69",
     "words": [
       {
@@ -12669,7 +12669,7 @@
     "citation": "20d (69)"
   },
   {
-    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg002-tlg0059-grc-70",
+    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg0059-tlg002-grc-70",
     "treebank_id": "70",
     "words": [
       {
@@ -12775,7 +12775,7 @@
         "value": "κατʼ",
         "head_id": 26,
         "relation": "AuxP",
-        "lemma": "κατά",
+        "lemma": "κατά",
         "tag": "r--------"
       },
       {
@@ -12892,7 +12892,7 @@
     "citation": "20d (70)"
   },
   {
-    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg002-tlg0059-grc-71",
+    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg0059-tlg002-grc-71",
     "treebank_id": "71",
     "words": [
       {
@@ -12957,7 +12957,7 @@
         "value": "ἀλλʼ",
         "head_id": 0,
         "relation": "COORD",
-        "lemma": "ἀλλά",
+        "lemma": "ἀλλά",
         "tag": "c--------",
         "original_head_id": 0
       },
@@ -13057,7 +13057,7 @@
     "citation": "20d (71)"
   },
   {
-    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg002-tlg0059-grc-72",
+    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg0059-tlg002-grc-72",
     "treebank_id": "72",
     "words": [
       {
@@ -13156,7 +13156,7 @@
         "value": "-δʼ",
         "head_id": 0,
         "relation": "COORD",
-        "lemma": "δέ",
+        "lemma": "δέ",
         "tag": "c--------",
         "original_head_id": 0
       },
@@ -13232,7 +13232,7 @@
     "citation": "20e (72)"
   },
   {
-    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg002-tlg0059-grc-73",
+    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg0059-tlg002-grc-73",
     "treebank_id": "73",
     "words": [
       {
@@ -13321,7 +13321,7 @@
         "value": "ἀλλʼ",
         "head_id": 0,
         "relation": "COORD",
-        "lemma": "ἀλλά",
+        "lemma": "ἀλλά",
         "tag": "c--------",
         "original_head_id": 0
       },
@@ -13389,7 +13389,7 @@
     "citation": "20e (73)"
   },
   {
-    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg002-tlg0059-grc-74",
+    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg0059-tlg002-grc-74",
     "treebank_id": "74",
     "words": [
       {
@@ -13571,7 +13571,7 @@
     "citation": "20e (74)"
   },
   {
-    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg002-tlg0059-grc-75",
+    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg0059-tlg002-grc-75",
     "treebank_id": "75",
     "words": [
       {
@@ -13623,7 +13623,7 @@
     "citation": "20e (75)"
   },
   {
-    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg002-tlg0059-grc-76",
+    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg0059-tlg002-grc-76",
     "treebank_id": "76",
     "words": [
       {
@@ -13784,7 +13784,7 @@
         "value": "μεθʼ",
         "head_id": 22,
         "relation": "AuxP",
-        "lemma": "μετά",
+        "lemma": "μετά",
         "tag": "r--------"
       },
       {
@@ -13827,7 +13827,7 @@
     "citation": "21α (76)"
   },
   {
-    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg002-tlg0059-grc-77",
+    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg0059-tlg002-grc-77",
     "treebank_id": "77",
     "words": [
       {
@@ -13909,7 +13909,7 @@
         "value": "ἐφʼ",
         "head_id": 12,
         "relation": "AuxP",
-        "lemma": "ἐπί",
+        "lemma": "ἐπί",
         "tag": "r--------"
       },
       {
@@ -13944,7 +13944,7 @@
     "citation": "21a (77)"
   },
   {
-    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg002-tlg0059-grc-78",
+    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg0059-tlg002-grc-78",
     "treebank_id": "78",
     "words": [
       {
@@ -14211,7 +14211,7 @@
     "citation": "21a (78)"
   },
   {
-    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg002-tlg0059-grc-79",
+    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg0059-tlg002-grc-79",
     "treebank_id": "79",
     "words": [
       {
@@ -14287,7 +14287,7 @@
     "citation": "21a (79)"
   },
   {
-    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg002-tlg0059-grc-80",
+    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg0059-tlg002-grc-80",
     "treebank_id": "80",
     "words": [
       {
@@ -14412,7 +14412,7 @@
     "citation": "21a (80)"
   },
   {
-    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg002-tlg0059-grc-81",
+    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg0059-tlg002-grc-81",
     "treebank_id": "81",
     "words": [
       {
@@ -14480,7 +14480,7 @@
     "citation": "21b (81)"
   },
   {
-    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg002-tlg0059-grc-82",
+    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg0059-tlg002-grc-82",
     "treebank_id": "82",
     "words": [
       {
@@ -14572,7 +14572,7 @@
     "citation": "21b (82)"
   },
   {
-    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg002-tlg0059-grc-83",
+    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg0059-tlg002-grc-83",
     "treebank_id": "83",
     "words": [
       {
@@ -14640,7 +14640,7 @@
     "citation": "21b (83)"
   },
   {
-    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg002-tlg0059-grc-84",
+    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg0059-tlg002-grc-84",
     "treebank_id": "84",
     "words": [
       {
@@ -14741,7 +14741,7 @@
     "citation": "21b (84)"
   },
   {
-    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg002-tlg0059-grc-85",
+    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg0059-tlg002-grc-85",
     "treebank_id": "85",
     "words": [
       {
@@ -14865,7 +14865,7 @@
     "citation": "21b (85)"
   },
   {
-    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg002-tlg0059-grc-86",
+    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg0059-tlg002-grc-86",
     "treebank_id": "86",
     "words": [
       {
@@ -14949,7 +14949,7 @@
     "citation": "21b (86)"
   },
   {
-    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg002-tlg0059-grc-87",
+    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg0059-tlg002-grc-87",
     "treebank_id": "87",
     "words": [
       {
@@ -15009,7 +15009,7 @@
     "citation": "21b (87)"
   },
   {
-    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg002-tlg0059-grc-88",
+    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg0059-tlg002-grc-88",
     "treebank_id": "88",
     "words": [
       {
@@ -15055,7 +15055,7 @@
       },
       {
         "id": 6,
-        "value": "ἐστιν",
+        "value": "ἐστιν",
         "head_id": 0,
         "relation": "PRED",
         "lemma": "εἰμί",
@@ -15069,7 +15069,7 @@
     "citation": "21b (88)"
   },
   {
-    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg002-tlg0059-grc-89",
+    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg0059-tlg002-grc-89",
     "treebank_id": "89",
     "words": [
       {
@@ -15153,7 +15153,7 @@
     "citation": "21b (89)"
   },
   {
-    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg002-tlg0059-grc-90",
+    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg0059-tlg002-grc-90",
     "treebank_id": "90",
     "words": [
       {
@@ -15245,7 +15245,7 @@
     "citation": "21b (90)"
   },
   {
-    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg002-tlg0059-grc-91",
+    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg0059-tlg002-grc-91",
     "treebank_id": "91",
     "words": [
       {
@@ -15464,7 +15464,7 @@
         "value": "δʼ",
         "head_id": 20,
         "relation": "COORD",
-        "lemma": "δέ",
+        "lemma": "δέ",
         "tag": "c--------"
       },
       {
@@ -15507,7 +15507,7 @@
     "citation": "21b (91)"
   },
   {
-    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg002-tlg0059-grc-92",
+    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg0059-tlg002-grc-92",
     "treebank_id": "92",
     "words": [
       {
@@ -15915,7 +15915,7 @@
         "value": "δʼ",
         "head_id": 32,
         "relation": "COORD",
-        "lemma": "δέ",
+        "lemma": "δέ",
         "tag": "c--------"
       },
       {
@@ -15942,7 +15942,7 @@
     "citation": "21c (92)"
   },
   {
-    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg002-tlg0059-grc-93",
+    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg0059-tlg002-grc-93",
     "treebank_id": "93",
     "words": [
       {
@@ -15950,7 +15950,7 @@
         "value": "κ-",
         "head_id": 3,
         "relation": "AuxY",
-        "lemma": "καί",
+        "lemma": "καί",
         "tag": "d--------"
       },
       {
@@ -15958,7 +15958,7 @@
         "value": "ἄπειτα",
         "head_id": 3,
         "relation": "ADV",
-        "lemma": "ἔπειτα",
+        "lemma": "ἔπειτα",
         "tag": "d-------_"
       },
       {
@@ -16048,7 +16048,7 @@
         "value": "δʼ",
         "head_id": 6,
         "relation": "COORD",
-        "lemma": "δέ",
+        "lemma": "δέ",
         "tag": "c--------"
       },
       {
@@ -16075,7 +16075,7 @@
     "citation": "21c (93)"
   },
   {
-    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg002-tlg0059-grc-94",
+    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg0059-tlg002-grc-94",
     "treebank_id": "94",
     "words": [
       {
@@ -16167,7 +16167,7 @@
     "citation": "21d (94)"
   },
   {
-    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg002-tlg0059-grc-95",
+    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg0059-tlg002-grc-95",
     "treebank_id": "95",
     "words": [
       {
@@ -16191,7 +16191,7 @@
         "value": "δʼ",
         "head_id": 6,
         "relation": "AuxY",
-        "lemma": "δέ",
+        "lemma": "δέ",
         "tag": "d--------"
       },
       {
@@ -16299,7 +16299,7 @@
     "citation": "21d (95)"
   },
   {
-    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg002-tlg0059-grc-96",
+    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg0059-tlg002-grc-96",
     "treebank_id": "96",
     "words": [
       {
@@ -16363,7 +16363,7 @@
         "value": "κ-",
         "head_id": 6,
         "relation": "COORD",
-        "lemma": "καί",
+        "lemma": "καί",
         "tag": "c--------"
       },
       {
@@ -16396,7 +16396,7 @@
         "value": "ἀλλʼ",
         "head_id": 0,
         "relation": "COORD",
-        "lemma": "ἀλλά",
+        "lemma": "ἀλλά",
         "tag": "c--------",
         "original_head_id": 0
       },
@@ -16571,7 +16571,7 @@
     "citation": "21d (96)"
   },
   {
-    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg002-tlg0059-grc-97",
+    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg0059-tlg002-grc-97",
     "treebank_id": "97",
     "words": [
       {
@@ -16743,7 +16743,7 @@
     "citation": "21d (97)"
   },
   {
-    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg002-tlg0059-grc-98",
+    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg0059-tlg002-grc-98",
     "treebank_id": "98",
     "words": [
       {
@@ -16759,7 +16759,7 @@
         "value": "ἐπʼ",
         "head_id": 4,
         "relation": "AuxP",
-        "lemma": "ἐπί",
+        "lemma": "ἐπί",
         "tag": "r--------"
       },
       {
@@ -16839,7 +16839,7 @@
         "value": "τ-",
         "head_id": 14,
         "relation": "ATR",
-        "lemma": "ὁ",
+        "lemma": "ὁ",
         "tag": "l-p---nn-"
       },
       {
@@ -16897,7 +16897,7 @@
         "value": "κ-",
         "head_id": 21,
         "relation": "AuxY",
-        "lemma": "καί",
+        "lemma": "καί",
         "tag": "d--------"
       },
       {
@@ -16956,7 +16956,7 @@
     "citation": "21d (98)"
   },
   {
-    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg002-tlg0059-grc-99",
+    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg0059-tlg002-grc-99",
     "treebank_id": "99",
     "words": [
       {
@@ -16972,7 +16972,7 @@
         "value": "ταῦτʼ",
         "head_id": 1,
         "relation": "ADV",
-        "lemma": "οὗτος",
+        "lemma": "οὗτος",
         "tag": "p-p---na-"
       },
       {
@@ -17326,7 +17326,7 @@
     "citation": "21e (99)"
   },
   {
-    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg002-tlg0059-grc-100",
+    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg0059-tlg002-grc-100",
     "treebank_id": "100",
     "words": [
       {
@@ -17441,7 +17441,7 @@
         "value": "τ-",
         "head_id": 15,
         "relation": "ATR",
-        "lemma": "ὁ",
+        "lemma": "ὁ",
         "tag": "l-p---na-"
       },
       {
@@ -17534,7 +17534,7 @@
     "citation": "22a (100)"
   },
   {
-    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg002-tlg0059-grc-101",
+    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg0059-tlg002-grc-101",
     "treebank_id": "101",
     "words": [
       {
@@ -17787,7 +17787,7 @@
     "citation": "22a (101)"
   },
   {
-    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg002-tlg0059-grc-102",
+    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg0059-tlg002-grc-102",
     "treebank_id": "102",
     "words": [
       {
@@ -17951,7 +17951,7 @@
     "citation": "22a (102)"
   },
   {
-    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg002-tlg0059-grc-103",
+    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg0059-tlg002-grc-103",
     "treebank_id": "103",
     "words": [
       {
@@ -18137,7 +18137,7 @@
         "value": "ἐπʼ",
         "head_id": 25,
         "relation": "AuxP",
-        "lemma": "ἐπί",
+        "lemma": "ἐπί",
         "tag": "r--------"
       },
       {
@@ -18204,7 +18204,7 @@
     "citation": "22a (103)"
   },
   {
-    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg002-tlg0059-grc-104",
+    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg0059-tlg002-grc-104",
     "treebank_id": "104",
     "words": [
       {
@@ -18399,7 +18399,7 @@
         "value": "παρʼ",
         "head_id": 23,
         "relation": "AuxP",
-        "lemma": "παρά",
+        "lemma": "παρά",
         "tag": "r--------"
       },
       {
@@ -18426,7 +18426,7 @@
     "citation": "22b (104)"
   },
   {
-    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg002-tlg0059-grc-105",
+    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg0059-tlg002-grc-105",
     "treebank_id": "105",
     "words": [
       {
@@ -18501,7 +18501,7 @@
         "value": "τ-",
         "head_id": 10,
         "relation": "ATR",
-        "lemma": "ὁ",
+        "lemma": "ὁ",
         "tag": "l-p---na-"
       },
       {
@@ -18528,7 +18528,7 @@
     "citation": "22b (105)"
   },
   {
-    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg002-tlg0059-grc-106",
+    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg0059-tlg002-grc-106",
     "treebank_id": "106",
     "words": [
       {
@@ -18572,7 +18572,7 @@
     "citation": "22b (106)"
   },
   {
-    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg002-tlg0059-grc-107",
+    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg0059-tlg002-grc-107",
     "treebank_id": "107",
     "words": [
       {
@@ -18720,7 +18720,7 @@
     "citation": "22b (107)"
   },
   {
-    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg002-tlg0059-grc-108",
+    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg0059-tlg002-grc-108",
     "treebank_id": "108",
     "words": [
       {
@@ -18981,7 +18981,7 @@
     "citation": "22b (108)"
   },
   {
-    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg002-tlg0059-grc-109",
+    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg0059-tlg002-grc-109",
     "treebank_id": "109",
     "words": [
       {
@@ -19045,7 +19045,7 @@
         "value": "καλά",
         "head_id": 7,
         "relation": "OBJ_CO",
-        "lemma": "καλός",
+        "lemma": "καλός",
         "tag": "a-p---nap"
       },
       {
@@ -19114,7 +19114,7 @@
     "citation": "22c (109)"
   },
   {
-    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg002-tlg0059-grc-110",
+    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg0059-tlg002-grc-110",
     "treebank_id": "110",
     "words": [
       {
@@ -19276,7 +19276,7 @@
         "value": "τ-",
         "head_id": 21,
         "relation": "ATR",
-        "lemma": "ὁ",
+        "lemma": "ὁ",
         "tag": "l-s---na-"
       },
       {
@@ -19284,7 +19284,7 @@
         "value": "ἆλλα",
         "head_id": 19,
         "relation": "ADV_CO",
-        "lemma": "ἄλλος",
+        "lemma": "ἄλλος",
         "tag": "p-p---na-"
       },
       {
@@ -19351,7 +19351,7 @@
     "citation": "22c (110)"
   },
   {
-    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg002-tlg0059-grc-111",
+    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg0059-tlg002-grc-111",
     "treebank_id": "111",
     "words": [
       {
@@ -19475,7 +19475,7 @@
     "citation": "22c (111)"
   },
   {
-    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg002-tlg0059-grc-112",
+    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg0059-tlg002-grc-112",
     "treebank_id": "112",
     "words": [
       {
@@ -19543,7 +19543,7 @@
     "citation": "22c (112)"
   },
   {
-    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg002-tlg0059-grc-113",
+    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg0059-tlg002-grc-113",
     "treebank_id": "113",
     "words": [
       {
@@ -19689,7 +19689,7 @@
         "value": "καλὰ",
         "head_id": 17,
         "relation": "OBJ_CO",
-        "lemma": "καλός",
+        "lemma": "καλός",
         "tag": "a-p---na_"
       },
       {
@@ -19716,7 +19716,7 @@
     "citation": "22c (113)"
   },
   {
-    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg002-tlg0059-grc-114",
+    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg0059-tlg002-grc-114",
     "treebank_id": "114",
     "words": [
       {
@@ -19773,7 +19773,7 @@
         "value": "ἀλλʼ",
         "head_id": 0,
         "relation": "COORD",
-        "lemma": "ἀλλά",
+        "lemma": "ἀλλά",
         "tag": "c--------",
         "original_head_id": 0
       },
@@ -19873,7 +19873,7 @@
     "citation": "22c (114)"
   },
   {
-    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg002-tlg0059-grc-115",
+    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg0059-tlg002-grc-115",
     "treebank_id": "115",
     "words": [
       {
@@ -19881,7 +19881,7 @@
         "value": "ἀλλʼ",
         "head_id": 37,
         "relation": "AuxY",
-        "lemma": "ἀλλά",
+        "lemma": "ἀλλά",
         "tag": "d--------"
       },
       {
@@ -20117,7 +20117,7 @@
         "value": "τ-",
         "head_id": 31,
         "relation": "ATR",
-        "lemma": "ὁ",
+        "lemma": "ὁ",
         "tag": "l-s---na-"
       },
       {
@@ -20125,7 +20125,7 @@
         "value": "ἆλλα",
         "head_id": 34,
         "relation": "ADV",
-        "lemma": "ἄλλος",
+        "lemma": "ἄλλος",
         "tag": "p-p---na-"
       },
       {
@@ -20274,7 +20274,7 @@
     "citation": "22d (115)"
   },
   {
-    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg002-tlg0059-grc-116",
+    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg0059-tlg002-grc-116",
     "treebank_id": "116",
     "words": [
       {
@@ -20591,7 +20591,7 @@
     "citation": "22e (116)"
   },
   {
-    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg002-tlg0059-grc-117",
+    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg0059-tlg002-grc-117",
     "treebank_id": "117",
     "words": [
       {
@@ -20707,7 +20707,7 @@
     "citation": "22e (117)"
   },
   {
-    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg002-tlg0059-grc-118",
+    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg0059-tlg002-grc-118",
     "treebank_id": "118",
     "words": [
       {
@@ -20911,7 +20911,7 @@
         "value": "ἀπʼ",
         "head_id": 27,
         "relation": "AuxP",
-        "lemma": "ἀπό",
+        "lemma": "ἀπό",
         "tag": "r--------"
       },
       {
@@ -21019,7 +21019,7 @@
     "citation": "22e (118)"
   },
   {
-    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg002-tlg0059-grc-119",
+    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg0059-tlg002-grc-119",
     "treebank_id": "119",
     "words": [
       {
@@ -21151,7 +21151,7 @@
     "citation": "23a (119)"
   },
   {
-    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg002-tlg0059-grc-120",
+    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg0059-tlg002-grc-120",
     "treebank_id": "120",
     "words": [
       {
@@ -21430,7 +21430,7 @@
     "citation": "23a (120)"
   },
   {
-    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg002-tlg0059-grc-121",
+    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg0059-tlg002-grc-121",
     "treebank_id": "121",
     "words": [
       {
@@ -21808,7 +21808,7 @@
     "citation": "23a (121)"
   },
   {
-    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg002-tlg0059-grc-122",
+    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg0059-tlg002-grc-122",
     "treebank_id": "122",
     "words": [
       {
@@ -21816,7 +21816,7 @@
         "value": "ταῦτʼ",
         "head_id": 9,
         "relation": "OBJ",
-        "lemma": "οὗτος",
+        "lemma": "οὗτος",
         "tag": "p-p---na-"
       },
       {
@@ -22020,7 +22020,7 @@
     "citation": "23b (122)"
   },
   {
-    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg002-tlg0059-grc-123",
+    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg0059-tlg002-grc-123",
     "treebank_id": "123",
     "words": [
       {
@@ -22060,7 +22060,7 @@
         "value": "δοκῇ",
         "head_id": 2,
         "relation": "ADV",
-        "lemma": "δοκέω",
+        "lemma": "δοκέω",
         "tag": "v3spsa---"
       },
       {
@@ -22153,7 +22153,7 @@
     "citation": "23b (123)"
   },
   {
-    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg002-tlg0059-grc-124",
+    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg0059-tlg002-grc-124",
     "treebank_id": "124",
     "words": [
       {
@@ -22338,7 +22338,7 @@
         "value": "ἀλλʼ",
         "head_id": 0,
         "relation": "COORD",
-        "lemma": "ἀλλά",
+        "lemma": "ἀλλά",
         "tag": "c--------",
         "original_head_id": 0
       },
@@ -22430,7 +22430,7 @@
     "citation": "23b (124)"
   },
   {
-    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg002-tlg0059-grc-125",
+    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg0059-tlg002-grc-125",
     "treebank_id": "125",
     "words": [
       {
@@ -22736,7 +22736,7 @@
     "citation": "23c (125)"
   },
   {
-    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg002-tlg0059-grc-126",
+    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg0059-tlg002-grc-126",
     "treebank_id": "126",
     "words": [
       {
@@ -22744,7 +22744,7 @@
         "value": "κ-",
         "head_id": 4,
         "relation": "AuxY",
-        "lemma": "καί",
+        "lemma": "καί",
         "tag": "d--------"
       },
       {
@@ -22752,7 +22752,7 @@
         "value": "ἄπειτα",
         "head_id": 4,
         "relation": "ADV",
-        "lemma": "ἔπειτα",
+        "lemma": "ἔπειτα",
         "tag": "d-------_"
       },
       {
@@ -22893,7 +22893,7 @@
     "citation": "23c (126)"
   },
   {
-    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg002-tlg0059-grc-127",
+    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg0059-tlg002-grc-127",
     "treebank_id": "127",
     "words": [
       {
@@ -22925,7 +22925,7 @@
         "value": "ὑπʼ",
         "head_id": 6,
         "relation": "AuxP",
-        "lemma": "ὑπό",
+        "lemma": "ὑπό",
         "tag": "r--------"
       },
       {
@@ -23098,7 +23098,7 @@
     "citation": "23c (127)"
   },
   {
-    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg002-tlg0059-grc-128",
+    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg0059-tlg002-grc-128",
     "treebank_id": "128",
     "words": [
       {
@@ -23227,7 +23227,7 @@
         "value": "ἀλλʼ",
         "head_id": 0,
         "relation": "COORD",
-        "lemma": "ἀλλά",
+        "lemma": "ἀλλά",
         "tag": "c--------",
         "original_head_id": 0
       },
@@ -23529,7 +23529,7 @@
     "citation": "23d (128)"
   },
   {
-    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg002-tlg0059-grc-129",
+    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg0059-tlg002-grc-129",
     "treebank_id": "129",
     "words": [
       {
@@ -23702,7 +23702,7 @@
     "citation": "23d (129)"
   },
   {
-    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg002-tlg0059-grc-130",
+    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg0059-tlg002-grc-130",
     "treebank_id": "130",
     "words": [
       {
@@ -23940,7 +23940,7 @@
     "citation": "23d (130)"
   },
   {
-    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg002-tlg0059-grc-131",
+    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg0059-tlg002-grc-131",
     "treebank_id": "131",
     "words": [
       {
@@ -24258,7 +24258,7 @@
     "citation": "23d (131)"
   },
   {
-    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg002-tlg0059-grc-132",
+    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg0059-tlg002-grc-132",
     "treebank_id": "132",
     "words": [
       {
@@ -24488,7 +24488,7 @@
     "citation": "24a (132)"
   },
   {
-    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg002-tlg0059-grc-133",
+    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg0059-tlg002-grc-133",
     "treebank_id": "133",
     "words": [
       {
@@ -24496,7 +24496,7 @@
         "value": "ταῦτʼ",
         "head_id": 2,
         "relation": "SBJ",
-        "lemma": "οὗτος",
+        "lemma": "οὗτος",
         "tag": "p-p---nn-"
       },
       {
@@ -24562,7 +24562,7 @@
         "value": "τ-",
         "head_id": 10,
         "relation": "ATR",
-        "lemma": "ὁ",
+        "lemma": "ὁ",
         "tag": "l-p---nn-"
       },
       {
@@ -24684,7 +24684,7 @@
         "value": "-δʼ",
         "head_id": 22,
         "relation": "COORD",
-        "lemma": "δέ",
+        "lemma": "δέ",
         "tag": "c--------"
       },
       {
@@ -24711,7 +24711,7 @@
     "citation": "24a (133)"
   },
   {
-    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg002-tlg0059-grc-134",
+    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg0059-tlg002-grc-134",
     "treebank_id": "134",
     "words": [
       {
@@ -24943,7 +24943,7 @@
       },
       {
         "id": 29,
-        "value": "ἐστιν",
+        "value": "ἐστιν",
         "head_id": 7,
         "relation": "ATR",
         "lemma": "εἰμί",
@@ -24956,7 +24956,7 @@
     "citation": "24a (134)"
   },
   {
-    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg002-tlg0059-grc-135",
+    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg0059-tlg002-grc-135",
     "treebank_id": "135",
     "words": [
       {
@@ -25081,7 +25081,7 @@
     "citation": "24b (135)"
   },
   {
-    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg002-tlg0059-grc-136",
+    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg0059-tlg002-grc-136",
     "treebank_id": "136",
     "words": [
       {
@@ -25221,7 +25221,7 @@
     "citation": "24b (136)"
   },
   {
-    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg002-tlg0059-grc-137",
+    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg0059-tlg002-grc-137",
     "treebank_id": "137",
     "words": [
       {
@@ -25387,7 +25387,7 @@
     "citation": "24b (137)"
   },
   {
-    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg002-tlg0059-grc-138",
+    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg0059-tlg002-grc-138",
     "treebank_id": "138",
     "words": [
       {
@@ -25545,7 +25545,7 @@
     "citation": "24b (138)"
   },
   {
-    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg002-tlg0059-grc-139",
+    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg0059-tlg002-grc-139",
     "treebank_id": "139",
     "words": [
       {
@@ -25597,7 +25597,7 @@
     "citation": "24b (139)"
   },
   {
-    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg002-tlg0059-grc-140",
+    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg0059-tlg002-grc-140",
     "treebank_id": "140",
     "words": [
       {
@@ -25778,7 +25778,7 @@
     "citation": "24b (140)"
   },
   {
-    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg002-tlg0059-grc-141",
+    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg0059-tlg002-grc-141",
     "treebank_id": "141",
     "words": [
       {
@@ -25846,7 +25846,7 @@
     "citation": "24c (141)"
   },
   {
-    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg002-tlg0059-grc-142",
+    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg0059-tlg002-grc-142",
     "treebank_id": "142",
     "words": [
       {
@@ -25922,7 +25922,7 @@
     "citation": "24c (142)"
   },
   {
-    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg002-tlg0059-grc-143",
+    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg0059-tlg002-grc-143",
     "treebank_id": "143",
     "words": [
       {
@@ -26006,7 +26006,7 @@
     "citation": "24c (143)"
   },
   {
-    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg002-tlg0059-grc-144",
+    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg0059-tlg002-grc-144",
     "treebank_id": "144",
     "words": [
       {
@@ -26147,7 +26147,7 @@
         "value": "ῥᾳδίως",
         "head_id": 20,
         "relation": "ADV",
-        "lemma": "ῥᾴδιος",
+        "lemma": "ῥᾴδιος",
         "tag": "d--------"
       },
       {
@@ -26295,7 +26295,7 @@
     "citation": "24c (144)"
   },
   {
-    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg002-tlg0059-grc-145",
+    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg0059-tlg002-grc-145",
     "treebank_id": "145",
     "words": [
       {
@@ -26396,7 +26396,7 @@
     "citation": "24c (145)"
   },
   {
-    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg002-tlg0059-grc-146",
+    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg0059-tlg002-grc-146",
     "treebank_id": "146",
     "words": [
       {
@@ -26482,7 +26482,7 @@
     "citation": "24c (146)"
   },
   {
-    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg002-tlg0059-grc-147",
+    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg0059-tlg002-grc-147",
     "treebank_id": "147",
     "words": [
       {
@@ -26579,7 +26579,7 @@
         "value": "ἔσονται",
         "head_id": 8,
         "relation": "OBJ",
-        "lemma": "εἰμί",
+        "lemma": "εἰμί",
         "tag": "v3pfim---"
       },
       {
@@ -26598,7 +26598,7 @@
     "citation": "24c (147)"
   },
   {
-    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg002-tlg0059-grc-148",
+    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg0059-tlg002-grc-148",
     "treebank_id": "148",
     "words": [
       {
@@ -26634,7 +26634,7 @@
     "citation": "24d (148)"
   },
   {
-    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg002-tlg0059-grc-149",
+    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg0059-tlg002-grc-149",
     "treebank_id": "149",
     "words": [
       {
@@ -26735,7 +26735,7 @@
     "citation": "24d (149)"
   },
   {
-    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg002-tlg0059-grc-150",
+    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg0059-tlg002-grc-150",
     "treebank_id": "150",
     "words": [
       {
@@ -26813,7 +26813,7 @@
       },
       {
         "id": 10,
-        "value": "ἐστιν",
+        "value": "ἐστιν",
         "head_id": 0,
         "relation": "PRED",
         "lemma": "εἰμί",
@@ -26827,7 +26827,7 @@
     "citation": "24d (150)"
   },
   {
-    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg002-tlg0059-grc-151",
+    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg0059-tlg002-grc-151",
     "treebank_id": "151",
     "words": [
       {
@@ -26970,7 +26970,7 @@
     "citation": "24d (151)"
   },
   {
-    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg002-tlg0059-grc-152",
+    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg0059-tlg002-grc-152",
     "treebank_id": "152",
     "words": [
       {
@@ -27086,7 +27086,7 @@
     "citation": "24d (152)"
   },
   {
-    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg002-tlg0059-grc-153",
+    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg0059-tlg002-grc-153",
     "treebank_id": "153",
     "words": [
       {
@@ -27196,7 +27196,7 @@
     "citation": "24d (153)"
   },
   {
-    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg002-tlg0059-grc-154",
+    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg0059-tlg002-grc-154",
     "treebank_id": "154",
     "words": [
       {
@@ -27361,7 +27361,7 @@
     "citation": "24d (154)"
   },
   {
-    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg002-tlg0059-grc-155",
+    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg0059-tlg002-grc-155",
     "treebank_id": "155",
     "words": [
       {
@@ -27369,7 +27369,7 @@
         "value": "ἀλλʼ",
         "head_id": 2,
         "relation": "AuxY",
-        "lemma": "ἀλλά",
+        "lemma": "ἀλλά",
         "tag": "d--------"
       },
       {
@@ -27455,7 +27455,7 @@
     "citation": "24d (155)"
   },
   {
-    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg002-tlg0059-grc-156",
+    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg0059-tlg002-grc-156",
     "treebank_id": "156",
     "words": [
       {
@@ -27485,7 +27485,7 @@
       },
       {
         "id": 4,
-        "value": "ποιοῦσι",
+        "value": "ποιοῦσι",
         "head_id": 0,
         "relation": "PRED",
         "lemma": "ποιέω",
@@ -27499,7 +27499,7 @@
     "citation": "24d (156)"
   },
   {
-    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg002-tlg0059-grc-157",
+    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg0059-tlg002-grc-157",
     "treebank_id": "157",
     "words": [
       {
@@ -27507,7 +27507,7 @@
         "value": "ἀλλʼ",
         "head_id": 4,
         "relation": "AuxY",
-        "lemma": "ἀλλά",
+        "lemma": "ἀλλά",
         "tag": "d--------"
       },
       {
@@ -27685,7 +27685,7 @@
       },
       {
         "id": 23,
-        "value": "ἐστιν",
+        "value": "ἐστιν",
         "head_id": 9,
         "relation": "OBJ_CO",
         "lemma": "εἰμί",
@@ -27698,7 +27698,7 @@
     "citation": "24e (157)"
   },
   {
-    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg002-tlg0059-grc-158",
+    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg0059-tlg002-grc-158",
     "treebank_id": "158",
     "words": [
       {
@@ -27770,7 +27770,7 @@
       },
       {
         "id": 9,
-        "value": "εἴσιν",
+        "value": "εἴσιν",
         "head_id": 0,
         "relation": "PRED",
         "lemma": "εἰμί",
@@ -27784,7 +27784,7 @@
     "citation": "24e (158)"
   },
   {
-    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg002-tlg0059-grc-159",
+    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg0059-tlg002-grc-159",
     "treebank_id": "159",
     "words": [
       {
@@ -27845,7 +27845,7 @@
     "citation": "24e (159)"
   },
   {
-    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg002-tlg0059-grc-160",
+    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg0059-tlg002-grc-160",
     "treebank_id": "160",
     "words": [
       {
@@ -27945,7 +27945,7 @@
     "citation": "24e (160)"
   },
   {
-    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg002-tlg0059-grc-161",
+    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg0059-tlg002-grc-161",
     "treebank_id": "161",
     "words": [
       {
@@ -27981,7 +27981,7 @@
     "citation": "24e (161)"
   },
   {
-    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg002-tlg0059-grc-162",
+    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg0059-tlg002-grc-162",
     "treebank_id": "162",
     "words": [
       {
@@ -28064,7 +28064,7 @@
         "value": "δʼ",
         "head_id": 4,
         "relation": "COORD",
-        "lemma": "δέ",
+        "lemma": "δέ",
         "tag": "c--------"
       },
       {
@@ -28115,7 +28115,7 @@
     "citation": "24e (162)"
   },
   {
-    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg002-tlg0059-grc-163",
+    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg0059-tlg002-grc-163",
     "treebank_id": "163",
     "words": [
       {
@@ -28151,7 +28151,7 @@
     "citation": "24e (163)"
   },
   {
-    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg002-tlg0059-grc-164",
+    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg0059-tlg002-grc-164",
     "treebank_id": "164",
     "words": [
       {
@@ -28259,7 +28259,7 @@
     "citation": "24e (164)"
   },
   {
-    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg002-tlg0059-grc-165",
+    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg0059-tlg002-grc-165",
     "treebank_id": "165",
     "words": [
       {
@@ -28311,7 +28311,7 @@
     "citation": "24e (165)"
   },
   {
-    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg002-tlg0059-grc-166",
+    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg0059-tlg002-grc-166",
     "treebank_id": "166",
     "words": [
       {
@@ -28395,7 +28395,7 @@
     "citation": "24e (166)"
   },
   {
-    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg002-tlg0059-grc-167",
+    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg0059-tlg002-grc-167",
     "treebank_id": "167",
     "words": [
       {
@@ -28439,7 +28439,7 @@
     "citation": "25a (167)"
   },
   {
-    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg002-tlg0059-grc-168",
+    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg0059-tlg002-grc-168",
     "treebank_id": "168",
     "words": [
       {
@@ -28508,7 +28508,7 @@
     "citation": "25a (168)"
   },
   {
-    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg002-tlg0059-grc-169",
+    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg0059-tlg002-grc-169",
     "treebank_id": "169",
     "words": [
       {
@@ -28560,7 +28560,7 @@
     "citation": "25a (169)"
   },
   {
-    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg002-tlg0059-grc-170",
+    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg0059-tlg002-grc-170",
     "treebank_id": "170",
     "words": [
       {
@@ -28568,7 +28568,7 @@
         "value": "ἀλλʼ",
         "head_id": 16,
         "relation": "AuxY",
-        "lemma": "ἀλλά",
+        "lemma": "ἀλλά",
         "tag": "d--------"
       },
       {
@@ -28728,7 +28728,7 @@
     "citation": "25a (170)"
   },
   {
-    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg002-tlg0059-grc-171",
+    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg0059-tlg002-grc-171",
     "treebank_id": "171",
     "words": [
       {
@@ -28744,7 +28744,7 @@
         "value": "κ-",
         "head_id": 3,
         "relation": "AuxZ",
-        "lemma": "καί",
+        "lemma": "καί",
         "tag": "d--------"
       },
       {
@@ -28752,7 +28752,7 @@
         "value": "ἀκεῖνοι",
         "head_id": 5,
         "relation": "SBJ",
-        "lemma": "ἐκεῖνος",
+        "lemma": "ἐκεῖνος",
         "tag": "p-p---mn-"
       },
       {
@@ -28796,7 +28796,7 @@
     "citation": "25a (171)"
   },
   {
-    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg002-tlg0059-grc-172",
+    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg0059-tlg002-grc-172",
     "treebank_id": "172",
     "words": [
       {
@@ -28804,7 +28804,7 @@
         "value": "κ-",
         "head_id": 2,
         "relation": "AuxZ",
-        "lemma": "καί",
+        "lemma": "καί",
         "tag": "d--------"
       },
       {
@@ -28812,7 +28812,7 @@
         "value": "ἀκεῖνοι",
         "head_id": 4,
         "relation": "SBJ",
-        "lemma": "ἐκεῖνος",
+        "lemma": "ἐκεῖνος",
         "tag": "p-p---mn-"
       },
       {
@@ -28840,7 +28840,7 @@
     "citation": "25a (172)"
   },
   {
-    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg002-tlg0059-grc-173",
+    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg0059-tlg002-grc-173",
     "treebank_id": "173",
     "words": [
       {
@@ -28914,7 +28914,7 @@
         "value": "κ-",
         "head_id": 11,
         "relation": "COORD",
-        "lemma": "καί",
+        "lemma": "καί",
         "tag": "c--------"
       },
       {
@@ -29007,7 +29007,7 @@
     "citation": "25a (173)"
   },
   {
-    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg002-tlg0059-grc-174",
+    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg0059-tlg002-grc-174",
     "treebank_id": "174",
     "words": [
       {
@@ -29043,7 +29043,7 @@
     "citation": "25a (174)"
   },
   {
-    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg002-tlg0059-grc-175",
+    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg0059-tlg002-grc-175",
     "treebank_id": "175",
     "words": [
       {
@@ -29095,7 +29095,7 @@
     "citation": "25a (175)"
   },
   {
-    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg002-tlg0059-grc-176",
+    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg0059-tlg002-grc-176",
     "treebank_id": "176",
     "words": [
       {
@@ -29155,7 +29155,7 @@
     "citation": "25a (176)"
   },
   {
-    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg002-tlg0059-grc-177",
+    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg0059-tlg002-grc-177",
     "treebank_id": "177",
     "words": [
       {
@@ -29199,7 +29199,7 @@
     "citation": "25a (177)"
   },
   {
-    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg002-tlg0059-grc-178",
+    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg0059-tlg002-grc-178",
     "treebank_id": "178",
     "words": [
       {
@@ -29283,7 +29283,7 @@
     "citation": "25b (178)"
   },
   {
-    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg002-tlg0059-grc-179",
+    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg0059-tlg002-grc-179",
     "treebank_id": "179",
     "words": [
       {
@@ -29419,7 +29419,7 @@
       },
       {
         "id": 17,
-        "value": "δοκοῦσιν",
+        "value": "δοκοῦσιν",
         "head_id": 11,
         "relation": "PRED_CO",
         "lemma": "δοκέω",
@@ -29440,7 +29440,7 @@
     "citation": "25b (179)"
   },
   {
-    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg002-tlg0059-grc-180",
+    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg0059-tlg002-grc-180",
     "treebank_id": "180",
     "words": [
       {
@@ -29456,7 +29456,7 @@
         "value": "τ-",
         "head_id": 3,
         "relation": "ATR",
-        "lemma": "ὁ",
+        "lemma": "ὁ",
         "tag": "l-s---na-"
       },
       {
@@ -29464,7 +29464,7 @@
         "value": "οὐναντίον",
         "head_id": 23,
         "relation": "ADV",
-        "lemma": "ἐναντίος",
+        "lemma": "ἐναντίος",
         "tag": "a-s---nap"
       },
       {
@@ -29718,7 +29718,7 @@
     "citation": "25b (180)"
   },
   {
-    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg002-tlg0059-grc-181",
+    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg0059-tlg002-grc-181",
     "treebank_id": "181",
     "words": [
       {
@@ -29860,7 +29860,7 @@
     "citation": "25b (181)"
   },
   {
-    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg002-tlg0059-grc-182",
+    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg0059-tlg002-grc-182",
     "treebank_id": "182",
     "words": [
       {
@@ -29993,7 +29993,7 @@
     "citation": "25b (182)"
   },
   {
-    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg002-tlg0059-grc-183",
+    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg0059-tlg002-grc-183",
     "treebank_id": "183",
     "words": [
       {
@@ -30139,7 +30139,7 @@
         "value": "δʼ",
         "head_id": 10,
         "relation": "COORD",
-        "lemma": "δέ",
+        "lemma": "δέ",
         "tag": "c--------"
       },
       {
@@ -30174,7 +30174,7 @@
     "citation": "25b (183)"
   },
   {
-    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg002-tlg0059-grc-184",
+    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg0059-tlg002-grc-184",
     "treebank_id": "184",
     "words": [
       {
@@ -30430,7 +30430,7 @@
     "citation": "25c (184)"
   },
   {
-    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg002-tlg0059-grc-185",
+    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg0059-tlg002-grc-185",
     "treebank_id": "185",
     "words": [
       {
@@ -30604,7 +30604,7 @@
     "citation": "25c (185)"
   },
   {
-    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg002-tlg0059-grc-186",
+    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg0059-tlg002-grc-186",
     "treebank_id": "186",
     "words": [
       {
@@ -30657,7 +30657,7 @@
     "citation": "25c (186)"
   },
   {
-    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg002-tlg0059-grc-187",
+    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg0059-tlg002-grc-187",
     "treebank_id": "187",
     "words": [
       {
@@ -30717,7 +30717,7 @@
     "citation": "25c (187)"
   },
   {
-    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg002-tlg0059-grc-188",
+    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg0059-tlg002-grc-188",
     "treebank_id": "188",
     "words": [
       {
@@ -30838,7 +30838,7 @@
         "value": "δʼ",
         "head_id": 0,
         "relation": "COORD",
-        "lemma": "δέ",
+        "lemma": "δέ",
         "tag": "c--------",
         "original_head_id": 0
       },
@@ -30890,7 +30890,7 @@
     "citation": "25c (188)"
   },
   {
-    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg002-tlg0059-grc-189",
+    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg0059-tlg002-grc-189",
     "treebank_id": "189",
     "words": [
       {
@@ -30934,7 +30934,7 @@
     "citation": "25c (189)"
   },
   {
-    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg002-tlg0059-grc-190",
+    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg0059-tlg002-grc-190",
     "treebank_id": "190",
     "words": [
       {
@@ -31050,7 +31050,7 @@
     "citation": "25d (190)"
   },
   {
-    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg002-tlg0059-grc-191",
+    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg0059-tlg002-grc-191",
     "treebank_id": "191",
     "words": [
       {
@@ -31103,7 +31103,7 @@
     "citation": "25d (191)"
   },
   {
-    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg002-tlg0059-grc-192",
+    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg0059-tlg002-grc-192",
     "treebank_id": "192",
     "words": [
       {
@@ -31171,7 +31171,7 @@
     "citation": "25d (192)"
   },
   {
-    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg002-tlg0059-grc-193",
+    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg0059-tlg002-grc-193",
     "treebank_id": "193",
     "words": [
       {
@@ -31179,7 +31179,7 @@
         "value": "ἔσθʼ",
         "head_id": 0,
         "relation": "PRED",
-        "lemma": "εἰμί",
+        "lemma": "εἰμί",
         "tag": "v3spia---",
         "original_head_id": 0
       },
@@ -31223,7 +31223,7 @@
     "citation": "25d (193)"
   },
   {
-    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg002-tlg0059-grc-194",
+    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg0059-tlg002-grc-194",
     "treebank_id": "194",
     "words": [
       {
@@ -31267,7 +31267,7 @@
     "citation": "25d (194)"
   },
   {
-    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg002-tlg0059-grc-195",
+    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg0059-tlg002-grc-195",
     "treebank_id": "195",
     "words": [
       {
@@ -31424,7 +31424,7 @@
     "citation": "25d (195)"
   },
   {
-    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg002-tlg0059-grc-196",
+    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg0059-tlg002-grc-196",
     "treebank_id": "196",
     "words": [
       {
@@ -31468,7 +31468,7 @@
     "citation": "25d (196)"
   },
   {
-    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg002-tlg0059-grc-197",
+    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg0059-tlg002-grc-197",
     "treebank_id": "197",
     "words": [
       {
@@ -31537,7 +31537,7 @@
     "citation": "25d (197)"
   },
   {
-    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg002-tlg0059-grc-198",
+    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg0059-tlg002-grc-198",
     "treebank_id": "198",
     "words": [
       {
@@ -31998,7 +31998,7 @@
         "value": "ὑπʼ",
         "head_id": 56,
         "relation": "AuxP",
-        "lemma": "ὑπό",
+        "lemma": "ὑπό",
         "tag": "r--------"
       },
       {
@@ -32131,7 +32131,7 @@
     "citation": "25d (198)"
   },
   {
-    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg002-tlg0059-grc-199",
+    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg0059-tlg002-grc-199",
     "treebank_id": "199",
     "words": [
       {
@@ -32281,7 +32281,7 @@
     "citation": "25e (199)"
   },
   {
-    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg002-tlg0059-grc-200",
+    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg0059-tlg002-grc-200",
     "treebank_id": "200",
     "words": [
       {
@@ -32289,7 +32289,7 @@
         "value": "ἀλλʼ",
         "head_id": 6,
         "relation": "AuxY",
-        "lemma": "ἀλλά",
+        "lemma": "ἀλλά",
         "tag": "d--------"
       },
       {
@@ -32405,7 +32405,7 @@
         "value": "κατʼ",
         "head_id": 17,
         "relation": "AuxP",
-        "lemma": "κατά",
+        "lemma": "κατά",
         "tag": "r--------"
       },
       {
@@ -32448,7 +32448,7 @@
     "citation": "25e (200)"
   },
   {
-    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg002-tlg0059-grc-201",
+    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg0059-tlg002-grc-201",
     "treebank_id": "201",
     "words": [
       {
@@ -32646,7 +32646,7 @@
     "citation": "26a (201)"
   },
   {
-    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg002-tlg0059-grc-202",
+    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg0059-tlg002-grc-202",
     "treebank_id": "202",
     "words": [
       {
@@ -32749,7 +32749,7 @@
       },
       {
         "id": 13,
-        "value": "ἐστιν",
+        "value": "ἐστιν",
         "head_id": 0,
         "relation": "PRED",
         "lemma": "εἰμί",
@@ -32763,7 +32763,7 @@
     "citation": "26a (202)"
   },
   {
-    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg002-tlg0059-grc-203",
+    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg0059-tlg002-grc-203",
     "treebank_id": "203",
     "words": [
       {
@@ -32958,7 +32958,7 @@
         "value": "ἀλλʼ",
         "head_id": 23,
         "relation": "COORD",
-        "lemma": "ἀλλά",
+        "lemma": "ἀλλά",
         "tag": "c--------"
       },
       {
@@ -32993,7 +32993,7 @@
     "citation": "26a (203)"
   },
   {
-    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg002-tlg0059-grc-204",
+    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg0059-tlg002-grc-204",
     "treebank_id": "204",
     "words": [
       {
@@ -33091,7 +33091,7 @@
         "value": "οὑ-",
         "head_id": 14,
         "relation": "OBJ",
-        "lemma": "ὅς",
+        "lemma": "ὅς",
         "tag": "p-s---na-"
       },
       {
@@ -33217,7 +33217,7 @@
       },
       {
         "id": 28,
-        "value": "ἐστιν",
+        "value": "ἐστιν",
         "head_id": 0,
         "relation": "PRED",
         "lemma": "εἰμί",
@@ -33231,7 +33231,7 @@
     "citation": "26a (204)"
   },
   {
-    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg002-tlg0059-grc-205",
+    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg0059-tlg002-grc-205",
     "treebank_id": "205",
     "words": [
       {
@@ -33382,7 +33382,7 @@
     "citation": "26b (205)"
   },
   {
-    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg002-tlg0059-grc-206",
+    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg0059-tlg002-grc-206",
     "treebank_id": "206",
     "words": [
       {
@@ -33573,7 +33573,7 @@
       },
       {
         "id": 24,
-        "value": "ἐστιν",
+        "value": "ἐστιν",
         "head_id": 0,
         "relation": "PRED",
         "lemma": "εἰμί",
@@ -33595,7 +33595,7 @@
     "citation": "26b (206)"
   },
   {
-    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg002-tlg0059-grc-207",
+    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg0059-tlg002-grc-207",
     "treebank_id": "207",
     "words": [
       {
@@ -33671,7 +33671,7 @@
     "citation": "26b (207)"
   },
   {
-    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg002-tlg0059-grc-208",
+    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg0059-tlg002-grc-208",
     "treebank_id": "208",
     "words": [
       {
@@ -33739,7 +33739,7 @@
     "citation": "26b (208)"
   },
   {
-    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg002-tlg0059-grc-209",
+    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg0059-tlg002-grc-209",
     "treebank_id": "209",
     "words": [
       {
@@ -33821,7 +33821,7 @@
         "value": "θεῶν",
         "head_id": 1,
         "relation": "ADV",
-        "lemma": "θεός",
+        "lemma": "θεός",
         "tag": "n-p---mg-"
       },
       {
@@ -33962,7 +33962,7 @@
     "citation": "26b (209)"
   },
   {
-    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg002-tlg0059-grc-210",
+    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg0059-tlg002-grc-210",
     "treebank_id": "210",
     "words": [
       {
@@ -34515,7 +34515,7 @@
     "citation": "26c (210)"
   },
   {
-    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg002-tlg0059-grc-211",
+    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg0059-tlg002-grc-211",
     "treebank_id": "211",
     "words": [
       {
@@ -34607,7 +34607,7 @@
     "citation": "26c (211)"
   },
   {
-    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg002-tlg0059-grc-212",
+    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg0059-tlg002-grc-212",
     "treebank_id": "212",
     "words": [
       {
@@ -34700,7 +34700,7 @@
     "citation": "26d (212)"
   },
   {
-    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg002-tlg0059-grc-213",
+    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg0059-tlg002-grc-213",
     "treebank_id": "213",
     "words": [
       {
@@ -34849,7 +34849,7 @@
     "citation": "26d (213)"
   },
   {
-    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg002-tlg0059-grc-214",
+    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg0059-tlg002-grc-214",
     "treebank_id": "214",
     "words": [
       {
@@ -34865,7 +34865,7 @@
         "value": "Δίʼ",
         "head_id": 1,
         "relation": "ExD",
-        "lemma": "ζέυς",
+        "lemma": "ζέυς",
         "tag": "n-s---ma-"
       },
       {
@@ -35040,7 +35040,7 @@
     "citation": "26d (214)"
   },
   {
-    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg002-tlg0059-grc-215",
+    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg0059-tlg002-grc-215",
     "treebank_id": "215",
     "words": [
       {
@@ -35117,7 +35117,7 @@
     "citation": "26d (215)"
   },
   {
-    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg002-tlg0059-grc-216",
+    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg0059-tlg002-grc-216",
     "treebank_id": "216",
     "words": [
       {
@@ -35321,7 +35321,7 @@
     "citation": "26d (216)"
   },
   {
-    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg002-tlg0059-grc-217",
+    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg0059-tlg002-grc-217",
     "treebank_id": "217",
     "words": [
       {
@@ -35377,7 +35377,7 @@
         "value": "παρʼ",
         "head_id": 9,
         "relation": "AuxP",
-        "lemma": "παρά",
+        "lemma": "παρά",
         "tag": "r--------"
       },
       {
@@ -35632,7 +35632,7 @@
     "citation": "26d (217)"
   },
   {
-    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg002-tlg0059-grc-218",
+    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg0059-tlg002-grc-218",
     "treebank_id": "218",
     "words": [
       {
@@ -35640,7 +35640,7 @@
         "value": "ἀλλʼ",
         "head_id": 9,
         "relation": "AuxY",
-        "lemma": "ἀλλά",
+        "lemma": "ἀλλά",
         "tag": "d--------"
       },
       {
@@ -35726,7 +35726,7 @@
     "citation": "26e (218)"
   },
   {
-    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg002-tlg0059-grc-219",
+    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg0059-tlg002-grc-219",
     "treebank_id": "219",
     "words": [
       {
@@ -35778,7 +35778,7 @@
     "citation": "26e (219)"
   },
   {
-    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg002-tlg0059-grc-220",
+    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg0059-tlg002-grc-220",
     "treebank_id": "220",
     "words": [
       {
@@ -35826,7 +35826,7 @@
         "value": "-δʼ",
         "head_id": 1,
         "relation": "AuxZ",
-        "lemma": "δέ",
+        "lemma": "δέ",
         "tag": "d-------_"
       },
       {
@@ -35862,7 +35862,7 @@
     "citation": "26e (220)"
   },
   {
-    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg002-tlg0059-grc-221",
+    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg0059-tlg002-grc-221",
     "treebank_id": "221",
     "words": [
       {
@@ -36014,7 +36014,7 @@
     "citation": "26e (221)"
   },
   {
-    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg002-tlg0059-grc-222",
+    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg0059-tlg002-grc-222",
     "treebank_id": "222",
     "words": [
       {
@@ -36253,7 +36253,7 @@
     "citation": "26e (222)"
   },
   {
-    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg002-tlg0059-grc-223",
+    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg0059-tlg002-grc-223",
     "treebank_id": "223",
     "words": [
       {
@@ -36382,7 +36382,7 @@
         "value": "ἐναντίʼ",
         "head_id": 18,
         "relation": "OBJ",
-        "lemma": "ἐναντίος",
+        "lemma": "ἐναντίος",
         "tag": "a-p---nap"
       },
       {
@@ -36491,7 +36491,7 @@
     "citation": "27a (223)"
   },
   {
-    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg002-tlg0059-grc-224",
+    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg0059-tlg002-grc-224",
     "treebank_id": "224",
     "words": [
       {
@@ -36647,7 +36647,7 @@
     "citation": "27a (224)"
   },
   {
-    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg002-tlg0059-grc-225",
+    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg0059-tlg002-grc-225",
     "treebank_id": "225",
     "words": [
       {
@@ -36740,7 +36740,7 @@
     "citation": "27a (225)"
   },
   {
-    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg002-tlg0059-grc-226",
+    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg0059-tlg002-grc-226",
     "treebank_id": "226",
     "words": [
       {
@@ -36792,7 +36792,7 @@
     "citation": "27a (226)"
   },
   {
-    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg002-tlg0059-grc-227",
+    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg0059-tlg002-grc-227",
     "treebank_id": "227",
     "words": [
       {
@@ -36902,7 +36902,7 @@
     "citation": "27a (227)"
   },
   {
-    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg002-tlg0059-grc-228",
+    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg0059-tlg002-grc-228",
     "treebank_id": "228",
     "words": [
       {
@@ -36979,7 +36979,7 @@
     "citation": "27a (228)"
   },
   {
-    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg002-tlg0059-grc-229",
+    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg0059-tlg002-grc-229",
     "treebank_id": "229",
     "words": [
       {
@@ -37020,7 +37020,7 @@
         "value": "κατʼ",
         "head_id": 8,
         "relation": "AuxP",
-        "lemma": "κατά",
+        "lemma": "κατά",
         "tag": "r--------"
       },
       {
@@ -37169,7 +37169,7 @@
     "citation": "27a (229)"
   },
   {
-    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg002-tlg0059-grc-230",
+    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg0059-tlg002-grc-230",
     "treebank_id": "230",
     "words": [
       {
@@ -37260,7 +37260,7 @@
         "value": "πράγματʼ",
         "head_id": 12,
         "relation": "SBJ",
-        "lemma": "πρᾶγμα",
+        "lemma": "πρᾶγμα",
         "tag": "n-p---na-"
       },
       {
@@ -37336,7 +37336,7 @@
     "citation": "27b (230)"
   },
   {
-    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg002-tlg0059-grc-231",
+    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg0059-tlg002-grc-231",
     "treebank_id": "231",
     "words": [
       {
@@ -37446,7 +37446,7 @@
     "citation": "27b (231)"
   },
   {
-    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg002-tlg0059-grc-232",
+    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg0059-tlg002-grc-232",
     "treebank_id": "232",
     "words": [
       {
@@ -37454,7 +37454,7 @@
         "value": "ἔσθʼ",
         "head_id": 0,
         "relation": "PRED",
-        "lemma": "εἰμί",
+        "lemma": "εἰμί",
         "tag": "v3spia---",
         "original_head_id": 0
       },
@@ -37547,7 +37547,7 @@
     "citation": "27b (232)"
   },
   {
-    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg002-tlg0059-grc-233",
+    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg0059-tlg002-grc-233",
     "treebank_id": "233",
     "words": [
       {
@@ -37648,7 +37648,7 @@
     "citation": "27b (233)"
   },
   {
-    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg002-tlg0059-grc-234",
+    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg0059-tlg002-grc-234",
     "treebank_id": "234",
     "words": [
       {
@@ -37717,7 +37717,7 @@
     "citation": "27b (234)"
   },
   {
-    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg002-tlg0059-grc-235",
+    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg0059-tlg002-grc-235",
     "treebank_id": "235",
     "words": [
       {
@@ -37842,7 +37842,7 @@
     "citation": "27b (235)"
   },
   {
-    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg002-tlg0059-grc-236",
+    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg0059-tlg002-grc-236",
     "treebank_id": "236",
     "words": [
       {
@@ -37910,7 +37910,7 @@
     "citation": "27b (236)"
   },
   {
-    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg002-tlg0059-grc-237",
+    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg0059-tlg002-grc-237",
     "treebank_id": "237",
     "words": [
       {
@@ -37918,7 +37918,7 @@
         "value": "ἔσθʼ",
         "head_id": 0,
         "relation": "PRED",
-        "lemma": "εἰμί",
+        "lemma": "εἰμί",
         "tag": "v3spia---",
         "original_head_id": 0
       },
@@ -37959,7 +37959,7 @@
         "value": "πράγματʼ",
         "head_id": 7,
         "relation": "SBJ",
-        "lemma": "πρᾶγμα",
+        "lemma": "πρᾶγμα",
         "tag": "n-p---na-"
       },
       {
@@ -38027,7 +38027,7 @@
     "citation": "27c (237)"
   },
   {
-    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg002-tlg0059-grc-238",
+    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg0059-tlg002-grc-238",
     "treebank_id": "238",
     "words": [
       {
@@ -38063,7 +38063,7 @@
     "citation": "27c (238)"
   },
   {
-    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg002-tlg0059-grc-239",
+    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg0059-tlg002-grc-239",
     "treebank_id": "239",
     "words": [
       {
@@ -38147,7 +38147,7 @@
     "citation": "27c (239)"
   },
   {
-    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg002-tlg0059-grc-240",
+    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg0059-tlg002-grc-240",
     "treebank_id": "240",
     "words": [
       {
@@ -38301,7 +38301,7 @@
         "value": "ἀλλʼ",
         "head_id": 0,
         "relation": "COORD",
-        "lemma": "ἀλλά",
+        "lemma": "ἀλλά",
         "tag": "c--------",
         "original_head_id": 0
       },
@@ -38445,7 +38445,7 @@
       },
       {
         "id": 37,
-        "value": "ἐστιν",
+        "value": "ἐστιν",
         "head_id": 11,
         "relation": "ADV_CO",
         "lemma": "εἰμί",
@@ -38453,7 +38453,7 @@
       },
       {
         "id": 38,
-        "value": "ἐστιν",
+        "value": "ἐστιν",
         "head_id": 15,
         "relation": "ADV_CO",
         "lemma": "εἰμί",
@@ -38466,7 +38466,7 @@
     "citation": "27c (240)"
   },
   {
-    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg002-tlg0059-grc-241",
+    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg0059-tlg002-grc-241",
     "treebank_id": "241",
     "words": [
       {
@@ -38591,7 +38591,7 @@
     "citation": "27c (241)"
   },
   {
-    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg002-tlg0059-grc-242",
+    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg0059-tlg002-grc-242",
     "treebank_id": "242",
     "words": [
       {
@@ -38635,7 +38635,7 @@
     "citation": "27c (242)"
   },
   {
-    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg002-tlg0059-grc-243",
+    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg0059-tlg002-grc-243",
     "treebank_id": "243",
     "words": [
       {
@@ -38671,7 +38671,7 @@
     "citation": "27c (243)"
   },
   {
-    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg002-tlg0059-grc-244",
+    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg0059-tlg002-grc-244",
     "treebank_id": "244",
     "words": [
       {
@@ -38756,7 +38756,7 @@
     "citation": "27c (244)"
   },
   {
-    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg002-tlg0059-grc-245",
+    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg0059-tlg002-grc-245",
     "treebank_id": "245",
     "words": [
       {
@@ -38837,7 +38837,7 @@
         "value": "θεῶν",
         "head_id": 11,
         "relation": "ATR",
-        "lemma": "θεός",
+        "lemma": "θεός",
         "tag": "n-p---mg-"
       },
       {
@@ -38864,7 +38864,7 @@
     "citation": "27c (245)"
   },
   {
-    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg002-tlg0059-grc-246",
+    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg0059-tlg002-grc-246",
     "treebank_id": "246",
     "words": [
       {
@@ -38916,7 +38916,7 @@
     "citation": "27c (246)"
   },
   {
-    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg002-tlg0059-grc-247",
+    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg0059-tlg002-grc-247",
     "treebank_id": "247",
     "words": [
       {
@@ -38960,7 +38960,7 @@
     "citation": "27d (247)"
   },
   {
-    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg002-tlg0059-grc-248",
+    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg0059-tlg002-grc-248",
     "treebank_id": "248",
     "words": [
       {
@@ -39320,7 +39320,7 @@
     "citation": "27d (248)"
   },
   {
-    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg002-tlg0059-grc-249",
+    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg0059-tlg002-grc-249",
     "treebank_id": "249",
     "words": [
       {
@@ -39336,7 +39336,7 @@
         "value": "δʼ",
         "head_id": 29,
         "relation": "AuxY",
-        "lemma": "δέ",
+        "lemma": "δέ",
         "tag": "d--------"
       },
       {
@@ -39368,7 +39368,7 @@
         "value": "θεῶν",
         "head_id": 7,
         "relation": "ATR",
-        "lemma": "θεός",
+        "lemma": "θεός",
         "tag": "n-p---mg-"
       },
       {
@@ -39529,7 +39529,7 @@
         "value": "θεῶν",
         "head_id": 28,
         "relation": "ATR",
-        "lemma": "θεός",
+        "lemma": "θεός",
         "tag": "n-p---mg-"
       },
       {
@@ -39622,7 +39622,7 @@
     "citation": "27d (249)"
   },
   {
-    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg002-tlg0059-grc-250",
+    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg0059-tlg002-grc-250",
     "treebank_id": "250",
     "words": [
       {
@@ -39875,7 +39875,7 @@
     "citation": "27d (250)"
   },
   {
-    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg002-tlg0059-grc-251",
+    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg0059-tlg002-grc-251",
     "treebank_id": "251",
     "words": [
       {
@@ -39883,7 +39883,7 @@
         "value": "ἀλλʼ",
         "head_id": 7,
         "relation": "AuxY",
-        "lemma": "ἀλλά",
+        "lemma": "ἀλλά",
         "tag": "d--------"
       },
       {
@@ -40089,7 +40089,7 @@
     "citation": "27e (251)"
   },
   {
-    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg002-tlg0059-grc-252",
+    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg0059-tlg002-grc-252",
     "treebank_id": "252",
     "words": [
       {
@@ -40448,7 +40448,7 @@
     "citation": "27e (252)"
   },
   {
-    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg002-tlg0059-grc-253",
+    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg0059-tlg002-grc-253",
     "treebank_id": "253",
     "words": [
       {
@@ -40691,7 +40691,7 @@
       },
       {
         "id": 30,
-        "value": "ἐστιν",
+        "value": "ἐστιν",
         "head_id": 25,
         "relation": "PRED_CO",
         "lemma": "εἰμί",
@@ -40704,7 +40704,7 @@
     "citation": "28a (253)"
   },
   {
-    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg002-tlg0059-grc-254",
+    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg0059-tlg002-grc-254",
     "treebank_id": "254",
     "words": [
       {
@@ -40901,7 +40901,7 @@
     "citation": "28a (254)"
   },
   {
-    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg002-tlg0059-grc-255",
+    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg0059-tlg002-grc-255",
     "treebank_id": "255",
     "words": [
       {
@@ -41031,7 +41031,7 @@
         "value": "ἀλλʼ",
         "head_id": 10,
         "relation": "COORD",
-        "lemma": "ἀλλά",
+        "lemma": "ἀλλά",
         "tag": "c--------"
       },
       {
@@ -41106,7 +41106,7 @@
     "citation": "28a (255)"
   },
   {
-    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg002-tlg0059-grc-256",
+    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg0059-tlg002-grc-256",
     "treebank_id": "256",
     "words": [
       {
@@ -41239,7 +41239,7 @@
     "citation": "28a (256)"
   },
   {
-    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg002-tlg0059-grc-257",
+    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg0059-tlg002-grc-257",
     "treebank_id": "257",
     "words": [
       {
@@ -41315,7 +41315,7 @@
     "citation": "28b (257)"
   },
   {
-    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg002-tlg0059-grc-258",
+    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg0059-tlg002-grc-258",
     "treebank_id": "258",
     "words": [
       {
@@ -41375,7 +41375,7 @@
     "citation": "28b (258)"
   },
   {
-    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg002-tlg0059-grc-259",
+    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg0059-tlg002-grc-259",
     "treebank_id": "259",
     "words": [
       {
@@ -41517,7 +41517,7 @@
     "citation": "28b (259)"
   },
   {
-    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg002-tlg0059-grc-260",
+    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg0059-tlg002-grc-260",
     "treebank_id": "260",
     "words": [
       {
@@ -41793,7 +41793,7 @@
         "value": "ἀλλʼ",
         "head_id": 19,
         "relation": "COORD",
-        "lemma": "ἀλλά",
+        "lemma": "ἀλλά",
         "tag": "c--------"
       },
       {
@@ -41965,7 +41965,7 @@
     "citation": "28b (260)"
   },
   {
-    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg002-tlg0059-grc-261",
+    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg0059-tlg002-grc-261",
     "treebank_id": "261",
     "words": [
       {
@@ -42414,7 +42414,7 @@
     "citation": "28c (261)"
   },
   {
-    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg002-tlg0059-grc-262",
+    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg0059-tlg002-grc-262",
     "treebank_id": "262",
     "words": [
       {
@@ -42613,7 +42613,7 @@
         "value": "μεθʼ",
         "head_id": 77,
         "relation": "AuxP",
-        "lemma": "μετά",
+        "lemma": "μετά",
         "tag": "r--------"
       },
       {
@@ -43056,7 +43056,7 @@
     "citation": "28c (262)"
   },
   {
-    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg002-tlg0059-grc-263",
+    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg0059-tlg002-grc-263",
     "treebank_id": "263",
     "words": [
       {
@@ -43132,7 +43132,7 @@
     "citation": "28d (263)"
   },
   {
-    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg002-tlg0059-grc-264",
+    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg0059-tlg002-grc-264",
     "treebank_id": "264",
     "words": [
       {
@@ -43234,7 +43234,7 @@
     "citation": "28d (264)"
   },
   {
-    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg002-tlg0059-grc-265",
+    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg0059-tlg002-grc-265",
     "treebank_id": "265",
     "words": [
       {
@@ -43314,7 +43314,7 @@
         "value": "ὑπʼ",
         "head_id": 12,
         "relation": "AuxP",
-        "lemma": "ὑπό",
+        "lemma": "ὑπό",
         "tag": "r--------"
       },
       {
@@ -43546,7 +43546,7 @@
     "citation": "28d (265)"
   },
   {
-    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg002-tlg0059-grc-266",
+    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg0059-tlg002-grc-266",
     "treebank_id": "266",
     "words": [
       {
@@ -44255,7 +44255,7 @@
     "citation": "28e (266)"
   },
   {
-    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg002-tlg0059-grc-267",
+    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg0059-tlg002-grc-267",
     "treebank_id": "267",
     "words": [
       {
@@ -44271,7 +44271,7 @@
         "value": "τ-",
         "head_id": 4,
         "relation": "SBJ",
-        "lemma": "ὁ",
+        "lemma": "ὁ",
         "tag": "l-p---nn-"
       },
       {
@@ -44549,7 +44549,7 @@
     "citation": "29a (267)"
   },
   {
-    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg002-tlg0059-grc-268",
+    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg0059-tlg002-grc-268",
     "treebank_id": "268",
     "words": [
       {
@@ -44715,7 +44715,7 @@
     "citation": "29a (268)"
   },
   {
-    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg002-tlg0059-grc-269",
+    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg0059-tlg002-grc-269",
     "treebank_id": "269",
     "words": [
       {
@@ -44791,7 +44791,7 @@
     "citation": "29a (269)"
   },
   {
-    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg002-tlg0059-grc-270",
+    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg0059-tlg002-grc-270",
     "treebank_id": "270",
     "words": [
       {
@@ -44855,7 +44855,7 @@
         "value": "-δʼ",
         "head_id": 20,
         "relation": "AuxY",
-        "lemma": "δέ",
+        "lemma": "δέ",
         "tag": "d-------_"
       },
       {
@@ -44952,7 +44952,7 @@
         "value": "δʼ",
         "head_id": 0,
         "relation": "COORD",
-        "lemma": "δέ",
+        "lemma": "δέ",
         "tag": "c--------",
         "original_head_id": 0
       },
@@ -45036,7 +45036,7 @@
     "citation": "29a (270)"
   },
   {
-    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg002-tlg0059-grc-271",
+    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg0059-tlg002-grc-271",
     "treebank_id": "271",
     "words": [
       {
@@ -45185,7 +45185,7 @@
     "citation": "29b (271)"
   },
   {
-    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg002-tlg0059-grc-272",
+    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg0059-tlg002-grc-272",
     "treebank_id": "272",
     "words": [
       {
@@ -45201,7 +45201,7 @@
         "value": "δʼ",
         "head_id": 16,
         "relation": "AuxZ",
-        "lemma": "δέ",
+        "lemma": "δέ",
         "tag": "d--------"
       },
       {
@@ -45537,7 +45537,7 @@
     "citation": "29b (272)"
   },
   {
-    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg002-tlg0059-grc-273",
+    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg0059-tlg002-grc-273",
     "treebank_id": "273",
     "words": [
       {
@@ -45702,7 +45702,7 @@
     "citation": "29b (273)"
   },
   {
-    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg002-tlg0059-grc-274",
+    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg0059-tlg002-grc-274",
     "treebank_id": "274",
     "words": [
       {
@@ -45907,7 +45907,7 @@
     "citation": "29b (274)"
   },
   {
-    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg002-tlg0059-grc-275",
+    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg0059-tlg002-grc-275",
     "treebank_id": "275",
     "words": [
       {
@@ -45931,7 +45931,7 @@
         "value": "-δʼ",
         "head_id": 2,
         "relation": "AuxZ",
-        "lemma": "δέ",
+        "lemma": "δέ",
         "tag": "d-------_"
       },
       {
@@ -46475,7 +46475,7 @@
         "value": "ἀλλʼ",
         "head_id": 0,
         "relation": "COORD",
-        "lemma": "ἀλλά",
+        "lemma": "ἀλλά",
         "tag": "c--------",
         "original_head_id": 0
       },
@@ -46542,7 +46542,7 @@
         "value": "ἐφʼ",
         "head_id": 91,
         "relation": "AuxP",
-        "lemma": "ἐπί",
+        "lemma": "ἐπί",
         "tag": "r--------"
       },
       {
@@ -46658,7 +46658,7 @@
     "citation": "29c (275)"
   },
   {
-    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg002-tlg0059-grc-276",
+    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg0059-tlg002-grc-276",
     "treebank_id": "276",
     "words": [
       {
@@ -47687,7 +47687,7 @@
     "citation": "29d (276)"
   },
   {
-    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg002-tlg0059-grc-277",
+    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg0059-tlg002-grc-277",
     "treebank_id": "277",
     "words": [
       {
@@ -47808,7 +47808,7 @@
         "value": "-δʼ",
         "head_id": 18,
         "relation": "COORD",
-        "lemma": "δέ",
+        "lemma": "δέ",
         "tag": "c--------"
       },
       {
@@ -47833,7 +47833,7 @@
         "value": "ἀλλʼ",
         "head_id": 0,
         "relation": "COORD",
-        "lemma": "ἀλλά",
+        "lemma": "ἀλλά",
         "tag": "c--------",
         "original_head_id": 0
       },
@@ -48121,7 +48121,7 @@
     "citation": "29e (277)"
   },
   {
-    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg002-tlg0059-grc-278",
+    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg0059-tlg002-grc-278",
     "treebank_id": "278",
     "words": [
       {
@@ -48352,7 +48352,7 @@
     "citation": "30a (278)"
   },
   {
-    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg002-tlg0059-grc-279",
+    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg0059-tlg002-grc-279",
     "treebank_id": "279",
     "words": [
       {
@@ -48598,7 +48598,7 @@
     "citation": "30a (279)"
   },
   {
-    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg002-tlg0059-grc-280",
+    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg0059-tlg002-grc-280",
     "treebank_id": "280",
     "words": [
       {
@@ -48937,7 +48937,7 @@
         "value": "ἀλλʼ",
         "head_id": 35,
         "relation": "COORD",
-        "lemma": "ἀλλά",
+        "lemma": "ἀλλά",
         "tag": "c--------"
       },
       {
@@ -49092,7 +49092,7 @@
     "citation": "30a (280)"
   },
   {
-    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg002-tlg0059-grc-281",
+    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg0059-tlg002-grc-281",
     "treebank_id": "281",
     "words": [
       {
@@ -49173,7 +49173,7 @@
         "value": "ταῦτʼ",
         "head_id": 12,
         "relation": "SBJ",
-        "lemma": "οὗτος",
+        "lemma": "οὗτος",
         "tag": "p-p---nn-"
       },
       {
@@ -49217,7 +49217,7 @@
     "citation": "30b (281)"
   },
   {
-    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg002-tlg0059-grc-282",
+    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg0059-tlg002-grc-282",
     "treebank_id": "282",
     "words": [
       {
@@ -49342,7 +49342,7 @@
     "citation": "30b (282)"
   },
   {
-    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg002-tlg0059-grc-283",
+    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg0059-tlg002-grc-283",
     "treebank_id": "283",
     "words": [
       {
@@ -49605,7 +49605,7 @@
         "value": "-δʼ",
         "head_id": 31,
         "relation": "AuxZ",
-        "lemma": "δέ",
+        "lemma": "δέ",
         "tag": "d-------_"
       },
       {
@@ -49672,7 +49672,7 @@
     "citation": "30b (283)"
   },
   {
-    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg002-tlg0059-grc-284",
+    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg0059-tlg002-grc-284",
     "treebank_id": "284",
     "words": [
       {
@@ -49738,7 +49738,7 @@
         "value": "ἀλλʼ",
         "head_id": 0,
         "relation": "COORD",
-        "lemma": "ἀλλά",
+        "lemma": "ἀλλά",
         "tag": "c--------",
         "original_head_id": 0
       },
@@ -49811,7 +49811,7 @@
         "value": "ἐφʼ",
         "head_id": 20,
         "relation": "AuxP",
-        "lemma": "ἐπί",
+        "lemma": "ἐπί",
         "tag": "r--------"
       },
       {
@@ -49843,7 +49843,7 @@
         "value": "ἀλλʼ",
         "head_id": 14,
         "relation": "COORD",
-        "lemma": "ἀλλά",
+        "lemma": "ἀλλά",
         "tag": "c--------"
       },
       {
@@ -49870,7 +49870,7 @@
     "citation": "30c (284)"
   },
   {
-    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg002-tlg0059-grc-285",
+    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg0059-tlg002-grc-285",
     "treebank_id": "285",
     "words": [
       {
@@ -49964,7 +49964,7 @@
     "citation": "30c (285)"
   },
   {
-    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg002-tlg0059-grc-286",
+    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg0059-tlg002-grc-286",
     "treebank_id": "286",
     "words": [
       {
@@ -49997,7 +49997,7 @@
         "value": "ἄττα",
         "head_id": 7,
         "relation": "OBJ_CO",
-        "lemma": "τίς",
+        "lemma": "τίς",
         "tag": "a-p---na_"
       },
       {
@@ -50037,7 +50037,7 @@
         "value": "ἐφʼ",
         "head_id": 12,
         "relation": "AuxP",
-        "lemma": "ἐπί",
+        "lemma": "ἐπί",
         "tag": "r--------"
       },
       {
@@ -50080,7 +50080,7 @@
     "citation": "30c (286)"
   },
   {
-    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg002-tlg0059-grc-287",
+    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg0059-tlg002-grc-287",
     "treebank_id": "287",
     "words": [
       {
@@ -50132,7 +50132,7 @@
     "citation": "30c (287)"
   },
   {
-    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg002-tlg0059-grc-288",
+    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg0059-tlg002-grc-288",
     "treebank_id": "288",
     "words": [
       {
@@ -50309,7 +50309,7 @@
       },
       {
         "id": 22,
-        "value": "εἶναι",
+        "value": "εἶναι",
         "head_id": 12,
         "relation": "OBJ",
         "lemma": "εἰμί",
@@ -50330,7 +50330,7 @@
     "citation": "30c (288)"
   },
   {
-    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg002-tlg0059-grc-289",
+    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg0059-tlg002-grc-289",
     "treebank_id": "289",
     "words": [
       {
@@ -50586,7 +50586,7 @@
     "citation": "30c (289)"
   },
   {
-    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg002-tlg0059-grc-290",
+    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg0059-tlg002-grc-290",
     "treebank_id": "290",
     "words": [
       {
@@ -50662,7 +50662,7 @@
     "citation": "30d (290)"
   },
   {
-    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg002-tlg0059-grc-291",
+    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg0059-tlg002-grc-291",
     "treebank_id": "291",
     "words": [
       {
@@ -50783,7 +50783,7 @@
         "value": "δʼ",
         "head_id": 0,
         "relation": "COORD",
-        "lemma": "δέ",
+        "lemma": "δέ",
         "tag": "c--------",
         "original_head_id": 0
       },
@@ -50927,7 +50927,7 @@
       },
       {
         "id": 33,
-        "value": "εἶναι",
+        "value": "εἶναι",
         "head_id": 6,
         "relation": "OBJ",
         "lemma": "εἰμί",
@@ -50935,7 +50935,7 @@
       },
       {
         "id": 34,
-        "value": "εἶναι",
+        "value": "εἶναι",
         "head_id": 35,
         "relation": "OBJ",
         "lemma": "εἰμί",
@@ -50951,7 +50951,7 @@
       },
       {
         "id": 36,
-        "value": "κακόν",
+        "value": "κακόν",
         "head_id": 34,
         "relation": "PNOM",
         "lemma": "κακός",
@@ -50964,7 +50964,7 @@
     "citation": "30d (291)"
   },
   {
-    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg002-tlg0059-grc-292",
+    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg0059-tlg002-grc-292",
     "treebank_id": "292",
     "words": [
       {
@@ -51269,7 +51269,7 @@
     "citation": "30d (292)"
   },
   {
-    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg002-tlg0059-grc-293",
+    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg0059-tlg002-grc-293",
     "treebank_id": "293",
     "words": [
       {
@@ -51326,7 +51326,7 @@
         "value": "ῥᾳδίως",
         "head_id": 10,
         "relation": "ADV",
-        "lemma": "ῥᾴδιος",
+        "lemma": "ῥᾴδιος",
         "tag": "d--------"
       },
       {
@@ -51490,7 +51490,7 @@
         "value": "μεγάλῳ",
         "head_id": 29,
         "relation": "ATR_CO",
-        "lemma": "μέγας",
+        "lemma": "μέγας",
         "tag": "a-s---mdp"
       },
       {
@@ -51859,7 +51859,7 @@
       },
       {
         "id": 73,
-        "value": "ἔξεστιν",
+        "value": "ἔξεστιν",
         "head_id": 14,
         "relation": "ADV",
         "lemma": "ἔξεστι",
@@ -51880,7 +51880,7 @@
     "citation": "30e (293)"
   },
   {
-    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg002-tlg0059-grc-294",
+    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg0059-tlg002-grc-294",
     "treebank_id": "294",
     "words": [
       {
@@ -51920,7 +51920,7 @@
         "value": "ῥᾳδίως",
         "head_id": 7,
         "relation": "ADV",
-        "lemma": "ῥᾴδιος",
+        "lemma": "ῥᾴδιος",
         "tag": "d--------"
       },
       {
@@ -51978,7 +51978,7 @@
         "value": "ἀλλʼ",
         "head_id": 0,
         "relation": "COORD",
-        "lemma": "ἀλλά",
+        "lemma": "ἀλλά",
         "tag": "c--------",
         "original_head_id": 0
       },
@@ -52047,7 +52047,7 @@
     "citation": "31a (294)"
   },
   {
-    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg002-tlg0059-grc-295",
+    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg0059-tlg002-grc-295",
     "treebank_id": "295",
     "words": [
       {
@@ -52063,7 +52063,7 @@
         "value": "δʼ",
         "head_id": 24,
         "relation": "AuxY",
-        "lemma": "δέ",
+        "lemma": "δέ",
         "tag": "d--------"
       },
       {
@@ -52211,7 +52211,7 @@
         "value": "ῥᾳδίως",
         "head_id": 22,
         "relation": "ADV",
-        "lemma": "ῥᾴδιος",
+        "lemma": "ῥᾴδιος",
         "tag": "d--------"
       },
       {
@@ -52401,7 +52401,7 @@
     "citation": "31a (295)"
   },
   {
-    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg002-tlg0059-grc-296",
+    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg0059-tlg002-grc-296",
     "treebank_id": "296",
     "words": [
       {
@@ -52417,7 +52417,7 @@
         "value": "δʼ",
         "head_id": 17,
         "relation": "AuxY",
-        "lemma": "δέ",
+        "lemma": "δέ",
         "tag": "d--------"
       },
       {
@@ -52553,7 +52553,7 @@
       },
       {
         "id": 19,
-        "value": "ἐστιν",
+        "value": "ἐστιν",
         "head_id": 6,
         "relation": "ATR",
         "lemma": "εἰμί",
@@ -52566,7 +52566,7 @@
     "citation": "31a (296)"
   },
   {
-    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg002-tlg0059-grc-297",
+    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg0059-tlg002-grc-297",
     "treebank_id": "297",
     "words": [
       {
@@ -52892,7 +52892,7 @@
     "citation": "31b (297)"
   },
   {
-    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg002-tlg0059-grc-298",
+    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg0059-tlg002-grc-298",
     "treebank_id": "298",
     "words": [
       {
@@ -53049,7 +53049,7 @@
     "citation": "31b (298)"
   },
   {
-    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg002-tlg0059-grc-299",
+    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg0059-tlg002-grc-299",
     "treebank_id": "299",
     "words": [
       {
@@ -53130,7 +53130,7 @@
         "value": "τ-",
         "head_id": 11,
         "relation": "ATR",
-        "lemma": "ὁ",
+        "lemma": "ὁ",
         "tag": "l-s---na-"
       },
       {
@@ -53138,7 +53138,7 @@
         "value": "ἆλλα",
         "head_id": 15,
         "relation": "OBJ",
-        "lemma": "ἄλλος",
+        "lemma": "ἄλλος",
         "tag": "p-p---na-"
       },
       {
@@ -53342,7 +53342,7 @@
     "citation": "31b (299)"
   },
   {
-    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg002-tlg0059-grc-300",
+    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg0059-tlg002-grc-300",
     "treebank_id": "300",
     "words": [
       {
@@ -53484,7 +53484,7 @@
     "citation": "31b (300)"
   },
   {
-    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg002-tlg0059-grc-301",
+    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg0059-tlg002-grc-301",
     "treebank_id": "301",
     "words": [
       {
@@ -53754,7 +53754,7 @@
     "citation": "31c (301)"
   },
   {
-    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg002-tlg0059-grc-302",
+    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg0059-tlg002-grc-302",
     "treebank_id": "302",
     "words": [
       {
@@ -54015,7 +54015,7 @@
     "citation": "31c (302)"
   },
   {
-    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg002-tlg0059-grc-303",
+    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg0059-tlg002-grc-303",
     "treebank_id": "303",
     "words": [
       {
@@ -54263,7 +54263,7 @@
     "citation": "31d (303)"
   },
   {
-    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg002-tlg0059-grc-304",
+    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg0059-tlg002-grc-304",
     "treebank_id": "304",
     "words": [
       {
@@ -54404,7 +54404,7 @@
     "citation": "31d (304)"
   },
   {
-    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg002-tlg0059-grc-305",
+    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg0059-tlg002-grc-305",
     "treebank_id": "305",
     "words": [
       {
@@ -54683,7 +54683,7 @@
     "citation": "31d (305)"
   },
   {
-    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg002-tlg0059-grc-306",
+    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg0059-tlg002-grc-306",
     "treebank_id": "306",
     "words": [
       {
@@ -54732,7 +54732,7 @@
         "value": "τ-",
         "head_id": 7,
         "relation": "ATR",
-        "lemma": "ὁ",
+        "lemma": "ὁ",
         "tag": "l-p---na-"
       },
       {
@@ -54759,7 +54759,7 @@
     "citation": "31e (306)"
   },
   {
-    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg002-tlg0059-grc-307",
+    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg0059-tlg002-grc-307",
     "treebank_id": "307",
     "words": [
       {
@@ -54984,7 +54984,7 @@
         "value": "ἀλλʼ",
         "head_id": 0,
         "relation": "COORD",
-        "lemma": "ἀλλά",
+        "lemma": "ἀλλά",
         "tag": "c--------",
         "original_head_id": 0
       },
@@ -55174,7 +55174,7 @@
     "citation": "31e (307)"
   },
   {
-    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg002-tlg0059-grc-308",
+    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg0059-tlg002-grc-308",
     "treebank_id": "308",
     "words": [
       {
@@ -55190,7 +55190,7 @@
         "value": "δʼ",
         "head_id": 6,
         "relation": "AuxY",
-        "lemma": "δέ",
+        "lemma": "δέ",
         "tag": "d--------"
       },
       {
@@ -55263,7 +55263,7 @@
         "value": "ἀλλʼ",
         "head_id": 8,
         "relation": "COORD",
-        "lemma": "ἀλλά",
+        "lemma": "ἀλλά",
         "tag": "c--------"
       },
       {
@@ -55322,7 +55322,7 @@
     "citation": "32a (308)"
   },
   {
-    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg002-tlg0059-grc-309",
+    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg0059-tlg002-grc-309",
     "treebank_id": "309",
     "words": [
       {
@@ -55412,7 +55412,7 @@
         "value": "-δʼ",
         "head_id": 23,
         "relation": "AuxY",
-        "lemma": "δέ",
+        "lemma": "δέ",
         "tag": "d-------_"
       },
       {
@@ -55525,7 +55525,7 @@
         "value": "κ-",
         "head_id": 27,
         "relation": "AuxZ",
-        "lemma": "καί",
+        "lemma": "καί",
         "tag": "d--------"
       },
       {
@@ -55560,7 +55560,7 @@
     "citation": "32a (309)"
   },
   {
-    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg002-tlg0059-grc-310",
+    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg0059-tlg002-grc-310",
     "treebank_id": "310",
     "words": [
       {
@@ -55661,7 +55661,7 @@
     "citation": "32a (310)"
   },
   {
-    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg002-tlg0059-grc-311",
+    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg0059-tlg002-grc-311",
     "treebank_id": "311",
     "words": [
       {
@@ -55836,7 +55836,7 @@
     "citation": "32a (311)"
   },
   {
-    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg002-tlg0059-grc-312",
+    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg0059-tlg002-grc-312",
     "treebank_id": "312",
     "words": [
       {
@@ -56122,7 +56122,7 @@
     "citation": "32b (312)"
   },
   {
-    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg002-tlg0059-grc-313",
+    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg0059-tlg002-grc-313",
     "treebank_id": "313",
     "words": [
       {
@@ -56262,7 +56262,7 @@
     "citation": "32b (313)"
   },
   {
-    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg002-tlg0059-grc-314",
+    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg0059-tlg002-grc-314",
     "treebank_id": "314",
     "words": [
       {
@@ -56497,7 +56497,7 @@
         "value": "μεθʼ",
         "head_id": 31,
         "relation": "AuxP",
-        "lemma": "μετά",
+        "lemma": "μετά",
         "tag": "r--------"
       },
       {
@@ -56605,7 +56605,7 @@
     "citation": "32b (314)"
   },
   {
-    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg002-tlg0059-grc-315",
+    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg0059-tlg002-grc-315",
     "treebank_id": "315",
     "words": [
       {
@@ -56689,7 +56689,7 @@
     "citation": "32c (315)"
   },
   {
-    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg002-tlg0059-grc-316",
+    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg0059-tlg002-grc-316",
     "treebank_id": "316",
     "words": [
       {
@@ -57024,7 +57024,7 @@
     "citation": "32c (316)"
   },
   {
-    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg002-tlg0059-grc-317",
+    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg0059-tlg002-grc-317",
     "treebank_id": "317",
     "words": [
       {
@@ -57072,7 +57072,7 @@
         "value": "ἀλλʼ",
         "head_id": 9,
         "relation": "COORD",
-        "lemma": "ἀλλά",
+        "lemma": "ἀλλά",
         "tag": "c--------"
       },
       {
@@ -57211,7 +57211,7 @@
         "value": "-δʼ",
         "head_id": 14,
         "relation": "COORD",
-        "lemma": "δέ",
+        "lemma": "δέ",
         "tag": "c--------"
       },
       {
@@ -57276,7 +57276,7 @@
         "value": "-δʼ",
         "head_id": 33,
         "relation": "COORD",
-        "lemma": "δέ",
+        "lemma": "δέ",
         "tag": "c--------"
       },
       {
@@ -57360,7 +57360,7 @@
     "citation": "32d (317)"
   },
   {
-    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg002-tlg0059-grc-318",
+    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg0059-tlg002-grc-318",
     "treebank_id": "318",
     "words": [
       {
@@ -57507,7 +57507,7 @@
         "value": "ἀλλʼ",
         "head_id": 0,
         "relation": "COORD",
-        "lemma": "ἀλλά",
+        "lemma": "ἀλλά",
         "tag": "c--------",
         "original_head_id": 0
       },
@@ -57697,7 +57697,7 @@
     "citation": "32d (318)"
   },
   {
-    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg002-tlg0059-grc-319",
+    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg0059-tlg002-grc-319",
     "treebank_id": "319",
     "words": [
       {
@@ -57830,7 +57830,7 @@
     "citation": "32d (319)"
   },
   {
-    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg002-tlg0059-grc-320",
+    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg0059-tlg002-grc-320",
     "treebank_id": "320",
     "words": [
       {
@@ -57862,7 +57862,7 @@
         "value": "ἔσονται",
         "head_id": 0,
         "relation": "PRED",
-        "lemma": "εἰμί",
+        "lemma": "εἰμί",
         "tag": "v3pfim---",
         "original_head_id": 0
       },
@@ -57898,7 +57898,7 @@
     "citation": "32e (320)"
   },
   {
-    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg002-tlg0059-grc-321",
+    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg0059-tlg002-grc-321",
     "treebank_id": "321",
     "words": [
       {
@@ -58143,7 +58143,7 @@
     "citation": "32e (321)"
   },
   {
-    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg002-tlg0059-grc-322",
+    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg0059-tlg002-grc-322",
     "treebank_id": "322",
     "words": [
       {
@@ -58220,7 +58220,7 @@
     "citation": "32e (322)"
   },
   {
-    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg002-tlg0059-grc-323",
+    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg0059-tlg002-grc-323",
     "treebank_id": "323",
     "words": [
       {
@@ -58304,7 +58304,7 @@
     "citation": "32e (323)"
   },
   {
-    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg002-tlg0059-grc-324",
+    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg0059-tlg002-grc-324",
     "treebank_id": "324",
     "words": [
       {
@@ -58312,7 +58312,7 @@
         "value": "ἀλλʼ",
         "head_id": 16,
         "relation": "AuxY",
-        "lemma": "ἀλλά",
+        "lemma": "ἀλλά",
         "tag": "d--------"
       },
       {
@@ -58678,7 +58678,7 @@
     "citation": "33a (324)"
   },
   {
-    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg002-tlg0059-grc-325",
+    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg0059-tlg002-grc-325",
     "treebank_id": "325",
     "words": [
       {
@@ -58754,7 +58754,7 @@
     "citation": "33a (325)"
   },
   {
-    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg002-tlg0059-grc-326",
+    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg0059-tlg002-grc-326",
     "treebank_id": "326",
     "words": [
       {
@@ -59037,7 +59037,7 @@
         "value": "ἀλλʼ",
         "head_id": 0,
         "relation": "COORD",
-        "lemma": "ἀλλά",
+        "lemma": "ἀλλά",
         "tag": "c--------",
         "original_head_id": 0
       },
@@ -59226,7 +59226,7 @@
     "citation": "33a (326)"
   },
   {
-    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg002-tlg0059-grc-327",
+    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg0059-tlg002-grc-327",
     "treebank_id": "327",
     "words": [
       {
@@ -59496,7 +59496,7 @@
     "citation": "33b (327)"
   },
   {
-    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg002-tlg0059-grc-328",
+    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg0059-tlg002-grc-328",
     "treebank_id": "328",
     "words": [
       {
@@ -59536,7 +59536,7 @@
         "value": "παρʼ",
         "head_id": 9,
         "relation": "AuxP",
-        "lemma": "παρά",
+        "lemma": "παρά",
         "tag": "r--------"
       },
       {
@@ -59725,7 +59725,7 @@
     "citation": "33b (328)"
   },
   {
-    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg002-tlg0059-grc-329",
+    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg0059-tlg002-grc-329",
     "treebank_id": "329",
     "words": [
       {
@@ -59773,7 +59773,7 @@
         "value": "μετʼ",
         "head_id": 8,
         "relation": "AuxP",
-        "lemma": "μετά",
+        "lemma": "μετά",
         "tag": "r--------"
       },
       {
@@ -59841,7 +59841,7 @@
     "citation": "33b (329)"
   },
   {
-    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg002-tlg0059-grc-330",
+    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg0059-tlg002-grc-330",
     "treebank_id": "330",
     "words": [
       {
@@ -59960,7 +59960,7 @@
     "citation": "33c (330)"
   },
   {
-    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg002-tlg0059-grc-331",
+    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg0059-tlg002-grc-331",
     "treebank_id": "331",
     "words": [
       {
@@ -60058,7 +60058,7 @@
         "value": "δʼ",
         "head_id": 4,
         "relation": "COORD",
-        "lemma": "δέ",
+        "lemma": "δέ",
         "tag": "c--------"
       },
       {
@@ -60085,7 +60085,7 @@
     "citation": "33c (331)"
   },
   {
-    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg002-tlg0059-grc-332",
+    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg0059-tlg002-grc-332",
     "treebank_id": "332",
     "words": [
       {
@@ -60137,7 +60137,7 @@
     "citation": "33c (332)"
   },
   {
-    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg002-tlg0059-grc-333",
+    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg0059-tlg002-grc-333",
     "treebank_id": "333",
     "words": [
       {
@@ -60431,7 +60431,7 @@
     "citation": "33c (333)"
   },
   {
-    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg002-tlg0059-grc-334",
+    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg0059-tlg002-grc-334",
     "treebank_id": "334",
     "words": [
       {
@@ -60541,7 +60541,7 @@
     "citation": "33c (334)"
   },
   {
-    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg002-tlg0059-grc-335",
+    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg0059-tlg002-grc-335",
     "treebank_id": "335",
     "words": [
       {
@@ -60884,7 +60884,7 @@
     "citation": "33d (335)"
   },
   {
-    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg002-tlg0059-grc-336",
+    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg0059-tlg002-grc-336",
     "treebank_id": "336",
     "words": [
       {
@@ -61062,7 +61062,7 @@
         "value": "ὑπʼ",
         "head_id": 26,
         "relation": "AuxP",
-        "lemma": "ὑπό",
+        "lemma": "ὑπό",
         "tag": "r--------"
       },
       {
@@ -61187,7 +61187,7 @@
     "citation": "33d (336)"
   },
   {
-    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg002-tlg0059-grc-337",
+    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg0059-tlg002-grc-337",
     "treebank_id": "337",
     "words": [
       {
@@ -61473,7 +61473,7 @@
         "value": "δʼ",
         "head_id": 10,
         "relation": "COORD",
-        "lemma": "δέ",
+        "lemma": "δέ",
         "tag": "c--------"
       },
       {
@@ -61909,7 +61909,7 @@
     "citation": "33d (337)"
   },
   {
-    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg002-tlg0059-grc-338",
+    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg0059-tlg002-grc-338",
     "treebank_id": "338",
     "words": [
       {
@@ -62088,7 +62088,7 @@
       },
       {
         "id": 22,
-        "value": "ἐστιν",
+        "value": "ἐστιν",
         "head_id": 3,
         "relation": "ATR",
         "lemma": "εἰμί",
@@ -62096,7 +62096,7 @@
       },
       {
         "id": 23,
-        "value": "ἐστιν",
+        "value": "ἐστιν",
         "head_id": 14,
         "relation": "ATR",
         "lemma": "εἰμί",
@@ -62109,7 +62109,7 @@
     "citation": "34a (338)"
   },
   {
-    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg002-tlg0059-grc-339",
+    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg0059-tlg002-grc-339",
     "treebank_id": "339",
     "words": [
       {
@@ -62290,7 +62290,7 @@
     "citation": "34a (339)"
   },
   {
-    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg002-tlg0059-grc-340",
+    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg0059-tlg002-grc-340",
     "treebank_id": "340",
     "words": [
       {
@@ -62450,7 +62450,7 @@
     "citation": "34a (340)"
   },
   {
-    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg002-tlg0059-grc-341",
+    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg0059-tlg002-grc-341",
     "treebank_id": "341",
     "words": [
       {
@@ -62482,7 +62482,7 @@
         "value": "τ-",
         "head_id": 5,
         "relation": "ATR",
-        "lemma": "ὁ",
+        "lemma": "ὁ",
         "tag": "l-s---na-"
       },
       {
@@ -62490,7 +62490,7 @@
         "value": "οὐναντίον",
         "head_id": 10,
         "relation": "OBJ_AP",
-        "lemma": "ἐναντίος",
+        "lemma": "ἐναντίος",
         "tag": "a-s---nap"
       },
       {
@@ -62700,7 +62700,7 @@
       },
       {
         "id": 31,
-        "value": "εἶναι",
+        "value": "εἶναι",
         "head_id": 10,
         "relation": "OBJ_AP",
         "lemma": "εἰμί",
@@ -62713,7 +62713,7 @@
     "citation": "34a (341)"
   },
   {
-    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg002-tlg0059-grc-342",
+    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg0059-tlg002-grc-342",
     "treebank_id": "342",
     "words": [
       {
@@ -62813,7 +62813,7 @@
     "citation": "34b (342)"
   },
   {
-    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg002-tlg0059-grc-343",
+    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg0059-tlg002-grc-343",
     "treebank_id": "343",
     "words": [
       {
@@ -62969,7 +62969,7 @@
         "value": "ἀλλʼ",
         "head_id": 15,
         "relation": "AuxY",
-        "lemma": "ἀλλά",
+        "lemma": "ἀλλά",
         "tag": "d--------"
       },
       {
@@ -63125,7 +63125,7 @@
     "citation": "34b (343)"
   },
   {
-    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg002-tlg0059-grc-344",
+    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg0059-tlg002-grc-344",
     "treebank_id": "344",
     "words": [
       {
@@ -63186,7 +63186,7 @@
     "citation": "34b (344)"
   },
   {
-    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg002-tlg0059-grc-345",
+    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg0059-tlg002-grc-345",
     "treebank_id": "345",
     "words": [
       {
@@ -63319,7 +63319,7 @@
     "citation": "34b (345)"
   },
   {
-    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg002-tlg0059-grc-346",
+    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg0059-tlg002-grc-346",
     "treebank_id": "346",
     "words": [
       {
@@ -63335,7 +63335,7 @@
         "value": "δʼ",
         "head_id": 6,
         "relation": "AuxY",
-        "lemma": "δέ",
+        "lemma": "δέ",
         "tag": "d--------"
       },
       {
@@ -63562,7 +63562,7 @@
         "value": "παιδία",
         "head_id": 43,
         "relation": "OBJ_CO",
-        "lemma": "παίδιον",
+        "lemma": "παίδιον",
         "tag": "n-p---na-"
       },
       {
@@ -63857,7 +63857,7 @@
     "citation": "34c (346)"
   },
   {
-    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg002-tlg0059-grc-347",
+    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg0059-tlg002-grc-347",
     "treebank_id": "347",
     "words": [
       {
@@ -64002,7 +64002,7 @@
         "value": "μετʼ",
         "head_id": 16,
         "relation": "AuxP",
-        "lemma": "μετά",
+        "lemma": "μετά",
         "tag": "r--------"
       },
       {
@@ -64045,7 +64045,7 @@
     "citation": "34c (347)"
   },
   {
-    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg002-tlg0059-grc-348",
+    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg0059-tlg002-grc-348",
     "treebank_id": "348",
     "words": [
       {
@@ -64168,7 +64168,7 @@
         "value": "δʼ",
         "head_id": 39,
         "relation": "AuxY",
-        "lemma": "δέ",
+        "lemma": "δέ",
         "tag": "d--------"
       },
       {
@@ -64375,7 +64375,7 @@
     "citation": "34d (348)"
   },
   {
-    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg002-tlg0059-grc-349",
+    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg0059-tlg002-grc-349",
     "treebank_id": "349",
     "words": [
       {
@@ -64455,7 +64455,7 @@
         "value": "-δʼ",
         "head_id": 15,
         "relation": "AuxY",
-        "lemma": "δέ",
+        "lemma": "δέ",
         "tag": "d-------_"
       },
       {
@@ -64495,7 +64495,7 @@
         "value": "-δʼ",
         "head_id": 19,
         "relation": "COORD",
-        "lemma": "δέ",
+        "lemma": "δέ",
         "tag": "c--------"
       },
       {
@@ -64527,7 +64527,7 @@
         "value": "ἀλλʼ",
         "head_id": 18,
         "relation": "COORD",
-        "lemma": "ἀλλά",
+        "lemma": "ἀλλά",
         "tag": "c--------"
       },
       {
@@ -64739,7 +64739,7 @@
         "value": "παιδία",
         "head_id": 44,
         "relation": "SBJ_AP_CO",
-        "lemma": "παίδιον",
+        "lemma": "παίδιον",
         "tag": "n-p---nn-"
       },
       {
@@ -64753,7 +64753,7 @@
       },
       {
         "id": 47,
-        "value": "λέγω",
+        "value": "λέγω",
         "head_id": 0,
         "relation": "PRED",
         "lemma": "λέγω3",
@@ -64767,7 +64767,7 @@
     "citation": "34d (349)"
   },
   {
-    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg002-tlg0059-grc-350",
+    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg0059-tlg002-grc-350",
     "treebank_id": "350",
     "words": [
       {
@@ -64775,7 +64775,7 @@
         "value": "ἀλλʼ",
         "head_id": 7,
         "relation": "AuxY",
-        "lemma": "ἀλλά",
+        "lemma": "ἀλλά",
         "tag": "d--------"
       },
       {
@@ -64859,7 +64859,7 @@
     "citation": "34d (350)"
   },
   {
-    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg002-tlg0059-grc-351",
+    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg0059-tlg002-grc-351",
     "treebank_id": "351",
     "words": [
       {
@@ -64927,7 +64927,7 @@
     "citation": "34d (351)"
   },
   {
-    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg002-tlg0059-grc-352",
+    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg0059-tlg002-grc-352",
     "treebank_id": "352",
     "words": [
       {
@@ -65001,7 +65001,7 @@
         "value": "-δʼ",
         "head_id": 80,
         "relation": "COORD",
-        "lemma": "δέ",
+        "lemma": "δέ",
         "tag": "c--------"
       },
       {
@@ -65034,7 +65034,7 @@
         "value": "ἀλλʼ",
         "head_id": 0,
         "relation": "COORD",
-        "lemma": "ἀλλά",
+        "lemma": "ἀλλά",
         "tag": "c--------",
         "original_head_id": 0
       },
@@ -65157,7 +65157,7 @@
         "value": "δʼ",
         "head_id": 13,
         "relation": "COORD",
-        "lemma": "δέ",
+        "lemma": "δέ",
         "tag": "c--------"
       },
       {
@@ -65357,7 +65357,7 @@
         "value": "τ-",
         "head_id": 54,
         "relation": "ATR",
-        "lemma": "ὁ",
+        "lemma": "ὁ",
         "tag": "l-s---na-"
       },
       {
@@ -65463,7 +65463,7 @@
         "value": "ἀλλʼ",
         "head_id": 70,
         "relation": "AuxY",
-        "lemma": "ἀλλά",
+        "lemma": "ἀλλά",
         "tag": "d--------"
       },
       {
@@ -65566,7 +65566,7 @@
       },
       {
         "id": 79,
-        "value": "ἐστιν",
+        "value": "ἐστιν",
         "head_id": 28,
         "relation": "PRED_CO",
         "lemma": "εἰμί",
@@ -65574,7 +65574,7 @@
       },
       {
         "id": 80,
-        "value": "εἰμί",
+        "value": "εἰμί",
         "head_id": 13,
         "relation": "PRED_CO",
         "lemma": "εἰμί",
@@ -65582,7 +65582,7 @@
       },
       {
         "id": 81,
-        "value": "ἐστιν",
+        "value": "ἐστιν",
         "head_id": 57,
         "relation": "ADV_CO",
         "lemma": "εἰμί",
@@ -65590,7 +65590,7 @@
       },
       {
         "id": 82,
-        "value": "ἐστιν",
+        "value": "ἐστιν",
         "head_id": 61,
         "relation": "ADV_CO",
         "lemma": "εἰμί",
@@ -65603,7 +65603,7 @@
     "citation": "34e (352)"
   },
   {
-    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg002-tlg0059-grc-353",
+    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg0059-tlg002-grc-353",
     "treebank_id": "353",
     "words": [
       {
@@ -65755,7 +65755,7 @@
         "value": "ἔσονται",
         "head_id": 1,
         "relation": "SBJ",
-        "lemma": "εἰμί",
+        "lemma": "εἰμί",
         "tag": "v3pfim---"
       },
       {
@@ -65832,7 +65832,7 @@
     "citation": "35a (353)"
   },
   {
-    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg002-tlg0059-grc-354",
+    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg0059-tlg002-grc-354",
     "treebank_id": "354",
     "words": [
       {
@@ -66120,7 +66120,7 @@
     "citation": "35a (354)"
   },
   {
-    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg002-tlg0059-grc-355",
+    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg0059-tlg002-grc-355",
     "treebank_id": "355",
     "words": [
       {
@@ -66455,7 +66455,7 @@
     "citation": "35a (355)"
   },
   {
-    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg002-tlg0059-grc-356",
+    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg0059-tlg002-grc-356",
     "treebank_id": "356",
     "words": [
       {
@@ -66913,7 +66913,7 @@
     "citation": "35b (356)"
   },
   {
-    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg002-tlg0059-grc-357",
+    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg0059-tlg002-grc-357",
     "treebank_id": "357",
     "words": [
       {
@@ -67144,7 +67144,7 @@
     "citation": "35b (357)"
   },
   {
-    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg002-tlg0059-grc-358",
+    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg0059-tlg002-grc-358",
     "treebank_id": "358",
     "words": [
       {
@@ -67266,7 +67266,7 @@
         "value": "ἀλλʼ",
         "head_id": 5,
         "relation": "COORD",
-        "lemma": "ἀλλά",
+        "lemma": "ἀλλά",
         "tag": "c--------"
       },
       {
@@ -67317,7 +67317,7 @@
     "citation": "35c (358)"
   },
   {
-    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg002-tlg0059-grc-359",
+    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg0059-tlg002-grc-359",
     "treebank_id": "359",
     "words": [
       {
@@ -67374,7 +67374,7 @@
         "value": "δοκῇ",
         "head_id": 4,
         "relation": "OBJ",
-        "lemma": "δοκέω",
+        "lemma": "δοκέω",
         "tag": "v3spsa---"
       },
       {
@@ -67450,7 +67450,7 @@
     "citation": "35c (359)"
   },
   {
-    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg002-tlg0059-grc-360",
+    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg0059-tlg002-grc-360",
     "treebank_id": "360",
     "words": [
       {
@@ -67566,7 +67566,7 @@
     "citation": "35c (360)"
   },
   {
-    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg002-tlg0059-grc-361",
+    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg0059-tlg002-grc-361",
     "treebank_id": "361",
     "words": [
       {
@@ -67626,7 +67626,7 @@
     "citation": "35c (361)"
   },
   {
-    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg002-tlg0059-grc-362",
+    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg0059-tlg002-grc-362",
     "treebank_id": "362",
     "words": [
       {
@@ -67781,7 +67781,7 @@
         "value": "καλὰ",
         "head_id": 25,
         "relation": "PNOM_CO",
-        "lemma": "καλός",
+        "lemma": "καλός",
         "tag": "a-p---na_"
       },
       {
@@ -67961,7 +67961,7 @@
     "citation": "35c (362)"
   },
   {
-    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg002-tlg0059-grc-363",
+    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg0059-tlg002-grc-363",
     "treebank_id": "363",
     "words": [
       {
@@ -68232,7 +68232,7 @@
     "citation": "35d (363)"
   },
   {
-    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg002-tlg0059-grc-364",
+    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg0059-tlg002-grc-364",
     "treebank_id": "364",
     "words": [
       {
@@ -68292,7 +68292,7 @@
     "citation": "35d (364)"
   },
   {
-    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg002-tlg0059-grc-365",
+    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg0059-tlg002-grc-365",
     "treebank_id": "365",
     "words": [
       {
@@ -68558,7 +68558,7 @@
       },
       {
         "id": 33,
-        "value": "νομίζει",
+        "value": "νομίζει",
         "head_id": 9,
         "relation": "ADV",
         "lemma": "νομίζω",
@@ -68571,7 +68571,7 @@
     "citation": "35d (365)"
   },
   {
-    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg002-tlg0059-grc-366",
+    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg0059-tlg002-grc-366",
     "treebank_id": "366",
     "words": [
       {
@@ -68940,7 +68940,7 @@
     "citation": "35e (366)"
   },
   {
-    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg002-tlg0059-grc-367",
+    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg0059-tlg002-grc-367",
     "treebank_id": "367",
     "words": [
       {
@@ -68989,7 +68989,7 @@
         "value": "παρʼ",
         "head_id": 9,
         "relation": "AuxP",
-        "lemma": "παρά",
+        "lemma": "παρά",
         "tag": "r--------"
       },
       {
@@ -69048,7 +69048,7 @@
     "citation": "36a (367)"
   },
   {
-    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg002-tlg0059-grc-368",
+    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg0059-tlg002-grc-368",
     "treebank_id": "368",
     "words": [
       {
@@ -69191,7 +69191,7 @@
     "citation": "36a (368)"
   },
   {
-    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg002-tlg0059-grc-369",
+    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg0059-tlg002-grc-369",
     "treebank_id": "369",
     "words": [
       {
@@ -69469,7 +69469,7 @@
         "value": "κ-",
         "head_id": 36,
         "relation": "AuxZ",
-        "lemma": "καί",
+        "lemma": "καί",
         "tag": "d--------"
       },
       {
@@ -69580,7 +69580,7 @@
       },
       {
         "id": 48,
-        "value": "ἐστιν",
+        "value": "ἐστιν",
         "head_id": 18,
         "relation": "PRED_CO",
         "lemma": "εἰμί",
@@ -69593,7 +69593,7 @@
     "citation": "36a (369)"
   },
   {
-    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg002-tlg0059-grc-370",
+    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg0059-tlg002-grc-370",
     "treebank_id": "370",
     "words": [
       {
@@ -69610,7 +69610,7 @@
         "value": "δʼ",
         "head_id": 1,
         "relation": "AuxY",
-        "lemma": "δέ",
+        "lemma": "δέ",
         "tag": "d--------"
       },
       {
@@ -69669,7 +69669,7 @@
     "citation": "36b (370)"
   },
   {
-    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg002-tlg0059-grc-371",
+    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg0059-tlg002-grc-371",
     "treebank_id": "371",
     "words": [
       {
@@ -69697,7 +69697,7 @@
     "citation": "36b (371)"
   },
   {
-    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg002-tlg0059-grc-372",
+    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg0059-tlg002-grc-372",
     "treebank_id": "372",
     "words": [
       {
@@ -69798,7 +69798,7 @@
     "citation": "36b (372)"
   },
   {
-    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg002-tlg0059-grc-373",
+    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg0059-tlg002-grc-373",
     "treebank_id": "373",
     "words": [
       {
@@ -69852,7 +69852,7 @@
       },
       {
         "id": 7,
-        "value": "ἐστιν",
+        "value": "ἐστιν",
         "head_id": 0,
         "relation": "PRED",
         "lemma": "εἰμί",
@@ -69861,7 +69861,7 @@
       },
       {
         "id": 8,
-        "value": "ἐστιν",
+        "value": "ἐστιν",
         "head_id": 3,
         "relation": "SBJ",
         "lemma": "εἰμί",
@@ -69874,7 +69874,7 @@
     "citation": "36b (373)"
   },
   {
-    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg002-tlg0059-grc-374",
+    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg0059-tlg002-grc-374",
     "treebank_id": "374",
     "words": [
       {
@@ -69904,7 +69904,7 @@
       },
       {
         "id": 4,
-        "value": "ἐστιν",
+        "value": "ἐστιν",
         "head_id": 0,
         "relation": "PRED",
         "lemma": "εἰμί",
@@ -69918,7 +69918,7 @@
     "citation": "36b (374)"
   },
   {
-    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg002-tlg0059-grc-375",
+    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg0059-tlg002-grc-375",
     "treebank_id": "375",
     "words": [
       {
@@ -70057,7 +70057,7 @@
         "value": "ἀλλʼ",
         "head_id": 15,
         "relation": "COORD",
-        "lemma": "ἀλλά",
+        "lemma": "ἀλλά",
         "tag": "c--------"
       },
       {
@@ -70354,7 +70354,7 @@
         "value": "ταῦτʼ",
         "head_id": 53,
         "relation": "OBJ",
-        "lemma": "οὗτος",
+        "lemma": "οὗτος",
         "tag": "p-p---na-"
       },
       {
@@ -70736,7 +70736,7 @@
         "value": "τῶν",
         "head_id": 103,
         "relation": "ATR",
-        "lemma": "ὅς",
+        "lemma": "ὅς",
         "tag": "p-p---ng-"
       },
       {
@@ -71120,7 +71120,7 @@
     "citation": "36b (375)"
   },
   {
-    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg002-tlg0059-grc-376",
+    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg0059-tlg002-grc-376",
     "treebank_id": "376",
     "words": [
       {
@@ -71278,7 +71278,7 @@
     "citation": "36d (376)"
   },
   {
-    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg002-tlg0059-grc-377",
+    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg0059-tlg002-grc-377",
     "treebank_id": "377",
     "words": [
       {
@@ -71364,7 +71364,7 @@
       },
       {
         "id": 11,
-        "value": "ἐστιν",
+        "value": "ἐστιν",
         "head_id": 0,
         "relation": "PRED",
         "lemma": "εἰμί",
@@ -71378,7 +71378,7 @@
     "citation": "36d (377)"
   },
   {
-    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg002-tlg0059-grc-378",
+    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg0059-tlg002-grc-378",
     "treebank_id": "378",
     "words": [
       {
@@ -71502,7 +71502,7 @@
     "citation": "36d (378)"
   },
   {
-    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg002-tlg0059-grc-379",
+    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg0059-tlg002-grc-379",
     "treebank_id": "379",
     "words": [
       {
@@ -71518,7 +71518,7 @@
         "value": "ἔσθʼ",
         "head_id": 0,
         "relation": "PRED",
-        "lemma": "εἰμί",
+        "lemma": "εἰμί",
         "tag": "v3spia---",
         "original_head_id": 0
       },
@@ -71797,7 +71797,7 @@
     "citation": "36d (379)"
   },
   {
-    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg002-tlg0059-grc-380",
+    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg0059-tlg002-grc-380",
     "treebank_id": "380",
     "words": [
       {
@@ -72012,7 +72012,7 @@
     "citation": "36d (380)"
   },
   {
-    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg002-tlg0059-grc-381",
+    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg0059-tlg002-grc-381",
     "treebank_id": "381",
     "words": [
       {
@@ -72169,7 +72169,7 @@
     "citation": "36e (381)"
   },
   {
-    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg002-tlg0059-grc-382",
+    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg0059-tlg002-grc-382",
     "treebank_id": "382",
     "words": [
       {
@@ -72329,7 +72329,7 @@
       },
       {
         "id": 20,
-        "value": "λέγω",
+        "value": "λέγω",
         "head_id": 10,
         "relation": "ADV",
         "lemma": "λέγω3",
@@ -72342,7 +72342,7 @@
     "citation": "37a (382)"
   },
   {
-    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg002-tlg0059-grc-383",
+    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg0059-tlg002-grc-383",
     "treebank_id": "383",
     "words": [
       {
@@ -72468,7 +72468,7 @@
     "citation": "37a (383)"
   },
   {
-    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg002-tlg0059-grc-384",
+    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg0059-tlg002-grc-384",
     "treebank_id": "384",
     "words": [
       {
@@ -72593,7 +72593,7 @@
     "citation": "37a (384)"
   },
   {
-    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg002-tlg0059-grc-385",
+    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg0059-tlg002-grc-385",
     "treebank_id": "385",
     "words": [
       {
@@ -72653,7 +72653,7 @@
     "citation": "37a (385)"
   },
   {
-    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg002-tlg0059-grc-386",
+    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg0059-tlg002-grc-386",
     "treebank_id": "386",
     "words": [
       {
@@ -72683,7 +72683,7 @@
       },
       {
         "id": 4,
-        "value": "ἐγώ",
+        "value": "ἐγώ",
         "head_id": 5,
         "relation": "SBJ",
         "lemma": "ἐγώ",
@@ -72694,7 +72694,7 @@
         "value": "-ᾦμαι",
         "head_id": 3,
         "relation": "ADV",
-        "lemma": "οἴομαι",
+        "lemma": "οἴομαι",
         "tag": "v1spia---"
       },
       {
@@ -72910,7 +72910,7 @@
     "citation": "37a (386)"
   },
   {
-    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg002-tlg0059-grc-387",
+    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg0059-tlg002-grc-387",
     "treebank_id": "387",
     "words": [
       {
@@ -72926,7 +72926,7 @@
         "value": "δʼ",
         "head_id": 12,
         "relation": "AuxY",
-        "lemma": "δέ",
+        "lemma": "δέ",
         "tag": "d--------"
       },
       {
@@ -73004,7 +73004,7 @@
       },
       {
         "id": 12,
-        "value": "ἐστιν",
+        "value": "ἐστιν",
         "head_id": 0,
         "relation": "PRED",
         "lemma": "εἰμί",
@@ -73018,7 +73018,7 @@
     "citation": "37b (387)"
   },
   {
-    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg002-tlg0059-grc-388",
+    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg0059-tlg002-grc-388",
     "treebank_id": "388",
     "words": [
       {
@@ -73115,7 +73115,7 @@
         "value": "κατʼ",
         "head_id": 14,
         "relation": "AuxP",
-        "lemma": "κατά",
+        "lemma": "κατά",
         "tag": "r--------"
       },
       {
@@ -73238,7 +73238,7 @@
     "citation": "37b (388)"
   },
   {
-    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg002-tlg0059-grc-389",
+    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg0059-tlg002-grc-389",
     "treebank_id": "389",
     "words": [
       {
@@ -73282,7 +73282,7 @@
     "citation": "37b (389)"
   },
   {
-    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg002-tlg0059-grc-390",
+    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg0059-tlg002-grc-390",
     "treebank_id": "390",
     "words": [
       {
@@ -73487,7 +73487,7 @@
     "citation": "37b (390)"
   },
   {
-    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg002-tlg0059-grc-391",
+    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg0059-tlg002-grc-391",
     "treebank_id": "391",
     "words": [
       {
@@ -73603,7 +73603,7 @@
     "citation": "37b (391)"
   },
   {
-    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg002-tlg0059-grc-392",
+    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg0059-tlg002-grc-392",
     "treebank_id": "392",
     "words": [
       {
@@ -73647,7 +73647,7 @@
     "citation": "37b (392)"
   },
   {
-    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg002-tlg0059-grc-393",
+    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg0059-tlg002-grc-393",
     "treebank_id": "393",
     "words": [
       {
@@ -73796,7 +73796,7 @@
     "citation": "37c (393)"
   },
   {
-    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg002-tlg0059-grc-394",
+    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg0059-tlg002-grc-394",
     "treebank_id": "394",
     "words": [
       {
@@ -73880,7 +73880,7 @@
     "citation": "37c (394)"
   },
   {
-    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg002-tlg0059-grc-395",
+    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg0059-tlg002-grc-395",
     "treebank_id": "395",
     "words": [
       {
@@ -73956,7 +73956,7 @@
     "citation": "37c (395)"
   },
   {
-    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg002-tlg0059-grc-396",
+    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg0059-tlg002-grc-396",
     "treebank_id": "396",
     "words": [
       {
@@ -74032,7 +74032,7 @@
     "citation": "37c (396)"
   },
   {
-    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg002-tlg0059-grc-397",
+    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg0059-tlg002-grc-397",
     "treebank_id": "397",
     "words": [
       {
@@ -74084,7 +74084,7 @@
     "citation": "37c (397)"
   },
   {
-    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg002-tlg0059-grc-398",
+    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg0059-tlg002-grc-398",
     "treebank_id": "398",
     "words": [
       {
@@ -74152,7 +74152,7 @@
     "citation": "37c (398)"
   },
   {
-    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg002-tlg0059-grc-399",
+    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg0059-tlg002-grc-399",
     "treebank_id": "399",
     "words": [
       {
@@ -74452,7 +74452,7 @@
         "value": "ἀλλʼ",
         "head_id": 51,
         "relation": "COORD",
-        "lemma": "ἀλλά",
+        "lemma": "ἀλλά",
         "tag": "c--------"
       },
       {
@@ -74598,7 +74598,7 @@
         "value": "ῥᾳδίως",
         "head_id": 54,
         "relation": "ADV",
-        "lemma": "ῥᾴδιος",
+        "lemma": "ῥᾴδιος",
         "tag": "d--------"
       },
       {
@@ -74617,7 +74617,7 @@
     "citation": "37c (399)"
   },
   {
-    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg002-tlg0059-grc-400",
+    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg0059-tlg002-grc-400",
     "treebank_id": "400",
     "words": [
       {
@@ -74694,7 +74694,7 @@
     "citation": "37d (400)"
   },
   {
-    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg002-tlg0059-grc-401",
+    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg0059-tlg002-grc-401",
     "treebank_id": "401",
     "words": [
       {
@@ -74858,7 +74858,7 @@
     "citation": "37d (401)"
   },
   {
-    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg002-tlg0059-grc-402",
+    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg0059-tlg002-grc-402",
     "treebank_id": "402",
     "words": [
       {
@@ -74994,7 +74994,7 @@
       },
       {
         "id": 17,
-        "value": "ἀκροῶνται",
+        "value": "ἀκροῶνται",
         "head_id": 14,
         "relation": "ADV",
         "lemma": "ἀκροάομαι",
@@ -75007,7 +75007,7 @@
     "citation": "37d (402)"
   },
   {
-    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg002-tlg0059-grc-403",
+    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg0059-tlg002-grc-403",
     "treebank_id": "403",
     "words": [
       {
@@ -75015,7 +75015,7 @@
         "value": "κ-",
         "head_id": 5,
         "relation": "AuxY",
-        "lemma": "καί",
+        "lemma": "καί",
         "tag": "d--------"
       },
       {
@@ -75132,7 +75132,7 @@
     "citation": "37d (403)"
   },
   {
-    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg002-tlg0059-grc-404",
+    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg0059-tlg002-grc-404",
     "treebank_id": "404",
     "words": [
       {
@@ -75229,7 +75229,7 @@
         "value": "διʼ",
         "head_id": 16,
         "relation": "AuxP",
-        "lemma": "διά",
+        "lemma": "διά",
         "tag": "r--------"
       },
       {
@@ -75273,7 +75273,7 @@
     "citation": "37e (404)"
   },
   {
-    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg002-tlg0059-grc-405",
+    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg0059-tlg002-grc-405",
     "treebank_id": "405",
     "words": [
       {
@@ -75333,7 +75333,7 @@
     "citation": "37e (405)"
   },
   {
-    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg002-tlg0059-grc-406",
+    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg0059-tlg002-grc-406",
     "treebank_id": "406",
     "words": [
       {
@@ -75483,7 +75483,7 @@
     "citation": "37e (406)"
   },
   {
-    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg002-tlg0059-grc-407",
+    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg0059-tlg002-grc-407",
     "treebank_id": "407",
     "words": [
       {
@@ -75567,7 +75567,7 @@
     "citation": "37e (407)"
   },
   {
-    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg002-tlg0059-grc-408",
+    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg0059-tlg002-grc-408",
     "treebank_id": "408",
     "words": [
       {
@@ -75772,7 +75772,7 @@
     "citation": "38a (408)"
   },
   {
-    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg002-tlg0059-grc-409",
+    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg0059-tlg002-grc-409",
     "treebank_id": "409",
     "words": [
       {
@@ -76134,7 +76134,7 @@
         "value": "δʼ",
         "head_id": 48,
         "relation": "OBJ",
-        "lemma": "δέ",
+        "lemma": "δέ",
         "tag": "d--------"
       },
       {
@@ -76189,7 +76189,7 @@
       },
       {
         "id": 52,
-        "value": "ἐστιν",
+        "value": "ἐστιν",
         "head_id": 37,
         "relation": "OBJ_CO",
         "lemma": "εἰμί",
@@ -76202,7 +76202,7 @@
     "citation": "38a (409)"
   },
   {
-    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg002-tlg0059-grc-410",
+    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg0059-tlg002-grc-410",
     "treebank_id": "410",
     "words": [
       {
@@ -76356,7 +76356,7 @@
       },
       {
         "id": 19,
-        "value": "ἐστιν",
+        "value": "ἐστιν",
         "head_id": 15,
         "relation": "PRED_CO",
         "lemma": "εἰμί",
@@ -76369,7 +76369,7 @@
     "citation": "38a (410)"
   },
   {
-    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg002-tlg0059-grc-411",
+    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg0059-tlg002-grc-411",
     "treebank_id": "411",
     "words": [
       {
@@ -76461,7 +76461,7 @@
     "citation": "38a (411)"
   },
   {
-    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg002-tlg0059-grc-412",
+    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg0059-tlg002-grc-412",
     "treebank_id": "412",
     "words": [
       {
@@ -76628,7 +76628,7 @@
     "citation": "38b (412)"
   },
   {
-    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg002-tlg0059-grc-413",
+    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg0059-tlg002-grc-413",
     "treebank_id": "413",
     "words": [
       {
@@ -76802,7 +76802,7 @@
     "citation": "38b (413)"
   },
   {
-    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg002-tlg0059-grc-414",
+    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg0059-tlg002-grc-414",
     "treebank_id": "414",
     "words": [
       {
@@ -76818,7 +76818,7 @@
         "value": "δʼ",
         "head_id": 4,
         "relation": "AuxY",
-        "lemma": "δέ",
+        "lemma": "δέ",
         "tag": "d--------"
       },
       {
@@ -76894,7 +76894,7 @@
     "citation": "38b (414)"
   },
   {
-    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg002-tlg0059-grc-415",
+    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg0059-tlg002-grc-415",
     "treebank_id": "415",
     "words": [
       {
@@ -76938,7 +76938,7 @@
     "citation": "38b (415)"
   },
   {
-    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg002-tlg0059-grc-416",
+    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg0059-tlg002-grc-416",
     "treebank_id": "416",
     "words": [
       {
@@ -77118,7 +77118,7 @@
         "value": "δʼ",
         "head_id": 15,
         "relation": "COORD",
-        "lemma": "δέ",
+        "lemma": "δέ",
         "tag": "c--------"
       },
       {
@@ -77145,7 +77145,7 @@
     "citation": "38b (416)"
   },
   {
-    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg002-tlg0059-grc-417",
+    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg0059-tlg002-grc-417",
     "treebank_id": "417",
     "words": [
       {
@@ -77211,7 +77211,7 @@
         "value": "ἔσονται",
         "head_id": 6,
         "relation": "PRED_CO",
-        "lemma": "εἰμί",
+        "lemma": "εἰμί",
         "tag": "v3pfim---"
       },
       {
@@ -77262,7 +77262,7 @@
     "citation": "38b (417)"
   },
   {
-    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg002-tlg0059-grc-418",
+    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg0059-tlg002-grc-418",
     "treebank_id": "418",
     "words": [
       {
@@ -77740,7 +77740,7 @@
     "citation": "38c (418)"
   },
   {
-    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg002-tlg0059-grc-419",
+    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg0059-tlg002-grc-419",
     "treebank_id": "419",
     "words": [
       {
@@ -77872,7 +77872,7 @@
     "citation": "38c (419)"
   },
   {
-    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg002-tlg0059-grc-420",
+    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg0059-tlg002-grc-420",
     "treebank_id": "420",
     "words": [
       {
@@ -78005,7 +78005,7 @@
     "citation": "38d (420)"
   },
   {
-    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg002-tlg0059-grc-421",
+    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg0059-tlg002-grc-421",
     "treebank_id": "421",
     "words": [
       {
@@ -78089,7 +78089,7 @@
     "citation": "38d (421)"
   },
   {
-    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg002-tlg0059-grc-422",
+    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg0059-tlg002-grc-422",
     "treebank_id": "422",
     "words": [
       {
@@ -78336,7 +78336,7 @@
     "citation": "38d (422)"
   },
   {
-    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg002-tlg0059-grc-423",
+    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg0059-tlg002-grc-423",
     "treebank_id": "423",
     "words": [
       {
@@ -78380,7 +78380,7 @@
     "citation": "38d (423)"
   },
   {
-    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg002-tlg0059-grc-424",
+    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg0059-tlg002-grc-424",
     "treebank_id": "424",
     "words": [
       {
@@ -78388,7 +78388,7 @@
         "value": "ἀλλʼ",
         "head_id": 4,
         "relation": "AuxY",
-        "lemma": "ἀλλά",
+        "lemma": "ἀλλά",
         "tag": "d--------"
       },
       {
@@ -78862,7 +78862,7 @@
     "citation": "38d (424)"
   },
   {
-    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg002-tlg0059-grc-425",
+    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg0059-tlg002-grc-425",
     "treebank_id": "425",
     "words": [
       {
@@ -78870,7 +78870,7 @@
         "value": "ἀλλʼ",
         "head_id": 22,
         "relation": "AuxY",
-        "lemma": "ἀλλά",
+        "lemma": "ἀλλά",
         "tag": "d--------"
       },
       {
@@ -79148,7 +79148,7 @@
     "citation": "38e (425)"
   },
   {
-    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg002-tlg0059-grc-426",
+    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg0059-tlg002-grc-426",
     "treebank_id": "426",
     "words": [
       {
@@ -79369,7 +79369,7 @@
     "citation": "38e (426)"
   },
   {
-    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg002-tlg0059-grc-427",
+    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg0059-tlg002-grc-427",
     "treebank_id": "427",
     "words": [
       {
@@ -79530,7 +79530,7 @@
         "value": "ἐφʼ",
         "head_id": 22,
         "relation": "AuxP",
-        "lemma": "ἐπί",
+        "lemma": "ἐπί",
         "tag": "r--------"
       },
       {
@@ -79581,7 +79581,7 @@
     "citation": "39a (427)"
   },
   {
-    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg002-tlg0059-grc-428",
+    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg0059-tlg002-grc-428",
     "treebank_id": "428",
     "words": [
       {
@@ -79762,7 +79762,7 @@
     "citation": "39a (428)"
   },
   {
-    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg002-tlg0059-grc-429",
+    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg0059-tlg002-grc-429",
     "treebank_id": "429",
     "words": [
       {
@@ -79923,7 +79923,7 @@
       },
       {
         "id": 20,
-        "value": "ἐστιν",
+        "value": "ἐστιν",
         "head_id": 14,
         "relation": "PRED_CO",
         "lemma": "εἰμί",
@@ -79936,7 +79936,7 @@
     "citation": "39a (429)"
   },
   {
-    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg002-tlg0059-grc-430",
+    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg0059-tlg002-grc-430",
     "treebank_id": "430",
     "words": [
       {
@@ -79988,7 +79988,7 @@
     "citation": "39b (430)"
   },
   {
-    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg002-tlg0059-grc-431",
+    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg0059-tlg002-grc-431",
     "treebank_id": "431",
     "words": [
       {
@@ -80117,7 +80117,7 @@
         "value": "δʼ",
         "head_id": 0,
         "relation": "COORD",
-        "lemma": "δέ",
+        "lemma": "δέ",
         "tag": "c--------",
         "original_head_id": 0
       },
@@ -80249,7 +80249,7 @@
     "citation": "39b (431)"
   },
   {
-    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg002-tlg0059-grc-432",
+    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg0059-tlg002-grc-432",
     "treebank_id": "432",
     "words": [
       {
@@ -80297,7 +80297,7 @@
         "value": "ὑφʼ",
         "head_id": 10,
         "relation": "AuxP",
-        "lemma": "ὑπό",
+        "lemma": "ὑπό",
         "tag": "r--------"
       },
       {
@@ -80354,7 +80354,7 @@
         "value": "δʼ",
         "head_id": 0,
         "relation": "COORD",
-        "lemma": "δέ",
+        "lemma": "δέ",
         "tag": "c--------",
         "original_head_id": 0
       },
@@ -80438,7 +80438,7 @@
     "citation": "39b (432)"
   },
   {
-    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg002-tlg0059-grc-433",
+    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg0059-tlg002-grc-433",
     "treebank_id": "433",
     "words": [
       {
@@ -80522,7 +80522,7 @@
     "citation": "39b (433)"
   },
   {
-    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg002-tlg0059-grc-434",
+    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg0059-tlg002-grc-434",
     "treebank_id": "434",
     "words": [
       {
@@ -80578,7 +80578,7 @@
         "value": "ἔδει",
         "head_id": 10,
         "relation": "PRED_CO",
-        "lemma": "δεῖ",
+        "lemma": "δεῖ",
         "tag": "v3siia---"
       },
       {
@@ -80655,7 +80655,7 @@
     "citation": "39b (434)"
   },
   {
-    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg002-tlg0059-grc-435",
+    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg0059-tlg002-grc-435",
     "treebank_id": "435",
     "words": [
       {
@@ -80772,7 +80772,7 @@
     "citation": "39c (435)"
   },
   {
-    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg002-tlg0059-grc-436",
+    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg0059-tlg002-grc-436",
     "treebank_id": "436",
     "words": [
       {
@@ -80905,7 +80905,7 @@
     "citation": "39c (436)"
   },
   {
-    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg002-tlg0059-grc-437",
+    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg0059-tlg002-grc-437",
     "treebank_id": "437",
     "words": [
       {
@@ -81127,7 +81127,7 @@
     "citation": "39c (437)"
   },
   {
-    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg002-tlg0059-grc-438",
+    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg0059-tlg002-grc-438",
     "treebank_id": "438",
     "words": [
       {
@@ -81333,7 +81333,7 @@
     "citation": "39c (438)"
   },
   {
-    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg002-tlg0059-grc-439",
+    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg0059-tlg002-grc-439",
     "treebank_id": "439",
     "words": [
       {
@@ -81349,7 +81349,7 @@
         "value": "ἔσονται",
         "head_id": 0,
         "relation": "PRED",
-        "lemma": "εἰμί",
+        "lemma": "εἰμί",
         "tag": "v3pfim---",
         "original_head_id": 0
       },
@@ -81475,7 +81475,7 @@
     "citation": "39c (439)"
   },
   {
-    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg002-tlg0059-grc-440",
+    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg0059-tlg002-grc-440",
     "treebank_id": "440",
     "words": [
       {
@@ -81499,7 +81499,7 @@
         "value": "ἔσονται",
         "head_id": 8,
         "relation": "PRED_CO",
-        "lemma": "εἰμί",
+        "lemma": "εἰμί",
         "tag": "v3pfim---"
       },
       {
@@ -81584,7 +81584,7 @@
     "citation": "39c (440)"
   },
   {
-    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg002-tlg0059-grc-441",
+    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg0059-tlg002-grc-441",
     "treebank_id": "441",
     "words": [
       {
@@ -81749,7 +81749,7 @@
     "citation": "39d (441)"
   },
   {
-    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg002-tlg0059-grc-442",
+    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg0059-tlg002-grc-442",
     "treebank_id": "442",
     "words": [
       {
@@ -81773,7 +81773,7 @@
         "value": "ἐσθʼ",
         "head_id": 15,
         "relation": "PRED_CO",
-        "lemma": "ἐιμί",
+        "lemma": "ἐιμί",
         "tag": "v3spia---"
       },
       {
@@ -81870,7 +81870,7 @@
         "value": "ἀλλʼ",
         "head_id": 0,
         "relation": "COORD",
-        "lemma": "ἀλλά",
+        "lemma": "ἀλλά",
         "tag": "c--------",
         "original_head_id": 0
       },
@@ -81959,7 +81959,7 @@
         "value": "ἀλλʼ",
         "head_id": 21,
         "relation": "COORD",
-        "lemma": "ἀλλά",
+        "lemma": "ἀλλά",
         "tag": "c--------"
       },
       {
@@ -82021,7 +82021,7 @@
       },
       {
         "id": 34,
-        "value": "ἐστιν",
+        "value": "ἐστιν",
         "head_id": 15,
         "relation": "PRED_CO",
         "lemma": "εἰμί",
@@ -82034,7 +82034,7 @@
     "citation": "39d (442)"
   },
   {
-    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg002-tlg0059-grc-443",
+    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg0059-tlg002-grc-443",
     "treebank_id": "443",
     "words": [
       {
@@ -82118,7 +82118,7 @@
     "citation": "39d (443)"
   },
   {
-    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg002-tlg0059-grc-444",
+    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg0059-tlg002-grc-444",
     "treebank_id": "444",
     "words": [
       {
@@ -82347,7 +82347,7 @@
     "citation": "39e (444)"
   },
   {
-    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg002-tlg0059-grc-445",
+    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg0059-tlg002-grc-445",
     "treebank_id": "445",
     "words": [
       {
@@ -82441,7 +82441,7 @@
     "citation": "39e (445)"
   },
   {
-    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg002-tlg0059-grc-446",
+    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg0059-tlg002-grc-446",
     "treebank_id": "446",
     "words": [
       {
@@ -82525,7 +82525,7 @@
     "citation": "39e (446)"
   },
   {
-    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg002-tlg0059-grc-447",
+    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg0059-tlg002-grc-447",
     "treebank_id": "447",
     "words": [
       {
@@ -82657,7 +82657,7 @@
     "citation": "40a (447)"
   },
   {
-    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg002-tlg0059-grc-448",
+    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg0059-tlg002-grc-448",
     "treebank_id": "448",
     "words": [
       {
@@ -82825,7 +82825,7 @@
     "citation": "40a (448)"
   },
   {
-    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg002-tlg0059-grc-449",
+    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg0059-tlg002-grc-449",
     "treebank_id": "449",
     "words": [
       {
@@ -83086,7 +83086,7 @@
     "citation": "40a (449)"
   },
   {
-    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg002-tlg0059-grc-450",
+    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg0059-tlg002-grc-450",
     "treebank_id": "450",
     "words": [
       {
@@ -83275,7 +83275,7 @@
     "citation": "40a (450)"
   },
   {
-    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg002-tlg0059-grc-451",
+    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg0059-tlg002-grc-451",
     "treebank_id": "451",
     "words": [
       {
@@ -83545,7 +83545,7 @@
     "citation": "40b (451)"
   },
   {
-    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg002-tlg0059-grc-452",
+    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg0059-tlg002-grc-452",
     "treebank_id": "452",
     "words": [
       {
@@ -83645,7 +83645,7 @@
     "citation": "40b (452)"
   },
   {
-    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg002-tlg0059-grc-453",
+    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg0059-tlg002-grc-453",
     "treebank_id": "453",
     "words": [
       {
@@ -83809,7 +83809,7 @@
     "citation": "40b (453)"
   },
   {
-    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg002-tlg0059-grc-454",
+    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg0059-tlg002-grc-454",
     "treebank_id": "454",
     "words": [
       {
@@ -83869,7 +83869,7 @@
     "citation": "40b (454)"
   },
   {
-    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg002-tlg0059-grc-455",
+    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg0059-tlg002-grc-455",
     "treebank_id": "455",
     "words": [
       {
@@ -83913,7 +83913,7 @@
     "citation": "40b (455)"
   },
   {
-    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg002-tlg0059-grc-456",
+    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg0059-tlg002-grc-456",
     "treebank_id": "456",
     "words": [
       {
@@ -84011,7 +84011,7 @@
         "value": "ἔσθʼ",
         "head_id": 10,
         "relation": "PRED_CO",
-        "lemma": "εἰμί",
+        "lemma": "εἰμί",
         "tag": "v3spia---"
       },
       {
@@ -84119,7 +84119,7 @@
     "citation": "40b (456)"
   },
   {
-    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg002-tlg0059-grc-457",
+    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg0059-tlg002-grc-457",
     "treebank_id": "457",
     "words": [
       {
@@ -84179,7 +84179,7 @@
     "citation": "40c (457)"
   },
   {
-    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg002-tlg0059-grc-458",
+    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg0059-tlg002-grc-458",
     "treebank_id": "458",
     "words": [
       {
@@ -84203,7 +84203,7 @@
         "value": "ἔσθʼ",
         "head_id": 0,
         "relation": "PRED",
-        "lemma": "εἰμί",
+        "lemma": "εἰμί",
         "tag": "v3spia---",
         "original_head_id": 0
       },
@@ -84352,7 +84352,7 @@
     "citation": "40c (458)"
   },
   {
-    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg002-tlg0059-grc-459",
+    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg0059-tlg002-grc-459",
     "treebank_id": "459",
     "words": [
       {
@@ -84460,7 +84460,7 @@
     "citation": "40c (459)"
   },
   {
-    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg002-tlg0059-grc-460",
+    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg0059-tlg002-grc-460",
     "treebank_id": "460",
     "words": [
       {
@@ -84528,7 +84528,7 @@
     "citation": "40c (460)"
   },
   {
-    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg002-tlg0059-grc-461",
+    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg0059-tlg002-grc-461",
     "treebank_id": "461",
     "words": [
       {
@@ -84821,7 +84821,7 @@
     "citation": "40c (461)"
   },
   {
-    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg002-tlg0059-grc-462",
+    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg0059-tlg002-grc-462",
     "treebank_id": "462",
     "words": [
       {
@@ -84885,7 +84885,7 @@
         "value": "ἀλλʼ",
         "head_id": 2,
         "relation": "COORD",
-        "lemma": "ἀλλά",
+        "lemma": "ἀλλά",
         "tag": "c--------"
       },
       {
@@ -84941,7 +84941,7 @@
         "value": "-δʼ",
         "head_id": 14,
         "relation": "AuxZ",
-        "lemma": "δέ",
+        "lemma": "δέ",
         "tag": "d-------_"
       },
       {
@@ -85787,7 +85787,7 @@
     "citation": "40d (462)"
   },
   {
-    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg002-tlg0059-grc-463",
+    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg0059-tlg002-grc-463",
     "treebank_id": "463",
     "words": [
       {
@@ -85914,7 +85914,7 @@
       },
       {
         "id": 16,
-        "value": "ἐστιν",
+        "value": "ἐστιν",
         "head_id": 12,
         "relation": "ADV",
         "lemma": "εἰμί",
@@ -85927,7 +85927,7 @@
     "citation": "40e (463)"
   },
   {
-    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg002-tlg0059-grc-464",
+    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg0059-tlg002-grc-464",
     "treebank_id": "464",
     "words": [
       {
@@ -85943,7 +85943,7 @@
         "value": "δʼ",
         "head_id": 32,
         "relation": "AuxY",
-        "lemma": "δέ",
+        "lemma": "δέ",
         "tag": "d--------"
       },
       {
@@ -86246,7 +86246,7 @@
     "citation": "40e (464)"
   },
   {
-    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg002-tlg0059-grc-465",
+    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg0059-tlg002-grc-465",
     "treebank_id": "465",
     "words": [
       {
@@ -86686,7 +86686,7 @@
     "citation": "41a (465)"
   },
   {
-    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg002-tlg0059-grc-466",
+    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg0059-tlg002-grc-466",
     "treebank_id": "466",
     "words": [
       {
@@ -86806,7 +86806,7 @@
         "value": "δέξαιτʼ",
         "head_id": 0,
         "relation": "PRED",
-        "lemma": "δέχομαι",
+        "lemma": "δέχομαι",
         "tag": "v3saom---",
         "original_head_id": 0
       },
@@ -86842,7 +86842,7 @@
     "citation": "41a (466)"
   },
   {
-    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg002-tlg0059-grc-467",
+    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg0059-tlg002-grc-467",
     "treebank_id": "467",
     "words": [
       {
@@ -86907,7 +86907,7 @@
         "value": "ταῦτʼ",
         "head_id": 9,
         "relation": "SBJ",
-        "lemma": "οὗτος",
+        "lemma": "οὗτος",
         "tag": "p-p---nn-"
       },
       {
@@ -86942,7 +86942,7 @@
     "citation": "41a (467)"
   },
   {
-    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg002-tlg0059-grc-468",
+    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg0059-tlg002-grc-468",
     "treebank_id": "468",
     "words": [
       {
@@ -87528,7 +87528,7 @@
         "value": "δʼ",
         "head_id": 66,
         "relation": "COORD",
-        "lemma": "δέ",
+        "lemma": "δέ",
         "tag": "c--------"
       },
       {
@@ -87572,7 +87572,7 @@
     "citation": "41b (468)"
   },
   {
-    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg002-tlg0059-grc-469",
+    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg0059-tlg002-grc-469",
     "treebank_id": "469",
     "words": [
       {
@@ -87596,7 +87596,7 @@
         "value": "δʼ",
         "head_id": 11,
         "relation": "AuxY",
-        "lemma": "δέ",
+        "lemma": "δέ",
         "tag": "d--------"
       },
       {
@@ -87955,7 +87955,7 @@
     "citation": "41b (469)"
   },
   {
-    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg002-tlg0059-grc-470",
+    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg0059-tlg002-grc-470",
     "treebank_id": "470",
     "words": [
       {
@@ -88047,7 +88047,7 @@
     "citation": "41c (470)"
   },
   {
-    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg002-tlg0059-grc-471",
+    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg0059-tlg002-grc-471",
     "treebank_id": "471",
     "words": [
       {
@@ -88256,7 +88256,7 @@
       },
       {
         "id": 26,
-        "value": "ἐστιν",
+        "value": "ἐστιν",
         "head_id": 20,
         "relation": "ADV",
         "lemma": "εἰμί",
@@ -88269,7 +88269,7 @@
     "citation": "41c (471)"
   },
   {
-    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg002-tlg0059-grc-472",
+    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg0059-tlg002-grc-472",
     "treebank_id": "472",
     "words": [
       {
@@ -88602,7 +88602,7 @@
         "value": "θεῶν",
         "head_id": 40,
         "relation": "OBJ",
-        "lemma": "θεός",
+        "lemma": "θεός",
         "tag": "n-p---mg-"
       },
       {
@@ -88645,7 +88645,7 @@
     "citation": "41c (472)"
   },
   {
-    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg002-tlg0059-grc-473",
+    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg0059-tlg002-grc-473",
     "treebank_id": "473",
     "words": [
       {
@@ -88866,7 +88866,7 @@
     "citation": "41d (473)"
   },
   {
-    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg002-tlg0059-grc-474",
+    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg0059-tlg002-grc-474",
     "treebank_id": "474",
     "words": [
       {
@@ -89047,7 +89047,7 @@
     "citation": "41d (474)"
   },
   {
-    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg002-tlg0059-grc-475",
+    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg0059-tlg002-grc-475",
     "treebank_id": "475",
     "words": [
       {
@@ -89137,7 +89137,7 @@
         "value": "ἀλλʼ",
         "head_id": 8,
         "relation": "COORD",
-        "lemma": "ἀλλά",
+        "lemma": "ἀλλά",
         "tag": "c--------"
       },
       {
@@ -89172,7 +89172,7 @@
     "citation": "41d (475)"
   },
   {
-    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg002-tlg0059-grc-476",
+    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg0059-tlg002-grc-476",
     "treebank_id": "476",
     "words": [
       {
@@ -89218,7 +89218,7 @@
       },
       {
         "id": 6,
-        "value": "ἐστιν",
+        "value": "ἐστιν",
         "head_id": 0,
         "relation": "PRED",
         "lemma": "εἰμί",
@@ -89232,7 +89232,7 @@
     "citation": "41e (476)"
   },
   {
-    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg002-tlg0059-grc-477",
+    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg0059-tlg002-grc-477",
     "treebank_id": "477",
     "words": [
       {
@@ -89284,7 +89284,7 @@
     "citation": "41e (477)"
   },
   {
-    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg002-tlg0059-grc-478",
+    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg0059-tlg002-grc-478",
     "treebank_id": "478",
     "words": [
       {
@@ -89392,7 +89392,7 @@
         "value": "τ-",
         "head_id": 15,
         "relation": "ATR",
-        "lemma": "ὁ",
+        "lemma": "ὁ",
         "tag": "l-s---na-"
       },
       {
@@ -89825,7 +89825,7 @@
     "citation": "41e (478)"
   },
   {
-    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg002-tlg0059-grc-479",
+    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg0059-tlg002-grc-479",
     "treebank_id": "479",
     "words": [
       {
@@ -89907,7 +89907,7 @@
         "value": "ὑφʼ",
         "head_id": 9,
         "relation": "AuxP",
-        "lemma": "ὑπό",
+        "lemma": "ὑπό",
         "tag": "r--------"
       },
       {
@@ -89974,7 +89974,7 @@
     "citation": "42a (479)"
   },
   {
-    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg002-tlg0059-grc-480",
+    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg0059-tlg002-grc-480",
     "treebank_id": "480",
     "words": [
       {
@@ -90094,7 +90094,7 @@
       },
       {
         "id": 15,
-        "value": "ἐστιν",
+        "value": "ἐστιν",
         "head_id": 0,
         "relation": "PRED",
         "lemma": "εἰμί",
@@ -90108,7 +90108,7 @@
     "citation": "42a (480)"
   },
   {
-    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg002-tlg0059-grc-481",
+    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg0059-tlg002-grc-481",
     "treebank_id": "481",
     "words": [
       {
@@ -90235,7 +90235,7 @@
       },
       {
         "id": 16,
-        "value": "ἐστιν",
+        "value": "ἐστιν",
         "head_id": 0,
         "relation": "PRED",
         "lemma": "εἰμί",
@@ -90244,7 +90244,7 @@
       },
       {
         "id": 17,
-        "value": "ἐστιν",
+        "value": "ἐστιν",
         "head_id": 12,
         "relation": "ADV",
         "lemma": "εἰμί",
@@ -90252,7 +90252,7 @@
       },
       {
         "id": 18,
-        "value": "δῆλον",
+        "value": "δῆλον",
         "head_id": 17,
         "relation": "PNOM",
         "lemma": "δῆλος",

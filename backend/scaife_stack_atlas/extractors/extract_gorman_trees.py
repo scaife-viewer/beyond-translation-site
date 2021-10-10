@@ -1,7 +1,16 @@
 import json
+import os
 from pathlib import Path
 
+import django
+
 from lxml import etree
+
+# TODO: refactor this as an actual Django management command
+os.environ.setdefault("DJANGO_SETTINGS_MODULE", "scaife_stack_atlas.settings")
+django.setup()
+
+from scaife_viewer.atlas.urn import URN  # noqa
 
 
 def transform_headwords(words):
@@ -16,23 +25,53 @@ def transform_headwords(words):
     return words
 
 
+def extract_version(sentence):
+    value = sentence.attrib["document_id"]
+    if value.startswith("urn"):
+        urn = value
+    elif value.startswith("http://perseids.org/annotsrc/"):
+        urn = value.split("http://perseids.org/annotsrc/")[1]
+    else:
+        print(value)
+        return None
+    return f"{urn}:"
+
+
+def extract_language(root):
+    treebank = root.xpath("//treebank")[0]
+    return treebank.attrib["{http://www.w3.org/XML/1998/namespace}lang"]
+
+
+def build_base_urn(version_urn):
+    tgp = version_urn.parsed["textgroup"]
+    wp = version_urn.parsed["work"]
+    return f"urn:cite2:beyond-translation:syntaxTree.atlas_v1:{tgp}-{wp}"
+
+
 def extract_trees(input_path):
-    exemplar = "grc"
     with input_path.open() as f:
         tree = etree.parse(f)
+
+    lang = extract_language(tree)
+    version = extract_version(tree.xpath("//sentence")[0])
+    if not version:
+        return None, None
+
+    version_urn = URN(version)
+
     # NOTE: We may want to revisit how this is extracted between gAGDT
     # and Gorman trees
     # version = "urn:cts:greekLit:tlg0012.tlg001.perseus-grc2:"
 
     # TODO: Refactor these URNs using a collection
-    base_urn = "urn:cite2:beyond-translation:syntaxTree.atlasv1:tlg0059-tlg002"
+    base_urn = build_base_urn(version_urn)
     to_create = []
     for sentence in tree.xpath("//sentence"):
         seen_urns = set()
         sentence_id = sentence.attrib["id"]
         # TODO: Determine what we want to do with these namespaces across all of these projects.
         sentence_obj = {
-            "urn": f'{base_urn}-{exemplar}-{sentence.attrib["id"]}',
+            "urn": f'{base_urn}-{lang}-{sentence.attrib["id"]}',
             "treebank_id": sentence_id,
             "words": [],
         }
@@ -44,6 +83,8 @@ def extract_trees(input_path):
                 id_val = int(id_val.split(".").pop())
 
             head_val = word.attrib["head"]
+            if not head_val:
+                head_val = 0
             try:
                 head_val = int(head_val)
             except ValueError:
@@ -63,10 +104,11 @@ def extract_trees(input_path):
         document_id = sentence.attrib.get("document_id")
         subdoc = sentence.attrib.get("subdoc")
         if document_id and subdoc:
-            _, version_part = document_id.split("http://perseids.org/annotsrc/")
-            version = f"{version_part}:"
             ref = subdoc
-            seen_urns.add(f"{version}{ref}")
+            seen_urns.add(f"{version_urn}{ref}")
+
+        # TODO: We need to handle this better
+        # assert sentence_obj["references"]
         sentence_obj["references"] = sorted(list(seen_urns))
 
         if subdoc:
@@ -76,18 +118,45 @@ def extract_trees(input_path):
             citation = None
         sentence_obj["citation"] = citation
         to_create.append(sentence_obj)
-    return to_create
+    return version_urn, to_create
+
+
+def process_directory(input_dir):
+    output_dir = Path("data/annotations/syntax-trees")
+    output_dir.mkdir(parents=True, exist_ok=True)
+    idx = 1
+    # TODO: Resolve problems or improve logging
+    problems = []
+    try:
+        for input_path in input_dir.glob("*.xml"):
+            version_urn, trees = extract_trees(input_path)
+            if not version_urn and not trees:
+                print(f"Could not extract data from {input_path.name}")
+                problems.append(input_path.name)
+                continue
+            prefix = "gorman_syntax_trees"
+            tgp = version_urn.parsed["textgroup"]
+            wp = version_urn.parsed["work"]
+            vp = version_urn.parsed["version"]
+
+            # TODO: Combine trees from the same version; we append idx for now.
+            annotation_basename = f"{prefix}_{idx}_{tgp}.{wp}.{vp}.json"
+            output_path = Path(output_dir, annotation_basename)
+            json.dump(
+                trees, output_path.open("w"), ensure_ascii=False, indent=2,
+            )
+            idx += 1
+    except Exception as excep:
+        import ipdb
+
+        ipdb.set_trace()
+        raise excep
+    print("\n".join(problems))
 
 
 def main():
-    input_path = Path("data/raw/gorman-trees/plato apology.xml")
-    trees = extract_trees(input_path)
-    output_path = Path(
-        "data/annotations/syntax-trees/gorman_syntax_trees_tlg0059.tlg002.perseus-grc1.json"
-    )
-    json.dump(
-        trees, output_path.open("w"), ensure_ascii=False, indent=2,
-    )
+    input_dir = Path("data/raw/gorman-trees")
+    process_directory(input_dir)
 
 
 if __name__ == "__main__":
