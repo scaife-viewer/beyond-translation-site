@@ -1,0 +1,34 @@
+{
+  "urn": "urn:cts:latinLit:phi0474.phi056:",
+  "group_urn": "urn:cts:latinLit:phi0474:",
+  "node_kind": "work",
+  "lang": "lat",
+  "title": [
+    {
+      "lang": "eng",
+      "value": "Letters to his Friends"
+    }
+  ],
+  "versions": [
+    {
+      "urn": "urn:cts:latinLit:phi0474.phi056.perseus-lat1-text:",
+      "node_kind": "version",
+      "version_kind": "edition",
+      "lang": "lat",
+      "first_passage_urn": "urn:cts:latinLit:phi0474.phi056.perseus-lat1-text:1.0-1.1",
+      "citation_scheme": ["book", "letter", "section"],
+      "label": [
+        {
+          "lang": "lat",
+          "value": "Epistulae ad Familiares"
+        }
+      ],
+      "description": [
+        {
+          "lang": "mul",
+          "value": "Cicero. Ciceronis, M. Tullius. Epistulae, Vol. 1. Purser, Louis Claude, editor. Oxford: Clarendon Press, 1901."
+        }
+      ]
+    }
+  ]
+}
