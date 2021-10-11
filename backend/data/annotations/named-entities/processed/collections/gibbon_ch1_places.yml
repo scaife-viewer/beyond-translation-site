@@ -1,13 +1,13 @@
 entities:
 - data:
-    coordinates: 22.224585911364017, 38.102121472776034
+    coordinates: 38.102121472776034, 22.224585911364017
   description: 'An ancient Greek region on the northern coast of the Peloponnese. '
   kind: place
   title: Achaea/Achaia (region)
   url: https://pleiades.stoa.org/places/570028
   urn: urn:cite2:beyond-translation:place.atlas_v1:0
 - data:
-    coordinates: 7.5, 32.5
+    coordinates: 32.5, 7.5
   description: The region of modern North Africa to which the Romans referred as "Africa",
     effectively the majority of same with the exception of Egypt, later truncated
     to correspond to the Roman province of the same name.
@@ -16,14 +16,14 @@ entities:
   url: https://pleiades.stoa.org/places/775
   urn: urn:cite2:beyond-translation:place.atlas_v1:1
 - data:
-    coordinates: 47.5, 41.5
+    coordinates: 41.5, 47.5
   description: 'An ancient place, cited: BAtlas 88 F3 Albania'
   kind: place
   title: Albania
   url: https://pleiades.stoa.org/places/863731
   urn: urn:cite2:beyond-translation:place.atlas_v1:2
 - data:
-    coordinates: 3.0532175, 36.7689125
+    coordinates: 36.7689125, 3.0532175
   description: Icosium (modern Algiers) was a Punic and, later, Roman settlement in
     coastal north Africa. Legend holds that 20 of Herakles' companions founded the
     original town.
@@ -32,14 +32,14 @@ entities:
   url: https://pleiades.stoa.org/places/295276
   urn: urn:cite2:beyond-translation:place.atlas_v1:3
 - data:
-    coordinates: 42.5, 27.5
+    coordinates: 27.5, 42.5
   description: 'An ancient place, cited: BAtlas 3 D4 Arabia'
   kind: place
   title: Arabia
   url: https://pleiades.stoa.org/places/29475
   urn: urn:cite2:beyond-translation:place.atlas_v1:4
 - data:
-    coordinates: 35.25, 29.25
+    coordinates: 29.25, 35.25
   description: Arabia Eudaemon or Arabia Felix was a term used by ancient geographers
     to describe the southern part of the Arabian Peninsula, now Yemen.
   kind: place
@@ -47,21 +47,21 @@ entities:
   url: https://pleiades.stoa.org/places/746710
   urn: urn:cite2:beyond-translation:place.atlas_v1:5
 - data:
-    coordinates: 40.5, 39.5
+    coordinates: 39.5, 40.5
   description: A plateau region between the Black and Caspian Seas.
   kind: place
   title: Armenia (region)
   url: https://pleiades.stoa.org/places/874350
   urn: urn:cite2:beyond-translation:place.atlas_v1:6
 - data:
-    coordinates: 27.25, 38.25
+    coordinates: 38.25, 27.25
   description: 'An ancient place, cited: BAtlas 61 E1 *Asia'
   kind: place
   title: '*Asia'
   url: https://pleiades.stoa.org/places/599527
   urn: urn:cite2:beyond-translation:place.atlas_v1:7
 - data:
-    coordinates: 27.278684416666664, 37.90969641666667
+    coordinates: 37.90969641666667, 27.278684416666664
   description: An ancient region, coincident with a peninsula of the continent of
     Asia. It is bounded on the south by the Mediterranean Sea, on the west by the
     Aegean Sea, and on the north by the Black Sea. Today it is part of the territory
@@ -71,7 +71,7 @@ entities:
   url: https://pleiades.stoa.org/places/837
   urn: urn:cite2:beyond-translation:place.atlas_v1:8
 - data:
-    coordinates: 43.24518914922291, 36.10511410083722
+    coordinates: 36.10511410083722, 43.24518914922291
   description: "A\u0161\u0161ur, later M\u0101t A\u0161\u0161ur ('the land of the\
     \ god A\u0161\u0161ur'), grew from a small city-state and important trading center\
     \ to a powerful, wide-spread empire. At is zenith in the seventh century BC, the\
@@ -87,7 +87,7 @@ entities:
   url: https://pleiades.stoa.org/places/29492
   urn: urn:cite2:beyond-translation:place.atlas_v1:9
 - data:
-    coordinates: 23.722746101726134, 37.972633872615816
+    coordinates: 37.972633872615816, 23.722746101726134
   description: A major Greek city-state and the principal city of Attika. Modern Athens
     in Greece.
   kind: place
@@ -95,7 +95,7 @@ entities:
   url: https://pleiades.stoa.org/places/579885
   urn: urn:cite2:beyond-translation:place.atlas_v1:10
 - data:
-    coordinates: -6.033597780823801, 32.25232149794394
+    coordinates: 32.25232149794394, -6.033597780823801
   description: A major mountain range, located in northwest Africa (primarily modern
     Morocco).
   kind: place
@@ -103,7 +103,7 @@ entities:
   url: https://pleiades.stoa.org/places/846
   urn: urn:cite2:beyond-translation:place.atlas_v1:11
 - data:
-    coordinates: 10.894765, 48.365463
+    coordinates: 48.365463, 10.894765
   description: Augusta Vindelicum/Aelia Augusta (modern Augsburg, Germany) was the
     capital of Raetia. The city was established in 15 BC by Drusus and Tiberius.
   kind: place
@@ -111,7 +111,7 @@ entities:
   url: https://pleiades.stoa.org/places/118580
   urn: urn:cite2:beyond-translation:place.atlas_v1:12
 - data:
-    coordinates: -5.060833000000001, 37.3170265
+    coordinates: 37.3170265, -5.060833000000001
   description: Hispania Baetica was a Roman senatorial province that beings with the
     Augustan restructuring of the provinces in 27 B.C. The provine was bounded by
     the Anas river in the west and the Sierra Morena mountains to the north.
@@ -120,7 +120,7 @@ entities:
   url: https://pleiades.stoa.org/places/862
   urn: urn:cite2:beyond-translation:place.atlas_v1:13
 - data:
-    coordinates: 31.501635083333333, 41.01972391666666
+    coordinates: 41.01972391666666, 31.501635083333333
   description: Bithynia was an ancient region, kingdom, and Roman province of northwestern
     Asia Minor.
   kind: place
@@ -128,7 +128,7 @@ entities:
   url: https://pleiades.stoa.org/places/511189
   urn: urn:cite2:beyond-translation:place.atlas_v1:14
 - data:
-    coordinates: 36.470222, 45.35326233333333
+    coordinates: 45.35326233333333, 36.470222
   description: The main city and port of the Kimmerian Bosporus, founded by Miletus
     in the late seventh or early sixth centuries B.C.
   kind: place
@@ -136,28 +136,28 @@ entities:
   url: https://pleiades.stoa.org/places/854719
   urn: urn:cite2:beyond-translation:place.atlas_v1:15
 - data:
-    coordinates: -6.5, 52.5
+    coordinates: 52.5, -6.5
   description: 'An ancient place, cited: BAtlas 8 A2 Brigantes'
   kind: place
   title: Brigantes
   url: https://pleiades.stoa.org/places/79354
   urn: urn:cite2:beyond-translation:place.atlas_v1:16
 - data:
-    coordinates: -4.5, 57.5
+    coordinates: 57.5, -4.5
   description: Caledonia was the northern part of Britannia.
   kind: place
   title: Caledonia (region)
   url: https://pleiades.stoa.org/places/89132
   urn: urn:cite2:beyond-translation:place.atlas_v1:17
 - data:
-    coordinates: 13.622430012426932, 41.390186223893345
+    coordinates: 41.390186223893345, 13.622430012426932
   description: Campania was a region of southern Italy.
   kind: place
   title: Campania
   url: https://pleiades.stoa.org/places/432742
   urn: urn:cite2:beyond-translation:place.atlas_v1:18
 - data:
-    coordinates: 25.133333, 35.333333
+    coordinates: 35.333333, 25.133333
   description: Heraklion was the harbor city of ancient Knossos, and was later re-founded
     by the Arab conquerors.
   kind: place
@@ -165,7 +165,7 @@ entities:
   url: https://pleiades.stoa.org/places/589802
   urn: urn:cite2:beyond-translation:place.atlas_v1:19
 - data:
-    coordinates: 35.75, 39.25
+    coordinates: 39.25, 35.75
   description: 'A region that stretched from Lake Tatta in the east to the upper Euphrates
     River and from the Black Sea southward to Cilicia. '
   kind: place
@@ -173,7 +173,7 @@ entities:
   url: https://pleiades.stoa.org/places/628949
   urn: urn:cite2:beyond-translation:place.atlas_v1:20
 - data:
-    coordinates: 14.250207, 41.0860925
+    coordinates: 41.0860925, 14.250207
   description: An important ancient city of Campania with Villanovan and Etruscan
     origins.
   kind: place
@@ -181,21 +181,21 @@ entities:
   url: https://pleiades.stoa.org/places/432754
   urn: urn:cite2:beyond-translation:place.atlas_v1:21
 - data:
-    coordinates: 10.318, 36.8500325
+    coordinates: 36.8500325, 10.318
   description: The ancient city of Carthage, located in modern Tunis (Tunisia).
   kind: place
   title: Carthago
   url: https://pleiades.stoa.org/places/314921
   urn: urn:cite2:beyond-translation:place.atlas_v1:22
 - data:
-    coordinates: 35.75, 38.25
+    coordinates: 38.25, 35.75
   description: 'An ancient place, cited: BAtlas 64 B4 Cilicia'
   kind: place
   title: Cilicia
   url: https://pleiades.stoa.org/places/628957
   urn: urn:cite2:beyond-translation:place.atlas_v1:23
 - data:
-    coordinates: 28.961291608299153, 41.00779080957012
+    coordinates: 41.00779080957012, 28.961291608299153
   description: 'Capital city of the Eastern Roman Empire, the Latin, and the Ottoman
     Empires founded by Constantine I in AD 330. '
   kind: place
@@ -203,21 +203,21 @@ entities:
   url: https://pleiades.stoa.org/places/520998
   urn: urn:cite2:beyond-translation:place.atlas_v1:24
 - data:
-    coordinates: 9.200077440000001, 42.103331615555554
+    coordinates: 42.103331615555554, 9.200077440000001
   description: The island of Corsica, in the Mediterranean Sea.
   kind: place
   title: Corsica/Kyrnos (island)
   url: https://pleiades.stoa.org/places/472063
   urn: urn:cite2:beyond-translation:place.atlas_v1:25
 - data:
-    coordinates: 33.25778319195364, 35.03226569576321
+    coordinates: 35.03226569576321, 33.25778319195364
   description: Third largest island in the Mediterranean Sea.
   kind: place
   title: Cyprus (island)
   url: https://pleiades.stoa.org/places/707498
   urn: urn:cite2:beyond-translation:place.atlas_v1:26
 - data:
-    coordinates: 21.85655468811362, 32.82034854499733
+    coordinates: 32.82034854499733, 21.85655468811362
   description: An ancient Greek city founded in eastern Libya ca. 630 B.C., Cyrene
     later became part of the Roman empire (ca. 74 B.C.). The site was added to the
     UNESCO World Heritage List in 1982.
@@ -226,14 +226,14 @@ entities:
   url: https://pleiades.stoa.org/places/373778
   urn: urn:cite2:beyond-translation:place.atlas_v1:27
 - data:
-    coordinates: 22.5, 47.5
+    coordinates: 47.5, 22.5
   description: A province of the Roman Empire at the death of Trajan (117 CE).
   kind: place
   title: Dacia (province)
   url: https://pleiades.stoa.org/places/981518
   urn: urn:cite2:beyond-translation:place.atlas_v1:28
 - data:
-    coordinates: 16.483426, 43.539561
+    coordinates: 43.539561, 16.483426
   description: Dalmatia is an historical region of present-day Croatia, located to
     the east of the Adriatic Sea.
   kind: place
@@ -241,14 +241,14 @@ entities:
   url: https://pleiades.stoa.org/places/197240
   urn: urn:cite2:beyond-translation:place.atlas_v1:29
 - data:
-    coordinates: 15.07723123333333, 47.11498303333334
+    coordinates: 47.11498303333334, 15.07723123333333
   description: The Danube river.
   kind: place
   title: Danuvius/Istros/Hister (river)
   url: https://pleiades.stoa.org/places/226577
   urn: urn:cite2:beyond-translation:place.atlas_v1:30
 - data:
-    coordinates: 20.787702141128076, 39.546484016624156
+    coordinates: 39.546484016624156, 20.787702141128076
   description: An ancient region that included northwest parts of modern Greece and
     the southern tip of modern Albania.
   kind: place
@@ -256,7 +256,7 @@ entities:
   url: https://pleiades.stoa.org/places/530871
   urn: urn:cite2:beyond-translation:place.atlas_v1:31
 - data:
-    coordinates: 39.606017877774164, 35.54331017895074
+    coordinates: 35.54331017895074, 39.606017877774164
   description: The longest river of Western Asia, the Euphrates flows from the Kara
     Su and the Murat Su to the confluence with the Tigris river.
   kind: place
@@ -264,14 +264,14 @@ entities:
   url: https://pleiades.stoa.org/places/912849
   urn: urn:cite2:beyond-translation:place.atlas_v1:32
 - data:
-    coordinates: 28.715749, 36.837326
+    coordinates: 36.837326, 28.715749
   description: 'An ancient place, cited: BAtlas 65 A4 Euxine'
   kind: place
   title: Euxine
   url: https://pleiades.stoa.org/places/638838
   urn: urn:cite2:beyond-translation:place.atlas_v1:33
 - data:
-    coordinates: 34.7425505, 43.0786852
+    coordinates: 43.0786852, 34.7425505
   description: "The K\u0131z\u0131l\u0131rmak river, the ancient Halys River, is a\
     \ major river of Asia Minor that flows into the Black Sea."
   kind: place
@@ -279,7 +279,7 @@ entities:
   url: https://pleiades.stoa.org/places/857148
   urn: urn:cite2:beyond-translation:place.atlas_v1:34
 - data:
-    coordinates: -0.5, 37.5
+    coordinates: 37.5, -0.5
   description: Strabo reports that the island's name is derived from the mackerel
     harvested there that are in turn used to manufacture garum.
   kind: place
@@ -287,42 +287,42 @@ entities:
   url: https://pleiades.stoa.org/places/266032
   urn: urn:cite2:beyond-translation:place.atlas_v1:35
 - data:
-    coordinates: 44.6891385, 41.836467999999996
+    coordinates: 41.836467999999996, 44.6891385
   description: Iberia was an ancient region of southern Caucasia.
   kind: place
   title: Iberia (ancient region)
   url: https://pleiades.stoa.org/places/863807
   urn: urn:cite2:beyond-translation:place.atlas_v1:36
 - data:
-    coordinates: 17.965028033333333, 42.427291800000006
+    coordinates: 42.427291800000006, 17.965028033333333
   description: Illyricum was a Roman province that existed from 167 BC until AD 10.
   kind: place
   title: Illyricum
   url: https://pleiades.stoa.org/places/481865
   urn: urn:cite2:beyond-translation:place.atlas_v1:37
 - data:
-    coordinates: 77.5, 22.5
+    coordinates: 22.5, 77.5
   description: 'An ancient place, cited: BAtlas 5 D2 India'
   kind: place
   title: India
   url: https://pleiades.stoa.org/places/50004
   urn: urn:cite2:beyond-translation:place.atlas_v1:38
 - data:
-    coordinates: 27.35749765615053, 38.16219419038276
+    coordinates: 38.16219419038276, 27.35749765615053
   description: The coast of Asia Minor between Aeolis and Caria.
   kind: place
   title: Ionia (region)
   url: https://pleiades.stoa.org/places/550597
   urn: urn:cite2:beyond-translation:place.atlas_v1:39
 - data:
-    coordinates: -7.384302153511904, 53.251589886434104
+    coordinates: 53.251589886434104, -7.384302153511904
   description: 'Hibernia is the Classical name for the island of Ireland. '
   kind: place
   title: Hibernia
   url: https://pleiades.stoa.org/places/20487
   urn: urn:cite2:beyond-translation:place.atlas_v1:40
 - data:
-    coordinates: 4.8194815, 45.758866
+    coordinates: 45.758866, 4.8194815
   description: Lugdunum (modern Lyon in France) was a Roman military colony from 43
     B.C. and a major center in Gaul. Marcus Agrippa was involved in its expansion
     and two Roman emperors, Claudius and Caracalla, were born there.
@@ -331,14 +331,14 @@ entities:
   url: https://pleiades.stoa.org/places/167717
   urn: urn:cite2:beyond-translation:place.atlas_v1:41
 - data:
-    coordinates: -7.5, 37.5
+    coordinates: 37.5, -7.5
   description: 'An ancient place, cited: BAtlas 101 E4 Lusitania'
   kind: place
   title: Lusitania
   url: https://pleiades.stoa.org/errata/991319
   urn: urn:cite2:beyond-translation:place.atlas_v1:42
 - data:
-    coordinates: 27.922124025, 38.2419844
+    coordinates: 38.2419844, 27.922124025
   description: Lydia was a region in Western Asia Minor, situation between Ionia on
     the west, Caria on the south, Phrygia on the east, and Mysia on the north. It
     was home to an Iron Age kingdom (q.v), and gave its name to a succession of administrative
@@ -348,7 +348,7 @@ entities:
   url: https://pleiades.stoa.org/places/550701
   urn: urn:cite2:beyond-translation:place.atlas_v1:43
 - data:
-    coordinates: 21.75, 41.25
+    coordinates: 41.25, 21.75
   description: The region of ancient Macedonia in the Balkan peninsula. The boundaries
     of the region have shifted significantly over time, and remain controversial.
   kind: place
@@ -356,7 +356,7 @@ entities:
   url: https://pleiades.stoa.org/places/491656
   urn: urn:cite2:beyond-translation:place.atlas_v1:44
 - data:
-    coordinates: 14.408041650000001, 35.90888665
+    coordinates: 35.90888665, 14.408041650000001
   description: The island of Malta, located in the Mediterranean Sea between Sicily
     and Libya.
   kind: place
@@ -371,14 +371,14 @@ entities:
   url: https://pleiades.stoa.org/errata/1001936
   urn: urn:cite2:beyond-translation:place.atlas_v1:46
 - data:
-    coordinates: 14.084884, 40.786279
+    coordinates: 40.786279, 14.084884
   description: 'An ancient place, cited: BAtlas 44 F4 Misenum'
   kind: place
   title: Misenum
   url: https://pleiades.stoa.org/places/432941
   urn: urn:cite2:beyond-translation:place.atlas_v1:47
 - data:
-    coordinates: -1.1305431, 37.9923795
+    coordinates: 37.9923795, -1.1305431
   description: "A city located in southeastern Spain that belonged to the kingdom\
     \ of Alfonso X. The city on the present location was an Islamic foundation under\
     \ the name Madinat Mursiyah and was established in A.D. 825 by Abd ar-Rahman II,\
@@ -388,7 +388,7 @@ entities:
   url: https://pleiades.stoa.org/places/810796636
   urn: urn:cite2:beyond-translation:place.atlas_v1:48
 - data:
-    coordinates: 14.25287, 40.839995
+    coordinates: 40.839995, 14.25287
   description: Founded as Parthenope by Greeks in the eighth century B.C., the site
     eventually gave rise to Neapolis in the sixth century B.C. and was one of the
     most prominent cities of Magna Graecia.
@@ -397,7 +397,7 @@ entities:
   url: https://pleiades.stoa.org/places/433014
   urn: urn:cite2:beyond-translation:place.atlas_v1:49
 - data:
-    coordinates: 3.004203, 43.1836165
+    coordinates: 43.1836165, 3.004203
   description: Col. Narbo Martius (modern Narbonne) was established in Gaul in 118
     B.C. as a Roman colony.
   kind: place
@@ -405,7 +405,7 @@ entities:
   url: https://pleiades.stoa.org/places/246347
   urn: urn:cite2:beyond-translation:place.atlas_v1:50
 - data:
-    coordinates: 30.567329633333333, 19.211408766666665
+    coordinates: 19.211408766666665, 30.567329633333333
   description: The Nile is a major river of northeastern Africa and is generally acknowledged
     as the longest river in the world, measuring some 6,650 km (4,130 miles) from
     source to mouth.
@@ -414,7 +414,7 @@ entities:
   url: https://pleiades.stoa.org/places/727172
   urn: urn:cite2:beyond-translation:place.atlas_v1:51
 - data:
-    coordinates: 12.5, 46.5
+    coordinates: 46.5, 12.5
   description: Region deriving its name from a federated Celtic kingdom that became
     a province of the Roman empire (q.v.).
   kind: place
@@ -422,7 +422,7 @@ entities:
   url: https://pleiades.stoa.org/places/187490
   urn: urn:cite2:beyond-translation:place.atlas_v1:52
 - data:
-    coordinates: 2.1918495, 36.607057999999995
+    coordinates: 36.607057999999995, 2.1918495
   description: Numidia was an ancient region of North Africa. From the late third
     century B.C. to 40 B.C. the territory was controlled by the ancient kingdom of
     the Numidians. It later became a Roman client state. Numidia was located in what
@@ -434,14 +434,14 @@ entities:
   url: https://pleiades.stoa.org/places/305120
   urn: urn:cite2:beyond-translation:place.atlas_v1:53
 - data:
-    coordinates: 15.5, 46.5
+    coordinates: 46.5, 15.5
   description: 'An ancient place, cited: BAtlas 20 C3 Pannonia'
   kind: place
   title: Pannonia
   url: https://pleiades.stoa.org/places/197425
   urn: urn:cite2:beyond-translation:place.atlas_v1:54
 - data:
-    coordinates: 34.7425505, 43.0786852
+    coordinates: 43.0786852, 34.7425505
   description: 'A region of northeastern Anatolia consisting of the southeastern coast
     of the Black Sea and the surrounding inland region. '
   kind: place
@@ -449,7 +449,7 @@ entities:
   url: https://pleiades.stoa.org/places/857287
   urn: urn:cite2:beyond-translation:place.atlas_v1:55
 - data:
-    coordinates: 1.0, 42.67
+    coordinates: 42.67, 1.0
   description: The Pyrenees Mountains separate the Iberian Peninsula from the rest
     of continental Europe. The mountain ranges extends from the Bay of Biscay to Cap
     de Creus, for an extent of 491 km (305 miles).
@@ -458,7 +458,7 @@ entities:
   url: https://pleiades.stoa.org/places/246582
   urn: urn:cite2:beyond-translation:place.atlas_v1:56
 - data:
-    coordinates: 12.196604, 44.415718
+    coordinates: 44.415718, 12.196604
   description: A city of northern Adriatic Italy that served as the capital of the
     Western Roman Empire from A.D. 402 until 476.
   kind: place
@@ -466,28 +466,28 @@ entities:
   url: https://pleiades.stoa.org/places/393480
   urn: urn:cite2:beyond-translation:place.atlas_v1:57
 - data:
-    coordinates: 24.25, 41.75
+    coordinates: 41.75, 24.25
   description: Rhodope Mts.
   kind: place
   title: Rhodope (mountain)
   url: https://pleiades.stoa.org/places/501592
   urn: urn:cite2:beyond-translation:place.atlas_v1:58
 - data:
-    coordinates: 12.486137, 41.891775
+    coordinates: 41.891775, 12.486137
   description: The capital of the Roman Republic and Empire.
   kind: place
   title: Roma
   url: https://pleiades.stoa.org/places/423025
   urn: urn:cite2:beyond-translation:place.atlas_v1:59
 - data:
-    coordinates: 8.957516889586618, 39.87108695332339
+    coordinates: 39.87108695332339, 8.957516889586618
   description: The second largest island in the Mediterranean Sea
   kind: place
   title: Sardinia (island)
   url: https://pleiades.stoa.org/places/472014
   urn: urn:cite2:beyond-translation:place.atlas_v1:60
 - data:
-    coordinates: 14.130954889982146, 37.54396265585135
+    coordinates: 37.54396265585135, 14.130954889982146
   description: 'Sicily is the largest island in the Mediterranean Sea and has been
     the site of human habitation since ca. 8,000 BC. In historical terms Sicily has
     seen important settlement activity connected to numerous culture groups - Punic,
@@ -497,21 +497,21 @@ entities:
   url: https://pleiades.stoa.org/places/462492
   urn: urn:cite2:beyond-translation:place.atlas_v1:61
 - data:
-    coordinates: -2.7690002333333337, 51.61187976666667
+    coordinates: 51.61187976666667, -2.7690002333333337
   description: The Silures were a tribe of South Wales.
   kind: place
   title: Silures
   url: https://pleiades.stoa.org/places/79686
   urn: urn:cite2:beyond-translation:place.atlas_v1:62
 - data:
-    coordinates: 22.4272985, 37.077905
+    coordinates: 37.077905, 22.4272985
   description: Sparta was a prominent city-state (polis) of ancient Greece.
   kind: place
   title: Sparta
   url: https://pleiades.stoa.org/places/570685
   urn: urn:cite2:beyond-translation:place.atlas_v1:63
 - data:
-    coordinates: 43.24518914922291, 36.10511410083722
+    coordinates: 36.10511410083722, 43.24518914922291
   description: "A\u0161\u0161ur, later M\u0101t A\u0161\u0161ur ('the land of the\
     \ god A\u0161\u0161ur'), grew from a small city-state and important trading center\
     \ to a powerful, wide-spread empire. At is zenith in the seventh century BC, the\
@@ -527,7 +527,7 @@ entities:
   url: https://pleiades.stoa.org/places/29492
   urn: urn:cite2:beyond-translation:place.atlas_v1:64
 - data:
-    coordinates: 1.2583375, 41.116892
+    coordinates: 41.116892, 1.2583375
   description: An Iberian site in contact with Greek and Phoenician merchants that
     became a major Roman center from the third century BC onward.
   kind: place
@@ -535,21 +535,21 @@ entities:
   url: https://pleiades.stoa.org/places/246349
   urn: urn:cite2:beyond-translation:place.atlas_v1:65
 - data:
-    coordinates: 23.317577, 38.319156
+    coordinates: 38.319156, 23.317577
   description: The ancient city of Thebes in Boeotia (modern Greece).
   kind: place
   title: Thebai/Thebae
   url: https://pleiades.stoa.org/places/541138
   urn: urn:cite2:beyond-translation:place.atlas_v1:66
 - data:
-    coordinates: 41.97437876666667, 37.8488001
+    coordinates: 37.8488001, 41.97437876666667
   description: The modern Botan river in Turkey. It is a tributary of the Tigris.
   kind: place
   title: Kentrites/Tigris/Zirmas
   url: https://pleiades.stoa.org/places/874545
   urn: urn:cite2:beyond-translation:place.atlas_v1:67
 - data:
-    coordinates: -5.8102335, 35.787546
+    coordinates: 35.787546, -5.8102335
   description: Tingi (modern Tangier) began as a Carthaginian colony of the early
     5th century BC. A commercial center, Tingi came under the Roman sphere in the
     first century BC, initially as a free city but later as the site of a colony (Colonia
@@ -559,7 +559,7 @@ entities:
   url: https://pleiades.stoa.org/places/275736
   urn: urn:cite2:beyond-translation:place.atlas_v1:68
 - data:
-    coordinates: 35.812, 34.449
+    coordinates: 34.449, 35.812
   description: The Phoenicians established a commercial outpost at Tripolis (Tripoli)
     in the ninth century BC. An independent city during the Hellenistic period, Tripolis
     came under Roman control in 64 BC.
@@ -568,7 +568,7 @@ entities:
   url: https://pleiades.stoa.org/places/668394
   urn: urn:cite2:beyond-translation:place.atlas_v1:69
 - data:
-    coordinates: 26.23845862267349, 39.95743278441429
+    coordinates: 39.95743278441429, 26.23845862267349
   description: An ancient city of northwest Anatolia with occupation ranging from
     the Bronze Age to the Roman period. Troy features as the central setting of Homer's
     Iliad.
@@ -577,7 +577,7 @@ entities:
   url: https://pleiades.stoa.org/places/550595
   urn: urn:cite2:beyond-translation:place.atlas_v1:70
 - data:
-    coordinates: 10.171649, 36.79923
+    coordinates: 36.79923, 10.171649
   description: Tunes was a Libyan city in Africa proconsularis.
   kind: place
   title: Tunes

@@ -92,15 +92,20 @@ def add_plieades_data(plieades_pids_path, entities):
         if not data["reprPoint"]:
             continue
         time.sleep(0.25)
+
+        # NOTE: Keep existing fields from LitViz
         entity.update(
             dict(
-                # NOTE: Keep existing fields from LitViz
                 # title=data["title"],
-                # coordinates=", ".join([str(p) for p in data["reprPoint"]]),
                 description=data["description"],
                 url=f"https://pleiades.stoa.org{pid}",
             )
         )
+        # NOTE: Pleiades returns data in long, lat by default
+        # lat_long = reversed(data["reprPoint"])
+        # entity["data"] = dict(
+        #     coordinates=", ".join([str(p) for p in lat_long])
+        # )
 
 
 def build_collection(entities):
