@@ -8,11 +8,12 @@ metadata:
     role: Annotator
 entities:
 - title: Actium
-  description: ''
+  description: Site of an ancient temple of Apollo near which Octavian erected a monument
+    to commemorate his naval victory over M. Antonius in 31 BCE.
   kind: place
   data:
     coordinates: 38.92, 20.8
-  url: ''
+  url: https://pleiades.stoa.org/places/530771
   urn: urn:cite2:beyond-translation:place.atlas_v1:cicero_places-0
 - title: Alexandrium
   description: ''
