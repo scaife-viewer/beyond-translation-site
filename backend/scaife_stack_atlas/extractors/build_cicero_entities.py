@@ -1,10 +1,13 @@
 import csv
+import json
 import os
+import time
 from collections import defaultdict
 from pathlib import Path
 
 import django
 
+import requests
 import yaml
 
 
@@ -75,21 +78,29 @@ def load_entities(input_path, version_urn):
     return entities_lookup, token_lookup
 
 
-# def fetch_pleiades_data(entities):
-#     s = requests.Session()
-#     entities_with_data = {}
-#     for entity, pid in entities.items():
-#         print(entity)
-#         data = s.get(f"https://pleiades.stoa.org{pid}/json").json()
-#         if not data["reprPoint"]:
-#             continue
-#         time.sleep(0.25)
-#         entities_with_data[entity] = dict(
-#             title=data["title"],
-#             description=data["description"],
-#             coordinates=", ".join([str(p) for p in data["reprPoint"]]),
-#         )
-#     return entities_with_data
+def add_plieades_data(plieades_pids_path, entities):
+    lookup = json.load(plieades_pids_path.open())
+    s = requests.Session()
+    for entity, pid in lookup.items():
+        try:
+            entity = entities[entity]
+        except KeyError:
+            print(f'No entity extracted for "{entity}"')
+            continue
+
+        data = s.get(f"https://pleiades.stoa.org{pid}/json").json()
+        if not data["reprPoint"]:
+            continue
+        time.sleep(0.25)
+        entity.update(
+            dict(
+                # NOTE: Keep existing fields from LitViz
+                # title=data["title"],
+                # coordinates=", ".join([str(p) for p in data["reprPoint"]]),
+                description=data["description"],
+                url=f"https://pleiades.stoa.org{pid}",
+            )
+        )
 
 
 def build_collection(entities):
@@ -154,7 +165,9 @@ def main():
     entities, token_lookup = load_entities(input_path, version_urn)
 
     # TODO: Tie to Pleiades
-    # pleiades_data = fetch_pleiades_data(entities)
+    plieades_pids_path = Path("data/raw/cicero-feeney-nadel/pids.json")
+
+    add_plieades_data(plieades_pids_path, entities)
 
     collection, urn_lookup = build_collection(entities)
 

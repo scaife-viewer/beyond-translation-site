@@ -22,11 +22,11 @@ entities:
   url: ''
   urn: urn:cite2:beyond-translation:place.atlas_v1:cicero_places-1
 - title: Alyzia
-  description: ''
+  description: 'A city located on the west coast of Acarnania, close to modern Kandila. '
   kind: place
   data:
     coordinates: 38.713373, 20.951657
-  url: ''
+  url: https://pleiades.stoa.org/places/530793
   urn: urn:cite2:beyond-translation:place.atlas_v1:cicero_places-2
 - title: Arpinatium
   description: ''
@@ -36,18 +36,20 @@ entities:
   url: ''
   urn: urn:cite2:beyond-translation:place.atlas_v1:cicero_places-3
 - title: Astura
-  description: ''
+  description: Astura was once a coastal island of Latium and is now a small peninsula
+    at the southeastern edge of the Bay of Antium.
   kind: place
   data:
     coordinates: 41.408855, 12.765272
-  url: ''
+  url: https://pleiades.stoa.org/places/432703
   urn: urn:cite2:beyond-translation:place.atlas_v1:cicero_places-4
 - title: Athens
-  description: ''
+  description: A major Greek city-state and the principal city of Attika. Modern Athens
+    in Greece.
   kind: place
   data:
     coordinates: 37.98, 23.73
-  url: ''
+  url: https://pleiades.stoa.org/places/579885
   urn: urn:cite2:beyond-translation:place.atlas_v1:cicero_places-5
 - title: Attici Ficuleano house
   description: ''
@@ -64,11 +66,11 @@ entities:
   url: ''
   urn: urn:cite2:beyond-translation:place.atlas_v1:cicero_places-7
 - title: Brundisium
-  description: ''
+  description: A Greek and Roman port, terminus of the Via Appia.
   kind: place
   data:
     coordinates: 40.638663, 17.942912
-  url: ''
+  url: https://pleiades.stoa.org/places/442509
   urn: urn:cite2:beyond-translation:place.atlas_v1:cicero_places-8
 - title: Caesars
   description: ''
@@ -78,11 +80,12 @@ entities:
   url: ''
   urn: urn:cite2:beyond-translation:place.atlas_v1:cicero_places-9
 - title: Capua
-  description: ''
+  description: An important ancient city of Campania with Villanovan and Etruscan
+    origins.
   kind: place
   data:
     coordinates: 41.086092, 14.250207
-  url: ''
+  url: https://pleiades.stoa.org/places/432754
   urn: urn:cite2:beyond-translation:place.atlas_v1:cicero_places-10
 - title: Cicerons
   description: ''
@@ -92,39 +95,44 @@ entities:
   url: ''
   urn: urn:cite2:beyond-translation:place.atlas_v1:cicero_places-11
 - title: Corcyra
-  description: ''
+  description: 'An ancient place, cited: BAtlas 54 A2 Corcyra'
   kind: place
   data:
     coordinates: 39.606285, 19.91558
-  url: ''
+  url: https://pleiades.stoa.org/places/530834
   urn: urn:cite2:beyond-translation:place.atlas_v1:cicero_places-12
 - title: Corduba
-  description: ''
+  description: "Corduba/Col. Patricia (modern C\xF3rdoba, Andalusia) is an ancient\
+    \ site where prehistoric, Punic, Roman, Visigothic, and Muslim phases of occupation\
+    \ are known. The city's historic center was inscribed as a UNESCO World Heritage\
+    \ Site in 1984."
   kind: place
   data:
     coordinates: 37.884683, -4.779171
-  url: ''
+  url: https://pleiades.stoa.org/places/256128
   urn: urn:cite2:beyond-translation:place.atlas_v1:cicero_places-13
 - title: Dertona
-  description: ''
+  description: A city founded in the second century B.C. at the junction of the Via
+    Postumia and Via Aemilia Scauri which merged to become the Via Julia Augusta.
   kind: place
   data:
     coordinates: 44.897171, 8.865452
-  url: ''
+  url: https://pleiades.stoa.org/places/383633
   urn: urn:cite2:beyond-translation:place.atlas_v1:cicero_places-14
 - title: Dyrrhachium
-  description: ''
+  description: A city founded in 627 B.C. by colonists from Corinth and Kerkyra.
   kind: place
   data:
     coordinates: 41.314409, 19.447355
-  url: ''
+  url: https://pleiades.stoa.org/places/481818
   urn: urn:cite2:beyond-translation:place.atlas_v1:cicero_places-15
 - title: Eporedia
-  description: ''
+  description: A Roman military outpost during the Roman invasion of the Dora Baltea
+    ca. 100 B.C., Eporedia was assigned to Regio XI.
   kind: place
   data:
     coordinates: 45.466604, 7.875942
-  url: ''
+  url: https://pleiades.stoa.org/places/383642
   urn: urn:cite2:beyond-translation:place.atlas_v1:cicero_places-16
 - title: Formium
   description: ''
@@ -134,11 +142,12 @@ entities:
   url: ''
   urn: urn:cite2:beyond-translation:place.atlas_v1:cicero_places-17
 - title: Iconium
-  description: ''
+  description: Iconium/Claudiconium (modern Konya) was an important city in Lycaonia
+    that later became part of the Roman province of Galatia.
   kind: place
   data:
     coordinates: 37.872202, 32.492331
-  url: ''
+  url: https://pleiades.stoa.org/places/648647
   urn: urn:cite2:beyond-translation:place.atlas_v1:cicero_places-18
 - title: Intimilium
   description: ''
@@ -148,11 +157,13 @@ entities:
   url: ''
   urn: urn:cite2:beyond-translation:place.atlas_v1:cicero_places-19
 - title: Lanuvium
-  description: ''
+  description: Lanuvium was an important city of Latium located south of the Alban
+    Hills. After opposing Rome at the battle of Aricia (504 B.C.) and Lake Regillus
+    (496 B.C.), Lanuvium was captured by the Romans in 338 B.C.
   kind: place
   data:
     coordinates: 41.674703, 12.697593
-  url: ''
+  url: https://pleiades.stoa.org/places/422956
   urn: urn:cite2:beyond-translation:place.atlas_v1:cicero_places-20
 - title: Laudicea
   description: ''
@@ -176,11 +187,14 @@ entities:
   url: ''
   urn: urn:cite2:beyond-translation:place.atlas_v1:cicero_places-23
 - title: Menturnis
-  description: ''
+  description: Originally an Ausonian town that fought against Rome in 314 B.C., Minturnae
+    became a colony in 296 B.C. The site is located on the Garigliano river (ancient
+    Liris) and served an important economic function. The Via Appia passes through
+    the city.
   kind: place
   data:
     coordinates: 41.242193, 13.768467
-  url: ''
+  url: https://pleiades.stoa.org/places/432940
   urn: urn:cite2:beyond-translation:place.atlas_v1:cicero_places-24
 - title: Mopsuhestia
   description: ''
@@ -211,11 +225,11 @@ entities:
   url: ''
   urn: urn:cite2:beyond-translation:place.atlas_v1:cicero_places-28
 - title: Narona
-  description: ''
+  description: 'An ancient place, cited: BAtlas 20 E6 Narona'
   kind: place
   data:
     coordinates: 43.063722, 17.613419
-  url: ''
+  url: https://pleiades.stoa.org/places/197400
   urn: urn:cite2:beyond-translation:place.atlas_v1:cicero_places-29
 - title: Neapolium
   description: ''
@@ -225,18 +239,22 @@ entities:
   url: ''
   urn: urn:cite2:beyond-translation:place.atlas_v1:cicero_places-30
 - title: Parma
-  description: ''
+  description: The site of a Bronze Age terramare settlement, Parma was re-founded
+    first by Etruscans and later by the Romans when a colony was established there
+    in 183 B.C. The city was rebuilt by Augustus and was eventually sacked by Attila.
   kind: place
   data:
     coordinates: 44.801507, 10.327967
-  url: ''
+  url: https://pleiades.stoa.org/places/383737
   urn: urn:cite2:beyond-translation:place.atlas_v1:cicero_places-31
 - title: Patra
-  description: ''
+  description: Patra(e) (modern Patras) is an important ancient center with settlement
+    beginning in the Late Helladic period. Patras played a leading role in the foundation
+    of the second "Achaean League" and was the site of a Roman colony after 146 BC.
   kind: place
   data:
     coordinates: 38.248795, 21.734916
-  url: ''
+  url: https://pleiades.stoa.org/places/570567
   urn: urn:cite2:beyond-translation:place.atlas_v1:cicero_places-32
 - title: Perga
   description: ''
@@ -260,11 +278,11 @@ entities:
   url: ''
   urn: urn:cite2:beyond-translation:place.atlas_v1:cicero_places-35
 - title: Pollentia
-  description: ''
+  description: 'An ancient place, cited: BAtlas 39 B4 Pollentia'
   kind: place
   data:
     coordinates: 44.686768, 7.895976
-  url: ''
+  url: https://pleiades.stoa.org/places/383745
   urn: urn:cite2:beyond-translation:place.atlas_v1:cicero_places-36
 - title: Pyramus
   description: ''
@@ -274,11 +292,12 @@ entities:
   url: ''
   urn: urn:cite2:beyond-translation:place.atlas_v1:cicero_places-37
 - title: Regium
-  description: ''
+  description: A site with settlement origins in the Bronze and Iron ages, Rhegion
+    was eventually colonized by Chalcis in either 730 or 743 BC.
   kind: place
   data:
     coordinates: 38.110708, 15.647027
-  url: ''
+  url: https://pleiades.stoa.org/places/452416
   urn: urn:cite2:beyond-translation:place.atlas_v1:cicero_places-38
 - title: Rhodium
   description: ''
@@ -316,18 +335,21 @@ entities:
   url: ''
   urn: urn:cite2:beyond-translation:place.atlas_v1:cicero_places-43
 - title: Thessalonica
-  description: ''
+  description: A city of northern Greece founded by Cassander of Macedon ca. 315 BC;
+    important center of the Roman and Late Antique.
   kind: place
   data:
     coordinates: 40.634097, 22.951647
-  url: ''
+  url: https://pleiades.stoa.org/places/491741
   urn: urn:cite2:beyond-translation:place.atlas_v1:cicero_places-44
 - title: Velia
-  description: ''
+  description: The ancient city of Elea / Velia was said to have been founded by Phocaean
+    Greeks in the sixth century B.C. and then became an ally of Rome in the third
+    century B.C.
   kind: place
   data:
     coordinates: 40.160744, 15.155092
-  url: ''
+  url: https://pleiades.stoa.org/places/452488
   urn: urn:cite2:beyond-translation:place.atlas_v1:cicero_places-45
 - title: Vercells
   description: ''
