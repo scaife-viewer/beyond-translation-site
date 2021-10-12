@@ -1,7 +1,9 @@
 import os
 import json
+import time
 from pathlib import Path
 
+import requests
 import django
 
 # TODO: refactor this as an actual Django management command
@@ -10,6 +12,8 @@ django.setup()
 
 from scaife_viewer.atlas.urn import URN  # noqa
 
+SV_ATLAS_GQL_ENDPOINT = "https://scaife.perseus.org/atlas/graphql/"
+SV_ATLAS_THROTTLE_DURATION = 0.1
 
 def extract_version_refs_and_lines(input_path):
     """
@@ -58,46 +62,94 @@ def get_paths():
 def ensure_tg_metadata(version_urn, tg_path):
     metadata_path = Path(tg_path, "metadata.json")
     if not metadata_path.exists():
-        data = {
-            "urn": version_urn.up_to(URN.TEXTGROUP),
-            "node_kind": "textgroup",
-            "name": [{"lang": "eng", "value": version_urn.parsed["textgroup"],}],
-        }
-        with metadata_path.open("w") as f:
-            json.dump(data, f, indent=2)
+        metadata_path.parent.mkdir(parents=True, exist_ok=True)
+        tg_urn = version_urn.up_to(URN.TEXTGROUP)
+        gql_query = """{
+            textGroups(urn: "%s") {
+                edges {
+                node {
+                    label
+                }
+                }
+            }
+        }""" % (tg_urn)
+        resp = requests.post(SV_ATLAS_GQL_ENDPOINT, data={
+            "query": gql_query
+        })
+        if resp.ok:
+            edges = resp.json()["data"]["textGroups"]["edges"]
+
+            try:
+                node = edges[0]["node"]
+                label = node["label"]
+            except:
+                msg = f"No textgroup found: {tg_urn}"
+                print(msg)
+                label = version_urn.parsed["textgroup"]
+
+            data = {
+                "urn": tg_urn,
+                "node_kind": "textgroup",
+                "name": [{"lang": "eng", "value": label,}],
+            }
+            with metadata_path.open("w") as f:
+                json.dump(data, f, indent=2)
+            time.sleep(SV_ATLAS_THROTTLE_DURATION)
 
 
 def ensure_work_metadata(version_urn, w_path):
     metadata_path = Path(w_path, "metadata.json")
     if not metadata_path.exists():
-        data = {
-            "urn": version_urn.up_to(URN.WORK),
-            "group_urn": version_urn.up_to(URN.TEXTGROUP),
-            "node_kind": "work",
-            "lang": "grc",  # TODO: Extract this?
-            "title": [{"lang": "eng", "value": version_urn.parsed["work"]}],
-            "versions": [
-                {
-                    "urn": str(version_urn),
-                    "node_kind": "version",
-                    "version_kind": "edition",
-                    "lang": "grc",  # TODO: Extract this?
-                    "first_passage_urn": f"{version_urn}1",
-                    "citation_scheme": ["sentence"],
-                    "label": [
-                        {
-                            "lang": "eng",
-                            "value": f'{version_urn.parsed["version"]} (sentences)',
-                        }
-                    ],
-                    "description": [
-                        {"lang": "eng", "value": "Extracted from vgorman1 trees",}
-                    ],
-                }
-            ],
-        }
-        with metadata_path.open("w") as f:
-            json.dump(data, f, indent=2)
+        metadata_path.parent.mkdir(parents=True, exist_ok=True)
+        work_urn = version_urn.up_to(URN.WORK)
+        gql_query = """{
+            tree(urn: "%s") {
+                tree
+            }
+        }""" % (work_urn)
+        resp = requests.post(SV_ATLAS_GQL_ENDPOINT, data={
+            "query": gql_query
+        })
+        if resp.ok:
+            try:
+                tree = resp.json()["data"]["tree"]["tree"]
+                work_metadata = tree[0]["data"]["metadata"]
+                version_metadata = tree[0]["children"][0]["data"]["metadata"]
+            except:
+                msg = f"No work found: {work_urn}"
+                print(msg)
+                work_metadata = {"label": version_urn.parsed["work"], "lang": "grc"}
+                version_metadata = {"label": version_urn.parsed["version"]}
+
+            data = {
+                "urn": version_urn.up_to(URN.WORK),
+                "group_urn": version_urn.up_to(URN.TEXTGROUP),
+                "node_kind": "work",
+                "lang": work_metadata["lang"],
+                "title": [{"lang": "eng", "value": work_metadata["label"]}],
+                "versions": [
+                    {
+                        "urn": str(version_urn),
+                        "node_kind": "version",
+                        "version_kind": "edition",
+                        "lang": "grc",  # TODO: Extract this?
+                        "first_passage_urn": f"{version_urn}1",
+                        "citation_scheme": ["sentence"],
+                        "label": [
+                            {
+                                "lang": "eng",
+                                "value": f'{version_metadata["label"]} (sentences)',
+                            }
+                        ],
+                        "description": [
+                            {"lang": "eng", "value": "Extracted from vgorman1 trees",}
+                        ],
+                    }
+                ],
+            }
+            with metadata_path.open("w") as f:
+                json.dump(data, f, indent=2, ensure_ascii=False)
+            time.sleep(SV_ATLAS_THROTTLE_DURATION)
 
 
 def stub_metadata(version_urn):
@@ -110,7 +162,12 @@ def stub_metadata(version_urn):
     w_path = Path(tg_path, wp)
     version_part = str(version_urn)[:-1]
     exemplar_part = "vgorman1-trees"
-    versionish_urn = URN(f"{version_part}-{exemplar_part}:")
+
+    if not version_part.endswith(exemplar_part):
+        versionish_urn = URN(f"{version_part}-{exemplar_part}:")
+    else:
+        versionish_urn = version_urn
+
     ensure_work_metadata(versionish_urn, w_path)
 
 
@@ -119,7 +176,13 @@ def get_output_path(version_urn):
     wp = version_urn.parsed["work"]
     vp = version_urn.parsed["version"]
     workpart_path = Path(f"data/library/{tgp}/{wp}")
-    version_part = f"{vp}-vgorman1-trees"
+
+    exemplar_part = "vgorman1-trees"
+    if not vp.endswith(exemplar_part):
+        version_part = f"{vp}-{exemplar_part}"
+    else:
+        version_part = vp
+
     return Path(workpart_path, f"{tgp}.{wp}.{version_part}.txt")
 
 
