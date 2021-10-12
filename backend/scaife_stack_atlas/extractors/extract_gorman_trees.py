@@ -140,7 +140,7 @@ def process_directory(input_dir):
             vp = version_urn.parsed["version"]
 
             # TODO: Combine trees from the same version; we append idx for now.
-            annotation_basename = f"{prefix}_{idx}_{tgp}.{wp}.{vp}.json"
+            annotation_basename = f"{prefix}_{str(idx).zfill(3)}_{tgp}.{wp}.{vp}.json"
             output_path = Path(output_dir, annotation_basename)
             json.dump(
                 trees, output_path.open("w"), ensure_ascii=False, indent=2,
