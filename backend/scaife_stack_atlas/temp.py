@@ -89,7 +89,7 @@ def load_token_annotations(reset=False):
 def set_text_annotation_collection(reset=False):
     # TODO: Reset is a no-op
     tas = TextAnnotation.objects.filter(
-        urn__istartswith="urn:cite2:exploreHomer:syntaxTree.v1:syntaxTree-grc"
+        urn__istartswith="urn:cite2:exploreHomer:syntaxTree.v1:syntaxTree-tlg0012-"
     )
     collection = TextAnnotationCollection.objects.create(
         label="gregorycrane/gAGDT",

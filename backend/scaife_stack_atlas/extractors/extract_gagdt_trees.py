@@ -16,12 +16,12 @@ def transform_headwords(words):
     return words
 
 
-def extract_trees(input_path):
-    exemplar = "grc"
+def extract_trees(input_path, version_urn):
     with input_path.open() as f:
         tree = etree.parse(f)
-    version = "urn:cts:greekLit:tlg0012.tlg001.perseus-grc2:"
     to_create = []
+    version_part = version_urn.rsplit(":", maxsplit=2)[1]
+    exemplar = version_part.replace(".", "-")
     for sentence in tree.xpath("//sentence"):
         seen_urns = set()
         sentence_id = sentence.attrib["id"]
@@ -54,7 +54,7 @@ def extract_trees(input_path):
             cite = word.attrib.get("cite")
             if cite:
                 ref = cite.rsplit(":", maxsplit=1)[1]
-                seen_urns.add(f"{version}{ref}")
+                seen_urns.add(f"{version_urn}{ref}")
             sentence_obj["words"].append(word_obj)
 
         sentence_obj["words"] = transform_headwords(sentence_obj["words"])
@@ -71,14 +71,18 @@ def extract_trees(input_path):
 
 
 def main():
-    input_path = Path("data/raw/gregorycrane-gAGDT/tlg0012.tlg001.perseus-grc1.tb.xml")
-    trees = extract_trees(input_path)
-    output_path = Path(
-        "data/annotations/syntax-trees/gregorycrane_gagdt_syntax_trees_tlg0012.tlg001.perseus-grc2.json"
-    )
-    json.dump(
-        trees, output_path.open("w"), ensure_ascii=False, indent=2,
-    )
+    input_paths = Path("data/raw/gregorycrane-gAGDT").glob("*.xml")
+    for input_path in input_paths:
+        work_part = input_path.name.split(".perseus-grc1")[0]
+        version_part = f"{work_part}.perseus-grc2"
+        version_urn = f"urn:cts:greekLit:{version_part}:"
+
+        trees = extract_trees(input_path, version_urn)
+        output_name = f"gregorycrane_gagdt_syntax_trees_{version_part}.json"
+        output_path = Path("data/annotations/syntax-trees", output_name)
+        json.dump(
+            trees, output_path.open("w"), ensure_ascii=False, indent=2,
+        )
 
 
 if __name__ == "__main__":
