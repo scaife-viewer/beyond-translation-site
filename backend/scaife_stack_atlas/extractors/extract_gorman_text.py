@@ -1,3 +1,4 @@
+from collections import defaultdict
 import os
 import json
 import time
@@ -56,7 +57,7 @@ def write_text(output_path, refs_and_lines):
 
 def get_paths():
     syntax_trees_dir = Path("data/annotations/syntax-trees")
-    return syntax_trees_dir.glob("gorman_*")
+    return sorted(syntax_trees_dir.glob("gorman_*"))
 
 
 def ensure_tg_metadata(version_urn, tg_path):
@@ -186,23 +187,55 @@ def get_output_path(version_urn):
     return Path(workpart_path, f"{tgp}.{wp}.{version_part}.txt")
 
 
-def extract_text(input_path):
-    version_urn, refs_and_lines = extract_version_refs_and_lines(input_path)
-    output_path = get_output_path(version_urn)
+def build_refs_and_lines_lookup(paths):
+    version_lookup = defaultdict(list)
+    for path in paths:
+        version_urn, refs_and_lines = extract_version_refs_and_lines(path)
+        version_lookup[str(version_urn)].extend(refs_and_lines)
+    return version_lookup
 
-    # TODO: Replace with actual metadata
+
+def rename_refs(version_lookup):
+    for version_urn in version_lookup:
+        refs_and_lines = version_lookup[version_urn]
+
+        try:
+            assert len(refs_and_lines) == len(
+                set([ref for ref, line in refs_and_lines])
+            )
+        except AssertionError:
+            old_refs_and_lines = refs_and_lines[::]
+            refs_and_lines = []
+            for pos, (ref, line) in enumerate(old_refs_and_lines):
+                refs_and_lines.append((f"{pos + 1}.", line))
+            try:
+                assert len(refs_and_lines) == len(
+                    set([ref for ref, line in refs_and_lines])
+                )
+            except AssertionError:
+                import ipdb
+
+                ipdb.set_trace()
+                raise AssertionError
+
+        version_lookup[version_urn] = refs_and_lines
+
+
+def process_version(version, refs_and_lines):
+    version_urn = URN(version)
     stub_metadata(version_urn)
-
-    # TODO: Handle where output path already exists; likely we need to
-    # combine texts when we're doing the extraction
+    output_path = get_output_path(version_urn)
     output_path.parent.mkdir(parents=True, exist_ok=True)
     write_text(output_path, refs_and_lines)
 
 
 def main():
     paths = get_paths()
-    for path in paths:
-        extract_text(path)
+    version_lookup = build_refs_and_lines_lookup(paths)
+    rename_refs(version_lookup)
+
+    for version_urn, refs_and_lines in version_lookup.items():
+        process_version(version_urn, refs_and_lines)
 
 
 if __name__ == "__main__":
