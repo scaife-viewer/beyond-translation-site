@@ -16,6 +16,7 @@ from scaife_viewer.atlas.urn import URN  # noqa
 SV_ATLAS_GQL_ENDPOINT = "https://scaife.perseus.org/atlas/graphql/"
 SV_ATLAS_THROTTLE_DURATION = 0.1
 
+
 def extract_version_refs_and_lines(input_path):
     """
     Extract sentences as refs and lines
@@ -73,17 +74,17 @@ def ensure_tg_metadata(version_urn, tg_path):
                 }
                 }
             }
-        }""" % (tg_urn)
-        resp = requests.post(SV_ATLAS_GQL_ENDPOINT, data={
-            "query": gql_query
-        })
+        }""" % (
+            tg_urn
+        )
+        resp = requests.post(SV_ATLAS_GQL_ENDPOINT, data={"query": gql_query})
         if resp.ok:
             edges = resp.json()["data"]["textGroups"]["edges"]
 
             try:
                 node = edges[0]["node"]
                 label = node["label"]
-            except:
+            except Exception:
                 msg = f"No textgroup found: {tg_urn}"
                 print(msg)
                 label = version_urn.parsed["textgroup"]
@@ -91,7 +92,7 @@ def ensure_tg_metadata(version_urn, tg_path):
             data = {
                 "urn": tg_urn,
                 "node_kind": "textgroup",
-                "name": [{"lang": "eng", "value": label,}],
+                "name": [{"lang": "eng", "value": label}],
             }
             with metadata_path.open("w") as f:
                 json.dump(data, f, indent=2)
@@ -107,16 +108,16 @@ def ensure_work_metadata(version_urn, w_path):
             tree(urn: "%s") {
                 tree
             }
-        }""" % (work_urn)
-        resp = requests.post(SV_ATLAS_GQL_ENDPOINT, data={
-            "query": gql_query
-        })
+        }""" % (
+            work_urn
+        )
+        resp = requests.post(SV_ATLAS_GQL_ENDPOINT, data={"query": gql_query})
         if resp.ok:
             try:
                 tree = resp.json()["data"]["tree"]["tree"]
                 work_metadata = tree[0]["data"]["metadata"]
                 version_metadata = tree[0]["children"][0]["data"]["metadata"]
-            except:
+            except Exception:
                 msg = f"No work found: {work_urn}"
                 print(msg)
                 work_metadata = {"label": version_urn.parsed["work"], "lang": "grc"}
@@ -143,7 +144,7 @@ def ensure_work_metadata(version_urn, w_path):
                             }
                         ],
                         "description": [
-                            {"lang": "eng", "value": "Extracted from vgorman1 trees",}
+                            {"lang": "eng", "value": "Extracted from vgorman1 trees"}
                         ],
                     }
                 ],
