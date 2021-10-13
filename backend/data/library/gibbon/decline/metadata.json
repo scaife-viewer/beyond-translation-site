@@ -1,0 +1,34 @@
+{
+  "urn": "urn:cts:engLit:gibbon.decline:",
+  "group_urn": "urn:cts:engLit:gibbon:",
+  "node_kind": "work",
+  "lang": "eng",
+  "title": [
+    {
+      "lang": "eng",
+      "value": "The History Of The Decline And Fall Of The Roman Empire"
+    }
+  ],
+  "versions": [
+    {
+      "urn": "urn:cts:engLit:gibbon.decline.ccel-eng1:",
+      "node_kind": "version",
+      "version_kind": "edition",
+      "lang": "eng",
+      "first_passage_urn": "urn:cts:engLit:gibbon.decline.ccel-eng1:01.00-01.04",
+      "citation_scheme": ["chapter", "section", "paragraph"],
+      "label": [
+        {
+          "lang": "eng",
+          "value": "The History Of The Decline And Fall Of The Roman Empire"
+        }
+      ],
+      "description": [
+        {
+          "lang": "eng",
+          "value": "Sourced from the Christian Classics Ethereal Library"
+        }
+      ]
+    }
+  ]
+}
