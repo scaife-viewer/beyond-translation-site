@@ -6,9 +6,14 @@ import time
 from collections import defaultdict
 from pathlib import Path
 
+import django
+
 import requests
 import yaml
 
+
+os.environ.setdefault("DJANGO_SETTINGS_MODULE", "scaife_stack_atlas.settings")
+django.setup()
 
 def load_entities(input_path, version_urn):
     from scaife_viewer.atlas.models import Token
@@ -36,10 +41,13 @@ def fetch_pleiades_data(entities):
         if not data["reprPoint"]:
             continue
         time.sleep(0.25)
+
+        # NOTE: Pleiades returns data in long, lat by default
+        lat_long = reversed(data["reprPoint"])
         entities_with_data[entity] = dict(
             title=data["title"],
             description=data["description"],
-            coordinates=", ".join([str(p) for p in data["reprPoint"]]),
+            coordinates=", ".join([str(p) for p in lat_long])
         )
     return entities_with_data
 
