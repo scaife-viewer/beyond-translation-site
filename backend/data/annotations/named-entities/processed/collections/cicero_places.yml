@@ -308,11 +308,11 @@ entities:
   url: ''
   urn: urn:cite2:beyond-translation:place.atlas_v1:cicero_places-39
 - title: Roma
-  description: ''
+  description: The capital of the Roman Republic and Empire.
   kind: place
   data:
-    coordinates: 41.53, 12.3
-  url: ''
+    coordinates: 41.891775, 12.486137
+  url: https://pleiades.stoa.org/places/423025
   urn: urn:cite2:beyond-translation:place.atlas_v1:cicero_places-40
 - title: Sidae
   description: ''
