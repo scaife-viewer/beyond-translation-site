@@ -92,6 +92,27 @@
           "value": "Homer, creator; Butler, Samuel, 1835-1902, translator"
         }
       ]
+    },
+    {
+      "urn": "urn:cts:greekLit:tlg0012.tlg002.parrish-eng1:",
+      "format": "text",
+      "node_kind": "version",
+      "version_kind": "translation",
+      "lang": "eng",
+      "first_passage_urn": "urn:cts:greekLit:tlg0012.tlg002.parrish-eng1:1.1-1.10",
+      "citation_scheme": ["book", "line"],
+      "label": [
+        {
+          "lang": "eng",
+          "value": "Odyssey (English). Machine readable text"
+        }
+      ],
+      "description": [
+        {
+          "lang": "eng",
+          "value": "Homer, author; Towards a grammatically literal translation of the Odyssey, starting with Odyssey 5."
+        }
+      ]
     }
   ]
 }
