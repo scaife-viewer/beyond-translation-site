@@ -113,6 +113,27 @@
           "value": "Homer, author; Towards a grammatically literal translation of the Odyssey, starting with Odyssey 5."
         }
       ]
-    }
+    },
+    {
+      "urn": "urn:cts:greekLit:tlg0012.tlg002.parrish-eng1-trees:",
+      "format": "text",
+      "node_kind": "version",
+      "version_kind": "translation",
+      "lang": "eng",
+      "first_passage_urn": "urn:cts:greekLit:tlg0012.tlg002.parrish-eng1-trees:1",
+      "citation_scheme": ["sentence"],
+      "label": [
+        {
+          "lang": "eng",
+          "value": "Odyssey (English) (sentences)"
+        }
+      ],
+      "description": [
+        {
+          "lang": "eng",
+          "value": "Homer, author; Towards a grammatically literal translation of the Odyssey, starting with Odyssey 5."
+        }
+      ]
+    } 
   ]
 }
