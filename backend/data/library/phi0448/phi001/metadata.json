@@ -1,0 +1,36 @@
+{
+  "urn": "urn:cts:latinLit:phi0448.phi001:",
+  "group_urn": "urn:cts:latinLit:phi0448:",
+  "node_kind": "work",
+  "lang": "lat",
+  "title": [
+    {
+      "lang": "eng",
+      "value": "Gallic War"
+    }
+  ],
+  "versions": [
+    {
+      "urn": "urn:cts:latinLit:phi0448.phi001.perseus-lat2-harrington-trees:",
+      "node_kind": "version",
+      "version_kind": "edition",
+      "lang": "grc",
+      "first_passage_urn": "urn:cts:latinLit:phi0448.phi001.perseus-lat2-harrington-trees:1",
+      "citation_scheme": [
+        "sentence"
+      ],
+      "label": [
+        {
+          "lang": "eng",
+          "value": "De Bello Gallico (sentences)"
+        }
+      ],
+      "description": [
+        {
+          "lang": "eng",
+          "value": "Extracted from Tufts University Treebanked Commentaries"
+        }
+      ]
+    }
+  ]
+}

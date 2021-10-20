@@ -1,0 +1,2286 @@
+[
+  {
+    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:harrington-1-phi0448-phi001-lat-1",
+    "treebank_id": "1",
+    "words": [
+      {
+        "id": 1,
+        "value": "Coactus",
+        "head_id": 24,
+        "relation": "N-SUBJ",
+        "lemma": "cogo",
+        "tag": "v-srppmn-"
+      },
+      {
+        "id": 2,
+        "value": "assiduis",
+        "head_id": 4,
+        "relation": "ATR",
+        "lemma": "assiduus2",
+        "tag": "a-p---fb-"
+      },
+      {
+        "id": 3,
+        "value": "tuis",
+        "head_id": 4,
+        "relation": "ATR",
+        "lemma": "tuus",
+        "tag": "a-p---fb-"
+      },
+      {
+        "id": 4,
+        "value": "vocibus",
+        "head_id": 1,
+        "relation": "AB-MANN",
+        "lemma": "vox",
+        "tag": "n-p---fb-"
+      },
+      {
+        "id": 5,
+        "value": ",",
+        "head_id": 6,
+        "relation": "AuxX",
+        "lemma": "punc1",
+        "tag": "u--------"
+      },
+      {
+        "id": 6,
+        "value": "Balbe",
+        "head_id": 4,
+        "relation": "V-VOC",
+        "lemma": "Balbus",
+        "tag": "a-s---mvp"
+      },
+      {
+        "id": 7,
+        "value": ",",
+        "head_id": 6,
+        "relation": "AuxX",
+        "lemma": "punc1",
+        "tag": "u--------"
+      },
+      {
+        "id": 8,
+        "value": "cum",
+        "head_id": 24,
+        "relation": "AuxC",
+        "lemma": "cum",
+        "tag": "c--------"
+      },
+      {
+        "id": 9,
+        "value": "cotidiana",
+        "head_id": 11,
+        "relation": "ATR",
+        "lemma": "cottidianus",
+        "tag": "a-s---fn-"
+      },
+      {
+        "id": 10,
+        "value": "mea",
+        "head_id": 11,
+        "relation": "ATR",
+        "lemma": "meus",
+        "tag": "a-s---fn-"
+      },
+      {
+        "id": 11,
+        "value": "recusatio",
+        "head_id": 18,
+        "relation": "N-SUBJ",
+        "lemma": "recusatio",
+        "tag": "n-s---fn-"
+      },
+      {
+        "id": 12,
+        "value": "non",
+        "head_id": 26,
+        "relation": "ADV",
+        "lemma": "non",
+        "tag": "d--------"
+      },
+      {
+        "id": 13,
+        "value": "difficultatis",
+        "head_id": 14,
+        "relation": "G-OBJEC",
+        "lemma": "difficultas",
+        "tag": "n-s---fg-"
+      },
+      {
+        "id": 14,
+        "value": "excusationem",
+        "head_id": 26,
+        "relation": "A-DO",
+        "lemma": "excusatio",
+        "tag": "n-s---fa-"
+      },
+      {
+        "id": 15,
+        "value": ",",
+        "head_id": 16,
+        "relation": "AuxX",
+        "lemma": "punc1",
+        "tag": "u--------"
+      },
+      {
+        "id": 16,
+        "value": "sed",
+        "head_id": 18,
+        "relation": "COORD",
+        "lemma": "sed",
+        "tag": "c--------"
+      },
+      {
+        "id": 17,
+        "value": "inertiae",
+        "head_id": 19,
+        "relation": "G-OBJEC",
+        "lemma": "inertia",
+        "tag": "n-s---fg-"
+      },
+      {
+        "id": 18,
+        "value": "videretur",
+        "head_id": 8,
+        "relation": "ADV-CAUSAL",
+        "lemma": "video",
+        "tag": "v3sisp---"
+      },
+      {
+        "id": 19,
+        "value": "deprecationem",
+        "head_id": 20,
+        "relation": "A-DO",
+        "lemma": "deprecatio",
+        "tag": "n-s---fa-"
+      },
+      {
+        "id": 20,
+        "value": "habere",
+        "head_id": 16,
+        "relation": "NOM-INDSTAT_OBJ-CO",
+        "lemma": "habeo",
+        "tag": "v--pna---"
+      },
+      {
+        "id": 21,
+        "value": ",",
+        "head_id": 18,
+        "relation": "AuxX",
+        "lemma": "punc1",
+        "tag": "u--------"
+      },
+      {
+        "id": 22,
+        "value": "rem",
+        "head_id": 24,
+        "relation": "A-DO",
+        "lemma": "res",
+        "tag": "n-s---fa-"
+      },
+      {
+        "id": 23,
+        "value": "difficillimam",
+        "head_id": 22,
+        "relation": "ATR",
+        "lemma": "difficilis",
+        "tag": "a-s---fa-"
+      },
+      {
+        "id": 24,
+        "value": "suscepi",
+        "head_id": 0,
+        "relation": "PRED",
+        "lemma": "suscipio",
+        "tag": "v1sria---",
+        "original_head_id": 0
+      },
+      {
+        "id": 25,
+        "value": ".",
+        "head_id": 0,
+        "relation": "AuxK",
+        "lemma": "punc1",
+        "tag": "u--------",
+        "original_head_id": 0
+      },
+      {
+        "id": 26,
+        "value": "(habere)",
+        "head_id": 16,
+        "relation": "NOM-INDSTAT_OBJ-CO",
+        "lemma": "",
+        "tag": ""
+      }
+    ],
+    "references": [
+      "urn:cts:latinLit:phi0448.phi001.perseus-lat2-harrington-trees:1"
+    ],
+    "citation": "8.pr (1)"
+  },
+  {
+    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:harrington-1-phi0448-phi001-lat-2",
+    "treebank_id": "2",
+    "words": [
+      {
+        "id": 1,
+        "value": "Caesaris",
+        "head_id": 3,
+        "relation": "G-POSS",
+        "lemma": "Caesar",
+        "tag": "n-s---mg-"
+      },
+      {
+        "id": 2,
+        "value": "nostri",
+        "head_id": 1,
+        "relation": "ATR",
+        "lemma": "noster",
+        "tag": "a-s---mg-"
+      },
+      {
+        "id": 3,
+        "value": "commentarios",
+        "head_id": 16,
+        "relation": "A-DO",
+        "lemma": "commentarius",
+        "tag": "n-p---ma-"
+      },
+      {
+        "id": 4,
+        "value": "rerum",
+        "head_id": 3,
+        "relation": "G-POSS",
+        "lemma": "res",
+        "tag": "n-p---fg-"
+      },
+      {
+        "id": 5,
+        "value": "gestarum",
+        "head_id": 4,
+        "relation": "ATR",
+        "lemma": "gero1",
+        "tag": "v-prppfg-"
+      },
+      {
+        "id": 6,
+        "value": "Galliae",
+        "head_id": 5,
+        "relation": "L-LOCAT",
+        "lemma": "Gallia",
+        "tag": "n-s---fl-"
+      },
+      {
+        "id": 7,
+        "value": ",",
+        "head_id": 9,
+        "relation": "AuxX",
+        "lemma": "punc1",
+        "tag": "u--------"
+      },
+      {
+        "id": 8,
+        "value": "non",
+        "head_id": 9,
+        "relation": "ATR",
+        "lemma": "non",
+        "tag": "d--------"
+      },
+      {
+        "id": 9,
+        "value": "comparantibus",
+        "head_id": 16,
+        "relation": "AB-ABSOL",
+        "lemma": "comparo1",
+        "tag": "v-ppp-mb-"
+      },
+      {
+        "id": 10,
+        "value": "superioribus",
+        "head_id": 11,
+        "relation": "ATR_CO",
+        "lemma": "superus",
+        "tag": "a-p---mdc"
+      },
+      {
+        "id": 11,
+        "value": "atque",
+        "head_id": 14,
+        "relation": "COORD",
+        "lemma": "atque",
+        "tag": "c--------"
+      },
+      {
+        "id": 12,
+        "value": "insequentibus",
+        "head_id": 11,
+        "relation": "ATR_CO",
+        "lemma": "insequor",
+        "tag": "v-ppp-md-"
+      },
+      {
+        "id": 13,
+        "value": "eius",
+        "head_id": 14,
+        "relation": "G-POSS",
+        "lemma": "is",
+        "tag": "p-s---mg-"
+      },
+      {
+        "id": 14,
+        "value": "scriptis",
+        "head_id": 9,
+        "relation": "D-REFER",
+        "lemma": "scribo",
+        "tag": "v-prppmd-"
+      },
+      {
+        "id": 15,
+        "value": ",",
+        "head_id": 9,
+        "relation": "AuxX",
+        "lemma": "punc1",
+        "tag": "u--------"
+      },
+      {
+        "id": 16,
+        "value": "contexui",
+        "head_id": 18,
+        "relation": "PRED_CO",
+        "lemma": "contexo",
+        "tag": "v1sria---"
+      },
+      {
+        "id": 17,
+        "value": "novissimum",
+        "head_id": 19,
+        "relation": "ATR",
+        "lemma": "novissimus",
+        "tag": "a-s---ma-"
+      },
+      {
+        "id": 18,
+        "value": "-que",
+        "head_id": 0,
+        "relation": "COORD",
+        "lemma": "-que",
+        "tag": "c--------",
+        "original_head_id": 0
+      },
+      {
+        "id": 19,
+        "value": "imperfectum",
+        "head_id": 38,
+        "relation": "A-DO",
+        "lemma": "imperfectus",
+        "tag": "a-s---ma-"
+      },
+      {
+        "id": 20,
+        "value": "ab",
+        "head_id": 38,
+        "relation": "AuxP",
+        "lemma": "ab",
+        "tag": "r--------"
+      },
+      {
+        "id": 21,
+        "value": "rebus",
+        "head_id": 20,
+        "relation": "AB-ORIENT",
+        "lemma": "res",
+        "tag": "n-p---fb-"
+      },
+      {
+        "id": 22,
+        "value": "gestis",
+        "head_id": 21,
+        "relation": "ATR",
+        "lemma": "gero1",
+        "tag": "v-prppfb-"
+      },
+      {
+        "id": 23,
+        "value": "Alexandriae",
+        "head_id": 22,
+        "relation": "L-LOCAT",
+        "lemma": "Alexandria",
+        "tag": "n-s---fl-"
+      },
+      {
+        "id": 24,
+        "value": "confeci",
+        "head_id": 38,
+        "relation": "PRED_CO",
+        "lemma": "conficio",
+        "tag": "v1sria---"
+      },
+      {
+        "id": 25,
+        "value": "usque",
+        "head_id": 26,
+        "relation": "ADV",
+        "lemma": "usque",
+        "tag": "d--------"
+      },
+      {
+        "id": 26,
+        "value": "ad",
+        "head_id": 24,
+        "relation": "AuxP",
+        "lemma": "ad",
+        "tag": "r--------"
+      },
+      {
+        "id": 27,
+        "value": "exitum",
+        "head_id": 26,
+        "relation": "A-ORIENT",
+        "lemma": "exitus2",
+        "tag": "n-s---ma-"
+      },
+      {
+        "id": 28,
+        "value": "non",
+        "head_id": 24,
+        "relation": "ADV",
+        "lemma": "non",
+        "tag": "d--------"
+      },
+      {
+        "id": 29,
+        "value": "quidem",
+        "head_id": 24,
+        "relation": "ADV",
+        "lemma": "quidem",
+        "tag": "d--------"
+      },
+      {
+        "id": 30,
+        "value": "civilis",
+        "head_id": 31,
+        "relation": "ATR",
+        "lemma": "civilis1",
+        "tag": "a-s---fg-"
+      },
+      {
+        "id": 31,
+        "value": "dissensionis",
+        "head_id": 27,
+        "relation": "G-POSS",
+        "lemma": "dissensio",
+        "tag": "n-s---fg-"
+      },
+      {
+        "id": 32,
+        "value": ",",
+        "head_id": 36,
+        "relation": "AuxX",
+        "lemma": "punc1",
+        "tag": "u--------"
+      },
+      {
+        "id": 33,
+        "value": "cuius",
+        "head_id": 34,
+        "relation": "G-POSS",
+        "lemma": "qui2",
+        "tag": "p-s---fg-"
+      },
+      {
+        "id": 34,
+        "value": "finem",
+        "head_id": 36,
+        "relation": "A-DO",
+        "lemma": "finis",
+        "tag": "n-s---ma-"
+      },
+      {
+        "id": 35,
+        "value": "nullum",
+        "head_id": 34,
+        "relation": "ATR",
+        "lemma": "nullus",
+        "tag": "a-s---ma-"
+      },
+      {
+        "id": 36,
+        "value": "videmus",
+        "head_id": 31,
+        "relation": "ADJ-RC",
+        "lemma": "video",
+        "tag": "v1ppia---"
+      },
+      {
+        "id": 37,
+        "value": ",",
+        "head_id": 36,
+        "relation": "AuxX",
+        "lemma": "punc1",
+        "tag": "u--------"
+      },
+      {
+        "id": 38,
+        "value": "sed",
+        "head_id": 18,
+        "relation": "COORD",
+        "lemma": "sed",
+        "tag": "c--------"
+      },
+      {
+        "id": 39,
+        "value": "vitae",
+        "head_id": 42,
+        "relation": "G-POSS",
+        "lemma": "vita",
+        "tag": "n-s---fg-"
+      },
+      {
+        "id": 40,
+        "value": "Caesaris",
+        "head_id": 39,
+        "relation": "G-POSS",
+        "lemma": "Caesar",
+        "tag": "n-s---mg-"
+      },
+      {
+        "id": 41,
+        "value": ".",
+        "head_id": 0,
+        "relation": "AuxK",
+        "lemma": "punc1",
+        "tag": "u--------",
+        "original_head_id": 0
+      },
+      {
+        "id": 42,
+        "value": "(confeci ad exitum)",
+        "head_id": 38,
+        "relation": "PRED_CO",
+        "lemma": "",
+        "tag": ""
+      }
+    ],
+    "references": [
+      "urn:cts:latinLit:phi0448.phi001.perseus-lat2-harrington-trees:2"
+    ],
+    "citation": "8.pr (2)"
+  },
+  {
+    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:harrington-1-phi0448-phi001-lat-3",
+    "treebank_id": "3",
+    "words": [
+      {
+        "id": 1,
+        "value": "Quos",
+        "head_id": 4,
+        "relation": "A-DO",
+        "lemma": "qui2",
+        "tag": "p-p---ma-"
+      },
+      {
+        "id": 2,
+        "value": "utinam",
+        "head_id": 6,
+        "relation": "AuxY",
+        "lemma": "utinam",
+        "tag": "d--------"
+      },
+      {
+        "id": 3,
+        "value": "qui",
+        "head_id": 4,
+        "relation": "N-SUBJ",
+        "lemma": "qui2",
+        "tag": "p-p---mn-"
+      },
+      {
+        "id": 4,
+        "value": "legent",
+        "head_id": 6,
+        "relation": "ADJ-RC_SBJ",
+        "lemma": "lego2",
+        "tag": "v3pfia---"
+      },
+      {
+        "id": 5,
+        "value": "scire",
+        "head_id": 6,
+        "relation": "INF-COMP",
+        "lemma": "scio",
+        "tag": "v--pna---"
+      },
+      {
+        "id": 6,
+        "value": "possint",
+        "head_id": 0,
+        "relation": "PRED-OPT",
+        "lemma": "possum",
+        "tag": "v3ppsa---",
+        "original_head_id": 0
+      },
+      {
+        "id": 7,
+        "value": "quam",
+        "head_id": 8,
+        "relation": "ADV",
+        "lemma": "quam",
+        "tag": "d--------"
+      },
+      {
+        "id": 8,
+        "value": "invitus",
+        "head_id": 9,
+        "relation": "N-SUBJ",
+        "lemma": "invitus",
+        "tag": "a-s---mn-"
+      },
+      {
+        "id": 9,
+        "value": "susceperim",
+        "head_id": 5,
+        "relation": "NOM-INDQUES_OBJ",
+        "lemma": "suscipio",
+        "tag": "v1srsa---"
+      },
+      {
+        "id": 10,
+        "value": "scribendos",
+        "head_id": 9,
+        "relation": "A-DO",
+        "lemma": "scribo",
+        "tag": "v-p-g-ma-"
+      },
+      {
+        "id": 11,
+        "value": ",",
+        "head_id": 14,
+        "relation": "AuxX",
+        "lemma": "punc1",
+        "tag": "u--------"
+      },
+      {
+        "id": 12,
+        "value": "qua",
+        "head_id": 14,
+        "relation": "ADV",
+        "lemma": "qua",
+        "tag": "d--------"
+      },
+      {
+        "id": 13,
+        "value": "facilius",
+        "head_id": 14,
+        "relation": "ADV",
+        "lemma": "facilis",
+        "tag": "d-------c"
+      },
+      {
+        "id": 14,
+        "value": "caream",
+        "head_id": 5,
+        "relation": "ADV-PURP",
+        "lemma": "careo",
+        "tag": "v1spsa---"
+      },
+      {
+        "id": 15,
+        "value": "stultitiae",
+        "head_id": 16,
+        "relation": "G-CHARGE_CO",
+        "lemma": "stultitia",
+        "tag": "n-s---fg-"
+      },
+      {
+        "id": 16,
+        "value": "atque",
+        "head_id": 18,
+        "relation": "ATR",
+        "lemma": "atque",
+        "tag": "c--------"
+      },
+      {
+        "id": 17,
+        "value": "arrogantiae",
+        "head_id": 16,
+        "relation": "G-CHARGE_CO",
+        "lemma": "arrogantia",
+        "tag": "n-s---fg-"
+      },
+      {
+        "id": 18,
+        "value": "crimine",
+        "head_id": 14,
+        "relation": "AB-RESPECT",
+        "lemma": "crimen",
+        "tag": "n-s---nb-"
+      },
+      {
+        "id": 19,
+        "value": ",",
+        "head_id": 23,
+        "relation": "AuxX",
+        "lemma": "punc1",
+        "tag": "u--------"
+      },
+      {
+        "id": 20,
+        "value": "qui",
+        "head_id": 23,
+        "relation": "N-SUBJ",
+        "lemma": "qui2",
+        "tag": "p-s---mn-"
+      },
+      {
+        "id": 21,
+        "value": "me",
+        "head_id": 23,
+        "relation": "A-DO",
+        "lemma": "ego",
+        "tag": "p-s---ma-"
+      },
+      {
+        "id": 22,
+        "value": "mediis",
+        "head_id": 25,
+        "relation": "ATR",
+        "lemma": "medius",
+        "tag": "a-p---nd-"
+      },
+      {
+        "id": 23,
+        "value": "interposuerim",
+        "head_id": 14,
+        "relation": "ADJ-RCCHAR",
+        "lemma": "interpono",
+        "tag": "v1srsa---"
+      },
+      {
+        "id": 24,
+        "value": "Caesaris",
+        "head_id": 25,
+        "relation": "G-POSS",
+        "lemma": "Caesar",
+        "tag": "n-s---mg-"
+      },
+      {
+        "id": 25,
+        "value": "scriptis",
+        "head_id": 23,
+        "relation": "D-REFER",
+        "lemma": "scribo",
+        "tag": "v-prppnd-"
+      },
+      {
+        "id": 26,
+        "value": ".",
+        "head_id": 0,
+        "relation": "AuxK",
+        "lemma": "punc1",
+        "tag": "u--------",
+        "original_head_id": 0
+      }
+    ],
+    "references": [
+      "urn:cts:latinLit:phi0448.phi001.perseus-lat2-harrington-trees:3"
+    ],
+    "citation": "8.pr (3)"
+  },
+  {
+    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:harrington-1-phi0448-phi001-lat-4",
+    "treebank_id": "4",
+    "words": [
+      {
+        "id": 1,
+        "value": "Constat",
+        "head_id": 0,
+        "relation": "PRED",
+        "lemma": "consto",
+        "tag": "v3spia---",
+        "original_head_id": 0
+      },
+      {
+        "id": 2,
+        "value": "enim",
+        "head_id": 1,
+        "relation": "AuxY",
+        "lemma": "enim",
+        "tag": "c--------"
+      },
+      {
+        "id": 3,
+        "value": "inter",
+        "head_id": 1,
+        "relation": "AuxP",
+        "lemma": "inter",
+        "tag": "r--------"
+      },
+      {
+        "id": 4,
+        "value": "omnes",
+        "head_id": 3,
+        "relation": "A-EXTENT",
+        "lemma": "omnis",
+        "tag": "a-p---ma-"
+      },
+      {
+        "id": 5,
+        "value": "nihil",
+        "head_id": 11,
+        "relation": "A-SUBJ",
+        "lemma": "nihil",
+        "tag": "x-s---n--"
+      },
+      {
+        "id": 6,
+        "value": "tam",
+        "head_id": 7,
+        "relation": "ADV",
+        "lemma": "tam",
+        "tag": "d--------"
+      },
+      {
+        "id": 7,
+        "value": "operose",
+        "head_id": 11,
+        "relation": "ADV",
+        "lemma": "operosus",
+        "tag": "d-------p"
+      },
+      {
+        "id": 8,
+        "value": "ab",
+        "head_id": 11,
+        "relation": "AuxP",
+        "lemma": "ab",
+        "tag": "r--------"
+      },
+      {
+        "id": 9,
+        "value": "aliis",
+        "head_id": 8,
+        "relation": "AB-AGENT",
+        "lemma": "alius2",
+        "tag": "n-p---mb-"
+      },
+      {
+        "id": 10,
+        "value": "esse",
+        "head_id": 11,
+        "relation": "AuxV",
+        "lemma": "sum1",
+        "tag": "v--pna---"
+      },
+      {
+        "id": 11,
+        "value": "perfectum",
+        "head_id": 1,
+        "relation": "NOM-INDSTAT_OBJ",
+        "lemma": "perficio",
+        "tag": "v-srppna-"
+      },
+      {
+        "id": 12,
+        "value": ",",
+        "head_id": 18,
+        "relation": "AuxX",
+        "lemma": "punc1",
+        "tag": "u--------"
+      },
+      {
+        "id": 13,
+        "value": "quod",
+        "head_id": 18,
+        "relation": "N-SUBJ",
+        "lemma": "qui2",
+        "tag": "p-s---nn-"
+      },
+      {
+        "id": 14,
+        "value": "non",
+        "head_id": 18,
+        "relation": "ADV",
+        "lemma": "non",
+        "tag": "d--------"
+      },
+      {
+        "id": 15,
+        "value": "horum",
+        "head_id": 17,
+        "relation": "ATR",
+        "lemma": "hic",
+        "tag": "p-p---mg-"
+      },
+      {
+        "id": 16,
+        "value": "elegantia",
+        "head_id": 18,
+        "relation": "AB-MANN",
+        "lemma": "elegantia",
+        "tag": "n-s---fb-"
+      },
+      {
+        "id": 17,
+        "value": "commentariorum",
+        "head_id": 16,
+        "relation": "G-POSS",
+        "lemma": "commentarius",
+        "tag": "n-p---mg-"
+      },
+      {
+        "id": 18,
+        "value": "superetur",
+        "head_id": 5,
+        "relation": "ADJ-RCCHAR",
+        "lemma": "supero",
+        "tag": "v3spsp---"
+      },
+      {
+        "id": 19,
+        "value": ":",
+        "head_id": 0,
+        "relation": "AuxK",
+        "lemma": "punc1",
+        "tag": "u--------",
+        "original_head_id": 0
+      }
+    ],
+    "references": [
+      "urn:cts:latinLit:phi0448.phi001.perseus-lat2-harrington-trees:4"
+    ],
+    "citation": "8.pr (4)"
+  },
+  {
+    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:harrington-1-phi0448-phi001-lat-5",
+    "treebank_id": "5",
+    "words": [
+      {
+        "id": 1,
+        "value": "qui",
+        "head_id": 3,
+        "relation": "N-SUBJ",
+        "lemma": "qui2",
+        "tag": "p-p---mn-"
+      },
+      {
+        "id": 2,
+        "value": "sunt",
+        "head_id": 3,
+        "relation": "AuxV",
+        "lemma": "sum1",
+        "tag": "v3ppia---"
+      },
+      {
+        "id": 3,
+        "value": "editi",
+        "head_id": 13,
+        "relation": "PRED_CO",
+        "lemma": "edo2",
+        "tag": "v-prppmn-"
+      },
+      {
+        "id": 4,
+        "value": ",",
+        "head_id": 10,
+        "relation": "AuxX",
+        "lemma": "punc1",
+        "tag": "u--------"
+      },
+      {
+        "id": 5,
+        "value": "ne",
+        "head_id": 3,
+        "relation": "AuxC",
+        "lemma": "ne1",
+        "tag": "d--------"
+      },
+      {
+        "id": 6,
+        "value": "scientia",
+        "head_id": 10,
+        "relation": "N-SUBJ",
+        "lemma": "scientia",
+        "tag": "n-s---fn-"
+      },
+      {
+        "id": 7,
+        "value": "tantarum",
+        "head_id": 8,
+        "relation": "ATR",
+        "lemma": "tantus",
+        "tag": "a-p---fg-"
+      },
+      {
+        "id": 8,
+        "value": "rerum",
+        "head_id": 6,
+        "relation": "G-OBJEC",
+        "lemma": "res",
+        "tag": "n-p---fg-"
+      },
+      {
+        "id": 9,
+        "value": "scriptoribus",
+        "head_id": 10,
+        "relation": "D-INTER",
+        "lemma": "scriptor",
+        "tag": "n-p---md-"
+      },
+      {
+        "id": 10,
+        "value": "deesset",
+        "head_id": 5,
+        "relation": "ADV-PURP",
+        "lemma": "desum",
+        "tag": "v3sisa---"
+      },
+      {
+        "id": 11,
+        "value": ",",
+        "head_id": 13,
+        "relation": "AuxX",
+        "lemma": "punc1",
+        "tag": "u--------"
+      },
+      {
+        "id": 12,
+        "value": "adeo",
+        "head_id": 14,
+        "relation": "ADV",
+        "lemma": "adeo2",
+        "tag": "d--------"
+      },
+      {
+        "id": 13,
+        "value": "-que",
+        "head_id": 0,
+        "relation": "COORD",
+        "lemma": "-que",
+        "tag": "c--------",
+        "original_head_id": 0
+      },
+      {
+        "id": 14,
+        "value": "probantur",
+        "head_id": 13,
+        "relation": "PRED_CO",
+        "lemma": "probo",
+        "tag": "v3ppip---"
+      },
+      {
+        "id": 15,
+        "value": "omnium",
+        "head_id": 16,
+        "relation": "G-POSS",
+        "lemma": "omnis",
+        "tag": "a-p---mg-"
+      },
+      {
+        "id": 16,
+        "value": "iudicio",
+        "head_id": 14,
+        "relation": "AB-MANN",
+        "lemma": "judicium",
+        "tag": "n-s---nb-"
+      },
+      {
+        "id": 17,
+        "value": "ut",
+        "head_id": 12,
+        "relation": "AuxC",
+        "lemma": "ut",
+        "tag": "d--------"
+      },
+      {
+        "id": 18,
+        "value": "praerepta",
+        "head_id": 27,
+        "relation": "NOM-INDSTAT_OBJ",
+        "lemma": "praeripio",
+        "tag": "v-srppfn-"
+      },
+      {
+        "id": 19,
+        "value": ",",
+        "head_id": 17,
+        "relation": "COORD",
+        "lemma": "punc1",
+        "tag": "u--------"
+      },
+      {
+        "id": 20,
+        "value": "non",
+        "head_id": 25,
+        "relation": "ADV",
+        "lemma": "non",
+        "tag": "d--------"
+      },
+      {
+        "id": 21,
+        "value": "praebita",
+        "head_id": 25,
+        "relation": "NOM-INDSTAT_OBJ",
+        "lemma": "praebeo",
+        "tag": "v-srppfn-"
+      },
+      {
+        "id": 22,
+        "value": ",",
+        "head_id": 19,
+        "relation": "AuxX",
+        "lemma": "punc1",
+        "tag": "u--------"
+      },
+      {
+        "id": 23,
+        "value": "facultas",
+        "head_id": 19,
+        "relation": "N-SUBJ",
+        "lemma": "facultas",
+        "tag": "n-s---fn-"
+      },
+      {
+        "id": 24,
+        "value": "scriptoribus",
+        "head_id": 21,
+        "relation": "D-IO",
+        "lemma": "scriptor",
+        "tag": "n-p---md-"
+      },
+      {
+        "id": 25,
+        "value": "videatur",
+        "head_id": 19,
+        "relation": "ADV-RESULT_CO",
+        "lemma": "video",
+        "tag": "v3spsp---"
+      },
+      {
+        "id": 26,
+        "value": ".",
+        "head_id": 0,
+        "relation": "AuxK",
+        "lemma": "punc1",
+        "tag": "u--------",
+        "original_head_id": 0
+      },
+      {
+        "id": 27,
+        "value": "(videatur)",
+        "head_id": 19,
+        "relation": "ADV-RESULT_CO",
+        "lemma": "",
+        "tag": ""
+      }
+    ],
+    "references": [
+      "urn:cts:latinLit:phi0448.phi001.perseus-lat2-harrington-trees:5"
+    ],
+    "citation": "8.pr (5)"
+  },
+  {
+    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:harrington-1-phi0448-phi001-lat-6",
+    "treebank_id": "6",
+    "words": [
+      {
+        "id": 1,
+        "value": "Cuius",
+        "head_id": 3,
+        "relation": "ATR",
+        "lemma": "qui1",
+        "tag": "n-s---fg-"
+      },
+      {
+        "id": 2,
+        "value": "tamen",
+        "head_id": 8,
+        "relation": "AuxY",
+        "lemma": "tamen",
+        "tag": "d--------"
+      },
+      {
+        "id": 3,
+        "value": "rei",
+        "head_id": 9,
+        "relation": "G-OBJEC",
+        "lemma": "res",
+        "tag": "n-s---fg-"
+      },
+      {
+        "id": 4,
+        "value": "maior",
+        "head_id": 8,
+        "relation": "N-PRED",
+        "lemma": "magnus",
+        "tag": "a-s---fnc"
+      },
+      {
+        "id": 5,
+        "value": "nostra",
+        "head_id": 9,
+        "relation": "ATR",
+        "lemma": "noster",
+        "tag": "a-s---fn-"
+      },
+      {
+        "id": 6,
+        "value": "quam",
+        "head_id": 4,
+        "relation": "AuxC",
+        "lemma": "quam",
+        "tag": "d--------"
+      },
+      {
+        "id": 7,
+        "value": "reliquorum",
+        "head_id": 11,
+        "relation": "G-POSS",
+        "lemma": "reliquus",
+        "tag": "a-p---mg-"
+      },
+      {
+        "id": 8,
+        "value": "est",
+        "head_id": 0,
+        "relation": "PRED",
+        "lemma": "sum1",
+        "tag": "v3spia---",
+        "original_head_id": 0
+      },
+      {
+        "id": 9,
+        "value": "admiratio",
+        "head_id": 8,
+        "relation": "N-SUBJ",
+        "lemma": "admiratio",
+        "tag": "n-s---fn-"
+      },
+      {
+        "id": 10,
+        "value": ":",
+        "head_id": 0,
+        "relation": "AuxK",
+        "lemma": "punc1",
+        "tag": "u--------",
+        "original_head_id": 0
+      },
+      {
+        "id": 11,
+        "value": "(admiratio est)",
+        "head_id": 6,
+        "relation": "ADV-COMPAR",
+        "lemma": "",
+        "tag": ""
+      }
+    ],
+    "references": [
+      "urn:cts:latinLit:phi0448.phi001.perseus-lat2-harrington-trees:6"
+    ],
+    "citation": "8.pr (6)"
+  },
+  {
+    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:harrington-1-phi0448-phi001-lat-7",
+    "treebank_id": "7",
+    "words": [
+      {
+        "id": 1,
+        "value": "ceteri",
+        "head_id": 20,
+        "relation": "N-SUBJ",
+        "lemma": "ceter",
+        "tag": "a-p---mn-"
+      },
+      {
+        "id": 2,
+        "value": "enim",
+        "head_id": 8,
+        "relation": "AuxY",
+        "lemma": "enim",
+        "tag": "c--------"
+      },
+      {
+        "id": 3,
+        "value": ",",
+        "head_id": 21,
+        "relation": "AuxX",
+        "lemma": "punc1",
+        "tag": "u--------"
+      },
+      {
+        "id": 4,
+        "value": "quam",
+        "head_id": 6,
+        "relation": "ADV",
+        "lemma": "quam",
+        "tag": "d--------"
+      },
+      {
+        "id": 5,
+        "value": "bene",
+        "head_id": 6,
+        "relation": "ADV_CO",
+        "lemma": "bene",
+        "tag": "d--------"
+      },
+      {
+        "id": 6,
+        "value": "atque",
+        "head_id": 21,
+        "relation": "COORD",
+        "lemma": "atque",
+        "tag": "c--------"
+      },
+      {
+        "id": 7,
+        "value": "emendate",
+        "head_id": 6,
+        "relation": "ADV_CO",
+        "lemma": "emendate",
+        "tag": "d--------"
+      },
+      {
+        "id": 8,
+        "value": ",",
+        "head_id": 0,
+        "relation": "COORD",
+        "lemma": "punc1",
+        "tag": "u--------",
+        "original_head_id": 0
+      },
+      {
+        "id": 9,
+        "value": "nos",
+        "head_id": 18,
+        "relation": "N-SUBJ",
+        "lemma": "nos",
+        "tag": "p-p---mn-"
+      },
+      {
+        "id": 10,
+        "value": "etiam",
+        "head_id": 18,
+        "relation": "ADV",
+        "lemma": "etiam",
+        "tag": "c--------"
+      },
+      {
+        "id": 11,
+        "value": ",",
+        "head_id": 14,
+        "relation": "AuxX",
+        "lemma": "punc1",
+        "tag": "u--------"
+      },
+      {
+        "id": 12,
+        "value": "quam",
+        "head_id": 14,
+        "relation": "ADV",
+        "lemma": "quam",
+        "tag": "d--------"
+      },
+      {
+        "id": 13,
+        "value": "facile",
+        "head_id": 14,
+        "relation": "A-ADVERB_CO",
+        "lemma": "facilis",
+        "tag": "a-s---na-"
+      },
+      {
+        "id": 14,
+        "value": "atque",
+        "head_id": 17,
+        "relation": "COORD",
+        "lemma": "atque",
+        "tag": "c--------"
+      },
+      {
+        "id": 15,
+        "value": "celeriter",
+        "head_id": 14,
+        "relation": "ADV_CO",
+        "lemma": "celeriter",
+        "tag": "d--------"
+      },
+      {
+        "id": 16,
+        "value": "eos",
+        "head_id": 17,
+        "relation": "A-DO",
+        "lemma": "is",
+        "tag": "p-p---ma-"
+      },
+      {
+        "id": 17,
+        "value": "perfecerit",
+        "head_id": 18,
+        "relation": "NOM-INDQUES_OBJ",
+        "lemma": "perficio",
+        "tag": "v3srsa---"
+      },
+      {
+        "id": 18,
+        "value": "scimus",
+        "head_id": 8,
+        "relation": "PRED_CO",
+        "lemma": "scio",
+        "tag": "v1ppia---"
+      },
+      {
+        "id": 19,
+        "value": ".",
+        "head_id": 0,
+        "relation": "AuxK",
+        "lemma": "punc1",
+        "tag": "u--------",
+        "original_head_id": 0
+      },
+      {
+        "id": 20,
+        "value": "(sciunt)",
+        "head_id": 8,
+        "relation": "PRED_CO",
+        "lemma": "",
+        "tag": ""
+      },
+      {
+        "id": 21,
+        "value": "(perfecerit)",
+        "head_id": 20,
+        "relation": "NOM-INDQUES_OBJ",
+        "lemma": "",
+        "tag": ""
+      }
+    ],
+    "references": [
+      "urn:cts:latinLit:phi0448.phi001.perseus-lat2-harrington-trees:7"
+    ],
+    "citation": "8.pr (7)"
+  },
+  {
+    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:harrington-1-phi0448-phi001-lat-8",
+    "treebank_id": "8",
+    "words": [
+      {
+        "id": 1,
+        "value": "Erat",
+        "head_id": 11,
+        "relation": "PRED_CO",
+        "lemma": "sum1",
+        "tag": "v3siia---"
+      },
+      {
+        "id": 2,
+        "value": "autem",
+        "head_id": 11,
+        "relation": "AuxY",
+        "lemma": "autem",
+        "tag": "c--------"
+      },
+      {
+        "id": 3,
+        "value": "in",
+        "head_id": 11,
+        "relation": "AuxP",
+        "lemma": "in",
+        "tag": "r--------"
+      },
+      {
+        "id": 4,
+        "value": "Caesare",
+        "head_id": 3,
+        "relation": "AB-LOCAT",
+        "lemma": "Caesar",
+        "tag": "n-s---mb-"
+      },
+      {
+        "id": 5,
+        "value": "cum",
+        "head_id": 1,
+        "relation": "ADV",
+        "lemma": "cum",
+        "tag": "c--------"
+      },
+      {
+        "id": 6,
+        "value": "facultas",
+        "head_id": 7,
+        "relation": "N-SUBJ_CO",
+        "lemma": "facultas",
+        "tag": "n-s---fn-"
+      },
+      {
+        "id": 7,
+        "value": "atque",
+        "head_id": 1,
+        "relation": "COORD",
+        "lemma": "atque",
+        "tag": "c--------"
+      },
+      {
+        "id": 8,
+        "value": "elegantia",
+        "head_id": 7,
+        "relation": "N-SUBJ_CO",
+        "lemma": "elegantia",
+        "tag": "n-s---fn-"
+      },
+      {
+        "id": 9,
+        "value": "summa",
+        "head_id": 7,
+        "relation": "ATR",
+        "lemma": "summus",
+        "tag": "a-s---fn-"
+      },
+      {
+        "id": 10,
+        "value": "scribendi",
+        "head_id": 7,
+        "relation": "G-DESC",
+        "lemma": "scribo",
+        "tag": "v_spda-g-"
+      },
+      {
+        "id": 11,
+        "value": ",",
+        "head_id": 0,
+        "relation": "COORD",
+        "lemma": "punc1",
+        "tag": "u--------",
+        "original_head_id": 0
+      },
+      {
+        "id": 12,
+        "value": "tum",
+        "head_id": 19,
+        "relation": "ADV",
+        "lemma": "tum",
+        "tag": "d--------"
+      },
+      {
+        "id": 13,
+        "value": "verissima",
+        "head_id": 14,
+        "relation": "ATR",
+        "lemma": "verus",
+        "tag": "a-s---fns"
+      },
+      {
+        "id": 14,
+        "value": "scientia",
+        "head_id": 19,
+        "relation": "N-SUBJ",
+        "lemma": "scientia",
+        "tag": "n-s---fn-"
+      },
+      {
+        "id": 15,
+        "value": "suorum",
+        "head_id": 16,
+        "relation": "ATR",
+        "lemma": "suus",
+        "tag": "a-p---ng-"
+      },
+      {
+        "id": 16,
+        "value": "consiliorum",
+        "head_id": 14,
+        "relation": "G-OBJEC",
+        "lemma": "consilium",
+        "tag": "n-p---ng-"
+      },
+      {
+        "id": 17,
+        "value": "explicandorum",
+        "head_id": 16,
+        "relation": "ATR",
+        "lemma": "explicate",
+        "tag": "v-p-g-ng-"
+      },
+      {
+        "id": 18,
+        "value": ".",
+        "head_id": 0,
+        "relation": "AuxK",
+        "lemma": "punc1",
+        "tag": "u--------",
+        "original_head_id": 0
+      },
+      {
+        "id": 19,
+        "value": "(erat)",
+        "head_id": 11,
+        "relation": "PRED_CO",
+        "lemma": "",
+        "tag": ""
+      }
+    ],
+    "references": [
+      "urn:cts:latinLit:phi0448.phi001.perseus-lat2-harrington-trees:8"
+    ],
+    "citation": "8.pr (8)"
+  },
+  {
+    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:harrington-1-phi0448-phi001-lat-9",
+    "treebank_id": "9",
+    "words": [
+      {
+        "id": 1,
+        "value": "Mihi",
+        "head_id": 5,
+        "relation": "D-INTER",
+        "lemma": "ego",
+        "tag": "p-s---md-"
+      },
+      {
+        "id": 2,
+        "value": "ne",
+        "head_id": 4,
+        "relation": "ADV",
+        "lemma": "ne1",
+        "tag": "d--------"
+      },
+      {
+        "id": 3,
+        "value": "illud",
+        "head_id": 6,
+        "relation": "N-SUBJ_AP",
+        "lemma": "ille",
+        "tag": "p-s---nn-"
+      },
+      {
+        "id": 4,
+        "value": "quidem",
+        "head_id": 3,
+        "relation": "ADV",
+        "lemma": "quidem",
+        "tag": "d--------"
+      },
+      {
+        "id": 5,
+        "value": "accidit",
+        "head_id": 0,
+        "relation": "PRED",
+        "lemma": "accido2",
+        "tag": "v3sria---",
+        "original_head_id": 0
+      },
+      {
+        "id": 6,
+        "value": ",",
+        "head_id": 5,
+        "relation": "APOS",
+        "lemma": "punc1",
+        "tag": "u--------"
+      },
+      {
+        "id": 7,
+        "value": "ut",
+        "head_id": 6,
+        "relation": "AuxC",
+        "lemma": "ut",
+        "tag": "d--------"
+      },
+      {
+        "id": 8,
+        "value": "Alexandrino",
+        "head_id": 9,
+        "relation": "ATR_CO",
+        "lemma": "Alexandrinus",
+        "tag": "a-s---nbp"
+      },
+      {
+        "id": 9,
+        "value": "atque",
+        "head_id": 11,
+        "relation": "COORD",
+        "lemma": "atque",
+        "tag": "c--------"
+      },
+      {
+        "id": 10,
+        "value": "Africano",
+        "head_id": 9,
+        "relation": "ATR_CO",
+        "lemma": "Africanus",
+        "tag": "a-s---nbp"
+      },
+      {
+        "id": 11,
+        "value": "bello",
+        "head_id": 12,
+        "relation": "AB-LOCAT",
+        "lemma": "bellum",
+        "tag": "n-s---nb-"
+      },
+      {
+        "id": 12,
+        "value": "interessem",
+        "head_id": 7,
+        "relation": "NOM-SUBST_SUBJ-AP",
+        "lemma": "intersum",
+        "tag": "v1sisa---"
+      },
+      {
+        "id": 13,
+        "value": ";",
+        "head_id": 37,
+        "relation": "AuxX",
+        "lemma": "punc1",
+        "tag": "u--------"
+      },
+      {
+        "id": 14,
+        "value": "quae",
+        "head_id": 15,
+        "relation": "ATR",
+        "lemma": "qui1",
+        "tag": "n-p---nn-"
+      },
+      {
+        "id": 15,
+        "value": "bella",
+        "head_id": 23,
+        "relation": "N-SUBJ",
+        "lemma": "bellum",
+        "tag": "n-p---nn-"
+      },
+      {
+        "id": 16,
+        "value": "quamquam",
+        "head_id": 37,
+        "relation": "AuxC",
+        "lemma": "quamquam",
+        "tag": "c--------"
+      },
+      {
+        "id": 17,
+        "value": "ex",
+        "head_id": 23,
+        "relation": "AuxP",
+        "lemma": "ex",
+        "tag": "r--------"
+      },
+      {
+        "id": 18,
+        "value": "parte",
+        "head_id": 17,
+        "relation": "AB-ORIENT",
+        "lemma": "pars",
+        "tag": "n-s---fb-"
+      },
+      {
+        "id": 19,
+        "value": "nobis",
+        "head_id": 23,
+        "relation": "D-REFER",
+        "lemma": "nos",
+        "tag": "p-p---md-"
+      },
+      {
+        "id": 20,
+        "value": "Caesaris",
+        "head_id": 21,
+        "relation": "G-POSS",
+        "lemma": "Caesar",
+        "tag": "n-s---mg-"
+      },
+      {
+        "id": 21,
+        "value": "sermone",
+        "head_id": 23,
+        "relation": "AB-ORIENT",
+        "lemma": "sermo",
+        "tag": "n-s---mb-"
+      },
+      {
+        "id": 22,
+        "value": "sunt",
+        "head_id": 23,
+        "relation": "AuxV",
+        "lemma": "sum1",
+        "tag": "v3ppia---"
+      },
+      {
+        "id": 23,
+        "value": "nota",
+        "head_id": 16,
+        "relation": "ADV-CONCESS",
+        "lemma": "nosco",
+        "tag": "v-prppnn-"
+      },
+      {
+        "id": 24,
+        "value": ",",
+        "head_id": 23,
+        "relation": "AuxX",
+        "lemma": "punc1",
+        "tag": "u--------"
+      },
+      {
+        "id": 25,
+        "value": "tamen",
+        "head_id": 27,
+        "relation": "ADV",
+        "lemma": "tamen",
+        "tag": "d--------"
+      },
+      {
+        "id": 26,
+        "value": "aliter",
+        "head_id": 27,
+        "relation": "ADV",
+        "lemma": "aliter",
+        "tag": "d--------"
+      },
+      {
+        "id": 27,
+        "value": "audimus",
+        "head_id": 37,
+        "relation": "ADJ-RC_CO",
+        "lemma": "audio",
+        "tag": "v1ppia---"
+      },
+      {
+        "id": 28,
+        "value": "ea",
+        "head_id": 27,
+        "relation": "A-DO",
+        "lemma": "is",
+        "tag": "p-p---na-"
+      },
+      {
+        "id": 29,
+        "value": ",",
+        "head_id": 36,
+        "relation": "AuxX",
+        "lemma": "punc1",
+        "tag": "u--------"
+      },
+      {
+        "id": 30,
+        "value": "quae",
+        "head_id": 36,
+        "relation": "N-SUBJ",
+        "lemma": "qui2",
+        "tag": "p-p---nn-"
+      },
+      {
+        "id": 31,
+        "value": "rerum",
+        "head_id": 33,
+        "relation": "G-POSS",
+        "lemma": "res",
+        "tag": "n-p---fg-"
+      },
+      {
+        "id": 32,
+        "value": "novitate",
+        "head_id": 33,
+        "relation": "AB-MANN_CO",
+        "lemma": "novitas",
+        "tag": "n-s---fb-"
+      },
+      {
+        "id": 33,
+        "value": "aut",
+        "head_id": 36,
+        "relation": "COORD",
+        "lemma": "aut",
+        "tag": "c--------"
+      },
+      {
+        "id": 34,
+        "value": "admiratione",
+        "head_id": 33,
+        "relation": "AB-MANN_CO",
+        "lemma": "admiratio",
+        "tag": "n-s---fb-"
+      },
+      {
+        "id": 35,
+        "value": "nos",
+        "head_id": 36,
+        "relation": "A-DO",
+        "lemma": "nos",
+        "tag": "p-p---ma-"
+      },
+      {
+        "id": 36,
+        "value": "capiunt",
+        "head_id": 28,
+        "relation": "ADJ-RC",
+        "lemma": "capio",
+        "tag": "v3ppia---"
+      },
+      {
+        "id": 37,
+        "value": ",",
+        "head_id": 11,
+        "relation": "COORD",
+        "lemma": "punc1",
+        "tag": "u--------"
+      },
+      {
+        "id": 38,
+        "value": "aliter",
+        "head_id": 46,
+        "relation": "ADV",
+        "lemma": "aliter",
+        "tag": "d--------"
+      },
+      {
+        "id": 39,
+        "value": ",",
+        "head_id": 44,
+        "relation": "AuxX",
+        "lemma": "punc1",
+        "tag": "u--------"
+      },
+      {
+        "id": 40,
+        "value": "quae",
+        "head_id": 44,
+        "relation": "A-DO",
+        "lemma": "qui2",
+        "tag": "p-p---na-"
+      },
+      {
+        "id": 41,
+        "value": "pro",
+        "head_id": 44,
+        "relation": "AuxP",
+        "lemma": "pro1",
+        "tag": "r--------"
+      },
+      {
+        "id": 42,
+        "value": "testimonio",
+        "head_id": 41,
+        "relation": "AB-LOCAT",
+        "lemma": "testimonium",
+        "tag": "n-s---nb-"
+      },
+      {
+        "id": 43,
+        "value": "sumus",
+        "head_id": 44,
+        "relation": "AuxV",
+        "lemma": "sum1",
+        "tag": "v1ppia---"
+      },
+      {
+        "id": 44,
+        "value": "dicturi",
+        "head_id": 46,
+        "relation": "ADJ-RC_OBJ",
+        "lemma": "dico2",
+        "tag": "v-pfpamn-"
+      },
+      {
+        "id": 45,
+        "value": ".",
+        "head_id": 0,
+        "relation": "AuxK",
+        "lemma": "punc1",
+        "tag": "u--------",
+        "original_head_id": 0
+      },
+      {
+        "id": 46,
+        "value": "(audimus)",
+        "head_id": 37,
+        "relation": "ADJ-RC_CO",
+        "lemma": "",
+        "tag": ""
+      }
+    ],
+    "references": [
+      "urn:cts:latinLit:phi0448.phi001.perseus-lat2-harrington-trees:9"
+    ],
+    "citation": "8.pr (9)"
+  },
+  {
+    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:harrington-1-phi0448-phi001-lat-10",
+    "treebank_id": "10",
+    "words": [
+      {
+        "id": 1,
+        "value": "Sed",
+        "head_id": 0,
+        "relation": "COORD",
+        "lemma": "sed",
+        "tag": "c--------",
+        "original_head_id": 0
+      },
+      {
+        "id": 2,
+        "value": "ego",
+        "head_id": 19,
+        "relation": "N-SUBJ",
+        "lemma": "ego",
+        "tag": "p-s---mn-"
+      },
+      {
+        "id": 3,
+        "value": "nimirum",
+        "head_id": 19,
+        "relation": "ADV",
+        "lemma": "nimirum",
+        "tag": "d--------"
+      },
+      {
+        "id": 4,
+        "value": ",",
+        "head_id": 9,
+        "relation": "AuxX",
+        "lemma": "punc1",
+        "tag": "u--------"
+      },
+      {
+        "id": 5,
+        "value": "dum",
+        "head_id": 19,
+        "relation": "AuxC",
+        "lemma": "dum",
+        "tag": "c--------"
+      },
+      {
+        "id": 6,
+        "value": "omnes",
+        "head_id": 8,
+        "relation": "ATR",
+        "lemma": "omnis",
+        "tag": "a-p---fa-"
+      },
+      {
+        "id": 7,
+        "value": "excusationis",
+        "head_id": 8,
+        "relation": "G-POSS",
+        "lemma": "excusatio",
+        "tag": "n-s---fg-"
+      },
+      {
+        "id": 8,
+        "value": "causas",
+        "head_id": 9,
+        "relation": "A-DO",
+        "lemma": "causa",
+        "tag": "n-p---fa-"
+      },
+      {
+        "id": 9,
+        "value": "colligo",
+        "head_id": 5,
+        "relation": "ADV-TEMPOR",
+        "lemma": "colligo1",
+        "tag": "v1spia---"
+      },
+      {
+        "id": 10,
+        "value": "ne",
+        "head_id": 9,
+        "relation": "AuxC",
+        "lemma": "ne1",
+        "tag": "d--------"
+      },
+      {
+        "id": 11,
+        "value": "cum",
+        "head_id": 13,
+        "relation": "AuxP",
+        "lemma": "cum",
+        "tag": "r--------"
+      },
+      {
+        "id": 12,
+        "value": "Caesare",
+        "head_id": 11,
+        "relation": "AB-ACCOMP",
+        "lemma": "Caesar",
+        "tag": "n-s---mb-"
+      },
+      {
+        "id": 13,
+        "value": "conferar",
+        "head_id": 10,
+        "relation": "ADV-PURP",
+        "lemma": "confero",
+        "tag": "v1spsp---"
+      },
+      {
+        "id": 14,
+        "value": ",",
+        "head_id": 9,
+        "relation": "AuxX",
+        "lemma": "punc1",
+        "tag": "u--------"
+      },
+      {
+        "id": 15,
+        "value": "hoc",
+        "head_id": 17,
+        "relation": "ATR",
+        "lemma": "hic",
+        "tag": "p-s---na-"
+      },
+      {
+        "id": 16,
+        "value": "ipsum",
+        "head_id": 17,
+        "relation": "ATR",
+        "lemma": "ipse",
+        "tag": "p-s---na-"
+      },
+      {
+        "id": 17,
+        "value": "crimen",
+        "head_id": 19,
+        "relation": "A-ORIENT",
+        "lemma": "crimen",
+        "tag": "n-s---na-"
+      },
+      {
+        "id": 18,
+        "value": "arrogantiae",
+        "head_id": 17,
+        "relation": "G-DESC",
+        "lemma": "arrogantia",
+        "tag": "n-s---fg-"
+      },
+      {
+        "id": 19,
+        "value": "subeo",
+        "head_id": 1,
+        "relation": "PRED",
+        "lemma": "subeo",
+        "tag": "v1spia---"
+      },
+      {
+        "id": 20,
+        "value": ",",
+        "head_id": 25,
+        "relation": "AuxX",
+        "lemma": "punc1",
+        "tag": "u--------"
+      },
+      {
+        "id": 21,
+        "value": "quod",
+        "head_id": 19,
+        "relation": "AuxC",
+        "lemma": "qui2",
+        "tag": "p-s---na-"
+      },
+      {
+        "id": 22,
+        "value": "me",
+        "head_id": 26,
+        "relation": "A-SUBJ",
+        "lemma": "ego",
+        "tag": "p-s---ma-"
+      },
+      {
+        "id": 23,
+        "value": "iudicio",
+        "head_id": 29,
+        "relation": "AB-LOCAT",
+        "lemma": "judicium",
+        "tag": "n-s---nb-"
+      },
+      {
+        "id": 24,
+        "value": "cuiusquam",
+        "head_id": 23,
+        "relation": "G-POSS",
+        "lemma": "quisquam",
+        "tag": "p-s---mg-"
+      },
+      {
+        "id": 25,
+        "value": "existimem",
+        "head_id": 21,
+        "relation": "ADV-CAUSAL",
+        "lemma": "existimo",
+        "tag": "v1spsa---"
+      },
+      {
+        "id": 26,
+        "value": "posse",
+        "head_id": 25,
+        "relation": "NOM-INDSTAT_OBJ",
+        "lemma": "possum",
+        "tag": "v--pna---"
+      },
+      {
+        "id": 27,
+        "value": "cum",
+        "head_id": 29,
+        "relation": "AuxP",
+        "lemma": "cum",
+        "tag": "r--------"
+      },
+      {
+        "id": 28,
+        "value": "Caesare",
+        "head_id": 27,
+        "relation": "AB-ACCOMP",
+        "lemma": "Caesar",
+        "tag": "n-s---mb-"
+      },
+      {
+        "id": 29,
+        "value": "comparari",
+        "head_id": 26,
+        "relation": "INF-COMP",
+        "lemma": "comparo1",
+        "tag": "v--pnp---"
+      },
+      {
+        "id": 30,
+        "value": ".",
+        "head_id": 0,
+        "relation": "AuxK",
+        "lemma": "punc1",
+        "tag": "u--------",
+        "original_head_id": 0
+      }
+    ],
+    "references": [
+      "urn:cts:latinLit:phi0448.phi001.perseus-lat2-harrington-trees:10"
+    ],
+    "citation": "8.pr (10)"
+  },
+  {
+    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:harrington-1-phi0448-phi001-lat-11",
+    "treebank_id": "11",
+    "words": [
+      {
+        "id": 1,
+        "value": "Vale",
+        "head_id": 0,
+        "relation": "PRED",
+        "lemma": "valeo",
+        "tag": "v2spma---",
+        "original_head_id": 0
+      },
+      {
+        "id": 2,
+        "value": ".",
+        "head_id": 0,
+        "relation": "AuxK",
+        "lemma": "punc1",
+        "tag": "u--------",
+        "original_head_id": 0
+      }
+    ],
+    "references": [
+      "urn:cts:latinLit:phi0448.phi001.perseus-lat2-harrington-trees:11"
+    ],
+    "citation": "8.pr (11)"
+  }
+]
