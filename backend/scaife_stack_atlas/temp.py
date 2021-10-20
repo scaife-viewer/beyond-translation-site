@@ -39,6 +39,9 @@ def process_file(path):
         version_objs.append(Node.objects.get(urn=version))
 
     alignment = TextAlignment(label=data["label"], urn=data["urn"],)
+    if data.get("enable_prototype"):
+        alignment.metadata = {"enable_prototype": True}
+
     alignment.save()
     alignment.versions.set(version_objs)
 
