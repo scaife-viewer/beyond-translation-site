@@ -16,7 +16,92 @@ def transform_headwords(words):
     return words
 
 
-def extract_trees(input_path, version_urn):
+def _mapped_role(value):
+    # TODO: We're skipping these other roles for now
+    return {
+        # "supervisor": "Supervisor",
+        "annotator of the text": "Annotator",
+        # "release editor: post-annotation normalization and harmonization": "Release Editor",
+        # "responsible for the annotation environment and cts:urn technology": "Annotation Environment",
+    }.get(value, None)
+
+
+def _sort_records(records):
+    weight_lookup = {
+        "Supervisor": 4,
+        "Annotator": 1,
+        "Release Editor": 2,
+        "Annotation Environment": 3,
+    }
+    return sorted(records, key=lambda x: weight_lookup[x["role"]])
+
+
+def extract_attribution_info(input_path):
+    records = []
+    with input_path.open() as f:
+        tree = etree.parse(f)
+
+    for statement in tree.xpath("//respStmt"):
+        record = dict()
+
+        resp = statement.find("resp")
+        if resp is not None:
+            record["role"] = resp.text
+        else:
+            record["role"] = statement.find("persName").find("resp").text
+
+        record["role"] = _mapped_role(record["role"])
+        if not record["role"]:
+            continue
+
+        pers = statement.find("persName")
+
+        name = pers.find("name")
+        if name is not None:
+            record["person"] = dict(name=name.text)
+            record["_short_name"] = pers.find("short").text
+        else:
+            record["person"] = dict(name=pers.text)
+
+        address = pers.find("address")
+        if address is not None:
+            record["organization"] = dict(name=address.text)
+            name
+        else:
+            value = statement.find("address")
+            record["organization"] = dict(name=value.text)
+
+        record["data"] = {"references": []}
+
+        records.append(record)
+
+    return _sort_records(records)
+
+
+def get_records_lookup(records):
+    records_lookup = {}
+    for record in records:
+        key = record.pop("_short_name")
+        records_lookup[key] = record
+    return records_lookup
+
+
+def update_attributions(sentence, records_lookup, urn):
+    short_names = [elem.text for elem in sentence.xpath(".//primary | .//secondary")]
+    for short_name in short_names:
+        try:
+            annotator = records_lookup[short_name]
+        except KeyError as excep:
+            if short_name == "millermo2":
+                annotator = records_lookup["millermo"]
+            elif short_name in ["david.bamman", "gleason"]:
+                continue
+            else:
+                raise excep
+        annotator["data"]["references"].append(urn)
+
+
+def extract_trees(input_path, version_urn, records_lookup):
     with input_path.open() as f:
         tree = etree.parse(f)
     to_create = []
@@ -31,6 +116,9 @@ def extract_trees(input_path, version_urn):
             "treebank_id": sentence_id,
             "words": [],
         }
+
+        update_attributions(sentence, records_lookup, sentence_obj["urn"])
+
         last_cite = None
         for word in sentence.xpath(".//word"):
             id_val = word.attrib["id"]
@@ -84,11 +172,29 @@ def main():
         version_part = f"{work_part}.perseus-grc2"
         version_urn = f"urn:cts:greekLit:{version_part}:"
 
-        trees = extract_trees(input_path, version_urn)
+        records = extract_attribution_info(input_path)
+        records_lookup = get_records_lookup(records)
+
+        trees = extract_trees(input_path, version_urn, records_lookup)
+
+        # Write out trees
         output_name = f"gregorycrane_gagdt_syntax_trees_{version_part}.json"
         output_path = Path("data/annotations/syntax-trees", output_name)
         json.dump(
             trees, output_path.open("w"), ensure_ascii=False, indent=2,
+        )
+
+        # Write out attributions
+        output_name = (
+            f"attributions_gregorycrane_gagdt_syntax_trees_{version_part}.json"
+        )
+        output_path = Path("data/annotations/attributions", output_name)
+        output_path.parent.mkdir(parents=True, exist_ok=True)
+        json.dump(
+            list(records_lookup.values()),
+            output_path.open("w"),
+            ensure_ascii=False,
+            indent=2,
         )
 
 

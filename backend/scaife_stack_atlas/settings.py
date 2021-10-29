@@ -190,6 +190,7 @@ if "SV_ATLAS_INGESTION_CONCURRENCY" in os.environ:
 SV_ATLAS_INGESTION_PIPELINE = [
     "scaife_viewer.atlas.importers.versions.import_versions",
     "scaife_viewer.atlas.importers.text_annotations.import_text_annotations",
+    "scaife_viewer.atlas.importers.attributions.import_attributions",
     "scaife_viewer.atlas.importers.metrical_annotations.import_metrical_annotations",
     "scaife_viewer.atlas.importers.image_annotations.import_image_annotations",
     "scaife_viewer.atlas.importers.audio_annotations.import_audio_annotations",
