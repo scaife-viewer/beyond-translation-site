@@ -1454,13 +1454,14 @@
     graphql-tag "^2.10.3"
     vue-apollo "^3.0.4"
 
-"@scaife-viewer/reader-syntax-trees-mode@https://gitpkg.now.sh/scaife-viewer/frontend/packages/reader-syntax-trees-mode?1846ea36c504a74ee075a5e7767787ba081b2bd4":
+"@scaife-viewer/reader-syntax-trees-mode@https://gitpkg.now.sh/scaife-viewer/frontend/packages/reader-syntax-trees-mode?dd01c0ac043f018326cfc262a9d2e6e38064da53":
   version "0.4.0"
-  resolved "https://gitpkg.now.sh/scaife-viewer/frontend/packages/reader-syntax-trees-mode?1846ea36c504a74ee075a5e7767787ba081b2bd4#fc5dc9e88a444e74cb084f7e16d022d9196ac667"
+  resolved "https://gitpkg.now.sh/scaife-viewer/frontend/packages/reader-syntax-trees-mode?dd01c0ac043f018326cfc262a9d2e6e38064da53#697678d4f071fd719d6e3321e9f99887823fe83b"
   dependencies:
     "@scaife-viewer/common" "^0.0.2"
     "@scaife-viewer/store" "^0.0.4"
     "@scaife-viewer/vue-treant" "^0.4.0"
+    "@scaife-viewer/widget-attributions" "^0.4.1"
     graphql-tag "^2.10.3"
     vue-apollo "^3.0.4"
 
@@ -1504,6 +1505,14 @@
   integrity sha512-RXkEtC+BkBqYuT1s2W28wuRHuvdM45oBIhpbAA9fkARnoPSC7u2zp9c5avlLy7+DpRplFRdtRsPegiDHGgyxGA==
   dependencies:
     treantjs "^1.0.0"
+
+"@scaife-viewer/widget-attributions@^0.4.1":
+  version "0.4.1"
+  resolved "https://registry.yarnpkg.com/@scaife-viewer/widget-attributions/-/widget-attributions-0.4.1.tgz#d2b55228bfa631782aba3435a65a919e9c4dd07a"
+  integrity sha512-a69vbTAfKr9Hym07sERlh+JWf2WiSZdVVU3rB3j6H+Zi5ee8FiJn9jNPe0TwXQ2VEdrdIkTakRGVBTP3RZYjxw==
+  dependencies:
+    "@scaife-viewer/store" "^0.4.0"
+    graphql-tag "^2.11.0"
 
 "@scaife-viewer/widget-audio@^0.0.11":
   version "0.0.11"

@@ -91,12 +91,22 @@ def load_token_annotations(reset=False):
 
 def set_text_annotation_collection(reset=False):
     # TODO: Reset is a no-op
+    collection_urn = "urn:cite2:beyond-translation:text_annotation_collection.atlas_v1:il_gregorycrane_gAGDT"
+    if reset:
+        TextAnnotation.objects.filter(collection__urn=collection_urn).update(collection=None)
+        TextAnnotationCollection.objects.filter(urn=collection_urn).delete()
+
     tas = TextAnnotation.objects.filter(
         urn__istartswith="urn:cite2:exploreHomer:syntaxTree.v1:syntaxTree-tlg0012-"
     )
     collection = TextAnnotationCollection.objects.create(
         label="gregorycrane/gAGDT",
-        data={},
-        urn="urn:cite2:beyond-translation:text_annotation_collection.atlas_v1:il_gregorycrane_gAGDT",
+        data={
+            "source": {
+                "title": "gregorycrane/gAGDT",
+                "url": "https://github.com/gregorycrane/gAGDT",
+            }
+        },
+        urn=collection_urn,
     )
     tas.update(collection=collection)
