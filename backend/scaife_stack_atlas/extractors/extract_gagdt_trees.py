@@ -31,6 +31,7 @@ def extract_trees(input_path, version_urn):
             "treebank_id": sentence_id,
             "words": [],
         }
+        last_cite = None
         for word in sentence.xpath(".//word"):
             id_val = word.attrib["id"]
             try:
@@ -54,7 +55,13 @@ def extract_trees(input_path, version_urn):
             cite = word.attrib.get("cite")
             if cite:
                 ref = cite.rsplit(":", maxsplit=1)[1]
+                word_obj["ref"] = ref
                 seen_urns.add(f"{version_urn}{ref}")
+                if last_cite is None:
+                    last_cite = cite
+                if cite != last_cite:
+                    word_obj["break_before"] = True
+                    last_cite = cite
             sentence_obj["words"].append(word_obj)
 
         sentence_obj["words"] = transform_headwords(sentence_obj["words"])
