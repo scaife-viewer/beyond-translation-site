@@ -106,7 +106,8 @@ def set_gorman_attributions(reset=False):
     person, created = AttributionPerson.objects.get_or_create(name="Vanessa Gorman")
     if not created or reset:
         # FIXME: Actually create the proper attribution modeling for this
-        person.records.delete()
+        # TODO: Alias as records
+        person.attributionrecord_set.all().delete()
     organization, _ = AttributionOrganization.objects.get_or_create(
         name="University of Nebraska-Lincoln"
     )
