@@ -1454,9 +1454,9 @@
     graphql-tag "^2.10.3"
     vue-apollo "^3.0.4"
 
-"@scaife-viewer/reader-syntax-trees-mode@https://gitpkg.now.sh/scaife-viewer/frontend/packages/reader-syntax-trees-mode?dd01c0ac043f018326cfc262a9d2e6e38064da53":
+"@scaife-viewer/reader-syntax-trees-mode@https://gitpkg.now.sh/scaife-viewer/frontend/packages/reader-syntax-trees-mode?bb516e31354a52cd1a237133491de8c03dc28f6a":
   version "0.4.0"
-  resolved "https://gitpkg.now.sh/scaife-viewer/frontend/packages/reader-syntax-trees-mode?dd01c0ac043f018326cfc262a9d2e6e38064da53#697678d4f071fd719d6e3321e9f99887823fe83b"
+  resolved "https://gitpkg.now.sh/scaife-viewer/frontend/packages/reader-syntax-trees-mode?bb516e31354a52cd1a237133491de8c03dc28f6a#75a186331048a2dab971c55f2042584b33c29252"
   dependencies:
     "@scaife-viewer/common" "^0.0.2"
     "@scaife-viewer/store" "^0.0.4"
