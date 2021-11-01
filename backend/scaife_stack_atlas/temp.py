@@ -4,6 +4,9 @@ import os
 from scaife_viewer.atlas.conf import settings
 from scaife_viewer.atlas.importers.token_annotations import apply_token_annotations
 from scaife_viewer.atlas.models import (
+    AttributionOrganization,
+    AttributionPerson,
+    AttributionRecord,
     Node,
     TextAlignment,
     TextAlignmentRecord,
@@ -95,5 +98,47 @@ def set_text_annotation_collection(reset=False):
         label="gregorycrane/gAGDT",
         data={},
         urn="urn:cite2:beyond-translation:text_annotation_collection.atlas_v1:il_gregorycrane_gAGDT",
+    )
+    tas.update(collection=collection)
+
+
+def set_gorman_attributions(reset=False):
+    person, created = AttributionPerson.objects.get_or_create(name="Vanessa Gorman")
+    if not created or reset:
+        # FIXME: Actually create the proper attribution modeling for this
+        person.records.delete()
+    organization, _ = AttributionOrganization.objects.get_or_create(
+        name="University of Nebraska-Lincoln"
+    )
+
+    syntax_trees = TextAnnotation.objects.filter(data__references__icontains="vgorman1")
+    AttributionRecord.objects.create(
+        person=person,
+        organization=organization,
+        role="Annotator",
+        data=dict(references=[list(syntax_trees.values_list("urn"))]),
+    )
+
+
+def create_gorman_collection(reset=False):
+    collection_urn = (
+        "urn:cite2:beyond-translation:text_annotation_collection.atlas_v1:gorman_trees"
+    )
+    if reset:
+        TextAnnotation.objects.filter(collection__urn=collection_urn).update(
+            collection=None
+        )
+        TextAnnotationCollection.objects.filter(urn=collection_urn).delete()
+
+    tas = TextAnnotation.objects.filter(data__references__icontains="vgorman1")
+    collection = TextAnnotationCollection.objects.create(
+        label="perseids-publications/gorman-trees",
+        data={
+            "source": {
+                "title": "perseids-publications/gorman-trees",
+                "url": "https://github.com/perseids-publications/gorman-trees",
+            }
+        },
+        urn=collection_urn,
     )
     tas.update(collection=collection)
