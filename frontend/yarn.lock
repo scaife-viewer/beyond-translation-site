@@ -1405,17 +1405,17 @@
     mapbox-gl "^1.11.0"
     vue-mapbox "^0.4.1"
 
-"@scaife-viewer/reader-alignments-mode@https://gitpkg.now.sh/scaife-viewer/frontend/packages/reader-alignments-mode?7a837cd31a6ae1da2abdb8323d3d1f9598f992c8":
+"@scaife-viewer/reader-alignments-mode@https://gitpkg.now.sh/scaife-viewer/frontend/packages/reader-alignments-mode?7cf655687a38af8e2f3f9cc7e70033bc76fbbee8":
   version "0.4.0"
-  resolved "https://gitpkg.now.sh/scaife-viewer/frontend/packages/reader-alignments-mode?7a837cd31a6ae1da2abdb8323d3d1f9598f992c8#73a80131007ccbf12c405175f10f25204587220a"
+  resolved "https://gitpkg.now.sh/scaife-viewer/frontend/packages/reader-alignments-mode?7cf655687a38af8e2f3f9cc7e70033bc76fbbee8#25a96b2da6660e4946f6cafc10a60a1d60d5d912"
   dependencies:
     "@scaife-viewer/common" "^0.4.0"
     "@scaife-viewer/store" "^0.4.0"
     graphql-tag "^2.10.3"
 
-"@scaife-viewer/reader-image-mode@https://gitpkg.now.sh/scaife-viewer/frontend/packages/reader-image-mode?7a837cd31a6ae1da2abdb8323d3d1f9598f992c8":
+"@scaife-viewer/reader-image-mode@https://gitpkg.now.sh/scaife-viewer/frontend/packages/reader-image-mode?7cf655687a38af8e2f3f9cc7e70033bc76fbbee8":
   version "0.4.0"
-  resolved "https://gitpkg.now.sh/scaife-viewer/frontend/packages/reader-image-mode?7a837cd31a6ae1da2abdb8323d3d1f9598f992c8#9053cc3834c974bc5526444446ca6a6c5c2c341b"
+  resolved "https://gitpkg.now.sh/scaife-viewer/frontend/packages/reader-image-mode?7cf655687a38af8e2f3f9cc7e70033bc76fbbee8#f0aee07989911b6c0f80ebc989ed750507c8d688"
   dependencies:
     "@fortawesome/free-solid-svg-icons" "^5.14.0"
     "@scaife-viewer/common" "^0.4.0"
@@ -1424,27 +1424,27 @@
     openseadragon "^2.4.2"
     vue-apollo "^3.0.4"
 
-"@scaife-viewer/reader-interlinear-mode@https://gitpkg.now.sh/scaife-viewer/frontend/packages/reader-interlinear-mode?7a837cd31a6ae1da2abdb8323d3d1f9598f992c8":
+"@scaife-viewer/reader-interlinear-mode@https://gitpkg.now.sh/scaife-viewer/frontend/packages/reader-interlinear-mode?7cf655687a38af8e2f3f9cc7e70033bc76fbbee8":
   version "0.4.0"
-  resolved "https://gitpkg.now.sh/scaife-viewer/frontend/packages/reader-interlinear-mode?7a837cd31a6ae1da2abdb8323d3d1f9598f992c8#05dcb2b634247308da8ce992db2edfe10bc1db11"
+  resolved "https://gitpkg.now.sh/scaife-viewer/frontend/packages/reader-interlinear-mode?7cf655687a38af8e2f3f9cc7e70033bc76fbbee8#e47fe212df2632bb402f81ecab602d0986ad7bdd"
   dependencies:
     "@scaife-viewer/common" "^0.4.0"
     "@scaife-viewer/widget-reader" "https://gitpkg.now.sh/scaife-viewer/frontend/packages/widget-reader?3e6e06ffbecc7f9114d8e625792f05f6bbd7bed0"
     graphql-tag "^2.10.3"
     vue-apollo "^3.0.4"
 
-"@scaife-viewer/reader-metrical-mode@https://gitpkg.now.sh/scaife-viewer/frontend/packages/reader-metrical-mode?7a837cd31a6ae1da2abdb8323d3d1f9598f992c8":
+"@scaife-viewer/reader-metrical-mode@https://gitpkg.now.sh/scaife-viewer/frontend/packages/reader-metrical-mode?7cf655687a38af8e2f3f9cc7e70033bc76fbbee8":
   version "0.4.0"
-  resolved "https://gitpkg.now.sh/scaife-viewer/frontend/packages/reader-metrical-mode?7a837cd31a6ae1da2abdb8323d3d1f9598f992c8#1c315ce1fe43905f1d55754bdf92381bf36e2474"
+  resolved "https://gitpkg.now.sh/scaife-viewer/frontend/packages/reader-metrical-mode?7cf655687a38af8e2f3f9cc7e70033bc76fbbee8#6cd4a4d801c7def973b0a514d4e9a01c951b231f"
   dependencies:
     "@scaife-viewer/common" "^0.4.0"
     "@scaife-viewer/widget-reader" "https://gitpkg.now.sh/scaife-viewer/frontend/packages/widget-reader?3e6e06ffbecc7f9114d8e625792f05f6bbd7bed0"
     graphql-tag "^2.10.3"
     vue-apollo "^3.0.4"
 
-"@scaife-viewer/reader-named-entities-mode@https://gitpkg.now.sh/scaife-viewer/frontend/packages/reader-named-entities-mode?7a837cd31a6ae1da2abdb8323d3d1f9598f992c8":
+"@scaife-viewer/reader-named-entities-mode@https://gitpkg.now.sh/scaife-viewer/frontend/packages/reader-named-entities-mode?7cf655687a38af8e2f3f9cc7e70033bc76fbbee8":
   version "0.4.0"
-  resolved "https://gitpkg.now.sh/scaife-viewer/frontend/packages/reader-named-entities-mode?7a837cd31a6ae1da2abdb8323d3d1f9598f992c8#d1cf815feba93c375b8f3cd02ab20e65b1c8259e"
+  resolved "https://gitpkg.now.sh/scaife-viewer/frontend/packages/reader-named-entities-mode?7cf655687a38af8e2f3f9cc7e70033bc76fbbee8#f444c252e0ddca36f27eb8e21cfcec7770408f65"
   dependencies:
     "@fortawesome/free-solid-svg-icons" "^5.14.0"
     "@scaife-viewer/common" "^0.4.0"
@@ -1454,13 +1454,13 @@
     graphql-tag "^2.10.3"
     vue-apollo "^3.0.4"
 
-"@scaife-viewer/reader-syntax-trees-mode@https://gitpkg.now.sh/scaife-viewer/frontend/packages/reader-syntax-trees-mode?bb516e31354a52cd1a237133491de8c03dc28f6a":
+"@scaife-viewer/reader-syntax-trees-mode@https://gitpkg.now.sh/scaife-viewer/frontend/packages/reader-syntax-trees-mode?7cf655687a38af8e2f3f9cc7e70033bc76fbbee8":
   version "0.4.0"
-  resolved "https://gitpkg.now.sh/scaife-viewer/frontend/packages/reader-syntax-trees-mode?bb516e31354a52cd1a237133491de8c03dc28f6a#75a186331048a2dab971c55f2042584b33c29252"
+  resolved "https://gitpkg.now.sh/scaife-viewer/frontend/packages/reader-syntax-trees-mode?7cf655687a38af8e2f3f9cc7e70033bc76fbbee8#ceb752a246d00dfc7d5c063b548834f7acb66aa5"
   dependencies:
     "@scaife-viewer/common" "^0.0.2"
     "@scaife-viewer/store" "^0.0.4"
-    "@scaife-viewer/vue-treant" "^0.4.0"
+    "@scaife-viewer/vue-treant" "https://gitpkg.now.sh/scaife-viewer/frontend/packages/vue-treant?c79824a659456660ed10719c69f909c5f618a018"
     "@scaife-viewer/widget-attributions" "^0.4.1"
     graphql-tag "^2.10.3"
     vue-apollo "^3.0.4"
@@ -1499,12 +1499,18 @@
     "@scaife-viewer/common" "^0.4.0"
     graphql-tag "^2.10.3"
 
-"@scaife-viewer/vue-treant@^0.4.0":
+"@scaife-viewer/store@https://gitpkg.now.sh/scaife-viewer/frontend/packages/store?7cf655687a38af8e2f3f9cc7e70033bc76fbbee8":
   version "0.4.0"
-  resolved "https://registry.yarnpkg.com/@scaife-viewer/vue-treant/-/vue-treant-0.4.0.tgz#cc84b6a35fab62f97cc127a02eebd5d72daa82dd"
-  integrity sha512-RXkEtC+BkBqYuT1s2W28wuRHuvdM45oBIhpbAA9fkARnoPSC7u2zp9c5avlLy7+DpRplFRdtRsPegiDHGgyxGA==
+  resolved "https://gitpkg.now.sh/scaife-viewer/frontend/packages/store?7cf655687a38af8e2f3f9cc7e70033bc76fbbee8#ac9c34177fd5c53a57f47e7377f17f4b34a4a8db"
   dependencies:
-    treantjs "^1.0.0"
+    "@scaife-viewer/common" "^0.4.0"
+    graphql-tag "^2.10.3"
+
+"@scaife-viewer/vue-treant@https://gitpkg.now.sh/scaife-viewer/frontend/packages/vue-treant?c79824a659456660ed10719c69f909c5f618a018":
+  version "0.4.0"
+  resolved "https://gitpkg.now.sh/scaife-viewer/frontend/packages/vue-treant?c79824a659456660ed10719c69f909c5f618a018#9ee9070bd25cb225cc476b7c8e0e4d23d47b4ec5"
+  dependencies:
+    raphael "^2.3.0"
 
 "@scaife-viewer/widget-attributions@^0.4.1":
   version "0.4.1"
@@ -1547,9 +1553,9 @@
   dependencies:
     "@scaife-viewer/store" "^0.0.10"
 
-"@scaife-viewer/widget-named-entities@https://gitpkg.now.sh/scaife-viewer/frontend/packages/widget-named-entities?7a837cd31a6ae1da2abdb8323d3d1f9598f992c8":
+"@scaife-viewer/widget-named-entities@https://gitpkg.now.sh/scaife-viewer/frontend/packages/widget-named-entities?7cf655687a38af8e2f3f9cc7e70033bc76fbbee8":
   version "0.4.0"
-  resolved "https://gitpkg.now.sh/scaife-viewer/frontend/packages/widget-named-entities?7a837cd31a6ae1da2abdb8323d3d1f9598f992c8#52c841d36ae2393d45cc8fbb22a268ca79c0585a"
+  resolved "https://gitpkg.now.sh/scaife-viewer/frontend/packages/widget-named-entities?7cf655687a38af8e2f3f9cc7e70033bc76fbbee8#3431b0846f5ecd7d444ba91952317e21f67d1e2f"
   dependencies:
     "@fortawesome/free-solid-svg-icons" "^5.14.0"
     "@scaife-viewer/common" "^0.4.0"
@@ -1613,9 +1619,9 @@
     graphql-tag "^2.10.3"
     vue-apollo "^3.0.4"
 
-"@scaife-viewer/widget-reader@https://gitpkg.now.sh/scaife-viewer/frontend/packages/widget-reader?7a837cd31a6ae1da2abdb8323d3d1f9598f992c8":
+"@scaife-viewer/widget-reader@https://gitpkg.now.sh/scaife-viewer/frontend/packages/widget-reader?7cf655687a38af8e2f3f9cc7e70033bc76fbbee8":
   version "0.4.0"
-  resolved "https://gitpkg.now.sh/scaife-viewer/frontend/packages/widget-reader?7a837cd31a6ae1da2abdb8323d3d1f9598f992c8#85736f1acfa68f3f72ddfd8205229e8be91708aa"
+  resolved "https://gitpkg.now.sh/scaife-viewer/frontend/packages/widget-reader?7cf655687a38af8e2f3f9cc7e70033bc76fbbee8#3db5d9ea898954b3cd6f22f98e93aa56c6336f72"
   dependencies:
     "@scaife-viewer/common" "^0.4.0"
     "@scaife-viewer/store" "^0.4.0"
@@ -5383,6 +5389,11 @@ etag@~1.8.1:
   version "1.8.1"
   resolved "https://registry.yarnpkg.com/etag/-/etag-1.8.1.tgz#41ae2eeb65efa62268aebfea83ac7d79299b0887"
   integrity sha1-Qa4u62XvpiJorr/qg6x9eSmbCIc=
+
+eve-raphael@0.5.0:
+  version "0.5.0"
+  resolved "https://registry.yarnpkg.com/eve-raphael/-/eve-raphael-0.5.0.tgz#17c754b792beef3fa6684d79cf5a47c63c4cda30"
+  integrity sha1-F8dUt5K+7z+maE15z1pHxjxM2jA=
 
 event-pubsub@4.3.0:
   version "4.3.0"
@@ -10358,6 +10369,13 @@ range-parser@^1.2.1, range-parser@~1.2.1:
   resolved "https://registry.yarnpkg.com/range-parser/-/range-parser-1.2.1.tgz#3cf37023d199e1c24d1a55b84800c2f3e6468031"
   integrity sha512-Hrgsx+orqoygnmhFbKaHE6c296J+HTAQXoxEF6gNupROmmGJRoyzfG3ccAveqCBrwr/2yxQ5BVd/GTl5agOwSg==
 
+raphael@^2.3.0:
+  version "2.3.0"
+  resolved "https://registry.yarnpkg.com/raphael/-/raphael-2.3.0.tgz#eabeb09dba861a1d4cee077eaafb8c53f3131f89"
+  integrity sha512-w2yIenZAQnp257XUWGni4bLMVxpUpcIl7qgxEgDIXtmSypYtlNxfXWpOBxs7LBTps5sDwhRnrToJrMUrivqNTQ==
+  dependencies:
+    eve-raphael "0.5.0"
+
 raw-body@2.4.0:
   version "2.4.0"
   resolved "https://registry.yarnpkg.com/raw-body/-/raw-body-2.4.0.tgz#a1ce6fb9c9bc356ca52e89256ab59059e13d0332"
@@ -12005,11 +12023,6 @@ tr46@^2.0.2:
   integrity sha512-3n1qG+/5kg+jrbTzwAykB5yRYtQCTqOGKq5U5PE3b0a1/mzo6snDhjGS0zJVJunO0NrT3Dg1MLy5TjWP/UJppg==
   dependencies:
     punycode "^2.1.1"
-
-treantjs@^1.0.0:
-  version "1.0.0"
-  resolved "https://registry.yarnpkg.com/treantjs/-/treantjs-1.0.0.tgz#dbc3f053e691cf700e671ff17c6e68c924a813aa"
-  integrity sha1-28PwU+aRz3AOZx/xfG5oySSoE6o=
 
 trim-newlines@^1.0.0:
   version "1.0.0"
