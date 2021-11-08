@@ -138,6 +138,7 @@ INSTALLED_APPS = [
     "scaife_viewer.atlas",
     # project
     "scaife_stack_atlas",
+    "scaife_stack_atlas.chs_homer_proxy",
 ]
 
 ADMIN_URL = "admin:index"
@@ -214,4 +215,13 @@ DATABASES = {
         # config in the future anyways
         "OPTIONS": {"timeout": 5 * 60},
     }
+}
+
+
+CACHES = {
+    "default": {"BACKEND": "django.core.cache.backends.locmem.LocMemCache"},
+    "nac_proxy": {
+        "BACKEND": "django.core.cache.backends.locmem.LocMemCache",
+        "LOCATION": "nac-proxy",
+    },
 }

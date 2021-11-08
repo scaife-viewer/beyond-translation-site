@@ -5,6 +5,7 @@ django-cors-headers==3.1.1
 django-extensions==2.2.6
 django-querycount==0.7.0
 django==2.2.15
+draftjs-exporter==4.1.2
 gunicorn==20.0.0
 pandas==1.3.1
 scaife-viewer-atlas @https://github.com/scaife-viewer/backend/archive/4bf633a54e378225ad076cd6b6c40081332d63ab.zip#subdirectory=atlas
