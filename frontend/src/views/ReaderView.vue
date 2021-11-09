@@ -29,6 +29,7 @@
   import ScholiaWidget from '@scaife-viewer/widget-scholia';
   import AudioWidget from '@scaife-viewer/widget-audio';
   import WordListWidget from '@scaife-viewer/widget-word-list';
+  import NewAlexandriaWidget from '@scaife-viewer/widget-new-alexandria';
 
   // import EHNewAlexandriaWidget from '../widgets/EHNewAlexandriaWidget.vue';
 
@@ -74,6 +75,7 @@
           NamedEntitiesWidget,
           TokenAnnotationWidget,
           WordListWidget,
+          NewAlexandriaWidget,
           // EHNewAlexandriaWidget,
           ScholiaWidget,
         ];
