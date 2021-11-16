@@ -1491,6 +1491,14 @@
     "@scaife-viewer/common" "^0.0.7"
     graphql-tag "^2.10.3"
 
+"@scaife-viewer/store@^0.4.0":
+  version "0.4.0"
+  resolved "https://registry.yarnpkg.com/@scaife-viewer/store/-/store-0.4.0.tgz#2576f717dc953be91ca4e8aed79e0c2938a851bf"
+  integrity sha512-RmgHgZttpjwjgLF6jw8S5+e+YW/tmsfi73UucORUeFphUMRTK8Kx/tHAQ8q/av+PZ3zPR6oj9b9SDtaJepz8cA==
+  dependencies:
+    "@scaife-viewer/common" "^0.4.0"
+    graphql-tag "^2.10.3"
+
 "@scaife-viewer/store@^0.5.0-beta.1":
   version "0.5.0-beta.1"
   resolved "https://registry.yarnpkg.com/@scaife-viewer/store/-/store-0.5.0-beta.1.tgz#f91f55a1da80b54c7ea1c90acc98a283fa2de20e"
@@ -1558,12 +1566,11 @@
     "@scaife-viewer/store" "^0.5.0-beta.1"
     graphql-tag "^2.10.3"
 
-"@scaife-viewer/widget-new-alexandria@^0.0.11":
-  version "0.0.11"
-  resolved "https://registry.yarnpkg.com/@scaife-viewer/widget-new-alexandria/-/widget-new-alexandria-0.0.11.tgz#83aeed422710ff4acfff70e5d04106e922546931"
-  integrity sha512-x6jOnjrSDE1XhIN5rAveesX/OdfCCadwDfHpqxmKdhscntg8I3lQwGEv455JTpRsTWpJwlNztjW2ws21Vnmu2w==
+"@scaife-viewer/widget-new-alexandria@https://gitpkg.now.sh/scaife-viewer/frontend/packages/widget-new-alexandria?b48935fa4737773a8d1b8460c75660ba26f3e0c9":
+  version "0.4.0"
+  resolved "https://gitpkg.now.sh/scaife-viewer/frontend/packages/widget-new-alexandria?b48935fa4737773a8d1b8460c75660ba26f3e0c9#af78d566be6398df091c1bcf427bbadd75678667"
   dependencies:
-    "@scaife-viewer/store" "^0.0.10"
+    "@scaife-viewer/store" "^0.4.0"
     graphql-tag "^2.10.3"
     query-string "^6.11.0"
 
