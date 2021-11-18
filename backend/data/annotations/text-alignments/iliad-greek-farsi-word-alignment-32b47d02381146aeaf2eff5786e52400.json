@@ -2,6 +2,7 @@
   "urn": "urn:cite2:scaife-viewer:alignment.v1:iliad-greek-farsi-word-alignment-32b47d02381146aeaf2eff5786e52400",
   "label": "Iliad Greek / Farsi Word Alignment",
   "format": "atlas-standoff-annotation",
+  "enable_prototype": true,
   "versions": [
     "urn:cts:greekLit:tlg0012.tlg001.perseus-grc1-sentences:",
     "urn:cts:greekLit:tlg0012.tlg001.shamsian-far1:"
