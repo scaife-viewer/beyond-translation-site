@@ -52,6 +52,27 @@
       ]
     },
     {
+      "urn": "urn:cts:greekLit:tlg0012.tlg002.perseus-eng3-trees:",
+      "format": "text",
+      "node_kind": "version",
+      "version_kind": "translation",
+      "lang": "eng",
+      "first_passage_urn": "urn:cts:greekLit:tlg0012.tlg002.perseus-eng3-trees:1",
+      "citation_scheme": ["sentence"],
+      "label": [
+        {
+          "lang": "eng",
+          "value": "Odyssey (Murray, sentences)"
+        }
+      ],
+      "description": [
+        {
+          "lang": "eng",
+          "value": "Homer, creator; Murray, A. T. (Augustus Taber), 1866-1940, translator"
+        }
+      ]
+    },
+    {
       "urn": "urn:cts:greekLit:tlg0012.tlg002.perseus-eng4:",
       "format": "cex",
       "node_kind": "version",
@@ -71,6 +92,48 @@
           "value": "Homer, creator; Butler, Samuel, 1835-1902, translator"
         }
       ]
-    }
+    },
+    {
+      "urn": "urn:cts:greekLit:tlg0012.tlg002.parrish-eng1:",
+      "format": "text",
+      "node_kind": "version",
+      "version_kind": "translation",
+      "lang": "eng",
+      "first_passage_urn": "urn:cts:greekLit:tlg0012.tlg002.parrish-eng1:5.1-5.10",
+      "citation_scheme": ["book", "line"],
+      "label": [
+        {
+          "lang": "eng",
+          "value": "Odyssey (English). Machine readable text"
+        }
+      ],
+      "description": [
+        {
+          "lang": "eng",
+          "value": "Homer, author; Towards a grammatically literal translation of the Odyssey, starting with Odyssey 5."
+        }
+      ]
+    },
+    {
+      "urn": "urn:cts:greekLit:tlg0012.tlg002.parrish-eng1-trees:",
+      "format": "text",
+      "node_kind": "version",
+      "version_kind": "translation",
+      "lang": "eng",
+      "first_passage_urn": "urn:cts:greekLit:tlg0012.tlg002.parrish-eng1-trees:1",
+      "citation_scheme": ["sentence"],
+      "label": [
+        {
+          "lang": "eng",
+          "value": "Odyssey (English) (sentences)"
+        }
+      ],
+      "description": [
+        {
+          "lang": "eng",
+          "value": "Homer, author; Towards a grammatically literal translation of the Odyssey, starting with Odyssey 5."
+        }
+      ]
+    } 
   ]
 }

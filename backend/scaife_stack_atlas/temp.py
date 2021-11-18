@@ -8,6 +8,8 @@ from scaife_viewer.atlas.models import (
     TextAlignment,
     TextAlignmentRecord,
     TextAlignmentRecordRelation,
+    TextAnnotation,
+    TextAnnotationCollection,
     Token,
 )
 from scaife_viewer.atlas.urn import URN
@@ -37,6 +39,9 @@ def process_file(path):
         version_objs.append(Node.objects.get(urn=version))
 
     alignment = TextAlignment(label=data["label"], urn=data["urn"],)
+    if data.get("enable_prototype"):
+        alignment.metadata = {"enable_prototype": True}
+
     alignment.save()
     alignment.versions.set(version_objs)
 
@@ -45,7 +50,12 @@ def process_file(path):
     # TODO: sorting versions from Ducat too, especially since Ducat doesn't have 'em
     # maybe something for CITE tools?
     for row in data["records"]:
-        record = TextAlignmentRecord(idx=idx, alignment=alignment, urn=row["urn"])
+        record = TextAlignmentRecord(
+            idx=idx,
+            alignment=alignment,
+            urn=row["urn"],
+            metadata=row.get("metadata", {}),
+        )
         record.save()
         idx += 1
         for version_obj, relation in zip(version_objs, row["relations"]):
@@ -82,3 +92,26 @@ def process_alignments(reset=False):
 
 def load_token_annotations(reset=False):
     apply_token_annotations()
+
+
+def set_text_annotation_collection(reset=False):
+    # TODO: Reset is a no-op
+    collection_urn = "urn:cite2:beyond-translation:text_annotation_collection.atlas_v1:il_gregorycrane_gAGDT"
+    if reset:
+        TextAnnotation.objects.filter(collection__urn=collection_urn).update(collection=None)
+        TextAnnotationCollection.objects.filter(urn=collection_urn).delete()
+
+    tas = TextAnnotation.objects.filter(
+        urn__istartswith="urn:cite2:exploreHomer:syntaxTree.v1:syntaxTree-tlg0012-"
+    )
+    collection = TextAnnotationCollection.objects.create(
+        label="gregorycrane/gAGDT",
+        data={
+            "source": {
+                "title": "gregorycrane/gAGDT",
+                "url": "https://github.com/gregorycrane/gAGDT",
+            }
+        },
+        urn=collection_urn,
+    )
+    tas.update(collection=collection)
