@@ -201,6 +201,7 @@ SV_ATLAS_INGESTION_PIPELINE = [
     # TODO: Backport to scaife_viewer.atlas
     "scaife_stack_atlas.temp.process_alignments",
     "scaife_stack_atlas.temp.set_text_annotation_collection",
+    "scaife_stack_atlas.temp.create_persian_greek_alignment",
 ]
 DB_DATA_PATH = os.environ.get("DB_DATA_PATH", PROJECT_ROOT)
 SV_ATLAS_DB_PATH = os.path.join(DB_DATA_PATH, "db.sqlite")

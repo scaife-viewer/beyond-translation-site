@@ -1,5 +1,8 @@
 import json
+import logging
 import os
+from collections import defaultdict
+from pathlib import Path
 
 from scaife_viewer.atlas.conf import settings
 from scaife_viewer.atlas.importers.token_annotations import apply_token_annotations
@@ -13,6 +16,10 @@ from scaife_viewer.atlas.models import (
     Token,
 )
 from scaife_viewer.atlas.urn import URN
+from scaife_viewer.atlas.utils import get_lowest_citable_nodes
+
+
+logger = logging.getLogger(__name__)
 
 
 ANNOTATIONS_DATA_PATH = os.path.join(
@@ -40,7 +47,9 @@ def process_file(path):
 
     alignment = TextAlignment(label=data["label"], urn=data["urn"],)
     if data.get("enable_prototype"):
-        alignment.metadata = {"enable_prototype": True}
+        alignment.metadata["enable_prototype"] = data["enable_prototype"]
+    if data.get("display_options"):
+        alignment.metadata["display_options"] = data["display_options"]
 
     alignment.save()
     alignment.versions.set(version_objs)
@@ -98,7 +107,9 @@ def set_text_annotation_collection(reset=False):
     # TODO: Reset is a no-op
     collection_urn = "urn:cite2:beyond-translation:text_annotation_collection.atlas_v1:il_gregorycrane_gAGDT"
     if reset:
-        TextAnnotation.objects.filter(collection__urn=collection_urn).update(collection=None)
+        TextAnnotation.objects.filter(collection__urn=collection_urn).update(
+            collection=None
+        )
         TextAnnotationCollection.objects.filter(urn=collection_urn).delete()
 
     tas = TextAnnotation.objects.filter(
@@ -115,3 +126,39 @@ def set_text_annotation_collection(reset=False):
         urn=collection_urn,
     )
     tas.update(collection=collection)
+
+
+def create_persian_greek_alignment(reset=True):
+    alignment_urn = (
+        "urn:cite2:scaife-viewer:alignment.v1:iliad-greek-farsi-sentence-alignment"
+    )
+    if reset:
+        TextAlignment.objects.filter(urn=alignment_urn).delete()
+    path = Path(
+        "data/annotations/text-alignments/iliad-greek-farsi-sentence-alignment.json"
+    )
+    process_file(path)
+    ta = TextAlignment.objects.get(urn=alignment_urn)
+
+    logger.info(f"Extracting tokens for {alignment_urn}")
+    # NOTE: This assumes a whole lot of processing; eventually we want to make this a bit smarter
+    record_lookup = defaultdict(list)
+    versions = list(ta.versions.all())
+    for version in versions:
+        text_parts = get_lowest_citable_nodes(version)
+        for idx, text_part in enumerate(text_parts):
+            record_lookup[idx].append(text_part.tokens.all().only("id"))
+
+    logger.info(f"Creating records for {alignment_urn}")
+    base_record_urn = "urn:cite2:scaife-viewer:alignment-record.v1:iliad-greek-farsi-sentence-alignment"
+    for idx, row in record_lookup.items():
+        record = TextAlignmentRecord(
+            idx=idx, alignment=ta, urn=f"{base_record_urn}_{idx}",
+        )
+        record.save()
+        for version_obj, tokens in zip(versions, row):
+            relation_obj = TextAlignmentRecordRelation(
+                version=version_obj, record=record
+            )
+            relation_obj.save()
+            relation_obj.tokens.set(tokens)
