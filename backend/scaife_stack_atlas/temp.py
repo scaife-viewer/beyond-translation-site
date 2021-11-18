@@ -50,7 +50,12 @@ def process_file(path):
     # TODO: sorting versions from Ducat too, especially since Ducat doesn't have 'em
     # maybe something for CITE tools?
     for row in data["records"]:
-        record = TextAlignmentRecord(idx=idx, alignment=alignment, urn=row["urn"])
+        record = TextAlignmentRecord(
+            idx=idx,
+            alignment=alignment,
+            urn=row["urn"],
+            metadata=row.get("metadata", {}),
+        )
         record.save()
         idx += 1
         for version_obj, relation in zip(version_objs, row["relations"]):
