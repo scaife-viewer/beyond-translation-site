@@ -1405,10 +1405,9 @@
     mapbox-gl "^1.11.0"
     vue-mapbox "^0.4.1"
 
-"@scaife-viewer/reader-alignments-mode@^0.5.0-beta.1":
+"@scaife-viewer/reader-alignments-mode@https://gitpkg.vercel.app/scaife-viewer/frontend/packages/reader-alignments-mode?77bc0565ad927206cfed735fcfb2d874ce23911a":
   version "0.5.0-beta.1"
-  resolved "https://registry.yarnpkg.com/@scaife-viewer/reader-alignments-mode/-/reader-alignments-mode-0.5.0-beta.1.tgz#7315be27e5c21587ee465c630e72b5c816157042"
-  integrity sha512-dp6fcWLrkiBCYxiU9ZN+s5+mHYqWQSvbsyjlnE9vcs/SRWU5fdgo3BJOipNGYHjrr82b4GYpOPJlkb+l/kdVRg==
+  resolved "https://gitpkg.vercel.app/scaife-viewer/frontend/packages/reader-alignments-mode?77bc0565ad927206cfed735fcfb2d874ce23911a#3d2f3fe620b588b0f1804ac8679b5c920fe3056a"
   dependencies:
     "@scaife-viewer/common" "^0.4.0"
     "@scaife-viewer/store" "^0.5.0-beta.1"
@@ -1566,9 +1565,9 @@
     "@scaife-viewer/store" "^0.5.0-beta.1"
     graphql-tag "^2.10.3"
 
-"@scaife-viewer/widget-new-alexandria@https://gitpkg.now.sh/scaife-viewer/frontend/packages/widget-new-alexandria?b48935fa4737773a8d1b8460c75660ba26f3e0c9":
+"@scaife-viewer/widget-new-alexandria@https://gitpkg.vercel.app/scaife-viewer/frontend/packages/widget-new-alexandria?b48935fa4737773a8d1b8460c75660ba26f3e0c9":
   version "0.4.0"
-  resolved "https://gitpkg.now.sh/scaife-viewer/frontend/packages/widget-new-alexandria?b48935fa4737773a8d1b8460c75660ba26f3e0c9#af78d566be6398df091c1bcf427bbadd75678667"
+  resolved "https://gitpkg.vercel.app/scaife-viewer/frontend/packages/widget-new-alexandria?b48935fa4737773a8d1b8460c75660ba26f3e0c9#af78d566be6398df091c1bcf427bbadd75678667"
   dependencies:
     "@scaife-viewer/store" "^0.4.0"
     graphql-tag "^2.10.3"
