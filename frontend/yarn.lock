@@ -1405,9 +1405,9 @@
     mapbox-gl "^1.11.0"
     vue-mapbox "^0.4.1"
 
-"@scaife-viewer/reader-alignments-mode@https://gitpkg.vercel.app/scaife-viewer/frontend/packages/reader-alignments-mode?a364f12e8bebb088f3a9df373171f500d521a1c0":
+"@scaife-viewer/reader-alignments-mode@https://gitpkg.vercel.app/scaife-viewer/frontend/packages/reader-alignments-mode?54c4d1921beeecfe3e1bf95b29b7f8660b4f81ba":
   version "0.5.0-beta.1"
-  resolved "https://gitpkg.vercel.app/scaife-viewer/frontend/packages/reader-alignments-mode?a364f12e8bebb088f3a9df373171f500d521a1c0#d463668ee554c16571f303079abf53e2a4c8e555"
+  resolved "https://gitpkg.vercel.app/scaife-viewer/frontend/packages/reader-alignments-mode?54c4d1921beeecfe3e1bf95b29b7f8660b4f81ba#1659a442fba12142067853c51898e90b16cf1953"
   dependencies:
     "@scaife-viewer/common" "^0.4.0"
     "@scaife-viewer/store" "^0.5.0-beta.1"
