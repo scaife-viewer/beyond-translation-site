@@ -1368,6 +1368,11 @@
   resolved "https://registry.yarnpkg.com/@nodelib/fs.stat/-/fs.stat-1.1.3.tgz#2b5a3ab3f918cca48a8c754c08168e3f03eba61b"
   integrity sha512-shAmDyaQC4H92APFoIaVDHCx5bStIocgvbwQyxPRrbUY20V1EYTbSDchWbuwlMG3V17cprZhA6+78JfB+3DTPw==
 
+"@panzoom/panzoom@^4.4.3":
+  version "4.4.3"
+  resolved "https://registry.yarnpkg.com/@panzoom/panzoom/-/panzoom-4.4.3.tgz#439ef0c3eba1cba0ad9b661fda5961aa2e2eec64"
+  integrity sha512-fTAr7/bc9ukvWKxxqdoAuIhKhvu6TwuNiGcA0N3lrSj5OZGlISGLXcSZZyN7kgqH/6icYS7b18UT/Iq/W2rTOA==
+
 "@scaife-viewer/common@^0.0.2":
   version "0.0.2"
   resolved "https://registry.yarnpkg.com/@scaife-viewer/common/-/common-0.0.2.tgz#95e664502372f07e3e6a201fac4338087044cbae"
@@ -1405,18 +1410,17 @@
     mapbox-gl "^1.11.0"
     vue-mapbox "^0.4.1"
 
-"@scaife-viewer/reader-alignments-mode@https://gitpkg.vercel.app/scaife-viewer/frontend/packages/reader-alignments-mode?d04d00a36e268b48f7cd7768cc11028c60fd4d6c":
+"@scaife-viewer/reader-alignments-mode@https://gitpkg.vercel.app/scaife-viewer/frontend/packages/reader-alignments-mode?9fc36d2823c46a4b5b380f6f784a6379b7c8b651":
   version "0.5.0-beta.1"
-  resolved "https://gitpkg.vercel.app/scaife-viewer/frontend/packages/reader-alignments-mode?d04d00a36e268b48f7cd7768cc11028c60fd4d6c#73168209b6333e121e70cac7851723a5348abcb7"
+  resolved "https://gitpkg.vercel.app/scaife-viewer/frontend/packages/reader-alignments-mode?9fc36d2823c46a4b5b380f6f784a6379b7c8b651#4e4e4eccb3d0b63d91e4fa32a984d31757b20d05"
   dependencies:
     "@scaife-viewer/common" "^0.4.0"
     "@scaife-viewer/store" "^0.5.0-beta.1"
     graphql-tag "^2.10.3"
 
-"@scaife-viewer/reader-image-mode@^0.5.0-beta.1":
+"@scaife-viewer/reader-image-mode@https://gitpkg.vercel.app/scaife-viewer/frontend/packages/reader-image-mode?9fc36d2823c46a4b5b380f6f784a6379b7c8b651":
   version "0.5.0-beta.1"
-  resolved "https://registry.yarnpkg.com/@scaife-viewer/reader-image-mode/-/reader-image-mode-0.5.0-beta.1.tgz#c36b7225ca1c287eac45b0b5a506d42eebe60702"
-  integrity sha512-BLw1cZuoQmHZcT0g/1VwAzHLoXIl2CUpBNbTUOCVQm/MgK2bJ61UZH9w/qW/oWKDRYESyvZ3PvdPvcg46wvJUA==
+  resolved "https://gitpkg.vercel.app/scaife-viewer/frontend/packages/reader-image-mode?9fc36d2823c46a4b5b380f6f784a6379b7c8b651#c63814e55498fe1ec1d8bf01d52bd475c1dade5f"
   dependencies:
     "@fortawesome/free-solid-svg-icons" "^5.14.0"
     "@scaife-viewer/common" "^0.4.0"
@@ -1426,20 +1430,18 @@
     openseadragon "^2.4.2"
     vue-apollo "^3.0.4"
 
-"@scaife-viewer/reader-interlinear-mode@^0.5.0-beta.1":
+"@scaife-viewer/reader-interlinear-mode@https://gitpkg.vercel.app/scaife-viewer/frontend/packages/reader-interlinear-mode?9fc36d2823c46a4b5b380f6f784a6379b7c8b651":
   version "0.5.0-beta.1"
-  resolved "https://registry.yarnpkg.com/@scaife-viewer/reader-interlinear-mode/-/reader-interlinear-mode-0.5.0-beta.1.tgz#23636bfa8331e85dd895e6bc84ef25a50d724f39"
-  integrity sha512-dS3xtG6AyHGAAwILApNFl/g7i/ydYkLyA/g6EeI7KLbfiDjOhs0ZLg4XXRrtOcdAZXhjAzAISSv63XMV4wlENQ==
+  resolved "https://gitpkg.vercel.app/scaife-viewer/frontend/packages/reader-interlinear-mode?9fc36d2823c46a4b5b380f6f784a6379b7c8b651#b57af15edaa1bc7b35a0217a18ac5d227dc89993"
   dependencies:
     "@scaife-viewer/common" "^0.4.0"
     "@scaife-viewer/widget-reader" "^0.5.0-beta.1"
     graphql-tag "^2.10.3"
     vue-apollo "^3.0.4"
 
-"@scaife-viewer/reader-metrical-mode@^0.5.0-beta.1":
+"@scaife-viewer/reader-metrical-mode@https://gitpkg.vercel.app/scaife-viewer/frontend/packages/reader-metrical-mode?9fc36d2823c46a4b5b380f6f784a6379b7c8b651":
   version "0.5.0-beta.1"
-  resolved "https://registry.yarnpkg.com/@scaife-viewer/reader-metrical-mode/-/reader-metrical-mode-0.5.0-beta.1.tgz#dc87366eeaed5597bd3bc5e70076318e6a279201"
-  integrity sha512-siMk1R9P+Tf0ar38pyv1A/SMx1F+lFai9AFFz3NXG037ZlQq5k08mN64Ow5/hOQiP2UOcMeQh4748ZREtMDCow==
+  resolved "https://gitpkg.vercel.app/scaife-viewer/frontend/packages/reader-metrical-mode?9fc36d2823c46a4b5b380f6f784a6379b7c8b651#edc123b8a75c5f0859f11f19f27fb2f7b0c22347"
   dependencies:
     "@scaife-viewer/common" "^0.4.0"
     "@scaife-viewer/store" "^0.5.0-beta.1"
@@ -1447,10 +1449,9 @@
     graphql-tag "^2.10.3"
     vue-apollo "^3.0.4"
 
-"@scaife-viewer/reader-named-entities-mode@^0.5.0-beta.2":
+"@scaife-viewer/reader-named-entities-mode@https://gitpkg.vercel.app/scaife-viewer/frontend/packages/reader-named-entities-mode?9fc36d2823c46a4b5b380f6f784a6379b7c8b651":
   version "0.5.0-beta.2"
-  resolved "https://registry.yarnpkg.com/@scaife-viewer/reader-named-entities-mode/-/reader-named-entities-mode-0.5.0-beta.2.tgz#7250c4555a1f9326832a8b6b1cf4e53644ceaae9"
-  integrity sha512-Ryx/xnYYipejR46MmYu6ylrRxpyWDqBDsGzZ2lV0y+2YbbMjoBoyEhjjilX7G+js+JiaspOGCmuTHiNiDG5HcQ==
+  resolved "https://gitpkg.vercel.app/scaife-viewer/frontend/packages/reader-named-entities-mode?9fc36d2823c46a4b5b380f6f784a6379b7c8b651#fb68210d6a85970142257e45aba7a2e5892cd532"
   dependencies:
     "@fortawesome/free-solid-svg-icons" "^5.14.0"
     "@scaife-viewer/common" "^0.4.0"
@@ -1460,10 +1461,9 @@
     graphql-tag "^2.10.3"
     vue-apollo "^3.0.4"
 
-"@scaife-viewer/reader-syntax-trees-mode@^0.5.0-beta.1":
+"@scaife-viewer/reader-syntax-trees-mode@https://gitpkg.vercel.app/scaife-viewer/frontend/packages/reader-syntax-trees-mode?377b2e7f116c5e59f9db6379f925de77b7359e0e":
   version "0.5.0-beta.1"
-  resolved "https://registry.yarnpkg.com/@scaife-viewer/reader-syntax-trees-mode/-/reader-syntax-trees-mode-0.5.0-beta.1.tgz#bf1b55603d87fc9cbc8e60fb19b1ee0ad505aa91"
-  integrity sha512-yaObN1VPJ16hYcn9X2/tHe6SeEOrmPW1zqbvPme5RK9ebB0NMkxWguHggfAkpJf8UjhCIRGqDOMyqki/CZr9FA==
+  resolved "https://gitpkg.vercel.app/scaife-viewer/frontend/packages/reader-syntax-trees-mode?377b2e7f116c5e59f9db6379f925de77b7359e0e#1b75237c6243b76c48c5b721b2204e0b9df9ddb6"
   dependencies:
     "@scaife-viewer/common" "^0.0.2"
     "@scaife-viewer/store" "^0.5.0-beta.1"
@@ -1508,10 +1508,11 @@
 
 "@scaife-viewer/vue-treant@^0.5.0-beta.1":
   version "0.5.0-beta.1"
-  resolved "https://registry.yarnpkg.com/@scaife-viewer/vue-treant/-/vue-treant-0.5.0-beta.1.tgz#91e35c0424f3d39134ff183503219185596e7130"
-  integrity sha512-OW5qYgm4lykmwgs5p6QA+56mMkgLcCYTBegXqKcQmd/xia3Wfpxxut7kEH/0QmcGbER4kNRf2iQMj79hQd6zag==
+  resolved "https://gitpkg.vercel.app/scaife-viewer/frontend/packages/vue-treant?9fc36d2823c46a4b5b380f6f784a6379b7c8b651#6dbf8521d1736c25e7f4c5ed2fc95734ff22984e"
   dependencies:
+    "@panzoom/panzoom" "^4.4.3"
     raphael "^2.3.0"
+    vue-slider-component "^3.2.15"
 
 "@scaife-viewer/widget-attributions@^0.5.0-beta.1":
   version "0.5.0-beta.1"
@@ -1620,6 +1621,16 @@
     graphql-tag "^2.10.3"
     vue-apollo "^3.0.4"
 
+"@scaife-viewer/widget-reader@https://gitpkg.vercel.app/scaife-viewer/frontend/packages/widget-reader?9fc36d2823c46a4b5b380f6f784a6379b7c8b651":
+  version "0.5.0-beta.1"
+  resolved "https://gitpkg.vercel.app/scaife-viewer/frontend/packages/widget-reader?9fc36d2823c46a4b5b380f6f784a6379b7c8b651#aa987204974c8c5c74d117632e9bf9e2e9a55343"
+  dependencies:
+    "@scaife-viewer/common" "^0.4.0"
+    "@scaife-viewer/store" "^0.5.0-beta.1"
+    graphql "^15.0.0"
+    graphql-tag "^2.10.3"
+    vue-apollo "^3.0.4"
+
 "@scaife-viewer/widget-scholia@^0.0.12":
   version "0.0.12"
   resolved "https://registry.yarnpkg.com/@scaife-viewer/widget-scholia/-/widget-scholia-0.0.12.tgz#acb9a7ed8b25e077a54d5caacfc39fed34a91017"
@@ -1651,13 +1662,12 @@
     "@scaife-viewer/common" "^0.0.7"
     "@scaife-viewer/store" "^0.0.10"
 
-"@scaife-viewer/widget-token-annotations@^0.0.12":
-  version "0.0.12"
-  resolved "https://registry.yarnpkg.com/@scaife-viewer/widget-token-annotations/-/widget-token-annotations-0.0.12.tgz#2d9f3d87948105f6b86a5969c6a6724e61203059"
-  integrity sha512-gaPAG0OvC2GdhttndN09oaotE4rdw0T1zRTCSiNJKZy9VM2VpPENbHTnKN/E1GsB6fRYbBMI6k90gmerRVeb5g==
+"@scaife-viewer/widget-token-annotations@https://gitpkg.vercel.app/scaife-viewer/frontend/packages/widget-token-annotations?9fc36d2823c46a4b5b380f6f784a6379b7c8b651":
+  version "0.5.0-beta.1"
+  resolved "https://gitpkg.vercel.app/scaife-viewer/frontend/packages/widget-token-annotations?9fc36d2823c46a4b5b380f6f784a6379b7c8b651#6810c61059be8bf4a626f5530cfb1c8389a0fe01"
   dependencies:
-    "@scaife-viewer/common" "^0.0.7"
-    "@scaife-viewer/store" "^0.0.10"
+    "@scaife-viewer/common" "^0.4.0"
+    "@scaife-viewer/store" "^0.5.0-beta.1"
     graphql-tag "^2.10.3"
 
 "@scaife-viewer/widget-word-list@^0.0.11":
@@ -12424,6 +12434,11 @@ vue-apollo@^3.0.4:
     serialize-javascript "^4.0.0"
     throttle-debounce "^2.1.0"
 
+vue-class-component@^7.1.0:
+  version "7.2.6"
+  resolved "https://registry.yarnpkg.com/vue-class-component/-/vue-class-component-7.2.6.tgz#8471e037b8e4762f5a464686e19e5afc708502e4"
+  integrity sha512-+eaQXVrAm/LldalI272PpDe3+i4mPis0ORiMYxF6Ae4hyuCh15W8Idet7wPUEs4N4YptgFHGys4UrgNQOMyO6w==
+
 vue-cli-plugin-style-resources-loader@^0.1.4:
   version "0.1.4"
   resolved "https://registry.yarnpkg.com/vue-cli-plugin-style-resources-loader/-/vue-cli-plugin-style-resources-loader-0.1.4.tgz#6087a86132ea8125aa89e5f8e0a978fbc8cf6f59"
@@ -12490,6 +12505,13 @@ vue-mapbox@^0.4.1:
   dependencies:
     map-promisified latest
 
+vue-property-decorator@^8.0.0:
+  version "8.5.1"
+  resolved "https://registry.yarnpkg.com/vue-property-decorator/-/vue-property-decorator-8.5.1.tgz#571a91cf8d2b507f537d79bf8275af3184572fff"
+  integrity sha512-O6OUN2OMsYTGPvgFtXeBU3jPnX5ffQ9V4I1WfxFQ6dqz6cOUbR3Usou7kgFpfiXDvV7dJQSFcJ5yUPgOtPPm1Q==
+  dependencies:
+    vue-class-component "^7.1.0"
+
 vue-router@^3.4.6:
   version "3.4.9"
   resolved "https://registry.yarnpkg.com/vue-router/-/vue-router-3.4.9.tgz#c016f42030ae2932f14e4748b39a1d9a0e250e66"
@@ -12508,6 +12530,14 @@ vue-server-renderer@2.6.12:
     resolve "^1.2.0"
     serialize-javascript "^3.1.0"
     source-map "0.5.6"
+
+vue-slider-component@^3.2.15:
+  version "3.2.15"
+  resolved "https://registry.yarnpkg.com/vue-slider-component/-/vue-slider-component-3.2.15.tgz#fd40564c1d15a90a1290cb691990c0bc745b3aa9"
+  integrity sha512-FpmMsQ6MQFn22B6boDcEjRmuawdaHwjHRVZiuv5w37jijHra6+HogjSrh3mb42jE+PUIFFagXi36oFEzpDbadg==
+  dependencies:
+    core-js "^3.6.5"
+    vue-property-decorator "^8.0.0"
 
 vue-style-loader@^4.1.0, vue-style-loader@^4.1.2:
   version "4.1.2"
