@@ -99,10 +99,6 @@ def process_alignments(reset=False):
     print(f"Alignments created: {created_count}")
 
 
-def load_token_annotations(reset=False):
-    apply_token_annotations()
-
-
 def set_text_annotation_collection(reset=False):
     # TODO: Reset is a no-op
     collection_urn = "urn:cite2:beyond-translation:text_annotation_collection.atlas_v1:il_gregorycrane_gAGDT"
