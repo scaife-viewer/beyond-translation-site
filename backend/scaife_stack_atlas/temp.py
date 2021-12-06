@@ -14,6 +14,7 @@ from scaife_viewer.atlas.models import (
     TextAnnotation,
     TextAnnotationCollection,
     Token,
+    TokenAnnotation,
 )
 from scaife_viewer.atlas.urn import URN
 from scaife_viewer.atlas.utils import get_lowest_citable_nodes, get_textparts_from_passage_reference
@@ -189,4 +190,45 @@ def add_translations_to_trees(reset=None):
             ]
         ]
         to_update.append(tree)
+    TextAnnotation.objects.bulk_update(to_update, fields=["data"], batch_size=500)
+
+
+def add_glosses_to_trees(reset=None):
+    # NOTE: Reset is a no-op
+    collection_urn = "urn:cite2:beyond-translation:text_annotation_collection.atlas_v1:il_gregorycrane_gAGDT"
+    # TODO: Expand data once we have it in the spreadsheet
+    limit = 14
+    # TODO: Figure out why this query doesn't work as expected against
+    # text_parts__urn relation
+    trees = list(TextAnnotation.objects.filter(
+        collection__urn=collection_urn,
+        urn__startswith="urn:cite2:exploreHomer:syntaxTree.v1:syntaxTree-tlg0012-tlg001-"
+        # text_parts__urn__startswith="urn:cts:greekLit:tlg0012.tlg001.perseus-grc2:"
+    ).order_by("idx")[0:limit])
+
+    to_update = []
+    for tree in trees:
+        annotations = list(TokenAnnotation.objects.filter(token__text_part__in=tree.text_parts.all()))
+        words = tree.data["words"]
+        for word in words:
+            annotation = next(iter(filter(lambda x: x.data["lemma"] == word["lemma"], annotations)), None)
+            if not annotation:
+                annotation = next(iter(filter(lambda x: x.data["word_value"] == word["value"], annotations)), None)
+                if not annotation:
+                    if word.get("tag") == "u--------":
+                        pass
+                    elif word.get("value") in ["[0]", "[1]"]:
+                        pass
+                    elif word.get("ref"):
+                        print(f'{word["ref"]}@{word["value"]}')
+                    else:
+                        print(f'{word["value"]}')
+                    # ~40 words unmapped with this naive pass
+            data = annotation.data if annotation else {}
+            word.update({
+                "glossEng": data.get("gloss (eng)", ""),
+                "glossFas": data.get("gloss (fas)", "")
+            })
+        to_update.append(tree)
+
     TextAnnotation.objects.bulk_update(to_update, fields=["data"], batch_size=500)
