@@ -30,6 +30,8 @@ import { iconMap as commonIconMap } from '@scaife-viewer/common';
 import { iconMap as audioIconMap } from '@scaife-viewer/widget-audio';
 // eslint-disable-next-line max-len
 import { iconMap as namedEntitiesIconMap } from '@scaife-viewer/widget-named-entities';
+// eslint-disable-next-line max-len
+import { iconMap as dictionaryEntriesIconMap } from '@scaife-viewer/widget-dictionary-entries';
 
 import App from '@/App.vue';
 import router from '@/router';
@@ -44,6 +46,7 @@ Vue.use(SkeletonPlugin, {
     ...commonIconMap,
     ...audioIconMap,
     ...namedEntitiesIconMap,
+    ...dictionaryEntriesIconMap,
     ...namedEntitesReaderIconMap,
     ...imageModeReaderIconMap,
   },

@@ -197,6 +197,7 @@ SV_ATLAS_INGESTION_PIPELINE = [
     "scaife_viewer.atlas.tokenizers.tokenize_all_text_parts",
     "scaife_viewer.atlas.importers.token_annotations.apply_token_annotations",
     "scaife_viewer.atlas.importers.named_entities.apply_named_entities",
+    "scaife_viewer.atlas.importers.dictionaries.import_dictionaries",
     # TODO: Backport to scaife_viewer.atlas
     "scaife_stack_atlas.temp.process_alignments",
     "scaife_stack_atlas.temp.set_text_annotation_collection",

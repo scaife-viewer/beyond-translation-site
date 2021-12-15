@@ -25,6 +25,8 @@
   import PassageChildrenWidget from '@scaife-viewer/widget-passage-children';
   import LibraryWidget from '@scaife-viewer/widget-library';
   import NamedEntitiesWidget from '@scaife-viewer/widget-named-entities';
+  // eslint-disable-next-line max-len
+  import DictionaryEntriesWidget from '@scaife-viewer/widget-dictionary-entries';
   import DisplayModeWidget from '@scaife-viewer/widget-display-mode';
   import ScholiaWidget from '@scaife-viewer/widget-scholia';
   import AudioWidget from '@scaife-viewer/widget-audio';
@@ -73,6 +75,7 @@
           AudioWidget,
           DisplayModeWidget,
           NamedEntitiesWidget,
+          DictionaryEntriesWidget,
           TokenAnnotationWidget,
           WordListWidget,
           NewAlexandriaWidget,
