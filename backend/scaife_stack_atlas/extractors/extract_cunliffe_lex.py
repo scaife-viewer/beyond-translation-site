@@ -243,7 +243,7 @@ def extract_entry(textpart):
         headword=head_text,
         data={
             # TODO: Formatting here?  Review with how LGO was processed
-            "content": " ".join([e.strip() for e in entry_defparts])
+            "content": " ".join([f"<p>{e.strip()}</p>" for e in entry_defparts])
             # "content": " ".join(entry_defparts).strip()
         },
         # id?
