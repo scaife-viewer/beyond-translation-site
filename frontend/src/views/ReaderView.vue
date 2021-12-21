@@ -20,6 +20,7 @@
   import TextWidthWidget from '@scaife-viewer/widget-text-width';
   import ReaderWidget from '@scaife-viewer/widget-reader';
   import TokenAnnotationWidget from '@scaife-viewer/widget-token-annotations';
+  import MorphologyWidget from '@scaife-viewer/widget-morphology';
   import PassageAncestorsWidget from '@scaife-viewer/widget-passage-ancestors';
   import PassageSiblingsWidget from '@scaife-viewer/widget-passage-siblings';
   import PassageChildrenWidget from '@scaife-viewer/widget-passage-children';
@@ -77,6 +78,7 @@
           NamedEntitiesWidget,
           DictionaryEntriesWidget,
           TokenAnnotationWidget,
+          MorphologyWidget,
           WordListWidget,
           NewAlexandriaWidget,
           // EHNewAlexandriaWidget,
