@@ -71,6 +71,10 @@ def extract_entry(textpart):
         pdb.set_trace()
 
     head_text = as_text(head_el)
+
+    # NOTE: Strip dagger to prevent an issue with lemma lookup
+    head_text = head_text.strip("†")
+
     # head_text = " ".join([i.strip() for i in head_el.itertext()]).strip()
     siblings = head_el.itersiblings()
     cases = {
