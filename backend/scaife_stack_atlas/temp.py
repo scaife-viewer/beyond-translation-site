@@ -17,7 +17,10 @@ from scaife_viewer.atlas.models import (
     TokenAnnotation,
 )
 from scaife_viewer.atlas.urn import URN
-from scaife_viewer.atlas.utils import get_lowest_citable_nodes, get_textparts_from_passage_reference
+from scaife_viewer.atlas.utils import (
+    get_lowest_citable_nodes,
+    get_textparts_from_passage_reference,
+)
 
 
 logger = logging.getLogger(__name__)
@@ -162,35 +165,71 @@ def create_persian_greek_alignment(reset=True):
             relation_obj.tokens.set(tokens)
 
 
-def add_translations_to_trees(reset=None):
-    # NOTE: Reset is a no-op
+def add_iliad_english_persian_translations():
     collection_urn = "urn:cite2:beyond-translation:text_annotation_collection.atlas_v1:il_gregorycrane_gAGDT"
     limit = 490
     # TODO: Figure out why this query doesn't work as expected against
     # text_parts__urn relation
-    trees = list(TextAnnotation.objects.filter(
-        collection__urn=collection_urn,
-        urn__startswith="urn:cite2:exploreHomer:syntaxTree.v1:syntaxTree-tlg0012-tlg001-"
-        # text_parts__urn__startswith="urn:cts:greekLit:tlg0012.tlg001.perseus-grc2:"
-    ).order_by("idx")[0:limit])
+    trees = list(
+        TextAnnotation.objects.filter(
+            collection__urn=collection_urn,
+            urn__startswith="urn:cite2:exploreHomer:syntaxTree.v1:syntaxTree-tlg0012-tlg001-"
+            # text_parts__urn__startswith="urn:cts:greekLit:tlg0012.tlg001.perseus-grc2:"
+        ).order_by("idx")[0:limit]
+    )
 
-    persian_text = get_textparts_from_passage_reference("urn:cts:greekLit:tlg0012.tlg001.shamsian-far1:1.s1-1.s490", Node.objects.get(urn="urn:cts:greekLit:tlg0012.tlg001.shamsian-far1:"))
-    english_text = get_textparts_from_passage_reference("urn:cts:greekLit:tlg0012.tlg001.parrish-eng1-sentences:1.s1-1.s490", Node.objects.get(urn="urn:cts:greekLit:tlg0012.tlg001.parrish-eng1-sentences:"))
+    persian_text = get_textparts_from_passage_reference(
+        "urn:cts:greekLit:tlg0012.tlg001.shamsian-far1:1.s1-1.s490",
+        Node.objects.get(urn="urn:cts:greekLit:tlg0012.tlg001.shamsian-far1:"),
+    )
+    english_text = get_textparts_from_passage_reference(
+        "urn:cts:greekLit:tlg0012.tlg001.parrish-eng1-sentences:1.s1-1.s490",
+        Node.objects.get(urn="urn:cts:greekLit:tlg0012.tlg001.parrish-eng1-sentences:"),
+    )
 
     to_update = []
     for tree, persian, english in zip(trees, persian_text, english_text):
         tree.data["translations"] = [
-            [
-                english.text_content,
-                "eng"
-            ],
-            [
-                persian.text_content,
-                "far"
-            ]
+            [english.text_content, "eng"],
+            [persian.text_content, "far"],
         ]
         to_update.append(tree)
+        TextAnnotation.objects.bulk_update(to_update, fields=["data"], batch_size=500)
+    # TODO: Add additional trees from the spreadsheet for Iliad
+    return
+
+
+def add_odyssey_english_translations():
+    # TODO: Load Odyssey 5 from Parrish
+    collection_urn = "urn:cite2:beyond-translation:text_annotation_collection.atlas_v1:il_gregorycrane_gAGDT"
+    trees = TextAnnotation.objects.filter(
+        collection__urn=collection_urn,
+        urn__startswith="urn:cite2:exploreHomer:syntaxTree.v1:syntaxTree-tlg0012-tlg002-",
+    )
+    od_sentence_alignment = TextAlignment.objects.get(
+        urn="urn:cite2:scaife-viewer:alignment.v1:odyssey-sentence-alignment-crane"
+    )
+    english_by_treebank_id = {}
+    for record in od_sentence_alignment.records.all():
+        sentence = record.metadata["items"][1][0][1]
+        treebank_id = record.metadata["treebank_id"]
+        english_by_treebank_id[treebank_id] = sentence
+
+    to_update = []
+    for tree in trees:
+        treebank_id = tree.data["treebank_id"]
+        english = english_by_treebank_id.get(treebank_id, "")
+        tree.data["translations"] = [[english, "eng"]]
+        to_update.append(tree)
+
     TextAnnotation.objects.bulk_update(to_update, fields=["data"], batch_size=500)
+
+
+def add_translations_to_trees(reset=None):
+    # NOTE: Reset is a no-op
+    add_iliad_english_persian_translations()
+
+    add_odyssey_english_translations()
 
 
 def add_glosses_to_trees(reset=None):
