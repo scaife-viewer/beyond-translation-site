@@ -195,8 +195,6 @@ def add_iliad_english_persian_translations():
         ]
         to_update.append(tree)
         TextAnnotation.objects.bulk_update(to_update, fields=["data"], batch_size=500)
-    # TODO: Add additional trees from the spreadsheet for Iliad
-    return
 
 
 def add_odyssey_english_translations():
@@ -225,9 +223,39 @@ def add_odyssey_english_translations():
     TextAnnotation.objects.bulk_update(to_update, fields=["data"], batch_size=500)
 
 
+def add_additional_iliad_translations():
+    collection_urn = "urn:cite2:beyond-translation:text_annotation_collection.atlas_v1:il_gregorycrane_gAGDT"
+    limit = 490
+    # TODO: Figure out why this query doesn't work as expected against
+    # text_parts__urn relation
+    trees = TextAnnotation.objects.filter(
+        collection__urn=collection_urn,
+        urn__startswith="urn:cite2:exploreHomer:syntaxTree.v1:syntaxTree-tlg0012-tlg001-",
+    ).order_by("idx")[limit:]
+
+    il_sentence_alignment = TextAlignment.objects.get(
+        urn="urn:cite2:scaife-viewer:alignment.v1:iliad-sentence-alignment-crane"
+    )
+    english_by_treebank_id = {}
+    for record in il_sentence_alignment.records.all():
+        sentence = record.metadata["items"][1][0][1]
+        treebank_id = record.metadata["treebank_id"]
+        english_by_treebank_id[treebank_id] = sentence
+
+    to_update = []
+    for tree in trees:
+        treebank_id = tree.data["treebank_id"]
+        english = english_by_treebank_id.get(treebank_id, "")
+        tree.data["translations"] = [[english, "eng"]]
+        to_update.append(tree)
+
+    TextAnnotation.objects.bulk_update(to_update, fields=["data"], batch_size=500)
+
+
 def add_translations_to_trees(reset=None):
     # NOTE: Reset is a no-op
     add_iliad_english_persian_translations()
+    add_additional_iliad_translations()
 
     add_odyssey_english_translations()
 
