@@ -1,17 +1,29 @@
 import json
 import re
 from pathlib import Path
-import ipdb
 
+from anytree import Node
+from anytree.exporter import DictExporter
 from lxml import etree
 
+
+DEBUG_OUTPUT = False
+
+TREE_EXPORTER = DictExporter()
 
 TEI_NS = {"TEI": "http://www.tei-c.org/ns/1.0"}
 ID_ATTRIB = "{http://www.w3.org/XML/1998/namespace}id"
 CITATION_TAG = "{http://www.tei-c.org/ns/1.0}cit"
 ENTRY_URN_PREFIX = "urn:cite2:exploreHomer:entries.atlas_v1:1."
-
 sense_idx = 0
+
+
+def get_sense_depth(elem):
+    """
+    Derive depth of sense from its ancestors.
+    """
+    offset = 3
+    return len(list(elem.iterancestors())) - offset
 
 
 def as_text(element):
@@ -57,6 +69,225 @@ def ref_to_urn(ref):
     return f"{VERSION_ALIAS_LOOKUP[alias]}{ref}"
 
 
+def process_sense(sibling):
+    # FIXME: Refactor this
+    global sense_idx
+    senses = []
+    cases = {
+        "{http://www.tei-c.org/ns/1.0}p": "text",
+        "{http://www.tei-c.org/ns/1.0}div": "sense",
+        "{http://www.tei-c.org/ns/1.0}pb": "skip",
+    }
+
+    sense_head = sibling.find("{http://www.tei-c.org/ns/1.0}head", namespaces=TEI_NS)
+    if sense_head is None:
+        label = ""
+        parts = sibling.iterchildren()
+    else:
+        label = as_text(sense_head)
+        parts = sense_head.itersiblings()
+
+    depth = get_sense_depth(sibling)
+
+    for gchild in parts:
+        case = cases[gchild.tag]
+        if case == "text":
+            sense_def_parts = []
+            citationish = []
+            is_cf_bibl = False
+            for ggchild in gchild.iterchildren():
+                if ggchild.tag in [
+                    "{http://www.tei-c.org/ns/1.0}term",
+                    "{http://www.tei-c.org/ns/1.0}gloss",
+                ]:
+                    def_value = as_text(ggchild)
+                    if def_value:
+                        sense_def_parts.append(def_value)
+                elif ggchild.tag == "{http://www.tei-c.org/ns/1.0}cit":
+                    quote_parts = []
+                    for quote in ggchild.findall("{http://www.tei-c.org/ns/1.0}quote"):
+                        # alaoo-cunliffe-lex
+                        quote_parts.append(as_text(quote))
+                        next_sibling = quote.getnext()
+                        if (
+                            next_sibling is not None
+                            and next_sibling.tag == "{http://www.tei-c.org/ns/1.0}note"
+                        ):
+                            quote_parts.append(
+                                etree.tostring(
+                                    next_sibling, method="text", encoding="utf-8",
+                                ).decode("utf-8")
+                            )
+
+                    if quote_parts:
+                        quote_text = " ".join(quote_parts)
+                    else:
+                        # TODO:
+                        quote_text = None
+
+                    citationish.append(
+                        {
+                            # ref could be using the text, but we prefer the actual entry, for now
+                            "ref": get_ref_from_bibl(
+                                ggchild.find("{http://www.tei-c.org/ns/1.0}bibl")
+                            ),
+                            "quote": quote_text,
+                        }
+                    )
+                    # TODO:
+                    cf_str = (
+                        ggchild.tail.strip().replace(".", "").strip()
+                        if ggchild.tail
+                        else ""
+                    )
+                    if cf_str == "Cf":
+                        # FIXME: How to capture Cf in the sense
+                        is_cf_bibl = True
+                elif ggchild.tag == "{http://www.tei-c.org/ns/1.0}bibl":
+                    quote = None
+                    if not is_cf_bibl:
+                        if ggchild.getprevious() is None or ggchild.getprevious().tag in {
+                            "{http://www.tei-c.org/ns/1.0}gloss",
+                            "{http://www.tei-c.org/ns/1.0}cit",
+                            # aganos-cunliffe-lex-2"
+                            "{http://www.tei-c.org/ns/1.0}foreign",
+                            # agapazo-cunliffe-lex-1,
+                            "{http://www.tei-c.org/ns/1.0}ref",
+                            "{http://www.tei-c.org/ns/1.0}term",
+                        }:
+                            is_cf_bibl = True
+                        else:
+                            # FIXME: we are setting `is_cf_bibl` regardless
+                            is_cf_bibl = True
+                    citationish.append(
+                        {"ref": get_ref_from_bibl(ggchild), "quote": None}
+                    )
+                elif ggchild.tag in {
+                    "{http://www.tei-c.org/ns/1.0}foreign",
+                    "{http://www.tei-c.org/ns/1.0}hi",
+                    "{http://www.tei-c.org/ns/1.0}ref",
+                    # aggelie-cunliffe-lex
+                    "{http://www.tei-c.org/ns/1.0}quote",
+                }:
+                    sense_def_parts.append(as_text(ggchild))
+                elif ggchild.tag in {
+                    "{http://www.tei-c.org/ns/1.0}pb",
+                }:
+                    continue
+                else:
+                    pass
+                    # raise NotImplementedError
+            if not sense_def_parts:
+                sense_def_parts.append(as_text(gchild))
+            elif gchild.text:
+                sense_def_parts[0] = f"{gchild.text}{sense_def_parts[0]}"
+
+            sense_idx += 1
+            sense_urn = f"urn:cite2:exploreHomer:senses.atlas_v1:1.{sense_idx}"
+            citation_urn_part = sense_urn.rsplit(":")[-1]
+            base_urn = f"urn:cite2:scholarlyEditions:citations.v1:{citation_urn_part}"
+
+            citations = []
+            for pos, citation in enumerate(citationish):
+                cite_idx = pos + 1
+                citation["urn"] = ref_to_urn(citation["ref"])
+                citations.append({"urn": f"{base_urn}_{cite_idx}", "data": citation})
+            sense_definition = " ".join(sense_def_parts).strip()
+            if citations:
+                def_splitter = citations[0]["data"]["ref"] or ""
+                if def_splitter:
+                    sense_definition = sense_definition.split(def_splitter)[0].strip()
+
+            if DEBUG_OUTPUT:
+                print(str(depth), label, sense_definition)
+
+            senses.append(
+                dict(
+                    label=label,
+                    level=depth,
+                    definition=sense_definition,
+                    citations=citations,
+                    urn=sense_urn,
+                )
+            )
+            if label:
+                label = ""
+                depth += 1
+        elif case == "sense":
+            if label:
+                # ensure we process an otherwise "empty" sense
+                # e.g. tithemi-cunliffe-lex-1
+
+                sense_idx += 1
+                sense_urn = f"urn:cite2:exploreHomer:senses.atlas_v1:1.{sense_idx}"
+
+                if DEBUG_OUTPUT:
+                    print(str(depth), label, "")
+
+                senses.append(
+                    dict(
+                        label=label,
+                        level=depth,
+                        definition="",
+                        citations=[],
+                        urn=sense_urn,
+                    )
+                )
+                # set label to blank for next iteration
+                label = ""
+
+            senses.extend(process_sense(gchild))
+        else:
+            raise NotImplementedError
+    return senses
+
+
+def get_parent(root, node, data):
+    if node is None:
+        return root
+    elif data["level"] == node.level:
+        return node.parent
+    elif data["level"] > node.level:
+        return node
+    elif data["level"] < node.level:
+        for ancestor in node.iter_path_reverse():
+            if ancestor.level == data["level"]:
+                return ancestor.parent
+        return root
+    assert False
+
+
+def postprocess_senses(senses):
+    """
+    Convert the "level" information from the senses into
+    a nested structure
+    """
+    root = Node("", level=0)
+    node = None
+    for sense in senses:
+        parent = get_parent(root, node, sense)
+        node = Node(
+            sense["label"],
+            label=sense["label"],
+            urn=sense["urn"],
+            parent=parent,
+            definition=sense["definition"],
+            level=sense["level"],
+            citations=sense["citations"],
+        )
+
+    for node in root.descendants:
+        delattr(node, "level")
+        delattr(node, "name")
+
+    try:
+        # get the root's children
+        return TREE_EXPORTER.export(root)["children"]
+    except KeyError:
+        # TODO: Log an error
+        return []
+
+
 def extract_entry(textpart):
     # TODO: Review this with @jtauber; Logeion doesn't seem to have them
     if textpart.attrib.get("n") in ["prefsuff"]:
@@ -71,6 +302,8 @@ def extract_entry(textpart):
         pdb.set_trace()
 
     head_text = as_text(head_el)
+    if DEBUG_OUTPUT:
+        print(head_text)
 
     # NOTE: Strip dagger to prevent an issue with lemma lookup
     head_text = head_text.strip("†")
@@ -84,13 +317,6 @@ def extract_entry(textpart):
     }
     entry_defparts = []
     senses = []
-    _break = False
-    if (
-        textpart.attrib["{http://www.w3.org/XML/1998/namespace}id"]
-        == "aages-cunliffe-lex"
-    ):
-        _break = True
-
     for sibling in siblings:
         if sibling.tag not in cases:
             raise NotImplementedError
@@ -102,147 +328,9 @@ def extract_entry(textpart):
             # TODO: Further processing of "psudo-senses"
             # that have cit or bibl tags
         elif case == "sense":
-            sense_head = sibling.find(
-                "{http://www.tei-c.org/ns/1.0}head", namespaces=TEI_NS
-            )
-            if sense_head is None:
-                label = ""
-                parts = sibling.iterchildren()
-            else:
-                label = as_text(sense_head)
-                parts = sense_head.itersiblings()
-            for gchild in parts:
-                case = cases[gchild.tag]
-                if case == "text":
-                    sense_def_parts = []
-                    citationish = []
-                    is_cf_bibl = False
-                    for ggchild in gchild.iterchildren():
-                        if ggchild.tag in [
-                            "{http://www.tei-c.org/ns/1.0}term",
-                            "{http://www.tei-c.org/ns/1.0}gloss",
-                        ]:
-                            def_value = as_text(ggchild)
-                            if def_value:
-                                sense_def_parts.append(def_value)
-                        elif ggchild.tag == "{http://www.tei-c.org/ns/1.0}cit":
-                            quote_parts = []
-                            for quote in ggchild.findall(
-                                "{http://www.tei-c.org/ns/1.0}quote"
-                            ):
-                                # alaoo-cunliffe-lex
-                                quote_parts.append(as_text(quote))
-                                next_sibling = quote.getnext()
-                                if (
-                                    next_sibling is not None
-                                    and next_sibling.tag
-                                    == "{http://www.tei-c.org/ns/1.0}note"
-                                ):
-                                    quote_parts.append(
-                                        etree.tostring(
-                                            next_sibling,
-                                            method="text",
-                                            encoding="utf-8",
-                                        ).decode("utf-8")
-                                    )
+            senses.extend(process_sense(sibling))
 
-                            if quote_parts:
-                                quote_text = " ".join(quote_parts)
-                            else:
-                                # TODO:
-                                quote_text = None
-
-                            citationish.append(
-                                {
-                                    # ref could be using the text, but we prefer the actual entry, for now
-                                    "ref": get_ref_from_bibl(
-                                        ggchild.find(
-                                            "{http://www.tei-c.org/ns/1.0}bibl"
-                                        )
-                                    ),
-                                    "quote": quote_text,
-                                }
-                            )
-                            # TODO:
-                            cf_str = (
-                                ggchild.tail.strip().replace(".", "").strip()
-                                if ggchild.tail
-                                else ""
-                            )
-                            if cf_str == "Cf":
-                                # FIXME: How to capture Cf in the sense
-                                is_cf_bibl = True
-                        elif ggchild.tag == "{http://www.tei-c.org/ns/1.0}bibl":
-                            quote = None
-                            if not is_cf_bibl:
-                                if ggchild.getprevious() is None or ggchild.getprevious().tag in {
-                                    "{http://www.tei-c.org/ns/1.0}gloss",
-                                    "{http://www.tei-c.org/ns/1.0}cit",
-                                    # aganos-cunliffe-lex-2"
-                                    "{http://www.tei-c.org/ns/1.0}foreign",
-                                    # agapazo-cunliffe-lex-1,
-                                    "{http://www.tei-c.org/ns/1.0}ref",
-                                    "{http://www.tei-c.org/ns/1.0}term",
-                                }:
-                                    is_cf_bibl = True
-                                else:
-                                    #
-                                    print(ggchild.getprevious().tag)
-                                    is_cf_bibl = True
-                            citationish.append(
-                                {"ref": get_ref_from_bibl(ggchild), "quote": None}
-                            )
-                        elif ggchild.tag in {
-                            "{http://www.tei-c.org/ns/1.0}foreign",
-                            "{http://www.tei-c.org/ns/1.0}hi",
-                            "{http://www.tei-c.org/ns/1.0}ref",
-                            # aggelie-cunliffe-lex
-                            "{http://www.tei-c.org/ns/1.0}quote",
-                        }:
-                            sense_def_parts.append(as_text(ggchild))
-                        elif ggchild.tag in {
-                            "{http://www.tei-c.org/ns/1.0}pb",
-                        }:
-                            continue
-                        else:
-                            raise NotImplementedError
-                    if not sense_def_parts:
-                        sense_def_parts.append(as_text(gchild))
-                    elif gchild.text:
-                        sense_def_parts[0] = f"{gchild.text}{sense_def_parts[0]}"
-
-                    # FIXME: Refactor this
-                    global sense_idx
-                    sense_idx += 1
-                    sense_urn = f"urn:cite2:exploreHomer:senses.atlas_v1:1.{sense_idx}"
-                    citation_urn_part = sense_urn.rsplit(":")[-1]
-                    base_urn = (
-                        f"urn:cite2:scholarlyEditions:citations.v1:{citation_urn_part}"
-                    )
-
-                    citations = []
-                    for pos, citation in enumerate(citationish):
-                        cite_idx = pos + 1
-                        citation["urn"] = ref_to_urn(citation["ref"])
-                        citations.append(
-                            {"urn": f"{base_urn}_{cite_idx}", "data": citation}
-                        )
-                    sense_definition = " ".join(sense_def_parts).strip()
-                    if citations:
-                        def_splitter = citations[0]["data"]["ref"] or ""
-                        if def_splitter:
-                            sense_definition = sense_definition.split(def_splitter)[
-                                0
-                            ].strip()
-
-                    senses.append(
-                        dict(
-                            label=label,
-                            definition=sense_definition,
-                            citations=citations,
-                            urn=sense_urn,
-                        )
-                    )
+    senses = postprocess_senses(senses)
     return dict(
         headword=head_text,
         data={
