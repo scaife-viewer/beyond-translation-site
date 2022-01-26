@@ -263,15 +263,13 @@ def add_translations_to_trees(reset=None):
 def add_glosses_to_trees(reset=None):
     # NOTE: Reset is a no-op
     collection_urn = "urn:cite2:beyond-translation:text_annotation_collection.atlas_v1:il_gregorycrane_gAGDT"
-    # TODO: Expand data once we have it in the spreadsheet
-    limit = 14
     # TODO: Figure out why this query doesn't work as expected against
     # text_parts__urn relation
-    trees = list(TextAnnotation.objects.filter(
+    trees = TextAnnotation.objects.filter(
         collection__urn=collection_urn,
         urn__startswith="urn:cite2:exploreHomer:syntaxTree.v1:syntaxTree-tlg0012-tlg001-"
         # text_parts__urn__startswith="urn:cts:greekLit:tlg0012.tlg001.perseus-grc2:"
-    ).order_by("idx")[0:limit])
+    ).order_by("idx")
 
     to_update = []
     for tree in trees:
