@@ -1,7 +1,7 @@
 import csv
 from pathlib import Path
 
-from scaife_viewer.atlas.language_utils import normalize_string
+# from scaife_viewer.atlas.language_utils import normalize_string
 
 
 def main():
@@ -11,19 +11,24 @@ def main():
     )
 
     gloss_lu = {}
-    gloss_reader = iter(csv.DictReader(eng_glosses_path.open(encoding="utf-8-sig")))
+    gloss_reader = iter(csv.DictReader(eng_glosses_path.open(encoding="utf-8-sig"), delimiter="\t"))
     for row in gloss_reader:
-        lemma = normalize_string(row["lemma"])
-        # Store the normalized lemma form
-        gloss_lu[lemma] = row["def"]
+        # lemma = normalize_string(row["lemma"])
+        # # Store the normalized lemma form
+        # gloss_lu[lemma] = row["def"]
+
+        # Store the exact lemma form
+        gloss_lu[row["lemma"]] = row["def"]
 
     updated_rows = []
     annotation_reader = csv.DictReader(
         iliad_annotations_path.open(encoding="utf-8-sig")
     )
     for row in annotation_reader:
-        # lookup using the normalized lemma form
-        row["gloss (eng)"] = gloss_lu.get(normalize_string(row["lemma"]), "")
+        # # lookup using the normalized lemma form
+        # row["gloss (eng)"] = gloss_lu.get(normalize_string(row["lemma"]), "")
+        # lookup using the exact lemma form
+        row["gloss (eng)"] = gloss_lu.get(row["lemma"], "")
         updated_rows.append(row)
 
     with iliad_annotations_path.open("w", encoding="utf-8-sig") as f:
