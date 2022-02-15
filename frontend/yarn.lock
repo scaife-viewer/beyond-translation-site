@@ -1440,9 +1440,9 @@
     graphql-tag "^2.10.3"
     vue-apollo "^3.0.4"
 
-"@scaife-viewer/reader-image-mode@https://gitpkg.vercel.app/scaife-viewer/frontend/packages/reader-image-mode?377b2e7f116c5e59f9db6379f925de77b7359e0e":
+"@scaife-viewer/reader-image-mode@https://gitpkg.vercel.app/scaife-viewer/frontend/packages/reader-image-mode?30ffd2a183fa21b8052d7c7551ccd2461f2704a9":
   version "0.5.0-beta.1"
-  resolved "https://gitpkg.vercel.app/scaife-viewer/frontend/packages/reader-image-mode?377b2e7f116c5e59f9db6379f925de77b7359e0e#6fafb875c6ec0ae7f52464596be1f4d5df70cf90"
+  resolved "https://gitpkg.vercel.app/scaife-viewer/frontend/packages/reader-image-mode?30ffd2a183fa21b8052d7c7551ccd2461f2704a9#4787ada70e4bf950948566ba76b5790c85e2f56d"
   dependencies:
     "@fortawesome/free-solid-svg-icons" "^5.14.0"
     "@scaife-viewer/common" "^0.4.0"
