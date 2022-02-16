@@ -1,7 +1,7 @@
 import csv
 from pathlib import Path
 
-# from scaife_viewer.atlas.language_utils import normalize_string
+from scaife_viewer.atlas.language_utils import normalize_string
 
 
 def main():
@@ -28,7 +28,11 @@ def main():
         # # lookup using the normalized lemma form
         # row["gloss (eng)"] = gloss_lu.get(normalize_string(row["lemma"]), "")
         # lookup using the exact lemma form
-        row["gloss (eng)"] = gloss_lu.get(row["lemma"], "")
+        gloss = gloss_lu.get(row["lemma"], None)
+        if not gloss:
+            # TODO: Work with @jtauber to determine a valid fallback path
+            gloss = gloss_lu.get(normalize_string(row["lemma"]), "")
+        row["gloss (eng)"] = gloss
         updated_rows.append(row)
 
     with iliad_annotations_path.open("w", encoding="utf-8-sig") as f:
