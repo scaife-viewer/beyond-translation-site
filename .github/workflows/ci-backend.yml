@@ -43,6 +43,11 @@ jobs:
   build-and-push-images:
     name: Build and Push Images
     runs-on: ubuntu-latest
+    services:
+      registry:
+        image: registry:2
+        ports:
+          - 5000:5000
     # TODO: Give the ability to just deploy
     needs: [qa]
     steps:
@@ -85,13 +90,12 @@ jobs:
           context: ./frontend
           builder: ${{ steps.buildx.outputs.name }}
           file: ./deploy/frontend-build.dockerfile
-          # TODO: Restore push
-          # push: true
+          push: true
           # Tag :branchname, and :commit-sha
           tags: |
-            ghcr.io/${{ github.repository }}/frontend-build:${{ steps.tags.outputs.version }}
-            ghcr.io/${{ github.repository }}/frontend-build:${{ steps.tags.outputs.sha7 }}
-            ghcr.io/${{ github.repository }}/frontend-build:latest
+            localhost:5000/beyond-translation/frontend-build:${{ steps.tags.outputs.version }}
+            localhost:5000/beyond-translation/frontend-build:${{ steps.tags.outputs.sha7 }}
+            localhost:5000/beyond-translation/frontend-build:latest
           build-args: |
             GIT_COMMIT=${{ github.sha }}
             GIT_VERSION=${{ github.ref }}
@@ -104,13 +108,12 @@ jobs:
           context: ./backend
           builder: ${{ steps.buildx.outputs.name }}
           file: ./deploy/backend-build.dockerfile
-          # TODO: Restore push
-          # push: true
+          push: true
           # Tag :branchname, and :commit-sha
           tags: |
-            ghcr.io/${{ github.repository }}/backend-build:${{ steps.tags.outputs.version }}
-            ghcr.io/${{ github.repository }}/backend-build:${{ steps.tags.outputs.sha7 }}
-            ghcr.io/${{ github.repository }}/backend-build:latest
+            localhost:5000/beyond-translation/backend-build:${{ steps.tags.outputs.version }}
+            localhost:5000/beyond-translation/backend-build:${{ steps.tags.outputs.sha7 }}
+            localhost:5000/beyond-translation/backend-build:latest
           build-args: |
             GIT_COMMIT=${{ github.sha }}
             GIT_VERSION=${{ github.ref }}
@@ -124,13 +127,12 @@ jobs:
           context: ./backend
           builder: ${{ steps.buildx.outputs.name }}
           file: ./deploy/backend-prep.dockerfile
-          # TODO: Restore push
-          # push: true
+          push: true
           # Tag :branchname, and :commit-sha
           tags: |
-            ghcr.io/${{ github.repository }}/backend-prep:${{ steps.tags.outputs.version }}
-            ghcr.io/${{ github.repository }}/backend-prep:${{ steps.tags.outputs.sha7 }}
-            ghcr.io/${{ github.repository }}/backend-prep:latest
+            localhost:5000/beyond-translation/backend-prep:${{ steps.tags.outputs.version }}
+            localhost:5000/beyond-translation/backend-prep:${{ steps.tags.outputs.sha7 }}
+            localhost:5000/beyond-translation/backend-prep:latest
           build-args: |
             GIT_COMMIT=${{ github.sha }}
             GIT_VERSION=${{ github.ref }}
@@ -155,9 +157,9 @@ jobs:
             GIT_COMMIT=${{ github.sha }}
             GIT_VERSION=${{ github.ref }}
             VERSION=${{ steps.tags.outputs.sha7 }}
-            BACKEND_IMAGE=ghcr.io/${{ github.repository }}/backend-build
-            FRONTEND_IMAGE=ghcr.io/${{ github.repository }}/frontend-build
-            BACKEND_PREP_IMAGE=ghcr.io/${{ github.repository }}/backend-prep
+            BACKEND_IMAGE=localhost:5000/beyond-translation/backend-build
+            FRONTEND_IMAGE=localhost:5000/beyond-translation/frontend-build
+            BACKEND_PREP_IMAGE=localhost:5000/beyond-translation/backend-prep
           cache-from: type=local,src=/tmp/.buildx-cache
           cache-to: type=local,dest=/tmp/.buildx-cache
 
