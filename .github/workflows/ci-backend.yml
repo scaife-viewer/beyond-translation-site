@@ -139,6 +139,7 @@ jobs:
             GIT_COMMIT=${{ github.sha }}
             GIT_VERSION=${{ github.ref }}
             VERSION=${{ steps.tags.outputs.sha7 }}
+            BACKEND_IMAGE=localhost:5000/beyond-translation/backend-build
           cache-from: type=local,src=/tmp/.buildx-cache
           cache-to: type=local,dest=/tmp/.buildx-cache
       # TODO: Gate this to an action
