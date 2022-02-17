@@ -5,7 +5,6 @@ from collections import defaultdict
 from pathlib import Path
 
 from scaife_viewer.atlas.conf import settings
-from scaife_viewer.atlas.importers.token_annotations import apply_token_annotations
 from scaife_viewer.atlas.models import (
     Node,
     TextAlignment,

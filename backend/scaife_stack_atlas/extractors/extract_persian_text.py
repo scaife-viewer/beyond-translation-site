@@ -47,10 +47,8 @@ def write_text(output_path, refs_and_lines):
     """
     Write the text out to the ATLAS / text-server flat file format.
     """
-    ref_to_sentence_id_map = {}
     with output_path.open("w") as f:
-        chapter_counter = 1
-        for ref, line_chunk in refs_and_lines.items():
+        for _, line_chunk in refs_and_lines.items():
             # TODO: Load books from input_path
             book_ref = "1"
             counter = 1

@@ -39,9 +39,12 @@ jobs:
           flake8 scaife_stack_atlas
       - name: Run tests
         run: pytest
+  # TODO: split apart base images, data image, and app image
   build-and-push-images:
     name: Build and Push Images
     runs-on: ubuntu-latest
+    # TODO: Give the ability to just deploy
+    needs: [qa]
     steps:
       - name: Checkout
         uses: actions/checkout@v2

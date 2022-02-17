@@ -103,7 +103,7 @@ def main():
                 {
                     "headword": head_text,
                     "senses": senses,
-                    "data": {"content": label,},
+                    "data": {"content": label},  # noqa
                     "urn": f"{ENTRY_URN_PREFIX}{sense_idx}",
                 }
             )
