@@ -78,21 +78,87 @@ jobs:
           restore-keys: |
             ${{ runner.os }}-buildx-
 
-      - name: Build and Push Images
+      # TODO: Experiment with local registry
+      - name: Frontend build
         uses: docker/build-push-action@v2
         with:
-          context: .
+          context: ./frontend
           builder: ${{ steps.buildx.outputs.name }}
-          file: heroku.dockerfile
-          push: true
+          file: ./deploy/frontend-build.dockerfile
+          # TODO: Restore push
+          # push: true
           # Tag :branchname, and :commit-sha
           tags: |
-            ghcr.io/${{ github.repository }}:${{ steps.tags.outputs.version }}
-            ghcr.io/${{ github.repository }}:${{ steps.tags.outputs.sha7 }}
-            ghcr.io/${{ github.repository }}:latest
+            ghcr.io/${{ github.repository }}/frontend-build:${{ steps.tags.outputs.version }}
+            ghcr.io/${{ github.repository }}/frontend-build:${{ steps.tags.outputs.sha7 }}
+            ghcr.io/${{ github.repository }}/frontend-build:latest
           build-args: |
             GIT_COMMIT=${{ github.sha }}
             GIT_VERSION=${{ github.ref }}
             VERSION=${{ steps.tags.outputs.sha7 }}
           cache-from: type=local,src=/tmp/.buildx-cache
           cache-to: type=local,dest=/tmp/.buildx-cache
+      - name: Backend build
+        uses: docker/build-push-action@v2
+        with:
+          context: ./backend
+          builder: ${{ steps.buildx.outputs.name }}
+          file: ./deploy/backend-build.dockerfile
+          # TODO: Restore push
+          # push: true
+          # Tag :branchname, and :commit-sha
+          tags: |
+            ghcr.io/${{ github.repository }}/backend-build:${{ steps.tags.outputs.version }}
+            ghcr.io/${{ github.repository }}/backend-build:${{ steps.tags.outputs.sha7 }}
+            ghcr.io/${{ github.repository }}/backend-build:latest
+          build-args: |
+            GIT_COMMIT=${{ github.sha }}
+            GIT_VERSION=${{ github.ref }}
+            VERSION=${{ steps.tags.outputs.sha7 }}
+          cache-from: type=local,src=/tmp/.buildx-cache
+          cache-to: type=local,dest=/tmp/.buildx-cache
+      # TODO: Gate this to an action
+      - name: Backend prep
+        uses: docker/build-push-action@v2
+        with:
+          context: ./backend
+          builder: ${{ steps.buildx.outputs.name }}
+          file: ./deploy/backend-prep.dockerfile
+          # TODO: Restore push
+          # push: true
+          # Tag :branchname, and :commit-sha
+          tags: |
+            ghcr.io/${{ github.repository }}/backend-prep:${{ steps.tags.outputs.version }}
+            ghcr.io/${{ github.repository }}/backend-prep:${{ steps.tags.outputs.sha7 }}
+            ghcr.io/${{ github.repository }}/backend-prep:latest
+          build-args: |
+            GIT_COMMIT=${{ github.sha }}
+            GIT_VERSION=${{ github.ref }}
+            VERSION=${{ steps.tags.outputs.sha7 }}
+          cache-from: type=local,src=/tmp/.buildx-cache
+          cache-to: type=local,dest=/tmp/.buildx-cache
+      # TODO: Gate this to an action
+      - name: Backend prep
+        uses: docker/build-push-action@v2
+        with:
+          context: ./backend
+          builder: ${{ steps.buildx.outputs.name }}
+          file: ./deploy/webapp.dockerfile
+          # TODO: Restore push
+          push: true
+          # Tag :branchname, and :commit-sha
+          tags: |
+            ghcr.io/${{ github.repository }}/webapp:${{ steps.tags.outputs.version }}
+            ghcr.io/${{ github.repository }}/webapp:${{ steps.tags.outputs.sha7 }}
+            ghcr.io/${{ github.repository }}/webapp:latest
+          build-args: |
+            GIT_COMMIT=${{ github.sha }}
+            GIT_VERSION=${{ github.ref }}
+            VERSION=${{ steps.tags.outputs.sha7 }}
+            BACKEND_IMAGE=ghcr.io/${{ github.repository }}/backend-build
+            FRONTEND_IMAGE=ghcr.io/${{ github.repository }}/frontend-build
+            BACKEND_PREP_IMAGE=ghcr.io/${{ github.repository }}/backend-prep
+          cache-from: type=local,src=/tmp/.buildx-cache
+          cache-to: type=local,dest=/tmp/.buildx-cache
+
+# TODO: Docker file tweaks
