@@ -220,3 +220,5 @@ DATABASES = {
         "OPTIONS": {"timeout": 5 * 60},
     }
 }
+
+# Test comment for GitHub Actions CI
