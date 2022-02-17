@@ -1,20 +1,12 @@
 import json
-import os
 import re
 from collections import Counter
 from pathlib import Path
 from string import digits
 
-import django
-
-
-# TODO: refactor this as an actual Django management command
-os.environ.setdefault("DJANGO_SETTINGS_MODULE", "scaife_stack_atlas.settings")
-django.setup()
-
-
 from django.db.models import Q
 
+from scaife_stack_atlas.extractors.extract_parrish_odyssey_text import ensure_pairs
 from scaife_viewer.atlas.models import (
     Node,
     TextAlignment,
@@ -22,11 +14,6 @@ from scaife_viewer.atlas.models import (
     TextAlignmentRecordRelation,
     Token,
 )
-
-from scaife_stack_atlas.extractors.extract_parrish_odyssey_text import ensure_pairs
-
-
-
 
 
 def resolve_pairs(pairs, greek_version):
@@ -170,32 +157,32 @@ def get_data(text_alignment):
     }
 
 
-def main():
-    xml_path = Path("data/raw/homer-parrish/od-5-content.xml")
-    pairs_path = ensure_pairs(xml_path)
+# def main():
+#     xml_path = Path("data/raw/homer-parrish/od-5-content.xml")
+#     pairs_path = ensure_pairs(xml_path)
 
-    input_path = Path("data/raw/homer-parrish/od-5-content-pairs.json")
-    pairs = json.load(input_path.open())
-    greek_version = Node.objects.get(
-        urn="urn:cts:greekLit:tlg0012.tlg002.perseus-grc2:"
-    )
-    alignment_pairs = resolve_pairs(pairs, greek_version)
+#     input_path = Path("data/raw/homer-parrish/od-5-content-pairs.json")
+#     pairs = json.load(input_path.open())
+#     greek_version = Node.objects.get(
+#         urn="urn:cts:greekLit:tlg0012.tlg002.perseus-grc2:"
+#     )
+#     alignment_pairs = resolve_pairs(pairs, greek_version)
 
-    alignment_pairs_path = Path("data/raw/homer-parrish/od-5-alignment-pairs.json")
-    with alignment_pairs_path.open("w") as f:
-        json.dump(alignment_pairs, f, indent=2, ensure_ascii=False)
+#     alignment_pairs_path = Path("data/raw/homer-parrish/od-5-alignment-pairs.json")
+#     with alignment_pairs_path.open("w") as f:
+#         json.dump(alignment_pairs, f, indent=2, ensure_ascii=False)
 
-    english_version = Node.objects.get(
-        urn="urn:cts:greekLit:tlg0012.tlg002.parrish-eng1:"
-    )
-    # text_alignment = create_alignment_records(
-    #     alignment_pairs, greek_version, english_version
-    # )
+#     english_version = Node.objects.get(
+#         urn="urn:cts:greekLit:tlg0012.tlg002.parrish-eng1:"
+#     )
+#     # text_alignment = create_alignment_records(
+#     #     alignment_pairs, greek_version, english_version
+#     # )
 
-    # alignment_output_path = Path(
-    #     "data/annotations/text-alignments/odyssey-word-alignment-parrish-998078bc3bab42978b47fa8e8b852cae.json"
-    # )
+#     # alignment_output_path = Path(
+#     #     "data/annotations/text-alignments/odyssey-word-alignment-parrish-998078bc3bab42978b47fa8e8b852cae.json"
+#     # )
 
-    # data = get_data(text_alignment)
-    # with alignment_output_path.open("w") as f:
-    #     json.dump(data, f, ensure_ascii=False, indent=2)
+#     # data = get_data(text_alignment)
+#     # with alignment_output_path.open("w") as f:
+#     #     json.dump(data, f, ensure_ascii=False, indent=2)

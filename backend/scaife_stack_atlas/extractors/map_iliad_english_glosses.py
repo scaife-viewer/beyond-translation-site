@@ -11,7 +11,9 @@ def main():
     )
 
     gloss_lu = {}
-    gloss_reader = iter(csv.DictReader(eng_glosses_path.open(encoding="utf-8-sig"), delimiter="\t"))
+    gloss_reader = iter(
+        csv.DictReader(eng_glosses_path.open(encoding="utf-8-sig"), delimiter="\t")
+    )
     for row in gloss_reader:
         # lemma = normalize_string(row["lemma"])
         # # Store the normalized lemma form
@@ -36,10 +38,7 @@ def main():
         updated_rows.append(row)
 
     with iliad_annotations_path.open("w", encoding="utf-8-sig") as f:
-        annotation_writer = csv.DictWriter(
-            f,
-            fieldnames=updated_rows[0].keys(),
-        )
+        annotation_writer = csv.DictWriter(f, fieldnames=updated_rows[0].keys(),)
         annotation_writer.writeheader()
         annotation_writer.writerows(updated_rows)
 

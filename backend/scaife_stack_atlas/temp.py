@@ -273,12 +273,24 @@ def add_glosses_to_trees(reset=None):
 
     to_update = []
     for tree in trees:
-        annotations = list(TokenAnnotation.objects.filter(token__text_part__in=tree.text_parts.all()))
+        annotations = list(
+            TokenAnnotation.objects.filter(token__text_part__in=tree.text_parts.all())
+        )
         words = tree.data["words"]
         for word in words:
-            annotation = next(iter(filter(lambda x: x.data["lemma"] == word["lemma"], annotations)), None)
+            annotation = next(
+                iter(filter(lambda x: x.data["lemma"] == word["lemma"], annotations)),
+                None,
+            )
             if not annotation:
-                annotation = next(iter(filter(lambda x: x.data["word_value"] == word["value"], annotations)), None)
+                annotation = next(
+                    iter(
+                        filter(
+                            lambda x: x.data["word_value"] == word["value"], annotations
+                        )
+                    ),
+                    None,
+                )
                 if not annotation:
                     if word.get("tag") == "u--------":
                         pass
@@ -290,10 +302,12 @@ def add_glosses_to_trees(reset=None):
                         print(f'{word["value"]}')
                     # ~40 words unmapped with this naive pass
             data = annotation.data if annotation else {}
-            word.update({
-                "glossEng": data.get("gloss (eng)", ""),
-                "glossFas": data.get("gloss (fas)", "")
-            })
+            word.update(
+                {
+                    "glossEng": data.get("gloss (eng)", ""),
+                    "glossFas": data.get("gloss (fas)", ""),
+                }
+            )
         to_update.append(tree)
 
     TextAnnotation.objects.bulk_update(to_update, fields=["data"], batch_size=500)

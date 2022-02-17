@@ -72,5 +72,6 @@ def main():
     output_path = Path("data/library/tlg0012/tlg001/tlg0012.tlg001.shamsian-far1.txt")
     write_text(output_path, refs_and_lines)
 
+
 if __name__ == "__main__":
     main()
