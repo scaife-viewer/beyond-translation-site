@@ -1,0 +1,41 @@
+name: Deploy to Heroku
+
+on:
+  # TODO: Trigger from build-artifacts
+  workflow_dispatch:
+    inputs:
+      deploymentImage:
+        description: 'Image to use for deployment'
+        required: true
+        default: ghcr.io/${{ github.repository }}/webapp:latest
+      herokuAppName:
+        description: 'Destination app for deployment'
+        required: true
+        default: beyond-translation-gagdt-dev
+
+jobs:
+  deploy:
+      name: Deploy QA
+      runs-on: ubuntu-latest
+      env:
+        HEROKU_API_KEY: ${{ secrets.HEROKU_API_KEY }}
+      steps:
+        - name: Login to GH Container Registry
+          uses: docker/login-action@v1
+          with:
+            registry: ghcr.io
+            username: ${{ github.actor }}
+            password: ${{ secrets.GITHUB_TOKEN }}
+
+        - name: Login to the Heroku Container Registry
+          run: heroku container:login
+
+        # TODO: Revisit if heroku container:push could be more appropriate here
+        - name: Tag and push Heroku image
+          run: |
+            docker pull ${{ github.event.inputs.deploymentImage }}
+            docker tag ${{ github.event.inputs.deploymentImage }} registry.heroku.com/${{ github.event.inputs.herokuAppName }}/web:latest
+            docker push registry.heroku.com/${{ github.event.inputs.herokuAppName }}/web:latest
+
+        - name: Release
+          run: heroku container:release --app ${{ github.event.inputs.herokuAppName }} web
