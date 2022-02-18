@@ -1,0 +1,100 @@
+name: Build app image
+
+on:
+  workflow_dispatch:
+
+jobs:
+  build-webapp:
+    name: Build Docker image and push image tags
+    runs-on: ubuntu-latest
+    # TODO: Implement re-usable workflows so that
+    # - We run QA and deploy if QA passes
+    # - If QA fails, we can still override the deployment
+    # see https://docs.github.com/en/actions/using-workflows/reusing-workflows
+    # and https://stackoverflow.com/a/70542459 for more ideas
+    # needs: [qa]
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v2
+
+      - name: Set up Docker buildx
+        id: buildx
+        uses: docker/setup-buildx-action@v1
+        with:
+          driver-opts: network=host
+
+      - name: Login to GitHub Container Registry
+        uses: docker/login-action@v1
+        with:
+          registry: ghcr.io
+          username: ${{ github.actor }}
+          password: ${{ secrets.GITHUB_TOKEN }}
+
+      # TODO: Revisit use of :latest in favor of branch based builds;
+      # if a cache-from directive is missing, we don't get the benefits of any of them.
+      - name: Build frontend
+        uses: docker/build-push-action@v2
+        with:
+          context: ./
+          builder: ${{ steps.buildx.outputs.name }}
+          file: heroku.dockerfile
+          push: true
+          cache-from: type=registry,ref=ghcr.io/${{ github.repository }}/frontend-build:latest
+          cache-to: type=inline
+          target: frontend-build
+          tags:
+            ghcr.io/${{ github.repository }}/frontend-build
+      - name: Build backend
+        uses: docker/build-push-action@v2
+        with:
+          context: ./
+          builder: ${{ steps.buildx.outputs.name }}
+          file: heroku.dockerfile
+          push: true
+          cache-from: type=registry,ref=ghcr.io/${{ github.repository }}/backend-build:latest
+          cache-to: type=inline
+          target: backend-build
+          tags:
+            ghcr.io/${{ github.repository }}/backend-build
+      - name: Prepare backend
+        uses: docker/build-push-action@v2
+        with:
+          context: ./
+          builder: ${{ steps.buildx.outputs.name }}
+          file: heroku.dockerfile
+          push: true
+          cache-from:
+            type=registry,ref=ghcr.io/${{ github.repository }}/backend-build:latest
+            type=registry,ref=ghcr.io/${{ github.repository }}/backend-prep:latest
+          cache-to: type=inline
+          target: backend-prep
+          tags:
+            ghcr.io/${{ github.repository }}/backend-prep
+      - name: Autogenerate webapp Docker image tags
+        id: autogen-docker-tags
+        uses: docker/metadata-action@v3
+        with:
+          # list of Docker images to use as base name for tags
+          images: ghcr.io/${{ github.repository }}/webapp
+          # generate Docker tags based on the following events/attributes
+          tags: |
+            type=schedule
+            type=ref,event=branch
+            type=ref,event=pr
+            type=sha
+            latest
+      - name: Build webapp image
+        uses: docker/build-push-action@v2
+        with:
+          context: ./
+          builder: ${{ steps.buildx.outputs.name }}
+          file: heroku.dockerfile
+          push: true
+          cache-from:
+            type=registry,ref=ghcr.io/${{ github.repository }}/frontend-build:latest
+            type=registry,ref=ghcr.io/${{ github.repository }}/backend-build:latest
+            type=registry,ref=ghcr.io/${{ github.repository }}/backend-prep:latest
+            type=registry,ref=ghcr.io/${{ github.repository }}/webapp:latest
+          cache-to: type=inline
+          target: webapp
+          tags: ${{ steps.autogen-docker-tags.outputs.tags }}
