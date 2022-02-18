@@ -24,7 +24,7 @@ jobs:
       - name: Configure cache
         id: python-cache
         uses: actions/cache@v2
-        if: startsWith(runner.os, 'Linux')
+        if: startsWith(runner.os, 'Linux') && ${{ !env.ACT }}
         with:
           path: |
             ${{ env.pythonLocation}}
