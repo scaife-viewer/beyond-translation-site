@@ -107,6 +107,4 @@ jobs:
             type=registry,ref=ghcr.io/${{ github.repository }}/webapp:latest
           cache-to: type=inline
           target: webapp
-          tags:
-            ghcr.io/${{ github.repository }}/webapp
-            ${{ steps.autogen-docker-tags.outputs.tags }}
+          tags: ${{ steps.autogen-docker-tags.outputs.tags }}
