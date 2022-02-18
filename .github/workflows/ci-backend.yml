@@ -43,13 +43,12 @@ jobs:
   build-and-push-images:
     name: Build and Push Images
     runs-on: ubuntu-latest
-    services:
-      registry:
-        image: registry:2
-        ports:
-          - 5000:5000
-    # TODO: Give the ability to just deploy
-    needs: [qa]
+    # TODO: Implement re-usable workflows so that
+    # - We run QA and deploy if QA passes
+    # - If QA fails, we can still override the deployment
+    # see https://docs.github.com/en/actions/using-workflows/reusing-workflows
+    # and https://stackoverflow.com/a/70542459 for more ideas
+    # needs: [qa]
     steps:
       - name: Checkout
         uses: actions/checkout@v2
@@ -77,99 +76,61 @@ jobs:
           username: ${{ github.actor }}
           password: ${{ secrets.GITHUB_TOKEN }}
 
-      - name: Cache Docker layers
-        uses: actions/cache@v2
+      # TODO: Revisit use of :latest in favor of branch based builds;
+      # if a cache-from directive is missing, we don't get the benefits of any of them.
+      - name: Build frontend
+        uses: docker/build-push-action@v2
         with:
-          path: /tmp/.buildx-cache
-          key: ${{ runner.os }}-buildx-${{ github.sha }}
-          restore-keys: |
-            ${{ runner.os }}-buildx-
+          context: ./
+          builder: ${{ steps.buildx.outputs.name }}
+          file: heroku.dockerfile
+          push: true
+          cache-from: type=registry,ref=ghcr.io/${{ github.repository }}/frontend-build:latest
+          cache-to: type=inline
+          target: frontend-build
+          tags:
+            ghcr.io/${{ github.repository }}/frontend-build
+      - name: Build backend
+        uses: docker/build-push-action@v2
+        with:
+          context: ./
+          builder: ${{ steps.buildx.outputs.name }}
+          file: heroku.dockerfile
+          push: true
+          cache-from: type=registry,ref=ghcr.io/${{ github.repository }}/backend-build:latest
+          cache-to: type=inline
+          target: backend-build
+          tags:
+            ghcr.io/${{ github.repository }}/backend-build
+      - name: Prepare backend
+        uses: docker/build-push-action@v2
+        with:
+          context: ./
+          builder: ${{ steps.buildx.outputs.name }}
+          file: heroku.dockerfile
+          push: true
+          cache-from:
+            type=registry,ref=ghcr.io/${{ github.repository }}/backend-build:latest
+            type=registry,ref=ghcr.io/${{ github.repository }}/backend-prep:latest
+          cache-to: type=inline
+          target: backend-prep
+          tags:
+            ghcr.io/${{ github.repository }}/backend-prep
+      - name: Prepare deploy artifact
+        uses: docker/build-push-action@v2
+        with:
+          context: ./
+          builder: ${{ steps.buildx.outputs.name }}
+          file: heroku.dockerfile
+          push: true
+          cache-from:
+            type=registry,ref=ghcr.io/${{ github.repository }}/frontend-build:latest
+            type=registry,ref=ghcr.io/${{ github.repository }}/backend-build:latest
+            type=registry,ref=ghcr.io/${{ github.repository }}/backend-prep:latest
+            type=registry,ref=ghcr.io/${{ github.repository }}/webapp:latest
+          cache-to: type=inline
+          target: webapp
+          tags:
+            ghcr.io/${{ github.repository }}/webapp
 
-      # TODO: Experiment with local registry
-      - name: Frontend build
-        uses: docker/build-push-action@v2
-        with:
-          context: ./frontend
-          builder: ${{ steps.buildx.outputs.name }}
-          file: ./deploy/frontend-build.dockerfile
-          push: true
-          # Tag :branchname, and :commit-sha
-          tags: |
-            localhost:5000/beyond-translation/frontend-build:${{ steps.tags.outputs.version }}
-            localhost:5000/beyond-translation/frontend-build:${{ steps.tags.outputs.sha7 }}
-            localhost:5000/beyond-translation/frontend-build:latest
-          build-args: |
-            GIT_COMMIT=${{ github.sha }}
-            GIT_VERSION=${{ github.ref }}
-            VERSION=${{ steps.tags.outputs.sha7 }}
-          cache-from: type=local,src=/tmp/.buildx-cache
-          cache-to: type=local,dest=/tmp/.buildx-cache-new,mode=max
-      - name: Backend build
-        uses: docker/build-push-action@v2
-        with:
-          context: ./backend
-          builder: ${{ steps.buildx.outputs.name }}
-          file: ./deploy/backend-build.dockerfile
-          push: true
-          # Tag :branchname, and :commit-sha
-          tags: |
-            localhost:5000/beyond-translation/backend-build:${{ steps.tags.outputs.version }}
-            localhost:5000/beyond-translation/backend-build:${{ steps.tags.outputs.sha7 }}
-            localhost:5000/beyond-translation/backend-build:latest
-          build-args: |
-            GIT_COMMIT=${{ github.sha }}
-            GIT_VERSION=${{ github.ref }}
-            VERSION=${{ steps.tags.outputs.sha7 }}
-          cache-from: type=local,src=/tmp/.buildx-cache
-          cache-to: type=local,dest=/tmp/.buildx-cache-new,mode=max
-      # TODO: Gate this to an action
-      - name: Backend prep
-        uses: docker/build-push-action@v2
-        with:
-          context: ./backend
-          builder: ${{ steps.buildx.outputs.name }}
-          file: ./deploy/backend-prep.dockerfile
-          push: true
-          # Tag :branchname, and :commit-sha
-          tags: |
-            localhost:5000/beyond-translation/backend-prep:${{ steps.tags.outputs.version }}
-            localhost:5000/beyond-translation/backend-prep:${{ steps.tags.outputs.sha7 }}
-            localhost:5000/beyond-translation/backend-prep:latest
-          build-args: |
-            GIT_COMMIT=${{ github.sha }}
-            GIT_VERSION=${{ github.ref }}
-            VERSION=${{ steps.tags.outputs.sha7 }}
-            BACKEND_IMAGE=localhost:5000/beyond-translation/backend-build
-          cache-from: type=local,src=/tmp/.buildx-cache
-          cache-to: type=local,dest=/tmp/.buildx-cache-new,mode=max
-      # TODO: Gate this to an action
-      - name: Webapp build
-        uses: docker/build-push-action@v2
-        with:
-          context: ./backend
-          builder: ${{ steps.buildx.outputs.name }}
-          file: ./deploy/webapp.dockerfile
-          # TODO: Restore push
-          push: true
-          # Tag :branchname, and :commit-sha
-          tags: |
-            ghcr.io/${{ github.repository }}/webapp:${{ steps.tags.outputs.version }}
-            ghcr.io/${{ github.repository }}/webapp:${{ steps.tags.outputs.sha7 }}
-            ghcr.io/${{ github.repository }}/webapp:latest
-          build-args: |
-            GIT_COMMIT=${{ github.sha }}
-            GIT_VERSION=${{ github.ref }}
-            VERSION=${{ steps.tags.outputs.sha7 }}
-            BACKEND_IMAGE=localhost:5000/beyond-translation/backend-build
-            FRONTEND_IMAGE=localhost:5000/beyond-translation/frontend-build
-            BACKEND_PREP_IMAGE=localhost:5000/beyond-translation/backend-prep
-          cache-from: type=local,src=/tmp/.buildx-cache
-          cache-to: type=local,dest=/tmp/.buildx-cache-new,mode=max
-      - name: Move cache
-        # Temp fix
-        # https://github.com/docker/build-push-action/issues/252
-        # https://github.com/moby/buildkit/issues/1896
-        run: |
-          rm -rf /tmp/.buildx-cache
-          mv /tmp/.buildx-cache-new /tmp/.buildx-cache
 # TODO: Docker file tweaks
