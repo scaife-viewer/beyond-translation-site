@@ -93,6 +93,7 @@ jobs:
             type=ref,event=branch
             type=ref,event=pr
             type=sha
+            latest
       - name: Prepare deploy artifact
         uses: docker/build-push-action@v2
         with:
