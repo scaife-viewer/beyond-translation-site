@@ -8,5 +8,5 @@ django-querycount==0.7.0
 django==2.2.15
 gunicorn==20.0.0
 pandas==1.3.1
-scaife-viewer-atlas @https://github.com/scaife-viewer/backend/archive/e6104bf4d38eebb88cc42f64f700bf0903278832.zip#subdirectory=atlas
+scaife-viewer-atlas @https://github.com/scaife-viewer/backend/archive/d15dcdc8dd1823418ef08ec96496c1613f43cc37.zip#subdirectory=atlas
 whitenoise==4.1.4
