@@ -1534,9 +1534,9 @@
     "@scaife-viewer/common" "^0.4.0"
     graphql-tag "^2.10.3"
 
-"@scaife-viewer/vue-treant@^0.5.0-beta.1":
+"@scaife-viewer/vue-treant@^0.5.0-beta.1", "@scaife-viewer/vue-treant@https://gitpkg.vercel.app/scaife-viewer/frontend/packages/vue-treant?658523eb8c6169d0b4d1c1612b9ca81ee0889b53":
   version "0.5.0-beta.1"
-  resolved "https://gitpkg.vercel.app/scaife-viewer/frontend/packages/vue-treant?9fc36d2823c46a4b5b380f6f784a6379b7c8b651#6dbf8521d1736c25e7f4c5ed2fc95734ff22984e"
+  resolved "https://gitpkg.vercel.app/scaife-viewer/frontend/packages/vue-treant?658523eb8c6169d0b4d1c1612b9ca81ee0889b53#5d38b7087eb3834ecdd40f729147a03bf7659dc1"
   dependencies:
     "@panzoom/panzoom" "^4.4.3"
     raphael "^2.3.0"
