@@ -10,6 +10,9 @@ from pathlib import Path
 
 import regex
 
+from scaife_stack_atlas.extractors.map_iliad_english_glosses import (
+    build_eng_glosses_lookup,
+)
 from scaife_stack_atlas.postag_convert import deep_morphology_pos_and_parse
 from scaife_viewer.atlas import tokenizers
 from scaife_viewer.atlas.models import Node, Token
@@ -135,6 +138,14 @@ def no_marks_normalized(value):
     return nfkc_value.casefold()
 
 
+def get_english_gloss(gloss_lookup, lemma):
+    gloss = gloss_lookup.get(lemma, "")
+    if not gloss:
+        # TODO: Log fallback somewhere
+        gloss = gloss_lookup.get(no_marks_normalized(lemma))
+    return gloss
+
+
 def main():
     input_path = Path(
         "data/annotations/syntax-trees/gregorycrane_gagdt_syntax_trees_tlg0012.tlg002.perseus-grc2.json"
@@ -149,10 +160,12 @@ def main():
         "word_value",
         "lemma",
         "part_of_speech",
+        "gloss (eng)",
         "parse",
         "tag",
     ]
     annotations = []
+    english_glosses = build_eng_glosses_lookup()
     refcounter = Counter()
     version = Node.objects.filter(
         urn__icontains="tlg0012.tlg002.perseus-grc2", depth=5
@@ -199,6 +212,10 @@ def main():
                     annotation["part_of_speech"],
                     annotation["parse"],
                 ) = deep_morphology_pos_and_parse(word["tag"])
+
+                annotation["gloss (eng)"] = get_english_gloss(
+                    english_glosses, word["lemma"]
+                )
 
                 existing_token = resolve_existing_token(
                     version, text_part_ref, position
