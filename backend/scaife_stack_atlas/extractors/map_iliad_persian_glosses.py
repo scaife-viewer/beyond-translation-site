@@ -18,14 +18,25 @@ def main():
         iliad_annotations_path.open(encoding="utf-8-sig")
     )
     for row in annotation_reader:
-        if row["ve_ref"].startswith("2."):
-            continue
-        row["gloss (fas)"] = gloss_lu.get(row["lemma"], "")
+        gloss = ""
+        if row["ve_ref"].startswith("1."):
+            gloss = gloss_lu.get(row["lemma"], "")
+        row["gloss (fas)"] = gloss
         updated_rows.append(row)
 
+    fieldnames = [
+        "ve_ref",
+        "value",
+        "word_value",
+        "lemma",
+        "part_of_speech",
+        "gloss (eng)",
+        "gloss (fas)",
+        "parse",
+        "tag",
+    ]
     annotation_writer = csv.DictWriter(
-        iliad_annotations_path.open("w", encoding="utf-8-sig"),
-        fieldnames=updated_rows[0].keys(),
+        iliad_annotations_path.open("w", encoding="utf-8-sig"), fieldnames=fieldnames,
     )
     annotation_writer.writeheader()
     annotation_writer.writerows(updated_rows)
