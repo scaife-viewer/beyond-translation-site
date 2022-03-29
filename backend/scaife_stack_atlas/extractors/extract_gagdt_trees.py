@@ -10,7 +10,7 @@ def transform_headwords(words):
         if word["head_id"] not in inbounds:
             # NOTE: This is likely from a sentence id that has been split
             # into sub-sentences; if the `head_id` is not in the split sentence,
-            # we interpret this as being the "new" oort
+            # we interpret this as being the "new" root
             word["original_head_id"] = word["head_id"]
             word["head_id"] = 0
     return words
@@ -106,6 +106,7 @@ def extract_trees(input_path, version_urn, records_lookup):
         tree = etree.parse(f)
     to_create = []
     version_part = version_urn.rsplit(":", maxsplit=2)[1]
+    print(f"Extracting from {version_part}")
     exemplar = version_part.replace(".", "-")
     for sentence in tree.xpath("//sentence"):
         seen_urns = set()
@@ -131,7 +132,17 @@ def extract_trees(input_path, version_urn, records_lookup):
             try:
                 head_val = int(head_val)
             except ValueError:
-                head_val = int(head_val.split(".").pop())
+                try:
+                    head_val = int(head_val.split(".").pop())
+                except ValueError:
+                    head_val = None
+
+            if head_val is None:
+                print(
+                    f'No @head found [form={word.attrib["form"]} sentence_id={sentence_id}]'
+                )
+                continue
+
             word_obj = {
                 "id": id_val,
                 "value": word.attrib["form"],
