@@ -49,9 +49,9 @@ def resolve_existing_token(version, text_part_ref, position):
 
 def log_no_subref_error(text_part, word_value):
     if ERRORS_NO_SUBREF_FOUND in ERRORS:
-    print(
-        f"Could not retrieve {text_part.ref}@{word_value} from {text_part.text_content}"
-    )
+        print(
+            f"Could not retrieve {text_part.ref}@{word_value} from {text_part.text_content}"
+        )
 
 
 def heal_existing_token(existing_token, word_value):
@@ -117,7 +117,7 @@ def heal_token_by_word_value(version, text_part_ref, word_value):
     text_part = Node.objects.filter(urn=f"{version.urn}{text_part_ref}").first()
     if not text_part:
         if ERRORS_NO_SUBREF_FOUND in ERRORS:
-        print(f"Could not retrieve a text part for {text_part_ref}@{word_value}")
+            print(f"Could not retrieve a text part for {text_part_ref}@{word_value}")
         return False, None
     token_by_value = text_part.tokens.filter(word_value=word_value).first()
     if token_by_value:
@@ -147,6 +147,11 @@ def get_english_gloss(gloss_lookup, lemma):
         # TODO: Log fallback somewhere
         gloss = gloss_lookup.get(no_marks_normalized(lemma))
     return gloss
+
+
+def sort_func(value):
+    book, line, token = value.split(".")
+    return (int(book), int(line), int(token.strip("t")))
 
 
 def main():
@@ -246,6 +251,7 @@ def main():
                     except IndexError:
                         annotations.append(annotation)
 
+    annotations = sorted(annotations, key=lambda x: sort_func(x["ve_ref"]))
     with odyssey_annotations_path.open("w", encoding="utf-8-sig") as f:
         annotation_writer = csv.DictWriter(f, fieldnames=fieldnames,)
         annotation_writer.writeheader()
