@@ -22,7 +22,8 @@ UNICODE_MARK_CATEGORY_REGEX = regex.compile(r"\p{M}")
 
 ERROR_NO_REF_FOUND = "no ref found"
 ERROR_INVALID_REF = "ref not valid"
-ERRORS = {}
+ERRORS_NO_SUBREF_FOUND = "no subref found"
+ERRORS = {ERROR_NO_REF_FOUND, ERROR_INVALID_REF, ERRORS_NO_SUBREF_FOUND}
 
 
 def findall(p, s):
@@ -47,6 +48,7 @@ def resolve_existing_token(version, text_part_ref, position):
 
 
 def log_no_subref_error(text_part, word_value):
+    if ERRORS_NO_SUBREF_FOUND in ERRORS:
     print(
         f"Could not retrieve {text_part.ref}@{word_value} from {text_part.text_content}"
     )
@@ -114,6 +116,7 @@ def heal_token_by_word_value(version, text_part_ref, word_value):
     # NOTE: Retrieving only by word value
     text_part = Node.objects.filter(urn=f"{version.urn}{text_part_ref}").first()
     if not text_part:
+        if ERRORS_NO_SUBREF_FOUND in ERRORS:
         print(f"Could not retrieve a text part for {text_part_ref}@{word_value}")
         return False, None
     token_by_value = text_part.tokens.filter(word_value=word_value).first()
@@ -182,13 +185,17 @@ def main():
                     ref = word["ref"]
                 except KeyError:
                     if ERROR_NO_REF_FOUND in ERRORS:
-                        print(f"no ref found {word['value']}")
+                        print(
+                            f"no ref found for {word['value']} [treebank_id=\"{row['treebank_id']}\"]"
+                        )
                     continue
                 try:
                     book, line = ref.split(".")
                 except ValueError:
                     if ERROR_INVALID_REF in ERRORS:
-                        print(f"ref not valid {ref}")
+                        print(
+                            f"ref not valid {ref} [treebank_id=\"{row['treebank_id']}\"]"
+                        )
                     continue
 
                 # NOTE: Uncomment to debug a book at a time
