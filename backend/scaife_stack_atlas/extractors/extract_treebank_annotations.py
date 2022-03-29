@@ -1,5 +1,5 @@
 """
-Script used to extract Odyssey treebank annotations
+Script used to extract Homer treebank annotations
 """
 
 import csv
@@ -41,7 +41,7 @@ def findall(p, s):
 
 
 def resolve_existing_token(version, text_part_ref, position):
-    # NOTE: 1.95 is a bad ref
+    # NOTE: Od 1.95 is a bad ref
     return Token.objects.filter(
         text_part__urn=f"{version.urn}{text_part_ref}", position=position
     ).first()
@@ -64,18 +64,18 @@ def heal_existing_token(existing_token, word_value):
         return True, existing_token
 
     if existing_token.word_value.strip("ʼ") == word_value:
-        # 1.3
+        # Od 1.3
         return True, existing_token
 
     if existing_token.word_value.startswith(word_value):
-        # 1.59
+        # Od 1.59
         return True, existing_token
 
     prev_token = Token.objects.filter(
         text_part=existing_token.text_part, idx=existing_token.idx - 1
     ).first()
     if prev_token and prev_token.word_value.endswith(word_value):
-        # 1.59
+        # Od 1.59
         # Skip; but revisit if we can resolve via subrefs
         return True, prev_token
 
@@ -100,9 +100,9 @@ def heal_existing_token(existing_token, word_value):
 
     by_partial_value = word_value in existing_token.text_part.text_content
     if by_partial_value:
-        # 5.32 has repeated split οὔτε
-        # 5.212 οὐδὲ
-        # 5.347 οὐδέ οὐδ
+        # Od 5.32 has repeated split οὔτε
+        # Od 5.212 οὐδὲ
+        # Od 5.347 οὐδέ οὐδ
         # TODO: What is the appropriate thing here?
         return False, None
 
@@ -129,7 +129,7 @@ def heal_token_by_word_value(version, text_part_ref, word_value):
     if token_by_value_with_breathing:
         return True, token_by_value_with_breathing
 
-    # 5.347
+    # Od 5.347
     log_no_subref_error(text_part, word_value)
     return False, None
 
@@ -154,14 +154,7 @@ def sort_func(value):
     return (int(book), int(line), int(token.strip("t")))
 
 
-def main():
-    input_path = Path(
-        "data/annotations/syntax-trees/gregorycrane_gagdt_syntax_trees_tlg0012.tlg002.perseus-grc2.json"
-    )
-    odyssey_annotations_path = Path(
-        "data/annotations/token-annotations/od-crane/tlg0012.tlg002.perseus-grc2.csv"
-    )
-
+def do_extraction(input_path, output_path, version_urn):
     fieldnames = [
         "ve_ref",
         "value",
@@ -175,9 +168,8 @@ def main():
     annotations = []
     english_glosses = build_eng_glosses_lookup()
     refcounter = Counter()
-    version = Node.objects.filter(
-        urn__icontains="tlg0012.tlg002.perseus-grc2", depth=5
-    ).first()
+    version = Node.objects.filter(urn=version_urn).get()
+
     # TODO: Resolve text parts and tokens down to CTS Refs?
     # Can we do it with the highlight-ish thing from SV 1, or do we need
     # fully implemented subreferences?  Is there prior art?
@@ -252,10 +244,40 @@ def main():
                         annotations.append(annotation)
 
     annotations = sorted(annotations, key=lambda x: sort_func(x["ve_ref"]))
-    with odyssey_annotations_path.open("w", encoding="utf-8-sig") as f:
+    with output_path.open("w", encoding="utf-8-sig") as f:
         annotation_writer = csv.DictWriter(f, fieldnames=fieldnames,)
         annotation_writer.writeheader()
         annotation_writer.writerows(annotations)
+
+
+def main():
+    annotations = [
+        dict(
+            input_path=Path(
+                "data/annotations/syntax-trees/gregorycrane_gagdt_syntax_trees_tlg0012.tlg001.perseus-grc2.json"
+            ),
+            output_path=Path(
+                "data/annotations/token-annotations/iliad-crane-shamsian/tlg0012.tlg001.perseus-grc2.csv"
+            ),
+            version_urn="urn:cts:greekLit:tlg0012.tlg001.perseus-grc2:",
+        ),
+        dict(
+            input_path=Path(
+                "data/annotations/syntax-trees/gregorycrane_gagdt_syntax_trees_tlg0012.tlg002.perseus-grc2.json"
+            ),
+            output_path=Path(
+                "data/annotations/token-annotations/od-crane/tlg0012.tlg002.perseus-grc2.csv"
+            ),
+            version_urn="urn:cts:greekLit:tlg0012.tlg002.perseus-grc2:",
+        ),
+    ]
+    for annotation in annotations:
+        print(f'Extracting annotations for {annotation["version_urn"]}')
+        do_extraction(
+            annotation["input_path"],
+            annotation["output_path"],
+            annotation["version_urn"],
+        )
 
 
 if __name__ == "__main__":
