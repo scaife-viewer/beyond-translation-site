@@ -167,7 +167,7 @@ def create_persian_greek_alignment(reset=True):
 
 def add_iliad_english_persian_translations():
     collection_urn = "urn:cite2:beyond-translation:text_annotation_collection.atlas_v1:il_gregorycrane_gAGDT"
-    limit = 490
+    limit = 492
     # TODO: Figure out why this query doesn't work as expected against
     # text_parts__urn relation
     trees = list(
@@ -178,15 +178,22 @@ def add_iliad_english_persian_translations():
         ).order_by("idx")[0:limit]
     )
 
-    persian_text = get_textparts_from_passage_reference(
-        "urn:cts:greekLit:tlg0012.tlg001.shamsian-far1:1.s1-1.s490",
-        Node.objects.get(urn="urn:cts:greekLit:tlg0012.tlg001.shamsian-far1:"),
+    persian_text = list(
+        get_textparts_from_passage_reference(
+            "urn:cts:greekLit:tlg0012.tlg001.shamsian-far1:1.s1-1.s492",
+            Node.objects.get(urn="urn:cts:greekLit:tlg0012.tlg001.shamsian-far1:"),
+        )
     )
-    english_text = get_textparts_from_passage_reference(
-        "urn:cts:greekLit:tlg0012.tlg001.parrish-eng1-sentences:1.s1-1.s490",
-        Node.objects.get(urn="urn:cts:greekLit:tlg0012.tlg001.parrish-eng1-sentences:"),
+    english_text = list(
+        get_textparts_from_passage_reference(
+            "urn:cts:greekLit:tlg0012.tlg001.parrish-eng1-sentences:1.s1-1.s492",
+            Node.objects.get(
+                urn="urn:cts:greekLit:tlg0012.tlg001.parrish-eng1-sentences:"
+            ),
+        )
     )
 
+    assert len(trees) == len(persian_text) == len(english_text)
     to_update = []
     for tree, persian, english in zip(trees, persian_text, english_text):
         tree.data["translations"] = [
@@ -225,7 +232,7 @@ def add_odyssey_english_translations():
 
 def add_additional_iliad_translations():
     collection_urn = "urn:cite2:beyond-translation:text_annotation_collection.atlas_v1:il_gregorycrane_gAGDT"
-    limit = 490
+    limit = 492
     # TODO: Figure out why this query doesn't work as expected against
     # text_parts__urn relation
     trees = TextAnnotation.objects.filter(
