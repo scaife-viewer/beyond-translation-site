@@ -13,14 +13,14 @@
     "@fortawesome/fontawesome-svg-core": "^1.2.32",
     "@fortawesome/free-solid-svg-icons": "^5.15.1",
     "@fortawesome/vue-fontawesome": "^2.0.0",
-    "@scaife-viewer/common": "^0.0.7",
+    "@scaife-viewer/common": "https://gitpkg.vercel.app/scaife-viewer/frontend/packages/common?8032ea373a95829b3b8a6d3dd277ab7fabf64c57",
     "@scaife-viewer/reader-alignments-mode": "https://gitpkg.vercel.app/scaife-viewer/frontend/packages/reader-alignments-mode?377b2e7f116c5e59f9db6379f925de77b7359e0e",
     "@scaife-viewer/reader-image-mode": "https://gitpkg.vercel.app/scaife-viewer/frontend/packages/reader-image-mode?30ffd2a183fa21b8052d7c7551ccd2461f2704a9",
     "@scaife-viewer/reader-interlinear-mode": "https://gitpkg.vercel.app/scaife-viewer/frontend/packages/reader-interlinear-mode?377b2e7f116c5e59f9db6379f925de77b7359e0e",
     "@scaife-viewer/reader-metrical-mode": "https://gitpkg.vercel.app/scaife-viewer/frontend/packages/reader-metrical-mode?377b2e7f116c5e59f9db6379f925de77b7359e0e",
     "@scaife-viewer/reader-dictionary-entries-mode": "https://gitpkg.vercel.app/scaife-viewer/frontend/packages/reader-dictionary-entries-mode?4411f057059aa8f498431d87e8cfcc6d49b2d28e",
     "@scaife-viewer/reader-named-entities-mode": "https://gitpkg.vercel.app/scaife-viewer/frontend/packages/reader-named-entities-mode?377b2e7f116c5e59f9db6379f925de77b7359e0e",
-    "@scaife-viewer/reader-syntax-trees-mode": "https://gitpkg.vercel.app/scaife-viewer/frontend/packages/reader-syntax-trees-mode?4411f057059aa8f498431d87e8cfcc6d49b2d28e",
+    "@scaife-viewer/reader-syntax-trees-mode": "https://gitpkg.vercel.app/scaife-viewer/frontend/packages/reader-syntax-trees-mode?8032ea373a95829b3b8a6d3dd277ab7fabf64c57",
     "@scaife-viewer/skeleton": "^0.0.12",
     "@scaife-viewer/store": "https://gitpkg.vercel.app/scaife-viewer/frontend/packages/store?4411f057059aa8f498431d87e8cfcc6d49b2d28e",
     "@scaife-viewer/widget-audio": "^0.0.11",
@@ -35,7 +35,7 @@
     "@scaife-viewer/widget-passage-children": "^0.0.11",
     "@scaife-viewer/widget-passage-reference": "^0.0.14",
     "@scaife-viewer/widget-passage-siblings": "^0.0.11",
-    "@scaife-viewer/widget-reader": "https://gitpkg.vercel.app/scaife-viewer/frontend/packages/widget-reader?4411f057059aa8f498431d87e8cfcc6d49b2d28e",
+    "@scaife-viewer/widget-reader": "https://gitpkg.vercel.app/scaife-viewer/frontend/packages/widget-reader?8032ea373a95829b3b8a6d3dd277ab7fabf64c57",
     "@scaife-viewer/widget-scholia": "^0.0.12",
     "@scaife-viewer/widget-text-size": "^0.0.11",
     "@scaife-viewer/widget-text-width": "^0.0.11",
@@ -90,7 +90,8 @@
     "last 2 versions"
   ],
   "resolutions": {
-    "@scaife-viewer/widget-reader": "https://gitpkg.vercel.app/scaife-viewer/frontend/packages/widget-reader?4411f057059aa8f498431d87e8cfcc6d49b2d28e",
+    "@scaife-viewer/widget-reader": "https://gitpkg.vercel.app/scaife-viewer/frontend/packages/widget-reader?8032ea373a95829b3b8a6d3dd277ab7fabf64c57",
+    "@scaife-viewer/common": "https://gitpkg.vercel.app/scaife-viewer/frontend/packages/common?8032ea373a95829b3b8a6d3dd277ab7fabf64c57",
     "@scaife-viewer/vue-treant": "https://gitpkg.vercel.app/scaife-viewer/frontend/packages/vue-treant?658523eb8c6169d0b4d1c1612b9ca81ee0889b53"
   }
 }

@@ -167,7 +167,7 @@ def create_persian_greek_alignment(reset=True):
 
 def add_iliad_english_persian_translations():
     collection_urn = "urn:cite2:beyond-translation:text_annotation_collection.atlas_v1:il_gregorycrane_gAGDT"
-    limit = 490
+    limit = 492
     # TODO: Figure out why this query doesn't work as expected against
     # text_parts__urn relation
     trees = list(
@@ -178,15 +178,22 @@ def add_iliad_english_persian_translations():
         ).order_by("idx")[0:limit]
     )
 
-    persian_text = get_textparts_from_passage_reference(
-        "urn:cts:greekLit:tlg0012.tlg001.shamsian-far1:1.s1-1.s490",
-        Node.objects.get(urn="urn:cts:greekLit:tlg0012.tlg001.shamsian-far1:"),
+    persian_text = list(
+        get_textparts_from_passage_reference(
+            "urn:cts:greekLit:tlg0012.tlg001.shamsian-far1:1.s1-1.s492",
+            Node.objects.get(urn="urn:cts:greekLit:tlg0012.tlg001.shamsian-far1:"),
+        )
     )
-    english_text = get_textparts_from_passage_reference(
-        "urn:cts:greekLit:tlg0012.tlg001.parrish-eng1-sentences:1.s1-1.s490",
-        Node.objects.get(urn="urn:cts:greekLit:tlg0012.tlg001.parrish-eng1-sentences:"),
+    english_text = list(
+        get_textparts_from_passage_reference(
+            "urn:cts:greekLit:tlg0012.tlg001.parrish-eng1-sentences:1.s1-1.s492",
+            Node.objects.get(
+                urn="urn:cts:greekLit:tlg0012.tlg001.parrish-eng1-sentences:"
+            ),
+        )
     )
 
+    assert len(trees) == len(persian_text) == len(english_text)
     to_update = []
     for tree, persian, english in zip(trees, persian_text, english_text):
         tree.data["translations"] = [
@@ -225,7 +232,7 @@ def add_odyssey_english_translations():
 
 def add_additional_iliad_translations():
     collection_urn = "urn:cite2:beyond-translation:text_annotation_collection.atlas_v1:il_gregorycrane_gAGDT"
-    limit = 490
+    limit = 492
     # TODO: Figure out why this query doesn't work as expected against
     # text_parts__urn relation
     trees = TextAnnotation.objects.filter(
@@ -265,20 +272,30 @@ def add_glosses_to_trees(reset=None):
     collection_urn = "urn:cite2:beyond-translation:text_annotation_collection.atlas_v1:il_gregorycrane_gAGDT"
     # TODO: Figure out why this query doesn't work as expected against
     # text_parts__urn relation
-    trees = TextAnnotation.objects.filter(
-        collection__urn=collection_urn,
-        urn__startswith="urn:cite2:exploreHomer:syntaxTree.v1:syntaxTree-tlg0012-tlg001-"
-        # text_parts__urn__startswith="urn:cts:greekLit:tlg0012.tlg001.perseus-grc2:"
-    ).order_by("idx")
+    trees = TextAnnotation.objects.filter(collection__urn=collection_urn,).order_by(
+        "idx"
+    )
 
     to_update = []
     for tree in trees:
-        annotations = list(TokenAnnotation.objects.filter(token__text_part__in=tree.text_parts.all()))
+        annotations = list(
+            TokenAnnotation.objects.filter(token__text_part__in=tree.text_parts.all())
+        )
         words = tree.data["words"]
         for word in words:
-            annotation = next(iter(filter(lambda x: x.data["lemma"] == word["lemma"], annotations)), None)
+            annotation = next(
+                iter(filter(lambda x: x.data["lemma"] == word["lemma"], annotations)),
+                None,
+            )
             if not annotation:
-                annotation = next(iter(filter(lambda x: x.data["word_value"] == word["value"], annotations)), None)
+                annotation = next(
+                    iter(
+                        filter(
+                            lambda x: x.data["word_value"] == word["value"], annotations
+                        )
+                    ),
+                    None,
+                )
                 if not annotation:
                     if word.get("tag") == "u--------":
                         pass
@@ -290,10 +307,13 @@ def add_glosses_to_trees(reset=None):
                         print(f'{word["value"]}')
                     # ~40 words unmapped with this naive pass
             data = annotation.data if annotation else {}
-            word.update({
-                "glossEng": data.get("gloss (eng)", ""),
-                "glossFas": data.get("gloss (fas)", "")
-            })
+            word.update(
+                {
+                    "glossEng": data.get("gloss (eng)", ""),
+                    # TODO: Revisit Farnoosh's glosses for Od.
+                    "glossFas": data.get("gloss (fas)", ""),
+                }
+            )
         to_update.append(tree)
 
     TextAnnotation.objects.bulk_update(to_update, fields=["data"], batch_size=500)
