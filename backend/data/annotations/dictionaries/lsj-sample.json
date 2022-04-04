@@ -4,12 +4,310 @@
   "kind": "Dictionary",
   "entries": [
     {
+      "headword": "ἀείδω",
+      "data": {
+        "content": "<p>ἀείδω, Ion. and poet. form used by Hom. , Pi. , and sometimes in Trag. and Com. (even in trim., A. Ag. 16 , E. Fr. 188 ; intetram., Cratin. 305 ), also in Ion. Prose; contr.  ᾄδω (also Anacr. 45 , Theoc. ), Trag., Pl. , etc.: impf.</p>"
+      },
+      "senses": [
+        {
+          "label": "A",
+          "urn": "urn:cite2:scaife-viewer:senses.atlas_v1:lsj-1",
+          "definition": "Th. 2.21 : Thgn. 943 , but 32.19 , Thgn. 243 , and alwaysin Ar. Pax 1297 , Pl. Lg. 666d are corrupt); rarely in act. form Sapph. 11 , Thgn. 4 , Ar. Lys. 1243 ( Nonn. D. 13.47 (in E. HF 681 Babr. 12.13 , Men.Rh. p.381S. , Him. Or. 1.6 ; Opp. C. 3.1 , Od. 21.411 ; Pl. Ti. 21b :— PMag.Lond. 47.43 , imper. Hdt. : poet. 11.1 : Od. 17.519 , h.Hom. 12.1 , 27.1 , 1 , Thgn. 4 , Theoc. 7.41 , etc.]:— Il. 1.604 , etc.: hence of all kinds of vocal sounds, Pl. 223c ; Arat. 1000 ; Arist. Mir. 835b3 , Thphr. Sign. 3.5 , etc.; Arist. Rh. 1412a23 :—of other sounds, Od. 21.411 ; Mosch. Fr. 1.8 ; Theoc. 7.26 :—prov., Pl. Tht. 164c .—Constr.:— Od. 22.346 ; also, Theoc. 8.6 ; Arist. 918a23 ; Epigr.Gr. 237.7 (",
+          "citations": [
+            {
+              "urn": "urn:cite2:scaife-viewer:citations.atlas_v1:lsj-1",
+              "data": {
+                "quote": "ἤειδον",
+                "ref": "Od.",
+                "urn": ""
+              }
+            },
+            {
+              "urn": "urn:cite2:scaife-viewer:citations.atlas_v1:lsj-2",
+              "data": {
+                "quote": "ἄειδον",
+                "ref": "Il.",
+                "urn": ""
+              }
+            },
+            {
+              "urn": "urn:cite2:scaife-viewer:citations.atlas_v1:lsj-3",
+              "data": {
+                "quote": "ᾖδον",
+                "ref": "E. Alc. 761",
+                "urn": "urn:cts:greekLit:tlg0006.tlg002.perseus-grc1:761"
+              }
+            },
+            {
+              "urn": "urn:cite2:scaife-viewer:citations.atlas_v1:lsj-4",
+              "data": {
+                "quote": "ἀείσομαι",
+                "ref": "Od. 22.352",
+                "urn": "urn:cts:greekLit:tlg0012.tlg002.perseus-grc1:22:352"
+              }
+            },
+            {
+              "urn": "urn:cite2:scaife-viewer:citations.atlas_v1:lsj-5",
+              "data": {
+                "quote": "ᾄσομαι",
+                "ref": "h.Hom. 6.2",
+                "urn": "urn:cts:greekLit:tlg0013.tlg006.perseus-grc1:2"
+              }
+            },
+            {
+              "urn": "urn:cite2:scaife-viewer:citations.atlas_v1:lsj-6",
+              "data": {
+                "quote": "ᾀσεῦμαι",
+                "ref": "Theoc. 3.38",
+                "urn": "urn:cts:greekLit:tlg0005.tlg001.perseus-grc1:3:38"
+              }
+            },
+            {
+              "urn": "urn:cite2:scaife-viewer:citations.atlas_v1:lsj-7",
+              "data": {
+                "quote": "ᾀσῶ",
+                "ref": "Id. 1.145",
+                "urn": "urn:cts:greekLit:tlg0005.tlg001.perseus-grc1:1:145"
+              }
+            },
+            {
+              "urn": "urn:cite2:scaife-viewer:citations.atlas_v1:lsj-8",
+              "data": {
+                "quote": "ἤεισα",
+                "ref": "Call. Epigr. 23.4",
+                "urn": "urn:cts:greekLit:tlg0533.tlg003.perseus-grc1:23:4"
+              }
+            },
+            {
+              "urn": "urn:cite2:scaife-viewer:citations.atlas_v1:lsj-9",
+              "data": {
+                "quote": "ἄεισον",
+                "ref": "E. Tr. 513",
+                "urn": "urn:cts:greekLit:tlg0006.tlg011.perseus-grc1:513"
+              }
+            },
+            {
+              "urn": "urn:cite2:scaife-viewer:citations.atlas_v1:lsj-10",
+              "data": {
+                "quote": "ἀείσατε",
+                "ref": "Ar. Th. 115",
+                "urn": "urn:cts:greekLit:tlg0019.tlg008.perseus-grc1:115"
+              }
+            },
+            {
+              "urn": "urn:cite2:scaife-viewer:citations.atlas_v1:lsj-11",
+              "data": {
+                "quote": "ᾖσα",
+                "ref": "Ar. Nu. 1371",
+                "urn": "urn:cts:greekLit:tlg0019.tlg003.perseus-grc1:1371"
+              }
+            },
+            {
+              "urn": "urn:cite2:scaife-viewer:citations.atlas_v1:lsj-12",
+              "data": {
+                "quote": "ἀείσεο",
+                "ref": "h.Hom. 17.1",
+                "urn": "urn:cts:greekLit:tlg0013.tlg017.perseus-grc1:1"
+              }
+            },
+            {
+              "urn": "urn:cite2:scaife-viewer:citations.atlas_v1:lsj-13",
+              "data": {
+                "quote": "ἀείδομαι",
+                "ref": "Pi.",
+                "urn": ""
+              }
+            },
+            {
+              "urn": "urn:cite2:scaife-viewer:citations.atlas_v1:lsj-14",
+              "data": {
+                "quote": "ἀείδετο",
+                "ref": "Pi.",
+                "urn": ""
+              }
+            },
+            {
+              "urn": "urn:cite2:scaife-viewer:citations.atlas_v1:lsj-15",
+              "data": {
+                "quote": "ᾖσμαι",
+                "ref": "Pl.Com. 69.11",
+                "urn": "urn:cts:greekLit:tlg0497.tlg001:69:11"
+              }
+            },
+            {
+              "urn": "urn:cite2:scaife-viewer:citations.atlas_v1:lsj-16",
+              "data": {
+                "quote": "ὑπ’ αὐλοῖς",
+                "ref": "Plu. 2.41c",
+                "urn": ""
+              }
+            }
+          ]
+        },
+        {
+          "label": "II",
+          "urn": "urn:cite2:scaife-viewer:senses.atlas_v1:lsj-2",
+          "definition": "",
+          "citations": []
+        },
+        {
+          "label": "1",
+          "urn": "urn:cite2:scaife-viewer:senses.atlas_v1:lsj-3",
+          "definition": "9.189 , Od. 1.326 ; 1225 : abs., Od. 8.266 ; E. Tr. 513 ; Ael. NA 3.28 :— Hdt. 4.35 ; X. Cyr. 3.3.55 ; Ph. 1.189 .",
+          "citations": [
+            {
+              "urn": "urn:cite2:scaife-viewer:citations.atlas_v1:lsj-17",
+              "data": {
+                "quote": "μῆνιν ἄειδε",
+                "ref": "Il. 1.1",
+                "urn": "urn:cts:greekLit:tlg0012.tlg001.perseus-grc1:1:1"
+              }
+            },
+            {
+              "urn": "urn:cite2:scaife-viewer:citations.atlas_v1:lsj-18",
+              "data": {
+                "quote": "παιήονα",
+                "ref": "1.473",
+                "urn": "urn:cts:greekLit:tlg0012.tlg001.perseus-grc1:1:473"
+              }
+            },
+            {
+              "urn": "urn:cite2:scaife-viewer:citations.atlas_v1:lsj-19",
+              "data": {
+                "quote": "τὸν Βοιώτιον νόμον",
+                "ref": "S. Fr. 966",
+                "urn": "urn:cts:greekLit:tlg0011.tlg008.perseus-grc1:966"
+              }
+            },
+            {
+              "urn": "urn:cite2:scaife-viewer:citations.atlas_v1:lsj-20",
+              "data": {
+                "quote": "Φρυνίχου",
+                "ref": "Ar. V. 269",
+                "urn": "urn:cts:greekLit:tlg0019.tlg004.perseus-grc1:269"
+              }
+            },
+            {
+              "urn": "urn:cite2:scaife-viewer:citations.atlas_v1:lsj-21",
+              "data": {
+                "quote": "ἀμφί τινα",
+                "ref": "Terp. 2",
+                "urn": "urn:cts:greekLit:tlg0299.tlg001:2"
+              }
+            },
+            {
+              "urn": "urn:cite2:scaife-viewer:citations.atlas_v1:lsj-22",
+              "data": {
+                "quote": "εἴς τινα",
+                "ref": "Ar. Lys. 1243",
+                "urn": "urn:cts:greekLit:tlg0019.tlg007.perseus-grc1:1243"
+              }
+            },
+            {
+              "urn": "urn:cite2:scaife-viewer:citations.atlas_v1:lsj-23",
+              "data": {
+                "quote": "τὰ λεχθέντα καὶ ᾀσέντα",
+                "ref": "Pl. Ly. 205e",
+                "urn": "urn:cts:greekLit:tlg0059.tlg020:205e"
+              }
+            }
+          ]
+        },
+        {
+          "label": "2",
+          "urn": "urn:cite2:scaife-viewer:senses.atlas_v1:lsj-4",
+          "definition": "B. 6.6 , etc.:— Pi. P. 8.25 , cf. 5.24 .",
+          "citations": []
+        },
+        {
+          "label": "3",
+          "urn": "urn:cite2:scaife-viewer:senses.atlas_v1:lsj-5",
+          "definition": "",
+          "citations": [
+            {
+              "urn": "urn:cite2:scaife-viewer:citations.atlas_v1:lsj-24",
+              "data": {
+                "quote": "ἀείσετο πᾶν τέμενος . . θαλίαις",
+                "ref": "Pi. O. 10(11).76",
+                "urn": "urn:cts:greekLit:tlg0033.tlg001.perseus-grc1:10(11).76"
+              }
+            }
+          ]
+        }
+      ],
+      "urn": "urn:cite2:scafife-viewer:dictionary-entries.atlas_v1:lsj-1"
+    },
+    {
       "headword": "μῆνις",
       "data": {
-        "content": "<p>Dor. and Aeol. <b>μᾶν-</b>, ἡ, gen. μήνιος <span style=\"font-variant: small-caps;\">Pl.</span> <i>R.</i> 390e, later μήνιδος <span style=\"font-variant: small-caps;\">Ael.</span> <i>Fr.</i> 80, <span style=\"font-variant: small-caps;\">Them.</span> <i>Or.</i> 22.265d, <span style=\"font-variant: small-caps;\">Jul.</span> <i>Or.</i> 2.50b, <i>AP</i> 9.168 (<span style=\"font-variant: small-caps;\">Pall.</span>):—<ul><ol><li><span class=\"bullet\"></span><span class=\"content\"><i><b>wrath</b></i>; from <span style=\"font-variant: small-caps;\">Hom.</span> downwds. freq. of the <i><b>wrath</b></i> of the gods, <i>Il.</i> 5.34, al., <span style=\"font-variant: small-caps;\">A.</span> <i>Ag.</i> 701 (lyr.), <span style=\"font-variant: small-caps;\">Pl.</span> <i>Lg.</i> 880e, <span style=\"font-variant: small-caps;\">Men.</span> 585; μῆνιν ἔχειν ἀπὸ θεοῦ <span style=\"font-variant: small-caps;\">Vett. Val.</span> 184.3; μ. χθονίων <span style=\"font-variant: small-caps;\">Pi.</span> <i>P.</i> 4.159; also of the dead worshipped as heroes, τοῖσι μ. κατέσκηψε Ταλθυβίου <span style=\"font-variant: small-caps;\">Hdt.</span> 7.134, cf. 137; μ. τῶν τετελευτηκότων <span style=\"font-variant: small-caps;\">Pl.</span> <i>Hp.Ma.</i> 282a; of injured parents, <span style=\"font-variant: small-caps;\">A.</span> <i>Ag.</i> 155 (lyr.), <i>Ch.</i> 294; of suppliants, <span style=\"font-variant: small-caps;\">Id.</span> <i>Eu.</i> 234, cf. <span style=\"font-variant: small-caps;\">E.</span> <i>Heracl.</i> 762 (lyr.): but also, generally, of the <i><b>wrath</b></i> of Achilles, <i>Il.</i> 1.1, al., cf. <span style=\"font-variant: small-caps;\">Alc.</span> <i>Supp.</i> 10.7; of the <i><b>revengeful temper</b></i> of a people, <span style=\"font-variant: small-caps;\">Hes.</span> <i>Sc.</i> 21, <span style=\"font-variant: small-caps;\">Hdt.</span> 7.229: c. gen. objecti, ὅτου . . μ. τοσήνδε πράγματος στήσας ἔχεις <span style=\"font-variant: small-caps;\">S.</span> <i>OT</i> 699: in pl., Αἰήταο μήνιες <span style=\"font-variant: small-caps;\">A.R.</span> 4.1205.</span></li></ol></ul></p>"
+        "content": "<p>μῆνις, Dor. and Aeol.  μᾶν‐, ἡ, gen.</p>"
       },
-      "senses": [],
-      "urn": "urn:cite2:exploreHomer:entries.atlas_v1:lsj-1"
+      "senses": [
+        {
+          "label": "A",
+          "urn": "urn:cite2:scaife-viewer:senses.atlas_v1:lsj-6",
+          "definition": "Them. Or. 22.265d , Jul. Or. 2.50b , AP 9.168 ( Pall. ):— Hom. downwds. freq. of the Il. 5.34 , al., A. Ag. 701 (lyr.), Pl. Lg. 880e , Men. 585 ; 184.3 ; 137 ; A. Ag. 155 (lyr.), Ch. 294 ; of suppliants, Id. Eu. 234 , cf. E. Heracl. 762 (lyr.): but also, generally, of the Il. 1.1 , al., cf. Alc. Supp. 10.7 ; of the Hes. Sc. 21 , Hdt. 7.229 : c. gen. objecti,",
+          "citations": [
+            {
+              "urn": "urn:cite2:scaife-viewer:citations.atlas_v1:lsj-25",
+              "data": {
+                "quote": "μήνιος",
+                "ref": "Pl. R. 390e",
+                "urn": "urn:cts:greekLit:tlg0059.tlg030.perseus-grc1:390e"
+              }
+            },
+            {
+              "urn": "urn:cite2:scaife-viewer:citations.atlas_v1:lsj-26",
+              "data": {
+                "quote": "μήνιδος",
+                "ref": "Ael. Fr. 80",
+                "urn": "urn:cts:greekLit:tlg0545.tlg004:80"
+              }
+            },
+            {
+              "urn": "urn:cite2:scaife-viewer:citations.atlas_v1:lsj-27",
+              "data": {
+                "quote": "μ. χθονίων",
+                "ref": "Pi. P. 4.159",
+                "urn": "urn:cts:greekLit:tlg0033.tlg002.perseus-grc1:4:159"
+              }
+            },
+            {
+              "urn": "urn:cite2:scaife-viewer:citations.atlas_v1:lsj-28",
+              "data": {
+                "quote": "τοῖσι μ. κατέσκηψε Ταλθυβίου",
+                "ref": "Hdt. 7.134",
+                "urn": "urn:cts:greekLit:tlg0016.tlg001.perseus-grc1:7:134"
+              }
+            },
+            {
+              "urn": "urn:cite2:scaife-viewer:citations.atlas_v1:lsj-29",
+              "data": {
+                "quote": "μ. τῶν τετελευτηκότων",
+                "ref": "Pl. Hp.Ma. 282a",
+                "urn": "urn:cts:greekLit:tlg0059.tlg025:282a"
+              }
+            },
+            {
+              "urn": "urn:cite2:scaife-viewer:citations.atlas_v1:lsj-30",
+              "data": {
+                "quote": "ὅτου . . μ. τοσήνδε πράγματος στήσας ἔχεις",
+                "ref": "S. OT 699",
+                "urn": "urn:cts:greekLit:tlg0011.tlg004.perseus-grc1:699"
+              }
+            },
+            {
+              "urn": "urn:cite2:scaife-viewer:citations.atlas_v1:lsj-31",
+              "data": {
+                "quote": "Αἰήταο μήνιες",
+                "ref": "A.R. 4.1205",
+                "urn": "urn:cts:greekLit:tlg0001.tlg001.perseus-grc1:4:1205"
+              }
+            }
+          ]
+        }
+      ],
+      "urn": "urn:cite2:scafife-viewer:dictionary-entries.atlas_v1:lsj-2"
     }
   ]
 }
