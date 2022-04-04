@@ -305,6 +305,10 @@ def extract_entry(textpart):
     if DEBUG_OUTPUT:
         print(head_text)
 
+    if head_text != textpart.attrib.get("n"):
+        # TODO: Log difference
+        head_text = textpart.attrib.get("n")
+
     # NOTE: Strip dagger to prevent an issue with lemma lookup
     head_text = head_text.strip("†")
 
@@ -332,7 +336,7 @@ def extract_entry(textpart):
 
     senses = postprocess_senses(senses)
     return dict(
-        headword=head_text,
+        headword=head_text.strip(),
         data={
             # TODO: Formatting here?  Review with how LGO was processed
             "content": " ".join([f"<p>{e.strip()}</p>" for e in entry_defparts])

@@ -67,6 +67,9 @@ def main():
                 .decode("utf-8")
                 .strip()
             )
+            if head_text != entry.attrib.get("n"):
+                # TODO: Log difference
+                head_text = entry.attrib.get("n")
 
             slug = entry.attrib["{http://www.w3.org/XML/1998/namespace}id"].split(
                 "-cunliffe-name"
@@ -101,7 +104,7 @@ def main():
 
             entries.append(
                 {
-                    "headword": head_text,
+                    "headword": head_text.strip(),
                     "senses": senses,
                     "data": {"content": label,},
                     "urn": f"{ENTRY_URN_PREFIX}{sense_idx}",
