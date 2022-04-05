@@ -1394,6 +1394,15 @@
     "@fortawesome/vue-fontawesome" "^0.1.8"
     lodash.debounce "^4.0.8"
 
+"@scaife-viewer/common@https://gitpkg.vercel.app/scaife-viewer/frontend/packages/common?c3a033d82b6505e0bc8495fd8b9b806ae4fb4b61":
+  version "0.4.0"
+  resolved "https://gitpkg.vercel.app/scaife-viewer/frontend/packages/common?c3a033d82b6505e0bc8495fd8b9b806ae4fb4b61#120182fe573a996a7e77b4cc80c3ba0c2313e640"
+  dependencies:
+    "@fortawesome/fontawesome-svg-core" "^1.2.28"
+    "@fortawesome/free-solid-svg-icons" "^5.14.0"
+    "@fortawesome/vue-fontawesome" "^0.1.8"
+    lodash.debounce "^4.0.8"
+
 "@scaife-viewer/entity-map@^0.5.0-beta.2":
   version "0.5.0-beta.2"
   resolved "https://registry.yarnpkg.com/@scaife-viewer/entity-map/-/entity-map-0.5.0-beta.2.tgz#e5e20029e1763c34d985b2e4d21389b09672e2d2"
@@ -1540,9 +1549,9 @@
     "@scaife-viewer/store" "^0.0.10"
     graphql-tag "^2.10.3"
 
-"@scaife-viewer/widget-dictionary-entries@https://gitpkg.vercel.app/scaife-viewer/frontend/packages/widget-dictionary-entries?973f9eeddbdbc2d94013a90650ad5b8ef4bfbb01":
+"@scaife-viewer/widget-dictionary-entries@https://gitpkg.vercel.app/scaife-viewer/frontend/packages/widget-dictionary-entries?c3a033d82b6505e0bc8495fd8b9b806ae4fb4b61":
   version "0.5.0-beta.1"
-  resolved "https://gitpkg.vercel.app/scaife-viewer/frontend/packages/widget-dictionary-entries?973f9eeddbdbc2d94013a90650ad5b8ef4bfbb01#e194db2d3806937498bcc63b6a285ec6e3dd0328"
+  resolved "https://gitpkg.vercel.app/scaife-viewer/frontend/packages/widget-dictionary-entries?c3a033d82b6505e0bc8495fd8b9b806ae4fb4b61#14b371a01d0ea00ac4d6d0f4659f6a12794f7672"
   dependencies:
     "@fortawesome/free-solid-svg-icons" "^5.15.2"
     "@scaife-viewer/common" "^0.4.0"
