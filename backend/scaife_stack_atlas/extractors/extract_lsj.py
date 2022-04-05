@@ -26,6 +26,16 @@ def stringish(element):
     return " ".join(s.strip() for s in text.split() if s.strip())
 
 
+def healed_citation_urn(urnish):
+    # FIXME: This should be done / handled within the app at runtime; shortcut
+    # for a demo
+    if not urnish:
+        return ""
+    if not urnish.count("tlg0012"):
+        return ""
+    return urnish.replace("perseus-grc1", "perseus-grc2")
+
+
 def process_citation(c_element, counters):
     # TODO: multiple quotes
     assert c_element.findall("quote")
@@ -43,7 +53,7 @@ def process_citation(c_element, counters):
     bibl_entries = []
     for b_element in c_element.findall("bibl"):
         # TODO: get creative with XSL or other transforms
-        urnish = b_element.attrib.get("n", "")
+        urnish = healed_citation_urn(b_element.attrib.get("n", ""))
         bibl_entries.append((stringish(b_element), urnish))
     assert len(bibl_entries) == 1
 
