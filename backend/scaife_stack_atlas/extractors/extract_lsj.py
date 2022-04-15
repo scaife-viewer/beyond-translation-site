@@ -3,12 +3,19 @@ import re
 from functools import lru_cache
 from pathlib import Path
 
+import regex
 from betacode.conv import beta_to_uni
 from lxml import etree
 
 from scaife_viewer.atlas.backports.scaife_viewer.cts.utils import natural_keys
 
 
+# e.g. Hom.</span> </span>, <span class="bibl">
+PUNCTUATION_WITH_SPACES = regex.compile(r"[\p{P}]\s[\p{P}](?!\w)+")
+# e.g. Pass. ,
+HTML_PUNCTUATION_WITH_SPACES = regex.compile(
+    r"[\p{P}](\</span>){0,}\s\</span>[\p{P}](?!\w)+"
+)
 DEBUG = True
 XSL_STYLESHEET_PATH = Path("data/raw/lsj/lsj.xsl")
 
@@ -307,12 +314,22 @@ class XSLTransformer:
                 raise
 
 
+def remove_spaces(match_obj):
+    return match_obj.group().replace(" ", "")
+
+
+def fix_whitespace(content):
+    return PUNCTUATION_WITH_SPACES.sub(
+        remove_spaces, HTML_PUNCTUATION_WITH_SPACES.sub(remove_spaces, content)
+    )
+
+
 def extract_content(entry, debug=False):
     # TODO: Revisit transformer instantiation
     transformer = XSLTransformer(entry)
-    # TODO: Revisit whitespace
     content = transformer.render().strip()
     content = " ".join(content.split())
+    content = fix_whitespace(content)
     if debug:
         output = Path("data/raw/lsj/output.html")
         with output.open("w") as f:
