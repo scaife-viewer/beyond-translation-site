@@ -47,9 +47,9 @@ def write_text(output_path, refs_and_lines):
     """
     Write the text out to the ATLAS / text-server flat file format.
     """
-    ref_to_sentence_id_map = {}
+    # ref_to_sentence_id_map = {}
     with output_path.open("w") as f:
-        chapter_counter = 1
+        # chapter_counter = 1
         for ref, line_chunk in refs_and_lines.items():
             # TODO: Load books from input_path
             book_ref = "1"
@@ -71,6 +71,7 @@ def main():
 
     output_path = Path("data/library/tlg0012/tlg001/tlg0012.tlg001.shamsian-far1.txt")
     write_text(output_path, refs_and_lines)
+
 
 if __name__ == "__main__":
     main()

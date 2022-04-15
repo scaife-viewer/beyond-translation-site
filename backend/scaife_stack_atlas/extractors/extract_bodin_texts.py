@@ -112,10 +112,19 @@ def write_alignment_annotation(label, alignment_urn, versions, alignment_records
         record_urn = (
             f"urn:cite2:scaife-viewer:alignment-record.v1:{shared_urn_part}_{idx}"
         )
-        data["records"].append(dict(urn=record_urn, relations=record,))
+        data["records"].append(
+            dict(
+                urn=record_urn,
+                relations=record,
+            )
+        )
         idx += 1
     alignment_fname = f'{alignment_urn.rsplit(":", maxsplit=1)[1]}.json'
-    path = Path(DATA_DIR, "annotations/text-alignments", alignment_fname,)
+    path = Path(
+        DATA_DIR,
+        "annotations/text-alignments",
+        alignment_fname,
+    )
     with open(path, "w") as f:
         json.dump(data, f, indent=2, ensure_ascii=False)
 
@@ -123,7 +132,11 @@ def write_alignment_annotation(label, alignment_urn, versions, alignment_records
 def write_sentences(version_urn, lines):
     # TODO: Compare to Hafez
     part = version_urn.rsplit(":", maxsplit=2)[1]
-    path = Path(DATA_DIR, "library/bodin/livrep", f"{part}.txt",)
+    path = Path(
+        DATA_DIR,
+        "library/bodin/livrep",
+        f"{part}.txt",
+    )
     path.write_text("\n".join(lines))
 
 

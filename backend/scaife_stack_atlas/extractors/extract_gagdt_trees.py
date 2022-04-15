@@ -192,7 +192,10 @@ def main():
         output_name = f"gregorycrane_gagdt_syntax_trees_{version_part}.json"
         output_path = Path("data/annotations/syntax-trees", output_name)
         json.dump(
-            trees, output_path.open("w"), ensure_ascii=False, indent=2,
+            trees,
+            output_path.open("w"),
+            ensure_ascii=False,
+            indent=2,
         )
 
         # Write out attributions

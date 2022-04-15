@@ -115,7 +115,9 @@ def process_sense(sibling):
                         ):
                             quote_parts.append(
                                 etree.tostring(
-                                    next_sibling, method="text", encoding="utf-8",
+                                    next_sibling,
+                                    method="text",
+                                    encoding="utf-8",
                                 ).decode("utf-8")
                             )
 

@@ -106,7 +106,9 @@ def main():
                 {
                     "headword": head_text.strip(),
                     "senses": senses,
-                    "data": {"content": label,},
+                    "data": {
+                        "content": label,
+                    },
                     "urn": f"{ENTRY_URN_PREFIX}{sense_idx}",
                 }
             )

@@ -5,7 +5,6 @@ from collections import defaultdict
 from pathlib import Path
 
 from scaife_viewer.atlas.conf import settings
-from scaife_viewer.atlas.importers.token_annotations import apply_token_annotations
 from scaife_viewer.atlas.models import (
     Node,
     TextAlignment,
@@ -49,7 +48,10 @@ def process_file(path):
     for version in versions:
         version_objs.append(Node.objects.get(urn=version))
 
-    alignment = TextAlignment(label=data["label"], urn=data["urn"],)
+    alignment = TextAlignment(
+        label=data["label"],
+        urn=data["urn"],
+    )
     if data.get("enable_prototype"):
         alignment.metadata["enable_prototype"] = data["enable_prototype"]
     if data.get("display_options"):
@@ -154,7 +156,9 @@ def create_persian_greek_alignment(reset=True):
     base_record_urn = "urn:cite2:scaife-viewer:alignment-record.v1:iliad-greek-farsi-sentence-alignment"
     for idx, row in record_lookup.items():
         record = TextAlignmentRecord(
-            idx=idx, alignment=ta, urn=f"{base_record_urn}_{idx}",
+            idx=idx,
+            alignment=ta,
+            urn=f"{base_record_urn}_{idx}",
         )
         record.save()
         for version_obj, tokens in zip(versions, row):
@@ -272,9 +276,9 @@ def add_glosses_to_trees(reset=None):
     collection_urn = "urn:cite2:beyond-translation:text_annotation_collection.atlas_v1:il_gregorycrane_gAGDT"
     # TODO: Figure out why this query doesn't work as expected against
     # text_parts__urn relation
-    trees = TextAnnotation.objects.filter(collection__urn=collection_urn,).order_by(
-        "idx"
-    )
+    trees = TextAnnotation.objects.filter(
+        collection__urn=collection_urn,
+    ).order_by("idx")
 
     to_update = []
     for tree in trees:

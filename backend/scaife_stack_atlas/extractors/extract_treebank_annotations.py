@@ -245,7 +245,10 @@ def do_extraction(input_path, output_path, version_urn):
 
     annotations = sorted(annotations, key=lambda x: sort_func(x["ve_ref"]))
     with output_path.open("w", encoding="utf-8-sig") as f:
-        annotation_writer = csv.DictWriter(f, fieldnames=fieldnames,)
+        annotation_writer = csv.DictWriter(
+            f,
+            fieldnames=fieldnames,
+        )
         annotation_writer.writeheader()
         annotation_writer.writerows(annotations)
 

@@ -38,7 +38,8 @@ def main():
             "tag",
         ]
         annotation_writer = csv.DictWriter(
-            annotation_path.open("w", encoding="utf-8-sig"), fieldnames=fieldnames,
+            annotation_path.open("w", encoding="utf-8-sig"),
+            fieldnames=fieldnames,
         )
         annotation_writer.writeheader()
         annotation_writer.writerows(updated_rows)

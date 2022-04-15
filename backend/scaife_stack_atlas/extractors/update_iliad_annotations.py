@@ -39,7 +39,10 @@ def main():
         updated_rows.append(new_row)
 
     with iliad_annotations_path.open("w", encoding="utf-8-sig") as f:
-        annotation_writer = csv.DictWriter(f, fieldnames=fieldnames,)
+        annotation_writer = csv.DictWriter(
+            f,
+            fieldnames=fieldnames,
+        )
         annotation_writer.writeheader()
         annotation_writer.writerows(updated_rows)
 

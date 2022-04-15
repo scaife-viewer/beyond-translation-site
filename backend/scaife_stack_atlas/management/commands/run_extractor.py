@@ -17,7 +17,8 @@ class Command(BaseCommand):
 
     def add_arguments(self, parser):
         parser.add_argument(
-            "script_name", help="Name of the extractor script to run",
+            "script_name",
+            help="Name of the extractor script to run",
         )
 
     def handle(self, *args, **options):

@@ -3,10 +3,15 @@ def deep_morphology_human_parse(parse):
         if parse == "--------":
             return "INDECL"
         else:
-            person = {"-": None,}.get(parse[0], parse[0])
-            number = {"s": "SG", "d": "DU", "p": "PL", "-": None,}.get(
-                parse[1], parse[1]
-            )
+            person = {
+                "-": None,
+            }.get(parse[0], parse[0])
+            number = {
+                "s": "SG",
+                "d": "DU",
+                "p": "PL",
+                "-": None,
+            }.get(parse[1], parse[1])
             tense = {
                 "p": "PRES",
                 "i": "IMPRF",
@@ -25,10 +30,18 @@ def deep_morphology_human_parse(parse):
                 "p": "PTCP",
                 "-": None,
             }.get(parse[3], parse[3])
-            voice = {"a": "ACT", "m": "MID", "e": "MID", "p": "PASS",}.get(
-                parse[4], parse[4]
-            )
-            gender = {"m": "M", "f": "F", "n": "N", "-": None,}.get(parse[5], parse[5])
+            voice = {
+                "a": "ACT",
+                "m": "MID",
+                "e": "MID",
+                "p": "PASS",
+            }.get(parse[4], parse[4])
+            gender = {
+                "m": "M",
+                "f": "F",
+                "n": "N",
+                "-": None,
+            }.get(parse[5], parse[5])
             case = {
                 "n": "NOM",
                 "a": "ACC",
@@ -37,9 +50,11 @@ def deep_morphology_human_parse(parse):
                 "v": "VOC",
                 "-": None,
             }.get(parse[6], parse[6])
-            degree = {"c": "COMP", "s": "SUP", "-": None,}.get(  # @@@  # @@@
-                parse[7], parse[7]
-            )
+            degree = {
+                "c": "COMP",
+                "s": "SUP",
+                "-": None,
+            }.get(parse[7], parse[7])
             if case and tense:
                 if mood != "PTCP":
                     return f"@1@ {parse}"
