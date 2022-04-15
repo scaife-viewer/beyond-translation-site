@@ -93,6 +93,7 @@ def process_sense(s_element, counters):
     citations = []
 
     for pos, child in enumerate(s_element.getchildren()):
+        # TODO: "*[@lang = 'greek']"
         if child.tag in ["orth", "gen", "bibl"]:
             to_unicode(child)
             # TODO: review whitespace here; gets a little tricky

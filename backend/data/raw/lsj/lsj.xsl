@@ -18,7 +18,9 @@
     <br />
   </xsl:template>
 
-  <xsl:template match="orth|foreign|quote">
+  <!-- TODO: Best way to do this? -->
+  <xsl:template match="*[@lang = 'greek']">
+  <!-- <xsl:template match="orth|foreign|quote"> -->
     <span>
       <xsl:attribute name="class">
         <xsl:value-of select="name(.)" />
