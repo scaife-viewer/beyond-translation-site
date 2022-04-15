@@ -20,6 +20,9 @@ HTML_PUNCTUATION_WITH_SPACES = regex.compile(
 COMBINING_BREVE = "\u0306"
 COMBINING_BREVE_BETACODE = regex.compile(r"\w\^")
 
+HYPHEN = "\u2010"
+HYPHEN_MINUS = "\u002d"
+
 DEBUG = True
 XSL_STYLESHEET_PATH = Path("data/raw/lsj/lsj.xsl")
 
@@ -42,7 +45,7 @@ def decode_combining_breve(value):
 
 
 def beta_to_uni(value):
-    return decode_combining_breve(beta_to_uni_(value))
+    return decode_combining_breve(beta_to_uni_(value)).replace(HYPHEN, HYPHEN_MINUS)
 
 
 def to_unicode(element):
