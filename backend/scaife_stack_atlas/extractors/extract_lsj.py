@@ -33,7 +33,10 @@ def healed_citation_urn(urnish):
         return ""
     if not urnish.count("tlg0012"):
         return ""
-    return urnish.replace("perseus-grc1", "perseus-grc2")
+    urnish = urnish.replace("perseus-grc1", "perseus-grc2")
+    # TODO: Validate this in case we have other forms of URNs
+    version, ref = urnish.rsplit(":", maxsplit=1)
+    return f"{version}.{ref}"
 
 
 def process_citation(c_element, counters):
