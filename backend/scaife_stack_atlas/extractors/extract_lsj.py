@@ -145,7 +145,7 @@ def get_entries():
     return entries
 
 
-def main():
+def structural_entries():
     entries = get_entries()
 
     data = {
@@ -157,6 +157,10 @@ def main():
     output_path = Path("data/annotations/dictionaries/lsj-sample.json")
     with output_path.open("w") as f:
         json.dump(data, f, ensure_ascii=False, indent=2)
+
+
+def main():
+    structural_entries()
 
 
 if __name__ == "__main__":
