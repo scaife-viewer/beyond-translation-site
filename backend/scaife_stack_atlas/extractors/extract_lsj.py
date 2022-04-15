@@ -295,6 +295,8 @@ class XSLTransformer:
         self.xml = xml
 
     def beta_to_uni(self, ctx, text_selector):
+        # NOTE: compare with https://stackoverflow.com/questions/16031673/get-the-non-empty-element-using-xpath
+        if text_selector:
         value = text_selector[0]
         return beta_to_uni(value)
 
