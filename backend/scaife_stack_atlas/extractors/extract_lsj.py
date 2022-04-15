@@ -1,10 +1,11 @@
 import json
 import re
+import unicodedata
 from functools import lru_cache
 from pathlib import Path
 
 import regex
-from betacode.conv import beta_to_uni
+from betacode.conv import beta_to_uni as beta_to_uni_
 from lxml import etree
 
 from scaife_viewer.atlas.backports.scaife_viewer.cts.utils import natural_keys
@@ -16,6 +17,9 @@ PUNCTUATION_WITH_SPACES = regex.compile(r"[\p{P}]\s[\p{P}](?!\w)+")
 HTML_PUNCTUATION_WITH_SPACES = regex.compile(
     r"[\p{P}](\</span>){0,}\s\</span>[\p{P}](?!\w)+"
 )
+COMBINING_BREVE = "\u0306"
+COMBINING_BREVE_BETACODE = regex.compile(r"\w\^")
+
 DEBUG = True
 XSL_STYLESHEET_PATH = Path("data/raw/lsj/lsj.xsl")
 
@@ -24,6 +28,21 @@ def get_entry_free_elements(root, nattr=None):
     if nattr:
         return root.xpath(f"//entryFree[@id='{nattr}']")
     return root.xpath("//entryFree")
+
+
+def repair_combining_breve(match_group):
+    # TODO: Dicuss with @jtauber
+    # Look at n111162 and n111157 in grc.lsj.perseus-eng24.xml
+    # TODO: Do we need to re-normalize this?  If so, how?
+    return unicodedata.normalize("NFC", f"{match_group.group()[0]}{COMBINING_BREVE}")
+
+
+def decode_combining_breve(value):
+    return COMBINING_BREVE_BETACODE.sub(repair_combining_breve, value)
+
+
+def beta_to_uni(value):
+    return decode_combining_breve(beta_to_uni_(value))
 
 
 def to_unicode(element):
@@ -272,20 +291,12 @@ def get_lsj_entry_free_elements():
 
 
 class XSLTransformer:
-    # TODO: Discuss this with @jtauber
-    REPLACEMENTS = [
-        ("α^", "ᾰ"),
-    ]
-
     def __init__(self, xml):
         self.xml = xml
 
     def beta_to_uni(self, ctx, text_selector):
         value = text_selector[0]
-        value = beta_to_uni(value)
-        for needle, haystack in self.REPLACEMENTS:
-            value = value.replace(needle, haystack)
-        return value
+        return beta_to_uni(value)
 
     def catalog_link(self, ctx, value):
         # TODO: Point this to something within Beyond Translation
