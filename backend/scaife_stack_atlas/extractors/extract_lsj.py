@@ -4,12 +4,14 @@ import unicodedata
 from functools import lru_cache
 from pathlib import Path
 
+import jsonlines
 import regex
 from betacode.conv import beta_to_uni as beta_to_uni_
 from lxml import etree
 
 from scaife_viewer.atlas.backports.scaife_viewer.cts.utils import natural_keys
 
+DICTIONARY_PATH = Path("data/annotations/dictionaries/lsj")
 
 # e.g. Hom.</span> </span>, <span class="bibl">
 PUNCTUATION_WITH_SPACES = regex.compile(r"[\p{P}]\s[\p{P}](?!\w)+")
@@ -23,7 +25,7 @@ COMBINING_BREVE_BETACODE = regex.compile(r"\w\^")
 HYPHEN = "\u2010"
 HYPHEN_MINUS = "\u002d"
 
-DEBUG = True
+DEBUG = False
 XSL_STYLESHEET_PATH = Path("data/raw/lsj/lsj.xsl")
 
 
@@ -354,28 +356,34 @@ def extract_content(entry, debug=False):
     return content
 
 
-def blob_entries():
+def extract_entries():
     counters = dict(
         sense=0,
         entry=0,
         citation=0,
     )
-    extracted_entries = []
     for pos, entry in enumerate(get_lsj_entry_free_elements()):
-
         debug = DEBUG and pos == 0
         content = extract_content(entry, debug=debug)
         atlas_entry = extract_atlas_entry(entry, content, counters)
-        extracted_entries.append(atlas_entry)
+        yield atlas_entry
+
+
+def blob_entries():
+    entries_path = Path(DICTIONARY_PATH, "entries.jsonl")
+    with entries_path.open("w") as f:
+        writer = jsonlines.Writer(f)
+        for entry in extract_entries():
+            writer.write(entry)
 
     data = {
         "label": "A Greek-English Lexicon (LSJ)",
         "urn": "urn:cite2:scaife-viewer:dictionaries.v1:lsj",
         "kind": "Dictionary",
-        "entries": extracted_entries,
+        "entries": entries_path.name,
     }
-    output_path = Path("data/annotations/dictionaries/lsj-sample.json")
-    with output_path.open("w") as f:
+    metadata_path = Path(DICTIONARY_PATH, "metadata.json")
+    with metadata_path.open("w") as f:
         json.dump(data, f, ensure_ascii=False, indent=2)
 
 
