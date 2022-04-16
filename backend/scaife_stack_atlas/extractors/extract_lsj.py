@@ -1,3 +1,4 @@
+import itertools
 import json
 import re
 import unicodedata
@@ -8,10 +9,13 @@ import jsonlines
 import regex
 from betacode.conv import beta_to_uni as beta_to_uni_
 from lxml import etree
+from more_itertools import peekable
 
 from scaife_viewer.atlas.backports.scaife_viewer.cts.utils import natural_keys
 
+
 DICTIONARY_PATH = Path("data/annotations/dictionaries/lsj")
+
 
 # e.g. Hom.</span> </span>, <span class="bibl">
 PUNCTUATION_WITH_SPACES = regex.compile(r"[\p{P}]\s[\p{P}](?!\w)+")
@@ -288,11 +292,11 @@ def get_lsj_entry_free_elements():
     else:
         paths_and_nattrs = [(path, None) for path in get_lsj_paths()]
 
-    elements = []
     for path, nattr in paths_and_nattrs:
-        root = etree.parse(path.open("rb"))
-        elements.extend(get_entry_free_elements(root, nattr))
-    return elements
+        with path.open("rb") as f:
+            root = etree.parse(f)
+            for element in get_entry_free_elements(root, nattr):
+                yield element
 
 
 class XSLTransformer:
@@ -370,17 +374,28 @@ def extract_entries():
 
 
 def blob_entries():
-    entries_path = Path(DICTIONARY_PATH, "entries.jsonl")
+    counter = 1
+    entries = extract_entries()
+    CHUNK_SIZE = 10000
+    chunk = peekable(itertools.islice(entries, CHUNK_SIZE))
+    entry_paths = []
+    while chunk:
+        entries_path = Path(DICTIONARY_PATH, f"entries-{str(counter).zfill(3)}.jsonl")
     with entries_path.open("w") as f:
         writer = jsonlines.Writer(f)
-        for entry in extract_entries():
+            for entry in chunk:
             writer.write(entry)
+        entry_paths.append(entries_path.name)
+        counter += 1
+        chunk = peekable(itertools.islice(entries, CHUNK_SIZE))
+        if not chunk:
+            break
 
     data = {
         "label": "A Greek-English Lexicon (LSJ)",
         "urn": "urn:cite2:scaife-viewer:dictionaries.v1:lsj",
         "kind": "Dictionary",
-        "entries": entries_path.name,
+        "entries": entry_paths,
     }
     metadata_path = Path(DICTIONARY_PATH, "metadata.json")
     with metadata_path.open("w") as f:
@@ -388,6 +403,7 @@ def blob_entries():
 
 
 def main():
+    DICTIONARY_PATH.mkdir(exist_ok=True, parents=True)
     blob_entries()
 
 

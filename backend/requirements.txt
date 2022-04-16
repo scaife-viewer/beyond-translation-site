@@ -7,6 +7,7 @@ django-extensions==2.2.6
 django-querycount==0.7.0
 django==2.2.15
 gunicorn==20.0.0
+more_itertools==8.12.0
 pandas==1.3.1
-scaife-viewer-atlas @https://github.com/scaife-viewer/backend/archive/e5404f05c5cebf996446256a823ddc6cd77ea67b.zip#subdirectory=atlas
+scaife-viewer-atlas @https://github.com/scaife-viewer/backend/archive/1c6fef99e3e7558b6e26639db09ee3ce443c7cfe.zip#subdirectory=atlas
 whitenoise==4.1.4
