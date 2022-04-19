@@ -89,8 +89,13 @@
 
   <!-- TODO: Move nested senses via UL / LI -->
   <xsl:template match="sense">
-    <div class="sense" style="margin-top: 1.0em;">
-      <span style="margin: 0 0.5em;">
+    <div style="margin-top: 1.0em;">
+      <xsl:attribute name="class">
+        <xsl:text>sense </xsl:text>
+        <xsl:value-of select="'depth-'" />
+        <xsl:value-of select="./@level" />
+      </xsl:attribute>
+      <span>
         <strong><xsl:value-of select="./@n" />).</strong>
       </span>
       <xsl:apply-templates/>
