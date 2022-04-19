@@ -1,7 +1,6 @@
 import itertools
 import json
 import re
-import unicodedata
 from functools import lru_cache
 from pathlib import Path
 
@@ -23,9 +22,14 @@ PUNCTUATION_WITH_SPACES = regex.compile(r"[\p{P}]\s[\p{P}](?!\w)+")
 HTML_PUNCTUATION_WITH_SPACES = regex.compile(
     r"[\p{P}](\</span>){0,}\s\</span>[\p{P}](?!\w)+"
 )
-COMBINING_BREVE = "\u0306"
-COMBINING_BREVE_BETACODE = regex.compile(r"\w\^")
 
+LSJ_BETACODE_MACRON = "_"
+LSJ_BETACODE_BREVE = "^"
+BETACODE_MACRON = "&"
+BETACODE_BREVE = "'"
+# FIXME: betacode package has these backwards
+MAPPED_BETACODE_MACRON = BETACODE_BREVE
+MAPPED_BETACODE_BREVE = BETACODE_MACRON
 HYPHEN = "\u2010"
 HYPHEN_MINUS = "\u002d"
 
@@ -39,19 +43,12 @@ def get_entry_free_elements(root, nattr=None):
     return root.xpath("//entryFree")
 
 
-def repair_combining_breve(match_group):
-    # TODO: Dicuss with @jtauber
-    # Look at n111162 and n111157 in grc.lsj.perseus-eng24.xml
-    # TODO: Do we need to re-normalize this?  If so, how?
-    return unicodedata.normalize("NFC", f"{match_group.group()[0]}{COMBINING_BREVE}")
-
-
-def decode_combining_breve(value):
-    return COMBINING_BREVE_BETACODE.sub(repair_combining_breve, value)
-
-
 def beta_to_uni(value):
-    return decode_combining_breve(beta_to_uni_(value)).replace(HYPHEN, HYPHEN_MINUS)
+    # TODO: Upstream fixes for _ and ^ / & '
+    to_macron = value.replace(LSJ_BETACODE_MACRON, MAPPED_BETACODE_MACRON)
+    to_breve = to_macron.replace(LSJ_BETACODE_BREVE, MAPPED_BETACODE_BREVE)
+    # TODO: Sort out hyphen / hyphen minus bits
+    return beta_to_uni_(to_breve).replace(HYPHEN, HYPHEN_MINUS)
 
 
 def to_unicode(element):
