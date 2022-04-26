@@ -1625,9 +1625,9 @@
     "@scaife-viewer/store" "^0.0.10"
     graphql-tag "^2.10.3"
 
-"@scaife-viewer/widget-passage-lemma-traversal@https://gitpkg.vercel.app/scaife-viewer/frontend/packages/widget-passage-lemma-traversal?6e310ae7e4d00f2f71fb9c71d0a7705ca13843f4":
+"@scaife-viewer/widget-passage-lemma-traversal@https://gitpkg.vercel.app/scaife-viewer/frontend/packages/widget-passage-lemma-traversal?283907f99a082080d1e318e580e95ce11e3f33e1":
   version "0.5.0-beta.2"
-  resolved "https://gitpkg.vercel.app/scaife-viewer/frontend/packages/widget-passage-lemma-traversal?6e310ae7e4d00f2f71fb9c71d0a7705ca13843f4#036640b60c3dd60bd9719e259fa1e112f94fc7f4"
+  resolved "https://gitpkg.vercel.app/scaife-viewer/frontend/packages/widget-passage-lemma-traversal?283907f99a082080d1e318e580e95ce11e3f33e1#ba7158975a1e56fa6fe6bc2f4c8a3c52fc9b27df"
   dependencies:
     "@scaife-viewer/common" "^0.4.0"
     "@scaife-viewer/store" "^0.5.0-beta.1"
