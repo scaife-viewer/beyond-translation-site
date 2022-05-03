@@ -29,7 +29,7 @@
   // eslint-disable-next-line max-len
   import PassageLemmaTraversalWidget from '@scaife-viewer/widget-passage-lemma-traversal';
   // eslint-disable-next-line max-len
-  import DictionaryEntriesWidget from '@scaife-viewer/widget-dictionary-entries';
+  // import DictionaryEntriesWidget from '@scaife-viewer/widget-dictionary-entries';
   import DisplayModeWidget from '@scaife-viewer/widget-display-mode';
   import ScholiaWidget from '@scaife-viewer/widget-scholia';
   import AudioWidget from '@scaife-viewer/widget-audio';
@@ -79,7 +79,7 @@
           DisplayModeWidget,
           NamedEntitiesWidget,
           PassageLemmaTraversalWidget,
-          DictionaryEntriesWidget,
+          // DictionaryEntriesWidget,
           TokenAnnotationWidget,
           MorphologyWidget,
           WordListWidget,
