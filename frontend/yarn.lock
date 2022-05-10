@@ -1410,9 +1410,9 @@
     "@scaife-viewer/store" "^0.5.0-beta.1"
     graphql-tag "^2.10.3"
 
-"@scaife-viewer/reader-dictionary-entries-mode@https://gitpkg.vercel.app/scaife-viewer/frontend/packages/reader-dictionary-entries-mode?c5a00fee63b8dca09cc0a0343737974416c64065":
+"@scaife-viewer/reader-dictionary-entries-mode@https://gitpkg.vercel.app/scaife-viewer/frontend/packages/reader-dictionary-entries-mode?a46db981fde5d09f2097870a804c140205b77a31":
   version "0.5.0-beta.2"
-  resolved "https://gitpkg.vercel.app/scaife-viewer/frontend/packages/reader-dictionary-entries-mode?c5a00fee63b8dca09cc0a0343737974416c64065#babafc696207972564b7f276edb382fd2bc07d03"
+  resolved "https://gitpkg.vercel.app/scaife-viewer/frontend/packages/reader-dictionary-entries-mode?a46db981fde5d09f2097870a804c140205b77a31#6b43740f95afde28a19ea434a93d873ae72a6a8b"
   dependencies:
     "@scaife-viewer/common" "^0.4.0"
     "@scaife-viewer/store" "^0.5.0-beta.1"
@@ -1484,32 +1484,9 @@
     "@scaife-viewer/store" "^0.0.10"
     portal-vue "^2.1.7"
 
-"@scaife-viewer/store@^0.0.10":
-  version "0.0.10"
-  resolved "https://registry.yarnpkg.com/@scaife-viewer/store/-/store-0.0.10.tgz#54b51bc0616cbf1d040a7f31883f5049f1ef3989"
-  integrity sha512-6NCl5wC8FpwKeDwC/PK75AZ3auZFEjbvMSX5HJ0GSaol7O0N7KB0jR21hDh0V3ujPQ+a/tI/dEptZWk2aDCoeg==
-  dependencies:
-    "@scaife-viewer/common" "^0.0.7"
-    graphql-tag "^2.10.3"
-
-"@scaife-viewer/store@^0.4.0":
-  version "0.4.0"
-  resolved "https://registry.yarnpkg.com/@scaife-viewer/store/-/store-0.4.0.tgz#2576f717dc953be91ca4e8aed79e0c2938a851bf"
-  integrity sha512-RmgHgZttpjwjgLF6jw8S5+e+YW/tmsfi73UucORUeFphUMRTK8Kx/tHAQ8q/av+PZ3zPR6oj9b9SDtaJepz8cA==
-  dependencies:
-    "@scaife-viewer/common" "^0.4.0"
-    graphql-tag "^2.10.3"
-
-"@scaife-viewer/store@^0.5.0-beta.1":
+"@scaife-viewer/store@^0.0.10", "@scaife-viewer/store@^0.4.0", "@scaife-viewer/store@^0.5.0-beta.1", "@scaife-viewer/store@https://gitpkg.vercel.app/scaife-viewer/frontend/packages/store?a46db981fde5d09f2097870a804c140205b77a31":
   version "0.5.0-beta.1"
-  resolved "https://gitpkg.vercel.app/scaife-viewer/frontend/packages/store?6d0b2dee701367acaea37309168eb744655ca1e9#3a85982e6b8f1301c1a4c7061f5cbc26f62b2899"
-  dependencies:
-    "@scaife-viewer/common" "^0.4.0"
-    graphql-tag "^2.10.3"
-
-"@scaife-viewer/store@https://gitpkg.vercel.app/scaife-viewer/frontend/packages/store?4411f057059aa8f498431d87e8cfcc6d49b2d28e":
-  version "0.5.0-beta.1"
-  resolved "https://gitpkg.vercel.app/scaife-viewer/frontend/packages/store?4411f057059aa8f498431d87e8cfcc6d49b2d28e#c69d90deb1bd6e2a882268c147ce4ed66e81c520"
+  resolved "https://gitpkg.vercel.app/scaife-viewer/frontend/packages/store?a46db981fde5d09f2097870a804c140205b77a31#35d14650aab9a1ff2ec4f9deb1164dcf2c2e435b"
   dependencies:
     "@scaife-viewer/common" "^0.4.0"
     graphql-tag "^2.10.3"

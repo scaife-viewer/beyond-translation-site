@@ -7,7 +7,6 @@ import {
   DISPLAY_MODE_FOLIO,
   DISPLAY_MODE_INTERLINEAR,
   DISPLAY_MODE_METRICAL,
-  // eslint-disable-next-line no-unused-vars
   DISPLAY_MODE_DICTIONARY_ENTRIES,
   DISPLAY_MODE_NAMED_ENTITIES,
   DISPLAY_MODE_SYNTAX_TREES,
@@ -69,8 +68,7 @@ Vue.use(SkeletonPlugin, {
       [DISPLAY_MODE_INTERLINEAR]: InterlinearModeReader,
       [DISPLAY_MODE_FOLIO]: ImageModeReader,
       [DISPLAY_MODE_METRICAL]: MetricalModeReader,
-      // TODO: Re-enable once we've sorted out queries
-      // [DISPLAY_MODE_DICTIONARY_ENTRIES]: DictionaryEntriesModeReader,
+      [DISPLAY_MODE_DICTIONARY_ENTRIES]: DictionaryEntriesModeReader,
       [DISPLAY_MODE_NAMED_ENTITIES]: NamedEntitiesModeReader,
       [DISPLAY_MODE_ALIGNMENTS]: AlignmentsModeReader,
       [DISPLAY_MODE_SYNTAX_TREES]: SyntaxTreesModeReader,
