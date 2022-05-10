@@ -11,5 +11,5 @@ gunicorn==20.0.0
 jsonlines==2.0.0
 more_itertools==8.12.0
 pandas==1.3.1
-scaife-viewer-atlas @https://github.com/scaife-viewer/backend/archive/29cf85587e19b042322b20898024baab197db598.zip#subdirectory=atlas
+scaife-viewer-atlas @https://github.com/scaife-viewer/backend/archive/5c8b7394ce592bb3e8a5a54cec5e5c09c066645f.zip#subdirectory=atlas
 whitenoise==4.1.4
