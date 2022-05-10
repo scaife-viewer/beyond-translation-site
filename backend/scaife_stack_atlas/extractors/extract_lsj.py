@@ -303,8 +303,8 @@ class XSLTransformer:
     def beta_to_uni(self, ctx, text_selector):
         # NOTE: compare with https://stackoverflow.com/questions/16031673/get-the-non-empty-element-using-xpath
         if text_selector:
-        value = text_selector[0]
-        return beta_to_uni(value)
+            value = text_selector[0]
+            return beta_to_uni(value)
 
     def catalog_link(self, ctx, value):
         # TODO: Point this to something within Beyond Translation
@@ -378,10 +378,11 @@ def blob_entries():
     entry_paths = []
     while chunk:
         entries_path = Path(DICTIONARY_PATH, f"entries-{str(counter).zfill(3)}.jsonl")
-    with entries_path.open("w") as f:
-        writer = jsonlines.Writer(f)
+        print(counter)
+        with entries_path.open("w") as f:
+            writer = jsonlines.Writer(f)
             for entry in chunk:
-            writer.write(entry)
+                writer.write(entry)
         entry_paths.append(entries_path.name)
         counter += 1
         chunk = peekable(itertools.islice(entries, CHUNK_SIZE))
