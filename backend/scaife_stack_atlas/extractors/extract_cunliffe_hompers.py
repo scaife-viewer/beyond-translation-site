@@ -115,6 +115,7 @@ def main():
             sense_idx += 1
 
         data = {
+            # TODO: Label vs Label verbose
             "label": "Cunliffe (Hompers)",
             "urn": "urn:cite2:scaife-viewer:dictionaries.v1:cunliffe-hompers",
             "kind": "Dictionary",

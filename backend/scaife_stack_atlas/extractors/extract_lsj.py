@@ -389,7 +389,8 @@ def blob_entries():
             break
 
     data = {
-        "label": "A Greek-English Lexicon (LSJ)",
+        # TODO: Label vs verbose label?
+        "label": "LSJ",
         "urn": "urn:cite2:scaife-viewer:dictionaries.v1:lsj",
         "kind": "Dictionary",
         "entries": entry_paths,

@@ -365,7 +365,8 @@ def main():
             entry["urn"] = f"{ENTRY_URN_PREFIX}{entry_pos}"
             entries.append(entry)
     data = {
-        "label": "A Lexicon of the Homeric Dialect (Cunliffe, Vol. 1)",
+        # TODO: Label vs Label verbose
+        "label": "Cunliffe (Lex Entries)",
         "urn": "urn:cite2:scaife-viewer:dictionaries.v1:cunliffe-lex",
         "kind": "Dictionary",
         "entries": entries,
