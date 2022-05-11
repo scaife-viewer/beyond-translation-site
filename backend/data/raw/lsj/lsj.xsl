@@ -43,7 +43,7 @@
             <xsl:value-of select="@n" />
           </xsl:attribute>
           <xsl:attribute name="href">
-            <xsl:value-of select="py:catalog_link(.)"/>
+            <xsl:value-of select="py:canonical_urn_link(.)"/>
           </xsl:attribute>
           <xsl:apply-templates/>
         </a>
