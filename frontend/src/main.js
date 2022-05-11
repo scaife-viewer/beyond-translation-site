@@ -20,10 +20,8 @@ import AlignmentsModeReader from '@scaife-viewer/reader-alignments-mode';
 import ImageModeReader, {
   iconMap as imageModeReaderIconMap,
 } from '@scaife-viewer/reader-image-mode';
-/* eslint-disable no-unused-vars */
 // eslint-disable-next-line max-len
 import DictionaryEntriesModeReader from '@scaife-viewer/reader-dictionary-entries-mode';
-/* eslint-enable no-unused-vars */
 import NamedEntitiesModeReader, {
   iconMap as namedEntitesReaderIconMap,
 } from '@scaife-viewer/reader-named-entities-mode';
