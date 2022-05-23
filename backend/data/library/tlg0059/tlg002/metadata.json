@@ -49,6 +49,46 @@
           "value": "Plato in Twelve Volumes, Vol. 1 translated by Harold North Fowler; Introduction by W.R.M. Lamb. Cambridge, MA, Harvard University Press; London, William Heinemann Ltd. 1914."
         }
       ]
+    },
+    {
+      "urn": "urn:cts:greekLit:tlg0059.tlg003.perseus-grc2-9576:",
+      "node_kind": "version",
+      "version_kind": "edition",
+      "lang": "grc",
+      "first_passage_urn": "urn:cts:greekLit:tlg0059.tlg003.perseus-grc2-9576:43a",
+      "citation_scheme": ["section", "sentence"],
+      "label": [
+        {
+          "lang": "eng",
+          "value": "Crito (Greek alignment, Sarabi)"
+        }
+      ],
+      "description": [
+        {
+          "lang": "eng",
+          "value": "Plato, creator. Platonis Opera Tomvs I Tetralogia I-II, Burnet, John, 1863-1928, editor. Oxford University Press. 1900-06."
+        }
+      ]
+    },
+    {
+      "urn": "urn:cts:greekLit:tlg0059.tlg003.sarabi-far1-9576:",
+      "node_kind": "version",
+      "version_kind": "edition",
+      "lang": "far",
+      "first_passage_urn": "urn:cts:greekLit:tlg0059.tlg003.sarabi-far1-9576:43",
+      "citation_scheme": ["section", "sentence"],
+      "label": [
+        {
+          "lang": "far",
+          "value": "Crito (Farsi translation alignment, Sarabi)"
+        }
+      ],
+      "description": [
+        {
+          "lang": "eng",
+          "value": "Translated and aligned by Aylar Mahmoudzadeh Sarabi"
+        }
+      ]
     }
   ]
 }
