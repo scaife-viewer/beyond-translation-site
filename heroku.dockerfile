@@ -49,7 +49,8 @@ RUN python manage.py loaddata fixtures/sites.json
 # TODO: Revisit this if we tweak this multistage file
 # to handle code / data changes out of band
 RUN rm -Rf data
-# TODO: Ensure $HEROKU_APP_NAME is applied via# an entrypoint script
+# TODO: Ensure $HEROKU_APP_NAME is applied via
+# an entrypoint script
 # RUN python manage.py update_site_for_review_app
 
 # # # # # # # # # # # # # # # # # # # # # # # #

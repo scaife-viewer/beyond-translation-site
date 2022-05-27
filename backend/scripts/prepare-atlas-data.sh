@@ -7,7 +7,7 @@ then
     curl $1 > db.tgz
     tar -zxvf db.tgz
     mkdir -p ${DB_DATA_PATH}
-    mv db.sqlite ${DATA_DIR}/db.sqlite
+    mv db.sqlite ${DB_DATA_PATH}/db.sqlite
     rm db.tgz
 else
     echo "[Running migrations and populating the ATLAS database]"
