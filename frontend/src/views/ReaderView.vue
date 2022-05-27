@@ -31,6 +31,7 @@
   // eslint-disable-next-line max-len
   import DictionaryEntriesWidget from '@scaife-viewer/widget-dictionary-entries';
   import DisplayModeWidget from '@scaife-viewer/widget-display-mode';
+  import { CommentaryWidgetSV2 } from '@scaife-viewer/widget-commentary';
   import ScholiaWidget from '@scaife-viewer/widget-scholia';
   import AudioWidget from '@scaife-viewer/widget-audio';
   import WordListWidget from '@scaife-viewer/widget-word-list';
@@ -85,6 +86,7 @@
           WordListWidget,
           NewAlexandriaWidget,
           // EHNewAlexandriaWidget,
+          CommentaryWidgetSV2,
           ScholiaWidget,
         ];
       },
