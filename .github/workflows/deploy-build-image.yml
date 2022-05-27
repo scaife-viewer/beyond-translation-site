@@ -2,6 +2,10 @@ name: Build app image
 
 on:
   workflow_dispatch:
+    inputs:
+      atlasDbURL:
+        description: 'Database tarball URL'
+        required: false
 
 jobs:
   build-webapp:
@@ -70,6 +74,7 @@ jobs:
           target: backend-prep
           tags:
             ghcr.io/${{ github.repository }}/backend-prep
+          build-args: ATLAS_DB_URL=${{ github.event.inputs.atlasDbURL }}
       - name: Autogenerate webapp Docker image tags
         id: autogen-docker-tags
         uses: docker/metadata-action@v3
