@@ -1,0 +1,64 @@
+[
+  {
+    "idx": "0",
+    "witnesses": [
+      {
+        "value": "PP",
+        "label": "\"Passionate Pilgrim\", 1599"
+      },
+      {
+        "value": "Rx",
+        "label": "\"Live with me and be my love\", in \"Roxburghe Ballads\", 1603"
+      },
+      {
+        "value": "Rs",
+        "label": "MS Rodenbach"
+      }
+    ],
+    "references": [
+      "urn:cts:engLit:mds822-32.tpsthl-1599.pdl-eng:1.1"
+    ],
+    "commentary": "<span>Come</span>",
+    "fragment": "Come",
+    "urn": "urn:cite2:scaife-viewer:commentary.v1:commentary1",
+    "fragment_verbose": "Come",
+    "ve_refs": [
+      "1.1.t1"
+    ],
+    "sort_key": [
+      [
+        1,
+        1
+      ],
+      1
+    ]
+  },
+  {
+    "idx": "1",
+    "witnesses": [
+      {
+        "value": "Rs",
+        "label": "MS Rodenbach"
+      }
+    ],
+    "references": [
+      "urn:cts:engLit:mds822-32.tpsthl-1599.pdl-eng:1.1"
+    ],
+    "commentary": "<span>If thou wilt live</span>",
+    "fragment": "live with mee",
+    "urn": "urn:cite2:scaife-viewer:commentary.v1:commentary2",
+    "fragment_verbose": "live with mee",
+    "ve_refs": [
+      "1.1.t2",
+      "1.1.t3",
+      "1.1.t4"
+    ],
+    "sort_key": [
+      [
+        1,
+        1
+      ],
+      2
+    ]
+  }
+]
