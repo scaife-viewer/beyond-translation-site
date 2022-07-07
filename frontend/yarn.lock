@@ -1527,9 +1527,9 @@
     "@scaife-viewer/store" "^0.0.10"
     graphql-tag "^2.10.3"
 
-"@scaife-viewer/widget-commentary@https://gitpkg.vercel.app/scaife-viewer/frontend/packages/widget-commentary?abc730d5a02b20e3b9c546c907c8f79ca122fe2b":
+"@scaife-viewer/widget-commentary@https://gitpkg.vercel.app/scaife-viewer/frontend/packages/widget-commentary?0a7bfd7cf65cfd6526c08719430130b1f4860c25":
   version "0.5.0-beta.1"
-  resolved "https://gitpkg.vercel.app/scaife-viewer/frontend/packages/widget-commentary?abc730d5a02b20e3b9c546c907c8f79ca122fe2b#824f1738785e99fce477b2a524a1b0ea793e1be3"
+  resolved "https://gitpkg.vercel.app/scaife-viewer/frontend/packages/widget-commentary?0a7bfd7cf65cfd6526c08719430130b1f4860c25#767cb80edd7354c94927a648ff037794f0b50d15"
   dependencies:
     "@scaife-viewer/common" "^0.4.0"
     "@scaife-viewer/store" "^0.5.0-beta.1"
@@ -1648,9 +1648,9 @@
     graphql-tag "^2.10.3"
     vue-apollo "^3.0.4"
 
-"@scaife-viewer/widget-scholia@https://gitpkg.vercel.app/scaife-viewer/frontend/packages/widget-scholia?abc730d5a02b20e3b9c546c907c8f79ca122fe2b":
+"@scaife-viewer/widget-scholia@https://gitpkg.vercel.app/scaife-viewer/frontend/packages/widget-scholia?0a7bfd7cf65cfd6526c08719430130b1f4860c25":
   version "0.5.0-beta.1"
-  resolved "https://gitpkg.vercel.app/scaife-viewer/frontend/packages/widget-scholia?abc730d5a02b20e3b9c546c907c8f79ca122fe2b#a094394e030e92c0bd9ac1193f3ead23dec04bd7"
+  resolved "https://gitpkg.vercel.app/scaife-viewer/frontend/packages/widget-scholia?0a7bfd7cf65cfd6526c08719430130b1f4860c25#14ad50c0afc0fa621a90ce666a8148ba5e09f5a0"
   dependencies:
     "@scaife-viewer/common" "^0.4.0"
     "@scaife-viewer/store" "^0.5.0-beta.1"
