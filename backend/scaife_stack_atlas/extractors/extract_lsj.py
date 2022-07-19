@@ -6,10 +6,10 @@ from pathlib import Path
 
 import jsonlines
 import regex
-from betacode.conv import beta_to_uni as beta_to_uni_
 from lxml import etree
 from more_itertools import peekable
 
+from betacode.conv import beta_to_uni as beta_to_uni_
 from scaife_viewer.atlas.backports.scaife_viewer.cts.utils import natural_keys
 
 
