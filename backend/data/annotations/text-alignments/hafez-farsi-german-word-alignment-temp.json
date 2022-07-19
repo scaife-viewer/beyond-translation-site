@@ -2,6 +2,7 @@
   "urn": "urn:cite2:scaife-viewer:alignment.v1:hafez-farsi-german-word-alignment-temp",
   "label": "Hafez Farsi / German Word Alignment",
   "format": "atlas-standoff-annotation",
+  "enable_prototype": true,
   "versions": [
     "urn:cts:farsiLit:hafez.divan.perseus-far1-hemis:",
     "urn:cts:farsiLit:hafez.divan.perseus-ger1-hemis:"

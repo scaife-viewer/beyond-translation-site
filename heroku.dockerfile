@@ -72,3 +72,5 @@ COPY --from=frontend-build /app/dist /opt/scaife-stack/src/static
 COPY --from=backend-prep /opt/scaife-stack /opt/scaife-stack
 
 RUN python manage.py collectstatic
+
+CMD gunicorn scaife_stack_atlas.wsgi

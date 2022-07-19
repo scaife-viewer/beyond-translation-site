@@ -20,11 +20,16 @@
   import TextWidthWidget from '@scaife-viewer/widget-text-width';
   import ReaderWidget from '@scaife-viewer/widget-reader';
   import TokenAnnotationWidget from '@scaife-viewer/widget-token-annotations';
+  import MorphologyWidget from '@scaife-viewer/widget-morphology';
   import PassageAncestorsWidget from '@scaife-viewer/widget-passage-ancestors';
   import PassageSiblingsWidget from '@scaife-viewer/widget-passage-siblings';
   import PassageChildrenWidget from '@scaife-viewer/widget-passage-children';
   import LibraryWidget from '@scaife-viewer/widget-library';
   import NamedEntitiesWidget from '@scaife-viewer/widget-named-entities';
+  // eslint-disable-next-line max-len
+  import PassageLemmaTraversalWidget from '@scaife-viewer/widget-passage-lemma-traversal';
+  // eslint-disable-next-line max-len
+  import DictionaryEntriesWidget from '@scaife-viewer/widget-dictionary-entries';
   import DisplayModeWidget from '@scaife-viewer/widget-display-mode';
   import ScholiaWidget from '@scaife-viewer/widget-scholia';
   import AudioWidget from '@scaife-viewer/widget-audio';
@@ -73,7 +78,10 @@
           AudioWidget,
           DisplayModeWidget,
           NamedEntitiesWidget,
+          PassageLemmaTraversalWidget,
+          DictionaryEntriesWidget,
           TokenAnnotationWidget,
+          MorphologyWidget,
           WordListWidget,
           NewAlexandriaWidget,
           // EHNewAlexandriaWidget,

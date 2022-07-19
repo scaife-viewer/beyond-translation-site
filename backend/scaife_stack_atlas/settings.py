@@ -190,15 +190,20 @@ if "SV_ATLAS_INGESTION_CONCURRENCY" in os.environ:
 SV_ATLAS_INGESTION_PIPELINE = [
     "scaife_viewer.atlas.importers.versions.import_versions",
     "scaife_viewer.atlas.importers.text_annotations.import_text_annotations",
+    "scaife_viewer.atlas.importers.attributions.import_attributions",
     "scaife_viewer.atlas.importers.metrical_annotations.import_metrical_annotations",
     "scaife_viewer.atlas.importers.image_annotations.import_image_annotations",
     "scaife_viewer.atlas.importers.audio_annotations.import_audio_annotations",
     "scaife_viewer.atlas.tokenizers.tokenize_all_text_parts",
-    # TODO: Backport to scaife_viewer.atlas
-    "scaife_stack_atlas.temp.load_token_annotations",
+    "scaife_viewer.atlas.importers.token_annotations.apply_token_annotations",
     "scaife_viewer.atlas.importers.named_entities.apply_named_entities",
+    "scaife_viewer.atlas.importers.dictionaries.import_dictionaries",
     # TODO: Backport to scaife_viewer.atlas
     "scaife_stack_atlas.temp.process_alignments",
+    "scaife_stack_atlas.temp.set_text_annotation_collection",
+    "scaife_stack_atlas.temp.create_persian_greek_alignment",
+    "scaife_stack_atlas.temp.add_translations_to_trees",
+    "scaife_stack_atlas.temp.add_glosses_to_trees",
 ]
 DB_DATA_PATH = os.environ.get("DB_DATA_PATH", PROJECT_ROOT)
 SV_ATLAS_DB_PATH = os.path.join(DB_DATA_PATH, "db.sqlite")

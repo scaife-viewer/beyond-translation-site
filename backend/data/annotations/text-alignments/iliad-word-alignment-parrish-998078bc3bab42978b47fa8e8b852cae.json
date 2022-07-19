@@ -2,6 +2,7 @@
   "urn": "urn:cite2:scaife-viewer:alignment.v1:iliad-word-alignment-parrish-998078bc3bab42978b47fa8e8b852cae",
   "label": "Iliad Word Alignment (Parrish)",
   "format": "atlas-standoff-annotation",
+  "enable_prototype": true,
   "versions": [
     "urn:cts:greekLit:tlg0012.tlg001.parrish-eng1:",
     "urn:cts:greekLit:tlg0012.tlg001.perseus-grc2:"
