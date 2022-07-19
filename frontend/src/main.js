@@ -63,12 +63,12 @@ Vue.use(SkeletonPlugin, {
       mapStyle: 'mapbox://styles/paltman/ckbi4thqt156y1ijz5wldui14',
     },
     firstPassageUrn: 'urn:cts:greekLit:tlg0012.tlg001.perseus-grc2:1.1-1.7',
-    commentaryCollectionUrn:
-      // eslint-disable-next-line max-len
-      'urn:cite2:beyond-translation:text_annotation_collection.atlas_v1:hmt_commentary',
-    scholiaCollectionUrn:
-      // eslint-disable-next-line max-len
-      'urn:cite2:beyond-translation:text_annotation_collection.atlas_v1:hmt_scholia',
+    // commentaryCollectionUrn:
+    // eslint-disable-next-line max-len
+    //   'urn:cite2:beyond-translation:text_annotation_collection.atlas_v1:hmt_commentary',
+    // scholiaCollectionUrn:
+    // eslint-disable-next-line max-len
+    //   'urn:cite2:beyond-translation:text_annotation_collection.atlas_v1:hmt_scholia',
     readerComponents: {
       [DISPLAY_MODE_DEFAULT]: DefaultModeReader,
       [DISPLAY_MODE_INTERLINEAR]: InterlinearModeReader,
