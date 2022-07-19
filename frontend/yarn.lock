@@ -1442,9 +1442,9 @@
     openseadragon "^2.4.2"
     vue-apollo "^3.0.4"
 
-"@scaife-viewer/reader-interlinear-mode@https://gitpkg.vercel.app/scaife-viewer/frontend/packages/reader-interlinear-mode?377b2e7f116c5e59f9db6379f925de77b7359e0e":
+"@scaife-viewer/reader-interlinear-mode@https://gitpkg.vercel.app/scaife-viewer/frontend/packages/reader-interlinear-mode?2e78dfe2b1ab4bdb26d1c690d954ab49ae7d4886":
   version "0.5.0-beta.1"
-  resolved "https://gitpkg.vercel.app/scaife-viewer/frontend/packages/reader-interlinear-mode?377b2e7f116c5e59f9db6379f925de77b7359e0e#00ece383442239fcbb1e8f591c0d040b6ebfaab3"
+  resolved "https://gitpkg.vercel.app/scaife-viewer/frontend/packages/reader-interlinear-mode?2e78dfe2b1ab4bdb26d1c690d954ab49ae7d4886#0aa08ea3465f730695fa2b4fb78e5a3864d1bb5b"
   dependencies:
     "@scaife-viewer/common" "^0.4.0"
     "@scaife-viewer/widget-reader" "^0.5.0-beta.1"
@@ -1638,9 +1638,9 @@
     "@scaife-viewer/store" "^0.0.10"
     graphql-tag "^2.10.3"
 
-"@scaife-viewer/widget-reader@^0.5.0-beta.1", "@scaife-viewer/widget-reader@https://gitpkg.vercel.app/scaife-viewer/frontend/packages/widget-reader?ed47cfb689327bd9fe632f759c79d109c1982d32":
+"@scaife-viewer/widget-reader@^0.5.0-beta.1", "@scaife-viewer/widget-reader@https://gitpkg.vercel.app/scaife-viewer/frontend/packages/widget-reader?2e78dfe2b1ab4bdb26d1c690d954ab49ae7d4886":
   version "0.5.0-beta.1"
-  resolved "https://gitpkg.vercel.app/scaife-viewer/frontend/packages/widget-reader?ed47cfb689327bd9fe632f759c79d109c1982d32#b50a353f12c85aafd0640cc62220f8bd580fd4cd"
+  resolved "https://gitpkg.vercel.app/scaife-viewer/frontend/packages/widget-reader?2e78dfe2b1ab4bdb26d1c690d954ab49ae7d4886#d3ce2a6b06d07f27845eb71d9d9ec7b30b746392"
   dependencies:
     "@scaife-viewer/common" "^0.4.0"
     "@scaife-viewer/store" "^0.5.0-beta.1"
@@ -1648,9 +1648,9 @@
     graphql-tag "^2.10.3"
     vue-apollo "^3.0.4"
 
-"@scaife-viewer/widget-scholia@https://gitpkg.vercel.app/scaife-viewer/frontend/packages/widget-scholia?0a7bfd7cf65cfd6526c08719430130b1f4860c25":
+"@scaife-viewer/widget-scholia@https://gitpkg.vercel.app/scaife-viewer/frontend/packages/widget-scholia?2e78dfe2b1ab4bdb26d1c690d954ab49ae7d4886":
   version "0.5.0-beta.1"
-  resolved "https://gitpkg.vercel.app/scaife-viewer/frontend/packages/widget-scholia?0a7bfd7cf65cfd6526c08719430130b1f4860c25#14ad50c0afc0fa621a90ce666a8148ba5e09f5a0"
+  resolved "https://gitpkg.vercel.app/scaife-viewer/frontend/packages/widget-scholia?2e78dfe2b1ab4bdb26d1c690d954ab49ae7d4886#05a07d39e8a8dbd09119889084c706124867dba5"
   dependencies:
     "@scaife-viewer/common" "^0.4.0"
     "@scaife-viewer/store" "^0.5.0-beta.1"

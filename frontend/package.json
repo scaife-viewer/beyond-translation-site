@@ -16,7 +16,7 @@
     "@scaife-viewer/common": "https://gitpkg.vercel.app/scaife-viewer/frontend/packages/common?2f243e72ecbaf64ce4962cabf0229fa6d0ed88ee",
     "@scaife-viewer/reader-alignments-mode": "https://gitpkg.vercel.app/scaife-viewer/frontend/packages/reader-alignments-mode?377b2e7f116c5e59f9db6379f925de77b7359e0e",
     "@scaife-viewer/reader-image-mode": "https://gitpkg.vercel.app/scaife-viewer/frontend/packages/reader-image-mode?30ffd2a183fa21b8052d7c7551ccd2461f2704a9",
-    "@scaife-viewer/reader-interlinear-mode": "https://gitpkg.vercel.app/scaife-viewer/frontend/packages/reader-interlinear-mode?377b2e7f116c5e59f9db6379f925de77b7359e0e",
+    "@scaife-viewer/reader-interlinear-mode": "https://gitpkg.vercel.app/scaife-viewer/frontend/packages/reader-interlinear-mode?2e78dfe2b1ab4bdb26d1c690d954ab49ae7d4886",
     "@scaife-viewer/reader-metrical-mode": "https://gitpkg.vercel.app/scaife-viewer/frontend/packages/reader-metrical-mode?377b2e7f116c5e59f9db6379f925de77b7359e0e",
     "@scaife-viewer/reader-dictionary-entries-mode": "https://gitpkg.vercel.app/scaife-viewer/frontend/packages/reader-dictionary-entries-mode?6f131375e52e91de78d9e20b7c3513dc0b3be726",
     "@scaife-viewer/reader-commentaries-mode": "https://gitpkg.vercel.app/scaife-viewer/frontend/packages/reader-commentaries-mode?ed47cfb689327bd9fe632f759c79d109c1982d32",
@@ -37,8 +37,8 @@
     "@scaife-viewer/widget-passage-children": "^0.0.11",
     "@scaife-viewer/widget-passage-reference": "^0.0.14",
     "@scaife-viewer/widget-passage-siblings": "^0.0.11",
-    "@scaife-viewer/widget-reader": "https://gitpkg.vercel.app/scaife-viewer/frontend/packages/widget-reader?ed47cfb689327bd9fe632f759c79d109c1982d32",
-    "@scaife-viewer/widget-scholia": "https://gitpkg.vercel.app/scaife-viewer/frontend/packages/widget-scholia?0a7bfd7cf65cfd6526c08719430130b1f4860c25",
+    "@scaife-viewer/widget-reader": "https://gitpkg.vercel.app/scaife-viewer/frontend/packages/widget-reader?2e78dfe2b1ab4bdb26d1c690d954ab49ae7d4886",
+    "@scaife-viewer/widget-scholia": "https://gitpkg.vercel.app/scaife-viewer/frontend/packages/widget-scholia?2e78dfe2b1ab4bdb26d1c690d954ab49ae7d4886",
     "@scaife-viewer/widget-text-size": "^0.0.11",
     "@scaife-viewer/widget-text-width": "^0.0.11",
     "@scaife-viewer/widget-toc": "^0.0.10",
@@ -92,7 +92,7 @@
     "last 2 versions"
   ],
   "resolutions": {
-    "@scaife-viewer/widget-reader": "https://gitpkg.vercel.app/scaife-viewer/frontend/packages/widget-reader?ed47cfb689327bd9fe632f759c79d109c1982d32",
+    "@scaife-viewer/widget-reader": "https://gitpkg.vercel.app/scaife-viewer/frontend/packages/widget-reader?2e78dfe2b1ab4bdb26d1c690d954ab49ae7d4886",
     "@scaife-viewer/common": "https://gitpkg.vercel.app/scaife-viewer/frontend/packages/common?2f243e72ecbaf64ce4962cabf0229fa6d0ed88ee",
     "@scaife-viewer/store": "https://gitpkg.vercel.app/scaife-viewer/frontend/packages/store?ed47cfb689327bd9fe632f759c79d109c1982d32",
     "@scaife-viewer/vue-treant": "https://gitpkg.vercel.app/scaife-viewer/frontend/packages/vue-treant?658523eb8c6169d0b4d1c1612b9ca81ee0889b53"
