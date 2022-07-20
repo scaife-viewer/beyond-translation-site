@@ -6,16 +6,19 @@ from pathlib import Path
 
 import jsonlines
 import regex
-from betacode.conv import beta_to_uni as beta_to_uni_
 from lxml import etree
 from more_itertools import peekable
 
+from betacode.conv import beta_to_uni as beta_to_uni_
 from scaife_viewer.atlas.backports.scaife_viewer.cts.utils import natural_keys
 
 
 DICTIONARY_PATH = Path("data/annotations/dictionaries/lsj")
-
-
+CATALOG_API_HOST = "catalog-api-dev.scaife.eldarion.com"
+BEYOND_TRANSLATION_VERSION_MAP = {
+    "urn:cts:greekLit:tlg0012.tlg001.perseus-grc1": "urn:cts:greekLit:tlg0012.tlg001.perseus-grc2",
+    "urn:cts:greekLit:tlg0012.tlg002.perseus-grc1": "urn:cts:greekLit:tlg0012.tlg002.perseus-grc2",
+}
 # e.g. Hom.</span> </span>, <span class="bibl">
 PUNCTUATION_WITH_SPACES = regex.compile(r"[\p{P}]\s[\p{P}](?!\w)+")
 # e.g. Pass. ,
@@ -306,13 +309,22 @@ class XSLTransformer:
             value = text_selector[0]
             return beta_to_uni(value)
 
-    def catalog_link(self, ctx, value):
-        # TODO: Point this to something within Beyond Translation
+    def heal_urn(self, urn):
+        if urn.count(":") == 5:
+            parts = urn.rsplit(":", maxsplit=1)
+            urn = ".".join(parts)
+
+        version_urn, _ = urn.rsplit(":", maxsplit=1)
+        if version_urn in BEYOND_TRANSLATION_VERSION_MAP:
+            new_version_urn = BEYOND_TRANSLATION_VERSION_MAP[version_urn]
+            urn = urn.replace(version_urn, new_version_urn)
+
+        return urn
+
+    def canonical_urn_link(self, ctx, value):
         node = value[0]
-        urn = node.attrib["n"]
-        version_urn = urn.rsplit(":", maxsplit=1)[0]
-        work_urn = version_urn.rsplit(".", maxsplit=1)[0]
-        return f"https://catalog.perseus.org/catalog/{work_urn}/"
+        urn = self.heal_urn(node.attrib["n"])
+        return f"https://{CATALOG_API_HOST}/{urn}/canonical-url/"
 
     # TODO: Backported from scaife_viewer_core TEIRenderer
     @lru_cache
@@ -323,7 +335,7 @@ class XSLTransformer:
                 etree.XML(f.read()),
                 extensions={
                     (func_ns, "beta_to_uni"): self.beta_to_uni,
-                    (func_ns, "catalog_link"): self.catalog_link,
+                    (func_ns, "canonical_urn_link"): self.canonical_urn_link,
                 },
             )
             try:
