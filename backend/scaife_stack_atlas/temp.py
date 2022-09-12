@@ -176,6 +176,49 @@ def create_gorman_collection(reset=False):
     tas.update(collection=collection)
 
 
+def set_glaux_attributions(reset=False):
+    person, created = AttributionPerson.objects.get_or_create(name="Toon Van Hal")
+    if not created or reset:
+        # FIXME: Actually create the proper attribution modeling for this
+        # TODO: Alias as records
+        person.attributionrecord_set.all().delete()
+    organization, _ = AttributionOrganization.objects.get_or_create(
+        name="KU Leuven"
+    )
+
+    syntax_trees = TextAnnotation.objects.filter(urn__startswith="urn:cite2:beyond-translation:syntaxTree.atlas_v1:glaux-")
+    AttributionRecord.objects.create(
+        person=person,
+        organization=organization,
+        role="Annotator",
+        data=dict(references=[list(syntax_trees.values_list("urn"))]),
+    )
+
+
+def create_glaux_collection(reset=False):
+    collection_urn = (
+        "urn:cite2:beyond-translation:text_annotation_collection.atlas_v1:glaux_trees"
+    )
+    if reset:
+        TextAnnotation.objects.filter(collection__urn=collection_urn).update(
+            collection=None
+        )
+        TextAnnotationCollection.objects.filter(urn=collection_urn).delete()
+
+    tas = TextAnnotation.objects.filter(urn__startswith="urn:cite2:beyond-translation:syntaxTree.atlas_v1:glaux-")
+    collection = TextAnnotationCollection.objects.create(
+        label="gregorycrane/glaux-trees",
+        data={
+            "source": {
+                "title": "gregorycrane/glaux-trees",
+                "url": "https://github.com/gregorycrane/glaux-trees",
+            }
+        },
+        urn=collection_urn,
+    )
+    tas.update(collection=collection)
+
+
 # TODO: English too?
 def create_persian_greek_alignment(reset=True):
     alignment_urn = (
