@@ -62,7 +62,12 @@ def write_alignment_annotation(label, alignment_urn, versions, alignment_records
         record_urn = (
             f"urn:cite2:scaife-viewer:alignment-record.v1:{shared_urn_part}_{idx}"
         )
-        data["records"].append(dict(urn=record_urn, relations=record,))
+        data["records"].append(
+            dict(
+                urn=record_urn,
+                relations=record,
+            )
+        )
         idx += 1
     alignment_fname = f'{alignment_urn.rsplit(":", maxsplit=1)[1]}.json'
     # TODO: Handle mkdir

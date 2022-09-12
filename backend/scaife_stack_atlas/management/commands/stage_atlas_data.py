@@ -67,7 +67,10 @@ class Command(BaseCommand):
             raise ValueError(f"metadata already exists for {data['urn']}")
 
         json.dump(
-            data, open(text_group_metadata_path, "w"), ensure_ascii=False, indent=2,
+            data,
+            open(text_group_metadata_path, "w"),
+            ensure_ascii=False,
+            indent=2,
         )
 
     def write_work_metadata(self, dirpaths, data):

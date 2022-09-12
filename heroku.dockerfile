@@ -1,3 +1,6 @@
+# # # # # # # # # # # # # # # # # # # # # # # #
+# frontend
+# # # # # # # # # # # # # # # # # # # # # # # #
 FROM node:12.19.0-alpine AS frontend-build
 
 RUN yarn global add @vue/cli
@@ -9,6 +12,9 @@ RUN yarn install
 COPY ./frontend .
 RUN yarn build
 
+# # # # # # # # # # # # # # # # # # # # # # # #
+# backend
+# # # # # # # # # # # # # # # # # # # # # # # #
 FROM python:3.9 AS backend-build
 WORKDIR /opt/scaife-stack/src/
 RUN pip install --disable-pip-version-check --upgrade pip setuptools wheel virtualenv
@@ -18,6 +24,9 @@ RUN set -x \
     && virtualenv /opt/scaife-stack \
     && pip install -r requirements.txt
 
+# # # # # # # # # # # # # # # # # # # # # # # #
+# backend data and code prep
+# # # # # # # # # # # # # # # # # # # # # # # #
 FROM backend-build as backend-prep
 
 ENV PYTHONUNBUFFERED=1 \
@@ -31,15 +40,23 @@ WORKDIR /opt/scaife-stack/src/
 COPY ./backend .
 
 ARG HEROKU_APP_NAME
+ARG ATLAS_DB_URL
 
-RUN sh scripts/prepare-atlas-data.sh
+RUN sh scripts/prepare-atlas-data.sh ${ATLAS_DB_URL}
 
 RUN python manage.py loaddata fixtures/sites.json
+
+# TODO: Revisit this if we tweak this multistage file
+# to handle code / data changes out of band
+RUN rm -Rf data
 # TODO: Ensure $HEROKU_APP_NAME is applied via
 # an entrypoint script
 # RUN python manage.py update_site_for_review_app
 
-FROM backend-build as atlas-slim
+# # # # # # # # # # # # # # # # # # # # # # # #
+# webapp
+# # # # # # # # # # # # # # # # # # # # # # # #
+FROM backend-build as webapp
 WORKDIR /opt/scaife-stack/src/
 
 ENV PYTHONUNBUFFERED=1 \
@@ -55,3 +72,5 @@ COPY --from=frontend-build /app/dist /opt/scaife-stack/src/static
 COPY --from=backend-prep /opt/scaife-stack /opt/scaife-stack
 
 RUN python manage.py collectstatic
+
+CMD gunicorn scaife_stack_atlas.wsgi

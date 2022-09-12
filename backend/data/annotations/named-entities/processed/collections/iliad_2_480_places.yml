@@ -11,7 +11,7 @@ entities:
   url: https://pleiades.stoa.org/places/501359
   data:
     commenting: 'Commander: Asios'
-    coordinates: 26.542314, 40.199817
+    coordinates: 40.199817, 26.542314
   urn: urn:cite2:hmt:place.v1:place124
 - title: Cromna
   description: or Kromna, a locality in Paphlagonia
@@ -20,7 +20,7 @@ entities:
   data:
     tagging: Paphlagonians
     commenting: 'Commander: Pylaimenes'
-    coordinates: 32.6765, 41.82841
+    coordinates: 41.82841, 32.6765
   urn: urn:cite2:hmt:place.v1:place406
 - title: Phocaea
   description: An ancient settlement of Asia Minor, modern Foça in Turkey.
@@ -29,7 +29,7 @@ entities:
   data:
     tagging: Phocaeans
     commenting: 'Commanders: Schedios, Epistrophos'
-    coordinates: 26.75261, 38.6684
+    coordinates: 38.6684, 26.75261
   urn: urn:cite2:exploreHomer:place.v1:place1
 - title: Pyrasus
   description: a town in Thessaly
@@ -38,7 +38,7 @@ entities:
   data:
     tagging: Phylake
     commenting: 'Commander: Podarkes'
-    coordinates: 22.8206, 39.27922
+    coordinates: 39.27922, 22.8206
   urn: urn:cite2:hmt:place.v1:place377
 - title: Erythrai
   description: Erythrae, a town in Boeotia
@@ -47,7 +47,7 @@ entities:
   data:
     tagging: Boeotians
     commenting: 'Commanders: Arkesilaos, Prothoenor, Klonios'
-    coordinates: 26.48103, 38.38122
+    coordinates: 38.38122, 26.48103
   urn: urn:cite2:hmt:place.v1:place305
 - title: Okaleia?
   description: 'An ancient place, cited: BAtlas 55 E4 Okaleia?'
@@ -56,7 +56,7 @@ entities:
   data:
     tagging: Boeotians
     commenting: 'Commanders: Arkesilaos, Prothoenor, Klonios'
-    coordinates: 23.03774, 38.351509
+    coordinates: 38.351509, 23.03774
   urn: urn:cite2:exploreHomer:place.v1:place2
 - title: Boeotia
   description: region containing the Greek Thebes
@@ -65,7 +65,7 @@ entities:
   data:
     tagging: Boeotians
     commenting: 'Commanders: Arkesilaos, Prothoenor, Klonios'
-    coordinates: 23.184677533333, 38.346688033333
+    coordinates: 38.346688033333, 23.184677533333
   urn: urn:cite2:hmt:place.v1:place30
 - title: Oitylos
   description: 'An ancient place, cited: BAtlas 58 C4 Oitylos'
@@ -74,7 +74,7 @@ entities:
   data:
     tagging: Laconians
     commenting: 'Commander: Menelaos'
-    coordinates: 22.3848, 36.705058
+    coordinates: 36.705058, 22.3848
   urn: urn:cite2:exploreHomer:place.v1:place3
 - title: Cyparissius Sinus
   description: 'An ancient place, cited: BAtlas 58 A2 Cyparissius Sinus'
@@ -83,7 +83,7 @@ entities:
   data:
     tagging: Pylos
     commenting: 'Commander: Nestor'
-    coordinates: 21.25, 37.75
+    coordinates: 37.75, 21.25
   urn: urn:cite2:exploreHomer:place.v1:place4
 - title: Harma
   description: a town in Boeotia
@@ -92,7 +92,7 @@ entities:
   data:
     tagging: Boeotians
     commenting: 'Commanders: Arkesilaos, Prothoenor, Klonios'
-    coordinates: 23.625, 38.125
+    coordinates: 38.125, 23.625
   urn: urn:cite2:hmt:place.v1:place303
 - title: Arne
   description: town in Boeotia
@@ -101,7 +101,7 @@ entities:
   data:
     tagging: Boeotians
     commenting: 'Commanders: Arkesilaos, Prothoenor, Klonios'
-    coordinates: 22.93328, 38.48288
+    coordinates: 38.48288, 22.93328
   urn: urn:cite2:hmt:place.v1:place130
 - title: Anemoreia
   description: town in Phocis
@@ -126,7 +126,7 @@ entities:
   data:
     tagging: Cretans
     commenting: 'Commander: Idomeneus'
-    coordinates: 24.995769971495, 35.219844391733
+    coordinates: 35.219844391733, 24.995769971495
   urn: urn:cite2:hmt:place.v1:place21
 - title: Phthia
   description: southern Thessaly
@@ -135,7 +135,7 @@ entities:
   data:
     tagging: Myrmidons
     commenting: 'Commander: Achilles'
-    coordinates: 22.25, 39.25
+    coordinates: 39.25, 22.25
   urn: urn:cite2:hmt:place.v1:place34
 - title: Arcadia
   description: province in the Peloponnese
@@ -144,7 +144,7 @@ entities:
   data:
     tagging: Arcadians
     commenting: 'Commander: Agapenor'
-    coordinates: 22.165323097346, 37.56741926845
+    coordinates: 37.56741926845, 22.165323097346
   urn: urn:cite2:hmt:place.v1:place10
 - title: Oichalia?
   description: 'An ancient place, cited: BAtlas 55 G3 Oichalia?'
@@ -152,7 +152,7 @@ entities:
   url: https://pleiades.stoa.org/places/540971
   data:
     commenting: 'Commanders: Asklepios, Podaleirios, Machaon'
-    coordinates: 24.099827, 38.602679
+    coordinates: 38.602679, 24.099827
   urn: urn:cite2:exploreHomer:place.v1:place6
 - title: Olooson
   description: 'An ancient place, cited: BAtlas 55 C1 Olooson'
@@ -160,14 +160,14 @@ entities:
   url: https://pleiades.stoa.org/places/540981
   data:
     commenting: 'Commanders: Polypoites, Leonteus'
-    coordinates: 22.215715, 39.89278
+    coordinates: 39.89278, 22.215715
   urn: urn:cite2:exploreHomer:place.v1:place7
 - title: Perkote
   description: 'An ancient place, cited: BAtlas 51 H4 Perkote'
   kind: place
   url: https://pleiades.stoa.org/places/501556
   data:
-    coordinates: 26.588806, 40.273913
+    coordinates: 40.273913, 26.588806
   urn: urn:cite2:exploreHomer:place.v1:place8
 - title: Tarphe
   description: a town in Locris
@@ -176,7 +176,7 @@ entities:
   data:
     tagging: Locrians
     commenting: 'Commander: Ajax Oileus'
-    coordinates: 22.728224, 38.717051
+    coordinates: 38.717051, 22.728224
   urn: urn:cite2:hmt:place.v1:place319
 - title: Kerinthos
   description: Cerinthus, a city in Euboea
@@ -185,7 +185,7 @@ entities:
   data:
     tagging: Abantes
     commenting: 'Commander: Elphenor'
-    coordinates: 23.48282, 38.825075
+    coordinates: 38.825075, 23.48282
   urn: urn:cite2:hmt:place.v1:place323
 - title: Corinth
   description: (old name is Ephyra), know as Argive Ephyre in Homer
@@ -194,7 +194,7 @@ entities:
   data:
     tagging: Mycenaeans
     commenting: 'Commander: Agamemnon'
-    coordinates: 22.878721, 37.906045
+    coordinates: 37.906045, 22.878721
   urn: urn:cite2:hmt:place.v1:place165
 - title: Enispe
   description: 'An ancient place, cited: BAtlas 58 unlocated Enispe Ins.'
@@ -211,7 +211,7 @@ entities:
   data:
     tagging: Aetolians
     commenting: 'Commander: Thoas'
-    coordinates: 21.25, 38.75
+    coordinates: 38.75, 21.25
   urn: urn:cite2:hmt:place.v1:place126
 - title: Cleonae
   description: or Kleonai, a town in Argolis
@@ -220,7 +220,7 @@ entities:
   data:
     tagging: Mycenaeans
     commenting: 'Commander: Agamemnon'
-    coordinates: 22.75372, 37.81708
+    coordinates: 37.81708, 22.75372
   urn: urn:cite2:hmt:place.v1:place332
 - title: Amyclae
   description: a city in Laconia, near the Eurotas, 20 stadia S.E. of Sparta, and
@@ -238,7 +238,7 @@ entities:
   data:
     tagging: Cephallenians
     commenting: 'Commander: Odysseus'
-    coordinates: 20.638399, 38.44193
+    coordinates: 38.44193, 20.638399
   urn: urn:cite2:exploreHomer:place.v1:place10
 - title: Antinoopolis
   description: An ancient city in Egypt established by Hadrian in A.D. 122 in honor
@@ -248,7 +248,7 @@ entities:
   data:
     tagging: Myrmidons
     commenting: 'Commander: Achilles'
-    coordinates: 30.879299, 27.808099
+    coordinates: 27.808099, 30.879299
   urn: urn:cite2:exploreHomer:place.v1:place11
 - title: Orthe
   description: town in Thessaly
@@ -256,7 +256,7 @@ entities:
   url: https://pleiades.stoa.org/places/540992
   data:
     commenting: 'Commanders: Polypoites, Leonteus'
-    coordinates: 22.16827, 39.721527
+    coordinates: 39.721527, 22.16827
   urn: urn:cite2:hmt:place.v1:place206
 - title: Bryseai/Byseai
   description: An ancient settlement, attested by literary or documentary sources,
@@ -280,7 +280,7 @@ entities:
   kind: place
   url: https://pleiades.stoa.org/places/590031
   data:
-    coordinates: 28.15629, 36.41451
+    coordinates: 36.41451, 28.15629
   urn: urn:cite2:hmt:place.v1:place26
 - title: Ormenion/Orminion
   description: 'An ancient place, cited: BAtlas 55 unlocated Ormenion/Orminion'
@@ -294,7 +294,7 @@ entities:
   kind: place
   url: https://pleiades.stoa.org/places/550595
   data:
-    coordinates: 26.23873, 39.9577
+    coordinates: 39.9577, 26.23873
   urn: urn:cite2:hmt:place.v1:place6
 - title: Amastris/Sesamos
   description: An ancient settlement on the Black Sea coast in Asia Minor, modern
@@ -304,7 +304,7 @@ entities:
   data:
     tagging: Paphlagonians
     commenting: 'Commander: Pylaimenes'
-    coordinates: 32.385648, 41.746969
+    coordinates: 41.746969, 32.385648
   urn: urn:cite2:exploreHomer:place.v1:place15
 - title: Tereia
   description: 'An ancient place, cited: BAtlas 52 unlocated Tereia'
@@ -320,7 +320,7 @@ entities:
   data:
     tagging: Boeotians
     commenting: 'Commanders: Arkesilaos, Prothoenor, Klonios'
-    coordinates: 23.154521, 38.293384
+    coordinates: 38.293384, 23.154521
   urn: urn:cite2:hmt:place.v1:place182
 - title: Hylai
   description: 'An ancient place, cited: BAtlas 55 E4 Hylai'
@@ -329,7 +329,7 @@ entities:
   data:
     tagging: Boeotians
     commenting: 'Commanders: Arkesilaos, Prothoenor, Klonios'
-    coordinates: 23.278871, 38.411036
+    coordinates: 38.411036, 23.278871
   urn: urn:cite2:exploreHomer:place.v1:place17
 - title: Dion
   description: Dion was a settlement of Pieria located just south of Macedonia and
@@ -339,7 +339,7 @@ entities:
   data:
     tagging: Abantes
     commenting: 'Commander: Elphenor'
-    coordinates: 22.491299, 40.177012
+    coordinates: 40.177012, 22.491299
   urn: urn:cite2:exploreHomer:place.v1:place18
 - title: Orchomenus
   description: ancient city on Lake Copais in Boeotia, associated with the Minyans
@@ -348,7 +348,7 @@ entities:
   data:
     tagging: Arcadians
     commenting: 'Commander: Agapenor'
-    coordinates: 22.959486, 38.495082
+    coordinates: 38.495082, 22.959486
   urn: urn:cite2:hmt:place.v1:place148
 - title: Zacynthus
   description: 'An ancient place, cited: BAtlas 54 inset Zacynthus'
@@ -357,7 +357,7 @@ entities:
   data:
     tagging: Cephallenians
     commenting: 'Commander: Odysseus'
-    coordinates: 20.892091, 37.787178
+    coordinates: 37.787178, 20.892091
   urn: urn:cite2:exploreHomer:place.v1:place19
 - title: Tegyra
   description: 'An ancient place, cited: BAtlas 55 E3 Tegyra'
@@ -366,7 +366,7 @@ entities:
   data:
     tagging: Aspledon
     commenting: 'Commanders: Askalaphos, Ialmenos'
-    coordinates: 23.034484, 38.512851
+    coordinates: 38.512851, 23.034484
   urn: urn:cite2:exploreHomer:place.v1:place20
 - title: Phylace
   description: town in Thessaly
@@ -375,14 +375,14 @@ entities:
   data:
     tagging: Phylake
     commenting: 'Commander: Podarkes'
-    coordinates: 22.601194, 39.241202
+    coordinates: 39.241202, 22.601194
   urn: urn:cite2:hmt:place.v1:place200
 - title: Styx (river)
   description: 'An ancient place, cited: BAtlas 58 C1 Styx fl.'
   kind: place
   url: https://pleiades.stoa.org/places/570698
   data:
-    coordinates: 22.25, 38.25
+    coordinates: 38.25, 22.25
   urn: urn:cite2:exploreHomer:place.v1:place21
 - title: Larissa
   description: 'An ancient place, cited: BAtlas 55 C1 Larissa'
@@ -391,7 +391,7 @@ entities:
   data:
     tagging: Thessalians
     commenting: 'Commander: Hippothoos'
-    coordinates: 22.41474, 39.64147
+    coordinates: 39.64147, 22.41474
   urn: urn:cite2:exploreHomer:place.v1:place22
 - title: Athens
   description: city in Attica
@@ -400,7 +400,7 @@ entities:
   data:
     tagging: Athenians
     commenting: 'Commander: Menestheus'
-    coordinates: 23.726464, 37.971687
+    coordinates: 37.971687, 23.726464
   urn: urn:cite2:hmt:place.v1:place1
 - title: Pleuron
   description: an ancient city in Aetolia
@@ -409,7 +409,7 @@ entities:
   data:
     tagging: Aetolians
     commenting: 'Commander: Thoas'
-    coordinates: 21.414714, 38.402823
+    coordinates: 38.402823, 21.414714
   urn: urn:cite2:hmt:place.v1:place282
 - title: Elone
   description: town in Thessaly
@@ -417,7 +417,7 @@ entities:
   url: https://pleiades.stoa.org/places/540760
   data:
     commenting: 'Commanders: Polypoites, Leonteus'
-    coordinates: 22.30748, 39.82647
+    coordinates: 39.82647, 22.30748
   urn: urn:cite2:hmt:place.v1:place207
 - title: Adrasteia
   description: or Adrastea, a region of Mysia
@@ -425,7 +425,7 @@ entities:
   url: https://pleiades.stoa.org/places/511138
   data:
     commenting: 'Commander: Adrastos'
-    coordinates: 27.191289, 40.383655
+    coordinates: 40.383655, 27.191289
   urn: urn:cite2:hmt:place.v1:place396
 - title: Ascania
   description: a district of Phrygia
@@ -434,7 +434,7 @@ entities:
   data:
     tagging: Phrygians
     commenting: 'Commanders: Phorkys, Askanios'
-    coordinates: 29.75, 40.25
+    coordinates: 40.25, 29.75
   urn: urn:cite2:hmt:place.v1:place410
 - title: Echinades
   description: also called with Echinae, group of islands in the Ionian Sea
@@ -443,7 +443,7 @@ entities:
   data:
     tagging: Dulichium
     commenting: 'Commanders: Meges, Phyleus'
-    coordinates: 21.25, 38.25
+    coordinates: 38.25, 21.25
   urn: urn:cite2:hmt:place.v1:place189
 - title: Zeleia
   description: town allied to Troy, at the foot of Mt. Ida
@@ -452,7 +452,7 @@ entities:
   data:
     tagging: Teleans
     commenting: 'Commander: Pandaros'
-    coordinates: 27.5950731, 40.2035643
+    coordinates: 40.2035643, 27.5950731
   urn: urn:cite2:hmt:place.v1:place88
 - title: Midea
   description: An ancient site in the Argolid in Greece, it shares a name with the
@@ -462,7 +462,7 @@ entities:
   data:
     tagging: Boeotians
     commenting: 'Commanders: Arkesilaos, Prothoenor, Klonios'
-    coordinates: 22.842, 37.65
+    coordinates: 37.65, 22.842
   urn: urn:cite2:exploreHomer:place.v1:place23
 - title: Plataea
   description: town in Boeotia
@@ -471,7 +471,7 @@ entities:
   data:
     tagging: Boeotians
     commenting: 'Commanders: Arkesilaos, Prothoenor, Klonios'
-    coordinates: 23.273866, 38.221019
+    coordinates: 38.221019, 23.273866
   urn: urn:cite2:hmt:place.v1:place141
 - title: Lilaia
   description: town in Phocis
@@ -480,7 +480,7 @@ entities:
   data:
     tagging: Phocaeans
     commenting: 'Commanders: Schedios, Epistrophos'
-    coordinates: 22.50592, 38.62687
+    coordinates: 38.62687, 22.50592
   urn: urn:cite2:hmt:place.v1:place151
 - title: Carpathus
   description: an island between Crete and Rhodes
@@ -488,7 +488,7 @@ entities:
   url: https://pleiades.stoa.org/places/589841
   data:
     commenting: 'Commanders: Pheidippos, Antiphos'
-    coordinates: 27.133333, 35.583333
+    coordinates: 35.583333, 27.133333
   urn: urn:cite2:hmt:place.v1:place371
 - title: Ithome
   description: a city in Thessaly
@@ -496,7 +496,7 @@ entities:
   url: https://pleiades.stoa.org/places/540841
   data:
     commenting: 'Commanders: Asklepios, Podaleirios, Machaon'
-    coordinates: 21.920439, 37.175491
+    coordinates: 37.175491, 21.920439
   urn: urn:cite2:hmt:place.v1:place388
 - title: Nisyrus
   description: small island, one of the Sporades
@@ -504,7 +504,7 @@ entities:
   url: https://pleiades.stoa.org/places/599830
   data:
     commenting: 'Commanders: Pheidippos, Antiphos'
-    coordinates: 27.15597, 36.58892
+    coordinates: 36.58892, 27.15597
   urn: urn:cite2:hmt:place.v1:place370
 - title: Pteleon
   description: a town in Thessaly
@@ -513,7 +513,7 @@ entities:
   data:
     tagging: Phylake
     commenting: 'Commander: Podarkes'
-    coordinates: 22.97464, 39.03369
+    coordinates: 39.03369, 22.97464
   urn: urn:cite2:hmt:place.v1:place380
 - title: Doulichion
   description: Dulichium, or Dolicha, or Doliche, island in the Echinades
@@ -522,7 +522,7 @@ entities:
   data:
     tagging: Dulichium
     commenting: 'Commanders: Meges, Phyleus'
-    coordinates: 21.15177, 38.32079
+    coordinates: 38.32079, 21.15177
   urn: urn:cite2:hmt:place.v1:place190
 - title: Maionia/Mysia
   description: 'An ancient place, cited: BAtlas 56 G4 Maionia/Mysia'
@@ -531,14 +531,14 @@ entities:
   data:
     tagging: Meonians
     commenting: 'Commanders: Mesthles, Antiphos'
-    coordinates: 28.25, 38.75
+    coordinates: 38.75, 28.25
   urn: urn:cite2:exploreHomer:place.v1:place24
 - title: Pontus Euxinus
   description: The Black Sea.
   kind: place
   url: https://pleiades.stoa.org/places/1224
   data:
-    coordinates: 34.7425505, 43.0786852
+    coordinates: 43.0786852, 34.7425505
   urn: urn:cite2:exploreHomer:place.v1:place25
 - title: Thisbe
   description: a town in Boeotia
@@ -547,7 +547,7 @@ entities:
   data:
     tagging: Boeotians
     commenting: 'Commanders: Arkesilaos, Prothoenor, Klonios'
-    coordinates: 22.96835, 38.259722
+    coordinates: 38.259722, 22.96835
   urn: urn:cite2:hmt:place.v1:place308
 - title: Hermion(e)
   description: Hermion(e) was a settlement of the eastern Argolid.
@@ -556,7 +556,7 @@ entities:
   data:
     tagging: Argolis
     commenting: 'Commanders: Diomedes, Sthenelos, Euryalos'
-    coordinates: 23.243591, 37.385218
+    coordinates: 37.385218, 23.243591
   urn: urn:cite2:exploreHomer:place.v1:place26
 - title: Helice
   description: city located in Achaea, northern Peloponnesos, submerged in a tsunami
@@ -566,7 +566,7 @@ entities:
   data:
     tagging: Mycenaeans
     commenting: 'Commander: Agamemnon'
-    coordinates: 22.14015, 38.22257
+    coordinates: 38.22257, 22.14015
   urn: urn:cite2:hmt:place.v1:place277
 - title: Lykastos
   description: 'An ancient place, cited: BAtlas 60 D2 Lykastos'
@@ -575,7 +575,7 @@ entities:
   data:
     tagging: Cretans
     commenting: 'Commander: Idomeneus'
-    coordinates: 25.10388, 35.20224
+    coordinates: 35.20224, 25.10388
   urn: urn:cite2:exploreHomer:place.v1:place27
 - title: Olizon
   description: a town in Magnesia in Thessaly
@@ -584,7 +584,7 @@ entities:
   data:
     tagging: Methonians
     commenting: 'Commander: Philoktetes'
-    coordinates: 23.21711, 39.13534
+    coordinates: 39.13534, 23.21711
   urn: urn:cite2:hmt:place.v1:place386
 - title: Titaresios (river)
   description: 'An ancient place, cited: BAtlas 55 C1 Titaresios fl.'
@@ -593,7 +593,7 @@ entities:
   data:
     tagging: Peraebi
     commenting: 'Commander: Guneus'
-    coordinates: 22.25, 39.75
+    coordinates: 39.75, 22.25
   urn: urn:cite2:exploreHomer:place.v1:place28
 - title: Hyperasia
   description: 'An ancient place, cited: BAtlas 58 unlocated Hyperasia'
@@ -610,14 +610,14 @@ entities:
   data:
     tagging: Phocaeans
     commenting: 'Commanders: Schedios, Epistrophos'
-    coordinates: 22.4689446, 38.4753859
+    coordinates: 38.4753859, 22.4689446
   urn: urn:cite2:hmt:place.v1:place194
 - title: Peneus
   description: or Peneius, a river in Thessaly
   kind: place
   url: https://pleiades.stoa.org/places/541022
   data:
-    coordinates: 21.75, 39.75
+    coordinates: 39.75, 21.75
   urn: urn:cite2:hmt:place.v1:place394
 - title: Alybe
   description: 'An ancient place, cited: BAtlas 56 unlocated Alybe'
@@ -634,7 +634,7 @@ entities:
   data:
     tagging: Lycians
     commenting: 'Commanders: Sarpedon, Glaukos'
-    coordinates: 33.5, 40.5
+    coordinates: 40.5, 33.5
   urn: urn:cite2:exploreHomer:place.v1:place31
 - title: Kainepolis
   description: 'An ancient place, cited: BAtlas 58 C5 Kainepolis'
@@ -643,7 +643,7 @@ entities:
   data:
     tagging: Phocaeans
     commenting: 'Commanders: Schedios, Epistrophos'
-    coordinates: 22.442714, 36.460433
+    coordinates: 36.460433, 22.442714
   urn: urn:cite2:exploreHomer:place.v1:place32
 - title: Panopeus
   description: city in Phocis
@@ -652,7 +652,7 @@ entities:
   data:
     tagging: Phocaeans
     commenting: 'Commanders: Schedios, Epistrophos'
-    coordinates: 22.79418, 38.49551
+    coordinates: 38.49551, 22.79418
   urn: urn:cite2:hmt:place.v1:place197
 - title: Histiaia
   description: or Hestiaia, a city in Euboea
@@ -661,7 +661,7 @@ entities:
   data:
     tagging: Abantes
     commenting: 'Commander: Elphenor'
-    coordinates: 23.06593, 38.93759
+    coordinates: 38.93759, 23.06593
   urn: urn:cite2:hmt:place.v1:place322
 - title: Helos
   description: 'An ancient place, cited: BAtlas 56 C4 Helos'
@@ -670,7 +670,7 @@ entities:
   data:
     tagging: Laconians
     commenting: 'Commander: Menelaos'
-    coordinates: 26.361312, 38.574035
+    coordinates: 38.574035, 26.361312
   urn: urn:cite2:exploreHomer:place.v1:place33
 - title: Myrkinos
   description: 'An ancient place, cited: BAtlas 51 B3 Myrkinos'
@@ -679,7 +679,7 @@ entities:
   data:
     tagging: Elis
     commenting: 'Commanders: Amphimakhos, Thalpios, Diores, Polyxenos'
-    coordinates: 23.819776, 40.901252
+    coordinates: 40.901252, 23.819776
   urn: urn:cite2:exploreHomer:place.v1:place34
 - title: Alesion M.
   description: 'An ancient place, cited: BAtlas 58 C2 Alesion M.'
@@ -688,7 +688,7 @@ entities:
   data:
     tagging: Elis
     commenting: 'Commanders: Amphimakhos, Thalpios, Diores, Polyxenos'
-    coordinates: 22.43409, 37.65988
+    coordinates: 37.65988, 22.43409
   urn: urn:cite2:exploreHomer:place.v1:place35
 - title: Knossos
   description: or Cnosos, majors city on Crete
@@ -697,7 +697,7 @@ entities:
   data:
     tagging: Cretans
     commenting: 'Commander: Idomeneus'
-    coordinates: 25.163106, 35.297847
+    coordinates: 35.297847, 25.163106
   urn: urn:cite2:hmt:place.v1:place360
 - title: Alope
   description: 'An ancient place, cited: BAtlas 55 D3 Alope'
@@ -706,7 +706,7 @@ entities:
   data:
     tagging: Myrmidons
     commenting: 'Commander: Achilles'
-    coordinates: 22.79812, 38.88481
+    coordinates: 38.88481, 22.79812
   urn: urn:cite2:exploreHomer:place.v1:place36
 - title: Messa
   description: 'An ancient place, cited: BAtlas 58 C4 Messa'
@@ -715,7 +715,7 @@ entities:
   data:
     tagging: Laconians
     commenting: 'Commander: Menelaos'
-    coordinates: 22.38113, 36.531845
+    coordinates: 36.531845, 22.38113
   urn: urn:cite2:exploreHomer:place.v1:place37
 - title: Cynus
   description: town in Locris
@@ -724,7 +724,7 @@ entities:
   data:
     tagging: Locrians
     commenting: 'Commander: Ajax Oileus'
-    coordinates: 23.0622, 38.7234
+    coordinates: 38.7234, 23.0622
   urn: urn:cite2:hmt:place.v1:place199
 - title: Thebes
   description: in Boetia
@@ -733,7 +733,7 @@ entities:
   data:
     tagging: Boeotians
     commenting: 'Commanders: Arkesilaos, Prothoenor, Klonios'
-    coordinates: 23.255096, 38.318092
+    coordinates: 38.318092, 23.255096
   urn: urn:cite2:hmt:place.v1:place49
 - title: Nisa
   description: 'An ancient place, cited: BAtlas 55 unlocated Nisa'
@@ -750,7 +750,7 @@ entities:
   data:
     tagging: Arcadians
     commenting: 'Commander: Agapenor'
-    coordinates: 22.3957984, 37.9391027
+    coordinates: 37.9391027, 22.3957984
   urn: urn:cite2:exploreHomer:place.v1:place39
 - title: Hyrmine
   description: A port in northern Elis
@@ -759,7 +759,7 @@ entities:
   data:
     tagging: Elis
     commenting: 'Commanders: Amphimakhos, Thalpios, Diores, Polyxenos'
-    coordinates: 21.135668, 37.886492
+    coordinates: 37.886492, 21.135668
   urn: urn:cite2:hmt:place.v1:place237
 - title: Lindos
   description: on Rhodes
@@ -768,7 +768,7 @@ entities:
   data:
     tagging: Rhodians
     commenting: 'Commander: Tleptolemos'
-    coordinates: 28.15629, 36.41451
+    coordinates: 36.41451, 28.15629
   urn: urn:cite2:hmt:place.v1:place48
 - title: Practius
   description: a river in the Troad, north of Abydus
@@ -776,7 +776,7 @@ entities:
   url: https://pleiades.stoa.org/places/501577
   data:
     commenting: 'Commander: Asios'
-    coordinates: 26.75, 40.25
+    coordinates: 40.25, 26.75
   urn: urn:cite2:hmt:place.v1:place400
 - title: Abantes
   description: USE EPONYMOUS ANCESTOR INSTEAD
@@ -785,7 +785,7 @@ entities:
   data:
     tagging: Abantes
     commenting: 'Commander: Elphenor'
-    coordinates: 23.75, 38.75
+    coordinates: 38.75, 23.75
   urn: urn:cite2:hmt:place.v1:place154
 - title: Syme
   description: 'An ancient place, cited: BAtlas 61 F4 Syme'
@@ -794,7 +794,7 @@ entities:
   data:
     tagging: Syme
     commenting: 'Commander: Nireus'
-    coordinates: 27.843425, 36.61839
+    coordinates: 36.61839, 27.843425
   urn: urn:cite2:exploreHomer:place.v1:place40
 - title: Methone
   description: a city in Magnesia, the home of Philoctetes
@@ -803,7 +803,7 @@ entities:
   data:
     tagging: Methonians
     commenting: 'Commader: Philoctetes'
-    coordinates: 23.069231, 39.327998
+    coordinates: 39.327998, 23.069231
   urn: urn:cite2:hmt:place.v1:place384
 - title: Parthenios (river)
   description: 'An ancient place, cited: BAtlas 62 E2 Parthenios fl.'
@@ -812,7 +812,7 @@ entities:
   data:
     tagging: Paphlagonians
     commenting: 'Commander: Pylaimenes'
-    coordinates: 30.75, 39.75
+    coordinates: 39.75, 30.75
   urn: urn:cite2:exploreHomer:place.v1:place41
 - title: Coroneia
   description: or Coronea, a city in Boeotia, south of lake Copais
@@ -821,7 +821,7 @@ entities:
   data:
     tagging: Boeotians
     commenting: 'Commanders: Arkesilaos, Prothoenor, Klonios'
-    coordinates: 22.956902, 38.392613
+    coordinates: 38.392613, 22.956902
   urn: urn:cite2:hmt:place.v1:place310
 - title: Pellene
   description: a town in Achaea
@@ -830,7 +830,7 @@ entities:
   data:
     tagging: Mycenaeans
     commenting: 'Commander: Agamemnon'
-    coordinates: 22.5384, 38.0446
+    coordinates: 38.0446, 22.5384
   urn: urn:cite2:hmt:place.v1:place336
 - title: Samos
   description: island in the eastern Aegean
@@ -839,7 +839,7 @@ entities:
   data:
     tagging: Cephallenians
     commenting: 'Commander: Odysseus'
-    coordinates: 26.84, 37.73
+    coordinates: 37.73, 26.84
   urn: urn:cite2:hmt:place.v1:place132
 - title: Gortys
   description: 'An ancient place, cited: BAtlas 58 C2 Gortys'
@@ -848,7 +848,7 @@ entities:
   data:
     tagging: Cretans
     commenting: 'Commander: Idomeneus'
-    coordinates: 22.041, 37.534
+    coordinates: 37.534, 22.041
   urn: urn:cite2:exploreHomer:place.v1:place42
 - title: Calydon
   description: city in Aeolia
@@ -857,7 +857,7 @@ entities:
   data:
     tagging: Aetolians
     commenting: 'Commander: Thoas'
-    coordinates: 21.533106, 38.372423
+    coordinates: 38.372423, 21.533106
   urn: urn:cite2:hmt:place.v1:place107
 - title: Glaphyrae
   description: town in Thessaly
@@ -866,7 +866,7 @@ entities:
   data:
     tagging: Pheraians
     commenting: 'Commander: Admetos'
-    coordinates: 22.8833, 39.444
+    coordinates: 39.444, 22.8833
   urn: urn:cite2:hmt:place.v1:place383
 - title: Pereia
   description: a region in Thessaly
@@ -875,7 +875,7 @@ entities:
   data:
     tagging: Phereians
     commenting: 'Commander: Eumelos'
-    coordinates: 22.56873, 39.14917
+    coordinates: 39.14917, 22.56873
   urn: urn:cite2:hmt:place.v1:place395
 - title: Sestus
   description: Thracian city on the Hellespont, opposite Abydus
@@ -883,7 +883,7 @@ entities:
   url: https://pleiades.stoa.org/places/501609
   data:
     commenting: 'Commander: Asios'
-    coordinates: 26.38916, 40.21343
+    coordinates: 40.21343, 26.38916
   urn: urn:cite2:hmt:place.v1:place125
 - title: Ephyra
   description: An ancient settlement, attested by literary or documentary sources,
@@ -899,7 +899,7 @@ entities:
   data:
     tagging: Boeotians
     commenting: 'Commanders: Arkesilaos, Prothoenor, Klonios'
-    coordinates: 23.362092, 38.4274
+    coordinates: 38.4274, 23.362092
   urn: urn:cite2:exploreHomer:place.v1:place44
 - title: Hyria
   description: in Boeotia
@@ -908,7 +908,7 @@ entities:
   data:
     tagging: Boeotians
     commenting: 'Commanders: Arkesilaos, Prothoenor, Klonios'
-    coordinates: 23.564791, 38.456822
+    coordinates: 38.456822, 23.564791
   urn: urn:cite2:hmt:place.v1:place178
 - title: Cephissus
   description: river in Phocis
@@ -917,7 +917,7 @@ entities:
   data:
     tagging: Phocaeans
     commenting: 'Commanders: Schedios, Epistrophos'
-    coordinates: 24.75, 38.75
+    coordinates: 38.75, 24.75
   urn: urn:cite2:hmt:place.v1:place152
 - title: Lyrnessos
   description: 'An ancient place, cited: BAtlas 66 unlocated Lyrnessos'
@@ -932,7 +932,7 @@ entities:
   data:
     tagging: Boeotians
     commenting: 'Commanders: Arkesilaos, Prothoenor, Klonios'
-    coordinates: 23.396935, 38.391809
+    coordinates: 38.391809, 23.396935
   urn: urn:cite2:hmt:place.v1:place290
 - title: Copae
   description: a town in Boeotia
@@ -941,7 +941,7 @@ entities:
   data:
     tagging: Boeotians
     commenting: 'Commanders: Arkesilaos, Prothoenor, Klonios'
-    coordinates: 23.160772, 38.493128
+    coordinates: 38.493128, 23.160772
   urn: urn:cite2:hmt:place.v1:place183
 - title: Gonoussa
   description: An ancient settlement, attested by literary or documentary sources,
@@ -959,7 +959,7 @@ entities:
   data:
     tagging: Laconians
     commenting: 'Commander: Menelaos'
-    coordinates: 22.25, 37.25
+    coordinates: 37.25, 22.25
   urn: urn:cite2:hmt:place.v1:place27
 - title: Mantineia
   description: a town in Arcadia
@@ -968,7 +968,7 @@ entities:
   data:
     tagging: Arcadians
     commenting: 'Commander: Agapenor'
-    coordinates: 22.393259, 37.618138
+    coordinates: 37.618138, 22.393259
   urn: urn:cite2:hmt:place.v1:place350
 - title: Buprasion
   description: An ancient settlement in Elis, attested by literary or documentary
@@ -985,7 +985,7 @@ entities:
   data:
     tagging: Elis
     commenting: 'Commanders: Amphimakhos, Thalpios, Diores, Polyxenos'
-    coordinates: 44.315416, 40.262289
+    coordinates: 40.262289, 44.315416
   urn: urn:cite2:exploreHomer:place.v1:place48
 - title: Tegea
   description: a town in Arcadia
@@ -994,7 +994,7 @@ entities:
   data:
     tagging: Arcadians
     commenting: 'Commander: Agapenor'
-    coordinates: 22.429, 37.464
+    coordinates: 37.464, 22.429
   urn: urn:cite2:hmt:place.v1:place349
 - title: Rhytion
   description: city on Crete
@@ -1003,7 +1003,7 @@ entities:
   data:
     tagging: Cretans
     commenting: 'Commander: Idomeneus'
-    coordinates: 25.169935, 35.010596
+    coordinates: 35.010596, 25.169935
   urn: urn:cite2:hmt:place.v1:place364
 - title: Thaumacia
   description: a town in Magnesia, under the rule of Philoctetes
@@ -1012,7 +1012,7 @@ entities:
   data:
     tagging: Methonians
     commenting: 'Commander: Philoktetes'
-    coordinates: 23.339604, 39.173156
+    coordinates: 39.173156, 23.339604
   urn: urn:cite2:hmt:place.v1:place385
 - title: Alos
   description: An ancient settlement, attested by literary or documentary sources,
@@ -1030,7 +1030,7 @@ entities:
   data:
     tagging: Pheraians
     commenting: 'Commander: Admetos'
-    coordinates: 22.75, 39.75
+    coordinates: 39.75, 22.75
   urn: urn:cite2:hmt:place.v1:place381
 - title: Mysia
   description: 'An ancient place, cited: BAtlas 52 B4 Mysia'
@@ -1039,7 +1039,7 @@ entities:
   data:
     tagging: Mysians
     commenting: 'Commanders: Chromis, Ennomos'
-    coordinates: 27.75, 40.25
+    coordinates: 40.25, 27.75
   urn: urn:cite2:exploreHomer:place.v1:place50
 - title: Gygaia/Koloe/Talaimenis L.
   description: 'An ancient place, cited: BAtlas 56 G4 Gygaia/Koloe/Talaimenis L.'
@@ -1047,7 +1047,7 @@ entities:
   url: https://pleiades.stoa.org/places/550556
   data:
     commenting: 'Commanders: Odios, Epistrophos'
-    coordinates: 27.983474, 38.614377
+    coordinates: 38.614377, 27.983474
   urn: urn:cite2:exploreHomer:place.v1:place51
 - title: Eilesion
   description: Eilesium, a town in Boeotia
@@ -1056,7 +1056,7 @@ entities:
   data:
     tagging: Boeotians
     commenting: 'Commanders: Arkesilaos, Prothoenor, Klonios'
-    coordinates: 23.504108, 38.30214
+    coordinates: 38.30214, 23.504108
   urn: urn:cite2:hmt:place.v1:place304
 - title: Peteon
   description: a town in Boeotia
@@ -1065,7 +1065,7 @@ entities:
   data:
     tagging: Boeotians
     commenting: 'Commanders: Arkesilaos, Prothoenor, Klonios'
-    coordinates: 23.412119, 38.443961
+    coordinates: 38.443961, 23.412119
   urn: urn:cite2:hmt:place.v1:place306
 - title: Opous
   description: An ancient settlement, attested by literary or documentary sources,
@@ -1083,7 +1083,7 @@ entities:
   data:
     tagging: Abantes
     commenting: 'Commander: Elphenor'
-    coordinates: 22.607216, 39.290562
+    coordinates: 39.290562, 22.607216
   urn: urn:cite2:hmt:place.v1:place155
 - title: Phlius
   description: city in the northwestern Argolid in the Peloponnese
@@ -1101,7 +1101,7 @@ entities:
   data:
     tagging: Laconians
     commenting: 'Commander: Menelaos'
-    coordinates: 35.789487, 36.769676
+    coordinates: 36.769676, 35.789487
   urn: urn:cite2:exploreHomer:place.v1:place53
 - title: Elis
   description: 'An ancient place, cited: BAtlas 58 A2 Elis (1)'
@@ -1110,7 +1110,7 @@ entities:
   data:
     tagging: Elis
     commenting: Ten ships
-    coordinates: 21.25, 37.75
+    coordinates: 37.75, 21.25
   urn: urn:cite2:exploreHomer:place.v1:place54
 - title: Ialysus
   description: a town on Rhodes
@@ -1119,7 +1119,7 @@ entities:
   data:
     tagging: Rhodians
     commenting: 'Commander: Tleptolemos'
-    coordinates: 28.15629, 36.41451
+    coordinates: 36.41451, 28.15629
   urn: urn:cite2:hmt:place.v1:place365
 - title: Kamiros
   description: An ancient city of Rhodes, with evidence for Mycenaean occupation.
@@ -1132,7 +1132,7 @@ entities:
   data:
     tagging: Rhodians
     commenting: 'Commander: Tleptolemos'
-    coordinates: 28.15629, 36.41451
+    coordinates: 36.41451, 28.15629
   urn: urn:cite2:exploreHomer:place.v1:place55
 - title: Cos
   description: island in the Sporades
@@ -1140,7 +1140,7 @@ entities:
   url: https://pleiades.stoa.org/places/599581
   data:
     commenting: 'Commanders: Pheidippos, Antiphos'
-    coordinates: 27.17, 36.844
+    coordinates: 36.844, 27.17
   urn: urn:cite2:hmt:place.v1:place68
 - title: Abydus
   description: an ancient city of Mysia, in Asia Minor
@@ -1148,7 +1148,7 @@ entities:
   url: https://pleiades.stoa.org/places/501325
   data:
     commenting: 'Commander: Asios'
-    coordinates: 26.41122, 40.19406
+    coordinates: 40.19406, 26.41122
   urn: urn:cite2:hmt:place.v1:place99
 - title: Cephalonia
   description: Cephellenia, largest Ionian island
@@ -1157,7 +1157,7 @@ entities:
   data:
     tagging: Cephallenians
     commenting: 'Commander: Odysseus'
-    coordinates: 20.59, 38.2
+    coordinates: 38.2, 20.59
   urn: urn:cite2:hmt:place.v1:place191
 - title: attos
   description: port city in the Peloponnese
@@ -1166,7 +1166,7 @@ entities:
   data:
     tagging: Myrmidons
     commenting: 'Commander: Achilles'
-    coordinates: 22.719464, 37.631561
+    coordinates: 37.631561, 22.719464
   urn: urn:cite2:hmt:place.v1:place44
 - title: Trikka
   description: or Trikke, a city in Thessaly, birthplace of Asclepius
@@ -1174,7 +1174,7 @@ entities:
   url: https://pleiades.stoa.org/places/541163
   data:
     commenting: 'Commanders: Asklepios, Podaleirios, Machaon'
-    coordinates: 21.762589, 39.558752
+    coordinates: 39.558752, 21.762589
   urn: urn:cite2:hmt:place.v1:place387
 - title: Thrace
   description: region NE of Greece near Turkey
@@ -1183,7 +1183,7 @@ entities:
   data:
     tagging: Thracians
     commenting: 'Commanders: Akamas, Peirous'
-    coordinates: 25.75, 41.75
+    coordinates: 41.75, 25.75
   urn: urn:cite2:hmt:place.v1:place70
 - title: Scolus
   description: a town in Boeotia
@@ -1192,7 +1192,7 @@ entities:
   data:
     tagging: Boeotians
     commenting: 'Commanders: Arkesilaos, Prothoenor, Klonios'
-    coordinates: 23.403247, 38.317722
+    coordinates: 38.317722, 23.403247
   urn: urn:cite2:hmt:place.v1:place180
 - title: Mykalessos
   description: 'An ancient place, cited: BAtlas 55 F4 Mykalessos'
@@ -1201,7 +1201,7 @@ entities:
   data:
     tagging: Boeotians
     commenting: 'Commanders: Arkesilaos, Prothoenor, Klonios'
-    coordinates: 23.545847, 38.415804
+    coordinates: 38.415804, 23.545847
   urn: urn:cite2:exploreHomer:place.v1:place56
 - title: Anthedon
   description: town in Boeotia on the Euripus
@@ -1210,7 +1210,7 @@ entities:
   data:
     tagging: Boeotians
     commenting: 'Commanders: Arkesilaos, Prothoenor, Klonios'
-    coordinates: 23.448834, 38.498583
+    coordinates: 38.498583, 23.448834
   urn: urn:cite2:hmt:place.v1:place147
 - title: Epidarus
   description: sanctuary to Ascleipius in the Peloponnese
@@ -1219,7 +1219,7 @@ entities:
   data:
     tagging: Argolis
     commenting: 'Commanders: Diomedes, Sthenelos, Euryalos'
-    coordinates: 23.079167, 37.596111
+    coordinates: 37.596111, 23.079167
   urn: urn:cite2:hmt:place.v1:place162
 - title: Sparta
   description: Laconic city in the Peloponnese
@@ -1228,7 +1228,7 @@ entities:
   data:
     tagging: Laconians
     commenting: 'Commander: Menelaos'
-    coordinates: 22.42454, 37.08149
+    coordinates: 37.08149, 22.42454
   urn: urn:cite2:hmt:place.v1:place218
 - title: Olenos
   description: 'An ancient place, cited: BAtlas 58 B1 Olenos'
@@ -1237,7 +1237,7 @@ entities:
   data:
     tagging: Aetolians
     commenting: 'Commander: Thoas'
-    coordinates: 21.640599, 38.153707
+    coordinates: 38.153707, 21.640599
   urn: urn:cite2:exploreHomer:place.v1:place57
 - title: Pylos
   description: An archaic through Roman settlement located at the Armatova hill, west
@@ -1247,7 +1247,7 @@ entities:
   data:
     tagging: Pylos
     commenting: 'Commander: Nestor'
-    coordinates: 21.518025, 37.899734
+    coordinates: 37.899734, 21.518025
   urn: urn:cite2:exploreHomer:place.v1:place58
 - title: Argoura
   description: Argoura was a city of Thessalian Pelasgiotis that may have been the
@@ -1257,7 +1257,7 @@ entities:
   url: https://pleiades.stoa.org/places/540659
   data:
     commenting: 'Commanders: Polypoites, Leonteus'
-    coordinates: 22.34118, 39.65986
+    coordinates: 39.65986, 22.34118
   urn: urn:cite2:exploreHomer:place.v1:place59
 - title: Titanus
   description: mountain/town in Thessaly
@@ -1265,7 +1265,7 @@ entities:
   url: https://pleiades.stoa.org/places/541150
   data:
     commenting: 'Commander: Eurypylos'
-    coordinates: 22.17704, 39.55148
+    coordinates: 39.55148, 22.17704
   urn: urn:cite2:hmt:place.v1:place205
 - title: Paisos
   description: 'An ancient place, cited: BAtlas 51 H4 Paisos'
@@ -1273,7 +1273,7 @@ entities:
   url: https://pleiades.stoa.org/places/501544
   data:
     commenting: 'Commander: Adrastos'
-    coordinates: 26.787097, 40.400225
+    coordinates: 40.400225, 26.787097
   urn: urn:cite2:exploreHomer:place.v1:place60
 - title: Phrygia
   description: 'An ancient place, cited: BAtlas 100 N4 Phrygia'
@@ -1282,7 +1282,7 @@ entities:
   data:
     tagging: Phrygians
     commenting: 'Commanders: Phorkys, Askanios'
-    coordinates: 32.5, 37.5
+    coordinates: 37.5, 32.5
   urn: urn:cite2:exploreHomer:place.v1:place61
 - title: Tmolos/Aureliopolis
   description: 'An ancient place, cited: BAtlas 56 F4 Tmolos/Aureliopolis'
@@ -1291,7 +1291,7 @@ entities:
   data:
     tagging: Meonians
     commenting: 'Commanders: Mesthles, Antiphos'
-    coordinates: 27.877777, 38.476241
+    coordinates: 38.476241, 27.877777
   urn: urn:cite2:exploreHomer:place.v1:place62
 - title: Tiryns
   description: a Mycenaean city in Argolis
@@ -1300,7 +1300,7 @@ entities:
   data:
     tagging: Argolis
     commenting: 'Commanders: Diomedes, Sthenelos, Euryalos'
-    coordinates: 22.80004, 37.59918
+    coordinates: 37.59918, 22.80004
   urn: urn:cite2:hmt:place.v1:place328
 - title: Orneae
   description: Orneiae, town in Argolis
@@ -1309,7 +1309,7 @@ entities:
   data:
     tagging: Mycenaeans
     commenting: 'Commander: Agamemnon'
-    coordinates: 22.557292, 37.713973
+    coordinates: 37.713973, 22.557292
   urn: urn:cite2:hmt:place.v1:place213
 - title: Epitalion
   description: 'An ancient place, cited: BAtlas 58 A2 Epitalion'
@@ -1318,7 +1318,7 @@ entities:
   data:
     tagging: Pylos
     commenting: 'Commander: Nestor'
-    coordinates: 21.48464, 37.63092
+    coordinates: 37.63092, 21.48464
   urn: urn:cite2:exploreHomer:place.v1:place63
 - title: Amphigeneia
   description: An ancient settlement, attested by literary or documentary sources,
@@ -1336,7 +1336,7 @@ entities:
   data:
     tagging: Aetolians
     commenting: 'Commander: Thoas'
-    coordinates: 23.602, 38.464
+    coordinates: 38.464, 23.602
   urn: urn:cite2:hmt:place.v1:place158
 - title: Kasios (river)
   description: 'An ancient place, cited: BAtlas 88 G3 Kasios fl.'
@@ -1344,7 +1344,7 @@ entities:
   url: https://pleiades.stoa.org/places/863823
   data:
     commenting: 'Commanders: Pheidippos, Antiphos'
-    coordinates: 48.5, 41.5
+    coordinates: 41.5, 48.5
   urn: urn:cite2:exploreHomer:place.v1:place65
 - title: Aegina
   description: Island off the western coast of Attica, formerly known as Oenone
@@ -1353,7 +1353,7 @@ entities:
   data:
     tagging: Argolis
     commenting: 'Commanders: Diomedes, Sthenelos, Euryalos'
-    coordinates: 23.42372, 37.74991
+    coordinates: 37.74991, 23.42372
   urn: urn:cite2:hmt:place.v1:place101
 - title: Iolcus
   description: city in Thessaly
@@ -1362,7 +1362,7 @@ entities:
   data:
     tagging: Pheraians
     commenting: 'Commander: Admetos'
-    coordinates: 22.96886, 39.366305
+    coordinates: 39.366305, 22.96886
   urn: urn:cite2:hmt:place.v1:place171
 - title: Locris Ozolia
   description: home of the Ozolae, tribe of Locrians
@@ -1371,14 +1371,14 @@ entities:
   data:
     tagging: Locrians
     commenting: 'Commander: Ajax Oileus'
-    coordinates: 21.75, 38.25
+    coordinates: 38.25, 21.75
   urn: urn:cite2:hmt:place.v1:place150
 - title: Selleeis
   description: or Selleis,a river in the Troad near Arisbe
   kind: place
   url: https://pleiades.stoa.org/places/501604
   data:
-    coordinates: 26.75, 40.25
+    coordinates: 40.25, 26.75
   urn: urn:cite2:hmt:place.v1:place257
 - title: Dorion
   description: or Dorio, a town in the Peloponnese where Thamyris contested with the
@@ -1388,7 +1388,7 @@ entities:
   data:
     tagging: Pylos
     commenting: 'Commander: Nestor'
-    coordinates: 21.88255, 37.26708
+    coordinates: 37.26708, 21.88255
   urn: urn:cite2:hmt:place.v1:place344
 - title: Scarphe
   description: a place in Locris, near Thermopylae
@@ -1397,7 +1397,7 @@ entities:
   data:
     tagging: Locrians
     commenting: 'Commander: Ajax Oileus'
-    coordinates: 22.6834197, 38.81072
+    coordinates: 38.81072, 22.6834197
   urn: urn:cite2:hmt:place.v1:place318
 - title: Abydon/Amydon
   description: 'An ancient place, cited: BAtlas 50 unlocated Abydon § Amydon'
@@ -1414,7 +1414,7 @@ entities:
   data:
     tagging: Lycians
     commenting: 'Commanders: Sarpedon, Glaukos'
-    coordinates: 29.25, 36.75
+    coordinates: 36.75, 29.25
   urn: urn:cite2:hmt:place.v1:place75
 - title: Caria (region)
   description: A historical region of western Anatolia.
@@ -1423,7 +1423,7 @@ entities:
   data:
     tagging: Carians
     commenting: 'Commanders: Nastes'
-    coordinates: 27.75, 37.75
+    coordinates: 37.75, 27.75
   urn: urn:cite2:exploreHomer:place.v1:place67
 - title: Delphi
   description: Home of Pythian oracle; sacred to Apollo
@@ -1432,7 +1432,7 @@ entities:
   data:
     tagging: Phocaeans
     commenting: 'Commanders: Schedios, Epistrophos'
-    coordinates: 22.501169, 38.482289
+    coordinates: 38.482289, 22.501169
   urn: urn:cite2:hmt:place.v1:place173
 - title: Daulis
   description: city in Phocis
@@ -1441,7 +1441,7 @@ entities:
   data:
     tagging: Phocaeans
     commenting: 'Commanders: Schedios, Epistrophos'
-    coordinates: 22.72926, 38.50665
+    coordinates: 38.50665, 22.72926
   urn: urn:cite2:hmt:place.v1:place195
 - title: Asine
   description: a town in Argolis
@@ -1450,7 +1450,7 @@ entities:
   data:
     tagging: Argolis
     commenting: 'Commanders: Diomedes, Sthenelos, Euryalos'
-    coordinates: 22.87403, 37.52659
+    coordinates: 37.52659, 22.87403
   urn: urn:cite2:hmt:place.v1:place330
 - title: Stymphalus
   description: a small city in Arcadia
@@ -1459,7 +1459,7 @@ entities:
   data:
     tagging: Arcadians
     commenting: 'Commander: Agapenor'
-    coordinates: 22.45931, 37.85932
+    coordinates: 37.85932, 22.45931
   urn: urn:cite2:hmt:place.v1:place351
 - title: Arene/Arena
   description: An ancient settlement, attested by literary or documentary sources,
@@ -1477,7 +1477,7 @@ entities:
   data:
     tagging: Paeonians
     commenting: 'Commander: Pyraikhmes'
-    coordinates: 21.75, 41.75
+    coordinates: 41.75, 21.75
   urn: urn:cite2:exploreHomer:place.v1:place69
 - title: Ilion
   description: 'An ancient place, cited: BAtlas 50 unlocated Ilion'
@@ -1490,7 +1490,7 @@ entities:
   kind: place
   url: https://pleiades.stoa.org/places/550919
   data:
-    coordinates: 27.020171, 39.597431
+    coordinates: 39.597431, 27.020171
   urn: urn:cite2:exploreHomer:place.v1:place71
 - title: Bessa
   description: or Besa, in Locris
@@ -1515,7 +1515,7 @@ entities:
   data:
     tagging: Cretans
     commenting: 'Commander: Idomeneus'
-    coordinates: 27.2774885, 37.5292362
+    coordinates: 37.5292362, 27.2774885
   urn: urn:cite2:hmt:place.v1:place120
 - title: Lyctus
   description: a city in Crete, east of Cnosus
@@ -1524,7 +1524,7 @@ entities:
   data:
     tagging: Cretans
     commenting: 'Commander: Idomeneus'
-    coordinates: 25.368687, 35.207811
+    coordinates: 35.207811, 25.368687
   urn: urn:cite2:hmt:place.v1:place362
 - title: Trachis
   description: town in Thessaly
@@ -1533,7 +1533,7 @@ entities:
   data:
     tagging: Myrmidons
     commenting: 'Commander: Achilles'
-    coordinates: 22.442503, 38.790767
+    coordinates: 38.790767, 22.442503
   urn: urn:cite2:hmt:place.v1:place376
 - title: Asterion/Peirasia
   description: 'An ancient place, cited: BAtlas 55 C2 Asterion/Peirasia'
@@ -1541,7 +1541,7 @@ entities:
   url: https://pleiades.stoa.org/places/540674
   data:
     commenting: 'Commander: Eurypylos'
-    coordinates: 22.102561, 39.423219
+    coordinates: 39.423219, 22.102561
   urn: urn:cite2:exploreHomer:place.v1:place73
 - title: Eryth(r)inoi
   description: 'An ancient place, cited: BAtlas 86 C2 Eryth(r)inoi'
@@ -1550,7 +1550,7 @@ entities:
   data:
     tagging: Paphlagonians
     commenting: 'Commander: Pylaimenes'
-    coordinates: 32.484075, 41.779469
+    coordinates: 41.779469, 32.484075
   urn: urn:cite2:exploreHomer:place.v1:place74
 - title: Styra
   description: a town in Euboea
@@ -1559,7 +1559,7 @@ entities:
   data:
     tagging: Abantes
     commenting: 'Commander: Elphenor'
-    coordinates: 24.2607, 38.1455
+    coordinates: 38.1455, 24.2607
   urn: urn:cite2:hmt:place.v1:place326
 - title: Euboea
   description: the island separated from Boeotia by the Euripus, named by Homer as
@@ -1569,7 +1569,7 @@ entities:
   data:
     tagging: Abantes
     commenting: 'Commander: Elphenor'
-    coordinates: 23.87, 38.53
+    coordinates: 38.53, 23.87
   urn: urn:cite2:hmt:place.v1:place100
 - title: Carystus
   description: or Karystos, a town at the southern extremity of Euboea
@@ -1578,7 +1578,7 @@ entities:
   data:
     tagging: Abantes
     commenting: 'Commander: Elphenor'
-    coordinates: 24.4204, 38.0165
+    coordinates: 38.0165, 24.4204
   urn: urn:cite2:hmt:place.v1:place325
 - title: Maliacus Sinus
   description: Maliacus Sinus (Malian Gulf) is a gulf of the Aegean Sea in eastern
@@ -1588,7 +1588,7 @@ entities:
   data:
     tagging: Argolis
     commenting: 'Commanders: Diomedes, Sthenelos, Euryalos'
-    coordinates: 22.6337672, 38.8678937
+    coordinates: 38.8678937, 22.6337672
   urn: urn:cite2:exploreHomer:place.v1:place75
 - title: Phaestus
   description: city on Crete
@@ -1597,7 +1597,7 @@ entities:
   data:
     tagging: Cretans
     commenting: 'Commander: Idomeneus'
-    coordinates: 24.8143, 35.05138
+    coordinates: 35.05138, 24.8143
   urn: urn:cite2:hmt:place.v1:place84
 - title: Hellas
   description: Greece
@@ -1606,7 +1606,7 @@ entities:
   data:
     tagging: Myrmidons
     commenting: 'Commander: Achilles'
-    coordinates: 22.5, 37.5
+    coordinates: 37.5, 22.5
   urn: urn:cite2:hmt:place.v1:place3
 - title: Mycenae
   description: city in the Peloponnese
@@ -1615,7 +1615,7 @@ entities:
   data:
     tagging: Mycenaeans
     commenting: 'Commander: Agamemnon'
-    coordinates: 22.756111, 37.730833
+    coordinates: 37.730833, 22.756111
   urn: urn:cite2:hmt:place.v1:place5
 - title: Pherai
   description: An Archaic period to Roman period settlement located near Kalamata,
@@ -1625,7 +1625,7 @@ entities:
   data:
     tagging: Pheraians
     commenting: 'Commander: Admetos'
-    coordinates: 22.25, 37.25
+    coordinates: 37.25, 22.25
   urn: urn:cite2:exploreHomer:place.v1:place76
 - title: Dodona
   description: An ancient settlement, attested by literary or documentary sources,
@@ -1641,7 +1641,7 @@ entities:
   kind: place
   url: https://pleiades.stoa.org/places/541021
   data:
-    coordinates: 23.0465058, 39.43722
+    coordinates: 39.43722, 23.0465058
   urn: urn:cite2:hmt:place.v1:place57
 - title: Sicyon
   description: a city on the south shore of the gulf of Corinth
@@ -1650,7 +1650,7 @@ entities:
   data:
     tagging: Mycenaeans
     commenting: 'Commander: Agamemnon'
-    coordinates: 22.71135, 37.98336
+    coordinates: 37.98336, 22.71135
   urn: urn:cite2:hmt:place.v1:place333
 - title: Axius
   description: river in Macedonia
@@ -1659,7 +1659,7 @@ entities:
   data:
     tagging: Paeonians
     commenting: 'Commander: Pyraikhmes'
-    coordinates: 22.5226845, 41.0572437
+    coordinates: 41.0572437, 22.5226845
   urn: urn:cite2:hmt:place.v1:place403
 - title: Mycale
   description: a promontory in lydia Minor, opposite Samos
@@ -1668,7 +1668,7 @@ entities:
   data:
     tagging: Carians
     commenting: 'Commander: Nastes'
-    coordinates: 27.12558, 37.66144
+    coordinates: 37.66144, 27.12558
   urn: urn:cite2:hmt:place.v1:place119
 - title: Graia
   description: town in Boeotia
@@ -1677,7 +1677,7 @@ entities:
   data:
     tagging: Boeotians
     commenting: 'Commanders: Arkesilaos, Prothoenor, Klonios'
-    coordinates: 23.630098, 38.387159
+    coordinates: 38.387159, 23.630098
   urn: urn:cite2:hmt:place.v1:place133
 - title: Onchestus
   description: a town in Boeotia, sacred to Poseidon
@@ -1686,7 +1686,7 @@ entities:
   data:
     tagging: Boeotians
     commenting: 'Commanders: Arkesilaos, Prothoenor, Klonios'
-    coordinates: 23.146959, 38.364863
+    coordinates: 38.364863, 23.146959
   urn: urn:cite2:hmt:place.v1:place311
 - title: Chalkis
   description: 'An ancient place, cited: BAtlas 54 D2 Chalkis'
@@ -1695,7 +1695,7 @@ entities:
   data:
     tagging: Abantes
     commenting: 'Commander: Elphenor'
-    coordinates: 21.208974, 39.680546
+    coordinates: 39.680546, 21.208974
   urn: urn:cite2:exploreHomer:place.v1:place78
 - title: Alpheius
   description: river in Arcadia and Elis
@@ -1704,7 +1704,7 @@ entities:
   data:
     tagging: Pylos
     commenting: 'Commander: Nestor'
-    coordinates: 21.25, 37.75
+    coordinates: 37.75, 21.25
   urn: urn:cite2:hmt:place.v1:place176
 - title: Pylene?
   description: 'An ancient place, cited: BAtlas 55 A4 Pylene?'
@@ -1713,7 +1713,7 @@ entities:
   data:
     tagging: Aetolians
     commenting: 'Commander: Thoas'
-    coordinates: 21.381502, 38.464548
+    coordinates: 38.464548, 21.381502
   urn: urn:cite2:exploreHomer:place.v1:place79
 - title: Gyrton(e)
   description: An ancient city of Thessaly.
@@ -1721,7 +1721,7 @@ entities:
   url: https://pleiades.stoa.org/places/540798
   data:
     commenting: 'Commanders: Polypoites, Leonteus'
-    coordinates: 22.569853, 39.798151
+    coordinates: 39.798151, 22.569853
   urn: urn:cite2:exploreHomer:place.v1:place80
 - title: Salamis
   description: 'An ancient place, cited: BAtlas 59 B3 Salamis'
@@ -1729,7 +1729,7 @@ entities:
   url: https://pleiades.stoa.org/places/580100
   data:
     commenting: 'Commander: Ajax'
-    coordinates: 23.5314735, 37.947768
+    coordinates: 37.947768, 23.5314735
   urn: urn:cite2:exploreHomer:place.v1:place81
 - title: Perraibia
   description: 'An ancient place, cited: BAtlas 55 B1 Perraibia'
@@ -1738,7 +1738,7 @@ entities:
   data:
     tagging: Peraebi
     commenting: 'Commander: Guneus'
-    coordinates: 21.75, 39.75
+    coordinates: 39.75, 21.75
   urn: urn:cite2:exploreHomer:place.v1:place82
 - title: Magnesia
   description: region in North Eastern Greece
@@ -1747,7 +1747,7 @@ entities:
   data:
     tagging: Magnetes
     commenting: 'Commander: Prothoos'
-    coordinates: 22.75, 39.75
+    coordinates: 39.75, 22.75
   urn: urn:cite2:hmt:place.v1:place212
 - title: Cytorus M.
   description: 'An ancient place, cited: BAtlas 86 C2 Cytorus M.'
@@ -1756,7 +1756,7 @@ entities:
   data:
     tagging: Paphlagonians
     commenting: 'Commander: Pylaimenes'
-    coordinates: 32.8960606, 41.8111899
+    coordinates: 41.8111899, 32.8960606
   urn: urn:cite2:exploreHomer:place.v1:place83
 - title: Aulis
   description: town in Boeotia
@@ -1765,7 +1765,7 @@ entities:
   data:
     tagging: Boeotians
     commenting: 'Commanders: Arkesilaos, Prothoenor, Klonios'
-    coordinates: 23.5925, 38.4335
+    coordinates: 38.4335, 23.5925
   urn: urn:cite2:hmt:place.v1:place29
 - title: Eutresis
   description: a town in Boeotia
@@ -1774,7 +1774,7 @@ entities:
   data:
     tagging: Boeotians
     commenting: 'Commanders: Arkesilaos, Prothoenor, Klonios'
-    coordinates: 23.20466, 38.268249
+    coordinates: 38.268249, 23.20466
   urn: urn:cite2:hmt:place.v1:place184
 - title: Medeon
   description: 'An ancient place, cited: BAtlas 55 D4 Medeon'
@@ -1783,7 +1783,7 @@ entities:
   data:
     tagging: Boeotians
     commenting: 'Commanders: Arkesilaos, Prothoenor, Klonios'
-    coordinates: 22.6827, 38.36754
+    coordinates: 38.36754, 22.6827
   urn: urn:cite2:exploreHomer:place.v1:place84
 - title: Haliartus
   description: aka Aliartos, town in Boeotia
@@ -1792,7 +1792,7 @@ entities:
   data:
     tagging: Boeotians
     commenting: 'Commanders: Arkesilaos, Prothoenor, Klonios'
-    coordinates: 23.088416, 38.379818
+    coordinates: 38.379818, 23.088416
   urn: urn:cite2:hmt:place.v1:place140
 - title: Pharis
   description: town in Laconia, south of Amyclae
@@ -1801,7 +1801,7 @@ entities:
   data:
     tagging: Laconians
     commenting: 'Commander: Menelaos'
-    coordinates: 22.2805645, 37.029321
+    coordinates: 37.029321, 22.2805645
   urn: urn:cite2:hmt:place.v1:place338
 - title: Aigialos
   description: 'An ancient place, cited: BAtlas 86 C2 Aigialos'
@@ -1810,7 +1810,7 @@ entities:
   data:
     tagging: Paphlagonians
     commenting: 'Commander: Pylaimenes'
-    coordinates: 33.002438, 41.891894
+    coordinates: 41.891894, 33.002438
   urn: urn:cite2:exploreHomer:place.v1:place85
 - title: Elis
   description: region of the Peloponnese
@@ -1819,7 +1819,7 @@ entities:
   data:
     tagging: Elis
     commenting: 'Commanders: Amphimakhos, Thalpios, Diores, Polyxenos'
-    coordinates: 21.37493, 37.89131
+    coordinates: 37.89131, 21.37493
   urn: urn:cite2:hmt:place.v1:place65
 - title: '*Pityaia'
   description: 'An ancient place, cited: BAtlas 56 F3 *Pityaia'
@@ -1827,7 +1827,7 @@ entities:
   url: https://pleiades.stoa.org/places/550834
   data:
     commenting: 'Commander: Adrastos'
-    coordinates: 27.817113, 38.97582
+    coordinates: 38.97582, 27.817113
   urn: urn:cite2:exploreHomer:place.v1:place86
 - title: Paphlagonia
   description: Region on north coast of Anatolia
@@ -1836,7 +1836,7 @@ entities:
   data:
     tagging: Paphlagonians
     commenting: 'Commander: Pylaimenes'
-    coordinates: 33.238550216667, 41.448462966667
+    coordinates: 41.448462966667, 33.238550216667
   urn: urn:cite2:hmt:place.v1:place262
 - title: Halikon
   description: An ancient settlement, attested by literary or documentary sources,
@@ -1854,7 +1854,7 @@ entities:
   data:
     tagging: Argolis
     commenting: 'Commanders: Diomedes, Sthenelos, Euryalos'
-    coordinates: 23.34845, 37.50303
+    coordinates: 37.50303, 23.34845
   urn: urn:cite2:hmt:place.v1:place160
 - title: Stratie (island)
   description: 'An ancient place, cited: BAtlas 58 unlocated Stratie Ins.'
@@ -1895,7 +1895,7 @@ entities:
   data:
     tagging: Phocaeans
     commenting: 'Commanders: Schedios, Epistrophos'
-    coordinates: 22.905228, 38.596346
+    coordinates: 38.596346, 22.905228
   urn: urn:cite2:hmt:place.v1:place149
 - title: Calliarus
   description: town in Locris
@@ -1904,7 +1904,7 @@ entities:
   data:
     tagging: Locrians
     commenting: 'Commander: Ajax Oileus'
-    coordinates: 23.063388, 38.673354
+    coordinates: 38.673354, 23.063388
   urn: urn:cite2:hmt:place.v1:place317
 - title: Mases
   description: a town in Argolis, near Hermione
@@ -1913,7 +1913,7 @@ entities:
   data:
     tagging: Argolis
     commenting: 'Commanders: Diomedes, Sthenelos, Euryalos'
-    coordinates: 23.142191, 37.417868
+    coordinates: 37.417868, 23.142191
   urn: urn:cite2:hmt:place.v1:place163
 - title: Parrasia
   description: or Parrhassia, a town in Arcadia
@@ -1922,7 +1922,7 @@ entities:
   data:
     tagging: Arcadians
     commenting: 'Commander: Agapenor'
-    coordinates: 22.25, 37.25
+    coordinates: 37.25, 22.25
   urn: urn:cite2:hmt:place.v1:place352
 - title: Meander
   description: river of Caria
@@ -1931,7 +1931,7 @@ entities:
   data:
     tagging: Carians
     commenting: 'Commander: Nastes'
-    coordinates: 27.4713446, 37.6220196
+    coordinates: 37.6220196, 27.4713446
   urn: urn:cite2:hmt:place.v1:place121
 - title: Iton?
   description: 'An ancient place, cited: BAtlas 55 D2 Iton?'
@@ -1940,7 +1940,7 @@ entities:
   data:
     tagging: Phylake
     commenting: 'Commander: Podarkes'
-    coordinates: 22.71106, 39.164654
+    coordinates: 39.164654, 22.71106
   urn: urn:cite2:exploreHomer:place.v1:place90
 - title: Aesepus
   description: a river that flows from Mt Ida near Troy
@@ -1948,7 +1948,7 @@ entities:
   url: https://pleiades.stoa.org/places/511141
   data:
     tagging: Teleans
-    coordinates: 27.75, 40.25
+    coordinates: 40.25, 27.75
   urn: urn:cite2:hmt:place.v1:place252
 - title: Poliochne
   description: A Bronze Age settlement on the island of Lemnos, Poliochne pre-dates
@@ -1957,5 +1957,5 @@ entities:
   kind: place
   url: https://pleiades.stoa.org/places/422676686
   data:
-    coordinates: 25.3430314, 39.8537366
+    coordinates: 39.8537366, 25.3430314
   urn: urn:cite2:exploreHomer:place.v1:place91

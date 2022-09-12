@@ -94,13 +94,39 @@
       ]
     },
     {
+      "urn": "urn:cts:greekLit:tlg0012.tlg001.perseus-eng3-trees:",
+      "format": "text",
+      "node_kind": "version",
+      "version_kind": "translation",
+      "lang": "eng",
+      "first_passage_urn": "urn:cts:greekLit:tlg0012.tlg001.perseus-eng3-trees:1",
+      "citation_scheme": [
+        "sentence"
+      ],
+      "label": [
+        {
+          "lang": "eng",
+          "value": "Iliad (Murray, sentences)"
+        }
+      ],
+      "description": [
+        {
+          "lang": "eng",
+          "value": "Homer, creator; Murray, A. T. (Augustus Taber), 1866-1940, translator"
+        }
+      ]
+    },
+    {
       "urn": "urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:",
       "format": "cex",
       "node_kind": "version",
       "version_kind": "translation",
       "lang": "eng",
       "first_passage_urn": "urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:1.1-1.160",
-      "citation_scheme": ["book", "card"],
+      "citation_scheme": [
+        "book",
+        "card"
+      ],
       "label": [
         {
           "lang": "eng",
@@ -121,7 +147,10 @@
       "version_kind": "translation",
       "lang": "eng",
       "first_passage_urn": "urn:cts:greekLit:tlg0012.tlg001.parrish-eng1:1.1-1.7",
-      "citation_scheme": ["book", "line"],
+      "citation_scheme": [
+        "book",
+        "line"
+      ],
       "label": [
         {
           "lang": "eng",
@@ -132,6 +161,100 @@
         {
           "lang": "eng",
           "value": "Homer, author; Towards a grammatically literal translation of the Iliad, starting with Iliad 1."
+        }
+      ]
+    },
+    {
+      "urn": "urn:cts:greekLit:tlg0012.tlg001.parrish-eng1-sentences:",
+      "format": "text",
+      "node_kind": "version",
+      "version_kind": "translation",
+      "lang": "eng",
+      "first_passage_urn": "urn:cts:greekLit:tlg0012.tlg001.parrish-eng1-sentences:1.s1-1.s6",
+      "citation_scheme": [
+        "book",
+        "sentence"
+      ],
+      "label": [
+        {
+          "lang": "eng",
+          "value": "Iliad (English) (Sentences)"
+        }
+      ],
+      "description": [
+        {
+          "lang": "eng",
+          "value": "Homer, author; Towards a grammatically literal translation of the Iliad, starting with Iliad 1."
+        }
+      ]
+    },
+    {
+      "urn": "urn:cts:greekLit:tlg0012.tlg001.parrish-eng1-trees:",
+      "format": "text",
+      "node_kind": "version",
+      "version_kind": "translation",
+      "lang": "eng",
+      "first_passage_urn": "urn:cts:greekLit:tlg0012.tlg001.parrish-eng1-trees:1",
+      "citation_scheme": [
+        "sentence"
+      ],
+      "label": [
+        {
+          "lang": "eng",
+          "value": "Iliad (English) (spaCy)"
+        }
+      ],
+      "description": [
+        {
+          "lang": "eng",
+          "value": "Homer, author; Towards a grammatically literal translation of the Iliad, starting with Iliad 1."
+        }
+      ]
+    },
+    {
+      "urn": "urn:cts:greekLit:tlg0012.tlg001.shamsian-far1:",
+      "format": "text",
+      "node_kind": "version",
+      "version_kind": "translation",
+      "lang": "far",
+      "first_passage_urn": "urn:cts:greekLit:tlg0012.tlg001.shamsian-far1:1.s1-1.s6",
+      "citation_scheme": [
+        "book",
+        "sentence"
+      ],
+      "label": [
+        {
+          "lang": "eng",
+          "value": "Iliad 1 (Persian)"
+        }
+      ],
+      "description": [
+        {
+          "lang": "eng",
+          "value": "Translation of Iliad 1 by Farnoosh Shamsian."
+        }
+      ]
+    },
+    {
+      "urn": "urn:cts:greekLit:tlg0012.tlg001.perseus-grc1-sentences:",
+      "node_kind": "version",
+      "version_kind": "edition",
+      "lang": "grc",
+      "first_passage_urn": "urn:cts:greekLit:tlg0012.tlg001.perseus-grc1-sentences:1.s1-1.s6",
+      "citation_scheme": [
+        "book",
+        "sentence"
+      ],
+      "label": [
+        {
+          "lang": "eng",
+          "value": "Iliad 1 (Greek Sentences)"
+        }
+      ],
+      "description": [
+        {
+          "lang": "eng",
+          "value": "Sentences from gAGDT"
         }
       ]
     }

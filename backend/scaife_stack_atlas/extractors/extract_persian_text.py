@@ -14,8 +14,17 @@ def persian_content(line):
     """
     Strip treebank IDs and return the Persian content.
     """
-    content = re.sub(r"[\d+][a-z]{0,1}", "", line)
-    return content.strip()
+    # content = re.sub(r"[\d+][a-z]{0,1}", "", line)
+    pieces = re.split(r"([\d]+[a-z]{0,1})", line)
+    pieces = [p for p in pieces if p]
+    odd = []
+    even = []
+    for pos, p in enumerate(pieces):
+        if pos % 2 == 0:
+            odd.append(p.strip())
+        else:
+            even.append(p.strip())
+    return list(zip(odd, even))
 
 
 def extract_refs_and_lines(input_path):
@@ -38,15 +47,20 @@ def write_text(output_path, refs_and_lines):
     """
     Write the text out to the ATLAS / text-server flat file format.
     """
+    # ref_to_sentence_id_map = {}
     with output_path.open("w") as f:
-        for ref, lines in refs_and_lines.items():
-            output_line = []
-            output_line.append(f'1.{ref.split("-")[0]}')
-            for line in lines:
-                persian_line = persian_content(line)
-                if persian_line:
-                    output_line.append(persian_line)
-            print(" ".join(output_line), file=f)
+        # chapter_counter = 1
+        for ref, line_chunk in refs_and_lines.items():
+            # TODO: Load books from input_path
+            book_ref = "1"
+            counter = 1
+            for line in line_chunk:
+                content = persian_content(line)
+                for row_ref, row in content:
+                    # NOTE: row_ref is the Treebank ID
+                    final_ref = f"{book_ref}.{row_ref}"
+                    print(" ".join([final_ref, row]), file=f)
+                    counter += 1
 
 
 def main():
@@ -55,5 +69,9 @@ def main():
     )
     refs_and_lines = extract_refs_and_lines(input_path)
 
-    output_path = Path("data/library/tlg0012.tlg001.shamsian-far1.txt")
+    output_path = Path("data/library/tlg0012/tlg001/tlg0012.tlg001.shamsian-far1.txt")
     write_text(output_path, refs_and_lines)
+
+
+if __name__ == "__main__":
+    main()
