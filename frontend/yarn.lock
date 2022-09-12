@@ -1385,23 +1385,14 @@
   resolved "https://registry.yarnpkg.com/@panzoom/panzoom/-/panzoom-4.4.3.tgz#439ef0c3eba1cba0ad9b661fda5961aa2e2eec64"
   integrity sha512-fTAr7/bc9ukvWKxxqdoAuIhKhvu6TwuNiGcA0N3lrSj5OZGlISGLXcSZZyN7kgqH/6icYS7b18UT/Iq/W2rTOA==
 
-"@scaife-viewer/common@^0.0.7", "@scaife-viewer/common@^0.4.0", "@scaife-viewer/common@https://gitpkg.vercel.app/scaife-viewer/frontend/packages/common?c8b245fd6e176e507b4b43a57f37abfc127d70ad":
+"@scaife-viewer/common@^0.0.7", "@scaife-viewer/common@^0.4.0", "@scaife-viewer/common@https://gitpkg.vercel.app/scaife-viewer/frontend/packages/common?7dd20870205764390c88aabe550bede61927b179":
   version "0.4.0"
-  resolved "https://gitpkg.vercel.app/scaife-viewer/frontend/packages/common?c8b245fd6e176e507b4b43a57f37abfc127d70ad#58039d69bad154489d70fb1c8db02320f87292f6"
+  resolved "https://gitpkg.vercel.app/scaife-viewer/frontend/packages/common?7dd20870205764390c88aabe550bede61927b179#8907d81030505bbd0ca6de1ea89020572e0b707b"
   dependencies:
     "@fortawesome/fontawesome-svg-core" "^1.2.28"
     "@fortawesome/free-solid-svg-icons" "^5.14.0"
     "@fortawesome/vue-fontawesome" "^0.1.8"
     "@scaife-viewer/store" "^0.5.0-beta.1"
-    lodash.debounce "^4.0.8"
-
-"@scaife-viewer/common@https://gitpkg.vercel.app/scaife-viewer/frontend/packages/common?2f243e72ecbaf64ce4962cabf0229fa6d0ed88ee":
-  version "0.4.0"
-  resolved "https://gitpkg.vercel.app/scaife-viewer/frontend/packages/common?2f243e72ecbaf64ce4962cabf0229fa6d0ed88ee#5e7d802965695c2658c4cdfb848c5b836c64170e"
-  dependencies:
-    "@fortawesome/fontawesome-svg-core" "^1.2.28"
-    "@fortawesome/free-solid-svg-icons" "^5.14.0"
-    "@fortawesome/vue-fontawesome" "^0.1.8"
     lodash.debounce "^4.0.8"
 
 "@scaife-viewer/entity-map@^0.5.0-beta.2":
@@ -1561,13 +1552,12 @@
   dependencies:
     "@scaife-viewer/store" "^0.5.0-beta.1"
 
-"@scaife-viewer/widget-library@^0.0.10":
-  version "0.0.10"
-  resolved "https://registry.yarnpkg.com/@scaife-viewer/widget-library/-/widget-library-0.0.10.tgz#a8d5bc1c0c6a3c55e082ebf0c4645f52247a868f"
-  integrity sha512-FV+g65c6BeAMy8YbotsUgCaKo6N8r51eZ8dOoKF4YCGZC8tqmNMi4AK2hGIrAXiUfAc0IRLqgWUvvygLYAou0g==
+"@scaife-viewer/widget-library@https://gitpkg.vercel.app/scaife-viewer/frontend/packages/widget-library?7dd20870205764390c88aabe550bede61927b179":
+  version "0.5.0-beta.1"
+  resolved "https://gitpkg.vercel.app/scaife-viewer/frontend/packages/widget-library?7dd20870205764390c88aabe550bede61927b179#b8d72326292a92c6cd82f5186852158302611797"
   dependencies:
-    "@scaife-viewer/common" "^0.0.7"
-    "@scaife-viewer/store" "^0.0.10"
+    "@scaife-viewer/common" "^0.4.0"
+    "@scaife-viewer/store" "^0.5.0-beta.1"
     graphql-tag "^2.10.3"
 
 "@scaife-viewer/widget-metadata@^0.0.10":
