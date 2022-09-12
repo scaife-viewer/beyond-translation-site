@@ -73,6 +73,29 @@
       ]
     },
     {
+      "urn": "urn:cts:greekLit:tlg0012.tlg001.glaux-grc:",
+      "format": "text",
+      "node_kind": "version",
+      "version_kind": "edition",
+      "lang": "grc",
+      "first_passage_urn": "urn:cts:greekLit:tlg0012.tlg001.glaux-grc:1",
+      "citation_scheme": [
+        "sentence"
+      ],
+      "label": [
+        {
+          "lang": "eng",
+          "value": "Iliad (Epic poetry, 128101 words)"
+        }
+      ],
+      "description": [
+        {
+          "lang": "eng",
+          "value": "Extracted from glaux trees"
+        }
+      ]
+    },
+    {
       "urn": "urn:cts:greekLit:tlg0012.tlg001.perseus-eng3:",
       "format": "cex",
       "node_kind": "version",
