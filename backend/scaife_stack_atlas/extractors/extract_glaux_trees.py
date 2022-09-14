@@ -82,7 +82,17 @@ def extract_trees(input_path):
             "treebank_id": sentence_id,
             "words": [],
         }
+        # FIXME: This seems pretty specific to books / lines
+        subdoc = sentence.get("subdoc", "")
+        # 1.1-1.7
+        passage_ref_root = subdoc.split("-")[0].split(".")[0]
+        # 1
+        if passage_ref_root:
+            passage_ref_root = int(passage_ref_root)
+        else:
+            passage_ref_root = None
         # TODO: Other additional data in 'ref'; e.g. subdoc
+        last_cite = None
         for word in sentence.xpath(".//word"):
             id_val = word.attrib["id"]
             try:
@@ -105,6 +115,17 @@ def extract_trees(input_path):
                 "lemma": word.attrib.get("lemma", ""),
                 "tag": word.attrib.get("postag", ""),
             }
+            cite = word.attrib.get("line")
+            if cite:
+                # ref = line.rsplit(":", maxsplit=1)[1]
+                ref = f"{passage_ref_root}.{cite}"
+                word_obj["ref"] = ref
+                seen_urns.add(f"{version_urn}{ref}")
+                if last_cite is None:
+                    last_cite = cite
+                if cite != last_cite:
+                    word_obj["break_before"] = True
+                    last_cite = cite
             sentence_obj["words"].append(word_obj)
 
         sentence_obj["words"] = transform_headwords(sentence_obj["words"])
