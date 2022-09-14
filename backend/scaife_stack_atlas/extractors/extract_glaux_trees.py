@@ -158,7 +158,7 @@ def process_directory(input_dir):
     # TODO: Resolve problems or improve logging
     problems = []
     try:
-        paths = input_dir.glob("*.xml"):
+        paths = input_dir.glob("*.xml")
         paths = [Path('data/raw/glaux-trees/0012-001.xml')]
         for input_path in paths:
             version_urn, trees = extract_trees(input_path)
