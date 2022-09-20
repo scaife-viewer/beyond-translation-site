@@ -1385,9 +1385,9 @@
   resolved "https://registry.yarnpkg.com/@panzoom/panzoom/-/panzoom-4.4.3.tgz#439ef0c3eba1cba0ad9b661fda5961aa2e2eec64"
   integrity sha512-fTAr7/bc9ukvWKxxqdoAuIhKhvu6TwuNiGcA0N3lrSj5OZGlISGLXcSZZyN7kgqH/6icYS7b18UT/Iq/W2rTOA==
 
-"@scaife-viewer/common@^0.0.7", "@scaife-viewer/common@^0.4.0", "@scaife-viewer/common@https://gitpkg.vercel.app/scaife-viewer/frontend/packages/common?7dd20870205764390c88aabe550bede61927b179":
+"@scaife-viewer/common@^0.0.7", "@scaife-viewer/common@^0.4.0", "@scaife-viewer/common@https://gitpkg.vercel.app/scaife-viewer/frontend/packages/common?dfdc53df6e3d17b17577d98e7a9454887e6e4fd7":
   version "0.4.0"
-  resolved "https://gitpkg.vercel.app/scaife-viewer/frontend/packages/common?7dd20870205764390c88aabe550bede61927b179#8907d81030505bbd0ca6de1ea89020572e0b707b"
+  resolved "https://gitpkg.vercel.app/scaife-viewer/frontend/packages/common?dfdc53df6e3d17b17577d98e7a9454887e6e4fd7#f3233041d13e4f49807564294c2a0d3f74cb47d8"
   dependencies:
     "@fortawesome/fontawesome-svg-core" "^1.2.28"
     "@fortawesome/free-solid-svg-icons" "^5.14.0"
@@ -1552,9 +1552,9 @@
   dependencies:
     "@scaife-viewer/store" "^0.5.0-beta.1"
 
-"@scaife-viewer/widget-library@https://gitpkg.vercel.app/scaife-viewer/frontend/packages/widget-library?7dd20870205764390c88aabe550bede61927b179":
+"@scaife-viewer/widget-library@https://gitpkg.vercel.app/scaife-viewer/frontend/packages/widget-library?dfdc53df6e3d17b17577d98e7a9454887e6e4fd7":
   version "0.5.0-beta.1"
-  resolved "https://gitpkg.vercel.app/scaife-viewer/frontend/packages/widget-library?7dd20870205764390c88aabe550bede61927b179#b8d72326292a92c6cd82f5186852158302611797"
+  resolved "https://gitpkg.vercel.app/scaife-viewer/frontend/packages/widget-library?dfdc53df6e3d17b17577d98e7a9454887e6e4fd7#1ea594d324afd9c42c8bcf8f58d076e9f68b97c4"
   dependencies:
     "@scaife-viewer/common" "^0.4.0"
     "@scaife-viewer/store" "^0.5.0-beta.1"

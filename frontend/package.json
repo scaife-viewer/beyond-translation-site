@@ -13,7 +13,7 @@
     "@fortawesome/fontawesome-svg-core": "^1.2.32",
     "@fortawesome/free-solid-svg-icons": "^5.15.1",
     "@fortawesome/vue-fontawesome": "^2.0.0",
-    "@scaife-viewer/common": "https://gitpkg.vercel.app/scaife-viewer/frontend/packages/common?7dd20870205764390c88aabe550bede61927b179",
+    "@scaife-viewer/common": "https://gitpkg.vercel.app/scaife-viewer/frontend/packages/common?dfdc53df6e3d17b17577d98e7a9454887e6e4fd7",
     "@scaife-viewer/reader-alignments-mode": "https://gitpkg.vercel.app/scaife-viewer/frontend/packages/reader-alignments-mode?377b2e7f116c5e59f9db6379f925de77b7359e0e",
     "@scaife-viewer/reader-commentaries-mode": "https://gitpkg.vercel.app/scaife-viewer/frontend/packages/reader-commentaries-mode?ed47cfb689327bd9fe632f759c79d109c1982d32",
     "@scaife-viewer/reader-dictionary-entries-mode": "https://gitpkg.vercel.app/scaife-viewer/frontend/packages/reader-dictionary-entries-mode?6f131375e52e91de78d9e20b7c3513dc0b3be726",
@@ -28,7 +28,7 @@
     "@scaife-viewer/widget-commentary": "https://gitpkg.vercel.app/scaife-viewer/frontend/packages/widget-commentary?0a7bfd7cf65cfd6526c08719430130b1f4860c25",
     "@scaife-viewer/widget-dictionary-entries": "https://gitpkg.vercel.app/scaife-viewer/frontend/packages/widget-dictionary-entries?6f131375e52e91de78d9e20b7c3513dc0b3be726",
     "@scaife-viewer/widget-display-mode": "https://gitpkg.vercel.app/scaife-viewer/frontend/packages/widget-display-mode?c8b245fd6e176e507b4b43a57f37abfc127d70ad",
-    "@scaife-viewer/widget-library": "https://gitpkg.vercel.app/scaife-viewer/frontend/packages/widget-library?7dd20870205764390c88aabe550bede61927b179",
+    "@scaife-viewer/widget-library": "https://gitpkg.vercel.app/scaife-viewer/frontend/packages/widget-library?dfdc53df6e3d17b17577d98e7a9454887e6e4fd7",
     "@scaife-viewer/widget-metadata": "^0.0.10",
     "@scaife-viewer/widget-morphology": "https://gitpkg.vercel.app/scaife-viewer/frontend/packages/widget-morphology?2f243e72ecbaf64ce4962cabf0229fa6d0ed88ee",
     "@scaife-viewer/widget-named-entities": "^0.5.0-beta.2",
@@ -93,7 +93,7 @@
   ],
   "resolutions": {
     "@scaife-viewer/widget-reader": "https://gitpkg.vercel.app/scaife-viewer/frontend/packages/widget-reader?c8b245fd6e176e507b4b43a57f37abfc127d70ad",
-    "@scaife-viewer/common": "https://gitpkg.vercel.app/scaife-viewer/frontend/packages/common?7dd20870205764390c88aabe550bede61927b179",
+    "@scaife-viewer/common": "https://gitpkg.vercel.app/scaife-viewer/frontend/packages/common?dfdc53df6e3d17b17577d98e7a9454887e6e4fd7",
     "@scaife-viewer/store": "https://gitpkg.vercel.app/scaife-viewer/frontend/packages/store?c8b245fd6e176e507b4b43a57f37abfc127d70ad",
     "@scaife-viewer/vue-treant": "https://gitpkg.vercel.app/scaife-viewer/frontend/packages/vue-treant?658523eb8c6169d0b4d1c1612b9ca81ee0889b53"
   }
