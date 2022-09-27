@@ -1546,9 +1546,9 @@
     graphql-tag "^2.10.3"
     portal-vue "^2.1.7"
 
-"@scaife-viewer/widget-display-mode@https://gitpkg.vercel.app/scaife-viewer/frontend/packages/widget-display-mode?c8b245fd6e176e507b4b43a57f37abfc127d70ad":
+"@scaife-viewer/widget-display-mode@https://gitpkg.vercel.app/scaife-viewer/frontend/packages/widget-display-mode?8fc840e9a1c16b717902f214a6b062bce0c1ef87":
   version "0.5.0-beta.1"
-  resolved "https://gitpkg.vercel.app/scaife-viewer/frontend/packages/widget-display-mode?c8b245fd6e176e507b4b43a57f37abfc127d70ad#d4e9fd22c5f50cbf3d5c19bd8e09ad1d66b2e685"
+  resolved "https://gitpkg.vercel.app/scaife-viewer/frontend/packages/widget-display-mode?8fc840e9a1c16b717902f214a6b062bce0c1ef87#e6c60ea0c1926ce0563b1d8cb09275d418eb3446"
   dependencies:
     "@scaife-viewer/store" "^0.5.0-beta.1"
 
