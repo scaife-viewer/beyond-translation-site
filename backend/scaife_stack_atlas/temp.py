@@ -1,14 +1,20 @@
+import csv
 import json
 import logging
 import os
 from collections import defaultdict
 from pathlib import Path
 
+import jsonlines
+import yaml
+
 from scaife_viewer.atlas.conf import settings
 from scaife_viewer.atlas.models import (
     AttributionOrganization,
     AttributionPerson,
     AttributionRecord,
+    GrammaticalEntry,
+    GrammaticalEntryCollection,
     Node,
     TextAlignment,
     TextAlignmentRecord,
@@ -410,3 +416,69 @@ def add_glosses_to_trees(reset=None):
         to_update.append(tree)
 
     TextAnnotation.objects.bulk_update(to_update, fields=["data"], batch_size=500)
+
+
+def import_grammatical_entries(reset=None):
+    # FIXME: Add upstream on scaife-viewer/backend/atlas
+    if reset:
+        GrammaticalEntry.objects.all().delete()
+        # TODO: Prefer "Grammar" and "GrammarAnnotation"?
+        GrammaticalEntryCollection.objects.all().delete()
+    # FIXME: Move to scaife-viewer/backend
+    DIDAKTA_ROOT = Path("data/annotations/grammatical-entries/didakta")
+
+    # Load metadata
+    metadata_path = DIDAKTA_ROOT / "metadata.yml"
+    collection_data = yaml.safe_load(metadata_path.open("rb"))
+    # FIXME: Implement attribution modeling (entry, example, etc)
+    collection = GrammaticalEntryCollection.objects.create(
+        label=collection_data["label"],
+        urn=collection_data["urn"],
+        data=collection_data["metadata"]
+    )
+
+    # Load entries
+    to_create = []
+    jsonl_path = DIDAKTA_ROOT / "entries.jsonl"
+    for row in jsonlines.Reader(jsonl_path.open("rb")):
+        entry = GrammaticalEntry(
+            collection=collection,
+            urn=row["urn"],
+            idx=row["idx"],
+            label=row["label"],
+            data=dict(
+                title=row["data"]["title"],
+                description=row["data"]["description"]
+            )
+        )
+        to_create.append(entry)
+    GrammaticalEntry.objects.bulk_create(to_create)
+
+    # Load token annotations
+    entry_lookup = {}
+    for entry in GrammaticalEntry.objects.all():
+        entry_lookup[entry.label] = entry
+
+    # FIXME: Improve bulk loading of tokens
+    # FIXME: Prefer subref over ve_ref
+    tokens_lookup = defaultdict(list)
+    csv_path = DIDAKTA_ROOT / "tokens.csv"
+    reader = csv.DictReader(csv_path.open())
+    for row in reader:
+        tags = row["tags"].split(";")
+        for tag in tags:
+            entry = entry_lookup.get(tag)
+            if entry:
+                tokens_lookup[entry].append(row["ve_ref"])
+
+    # FIXME: Support more than just Iliad
+    tokens = Token.objects.filter(text_part__urn__startswith="urn:cts:greekLit:tlg0012.tlg001.perseus-grc2:")
+    to_update = []
+    for entry, token_ve_refs in tokens_lookup.items():
+        tokens_qs = tokens.filter(ve_ref__in=token_ve_refs)
+        to_update.append(
+            (entry, tokens_qs)
+        )
+
+    for entry, tokens_qs in to_update:
+        entry.tokens.set(tokens_qs)
