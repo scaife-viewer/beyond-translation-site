@@ -1,0 +1,7780 @@
+[
+  {
+    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg0540-tlg023-grc-1",
+    "treebank_id": "1",
+    "words": [
+      {
+        "id": 1,
+        "value": "πολλὰ",
+        "head_id": 3,
+        "relation": "OBJ",
+        "lemma": "πολύς",
+        "tag": "a-p---na-"
+      },
+      {
+        "id": 2,
+        "value": "μὲν",
+        "head_id": 17,
+        "relation": "AuxY",
+        "lemma": "μέν",
+        "tag": "d--------"
+      },
+      {
+        "id": 3,
+        "value": "λέγειν",
+        "head_id": 15,
+        "relation": "OBJ",
+        "lemma": "λέγω3",
+        "tag": "v--pna---"
+      },
+      {
+        "id": 4,
+        "value": ",",
+        "head_id": 0,
+        "relation": "AuxX",
+        "lemma": "punc1",
+        "tag": "u--------",
+        "original_head_id": 0
+      },
+      {
+        "id": 5,
+        "value": "ὦ",
+        "head_id": 6,
+        "relation": "AuxZ",
+        "lemma": "ὦ",
+        "tag": "i--------"
+      },
+      {
+        "id": 6,
+        "value": "ἄνδρες",
+        "head_id": 17,
+        "relation": "ExD",
+        "lemma": "ἀνήρ",
+        "tag": "n-p---mv-"
+      },
+      {
+        "id": 7,
+        "value": "δικασταί",
+        "head_id": 6,
+        "relation": "ATR",
+        "lemma": "δικαστής",
+        "tag": "n-p---mv-"
+      },
+      {
+        "id": 8,
+        "value": ",",
+        "head_id": 0,
+        "relation": "AuxX",
+        "lemma": "punc1",
+        "tag": "u--------",
+        "original_head_id": 0
+      },
+      {
+        "id": 9,
+        "value": "περὶ",
+        "head_id": 3,
+        "relation": "AuxP",
+        "lemma": "περί",
+        "tag": "r--------"
+      },
+      {
+        "id": 10,
+        "value": "τουτουὶ",
+        "head_id": 12,
+        "relation": "ATR",
+        "lemma": "οὗτος",
+        "tag": "a-s---ng_"
+      },
+      {
+        "id": 11,
+        "value": "τοῦ",
+        "head_id": 12,
+        "relation": "ATR",
+        "lemma": "ὁ",
+        "tag": "l-s---ng-"
+      },
+      {
+        "id": 12,
+        "value": "πράγματος",
+        "head_id": 9,
+        "relation": "ADV",
+        "lemma": "πρᾶγμα",
+        "tag": "n-s---ng-"
+      },
+      {
+        "id": 13,
+        "value": "οὔτʼ",
+        "head_id": 15,
+        "relation": "AuxZ",
+        "lemma": "οὔτε",
+        "tag": "d--------"
+      },
+      {
+        "id": 14,
+        "value": "ἂν",
+        "head_id": 15,
+        "relation": "AuxY",
+        "lemma": "ἄν1",
+        "tag": "d--------"
+      },
+      {
+        "id": 15,
+        "value": "δυναίμην",
+        "head_id": 17,
+        "relation": "SBJ_CO",
+        "lemma": "δύναμαι",
+        "tag": "v1spoe---"
+      },
+      {
+        "id": 16,
+        "value": "οὔ",
+        "head_id": 19,
+        "relation": "AuxZ",
+        "lemma": "οὐ",
+        "tag": "d--------"
+      },
+      {
+        "id": 17,
+        "value": "-τε",
+        "head_id": 0,
+        "relation": "COORD",
+        "lemma": "τε",
+        "tag": "c--------",
+        "original_head_id": 0
+      },
+      {
+        "id": 18,
+        "value": "μοι",
+        "head_id": 19,
+        "relation": "OBJ",
+        "lemma": "ἐγώ",
+        "tag": "p1s---md-"
+      },
+      {
+        "id": 19,
+        "value": "δοκεῖ",
+        "head_id": 17,
+        "relation": "SBJ_CO",
+        "lemma": "δοκέω",
+        "tag": "v3spia---"
+      },
+      {
+        "id": 20,
+        "value": "δεῖν",
+        "head_id": 19,
+        "relation": "SBJ",
+        "lemma": "δεῖ",
+        "tag": "v--pna---"
+      },
+      {
+        "id": 21,
+        "value": "·",
+        "head_id": 0,
+        "relation": "AuxK",
+        "lemma": "punc1",
+        "tag": "u--------",
+        "original_head_id": 0
+      }
+    ],
+    "references": [
+      "urn:cts:greekLit:tlg0540.tlg023.perseus-grc1-vgorman1-trees:1"
+    ],
+    "citation": "1 (1)"
+  },
+  {
+    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg0540-tlg023-grc-2",
+    "treebank_id": "2",
+    "words": [
+      {
+        "id": 1,
+        "value": "ὡς",
+        "head_id": 12,
+        "relation": "AuxC",
+        "lemma": "ὡς",
+        "tag": "c--------"
+      },
+      {
+        "id": 2,
+        "value": "δὲ",
+        "head_id": 15,
+        "relation": "AuxY",
+        "lemma": "δέ",
+        "tag": "d--------"
+      },
+      {
+        "id": 3,
+        "value": "ὀρθῶς",
+        "head_id": 6,
+        "relation": "ADV",
+        "lemma": "ὀρθός",
+        "tag": "d--------"
+      },
+      {
+        "id": 4,
+        "value": "τὴν",
+        "head_id": 5,
+        "relation": "ATR",
+        "lemma": "ὁ",
+        "tag": "l-s---fa-"
+      },
+      {
+        "id": 5,
+        "value": "δίκην",
+        "head_id": 6,
+        "relation": "OBJ",
+        "lemma": "δίκη",
+        "tag": "n-s---fa-"
+      },
+      {
+        "id": 6,
+        "value": "ἔλαχον",
+        "head_id": 1,
+        "relation": "OBJ_AP",
+        "lemma": "λαγχάνω",
+        "tag": "v1saia---"
+      },
+      {
+        "id": 7,
+        "value": "τουτῳὶ",
+        "head_id": 8,
+        "relation": "ATR",
+        "lemma": "οὗτος",
+        "tag": "a-s---md_"
+      },
+      {
+        "id": 8,
+        "value": "Παγκλέωνι",
+        "head_id": 6,
+        "relation": "OBJ",
+        "lemma": "Παγκλέων",
+        "tag": "n-s---md-"
+      },
+      {
+        "id": 9,
+        "value": "οὐκ",
+        "head_id": 10,
+        "relation": "AuxZ",
+        "lemma": "οὐ",
+        "tag": "d--------"
+      },
+      {
+        "id": 10,
+        "value": "ὄντι",
+        "head_id": 8,
+        "relation": "ATR",
+        "lemma": "εἰμί",
+        "tag": "v-sppamd-"
+      },
+      {
+        "id": 11,
+        "value": "Πλαταιεῖ",
+        "head_id": 10,
+        "relation": "PNOM",
+        "lemma": "Πλαταιεύς",
+        "tag": "n-s---md-"
+      },
+      {
+        "id": 12,
+        "value": ",",
+        "head_id": 16,
+        "relation": "APOS",
+        "lemma": "punc1",
+        "tag": "u--------"
+      },
+      {
+        "id": 13,
+        "value": "τοῦτο",
+        "head_id": 12,
+        "relation": "OBJ_AP",
+        "lemma": "οὗτος",
+        "tag": "p-s---na-"
+      },
+      {
+        "id": 14,
+        "value": "ὑμῖν",
+        "head_id": 16,
+        "relation": "OBJ",
+        "lemma": "σύ",
+        "tag": "p-p---md-"
+      },
+      {
+        "id": 15,
+        "value": "πειράσομαι",
+        "head_id": 0,
+        "relation": "PRED",
+        "lemma": "πειράω",
+        "tag": "v1sfimf--",
+        "original_head_id": 0
+      },
+      {
+        "id": 16,
+        "value": "ἀποδεῖξαι",
+        "head_id": 15,
+        "relation": "OBJ",
+        "lemma": "ἀποδείκνυμι",
+        "tag": "v--ana---"
+      },
+      {
+        "id": 17,
+        "value": ".",
+        "head_id": 0,
+        "relation": "AuxK",
+        "lemma": "punc1",
+        "tag": "u--------",
+        "original_head_id": 0
+      }
+    ],
+    "references": [
+      "urn:cts:greekLit:tlg0540.tlg023.perseus-grc1-vgorman1-trees:2"
+    ],
+    "citation": "1 (2)"
+  },
+  {
+    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg0540-tlg023-grc-3",
+    "treebank_id": "3",
+    "words": [
+      {
+        "id": 1,
+        "value": "ὡς",
+        "head_id": 19,
+        "relation": "AuxC",
+        "lemma": "ὡς",
+        "tag": "c--------"
+      },
+      {
+        "id": 2,
+        "value": "γὰρ",
+        "head_id": 19,
+        "relation": "AuxY",
+        "lemma": "γάρ",
+        "tag": "d--------"
+      },
+      {
+        "id": 3,
+        "value": "ἀδικῶν",
+        "head_id": 8,
+        "relation": "AtvV",
+        "lemma": "ἀδικέω",
+        "tag": "v-sppamn-"
+      },
+      {
+        "id": 4,
+        "value": "με",
+        "head_id": 3,
+        "relation": "OBJ",
+        "lemma": "ἐγώ",
+        "tag": "p1s---ma-"
+      },
+      {
+        "id": 5,
+        "value": "πολὺν",
+        "head_id": 6,
+        "relation": "ATR",
+        "lemma": "πολύς",
+        "tag": "a-s---ma-"
+      },
+      {
+        "id": 6,
+        "value": "χρόνον",
+        "head_id": 8,
+        "relation": "ADV",
+        "lemma": "χρόνος",
+        "tag": "n-s---ma-"
+      },
+      {
+        "id": 7,
+        "value": "οὐκ",
+        "head_id": 8,
+        "relation": "AuxZ",
+        "lemma": "οὐ",
+        "tag": "d--------"
+      },
+      {
+        "id": 8,
+        "value": "ἐπαύετο",
+        "head_id": 1,
+        "relation": "ADV",
+        "lemma": "παύω",
+        "tag": "v3siie---"
+      },
+      {
+        "id": 9,
+        "value": ",",
+        "head_id": 0,
+        "relation": "AuxX",
+        "lemma": "punc1",
+        "tag": "u--------",
+        "original_head_id": 0
+      },
+      {
+        "id": 10,
+        "value": "ἐλθὼν",
+        "head_id": 19,
+        "relation": "ADV",
+        "lemma": "ἔρχομαι",
+        "tag": "v-sapamn-"
+      },
+      {
+        "id": 11,
+        "value": "ἐπὶ",
+        "head_id": 10,
+        "relation": "AuxP",
+        "lemma": "ἐπί",
+        "tag": "r--------"
+      },
+      {
+        "id": 12,
+        "value": "τὸ",
+        "head_id": 13,
+        "relation": "ATR",
+        "lemma": "ὁ",
+        "tag": "l-s---na-"
+      },
+      {
+        "id": 13,
+        "value": "γναφεῖον",
+        "head_id": 11,
+        "relation": "OBJ",
+        "lemma": "κναφεῖον",
+        "tag": "n-s---na-"
+      },
+      {
+        "id": 14,
+        "value": ",",
+        "head_id": 0,
+        "relation": "AuxX",
+        "lemma": "punc1",
+        "tag": "u--------",
+        "original_head_id": 0
+      },
+      {
+        "id": 15,
+        "value": "ἐν",
+        "head_id": 17,
+        "relation": "AuxP",
+        "lemma": "ἐν",
+        "tag": "r--------"
+      },
+      {
+        "id": 16,
+        "value": "ᾧ",
+        "head_id": 15,
+        "relation": "ADV",
+        "lemma": "ὅς",
+        "tag": "p-s---nd-"
+      },
+      {
+        "id": 17,
+        "value": "εἰργάζετο",
+        "head_id": 13,
+        "relation": "ATR",
+        "lemma": "ἐργάζομαι",
+        "tag": "v3siie---"
+      },
+      {
+        "id": 18,
+        "value": ",",
+        "head_id": 0,
+        "relation": "AuxX",
+        "lemma": "punc1",
+        "tag": "u--------",
+        "original_head_id": 0
+      },
+      {
+        "id": 19,
+        "value": "προσεκαλεσάμην",
+        "head_id": 0,
+        "relation": "PRED",
+        "lemma": "προσκαλέω",
+        "tag": "v1saim---",
+        "original_head_id": 0
+      },
+      {
+        "id": 20,
+        "value": "αὐτὸν",
+        "head_id": 19,
+        "relation": "OBJ",
+        "lemma": "αὐτός",
+        "tag": "p-s---ma-"
+      },
+      {
+        "id": 21,
+        "value": "πρὸς",
+        "head_id": 19,
+        "relation": "AuxP",
+        "lemma": "πρός",
+        "tag": "r--------"
+      },
+      {
+        "id": 22,
+        "value": "τὸν",
+        "head_id": 23,
+        "relation": "ATR",
+        "lemma": "ὁ",
+        "tag": "l-s---ma-"
+      },
+      {
+        "id": 23,
+        "value": "πολέμαρχον",
+        "head_id": 21,
+        "relation": "OBJ",
+        "lemma": "πολέμαρχος",
+        "tag": "n-s---ma-"
+      },
+      {
+        "id": 24,
+        "value": ",",
+        "head_id": 0,
+        "relation": "AuxX",
+        "lemma": "punc1",
+        "tag": "u--------",
+        "original_head_id": 0
+      },
+      {
+        "id": 25,
+        "value": "νομίζων",
+        "head_id": 19,
+        "relation": "ADV",
+        "lemma": "νομίζω",
+        "tag": "v-sppamn-"
+      },
+      {
+        "id": 26,
+        "value": "μέτοικον",
+        "head_id": 27,
+        "relation": "PNOM",
+        "lemma": "μέτοικος",
+        "tag": "n-s---ma-"
+      },
+      {
+        "id": 27,
+        "value": "εἶναι",
+        "head_id": 25,
+        "relation": "OBJ",
+        "lemma": "εἰμί",
+        "tag": "v--pna---"
+      },
+      {
+        "id": 28,
+        "value": ".",
+        "head_id": 0,
+        "relation": "AuxK",
+        "lemma": "punc1",
+        "tag": "u--------",
+        "original_head_id": 0
+      }
+    ],
+    "references": [
+      "urn:cts:greekLit:tlg0540.tlg023.perseus-grc1-vgorman1-trees:3"
+    ],
+    "citation": "2 (3)"
+  },
+  {
+    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg0540-tlg023-grc-4",
+    "treebank_id": "4",
+    "words": [
+      {
+        "id": 1,
+        "value": "εἰπόντος",
+        "head_id": 8,
+        "relation": "ADV",
+        "lemma": "εἶπον",
+        "tag": "v-sapamg-"
+      },
+      {
+        "id": 2,
+        "value": "δὲ",
+        "head_id": 8,
+        "relation": "AuxY",
+        "lemma": "δέ",
+        "tag": "d--------"
+      },
+      {
+        "id": 3,
+        "value": "τούτου",
+        "head_id": 1,
+        "relation": "SBJ",
+        "lemma": "οὗτος",
+        "tag": "p-s---mg-"
+      },
+      {
+        "id": 4,
+        "value": "ὅτι",
+        "head_id": 1,
+        "relation": "AuxC",
+        "lemma": "ὅτι2",
+        "tag": "c--------"
+      },
+      {
+        "id": 5,
+        "value": "Πλαταιεὺς",
+        "head_id": 6,
+        "relation": "PNOM",
+        "lemma": "Πλαταιεύς",
+        "tag": "n-s---mn-"
+      },
+      {
+        "id": 6,
+        "value": "εἴη",
+        "head_id": 4,
+        "relation": "OBJ",
+        "lemma": "εἰμί",
+        "tag": "v3spoa---"
+      },
+      {
+        "id": 7,
+        "value": ",",
+        "head_id": 0,
+        "relation": "AuxX",
+        "lemma": "punc1",
+        "tag": "u--------",
+        "original_head_id": 0
+      },
+      {
+        "id": 8,
+        "value": "ἠρόμην",
+        "head_id": 0,
+        "relation": "PRED",
+        "lemma": "ἔρομαι",
+        "tag": "v1saim---",
+        "original_head_id": 0
+      },
+      {
+        "id": 9,
+        "value": "ὁπόθεν",
+        "head_id": 10,
+        "relation": "ADV",
+        "lemma": "ὁπόθεν",
+        "tag": "d--------"
+      },
+      {
+        "id": 10,
+        "value": "δημοτεύοιτο",
+        "head_id": 8,
+        "relation": "OBJ",
+        "lemma": "δημοτεύομαι",
+        "tag": "v3spoe---"
+      },
+      {
+        "id": 11,
+        "value": ",",
+        "head_id": 0,
+        "relation": "AuxX",
+        "lemma": "punc1",
+        "tag": "u--------",
+        "original_head_id": 0
+      },
+      {
+        "id": 12,
+        "value": "παραινέσαντός",
+        "head_id": 8,
+        "relation": "ADV",
+        "lemma": "παραινέω",
+        "tag": "v-sapamg-"
+      },
+      {
+        "id": 13,
+        "value": "τινος",
+        "head_id": 12,
+        "relation": "SBJ",
+        "lemma": "τις",
+        "tag": "p-s---mg-"
+      },
+      {
+        "id": 14,
+        "value": "τῶν",
+        "head_id": 15,
+        "relation": "ATR",
+        "lemma": "ὁ",
+        "tag": "l-p---mg-"
+      },
+      {
+        "id": 15,
+        "value": "παρόντων",
+        "head_id": 13,
+        "relation": "ATR",
+        "lemma": "πάρειμι1",
+        "tag": "v-pppamg-"
+      },
+      {
+        "id": 16,
+        "value": "προσκαλέσασθαι",
+        "head_id": 12,
+        "relation": "OBJ",
+        "lemma": "προσκαλέω",
+        "tag": "v--anm---"
+      },
+      {
+        "id": 17,
+        "value": "καὶ",
+        "head_id": 20,
+        "relation": "AuxZ",
+        "lemma": "καί",
+        "tag": "d--------"
+      },
+      {
+        "id": 18,
+        "value": "πρὸς",
+        "head_id": 16,
+        "relation": "AuxP",
+        "lemma": "πρός",
+        "tag": "r--------"
+      },
+      {
+        "id": 19,
+        "value": "τὴν",
+        "head_id": 20,
+        "relation": "ATR",
+        "lemma": "ὁ",
+        "tag": "l-s---fa-"
+      },
+      {
+        "id": 20,
+        "value": "φυλήν",
+        "head_id": 18,
+        "relation": "OBJ",
+        "lemma": "φυλή",
+        "tag": "n-s---fa-"
+      },
+      {
+        "id": 21,
+        "value": ",",
+        "head_id": 0,
+        "relation": "AuxX",
+        "lemma": "punc1",
+        "tag": "u--------",
+        "original_head_id": 0
+      },
+      {
+        "id": 22,
+        "value": "ἧστινος",
+        "head_id": 23,
+        "relation": "PNOM",
+        "lemma": "ὅστις",
+        "tag": "p-s---fg-"
+      },
+      {
+        "id": 23,
+        "value": "εἶναι",
+        "head_id": 24,
+        "relation": "OBJ",
+        "lemma": "εἰμί",
+        "tag": "v--pna---"
+      },
+      {
+        "id": 24,
+        "value": "σκήπτοιτο",
+        "head_id": 20,
+        "relation": "ATR",
+        "lemma": "σκήπτω",
+        "tag": "v3spoe---"
+      },
+      {
+        "id": 25,
+        "value": ".",
+        "head_id": 0,
+        "relation": "AuxK",
+        "lemma": "punc1",
+        "tag": "u--------",
+        "original_head_id": 0
+      }
+    ],
+    "references": [
+      "urn:cts:greekLit:tlg0540.tlg023.perseus-grc1-vgorman1-trees:4"
+    ],
+    "citation": "2 (4)"
+  },
+  {
+    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg0540-tlg023-grc-5",
+    "treebank_id": "5",
+    "words": [
+      {
+        "id": 1,
+        "value": "ἐπειδὴ",
+        "head_id": 32,
+        "relation": "AuxC",
+        "lemma": "ἐπεί",
+        "tag": "c--------"
+      },
+      {
+        "id": 2,
+        "value": "δὲ",
+        "head_id": 32,
+        "relation": "AuxY",
+        "lemma": "δέ",
+        "tag": "d--------"
+      },
+      {
+        "id": 3,
+        "value": "ἀπεκρίνατο",
+        "head_id": 1,
+        "relation": "ADV",
+        "lemma": "ἀποκρίνω",
+        "tag": "v3saim---"
+      },
+      {
+        "id": 4,
+        "value": "ὅτι",
+        "head_id": 3,
+        "relation": "AuxC",
+        "lemma": "ὅτι2",
+        "tag": "c--------"
+      },
+      {
+        "id": 5,
+        "value": "Δεκελειόθεν",
+        "head_id": 43,
+        "relation": "PNOM",
+        "lemma": "Δεκελειόθεν",
+        "tag": "d--------"
+      },
+      {
+        "id": 6,
+        "value": ",",
+        "head_id": 0,
+        "relation": "AuxX",
+        "lemma": "punc1",
+        "tag": "u--------",
+        "original_head_id": 0
+      },
+      {
+        "id": 7,
+        "value": "προσκαλεσάμενος",
+        "head_id": 32,
+        "relation": "ADV",
+        "lemma": "προσκαλέω",
+        "tag": "v-sapmmn-"
+      },
+      {
+        "id": 8,
+        "value": "αὐτὸν",
+        "head_id": 7,
+        "relation": "OBJ",
+        "lemma": "αὐτός",
+        "tag": "p-s---ma-"
+      },
+      {
+        "id": 9,
+        "value": "καὶ",
+        "head_id": 14,
+        "relation": "AuxZ",
+        "lemma": "καί",
+        "tag": "d--------"
+      },
+      {
+        "id": 10,
+        "value": "πρὸς",
+        "head_id": 7,
+        "relation": "AuxP",
+        "lemma": "πρός",
+        "tag": "r--------"
+      },
+      {
+        "id": 11,
+        "value": "τοὺς",
+        "head_id": 14,
+        "relation": "ATR",
+        "lemma": "ὁ",
+        "tag": "l-p---ma-"
+      },
+      {
+        "id": 12,
+        "value": "τῇ",
+        "head_id": 13,
+        "relation": "ATR",
+        "lemma": "ὁ",
+        "tag": "l-s---fd-"
+      },
+      {
+        "id": 13,
+        "value": "Ἱπποθωντίδι",
+        "head_id": 14,
+        "relation": "ADV",
+        "lemma": "Ἱπποθωντίς",
+        "tag": "n-s---fd-"
+      },
+      {
+        "id": 14,
+        "value": "δικάζοντας",
+        "head_id": 10,
+        "relation": "OBJ",
+        "lemma": "δικάζω",
+        "tag": "v-pppama-"
+      },
+      {
+        "id": 15,
+        "value": ",",
+        "head_id": 0,
+        "relation": "AuxX",
+        "lemma": "punc1",
+        "tag": "u--------",
+        "original_head_id": 0
+      },
+      {
+        "id": 16,
+        "value": "ἐλθὼν",
+        "head_id": 32,
+        "relation": "ADV",
+        "lemma": "ἔρχομαι",
+        "tag": "v-sapamn-"
+      },
+      {
+        "id": 17,
+        "value": "ἐπὶ",
+        "head_id": 16,
+        "relation": "AuxP",
+        "lemma": "ἐπί",
+        "tag": "r--------"
+      },
+      {
+        "id": 18,
+        "value": "τὸ",
+        "head_id": 19,
+        "relation": "ATR",
+        "lemma": "ὁ",
+        "tag": "l-s---na-"
+      },
+      {
+        "id": 19,
+        "value": "κουρεῖον",
+        "head_id": 17,
+        "relation": "OBJ",
+        "lemma": "κουρεῖον",
+        "tag": "n-s---na-"
+      },
+      {
+        "id": 20,
+        "value": "τὸ",
+        "head_id": 19,
+        "relation": "ATR",
+        "lemma": "ὁ",
+        "tag": "l-s---na-"
+      },
+      {
+        "id": 21,
+        "value": "παρὰ",
+        "head_id": 19,
+        "relation": "AuxP",
+        "lemma": "παρά",
+        "tag": "r--------"
+      },
+      {
+        "id": 22,
+        "value": "τοὺς",
+        "head_id": 23,
+        "relation": "ATR",
+        "lemma": "ὁ",
+        "tag": "l-p---ma-"
+      },
+      {
+        "id": 23,
+        "value": "Ἑρμᾶς",
+        "head_id": 21,
+        "relation": "ATR",
+        "lemma": "Ἑρμᾶς",
+        "tag": "n-p---ma-"
+      },
+      {
+        "id": 24,
+        "value": ",",
+        "head_id": 0,
+        "relation": "AuxX",
+        "lemma": "punc1",
+        "tag": "u--------",
+        "original_head_id": 0
+      },
+      {
+        "id": 25,
+        "value": "οἷ",
+        "head_id": 27,
+        "relation": "ADV",
+        "lemma": "οἷ",
+        "tag": "d-------_"
+      },
+      {
+        "id": 26,
+        "value": "Δεκελειεῖς",
+        "head_id": 27,
+        "relation": "SBJ",
+        "lemma": "Δεκελειεύς",
+        "tag": "n-p---mn-"
+      },
+      {
+        "id": 27,
+        "value": "προσφοιτῶσιν",
+        "head_id": 23,
+        "relation": "ATR",
+        "lemma": "προσφοιτάω",
+        "tag": "v3ppia---"
+      },
+      {
+        "id": 28,
+        "value": ",",
+        "head_id": 0,
+        "relation": "AuxX",
+        "lemma": "punc1",
+        "tag": "u--------",
+        "original_head_id": 0
+      },
+      {
+        "id": 29,
+        "value": "ἠρώτων",
+        "head_id": 32,
+        "relation": "PRED_CO",
+        "lemma": "ἐρωτάω",
+        "tag": "v1siia---"
+      },
+      {
+        "id": 30,
+        "value": ",",
+        "head_id": 0,
+        "relation": "AuxX",
+        "lemma": "punc1",
+        "tag": "u--------",
+        "original_head_id": 0
+      },
+      {
+        "id": 31,
+        "value": "οὕς",
+        "head_id": 33,
+        "relation": "OBJ",
+        "lemma": "ὅς",
+        "tag": "p-p---ma-"
+      },
+      {
+        "id": 32,
+        "value": "τε",
+        "head_id": 0,
+        "relation": "COORD",
+        "lemma": "τε",
+        "tag": "c--------",
+        "original_head_id": 0
+      },
+      {
+        "id": 33,
+        "value": "ἐξευρίσκοιμι",
+        "head_id": 35,
+        "relation": "OBJ",
+        "lemma": "ἐξευρίσκω",
+        "tag": "v1spoa---"
+      },
+      {
+        "id": 34,
+        "value": "Δεκελειέων",
+        "head_id": 31,
+        "relation": "ATR",
+        "lemma": "Δεκέλεια",
+        "tag": "n-p---fg-"
+      },
+      {
+        "id": 35,
+        "value": "ἐπυνθανόμην",
+        "head_id": 32,
+        "relation": "PRED_CO",
+        "lemma": "πυνθάνομαι",
+        "tag": "v1siie---"
+      },
+      {
+        "id": 36,
+        "value": "εἴ",
+        "head_id": 35,
+        "relation": "AuxC",
+        "lemma": "εἰ",
+        "tag": "c--------"
+      },
+      {
+        "id": 37,
+        "value": "τινα",
+        "head_id": 41,
+        "relation": "ATR",
+        "lemma": "τις",
+        "tag": "a-s---ma_"
+      },
+      {
+        "id": 38,
+        "value": "γιγνώσκοιεν",
+        "head_id": 36,
+        "relation": "OBJ",
+        "lemma": "γιγνώσκω",
+        "tag": "v3ppoa---"
+      },
+      {
+        "id": 39,
+        "value": "Δεκελειόθεν",
+        "head_id": 40,
+        "relation": "ADV",
+        "lemma": "Δεκελειόθεν",
+        "tag": "d--------"
+      },
+      {
+        "id": 40,
+        "value": "δημοτευόμενον",
+        "head_id": 41,
+        "relation": "ATR",
+        "lemma": "δημοτεύομαι",
+        "tag": "v-sppema-"
+      },
+      {
+        "id": 41,
+        "value": "Παγκλέωνα",
+        "head_id": 38,
+        "relation": "OBJ",
+        "lemma": "Παγκλέων",
+        "tag": "n-s---ma-"
+      },
+      {
+        "id": 42,
+        "value": ".",
+        "head_id": 0,
+        "relation": "AuxK",
+        "lemma": "punc1",
+        "tag": "u--------",
+        "original_head_id": 0
+      },
+      {
+        "id": 43,
+        "value": "[0]",
+        "head_id": 4,
+        "relation": "OBJ",
+        "lemma": "",
+        "tag": ""
+      }
+    ],
+    "references": [
+      "urn:cts:greekLit:tlg0540.tlg023.perseus-grc1-vgorman1-trees:5"
+    ],
+    "citation": "2 (5)"
+  },
+  {
+    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg0540-tlg023-grc-6",
+    "treebank_id": "6",
+    "words": [
+      {
+        "id": 1,
+        "value": "ἐπειδὴ",
+        "head_id": 22,
+        "relation": "AuxC",
+        "lemma": "ἐπεί",
+        "tag": "c--------"
+      },
+      {
+        "id": 2,
+        "value": "δὲ",
+        "head_id": 22,
+        "relation": "AuxY",
+        "lemma": "δέ",
+        "tag": "d--------"
+      },
+      {
+        "id": 3,
+        "value": "οὐδεὶς",
+        "head_id": 4,
+        "relation": "SBJ",
+        "lemma": "οὐδείς",
+        "tag": "p-s---mn-"
+      },
+      {
+        "id": 4,
+        "value": "ἔφασκεν",
+        "head_id": 1,
+        "relation": "ADV",
+        "lemma": "φάσκω",
+        "tag": "v3siia---"
+      },
+      {
+        "id": 5,
+        "value": "γιγνώσκειν",
+        "head_id": 4,
+        "relation": "OBJ",
+        "lemma": "γιγνώσκω",
+        "tag": "v--pna---"
+      },
+      {
+        "id": 6,
+        "value": "αὐτόν",
+        "head_id": 5,
+        "relation": "OBJ",
+        "lemma": "αὐτός",
+        "tag": "p-s---ma-"
+      },
+      {
+        "id": 7,
+        "value": ",",
+        "head_id": 0,
+        "relation": "AuxX",
+        "lemma": "punc1",
+        "tag": "u--------",
+        "original_head_id": 0
+      },
+      {
+        "id": 8,
+        "value": "πυθόμενος",
+        "head_id": 22,
+        "relation": "ADV",
+        "lemma": "πυνθάνομαι",
+        "tag": "v-sapmmn-"
+      },
+      {
+        "id": 9,
+        "value": "ὅτι",
+        "head_id": 8,
+        "relation": "AuxC",
+        "lemma": "ὅτι2",
+        "tag": "c--------"
+      },
+      {
+        "id": 10,
+        "value": "καὶ",
+        "head_id": 11,
+        "relation": "AuxZ",
+        "lemma": "καί",
+        "tag": "d--------"
+      },
+      {
+        "id": 11,
+        "value": "ἑτέρας",
+        "head_id": 12,
+        "relation": "ATR",
+        "lemma": "ἕτερος",
+        "tag": "a-p---fa-"
+      },
+      {
+        "id": 12,
+        "value": "δίκας",
+        "head_id": 15,
+        "relation": "OBJ",
+        "lemma": "δίκη",
+        "tag": "n-p---fa-"
+      },
+      {
+        "id": 13,
+        "value": "τὰς",
+        "head_id": 12,
+        "relation": "ATR",
+        "lemma": "ὁ",
+        "tag": "l-p---fa-"
+      },
+      {
+        "id": 14,
+        "value": "μὲν",
+        "head_id": 17,
+        "relation": "AuxY",
+        "lemma": "μέν",
+        "tag": "d--------"
+      },
+      {
+        "id": 15,
+        "value": "φεύγοι",
+        "head_id": 17,
+        "relation": "OBJ_CO",
+        "lemma": "φεύγω",
+        "tag": "v3spoa---"
+      },
+      {
+        "id": 16,
+        "value": "τὰς",
+        "head_id": 18,
+        "relation": "OBJ",
+        "lemma": "ὁ",
+        "tag": "l-p---fa-"
+      },
+      {
+        "id": 17,
+        "value": "δʼ",
+        "head_id": 9,
+        "relation": "COORD",
+        "lemma": "δέ",
+        "tag": "c--------"
+      },
+      {
+        "id": 18,
+        "value": "ὠφλήκοι",
+        "head_id": 17,
+        "relation": "OBJ_CO",
+        "lemma": "ὀφλισκάνω",
+        "tag": "v3sroa---"
+      },
+      {
+        "id": 19,
+        "value": "παρὰ",
+        "head_id": 17,
+        "relation": "AuxP",
+        "lemma": "παρά",
+        "tag": "r--------"
+      },
+      {
+        "id": 20,
+        "value": "τῷ",
+        "head_id": 21,
+        "relation": "ATR",
+        "lemma": "ὁ",
+        "tag": "l-s---md-"
+      },
+      {
+        "id": 21,
+        "value": "πολεμάρχῳ",
+        "head_id": 19,
+        "relation": "ADV",
+        "lemma": "πολέμαρχος",
+        "tag": "n-s---md-"
+      },
+      {
+        "id": 22,
+        "value": "ἔλαχον",
+        "head_id": 0,
+        "relation": "PRED",
+        "lemma": "λαγχάνω",
+        "tag": "v1saia---",
+        "original_head_id": 0
+      },
+      {
+        "id": 23,
+        "value": "καὶ",
+        "head_id": 24,
+        "relation": "AuxZ",
+        "lemma": "καί",
+        "tag": "d--------"
+      },
+      {
+        "id": 24,
+        "value": "ἐγώ",
+        "head_id": 22,
+        "relation": "SBJ",
+        "lemma": "ἐγώ",
+        "tag": "p1s---mn-"
+      },
+      {
+        "id": 25,
+        "value": ".",
+        "head_id": 0,
+        "relation": "AuxK",
+        "lemma": "punc1",
+        "tag": "u--------",
+        "original_head_id": 0
+      }
+    ],
+    "references": [
+      "urn:cts:greekLit:tlg0540.tlg023.perseus-grc1-vgorman1-trees:6"
+    ],
+    "citation": "3 (6)"
+  },
+  {
+    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg0540-tlg023-grc-7",
+    "treebank_id": "7",
+    "words": [
+      {
+        "id": 1,
+        "value": "πρῶτον",
+        "head_id": 9,
+        "relation": "ADV",
+        "lemma": "πρῶτος",
+        "tag": "a-s---na-"
+      },
+      {
+        "id": 2,
+        "value": "μὲν",
+        "head_id": 12,
+        "relation": "AuxY",
+        "lemma": "μέν",
+        "tag": "d--------"
+      },
+      {
+        "id": 3,
+        "value": "οὖν",
+        "head_id": 9,
+        "relation": "AuxY",
+        "lemma": "οὖν",
+        "tag": "d--------"
+      },
+      {
+        "id": 4,
+        "value": "ὑμῖν",
+        "head_id": 9,
+        "relation": "OBJ",
+        "lemma": "σύ",
+        "tag": "p-p---md-"
+      },
+      {
+        "id": 5,
+        "value": "Δεκελειέων",
+        "head_id": 12,
+        "relation": "ATR_CO",
+        "lemma": "Δεκελειεύς",
+        "tag": "n-p---mg-"
+      },
+      {
+        "id": 6,
+        "value": "οὓς",
+        "head_id": 7,
+        "relation": "OBJ",
+        "lemma": "ὅς",
+        "tag": "p-p---ma-"
+      },
+      {
+        "id": 7,
+        "value": "ἠρόμην",
+        "head_id": 8,
+        "relation": "ATR",
+        "lemma": "ἔρομαι",
+        "tag": "v1saim---"
+      },
+      {
+        "id": 8,
+        "value": "μάρτυρας",
+        "head_id": 9,
+        "relation": "OBJ",
+        "lemma": "μάρτυς",
+        "tag": "n-p---ma-"
+      },
+      {
+        "id": 9,
+        "value": "παρέξομαι",
+        "head_id": 0,
+        "relation": "PRED",
+        "lemma": "παρέχω",
+        "tag": "v1sfim---",
+        "original_head_id": 0
+      },
+      {
+        "id": 10,
+        "value": ",",
+        "head_id": 0,
+        "relation": "AuxX",
+        "lemma": "punc1",
+        "tag": "u--------",
+        "original_head_id": 0
+      },
+      {
+        "id": 11,
+        "value": "ἔπειτα",
+        "head_id": 12,
+        "relation": "ADV",
+        "lemma": "ἔπειτα",
+        "tag": "d--------"
+      },
+      {
+        "id": 12,
+        "value": "δὲ",
+        "head_id": 8,
+        "relation": "COORD",
+        "lemma": "δέ",
+        "tag": "c--------"
+      },
+      {
+        "id": 13,
+        "value": "καὶ",
+        "head_id": 15,
+        "relation": "AuxZ",
+        "lemma": "καί",
+        "tag": "d--------"
+      },
+      {
+        "id": 14,
+        "value": "τῶν",
+        "head_id": 15,
+        "relation": "ATR",
+        "lemma": "ὁ",
+        "tag": "l-p---mg-"
+      },
+      {
+        "id": 15,
+        "value": "ἄλλων",
+        "head_id": 12,
+        "relation": "ATR_CO",
+        "lemma": "ἄλλος",
+        "tag": "p-p---mg-"
+      },
+      {
+        "id": 16,
+        "value": "τῶν",
+        "head_id": 15,
+        "relation": "ATR",
+        "lemma": "ὁ",
+        "tag": "l-p---mg-"
+      },
+      {
+        "id": 17,
+        "value": "λαχόντων",
+        "head_id": 24,
+        "relation": "ATR_CO",
+        "lemma": "λαγχάνω",
+        "tag": "v-papamg-"
+      },
+      {
+        "id": 18,
+        "value": "τε",
+        "head_id": 24,
+        "relation": "AuxY",
+        "lemma": "τε",
+        "tag": "d--------"
+      },
+      {
+        "id": 19,
+        "value": "δίκας",
+        "head_id": 17,
+        "relation": "OBJ",
+        "lemma": "δίκη",
+        "tag": "n-p---fa-"
+      },
+      {
+        "id": 20,
+        "value": "αὐτῷ",
+        "head_id": 17,
+        "relation": "OBJ",
+        "lemma": "αὐτός",
+        "tag": "p-s---md-"
+      },
+      {
+        "id": 21,
+        "value": "πρὸς",
+        "head_id": 17,
+        "relation": "AuxP",
+        "lemma": "πρός",
+        "tag": "r--------"
+      },
+      {
+        "id": 22,
+        "value": "τὸν",
+        "head_id": 23,
+        "relation": "ATR",
+        "lemma": "ὁ",
+        "tag": "l-s---ma-"
+      },
+      {
+        "id": 23,
+        "value": "πολέμαρχον",
+        "head_id": 21,
+        "relation": "ADV",
+        "lemma": "πολέμαρχος",
+        "tag": "n-s---ma-"
+      },
+      {
+        "id": 24,
+        "value": "καὶ",
+        "head_id": 15,
+        "relation": "COORD",
+        "lemma": "καί",
+        "tag": "c--------"
+      },
+      {
+        "id": 25,
+        "value": "καταδικασαμένων",
+        "head_id": 24,
+        "relation": "ATR_CO",
+        "lemma": "καταδικάζω",
+        "tag": "v-papmmg-"
+      },
+      {
+        "id": 26,
+        "value": ",",
+        "head_id": 0,
+        "relation": "AuxX",
+        "lemma": "punc1",
+        "tag": "u--------",
+        "original_head_id": 0
+      },
+      {
+        "id": 27,
+        "value": "ὅσοι",
+        "head_id": 28,
+        "relation": "SBJ",
+        "lemma": "ὅσος",
+        "tag": "a-p---mn-"
+      },
+      {
+        "id": 28,
+        "value": "τυγχάνουσι",
+        "head_id": 8,
+        "relation": "ATR",
+        "lemma": "τυγχάνω",
+        "tag": "v3ppia---"
+      },
+      {
+        "id": 29,
+        "value": "παρόντες",
+        "head_id": 28,
+        "relation": "PNOM",
+        "lemma": "πάρειμι1",
+        "tag": "v-pppamn-"
+      },
+      {
+        "id": 30,
+        "value": ".",
+        "head_id": 0,
+        "relation": "AuxK",
+        "lemma": "punc1",
+        "tag": "u--------",
+        "original_head_id": 0
+      }
+    ],
+    "references": [
+      "urn:cts:greekLit:tlg0540.tlg023.perseus-grc1-vgorman1-trees:7"
+    ],
+    "citation": "4 (7)"
+  },
+  {
+    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg0540-tlg023-grc-8",
+    "treebank_id": "8",
+    "words": [
+      {
+        "id": 1,
+        "value": "καί",
+        "head_id": 3,
+        "relation": "AuxY",
+        "lemma": "καί",
+        "tag": "d-------_"
+      },
+      {
+        "id": 2,
+        "value": "μοι",
+        "head_id": 3,
+        "relation": "ADV",
+        "lemma": "ἐγώ",
+        "tag": "p1s---md-"
+      },
+      {
+        "id": 3,
+        "value": "ἐπίλαβε",
+        "head_id": 0,
+        "relation": "PRED",
+        "lemma": "ἐπιλαμβάνω",
+        "tag": "v2sama---",
+        "original_head_id": 0
+      },
+      {
+        "id": 4,
+        "value": "τὸ",
+        "head_id": 5,
+        "relation": "ATR",
+        "lemma": "ὁ",
+        "tag": "l-s---na-"
+      },
+      {
+        "id": 5,
+        "value": "ὕδωρ",
+        "head_id": 3,
+        "relation": "OBJ",
+        "lemma": "ὕδωρ",
+        "tag": "n-s---na-"
+      },
+      {
+        "id": 6,
+        "value": ".",
+        "head_id": 0,
+        "relation": "AuxK",
+        "lemma": "punc1",
+        "tag": "u--------",
+        "original_head_id": 0
+      }
+    ],
+    "references": [
+      "urn:cts:greekLit:tlg0540.tlg023.perseus-grc1-vgorman1-trees:8"
+    ],
+    "citation": "4 (8)"
+  },
+  {
+    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg0540-tlg023-grc-9",
+    "treebank_id": "9",
+    "words": [
+      {
+        "id": 1,
+        "value": "Μάρτυρες",
+        "head_id": 0,
+        "relation": "ExD",
+        "lemma": "μάρτυς",
+        "tag": "n-p---mn-",
+        "original_head_id": 0
+      }
+    ],
+    "references": [
+      "urn:cts:greekLit:tlg0540.tlg023.perseus-grc1-vgorman1-trees:9"
+    ],
+    "citation": "4 (9)"
+  },
+  {
+    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg0540-tlg023-grc-10",
+    "treebank_id": "10",
+    "words": [
+      {
+        "id": 1,
+        "value": "ἐκ",
+        "head_id": 4,
+        "relation": "AuxP",
+        "lemma": "ἐκ",
+        "tag": "r--------"
+      },
+      {
+        "id": 2,
+        "value": "μὲν",
+        "head_id": 11,
+        "relation": "AuxY",
+        "lemma": "μέν",
+        "tag": "d--------"
+      },
+      {
+        "id": 3,
+        "value": "τούτων",
+        "head_id": 1,
+        "relation": "ADV",
+        "lemma": "οὗτος",
+        "tag": "p-p---ng-"
+      },
+      {
+        "id": 4,
+        "value": "πεισθεὶς",
+        "head_id": 11,
+        "relation": "ADV",
+        "lemma": "πείθω",
+        "tag": "v-sappmn-"
+      },
+      {
+        "id": 5,
+        "value": "πρὸς",
+        "head_id": 11,
+        "relation": "AuxP",
+        "lemma": "πρός",
+        "tag": "r--------"
+      },
+      {
+        "id": 6,
+        "value": "τὸν",
+        "head_id": 7,
+        "relation": "ATR",
+        "lemma": "ὁ",
+        "tag": "l-s---ma-"
+      },
+      {
+        "id": 7,
+        "value": "πολέμαρχον",
+        "head_id": 5,
+        "relation": "ADV",
+        "lemma": "πολέμαρχος",
+        "tag": "n-s---ma-"
+      },
+      {
+        "id": 8,
+        "value": "αὐτῷ",
+        "head_id": 11,
+        "relation": "OBJ",
+        "lemma": "αὐτός",
+        "tag": "p-s---md-"
+      },
+      {
+        "id": 9,
+        "value": "τὴν",
+        "head_id": 10,
+        "relation": "ATR",
+        "lemma": "ὁ",
+        "tag": "l-s---fa-"
+      },
+      {
+        "id": 10,
+        "value": "δίκην",
+        "head_id": 11,
+        "relation": "OBJ",
+        "lemma": "δίκη",
+        "tag": "n-s---fa-"
+      },
+      {
+        "id": 11,
+        "value": "ἔλαχον",
+        "head_id": 0,
+        "relation": "PRED",
+        "lemma": "λαγχάνω",
+        "tag": "v1saia---",
+        "original_head_id": 0
+      },
+      {
+        "id": 12,
+        "value": "·",
+        "head_id": 0,
+        "relation": "AuxK",
+        "lemma": "punc1",
+        "tag": "u--------",
+        "original_head_id": 0
+      }
+    ],
+    "references": [
+      "urn:cts:greekLit:tlg0540.tlg023.perseus-grc1-vgorman1-trees:10"
+    ],
+    "citation": "5 (10)"
+  },
+  {
+    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg0540-tlg023-grc-11",
+    "treebank_id": "11",
+    "words": [
+      {
+        "id": 1,
+        "value": "ἐπειδὴ",
+        "head_id": 38,
+        "relation": "AuxC",
+        "lemma": "ἐπεί",
+        "tag": "c--------"
+      },
+      {
+        "id": 2,
+        "value": "δέ",
+        "head_id": 38,
+        "relation": "AuxY",
+        "lemma": "δέ",
+        "tag": "d--------"
+      },
+      {
+        "id": 3,
+        "value": "μοι",
+        "head_id": 5,
+        "relation": "OBJ",
+        "lemma": "ἐγώ",
+        "tag": "p1s---md-"
+      },
+      {
+        "id": 4,
+        "value": "αὐτὴν",
+        "head_id": 8,
+        "relation": "SBJ",
+        "lemma": "αὐτός",
+        "tag": "p-s---fa-"
+      },
+      {
+        "id": 5,
+        "value": "ἀντεγράψατο",
+        "head_id": 1,
+        "relation": "ADV",
+        "lemma": "ἀντιγράφω",
+        "tag": "v3saim---"
+      },
+      {
+        "id": 6,
+        "value": "μὴ",
+        "head_id": 7,
+        "relation": "AuxZ",
+        "lemma": "μή",
+        "tag": "d--------"
+      },
+      {
+        "id": 7,
+        "value": "εἰσαγώγιμον",
+        "head_id": 8,
+        "relation": "PNOM",
+        "lemma": "εἰσαγώγιμος",
+        "tag": "a-s---fa-"
+      },
+      {
+        "id": 8,
+        "value": "εἶναι",
+        "head_id": 5,
+        "relation": "OBJ",
+        "lemma": "εἰμί",
+        "tag": "v--pna---"
+      },
+      {
+        "id": 9,
+        "value": ",",
+        "head_id": 0,
+        "relation": "AuxX",
+        "lemma": "punc1",
+        "tag": "u--------",
+        "original_head_id": 0
+      },
+      {
+        "id": 10,
+        "value": "περὶ",
+        "head_id": 12,
+        "relation": "AuxP",
+        "lemma": "περί",
+        "tag": "r--------"
+      },
+      {
+        "id": 11,
+        "value": "πολλοῦ",
+        "head_id": 10,
+        "relation": "ADV",
+        "lemma": "πολύς",
+        "tag": "a-s---ng-"
+      },
+      {
+        "id": 12,
+        "value": "ποιούμενος",
+        "head_id": 38,
+        "relation": "ADV",
+        "lemma": "ποιόω",
+        "tag": "v-sppemn-"
+      },
+      {
+        "id": 13,
+        "value": "μηδενὶ",
+        "head_id": 14,
+        "relation": "ATR",
+        "lemma": "μηδείς",
+        "tag": "a-s---fd_"
+      },
+      {
+        "id": 14,
+        "value": "δόξαι",
+        "head_id": 15,
+        "relation": "OBJ",
+        "lemma": "δόξα",
+        "tag": "n-s---fd-"
+      },
+      {
+        "id": 15,
+        "value": "ὑβρίζειν",
+        "head_id": 16,
+        "relation": "OBJ",
+        "lemma": "ὑβρίζω",
+        "tag": "v--pna---"
+      },
+      {
+        "id": 16,
+        "value": "βούλεσθαι",
+        "head_id": 12,
+        "relation": "OBJ",
+        "lemma": "βούλομαι",
+        "tag": "v--pne---"
+      },
+      {
+        "id": 17,
+        "value": "μᾶλλον",
+        "head_id": 15,
+        "relation": "ADV",
+        "lemma": "μᾶλλον",
+        "tag": "d--------"
+      },
+      {
+        "id": 18,
+        "value": "ἢ",
+        "head_id": 17,
+        "relation": "AuxC",
+        "lemma": "ἤ1",
+        "tag": "c--------"
+      },
+      {
+        "id": 19,
+        "value": "δίκην",
+        "head_id": 20,
+        "relation": "OBJ",
+        "lemma": "δίκη",
+        "tag": "n-s---fa-"
+      },
+      {
+        "id": 20,
+        "value": "λαβεῖν",
+        "head_id": 18,
+        "relation": "ADV",
+        "lemma": "λαμβάνω",
+        "tag": "v--ana---"
+      },
+      {
+        "id": 21,
+        "value": "ὧν",
+        "head_id": 22,
+        "relation": "OBJ",
+        "lemma": "ὅς",
+        "tag": "p-p---ng-"
+      },
+      {
+        "id": 22,
+        "value": "ἠδικήθην",
+        "head_id": 19,
+        "relation": "ATR",
+        "lemma": "ἀδικέω",
+        "tag": "v1saip---"
+      },
+      {
+        "id": 23,
+        "value": ",",
+        "head_id": 0,
+        "relation": "AuxX",
+        "lemma": "punc1",
+        "tag": "u--------",
+        "original_head_id": 0
+      },
+      {
+        "id": 24,
+        "value": "πρῶτον",
+        "head_id": 38,
+        "relation": "ADV",
+        "lemma": "πρῶτος",
+        "tag": "a-s---na-"
+      },
+      {
+        "id": 25,
+        "value": "μὲν",
+        "head_id": 38,
+        "relation": "AuxY",
+        "lemma": "μέν",
+        "tag": "d--------"
+      },
+      {
+        "id": 26,
+        "value": "Εὐθύκριτον",
+        "head_id": 38,
+        "relation": "OBJ",
+        "lemma": "Εὐθύκριτος",
+        "tag": "n-s---ma-"
+      },
+      {
+        "id": 27,
+        "value": ",",
+        "head_id": 0,
+        "relation": "AuxX",
+        "lemma": "punc1",
+        "tag": "u--------",
+        "original_head_id": 0
+      },
+      {
+        "id": 28,
+        "value": "ὃν",
+        "head_id": 32,
+        "relation": "OBJ",
+        "lemma": "ὅς",
+        "tag": "p-s---ma-"
+      },
+      {
+        "id": 29,
+        "value": "πρεσβύτατόν",
+        "head_id": 32,
+        "relation": "OCOMP",
+        "lemma": "πρέσβυς",
+        "tag": "a-s---mas"
+      },
+      {
+        "id": 30,
+        "value": "τε",
+        "head_id": 33,
+        "relation": "AuxY",
+        "lemma": "τε",
+        "tag": "d--------"
+      },
+      {
+        "id": 31,
+        "value": "Πλαταιέων",
+        "head_id": 29,
+        "relation": "ATR",
+        "lemma": "Πλαταιεύς",
+        "tag": "n-p---mg-"
+      },
+      {
+        "id": 32,
+        "value": "ἐγίγνωσκον",
+        "head_id": 33,
+        "relation": "ATR_CO",
+        "lemma": "γιγνώσκω",
+        "tag": "v1siia---"
+      },
+      {
+        "id": 33,
+        "value": "καὶ",
+        "head_id": 26,
+        "relation": "COORD",
+        "lemma": "καί",
+        "tag": "c--------"
+      },
+      {
+        "id": 34,
+        "value": "μάλιστα",
+        "head_id": 35,
+        "relation": "ADV",
+        "lemma": "μάλιστα",
+        "tag": "d--------"
+      },
+      {
+        "id": 35,
+        "value": "ὠόμην",
+        "head_id": 33,
+        "relation": "ATR_CO",
+        "lemma": "οἴομαι",
+        "tag": "v1siie---"
+      },
+      {
+        "id": 36,
+        "value": "εἰδέναι",
+        "head_id": 35,
+        "relation": "OBJ",
+        "lemma": "οἶδα",
+        "tag": "v--rna---"
+      },
+      {
+        "id": 37,
+        "value": ",",
+        "head_id": 0,
+        "relation": "AuxX",
+        "lemma": "punc1",
+        "tag": "u--------",
+        "original_head_id": 0
+      },
+      {
+        "id": 38,
+        "value": "ἠρόμην",
+        "head_id": 0,
+        "relation": "PRED",
+        "lemma": "ἔρομαι",
+        "tag": "v1saim---",
+        "original_head_id": 0
+      },
+      {
+        "id": 39,
+        "value": "εἴ",
+        "head_id": 38,
+        "relation": "AuxC",
+        "lemma": "εἰ",
+        "tag": "c--------"
+      },
+      {
+        "id": 40,
+        "value": "τινα",
+        "head_id": 44,
+        "relation": "ATR",
+        "lemma": "τις",
+        "tag": "a-s---ma_"
+      },
+      {
+        "id": 41,
+        "value": "γιγνώσκοι",
+        "head_id": 39,
+        "relation": "OBJ",
+        "lemma": "γιγνώσκω",
+        "tag": "v3spoa---"
+      },
+      {
+        "id": 42,
+        "value": "Ἱππαρμοδώρου",
+        "head_id": 43,
+        "relation": "ATR",
+        "lemma": "Ἱππαρμόδωρος",
+        "tag": "n-s---mg-"
+      },
+      {
+        "id": 43,
+        "value": "ὑὸν",
+        "head_id": 44,
+        "relation": "ATR",
+        "lemma": "υἱός",
+        "tag": "n-s---ma-"
+      },
+      {
+        "id": 44,
+        "value": "Παγκλέωνα",
+        "head_id": 41,
+        "relation": "OBJ",
+        "lemma": "Παγκλέων",
+        "tag": "n-s---ma-"
+      },
+      {
+        "id": 45,
+        "value": "Πλαταιέα",
+        "head_id": 44,
+        "relation": "ATR",
+        "lemma": "Πλαταιεύς",
+        "tag": "n-s---ma-"
+      },
+      {
+        "id": 46,
+        "value": "·",
+        "head_id": 0,
+        "relation": "AuxK",
+        "lemma": "punc1",
+        "tag": "u--------",
+        "original_head_id": 0
+      }
+    ],
+    "references": [
+      "urn:cts:greekLit:tlg0540.tlg023.perseus-grc1-vgorman1-trees:11"
+    ],
+    "citation": "5 (11)"
+  },
+  {
+    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg0540-tlg023-grc-12",
+    "treebank_id": "12",
+    "words": [
+      {
+        "id": 1,
+        "value": "ἔπειτα",
+        "head_id": 28,
+        "relation": "AuxY",
+        "lemma": "ἔπειτα",
+        "tag": "d--------"
+      },
+      {
+        "id": 2,
+        "value": "δέ",
+        "head_id": 28,
+        "relation": "AuxY",
+        "lemma": "δέ",
+        "tag": "d--------"
+      },
+      {
+        "id": 3,
+        "value": ",",
+        "head_id": 0,
+        "relation": "AuxX",
+        "lemma": "punc1",
+        "tag": "u--------",
+        "original_head_id": 0
+      },
+      {
+        "id": 4,
+        "value": "ἐπειδὴ",
+        "head_id": 28,
+        "relation": "AuxC",
+        "lemma": "ἐπεί",
+        "tag": "c--------"
+      },
+      {
+        "id": 5,
+        "value": "ἐκεῖνος",
+        "head_id": 6,
+        "relation": "SBJ",
+        "lemma": "ἐκεῖνος",
+        "tag": "p-s---mn-"
+      },
+      {
+        "id": 6,
+        "value": "ἀπεκρίνατό",
+        "head_id": 4,
+        "relation": "ADV",
+        "lemma": "ἀποκρίνω",
+        "tag": "v3saim---"
+      },
+      {
+        "id": 7,
+        "value": "μοι",
+        "head_id": 6,
+        "relation": "OBJ",
+        "lemma": "ἐγώ",
+        "tag": "p1s---md-"
+      },
+      {
+        "id": 8,
+        "value": "ὅτι",
+        "head_id": 6,
+        "relation": "AuxC",
+        "lemma": "ὅτι2",
+        "tag": "c--------"
+      },
+      {
+        "id": 9,
+        "value": "τὸν",
+        "head_id": 10,
+        "relation": "ATR",
+        "lemma": "ὁ",
+        "tag": "l-s---ma-"
+      },
+      {
+        "id": 10,
+        "value": "Ἱππαρμόδωρον",
+        "head_id": 12,
+        "relation": "OBJ",
+        "lemma": "Ἱππαρμόδωρος",
+        "tag": "n-s---ma-"
+      },
+      {
+        "id": 11,
+        "value": "μὲν",
+        "head_id": 15,
+        "relation": "AuxY",
+        "lemma": "μέν",
+        "tag": "d--------"
+      },
+      {
+        "id": 12,
+        "value": "γιγνώσκοι",
+        "head_id": 15,
+        "relation": "OBJ_CO",
+        "lemma": "γιγνώσκω",
+        "tag": "v3spoa---"
+      },
+      {
+        "id": 13,
+        "value": ",",
+        "head_id": 0,
+        "relation": "AuxX",
+        "lemma": "punc1",
+        "tag": "u--------",
+        "original_head_id": 0
+      },
+      {
+        "id": 14,
+        "value": "ὑὸν",
+        "head_id": 26,
+        "relation": "SBJ",
+        "lemma": "υἱός",
+        "tag": "n-s---ma-"
+      },
+      {
+        "id": 15,
+        "value": "δὲ",
+        "head_id": 8,
+        "relation": "COORD",
+        "lemma": "δέ",
+        "tag": "c--------"
+      },
+      {
+        "id": 16,
+        "value": "ἐκείνῳ",
+        "head_id": 26,
+        "relation": "PNOM",
+        "lemma": "ἐκεῖνος",
+        "tag": "p-s---md-"
+      },
+      {
+        "id": 17,
+        "value": "οὐδένα",
+        "head_id": 14,
+        "relation": "ATR",
+        "lemma": "οὐδείς",
+        "tag": "a-s---ma_"
+      },
+      {
+        "id": 18,
+        "value": "οὔ",
+        "head_id": 20,
+        "relation": "AuxZ",
+        "lemma": "οὐ",
+        "tag": "d--------"
+      },
+      {
+        "id": 19,
+        "value": "-τε",
+        "head_id": 22,
+        "relation": "AuxY",
+        "lemma": "τε",
+        "tag": "d--------"
+      },
+      {
+        "id": 20,
+        "value": "Παγκλέωνα",
+        "head_id": 22,
+        "relation": "ATR_CO",
+        "lemma": "Παγκλέων",
+        "tag": "n-s---ma-"
+      },
+      {
+        "id": 21,
+        "value": "οὔ",
+        "head_id": 24,
+        "relation": "AuxZ",
+        "lemma": "οὐ",
+        "tag": "d--------"
+      },
+      {
+        "id": 22,
+        "value": "-τε",
+        "head_id": 14,
+        "relation": "COORD",
+        "lemma": "τε",
+        "tag": "c--------"
+      },
+      {
+        "id": 23,
+        "value": "ἄλλον",
+        "head_id": 24,
+        "relation": "ATR",
+        "lemma": "ἄλλος",
+        "tag": "a-s---ma_"
+      },
+      {
+        "id": 24,
+        "value": "οὐδένα",
+        "head_id": 22,
+        "relation": "ATR_CO",
+        "lemma": "οὐδείς",
+        "tag": "p-s---ma-"
+      },
+      {
+        "id": 25,
+        "value": "εἰδείη",
+        "head_id": 15,
+        "relation": "OBJ_CO",
+        "lemma": "οἶδα",
+        "tag": "v3sroa---"
+      },
+      {
+        "id": 26,
+        "value": "ὄντα",
+        "head_id": 25,
+        "relation": "OBJ",
+        "lemma": "εἰμί",
+        "tag": "v-sppama-"
+      },
+      {
+        "id": 27,
+        "value": ",",
+        "head_id": 0,
+        "relation": "AuxX",
+        "lemma": "punc1",
+        "tag": "u--------",
+        "original_head_id": 0
+      },
+      {
+        "id": 28,
+        "value": "ἠρώτων",
+        "head_id": 0,
+        "relation": "PRED",
+        "lemma": "ἐρωτάω",
+        "tag": "v1siia---",
+        "original_head_id": 0
+      },
+      {
+        "id": 29,
+        "value": "δὴ",
+        "head_id": 28,
+        "relation": "AuxZ",
+        "lemma": "δή",
+        "tag": "d--------"
+      },
+      {
+        "id": 30,
+        "value": "καὶ",
+        "head_id": 32,
+        "relation": "AuxZ",
+        "lemma": "καί",
+        "tag": "d--------"
+      },
+      {
+        "id": 31,
+        "value": "τῶν",
+        "head_id": 32,
+        "relation": "ATR",
+        "lemma": "ὁ",
+        "tag": "l-p---mg-"
+      },
+      {
+        "id": 32,
+        "value": "ἄλλων",
+        "head_id": 28,
+        "relation": "OBJ",
+        "lemma": "ἄλλος",
+        "tag": "p-p---mg-"
+      },
+      {
+        "id": 33,
+        "value": "ὅσους",
+        "head_id": 36,
+        "relation": "SBJ",
+        "lemma": "ὅσος",
+        "tag": "a-p---ma-"
+      },
+      {
+        "id": 34,
+        "value": "ᾔδη",
+        "head_id": 32,
+        "relation": "ATR",
+        "lemma": "οἶδα",
+        "tag": "v1slia---"
+      },
+      {
+        "id": 35,
+        "value": "Πλαταιέας",
+        "head_id": 36,
+        "relation": "PNOM",
+        "lemma": "Πλαταιεύς",
+        "tag": "n-p---ma-"
+      },
+      {
+        "id": 36,
+        "value": "ὄντας",
+        "head_id": 34,
+        "relation": "OBJ",
+        "lemma": "εἰμί",
+        "tag": "v-pppama-"
+      },
+      {
+        "id": 37,
+        "value": ".",
+        "head_id": 0,
+        "relation": "AuxK",
+        "lemma": "punc1",
+        "tag": "u--------",
+        "original_head_id": 0
+      }
+    ],
+    "references": [
+      "urn:cts:greekLit:tlg0540.tlg023.perseus-grc1-vgorman1-trees:12"
+    ],
+    "citation": "6 (12)"
+  },
+  {
+    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg0540-tlg023-grc-13",
+    "treebank_id": "13",
+    "words": [
+      {
+        "id": 1,
+        "value": "πάντες",
+        "head_id": 10,
+        "relation": "SBJ",
+        "lemma": "πᾶς",
+        "tag": "a-p---mn-"
+      },
+      {
+        "id": 2,
+        "value": "οὖν",
+        "head_id": 10,
+        "relation": "AuxY",
+        "lemma": "οὖν",
+        "tag": "d--------"
+      },
+      {
+        "id": 3,
+        "value": "ἀγνοοῦντες",
+        "head_id": 10,
+        "relation": "ADV",
+        "lemma": "ἀγνοέω",
+        "tag": "v-pppamn-"
+      },
+      {
+        "id": 4,
+        "value": "τὸ",
+        "head_id": 5,
+        "relation": "ATR",
+        "lemma": "ὁ",
+        "tag": "l-s---na-"
+      },
+      {
+        "id": 5,
+        "value": "ὄνομα",
+        "head_id": 3,
+        "relation": "OBJ",
+        "lemma": "ὄνομα",
+        "tag": "n-s---na-"
+      },
+      {
+        "id": 6,
+        "value": "αὐτοῦ",
+        "head_id": 5,
+        "relation": "ATR",
+        "lemma": "αὐτός",
+        "tag": "p-s---mg-"
+      },
+      {
+        "id": 7,
+        "value": ",",
+        "head_id": 0,
+        "relation": "AuxX",
+        "lemma": "punc1",
+        "tag": "u--------",
+        "original_head_id": 0
+      },
+      {
+        "id": 8,
+        "value": "ἀκριβέστατα",
+        "head_id": 12,
+        "relation": "OBJ",
+        "lemma": "ἀκριβής",
+        "tag": "a-p---nas"
+      },
+      {
+        "id": 9,
+        "value": "ἂν",
+        "head_id": 12,
+        "relation": "AuxY",
+        "lemma": "ἄν1",
+        "tag": "d--------"
+      },
+      {
+        "id": 10,
+        "value": "ἔφασάν",
+        "head_id": 0,
+        "relation": "PRED",
+        "lemma": "φημί",
+        "tag": "v3paia---",
+        "original_head_id": 0
+      },
+      {
+        "id": 11,
+        "value": "με",
+        "head_id": 12,
+        "relation": "SBJ",
+        "lemma": "ἐγώ",
+        "tag": "p1s---ma-"
+      },
+      {
+        "id": 12,
+        "value": "πυθέσθαι",
+        "head_id": 10,
+        "relation": "OBJ",
+        "lemma": "πυνθάνομαι",
+        "tag": "v--anm---"
+      },
+      {
+        "id": 13,
+        "value": "ἐλθόντα",
+        "head_id": 12,
+        "relation": "ADV",
+        "lemma": "ἔρχομαι",
+        "tag": "v-sapama-"
+      },
+      {
+        "id": 14,
+        "value": "εἰς",
+        "head_id": 13,
+        "relation": "AuxP",
+        "lemma": "εἰς",
+        "tag": "r--------"
+      },
+      {
+        "id": 15,
+        "value": "τὸν",
+        "head_id": 17,
+        "relation": "ATR",
+        "lemma": "ὁ",
+        "tag": "l-s---ma-"
+      },
+      {
+        "id": 16,
+        "value": "χλωρὸν",
+        "head_id": 17,
+        "relation": "ATR",
+        "lemma": "χλωρός",
+        "tag": "a-s---ma-"
+      },
+      {
+        "id": 17,
+        "value": "τυρὸν",
+        "head_id": 14,
+        "relation": "OBJ",
+        "lemma": "τυρός",
+        "tag": "n-s---ma-"
+      },
+      {
+        "id": 18,
+        "value": "τῇ",
+        "head_id": 19,
+        "relation": "ATR",
+        "lemma": "ὁ",
+        "tag": "l-s---fd-"
+      },
+      {
+        "id": 19,
+        "value": "ἕνῃ",
+        "head_id": 20,
+        "relation": "ADV_CO",
+        "lemma": "ἕνος",
+        "tag": "a-s---fd-"
+      },
+      {
+        "id": 20,
+        "value": "καὶ",
+        "head_id": 13,
+        "relation": "COORD",
+        "lemma": "καί",
+        "tag": "c--------"
+      },
+      {
+        "id": 21,
+        "value": "νέᾳ",
+        "head_id": 20,
+        "relation": "ADV_CO",
+        "lemma": "νέος",
+        "tag": "a-s---fd-"
+      },
+      {
+        "id": 22,
+        "value": "·",
+        "head_id": 0,
+        "relation": "AuxK",
+        "lemma": "punc1",
+        "tag": "u--------",
+        "original_head_id": 0
+      }
+    ],
+    "references": [
+      "urn:cts:greekLit:tlg0540.tlg023.perseus-grc1-vgorman1-trees:13"
+    ],
+    "citation": "6 (13)"
+  },
+  {
+    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg0540-tlg023-grc-14",
+    "treebank_id": "14",
+    "words": [
+      {
+        "id": 1,
+        "value": "ταύτῃ",
+        "head_id": 4,
+        "relation": "ATR",
+        "lemma": "οὗτος",
+        "tag": "a-s---fd_"
+      },
+      {
+        "id": 2,
+        "value": "γὰρ",
+        "head_id": 9,
+        "relation": "AuxY",
+        "lemma": "γάρ",
+        "tag": "d--------"
+      },
+      {
+        "id": 3,
+        "value": "τῇ",
+        "head_id": 4,
+        "relation": "ATR",
+        "lemma": "ὁ",
+        "tag": "l-s---fd-"
+      },
+      {
+        "id": 4,
+        "value": "ἡμέρᾳ",
+        "head_id": 9,
+        "relation": "ADV",
+        "lemma": "ἡμέρα",
+        "tag": "n-s---fd-"
+      },
+      {
+        "id": 5,
+        "value": "τοῦ",
+        "head_id": 6,
+        "relation": "ATR",
+        "lemma": "ὁ",
+        "tag": "l-s---mg-"
+      },
+      {
+        "id": 6,
+        "value": "μηνὸς",
+        "head_id": 4,
+        "relation": "ATR",
+        "lemma": "μείς",
+        "tag": "n-s---mg-"
+      },
+      {
+        "id": 7,
+        "value": "ἑκάστου",
+        "head_id": 6,
+        "relation": "ATR",
+        "lemma": "ἕκαστος",
+        "tag": "a-s---mg-"
+      },
+      {
+        "id": 8,
+        "value": "ἐκεῖσε",
+        "head_id": 9,
+        "relation": "ADV",
+        "lemma": "ἐκεῖσε",
+        "tag": "d--------"
+      },
+      {
+        "id": 9,
+        "value": "συλλέγεσθαι",
+        "head_id": 13,
+        "relation": "OBJ",
+        "lemma": "συλλέγω",
+        "tag": "v--pne---"
+      },
+      {
+        "id": 10,
+        "value": "τοὺς",
+        "head_id": 11,
+        "relation": "ATR",
+        "lemma": "ὁ",
+        "tag": "l-p---ma-"
+      },
+      {
+        "id": 11,
+        "value": "Πλαταιέας",
+        "head_id": 9,
+        "relation": "SBJ",
+        "lemma": "Πλαταιεύς",
+        "tag": "n-p---ma-"
+      },
+      {
+        "id": 12,
+        "value": ".",
+        "head_id": 0,
+        "relation": "AuxK",
+        "lemma": "punc1",
+        "tag": "u--------",
+        "original_head_id": 0
+      },
+      {
+        "id": 13,
+        "value": "[0]",
+        "head_id": 0,
+        "relation": "PRED",
+        "lemma": "",
+        "tag": "",
+        "original_head_id": 0
+      }
+    ],
+    "references": [
+      "urn:cts:greekLit:tlg0540.tlg023.perseus-grc1-vgorman1-trees:14"
+    ],
+    "citation": "6 (14)"
+  },
+  {
+    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg0540-tlg023-grc-15",
+    "treebank_id": "15",
+    "words": [
+      {
+        "id": 1,
+        "value": "ἐλθὼν",
+        "head_id": 9,
+        "relation": "ADV",
+        "lemma": "ἔρχομαι",
+        "tag": "v-sapamn-"
+      },
+      {
+        "id": 2,
+        "value": "οὖν",
+        "head_id": 9,
+        "relation": "AuxY",
+        "lemma": "οὖν",
+        "tag": "d--------"
+      },
+      {
+        "id": 3,
+        "value": "εἰς",
+        "head_id": 1,
+        "relation": "AuxP",
+        "lemma": "εἰς",
+        "tag": "r--------"
+      },
+      {
+        "id": 4,
+        "value": "τὸν",
+        "head_id": 5,
+        "relation": "ATR",
+        "lemma": "ὁ",
+        "tag": "l-s---ma-"
+      },
+      {
+        "id": 5,
+        "value": "τυρὸν",
+        "head_id": 3,
+        "relation": "OBJ",
+        "lemma": "τυρός",
+        "tag": "n-s---ma-"
+      },
+      {
+        "id": 6,
+        "value": "ταύτῃ",
+        "head_id": 8,
+        "relation": "ATR",
+        "lemma": "οὗτος",
+        "tag": "a-s---fd_"
+      },
+      {
+        "id": 7,
+        "value": "τῇ",
+        "head_id": 8,
+        "relation": "ATR",
+        "lemma": "ὁ",
+        "tag": "l-s---fd-"
+      },
+      {
+        "id": 8,
+        "value": "ἡμέρᾳ",
+        "head_id": 1,
+        "relation": "ADV",
+        "lemma": "ἡμέρα",
+        "tag": "n-s---fd-"
+      },
+      {
+        "id": 9,
+        "value": "ἐπυνθανόμην",
+        "head_id": 0,
+        "relation": "PRED",
+        "lemma": "πυνθάνομαι",
+        "tag": "v1siie---",
+        "original_head_id": 0
+      },
+      {
+        "id": 10,
+        "value": "αὐτῶν",
+        "head_id": 9,
+        "relation": "OBJ",
+        "lemma": "αὐτός",
+        "tag": "p-p---mg-"
+      },
+      {
+        "id": 11,
+        "value": ",",
+        "head_id": 0,
+        "relation": "AuxX",
+        "lemma": "punc1",
+        "tag": "u--------",
+        "original_head_id": 0
+      },
+      {
+        "id": 12,
+        "value": "εἴ",
+        "head_id": 9,
+        "relation": "AuxC",
+        "lemma": "εἰ",
+        "tag": "c--------"
+      },
+      {
+        "id": 13,
+        "value": "τινα",
+        "head_id": 15,
+        "relation": "ATR",
+        "lemma": "τις",
+        "tag": "a-s---ma_"
+      },
+      {
+        "id": 14,
+        "value": "γιγνώσκοιεν",
+        "head_id": 12,
+        "relation": "OBJ",
+        "lemma": "γιγνώσκω",
+        "tag": "v3ppoa---"
+      },
+      {
+        "id": 15,
+        "value": "Παγκλέωνα",
+        "head_id": 14,
+        "relation": "OBJ",
+        "lemma": "Παγκλέων",
+        "tag": "n-s---ma-"
+      },
+      {
+        "id": 16,
+        "value": "πολίτην",
+        "head_id": 15,
+        "relation": "ATR",
+        "lemma": "πολίτης",
+        "tag": "n-s---ma-"
+      },
+      {
+        "id": 17,
+        "value": "σφέτερον",
+        "head_id": 16,
+        "relation": "ATR",
+        "lemma": "σφέτερος",
+        "tag": "a-s---ma-"
+      },
+      {
+        "id": 18,
+        "value": ".",
+        "head_id": 0,
+        "relation": "AuxK",
+        "lemma": "punc1",
+        "tag": "u--------",
+        "original_head_id": 0
+      }
+    ],
+    "references": [
+      "urn:cts:greekLit:tlg0540.tlg023.perseus-grc1-vgorman1-trees:15"
+    ],
+    "citation": "7 (15)"
+  },
+  {
+    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg0540-tlg023-grc-16",
+    "treebank_id": "16",
+    "words": [
+      {
+        "id": 1,
+        "value": "καὶ",
+        "head_id": 10,
+        "relation": "AuxY",
+        "lemma": "καί",
+        "tag": "d--------"
+      },
+      {
+        "id": 2,
+        "value": "οἱ",
+        "head_id": 4,
+        "relation": "ATR",
+        "lemma": "ὁ",
+        "tag": "l-p---mn-"
+      },
+      {
+        "id": 3,
+        "value": "μὲν",
+        "head_id": 10,
+        "relation": "AuxY",
+        "lemma": "μέν",
+        "tag": "d--------"
+      },
+      {
+        "id": 4,
+        "value": "ἄλλοι",
+        "head_id": 6,
+        "relation": "SBJ",
+        "lemma": "ἄλλος",
+        "tag": "p-p---mn-"
+      },
+      {
+        "id": 5,
+        "value": "οὐκ",
+        "head_id": 7,
+        "relation": "AuxZ",
+        "lemma": "οὐ",
+        "tag": "d--------"
+      },
+      {
+        "id": 6,
+        "value": "ἔφασαν",
+        "head_id": 10,
+        "relation": "PRED_CO",
+        "lemma": "φημί",
+        "tag": "v3paia---"
+      },
+      {
+        "id": 7,
+        "value": "γιγνώσκειν",
+        "head_id": 6,
+        "relation": "OBJ",
+        "lemma": "γιγνώσκω",
+        "tag": "v--pna---"
+      },
+      {
+        "id": 8,
+        "value": ",",
+        "head_id": 0,
+        "relation": "AuxX",
+        "lemma": "punc1",
+        "tag": "u--------",
+        "original_head_id": 0
+      },
+      {
+        "id": 9,
+        "value": "εἷς",
+        "head_id": 25,
+        "relation": "SBJ",
+        "lemma": "εἷς",
+        "tag": "n-s---mn-"
+      },
+      {
+        "id": 10,
+        "value": "δέ",
+        "head_id": 0,
+        "relation": "COORD",
+        "lemma": "δέ",
+        "tag": "c--------",
+        "original_head_id": 0
+      },
+      {
+        "id": 11,
+        "value": "τις",
+        "head_id": 9,
+        "relation": "ATR",
+        "lemma": "τις",
+        "tag": "a-s---mn_"
+      },
+      {
+        "id": 12,
+        "value": "εἶπεν",
+        "head_id": 25,
+        "relation": "PRED_CO",
+        "lemma": "εἶπον",
+        "tag": "v3saia---"
+      },
+      {
+        "id": 13,
+        "value": "ὅτι",
+        "head_id": 12,
+        "relation": "AuxC",
+        "lemma": "ὅτι2",
+        "tag": "c--------"
+      },
+      {
+        "id": 14,
+        "value": "τῶν",
+        "head_id": 16,
+        "relation": "ATR",
+        "lemma": "ὁ",
+        "tag": "l-p---mg-"
+      },
+      {
+        "id": 15,
+        "value": "μὲν",
+        "head_id": 25,
+        "relation": "AuxY",
+        "lemma": "μέν",
+        "tag": "d--------"
+      },
+      {
+        "id": 16,
+        "value": "πολιτῶν",
+        "head_id": 17,
+        "relation": "ATR",
+        "lemma": "πολίτης",
+        "tag": "n-p---mg-"
+      },
+      {
+        "id": 17,
+        "value": "οὐδενὶ",
+        "head_id": 20,
+        "relation": "PNOM",
+        "lemma": "οὐδείς",
+        "tag": "p-s---md-"
+      },
+      {
+        "id": 18,
+        "value": "εἰδείη",
+        "head_id": 13,
+        "relation": "OBJ",
+        "lemma": "οἶδα",
+        "tag": "v3sroa---"
+      },
+      {
+        "id": 19,
+        "value": "τοῦτο",
+        "head_id": 22,
+        "relation": "ATR",
+        "lemma": "οὗτος",
+        "tag": "a-s---na_"
+      },
+      {
+        "id": 20,
+        "value": "ὂν",
+        "head_id": 18,
+        "relation": "OBJ",
+        "lemma": "εἰμί",
+        "tag": "v-sppana-"
+      },
+      {
+        "id": 21,
+        "value": "τὸ",
+        "head_id": 22,
+        "relation": "ATR",
+        "lemma": "ὁ",
+        "tag": "l-s---na-"
+      },
+      {
+        "id": 22,
+        "value": "ὄνομα",
+        "head_id": 20,
+        "relation": "SBJ",
+        "lemma": "ὄνομα",
+        "tag": "n-s---na-"
+      },
+      {
+        "id": 23,
+        "value": ",",
+        "head_id": 0,
+        "relation": "AuxX",
+        "lemma": "punc1",
+        "tag": "u--------",
+        "original_head_id": 0
+      },
+      {
+        "id": 24,
+        "value": "δοῦλον",
+        "head_id": 29,
+        "relation": "PNOM",
+        "lemma": "δοῦλος",
+        "tag": "n-s---ma-"
+      },
+      {
+        "id": 25,
+        "value": "μέντοι",
+        "head_id": 10,
+        "relation": "COORD",
+        "lemma": "μέντοι",
+        "tag": "c--------"
+      },
+      {
+        "id": 26,
+        "value": "ἔφη",
+        "head_id": 25,
+        "relation": "PRED_CO",
+        "lemma": "φημί",
+        "tag": "v3siia---"
+      },
+      {
+        "id": 27,
+        "value": "ἑαυτοῦ",
+        "head_id": 28,
+        "relation": "OBJ",
+        "lemma": "ἑαυτοῦ",
+        "tag": "p-s---mg-"
+      },
+      {
+        "id": 28,
+        "value": "ἀφεστῶτα",
+        "head_id": 24,
+        "relation": "ATR",
+        "lemma": "ἀφεστήξω",
+        "tag": "v-srpama-"
+      },
+      {
+        "id": 29,
+        "value": "εἶναι",
+        "head_id": 26,
+        "relation": "OBJ",
+        "lemma": "εἰμί",
+        "tag": "v--pna---"
+      },
+      {
+        "id": 30,
+        "value": "Παγκλέωνα",
+        "head_id": 29,
+        "relation": "SBJ",
+        "lemma": "Παγκλέων",
+        "tag": "n-s---ma-"
+      },
+      {
+        "id": 31,
+        "value": ",",
+        "head_id": 0,
+        "relation": "AuxX",
+        "lemma": "punc1",
+        "tag": "u--------",
+        "original_head_id": 0
+      },
+      {
+        "id": 32,
+        "value": "τήν",
+        "head_id": 34,
+        "relation": "ATR",
+        "lemma": "ὁ",
+        "tag": "l-s---fa-"
+      },
+      {
+        "id": 33,
+        "value": "τε",
+        "head_id": 38,
+        "relation": "AuxY",
+        "lemma": "τε",
+        "tag": "d--------"
+      },
+      {
+        "id": 34,
+        "value": "ἡλικίαν",
+        "head_id": 38,
+        "relation": "OBJ_CO",
+        "lemma": "ἡλικία",
+        "tag": "n-s---fa-"
+      },
+      {
+        "id": 35,
+        "value": "λέγων",
+        "head_id": 26,
+        "relation": "ADV",
+        "lemma": "λέγω3",
+        "tag": "v-sppamn-"
+      },
+      {
+        "id": 36,
+        "value": "τὴν",
+        "head_id": 37,
+        "relation": "ATR",
+        "lemma": "ὁ",
+        "tag": "l-s---fa-"
+      },
+      {
+        "id": 37,
+        "value": "τούτου",
+        "head_id": 34,
+        "relation": "ATR",
+        "lemma": "οὗτος",
+        "tag": "p-s---mg-"
+      },
+      {
+        "id": 38,
+        "value": "καὶ",
+        "head_id": 35,
+        "relation": "COORD",
+        "lemma": "καί",
+        "tag": "c--------"
+      },
+      {
+        "id": 39,
+        "value": "τὴν",
+        "head_id": 40,
+        "relation": "ATR",
+        "lemma": "ὁ",
+        "tag": "l-s---fa-"
+      },
+      {
+        "id": 40,
+        "value": "τέχνην",
+        "head_id": 38,
+        "relation": "OBJ_CO",
+        "lemma": "τέχνη",
+        "tag": "n-s---fa-"
+      },
+      {
+        "id": 41,
+        "value": "ᾗ",
+        "head_id": 43,
+        "relation": "OBJ",
+        "lemma": "ὅς",
+        "tag": "p-s---fd-"
+      },
+      {
+        "id": 42,
+        "value": "οὗτος",
+        "head_id": 43,
+        "relation": "SBJ",
+        "lemma": "οὗτος",
+        "tag": "p-s---mn-"
+      },
+      {
+        "id": 43,
+        "value": "χρῆται",
+        "head_id": 40,
+        "relation": "ATR",
+        "lemma": "χράομαι",
+        "tag": "v3spie---"
+      },
+      {
+        "id": 44,
+        "value": ".",
+        "head_id": 0,
+        "relation": "AuxK",
+        "lemma": "punc1",
+        "tag": "u--------",
+        "original_head_id": 0
+      }
+    ],
+    "references": [
+      "urn:cts:greekLit:tlg0540.tlg023.perseus-grc1-vgorman1-trees:16"
+    ],
+    "citation": "7 (16)"
+  },
+  {
+    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg0540-tlg023-grc-17",
+    "treebank_id": "17",
+    "words": [
+      {
+        "id": 1,
+        "value": "ταῦτʼ",
+        "head_id": 5,
+        "relation": "SBJ",
+        "lemma": "οὗτος",
+        "tag": "p-p---nn-"
+      },
+      {
+        "id": 2,
+        "value": "οὖν",
+        "head_id": 31,
+        "relation": "AuxY",
+        "lemma": "οὖν",
+        "tag": "d--------"
+      },
+      {
+        "id": 3,
+        "value": "ὡς",
+        "head_id": 31,
+        "relation": "AuxC",
+        "lemma": "ὡς",
+        "tag": "c--------"
+      },
+      {
+        "id": 4,
+        "value": "ἀληθῆ",
+        "head_id": 5,
+        "relation": "PNOM",
+        "lemma": "ἀληθής",
+        "tag": "a-p---nn-"
+      },
+      {
+        "id": 5,
+        "value": "ἐστι",
+        "head_id": 3,
+        "relation": "ADV",
+        "lemma": "εἰμί",
+        "tag": "v3spia---"
+      },
+      {
+        "id": 6,
+        "value": ",",
+        "head_id": 0,
+        "relation": "AuxX",
+        "lemma": "punc1",
+        "tag": "u--------",
+        "original_head_id": 0
+      },
+      {
+        "id": 7,
+        "value": "τόν",
+        "head_id": 9,
+        "relation": "ATR",
+        "lemma": "ὁ",
+        "tag": "l-s---ma-"
+      },
+      {
+        "id": 8,
+        "value": "τε",
+        "head_id": 22,
+        "relation": "AuxY",
+        "lemma": "τε",
+        "tag": "d--------"
+      },
+      {
+        "id": 9,
+        "value": "Εὐθύκριτον",
+        "head_id": 22,
+        "relation": "OBJ_AP_CO",
+        "lemma": "Εὐθύκριτος",
+        "tag": "n-s---ma-"
+      },
+      {
+        "id": 10,
+        "value": ",",
+        "head_id": 0,
+        "relation": "AuxX",
+        "lemma": "punc1",
+        "tag": "u--------",
+        "original_head_id": 0
+      },
+      {
+        "id": 11,
+        "value": "ὃν",
+        "head_id": 13,
+        "relation": "OBJ",
+        "lemma": "ὅς",
+        "tag": "p-s---ma-"
+      },
+      {
+        "id": 12,
+        "value": "πρῶτον",
+        "head_id": 13,
+        "relation": "ADV",
+        "lemma": "πρῶτος",
+        "tag": "a-s---na-"
+      },
+      {
+        "id": 13,
+        "value": "ἠρόμην",
+        "head_id": 9,
+        "relation": "ATR",
+        "lemma": "ἔρομαι",
+        "tag": "v1saim---"
+      },
+      {
+        "id": 14,
+        "value": ",",
+        "head_id": 0,
+        "relation": "AuxX",
+        "lemma": "punc1",
+        "tag": "u--------",
+        "original_head_id": 0
+      },
+      {
+        "id": 15,
+        "value": "καὶ",
+        "head_id": 22,
+        "relation": "AuxY",
+        "lemma": "καί",
+        "tag": "d--------"
+      },
+      {
+        "id": 16,
+        "value": "τῶν",
+        "head_id": 18,
+        "relation": "ATR",
+        "lemma": "ὁ",
+        "tag": "l-p---mg-"
+      },
+      {
+        "id": 17,
+        "value": "ἄλλων",
+        "head_id": 18,
+        "relation": "ATR",
+        "lemma": "ἄλλος",
+        "tag": "a-p---mg_"
+      },
+      {
+        "id": 18,
+        "value": "Πλαταιέων",
+        "head_id": 33,
+        "relation": "ATR",
+        "lemma": "Πλαταιεύς",
+        "tag": "n-p---mg-"
+      },
+      {
+        "id": 19,
+        "value": "ὅσοις",
+        "head_id": 20,
+        "relation": "OBJ",
+        "lemma": "ὅσος",
+        "tag": "a-p---md-"
+      },
+      {
+        "id": 20,
+        "value": "προσῆλθον",
+        "head_id": 33,
+        "relation": "ATR",
+        "lemma": "προσέρχομαι",
+        "tag": "v1saia---"
+      },
+      {
+        "id": 21,
+        "value": ",",
+        "head_id": 0,
+        "relation": "AuxX",
+        "lemma": "punc1",
+        "tag": "u--------",
+        "original_head_id": 0
+      },
+      {
+        "id": 22,
+        "value": "καὶ",
+        "head_id": 29,
+        "relation": "COORD",
+        "lemma": "καί",
+        "tag": "c--------"
+      },
+      {
+        "id": 23,
+        "value": "τὸν",
+        "head_id": 22,
+        "relation": "OBJ_AP_CO",
+        "lemma": "ὁ",
+        "tag": "l-s---ma-"
+      },
+      {
+        "id": 24,
+        "value": "ὃς",
+        "head_id": 25,
+        "relation": "SBJ",
+        "lemma": "ὅς",
+        "tag": "p-s---mn-"
+      },
+      {
+        "id": 25,
+        "value": "ἔφη",
+        "head_id": 23,
+        "relation": "ATR",
+        "lemma": "φημί",
+        "tag": "v3siia---"
+      },
+      {
+        "id": 26,
+        "value": "δεσπότης",
+        "head_id": 28,
+        "relation": "PNOM",
+        "lemma": "δεσπότης",
+        "tag": "n-s---mn-"
+      },
+      {
+        "id": 27,
+        "value": "τούτου",
+        "head_id": 26,
+        "relation": "ATR",
+        "lemma": "οὗτος",
+        "tag": "p-s---mg-"
+      },
+      {
+        "id": 28,
+        "value": "εἶναι",
+        "head_id": 25,
+        "relation": "OBJ",
+        "lemma": "εἰμί",
+        "tag": "v--pna---"
+      },
+      {
+        "id": 29,
+        "value": ",",
+        "head_id": 31,
+        "relation": "APOS",
+        "lemma": "punc1",
+        "tag": "u--------"
+      },
+      {
+        "id": 30,
+        "value": "μάρτυρας",
+        "head_id": 29,
+        "relation": "OBJ_AP",
+        "lemma": "μάρτυς",
+        "tag": "n-p---ma-"
+      },
+      {
+        "id": 31,
+        "value": "παρέξομαι",
+        "head_id": 0,
+        "relation": "PRED",
+        "lemma": "παρέχω",
+        "tag": "v1sfim---",
+        "original_head_id": 0
+      },
+      {
+        "id": 32,
+        "value": ".",
+        "head_id": 0,
+        "relation": "AuxK",
+        "lemma": "punc1",
+        "tag": "u--------",
+        "original_head_id": 0
+      },
+      {
+        "id": 33,
+        "value": "[0]",
+        "head_id": 22,
+        "relation": "OBJ_AP_CO",
+        "lemma": "",
+        "tag": ""
+      }
+    ],
+    "references": [
+      "urn:cts:greekLit:tlg0540.tlg023.perseus-grc1-vgorman1-trees:17"
+    ],
+    "citation": "8 (17)"
+  },
+  {
+    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg0540-tlg023-grc-18",
+    "treebank_id": "18",
+    "words": [
+      {
+        "id": 1,
+        "value": "καί",
+        "head_id": 3,
+        "relation": "AuxY",
+        "lemma": "καί",
+        "tag": "d-------_"
+      },
+      {
+        "id": 2,
+        "value": "μοι",
+        "head_id": 3,
+        "relation": "ADV",
+        "lemma": "ἐγώ",
+        "tag": "p1s---md-"
+      },
+      {
+        "id": 3,
+        "value": "ἐπίλαβε",
+        "head_id": 0,
+        "relation": "PRED",
+        "lemma": "ἐπιλαμβάνω",
+        "tag": "v2sama---",
+        "original_head_id": 0
+      },
+      {
+        "id": 4,
+        "value": "τὸ",
+        "head_id": 5,
+        "relation": "ATR",
+        "lemma": "ὁ",
+        "tag": "l-s---na-"
+      },
+      {
+        "id": 5,
+        "value": "ὕδωρ",
+        "head_id": 3,
+        "relation": "OBJ",
+        "lemma": "ὕδωρ",
+        "tag": "n-s---na-"
+      },
+      {
+        "id": 6,
+        "value": ".",
+        "head_id": 0,
+        "relation": "AuxK",
+        "lemma": "punc1",
+        "tag": "u--------",
+        "original_head_id": 0
+      }
+    ],
+    "references": [
+      "urn:cts:greekLit:tlg0540.tlg023.perseus-grc1-vgorman1-trees:18"
+    ],
+    "citation": "8 (18)"
+  },
+  {
+    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg0540-tlg023-grc-19",
+    "treebank_id": "19",
+    "words": [
+      {
+        "id": 1,
+        "value": "Μάρτυρες",
+        "head_id": 0,
+        "relation": "ExD",
+        "lemma": "μάρτυς",
+        "tag": "n-p---mn-",
+        "original_head_id": 0
+      }
+    ],
+    "references": [
+      "urn:cts:greekLit:tlg0540.tlg023.perseus-grc1-vgorman1-trees:19"
+    ],
+    "citation": "8 (19)"
+  },
+  {
+    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg0540-tlg023-grc-20",
+    "treebank_id": "20",
+    "words": [
+      {
+        "id": 1,
+        "value": "ἡμέραις",
+        "head_id": 7,
+        "relation": "ADV",
+        "lemma": "ἡμέρα",
+        "tag": "n-p---fd-"
+      },
+      {
+        "id": 2,
+        "value": "τοίνυν",
+        "head_id": 21,
+        "relation": "AuxY",
+        "lemma": "τοίνυν",
+        "tag": "d--------"
+      },
+      {
+        "id": 3,
+        "value": "μετὰ",
+        "head_id": 21,
+        "relation": "AuxP",
+        "lemma": "μετά",
+        "tag": "r--------"
+      },
+      {
+        "id": 4,
+        "value": "ταῦτα",
+        "head_id": 3,
+        "relation": "ADV",
+        "lemma": "οὗτος",
+        "tag": "p-p---na-"
+      },
+      {
+        "id": 5,
+        "value": "οὐ",
+        "head_id": 6,
+        "relation": "AuxZ",
+        "lemma": "οὐ",
+        "tag": "d--------"
+      },
+      {
+        "id": 6,
+        "value": "πολλαῖς",
+        "head_id": 1,
+        "relation": "ATR",
+        "lemma": "πολύς",
+        "tag": "a-p---fd-"
+      },
+      {
+        "id": 7,
+        "value": "ὕστερον",
+        "head_id": 21,
+        "relation": "ADV",
+        "lemma": "ὕστερος",
+        "tag": "a-s---na-"
+      },
+      {
+        "id": 8,
+        "value": "ἰδὼν",
+        "head_id": 21,
+        "relation": "ADV",
+        "lemma": "εἶδον",
+        "tag": "v-sapamn-"
+      },
+      {
+        "id": 9,
+        "value": "ἀγόμενον",
+        "head_id": 8,
+        "relation": "OBJ",
+        "lemma": "ἄγω",
+        "tag": "v-sppema-"
+      },
+      {
+        "id": 10,
+        "value": "τουτονὶ",
+        "head_id": 11,
+        "relation": "ATR",
+        "lemma": "οὗτος",
+        "tag": "a-s---ma_"
+      },
+      {
+        "id": 11,
+        "value": "Παγκλέωνα",
+        "head_id": 9,
+        "relation": "SBJ",
+        "lemma": "Παγκλέων",
+        "tag": "n-s---ma-"
+      },
+      {
+        "id": 12,
+        "value": "ὑπὸ",
+        "head_id": 9,
+        "relation": "AuxP",
+        "lemma": "ὑπό",
+        "tag": "r--------"
+      },
+      {
+        "id": 13,
+        "value": "Νικομήδους",
+        "head_id": 12,
+        "relation": "OBJ",
+        "lemma": "Νικομήδης",
+        "tag": "n-s---mg-"
+      },
+      {
+        "id": 14,
+        "value": ",",
+        "head_id": 0,
+        "relation": "AuxX",
+        "lemma": "punc1",
+        "tag": "u--------",
+        "original_head_id": 0
+      },
+      {
+        "id": 15,
+        "value": "ὃς",
+        "head_id": 16,
+        "relation": "SBJ",
+        "lemma": "ὅς",
+        "tag": "p-s---mn-"
+      },
+      {
+        "id": 16,
+        "value": "ἐμαρτύρησεν",
+        "head_id": 13,
+        "relation": "ATR",
+        "lemma": "μαρτυρέω",
+        "tag": "v3saia---"
+      },
+      {
+        "id": 17,
+        "value": "αὐτοῦ",
+        "head_id": 18,
+        "relation": "ATR",
+        "lemma": "αὐτός",
+        "tag": "p-s---mg-"
+      },
+      {
+        "id": 18,
+        "value": "δεσπότης",
+        "head_id": 19,
+        "relation": "PNOM",
+        "lemma": "δεσπότης",
+        "tag": "n-s---mn-"
+      },
+      {
+        "id": 19,
+        "value": "εἶναι",
+        "head_id": 16,
+        "relation": "OBJ",
+        "lemma": "εἰμί",
+        "tag": "v--pna---"
+      },
+      {
+        "id": 20,
+        "value": ",",
+        "head_id": 0,
+        "relation": "AuxX",
+        "lemma": "punc1",
+        "tag": "u--------",
+        "original_head_id": 0
+      },
+      {
+        "id": 21,
+        "value": "προσῆλθον",
+        "head_id": 0,
+        "relation": "PRED",
+        "lemma": "προσέρχομαι",
+        "tag": "v1saia---",
+        "original_head_id": 0
+      },
+      {
+        "id": 22,
+        "value": "βουλόμενος",
+        "head_id": 21,
+        "relation": "ADV",
+        "lemma": "βούλομαι",
+        "tag": "v-sppemn-"
+      },
+      {
+        "id": 23,
+        "value": "εἰδέναι",
+        "head_id": 22,
+        "relation": "OBJ",
+        "lemma": "οἶδα",
+        "tag": "v--rna---"
+      },
+      {
+        "id": 24,
+        "value": "ὁποῖόν",
+        "head_id": 25,
+        "relation": "ATR",
+        "lemma": "ὁποῖος",
+        "tag": "a-s---nn-"
+      },
+      {
+        "id": 25,
+        "value": "τι",
+        "head_id": 28,
+        "relation": "SBJ",
+        "lemma": "τις",
+        "tag": "p-s---nn-"
+      },
+      {
+        "id": 26,
+        "value": "περὶ",
+        "head_id": 28,
+        "relation": "AuxP",
+        "lemma": "περί",
+        "tag": "r--------"
+      },
+      {
+        "id": 27,
+        "value": "αὐτοῦ",
+        "head_id": 26,
+        "relation": "ADV",
+        "lemma": "αὐτός",
+        "tag": "p-s---mg-"
+      },
+      {
+        "id": 28,
+        "value": "πραχθήσοιτο",
+        "head_id": 23,
+        "relation": "OBJ",
+        "lemma": "πράσσω",
+        "tag": "v3sfop---"
+      },
+      {
+        "id": 29,
+        "value": ".",
+        "head_id": 0,
+        "relation": "AuxK",
+        "lemma": "punc1",
+        "tag": "u--------",
+        "original_head_id": 0
+      }
+    ],
+    "references": [
+      "urn:cts:greekLit:tlg0540.tlg023.perseus-grc1-vgorman1-trees:20"
+    ],
+    "citation": "9 (20)"
+  },
+  {
+    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg0540-tlg023-grc-21",
+    "treebank_id": "21",
+    "words": [
+      {
+        "id": 1,
+        "value": "τότε",
+        "head_id": 8,
+        "relation": "ADV",
+        "lemma": "τότε",
+        "tag": "d--------"
+      },
+      {
+        "id": 2,
+        "value": "μὲν",
+        "head_id": 8,
+        "relation": "AuxY",
+        "lemma": "μέν",
+        "tag": "d--------"
+      },
+      {
+        "id": 3,
+        "value": "οὖν",
+        "head_id": 8,
+        "relation": "AuxY",
+        "lemma": "οὖν",
+        "tag": "d--------"
+      },
+      {
+        "id": 4,
+        "value": "ἐπειδὴ",
+        "head_id": 8,
+        "relation": "AuxC",
+        "lemma": "ἐπεί",
+        "tag": "c--------"
+      },
+      {
+        "id": 5,
+        "value": "ἐπαύσαντο",
+        "head_id": 4,
+        "relation": "ADV",
+        "lemma": "παύω",
+        "tag": "v3paim---"
+      },
+      {
+        "id": 6,
+        "value": "μαχόμενοι",
+        "head_id": 5,
+        "relation": "ADV",
+        "lemma": "μάχομαι",
+        "tag": "v-pppemn-"
+      },
+      {
+        "id": 7,
+        "value": ",",
+        "head_id": 0,
+        "relation": "AuxX",
+        "lemma": "punc1",
+        "tag": "u--------",
+        "original_head_id": 0
+      },
+      {
+        "id": 8,
+        "value": "εἶπόν",
+        "head_id": 0,
+        "relation": "PRED",
+        "lemma": "εἶπον",
+        "tag": "v3paia---",
+        "original_head_id": 0
+      },
+      {
+        "id": 9,
+        "value": "τινες",
+        "head_id": 8,
+        "relation": "SBJ",
+        "lemma": "τις",
+        "tag": "p-p---mn-"
+      },
+      {
+        "id": 10,
+        "value": "τῶν",
+        "head_id": 9,
+        "relation": "ATR",
+        "lemma": "ὁ",
+        "tag": "l-p---mg-"
+      },
+      {
+        "id": 11,
+        "value": "τούτων",
+        "head_id": 9,
+        "relation": "ATR",
+        "lemma": "οὗτος",
+        "tag": "p-p---mg-"
+      },
+      {
+        "id": 12,
+        "value": "παρόντων",
+        "head_id": 11,
+        "relation": "ATR",
+        "lemma": "πάρειμι1",
+        "tag": "v-pppamg-"
+      },
+      {
+        "id": 13,
+        "value": "ὅτι",
+        "head_id": 8,
+        "relation": "AuxC",
+        "lemma": "ὅτι2",
+        "tag": "c--------"
+      },
+      {
+        "id": 14,
+        "value": "εἴη",
+        "head_id": 13,
+        "relation": "OBJ",
+        "lemma": "εἰμί",
+        "tag": "v3spoa---"
+      },
+      {
+        "id": 15,
+        "value": "αὐτῷ",
+        "head_id": 14,
+        "relation": "PNOM",
+        "lemma": "αὐτός",
+        "tag": "p-s---md-"
+      },
+      {
+        "id": 16,
+        "value": "ἀδελφὸς",
+        "head_id": 14,
+        "relation": "SBJ",
+        "lemma": "ἀδελφός",
+        "tag": "n-s---mn-"
+      },
+      {
+        "id": 17,
+        "value": "ὃς",
+        "head_id": 18,
+        "relation": "SBJ",
+        "lemma": "ὅς",
+        "tag": "p-s---mn-"
+      },
+      {
+        "id": 18,
+        "value": "ἐξαιρήσοιτο",
+        "head_id": 16,
+        "relation": "ATR",
+        "lemma": "ἐξαιρέω",
+        "tag": "v3sfom---"
+      },
+      {
+        "id": 19,
+        "value": "αὐτὸν",
+        "head_id": 18,
+        "relation": "OBJ",
+        "lemma": "αὐτός",
+        "tag": "p-s---ma-"
+      },
+      {
+        "id": 20,
+        "value": "εἰς",
+        "head_id": 18,
+        "relation": "AuxP",
+        "lemma": "εἰς",
+        "tag": "r--------"
+      },
+      {
+        "id": 21,
+        "value": "ἐλευθερίαν",
+        "head_id": 20,
+        "relation": "ADV",
+        "lemma": "ἐλευθερία",
+        "tag": "n-s---fa-"
+      },
+      {
+        "id": 22,
+        "value": "·",
+        "head_id": 0,
+        "relation": "AuxK",
+        "lemma": "punc1",
+        "tag": "u--------",
+        "original_head_id": 0
+      }
+    ],
+    "references": [
+      "urn:cts:greekLit:tlg0540.tlg023.perseus-grc1-vgorman1-trees:21"
+    ],
+    "citation": "9 (21)"
+  },
+  {
+    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg0540-tlg023-grc-22",
+    "treebank_id": "22",
+    "words": [
+      {
+        "id": 1,
+        "value": "ἐπὶ",
+        "head_id": 3,
+        "relation": "AuxP",
+        "lemma": "ἐπί",
+        "tag": "r--------"
+      },
+      {
+        "id": 2,
+        "value": "τούτοις",
+        "head_id": 1,
+        "relation": "ADV",
+        "lemma": "οὗτος",
+        "tag": "p-p---nd-"
+      },
+      {
+        "id": 3,
+        "value": "ἐγγυησάμενοι",
+        "head_id": 7,
+        "relation": "ADV",
+        "lemma": "ἐγγυάω",
+        "tag": "v-papmmn-"
+      },
+      {
+        "id": 4,
+        "value": "παρέξειν",
+        "head_id": 3,
+        "relation": "OBJ",
+        "lemma": "παρέχω",
+        "tag": "v--fna---"
+      },
+      {
+        "id": 5,
+        "value": "εἰς",
+        "head_id": 4,
+        "relation": "AuxP",
+        "lemma": "εἰς",
+        "tag": "r--------"
+      },
+      {
+        "id": 6,
+        "value": "αὔριον",
+        "head_id": 5,
+        "relation": "ADV",
+        "lemma": "αὔριον",
+        "tag": "d--------"
+      },
+      {
+        "id": 7,
+        "value": "ᾤχοντο",
+        "head_id": 0,
+        "relation": "PRED",
+        "lemma": "οἴχομαι",
+        "tag": "v3piie---",
+        "original_head_id": 0
+      },
+      {
+        "id": 8,
+        "value": "ἀπιόντες",
+        "head_id": 7,
+        "relation": "ADV",
+        "lemma": "ἄπειμι1",
+        "tag": "v-pppamn-"
+      },
+      {
+        "id": 9,
+        "value": ".",
+        "head_id": 0,
+        "relation": "AuxK",
+        "lemma": "punc1",
+        "tag": "u--------",
+        "original_head_id": 0
+      }
+    ],
+    "references": [
+      "urn:cts:greekLit:tlg0540.tlg023.perseus-grc1-vgorman1-trees:22"
+    ],
+    "citation": "10 (22)"
+  },
+  {
+    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg0540-tlg023-grc-23",
+    "treebank_id": "23",
+    "words": [
+      {
+        "id": 1,
+        "value": "τῇ",
+        "head_id": 3,
+        "relation": "ATR",
+        "lemma": "ὁ",
+        "tag": "l-s---fd-"
+      },
+      {
+        "id": 2,
+        "value": "δʼ",
+        "head_id": 13,
+        "relation": "AuxY",
+        "lemma": "δέ",
+        "tag": "d--------"
+      },
+      {
+        "id": 3,
+        "value": "ὑστεραίᾳ",
+        "head_id": 13,
+        "relation": "ADV",
+        "lemma": "ὑστεραῖος",
+        "tag": "a-s---fd-"
+      },
+      {
+        "id": 4,
+        "value": "τῆς",
+        "head_id": 6,
+        "relation": "ATR",
+        "lemma": "ὁ",
+        "tag": "l-s---fg-"
+      },
+      {
+        "id": 5,
+        "value": "τε",
+        "head_id": 9,
+        "relation": "AuxY",
+        "lemma": "τε",
+        "tag": "d--------"
+      },
+      {
+        "id": 6,
+        "value": "ἀντιγραφῆς",
+        "head_id": 9,
+        "relation": "ADV_CO",
+        "lemma": "ἀντιγραφή",
+        "tag": "n-s---fg-"
+      },
+      {
+        "id": 7,
+        "value": "ἕνεκα",
+        "head_id": 13,
+        "relation": "AuxP",
+        "lemma": "ἕνεκα",
+        "tag": "r--------"
+      },
+      {
+        "id": 8,
+        "value": "ταυτησὶ",
+        "head_id": 6,
+        "relation": "ATR",
+        "lemma": "οὗτος",
+        "tag": "a-s---fg_"
+      },
+      {
+        "id": 9,
+        "value": "καὶ",
+        "head_id": 7,
+        "relation": "COORD",
+        "lemma": "καί",
+        "tag": "c--------"
+      },
+      {
+        "id": 10,
+        "value": "αὐτῆς",
+        "head_id": 12,
+        "relation": "ATR",
+        "lemma": "αὐτός",
+        "tag": "a-s---fg_"
+      },
+      {
+        "id": 11,
+        "value": "τῆς",
+        "head_id": 12,
+        "relation": "ATR",
+        "lemma": "ὁ",
+        "tag": "l-s---fg-"
+      },
+      {
+        "id": 12,
+        "value": "δίκης",
+        "head_id": 9,
+        "relation": "ADV_CO",
+        "lemma": "δίκη",
+        "tag": "n-s---fg-"
+      },
+      {
+        "id": 13,
+        "value": "ἔδοξέ",
+        "head_id": 0,
+        "relation": "PRED",
+        "lemma": "δοκέω",
+        "tag": "v3saia---",
+        "original_head_id": 0
+      },
+      {
+        "id": 14,
+        "value": "μοι",
+        "head_id": 13,
+        "relation": "OBJ",
+        "lemma": "ἐγώ",
+        "tag": "p1s---md-"
+      },
+      {
+        "id": 15,
+        "value": "χρῆναι",
+        "head_id": 16,
+        "relation": "ADV",
+        "lemma": "χρή",
+        "tag": "v--pna---"
+      },
+      {
+        "id": 16,
+        "value": "μάρτυρας",
+        "head_id": 17,
+        "relation": "OBJ",
+        "lemma": "μάρτυς",
+        "tag": "n-p---ma-"
+      },
+      {
+        "id": 17,
+        "value": "λαβόντι",
+        "head_id": 13,
+        "relation": "ADV",
+        "lemma": "λαμβάνω",
+        "tag": "v-sapamd-"
+      },
+      {
+        "id": 18,
+        "value": "παραγενέσθαι",
+        "head_id": 13,
+        "relation": "SBJ",
+        "lemma": "παραγίγνομαι",
+        "tag": "v--anm---"
+      },
+      {
+        "id": 19,
+        "value": ",",
+        "head_id": 0,
+        "relation": "AuxX",
+        "lemma": "punc1",
+        "tag": "u--------",
+        "original_head_id": 0
+      },
+      {
+        "id": 20,
+        "value": "ἵνʼ",
+        "head_id": 18,
+        "relation": "AuxC",
+        "lemma": "ἵνα",
+        "tag": "c--------"
+      },
+      {
+        "id": 21,
+        "value": "εἰδείην",
+        "head_id": 20,
+        "relation": "ADV",
+        "lemma": "οἶδα",
+        "tag": "v1sroa---"
+      },
+      {
+        "id": 22,
+        "value": "τόν",
+        "head_id": 24,
+        "relation": "SBJ",
+        "lemma": "ὅς",
+        "tag": "p-s---ma-"
+      },
+      {
+        "id": 23,
+        "value": "τʼ",
+        "head_id": 26,
+        "relation": "AuxY",
+        "lemma": "τε",
+        "tag": "d--------"
+      },
+      {
+        "id": 24,
+        "value": "ἐξαιρησόμενον",
+        "head_id": 26,
+        "relation": "OBJ_CO",
+        "lemma": "ἐξαιρέω",
+        "tag": "v-sfpmma-"
+      },
+      {
+        "id": 25,
+        "value": "αὐτὸν",
+        "head_id": 24,
+        "relation": "OBJ",
+        "lemma": "αὐτός",
+        "tag": "p-s---ma-"
+      },
+      {
+        "id": 26,
+        "value": "καὶ",
+        "head_id": 21,
+        "relation": "COORD",
+        "lemma": "καί",
+        "tag": "c--------"
+      },
+      {
+        "id": 27,
+        "value": "ὅ",
+        "head_id": 29,
+        "relation": "OBJ",
+        "lemma": "ὅς",
+        "tag": "p-s---na-"
+      },
+      {
+        "id": 28,
+        "value": "τι",
+        "head_id": 27,
+        "relation": "ATR",
+        "lemma": "τις",
+        "tag": "a-s---na_"
+      },
+      {
+        "id": 29,
+        "value": "λέγων",
+        "head_id": 30,
+        "relation": "ADV",
+        "lemma": "λέγω3",
+        "tag": "v-sppamn-"
+      },
+      {
+        "id": 30,
+        "value": "ἀφαιρήσοιτο",
+        "head_id": 26,
+        "relation": "OBJ_CO",
+        "lemma": "ἀφαιρέω",
+        "tag": "v3sfom---"
+      },
+      {
+        "id": 31,
+        "value": ".",
+        "head_id": 0,
+        "relation": "AuxK",
+        "lemma": "punc1",
+        "tag": "u--------",
+        "original_head_id": 0
+      }
+    ],
+    "references": [
+      "urn:cts:greekLit:tlg0540.tlg023.perseus-grc1-vgorman1-trees:23"
+    ],
+    "citation": "10 (23)"
+  },
+  {
+    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg0540-tlg023-grc-24",
+    "treebank_id": "24",
+    "words": [
+      {
+        "id": 1,
+        "value": "ἐφʼ",
+        "head_id": 5,
+        "relation": "AuxP",
+        "lemma": "ἐπί",
+        "tag": "r--------"
+      },
+      {
+        "id": 2,
+        "value": "οἷς",
+        "head_id": 1,
+        "relation": "ADV",
+        "lemma": "ὅς",
+        "tag": "p-p---nd-"
+      },
+      {
+        "id": 3,
+        "value": "μὲν",
+        "head_id": 17,
+        "relation": "AuxY",
+        "lemma": "μέν",
+        "tag": "d--------"
+      },
+      {
+        "id": 4,
+        "value": "οὖν",
+        "head_id": 28,
+        "relation": "AuxY",
+        "lemma": "οὖν",
+        "tag": "d--------"
+      },
+      {
+        "id": 5,
+        "value": "ἐξηγγυήθη",
+        "head_id": 28,
+        "relation": "ADV",
+        "lemma": "ἐξεγγυάω",
+        "tag": "v3saip---"
+      },
+      {
+        "id": 6,
+        "value": ",",
+        "head_id": 0,
+        "relation": "AuxX",
+        "lemma": "punc1",
+        "tag": "u--------",
+        "original_head_id": 0
+      },
+      {
+        "id": 7,
+        "value": "οὔ",
+        "head_id": 9,
+        "relation": "AuxZ",
+        "lemma": "οὐ",
+        "tag": "d--------"
+      },
+      {
+        "id": 8,
+        "value": "-τε",
+        "head_id": 11,
+        "relation": "AuxY",
+        "lemma": "τε",
+        "tag": "d--------"
+      },
+      {
+        "id": 9,
+        "value": "ἀδελφὸς",
+        "head_id": 11,
+        "relation": "SBJ_CO",
+        "lemma": "ἀδελφός",
+        "tag": "n-s---mn-"
+      },
+      {
+        "id": 10,
+        "value": "οὔ",
+        "head_id": 13,
+        "relation": "AuxZ",
+        "lemma": "οὐ",
+        "tag": "d--------"
+      },
+      {
+        "id": 11,
+        "value": "-τε",
+        "head_id": 17,
+        "relation": "COORD",
+        "lemma": "τε",
+        "tag": "c--------"
+      },
+      {
+        "id": 12,
+        "value": "ἄλλος",
+        "head_id": 13,
+        "relation": "ATR",
+        "lemma": "ἄλλος",
+        "tag": "a-s---mn_"
+      },
+      {
+        "id": 13,
+        "value": "οὐδεὶς",
+        "head_id": 11,
+        "relation": "SBJ_CO",
+        "lemma": "οὐδείς",
+        "tag": "p-s---mn-"
+      },
+      {
+        "id": 14,
+        "value": "ἦλθε",
+        "head_id": 28,
+        "relation": "PRED_CO",
+        "lemma": "ἔρχομαι",
+        "tag": "v3saia---"
+      },
+      {
+        "id": 15,
+        "value": ",",
+        "head_id": 0,
+        "relation": "AuxX",
+        "lemma": "punc1",
+        "tag": "u--------",
+        "original_head_id": 0
+      },
+      {
+        "id": 16,
+        "value": "γυνὴ",
+        "head_id": 17,
+        "relation": "SBJ_CO",
+        "lemma": "γυνή",
+        "tag": "n-s---fn-"
+      },
+      {
+        "id": 17,
+        "value": "δὲ",
+        "head_id": 28,
+        "relation": "COORD",
+        "lemma": "δέ",
+        "tag": "c--------"
+      },
+      {
+        "id": 18,
+        "value": "φάσκουσα",
+        "head_id": 14,
+        "relation": "ADV",
+        "lemma": "φάσκω",
+        "tag": "v-sppafn-"
+      },
+      {
+        "id": 19,
+        "value": "αὑτῆς",
+        "head_id": 22,
+        "relation": "ATR",
+        "lemma": "ἑαυτοῦ",
+        "tag": "p-s---fg-"
+      },
+      {
+        "id": 20,
+        "value": "αὐτὸν",
+        "head_id": 21,
+        "relation": "SBJ",
+        "lemma": "αὐτός",
+        "tag": "p-s---ma-"
+      },
+      {
+        "id": 21,
+        "value": "εἶναι",
+        "head_id": 18,
+        "relation": "OBJ",
+        "lemma": "εἰμί",
+        "tag": "v--pna---"
+      },
+      {
+        "id": 22,
+        "value": "δοῦλον",
+        "head_id": 21,
+        "relation": "PNOM",
+        "lemma": "δοῦλος",
+        "tag": "n-s---ma-"
+      },
+      {
+        "id": 23,
+        "value": ",",
+        "head_id": 0,
+        "relation": "AuxX",
+        "lemma": "punc1",
+        "tag": "u--------",
+        "original_head_id": 0
+      },
+      {
+        "id": 24,
+        "value": "ἀμφισβητοῦσα",
+        "head_id": 14,
+        "relation": "ADV",
+        "lemma": "ἀμφισβητέω",
+        "tag": "v-sppafn-"
+      },
+      {
+        "id": 25,
+        "value": "τῷ",
+        "head_id": 26,
+        "relation": "ATR",
+        "lemma": "ὁ",
+        "tag": "l-s---md-"
+      },
+      {
+        "id": 26,
+        "value": "Νικομήδει",
+        "head_id": 24,
+        "relation": "OBJ",
+        "lemma": "Νικομήδης",
+        "tag": "n-s---md-"
+      },
+      {
+        "id": 27,
+        "value": ",",
+        "head_id": 0,
+        "relation": "AuxX",
+        "lemma": "punc1",
+        "tag": "u--------",
+        "original_head_id": 0
+      },
+      {
+        "id": 28,
+        "value": "καὶ",
+        "head_id": 0,
+        "relation": "COORD",
+        "lemma": "καί",
+        "tag": "c--------",
+        "original_head_id": 0
+      },
+      {
+        "id": 29,
+        "value": "οὐκ",
+        "head_id": 31,
+        "relation": "AuxZ",
+        "lemma": "οὐ",
+        "tag": "d--------"
+      },
+      {
+        "id": 30,
+        "value": "ἔφη",
+        "head_id": 28,
+        "relation": "PRED_CO",
+        "lemma": "φημί",
+        "tag": "v3siia---"
+      },
+      {
+        "id": 31,
+        "value": "ἐάσειν",
+        "head_id": 30,
+        "relation": "OBJ",
+        "lemma": "ἐάω",
+        "tag": "v--fna---"
+      },
+      {
+        "id": 32,
+        "value": "αὐτὸν",
+        "head_id": 33,
+        "relation": "OBJ",
+        "lemma": "αὐτός",
+        "tag": "p-s---ma-"
+      },
+      {
+        "id": 33,
+        "value": "ἄγειν",
+        "head_id": 31,
+        "relation": "OBJ",
+        "lemma": "ἄγω",
+        "tag": "v--pna---"
+      },
+      {
+        "id": 34,
+        "value": ".",
+        "head_id": 0,
+        "relation": "AuxK",
+        "lemma": "punc1",
+        "tag": "u--------",
+        "original_head_id": 0
+      }
+    ],
+    "references": [
+      "urn:cts:greekLit:tlg0540.tlg023.perseus-grc1-vgorman1-trees:24"
+    ],
+    "citation": "10 (24)"
+  },
+  {
+    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg0540-tlg023-grc-25",
+    "treebank_id": "25",
+    "words": [
+      {
+        "id": 1,
+        "value": "ὅσα",
+        "head_id": 5,
+        "relation": "SBJ",
+        "lemma": "ὅσος",
+        "tag": "a-p---nn-"
+      },
+      {
+        "id": 2,
+        "value": "μὲν",
+        "head_id": 9,
+        "relation": "AuxY",
+        "lemma": "μέν",
+        "tag": "d--------"
+      },
+      {
+        "id": 3,
+        "value": "οὖν",
+        "head_id": 9,
+        "relation": "AuxY",
+        "lemma": "οὖν",
+        "tag": "d--------"
+      },
+      {
+        "id": 4,
+        "value": "αὐτόθι",
+        "head_id": 5,
+        "relation": "ADV",
+        "lemma": "αὐτόθι",
+        "tag": "d--------"
+      },
+      {
+        "id": 5,
+        "value": "ἐρρήθη",
+        "head_id": 6,
+        "relation": "SBJ_AP",
+        "lemma": "ἐρῶ",
+        "tag": "v3saip---"
+      },
+      {
+        "id": 6,
+        "value": ",",
+        "head_id": 9,
+        "relation": "APOS",
+        "lemma": "punc1",
+        "tag": "u--------"
+      },
+      {
+        "id": 7,
+        "value": "πολὺς",
+        "head_id": 9,
+        "relation": "PNOM",
+        "lemma": "πολύς",
+        "tag": "a-s---mn-"
+      },
+      {
+        "id": 8,
+        "value": "ἂν",
+        "head_id": 9,
+        "relation": "AuxY",
+        "lemma": "ἄν1",
+        "tag": "d--------"
+      },
+      {
+        "id": 9,
+        "value": "εἴη",
+        "head_id": 0,
+        "relation": "PRED",
+        "lemma": "εἰμί",
+        "tag": "v3spoa---",
+        "original_head_id": 0
+      },
+      {
+        "id": 10,
+        "value": "μοι",
+        "head_id": 11,
+        "relation": "ATR",
+        "lemma": "ἐγώ",
+        "tag": "p1s---md-"
+      },
+      {
+        "id": 11,
+        "value": "λόγος",
+        "head_id": 6,
+        "relation": "SBJ_AP",
+        "lemma": "λόγος",
+        "tag": "n-s---mn-"
+      },
+      {
+        "id": 12,
+        "value": "διηγεῖσθαι",
+        "head_id": 7,
+        "relation": "ADV",
+        "lemma": "διηγέομαι",
+        "tag": "v--pne---"
+      },
+      {
+        "id": 13,
+        "value": "·",
+        "head_id": 0,
+        "relation": "AuxK",
+        "lemma": "punc1",
+        "tag": "u--------",
+        "original_head_id": 0
+      }
+    ],
+    "references": [
+      "urn:cts:greekLit:tlg0540.tlg023.perseus-grc1-vgorman1-trees:25"
+    ],
+    "citation": "11 (25)"
+  },
+  {
+    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg0540-tlg023-grc-26",
+    "treebank_id": "26",
+    "words": [
+      {
+        "id": 1,
+        "value": "εἰς",
+        "head_id": 5,
+        "relation": "AuxP",
+        "lemma": "εἰς",
+        "tag": "r--------"
+      },
+      {
+        "id": 2,
+        "value": "τοῦτο",
+        "head_id": 1,
+        "relation": "OBJ",
+        "lemma": "οὗτος",
+        "tag": "p-s---na-"
+      },
+      {
+        "id": 3,
+        "value": "δὲ",
+        "head_id": 5,
+        "relation": "AuxY",
+        "lemma": "δέ",
+        "tag": "d--------"
+      },
+      {
+        "id": 4,
+        "value": "βιαιότητος",
+        "head_id": 2,
+        "relation": "ATR",
+        "lemma": "βιαιότης",
+        "tag": "n-s---fg-"
+      },
+      {
+        "id": 5,
+        "value": "ἦλθον",
+        "head_id": 0,
+        "relation": "PRED",
+        "lemma": "ἔρχομαι",
+        "tag": "v3paia---",
+        "original_head_id": 0
+      },
+      {
+        "id": 6,
+        "value": "οἵ",
+        "head_id": 8,
+        "relation": "ATR",
+        "lemma": "ὁ",
+        "tag": "l-p---mn-"
+      },
+      {
+        "id": 7,
+        "value": "τε",
+        "head_id": 10,
+        "relation": "AuxY",
+        "lemma": "τε",
+        "tag": "d--------"
+      },
+      {
+        "id": 8,
+        "value": "παρόντες",
+        "head_id": 10,
+        "relation": "SBJ_CO",
+        "lemma": "πάρειμι1",
+        "tag": "v-pppamn-"
+      },
+      {
+        "id": 9,
+        "value": "τούτῳ",
+        "head_id": 8,
+        "relation": "OBJ",
+        "lemma": "οὗτος",
+        "tag": "p-s---nd-"
+      },
+      {
+        "id": 10,
+        "value": "καὶ",
+        "head_id": 5,
+        "relation": "COORD",
+        "lemma": "καί",
+        "tag": "c--------"
+      },
+      {
+        "id": 11,
+        "value": "αὐτὸς",
+        "head_id": 12,
+        "relation": "ATR",
+        "lemma": "αὐτός",
+        "tag": "a-s---mn_"
+      },
+      {
+        "id": 12,
+        "value": "οὗτος",
+        "head_id": 10,
+        "relation": "SBJ_CO",
+        "lemma": "οὗτος",
+        "tag": "p-s---mn-"
+      },
+      {
+        "id": 13,
+        "value": ",",
+        "head_id": 0,
+        "relation": "AuxX",
+        "lemma": "punc1",
+        "tag": "u--------",
+        "original_head_id": 0
+      },
+      {
+        "id": 14,
+        "value": "ὥστε",
+        "head_id": 2,
+        "relation": "AuxC",
+        "lemma": "ὥστε",
+        "tag": "c--------"
+      },
+      {
+        "id": 15,
+        "value": "ἐθέλοντος",
+        "head_id": 20,
+        "relation": "ADV_CO",
+        "lemma": "ἐθέλω",
+        "tag": "v-sppamg-"
+      },
+      {
+        "id": 16,
+        "value": "μὲν",
+        "head_id": 20,
+        "relation": "AuxY",
+        "lemma": "μέν",
+        "tag": "d--------"
+      },
+      {
+        "id": 17,
+        "value": "τοῦ",
+        "head_id": 18,
+        "relation": "ATR",
+        "lemma": "ὁ",
+        "tag": "l-s---mg-"
+      },
+      {
+        "id": 18,
+        "value": "Νικομήδους",
+        "head_id": 15,
+        "relation": "SBJ",
+        "lemma": "Νικομήδης",
+        "tag": "n-s---mg-"
+      },
+      {
+        "id": 19,
+        "value": "ἐθελούσης",
+        "head_id": 20,
+        "relation": "ADV_CO",
+        "lemma": "ἐθέλω",
+        "tag": "v-sppafg-"
+      },
+      {
+        "id": 20,
+        "value": "δὲ",
+        "head_id": 43,
+        "relation": "COORD",
+        "lemma": "δέ",
+        "tag": "c--------"
+      },
+      {
+        "id": 21,
+        "value": "τῆς",
+        "head_id": 22,
+        "relation": "ATR",
+        "lemma": "ὁ",
+        "tag": "l-s---fg-"
+      },
+      {
+        "id": 22,
+        "value": "γυναικὸς",
+        "head_id": 19,
+        "relation": "SBJ",
+        "lemma": "γυνή",
+        "tag": "n-s---fg-"
+      },
+      {
+        "id": 23,
+        "value": "ἀφιέναι",
+        "head_id": 20,
+        "relation": "OBJ",
+        "lemma": "ἀφίημι",
+        "tag": "v--pna---"
+      },
+      {
+        "id": 24,
+        "value": ",",
+        "head_id": 0,
+        "relation": "AuxX",
+        "lemma": "punc1",
+        "tag": "u--------",
+        "original_head_id": 0
+      },
+      {
+        "id": 25,
+        "value": "εἴ",
+        "head_id": 20,
+        "relation": "AuxC",
+        "lemma": "εἰ",
+        "tag": "c--------"
+      },
+      {
+        "id": 26,
+        "value": "τις",
+        "head_id": 31,
+        "relation": "SBJ",
+        "lemma": "τις",
+        "tag": "p-s---mn-"
+      },
+      {
+        "id": 27,
+        "value": "ἢ",
+        "head_id": 32,
+        "relation": "AuxY",
+        "lemma": "ἤ1",
+        "tag": "d--------"
+      },
+      {
+        "id": 28,
+        "value": "εἰς",
+        "head_id": 31,
+        "relation": "AuxP",
+        "lemma": "εἰς",
+        "tag": "r--------"
+      },
+      {
+        "id": 29,
+        "value": "ἐλευθερίαν",
+        "head_id": 28,
+        "relation": "OBJ",
+        "lemma": "ἐλευθερία",
+        "tag": "n-s---fa-"
+      },
+      {
+        "id": 30,
+        "value": "τοῦτον",
+        "head_id": 31,
+        "relation": "OBJ",
+        "lemma": "οὗτος",
+        "tag": "p-s---ma-"
+      },
+      {
+        "id": 31,
+        "value": "ἀφαιροῖτο",
+        "head_id": 32,
+        "relation": "ADV_CO",
+        "lemma": "ἀφαιρέω",
+        "tag": "v3spoe---"
+      },
+      {
+        "id": 32,
+        "value": "ἢ",
+        "head_id": 25,
+        "relation": "COORD",
+        "lemma": "ἤ1",
+        "tag": "c--------"
+      },
+      {
+        "id": 33,
+        "value": "ἄγοι",
+        "head_id": 32,
+        "relation": "ADV_CO",
+        "lemma": "ἄγω",
+        "tag": "v3spoa---"
+      },
+      {
+        "id": 34,
+        "value": "φάσκων",
+        "head_id": 33,
+        "relation": "ADV",
+        "lemma": "φάσκω",
+        "tag": "v-sppamn-"
+      },
+      {
+        "id": 35,
+        "value": "ἑαυτοῦ",
+        "head_id": 36,
+        "relation": "ATR",
+        "lemma": "ἑαυτοῦ",
+        "tag": "p-s---mg-"
+      },
+      {
+        "id": 36,
+        "value": "δοῦλον",
+        "head_id": 37,
+        "relation": "PNOM",
+        "lemma": "δοῦλος",
+        "tag": "n-s---ma-"
+      },
+      {
+        "id": 37,
+        "value": "εἶναι",
+        "head_id": 34,
+        "relation": "OBJ",
+        "lemma": "εἰμί",
+        "tag": "v--pna---"
+      },
+      {
+        "id": 38,
+        "value": ",",
+        "head_id": 0,
+        "relation": "AuxX",
+        "lemma": "punc1",
+        "tag": "u--------",
+        "original_head_id": 0
+      },
+      {
+        "id": 39,
+        "value": "τούτων",
+        "head_id": 40,
+        "relation": "ATR",
+        "lemma": "οὗτος",
+        "tag": "p-p---ng-"
+      },
+      {
+        "id": 40,
+        "value": "οὐδὲν",
+        "head_id": 41,
+        "relation": "OBJ",
+        "lemma": "οὐδείς",
+        "tag": "p-s---na-"
+      },
+      {
+        "id": 41,
+        "value": "ποιήσαντες",
+        "head_id": 43,
+        "relation": "ADV",
+        "lemma": "ποιέω",
+        "tag": "v-papamn-"
+      },
+      {
+        "id": 42,
+        "value": "ἀφελόμενοι",
+        "head_id": 43,
+        "relation": "ADV",
+        "lemma": "ἀφαιρέω",
+        "tag": "v-papmmn-"
+      },
+      {
+        "id": 43,
+        "value": "ᾤχοντο",
+        "head_id": 14,
+        "relation": "ADV",
+        "lemma": "οἴχομαι",
+        "tag": "v3piie---"
+      },
+      {
+        "id": 44,
+        "value": ".",
+        "head_id": 0,
+        "relation": "AuxK",
+        "lemma": "punc1",
+        "tag": "u--------",
+        "original_head_id": 0
+      }
+    ],
+    "references": [
+      "urn:cts:greekLit:tlg0540.tlg023.perseus-grc1-vgorman1-trees:26"
+    ],
+    "citation": "11 (26)"
+  },
+  {
+    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg0540-tlg023-grc-27",
+    "treebank_id": "27",
+    "words": [
+      {
+        "id": 1,
+        "value": "ὡς",
+        "head_id": 16,
+        "relation": "AuxC",
+        "lemma": "ὡς",
+        "tag": "c--------"
+      },
+      {
+        "id": 2,
+        "value": "οὖν",
+        "head_id": 17,
+        "relation": "AuxY",
+        "lemma": "οὖν",
+        "tag": "d--------"
+      },
+      {
+        "id": 3,
+        "value": "τῇ",
+        "head_id": 5,
+        "relation": "ATR",
+        "lemma": "ὁ",
+        "tag": "l-s---fd-"
+      },
+      {
+        "id": 4,
+        "value": "τε",
+        "head_id": 9,
+        "relation": "AuxY",
+        "lemma": "τε",
+        "tag": "d--------"
+      },
+      {
+        "id": 5,
+        "value": "προτεραίᾳ",
+        "head_id": 8,
+        "relation": "ADV",
+        "lemma": "προτεραῖος",
+        "tag": "a-s---fd-"
+      },
+      {
+        "id": 6,
+        "value": "ἐπὶ",
+        "head_id": 8,
+        "relation": "AuxP",
+        "lemma": "ἐπί",
+        "tag": "r--------"
+      },
+      {
+        "id": 7,
+        "value": "τούτοις",
+        "head_id": 6,
+        "relation": "ADV",
+        "lemma": "οὗτος",
+        "tag": "p-p---md-"
+      },
+      {
+        "id": 8,
+        "value": "ἐξηγγυήθη",
+        "head_id": 9,
+        "relation": "ATR_CO",
+        "lemma": "ἐξεγγυάω",
+        "tag": "v3saip---"
+      },
+      {
+        "id": 9,
+        "value": "καὶ",
+        "head_id": 1,
+        "relation": "COORD",
+        "lemma": "καί",
+        "tag": "c--------"
+      },
+      {
+        "id": 10,
+        "value": "τότε",
+        "head_id": 12,
+        "relation": "ADV",
+        "lemma": "τότε",
+        "tag": "d--------"
+      },
+      {
+        "id": 11,
+        "value": "βίᾳ",
+        "head_id": 12,
+        "relation": "ADV",
+        "lemma": "βία",
+        "tag": "n-s---fd-"
+      },
+      {
+        "id": 12,
+        "value": "ᾤχοντο",
+        "head_id": 9,
+        "relation": "ATR_CO",
+        "lemma": "οἴχομαι",
+        "tag": "v3piie---"
+      },
+      {
+        "id": 13,
+        "value": "ἀφελόμενοι",
+        "head_id": 12,
+        "relation": "ADV",
+        "lemma": "ἀφαιρέω",
+        "tag": "v-papmmn-"
+      },
+      {
+        "id": 14,
+        "value": "αὐτόν",
+        "head_id": 13,
+        "relation": "OBJ",
+        "lemma": "αὐτός",
+        "tag": "p-s---ma-"
+      },
+      {
+        "id": 15,
+        "value": ",",
+        "head_id": 0,
+        "relation": "AuxX",
+        "lemma": "punc1",
+        "tag": "u--------",
+        "original_head_id": 0
+      },
+      {
+        "id": 16,
+        "value": "μάρτυρας",
+        "head_id": 17,
+        "relation": "OBJ",
+        "lemma": "μάρτυς",
+        "tag": "n-p---ma-"
+      },
+      {
+        "id": 17,
+        "value": "παρέξομαι",
+        "head_id": 0,
+        "relation": "PRED",
+        "lemma": "παρέχω",
+        "tag": "v1sfim---",
+        "original_head_id": 0
+      },
+      {
+        "id": 18,
+        "value": "ὑμῖν",
+        "head_id": 17,
+        "relation": "OBJ",
+        "lemma": "σύ",
+        "tag": "p-p---md-"
+      },
+      {
+        "id": 19,
+        "value": ".",
+        "head_id": 0,
+        "relation": "AuxK",
+        "lemma": "punc1",
+        "tag": "u--------",
+        "original_head_id": 0
+      }
+    ],
+    "references": [
+      "urn:cts:greekLit:tlg0540.tlg023.perseus-grc1-vgorman1-trees:27"
+    ],
+    "citation": "11 (27)"
+  },
+  {
+    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg0540-tlg023-grc-28",
+    "treebank_id": "28",
+    "words": [
+      {
+        "id": 1,
+        "value": "καί",
+        "head_id": 3,
+        "relation": "AuxY",
+        "lemma": "καί",
+        "tag": "d-------_"
+      },
+      {
+        "id": 2,
+        "value": "μοι",
+        "head_id": 3,
+        "relation": "ADV",
+        "lemma": "ἐγώ",
+        "tag": "p1s---md-"
+      },
+      {
+        "id": 3,
+        "value": "ἐπίλαβε",
+        "head_id": 0,
+        "relation": "PRED",
+        "lemma": "ἐπιλαμβάνω",
+        "tag": "v2sama---",
+        "original_head_id": 0
+      },
+      {
+        "id": 4,
+        "value": "τὸ",
+        "head_id": 5,
+        "relation": "ATR",
+        "lemma": "ὁ",
+        "tag": "l-s---na-"
+      },
+      {
+        "id": 5,
+        "value": "ὕδωρ",
+        "head_id": 3,
+        "relation": "OBJ",
+        "lemma": "ὕδωρ",
+        "tag": "n-s---na-"
+      },
+      {
+        "id": 6,
+        "value": ".",
+        "head_id": 0,
+        "relation": "AuxK",
+        "lemma": "punc1",
+        "tag": "u--------",
+        "original_head_id": 0
+      }
+    ],
+    "references": [
+      "urn:cts:greekLit:tlg0540.tlg023.perseus-grc1-vgorman1-trees:28"
+    ],
+    "citation": "11 (28)"
+  },
+  {
+    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg0540-tlg023-grc-29",
+    "treebank_id": "29",
+    "words": [
+      {
+        "id": 1,
+        "value": "Μάρτυρες",
+        "head_id": 0,
+        "relation": "ExD",
+        "lemma": "μάρτυς",
+        "tag": "n-p---mn-",
+        "original_head_id": 0
+      }
+    ],
+    "references": [
+      "urn:cts:greekLit:tlg0540.tlg023.perseus-grc1-vgorman1-trees:29"
+    ],
+    "citation": "11 (29)"
+  },
+  {
+    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg0540-tlg023-grc-30",
+    "treebank_id": "30",
+    "words": [
+      {
+        "id": 1,
+        "value": "ῥᾴδιον",
+        "head_id": 19,
+        "relation": "PNOM",
+        "lemma": "ῥᾴδιος",
+        "tag": "a-s---nn-"
+      },
+      {
+        "id": 2,
+        "value": "τοίνυν",
+        "head_id": 19,
+        "relation": "AuxY",
+        "lemma": "τοίνυν",
+        "tag": "d--------"
+      },
+      {
+        "id": 3,
+        "value": "εἰδέναι",
+        "head_id": 19,
+        "relation": "SBJ",
+        "lemma": "οἶδα",
+        "tag": "v--rna---"
+      },
+      {
+        "id": 4,
+        "value": "ὅτι",
+        "head_id": 3,
+        "relation": "AuxC",
+        "lemma": "ὅτι2",
+        "tag": "c--------"
+      },
+      {
+        "id": 5,
+        "value": "οὐδʼ",
+        "head_id": 8,
+        "relation": "AuxZ",
+        "lemma": "οὐδέ",
+        "tag": "d-------_"
+      },
+      {
+        "id": 6,
+        "value": "αὐτὸς",
+        "head_id": 7,
+        "relation": "ATR",
+        "lemma": "αὐτός",
+        "tag": "a-s---mn_"
+      },
+      {
+        "id": 7,
+        "value": "Παγκλέων",
+        "head_id": 8,
+        "relation": "SBJ",
+        "lemma": "Παγκλέων",
+        "tag": "n-s---mn-"
+      },
+      {
+        "id": 8,
+        "value": "νομίζει",
+        "head_id": 4,
+        "relation": "OBJ",
+        "lemma": "νομίζω",
+        "tag": "v3spia---"
+      },
+      {
+        "id": 9,
+        "value": "ἑαυτὸν",
+        "head_id": 13,
+        "relation": "SBJ",
+        "lemma": "ἑαυτοῦ",
+        "tag": "p-s---ma-"
+      },
+      {
+        "id": 10,
+        "value": "μὴ",
+        "head_id": 12,
+        "relation": "AuxZ",
+        "lemma": "μή",
+        "tag": "d--------"
+      },
+      {
+        "id": 11,
+        "value": "ὅτι",
+        "head_id": 8,
+        "relation": "AuxC",
+        "lemma": "ὅτι2",
+        "tag": "c--------"
+      },
+      {
+        "id": 12,
+        "value": "Πλαταιέα",
+        "head_id": 15,
+        "relation": "PNOM_CO",
+        "lemma": "Πλαταιεύς",
+        "tag": "n-s---ma-"
+      },
+      {
+        "id": 13,
+        "value": "εἶναι",
+        "head_id": 11,
+        "relation": "OBJ",
+        "lemma": "εἰμί",
+        "tag": "v--pna---"
+      },
+      {
+        "id": 14,
+        "value": ",",
+        "head_id": 0,
+        "relation": "AuxX",
+        "lemma": "punc1",
+        "tag": "u--------",
+        "original_head_id": 0
+      },
+      {
+        "id": 15,
+        "value": "ἀλλʼ",
+        "head_id": 13,
+        "relation": "COORD",
+        "lemma": "ἀλλά",
+        "tag": "c--------"
+      },
+      {
+        "id": 16,
+        "value": "οὐδʼ",
+        "head_id": 17,
+        "relation": "AuxZ",
+        "lemma": "οὐδέ",
+        "tag": "d-------_"
+      },
+      {
+        "id": 17,
+        "value": "ἐλεύθερον",
+        "head_id": 15,
+        "relation": "PNOM_CO",
+        "lemma": "ἐλεύθερος",
+        "tag": "a-s---ma-"
+      },
+      {
+        "id": 18,
+        "value": ".",
+        "head_id": 0,
+        "relation": "AuxK",
+        "lemma": "punc1",
+        "tag": "u--------",
+        "original_head_id": 0
+      },
+      {
+        "id": 19,
+        "value": "ἐστιν",
+        "head_id": 0,
+        "relation": "PRED",
+        "lemma": "εἰμί",
+        "tag": "v3spia---",
+        "original_head_id": 0
+      }
+    ],
+    "references": [
+      "urn:cts:greekLit:tlg0540.tlg023.perseus-grc1-vgorman1-trees:30"
+    ],
+    "citation": "12 (30)"
+  },
+  {
+    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg0540-tlg023-grc-31",
+    "treebank_id": "31",
+    "words": [
+      {
+        "id": 1,
+        "value": "ὅστις",
+        "head_id": 3,
+        "relation": "SBJ",
+        "lemma": "ὅστις",
+        "tag": "p-s---mn-"
+      },
+      {
+        "id": 2,
+        "value": "γὰρ",
+        "head_id": 46,
+        "relation": "AuxY",
+        "lemma": "γάρ",
+        "tag": "d--------"
+      },
+      {
+        "id": 3,
+        "value": "ἐβουλήθη",
+        "head_id": 38,
+        "relation": "SBJ",
+        "lemma": "βούλομαι",
+        "tag": "v3saip---"
+      },
+      {
+        "id": 4,
+        "value": "βίᾳ",
+        "head_id": 5,
+        "relation": "ADV",
+        "lemma": "βία",
+        "tag": "n-s---fd-"
+      },
+      {
+        "id": 5,
+        "value": "ἀφαιρεθεὶς",
+        "head_id": 3,
+        "relation": "ADV",
+        "lemma": "ἀφαιρέω",
+        "tag": "v-sappmn-"
+      },
+      {
+        "id": 6,
+        "value": "ἐνόχους",
+        "head_id": 7,
+        "relation": "OCOMP",
+        "lemma": "ἔνοχος",
+        "tag": "a-p---ma-"
+      },
+      {
+        "id": 7,
+        "value": "καταστῆσαι",
+        "head_id": 3,
+        "relation": "OBJ",
+        "lemma": "καθίστημι",
+        "tag": "v--ana---"
+      },
+      {
+        "id": 8,
+        "value": "τοὺς",
+        "head_id": 10,
+        "relation": "ATR",
+        "lemma": "ὁ",
+        "tag": "l-p---ma-"
+      },
+      {
+        "id": 9,
+        "value": "ἑαυτοῦ",
+        "head_id": 10,
+        "relation": "ATR",
+        "lemma": "ἑαυτοῦ",
+        "tag": "p-s---mg-"
+      },
+      {
+        "id": 10,
+        "value": "ἐπιτηδείους",
+        "head_id": 7,
+        "relation": "OBJ",
+        "lemma": "ἐπιτήδειος",
+        "tag": "a-p---ma-"
+      },
+      {
+        "id": 11,
+        "value": "τοῖς",
+        "head_id": 12,
+        "relation": "ATR",
+        "lemma": "ὁ",
+        "tag": "l-p---nd-"
+      },
+      {
+        "id": 12,
+        "value": "βιαίοις",
+        "head_id": 7,
+        "relation": "ADV",
+        "lemma": "βίαιος",
+        "tag": "a-p---nd-"
+      },
+      {
+        "id": 13,
+        "value": "μᾶλλον",
+        "head_id": 7,
+        "relation": "ADV",
+        "lemma": "μᾶλλον",
+        "tag": "d--------"
+      },
+      {
+        "id": 14,
+        "value": "ἢ",
+        "head_id": 13,
+        "relation": "COORD",
+        "lemma": "ἤ1",
+        "tag": "c--------"
+      },
+      {
+        "id": 15,
+        "value": "κατὰ",
+        "head_id": 21,
+        "relation": "AuxP",
+        "lemma": "κατά",
+        "tag": "r--------"
+      },
+      {
+        "id": 16,
+        "value": "τοὺς",
+        "head_id": 17,
+        "relation": "ATR",
+        "lemma": "ὁ",
+        "tag": "l-p---ma-"
+      },
+      {
+        "id": 17,
+        "value": "νόμους",
+        "head_id": 15,
+        "relation": "ADV",
+        "lemma": "νόμος",
+        "tag": "n-p---ma-"
+      },
+      {
+        "id": 18,
+        "value": "εἰς",
+        "head_id": 21,
+        "relation": "AuxP",
+        "lemma": "εἰς",
+        "tag": "r--------"
+      },
+      {
+        "id": 19,
+        "value": "τὴν",
+        "head_id": 20,
+        "relation": "ATR",
+        "lemma": "ὁ",
+        "tag": "l-s---fa-"
+      },
+      {
+        "id": 20,
+        "value": "ἐλευθερίαν",
+        "head_id": 18,
+        "relation": "OBJ",
+        "lemma": "ἐλευθερία",
+        "tag": "n-s---fa-"
+      },
+      {
+        "id": 21,
+        "value": "ἐξαιρεθεὶς",
+        "head_id": 23,
+        "relation": "ADV",
+        "lemma": "ἐξαιρέω",
+        "tag": "v-sappmn-"
+      },
+      {
+        "id": 22,
+        "value": "δίκην",
+        "head_id": 23,
+        "relation": "OBJ",
+        "lemma": "δίκη",
+        "tag": "n-s---fa-"
+      },
+      {
+        "id": 23,
+        "value": "λαβεῖν",
+        "head_id": 14,
+        "relation": "ADV",
+        "lemma": "λαμβάνω",
+        "tag": "v--ana---"
+      },
+      {
+        "id": 24,
+        "value": "παρὰ",
+        "head_id": 23,
+        "relation": "AuxP",
+        "lemma": "παρά",
+        "tag": "r--------"
+      },
+      {
+        "id": 25,
+        "value": "τῶν",
+        "head_id": 26,
+        "relation": "ATR",
+        "lemma": "ὁ",
+        "tag": "l-p---mg-"
+      },
+      {
+        "id": 26,
+        "value": "ἀγόντων",
+        "head_id": 24,
+        "relation": "ADV",
+        "lemma": "ἄγω",
+        "tag": "v-pppamg-"
+      },
+      {
+        "id": 27,
+        "value": "αὐτόν",
+        "head_id": 26,
+        "relation": "ATR",
+        "lemma": "αὐτός",
+        "tag": "p-s---ma-"
+      },
+      {
+        "id": 28,
+        "value": ",",
+        "head_id": 0,
+        "relation": "AuxX",
+        "lemma": "punc1",
+        "tag": "u--------",
+        "original_head_id": 0
+      },
+      {
+        "id": 29,
+        "value": "οὐδενὶ",
+        "head_id": 30,
+        "relation": "ADV",
+        "lemma": "οὐδείς",
+        "tag": "p-s---md-"
+      },
+      {
+        "id": 30,
+        "value": "χαλεπὸν",
+        "head_id": 46,
+        "relation": "PNOM",
+        "lemma": "χαλεπός",
+        "tag": "a-s---nn-"
+      },
+      {
+        "id": 31,
+        "value": "γνῶναι",
+        "head_id": 46,
+        "relation": "SBJ",
+        "lemma": "γιγνώσκω",
+        "tag": "v--ana---"
+      },
+      {
+        "id": 32,
+        "value": "ὅτι",
+        "head_id": 31,
+        "relation": "AuxC",
+        "lemma": "ὅτι2",
+        "tag": "c--------"
+      },
+      {
+        "id": 33,
+        "value": "εὖ",
+        "head_id": 34,
+        "relation": "ADV",
+        "lemma": "εὖ",
+        "tag": "d--------"
+      },
+      {
+        "id": 34,
+        "value": "εἰδὼς",
+        "head_id": 38,
+        "relation": "ADV",
+        "lemma": "οἶδα",
+        "tag": "v-srpamn-"
+      },
+      {
+        "id": 35,
+        "value": "ἑαυτὸν",
+        "head_id": 36,
+        "relation": "SBJ",
+        "lemma": "ἑαυτοῦ",
+        "tag": "p-s---ma-"
+      },
+      {
+        "id": 36,
+        "value": "ὄντα",
+        "head_id": 34,
+        "relation": "OBJ",
+        "lemma": "εἰμί",
+        "tag": "v-sppama-"
+      },
+      {
+        "id": 37,
+        "value": "δοῦλον",
+        "head_id": 36,
+        "relation": "PNOM",
+        "lemma": "δοῦλος",
+        "tag": "n-s---ma-"
+      },
+      {
+        "id": 38,
+        "value": "ἔδεισεν",
+        "head_id": 32,
+        "relation": "OBJ",
+        "lemma": "δείδω",
+        "tag": "v3saia---"
+      },
+      {
+        "id": 39,
+        "value": "ἐγγυητὰς",
+        "head_id": 40,
+        "relation": "OBJ",
+        "lemma": "ἐγγυητής",
+        "tag": "n-p---ma-"
+      },
+      {
+        "id": 40,
+        "value": "καταστήσας",
+        "head_id": 38,
+        "relation": "ADV",
+        "lemma": "καθίστημι",
+        "tag": "v-sapamn-"
+      },
+      {
+        "id": 41,
+        "value": "περὶ",
+        "head_id": 44,
+        "relation": "AuxP",
+        "lemma": "περί",
+        "tag": "r--------"
+      },
+      {
+        "id": 42,
+        "value": "τοῦ",
+        "head_id": 43,
+        "relation": "ATR",
+        "lemma": "ὁ",
+        "tag": "l-s---ng-"
+      },
+      {
+        "id": 43,
+        "value": "σώματος",
+        "head_id": 41,
+        "relation": "ADV",
+        "lemma": "σῶμα",
+        "tag": "n-s---ng-"
+      },
+      {
+        "id": 44,
+        "value": "ἀγωνίσασθαι",
+        "head_id": 38,
+        "relation": "OBJ",
+        "lemma": "ἀγωνίζομαι",
+        "tag": "v--ane---"
+      },
+      {
+        "id": 45,
+        "value": ".",
+        "head_id": 0,
+        "relation": "AuxK",
+        "lemma": "punc1",
+        "tag": "u--------",
+        "original_head_id": 0
+      },
+      {
+        "id": 46,
+        "value": "ἐστιν",
+        "head_id": 0,
+        "relation": "PRED",
+        "lemma": "εἰμί",
+        "tag": "v3spia---",
+        "original_head_id": 0
+      }
+    ],
+    "references": [
+      "urn:cts:greekLit:tlg0540.tlg023.perseus-grc1-vgorman1-trees:31"
+    ],
+    "citation": "12 (31)"
+  },
+  {
+    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg0540-tlg023-grc-32",
+    "treebank_id": "32",
+    "words": [
+      {
+        "id": 1,
+        "value": "ὅτι",
+        "head_id": 15,
+        "relation": "AuxC",
+        "lemma": "ὅτι2",
+        "tag": "c--------"
+      },
+      {
+        "id": 2,
+        "value": "μὲν",
+        "head_id": 9,
+        "relation": "AuxY",
+        "lemma": "μέν",
+        "tag": "d--------"
+      },
+      {
+        "id": 3,
+        "value": "οὖν",
+        "head_id": 9,
+        "relation": "AuxY",
+        "lemma": "οὖν",
+        "tag": "d--------"
+      },
+      {
+        "id": 4,
+        "value": "Πλαταιεὺς",
+        "head_id": 5,
+        "relation": "PNOM",
+        "lemma": "Πλαταιεύς",
+        "tag": "n-s---mn-"
+      },
+      {
+        "id": 5,
+        "value": "εἶναι",
+        "head_id": 7,
+        "relation": "OBJ",
+        "lemma": "εἰμί",
+        "tag": "v--pna---"
+      },
+      {
+        "id": 6,
+        "value": "πολλοῦ",
+        "head_id": 7,
+        "relation": "OBJ",
+        "lemma": "πολύς",
+        "tag": "a-s---ng-"
+      },
+      {
+        "id": 7,
+        "value": "δεῖ",
+        "head_id": 1,
+        "relation": "OBJ",
+        "lemma": "δέω2",
+        "tag": "v3spia---"
+      },
+      {
+        "id": 8,
+        "value": ",",
+        "head_id": 0,
+        "relation": "AuxX",
+        "lemma": "punc1",
+        "tag": "u--------",
+        "original_head_id": 0
+      },
+      {
+        "id": 9,
+        "value": "οἶμαι",
+        "head_id": 0,
+        "relation": "PRED",
+        "lemma": "οἴομαι",
+        "tag": "v1spie---",
+        "original_head_id": 0
+      },
+      {
+        "id": 10,
+        "value": "ὑμᾶς",
+        "head_id": 15,
+        "relation": "SBJ",
+        "lemma": "σύ",
+        "tag": "p-p---ma-"
+      },
+      {
+        "id": 11,
+        "value": "ἐκ",
+        "head_id": 15,
+        "relation": "AuxP",
+        "lemma": "ἐκ",
+        "tag": "r--------"
+      },
+      {
+        "id": 12,
+        "value": "τούτων",
+        "head_id": 11,
+        "relation": "ADV",
+        "lemma": "οὗτος",
+        "tag": "p-p---ng-"
+      },
+      {
+        "id": 13,
+        "value": "σχεδόν",
+        "head_id": 14,
+        "relation": "ADV",
+        "lemma": "σχεδόν",
+        "tag": "d--------"
+      },
+      {
+        "id": 14,
+        "value": "τι",
+        "head_id": 15,
+        "relation": "ADV",
+        "lemma": "τις",
+        "tag": "p-s---na-"
+      },
+      {
+        "id": 15,
+        "value": "γιγνώσκειν",
+        "head_id": 9,
+        "relation": "OBJ",
+        "lemma": "γιγνώσκω",
+        "tag": "v--pna---"
+      },
+      {
+        "id": 16,
+        "value": "·",
+        "head_id": 0,
+        "relation": "AuxK",
+        "lemma": "punc1",
+        "tag": "u--------",
+        "original_head_id": 0
+      }
+    ],
+    "references": [
+      "urn:cts:greekLit:tlg0540.tlg023.perseus-grc1-vgorman1-trees:32"
+    ],
+    "citation": "13 (32)"
+  },
+  {
+    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg0540-tlg023-grc-33",
+    "treebank_id": "33",
+    "words": [
+      {
+        "id": 1,
+        "value": "ὅτι",
+        "head_id": 24,
+        "relation": "AuxC",
+        "lemma": "ὅτι2",
+        "tag": "c--------"
+      },
+      {
+        "id": 2,
+        "value": "δὲ",
+        "head_id": 24,
+        "relation": "AuxY",
+        "lemma": "δέ",
+        "tag": "d--------"
+      },
+      {
+        "id": 3,
+        "value": "οὐδʼ",
+        "head_id": 13,
+        "relation": "AuxZ",
+        "lemma": "οὐδέ",
+        "tag": "d-------_"
+      },
+      {
+        "id": 4,
+        "value": "αὐτὸς",
+        "head_id": 5,
+        "relation": "ATR",
+        "lemma": "αὐτός",
+        "tag": "a-s---mn_"
+      },
+      {
+        "id": 5,
+        "value": "οὗτος",
+        "head_id": 13,
+        "relation": "SBJ",
+        "lemma": "οὗτος",
+        "tag": "p-s---mn-"
+      },
+      {
+        "id": 6,
+        "value": ",",
+        "head_id": 0,
+        "relation": "AuxX",
+        "lemma": "punc1",
+        "tag": "u--------",
+        "original_head_id": 0
+      },
+      {
+        "id": 7,
+        "value": "ὃς",
+        "head_id": 9,
+        "relation": "SBJ",
+        "lemma": "ὅς",
+        "tag": "p-s---mn-"
+      },
+      {
+        "id": 8,
+        "value": "ἄριστα",
+        "head_id": 9,
+        "relation": "ADV",
+        "lemma": "ἄριστος",
+        "tag": "a-p---na-"
+      },
+      {
+        "id": 9,
+        "value": "οἶδε",
+        "head_id": 5,
+        "relation": "ATR",
+        "lemma": "οἶδα",
+        "tag": "v3sria---"
+      },
+      {
+        "id": 10,
+        "value": "τὰ",
+        "head_id": 9,
+        "relation": "OBJ",
+        "lemma": "ὁ",
+        "tag": "l-p---na-"
+      },
+      {
+        "id": 11,
+        "value": "αὑτοῦ",
+        "head_id": 10,
+        "relation": "ATR",
+        "lemma": "ἑαυτοῦ",
+        "tag": "p-s---mg-"
+      },
+      {
+        "id": 12,
+        "value": ",",
+        "head_id": 0,
+        "relation": "AuxX",
+        "lemma": "punc1",
+        "tag": "u--------",
+        "original_head_id": 0
+      },
+      {
+        "id": 13,
+        "value": "ἡγήσατο",
+        "head_id": 1,
+        "relation": "OBJ",
+        "lemma": "ἡγέομαι",
+        "tag": "v3saim---"
+      },
+      {
+        "id": 14,
+        "value": "δόξαι",
+        "head_id": 13,
+        "relation": "OBJ",
+        "lemma": "δοκέω",
+        "tag": "v--ana---"
+      },
+      {
+        "id": 15,
+        "value": "ἂν",
+        "head_id": 14,
+        "relation": "AuxY",
+        "lemma": "ἄν1",
+        "tag": "d--------"
+      },
+      {
+        "id": 16,
+        "value": "ὑμῖν",
+        "head_id": 14,
+        "relation": "OBJ",
+        "lemma": "σύ",
+        "tag": "p-p---md-"
+      },
+      {
+        "id": 17,
+        "value": "Πλαταιεὺς",
+        "head_id": 18,
+        "relation": "PNOM",
+        "lemma": "Πλαταιεύς",
+        "tag": "n-s---mn-"
+      },
+      {
+        "id": 18,
+        "value": "εἶναι",
+        "head_id": 14,
+        "relation": "OBJ",
+        "lemma": "εἰμί",
+        "tag": "v--pna---"
+      },
+      {
+        "id": 19,
+        "value": ",",
+        "head_id": 0,
+        "relation": "AuxX",
+        "lemma": "punc1",
+        "tag": "u--------",
+        "original_head_id": 0
+      },
+      {
+        "id": 20,
+        "value": "ἐξ",
+        "head_id": 22,
+        "relation": "AuxP",
+        "lemma": "ἐκ",
+        "tag": "r--------"
+      },
+      {
+        "id": 21,
+        "value": "ὧν",
+        "head_id": 20,
+        "relation": "ADV",
+        "lemma": "ὅς",
+        "tag": "p-p---ng-"
+      },
+      {
+        "id": 22,
+        "value": "ἔραξε",
+        "head_id": 24,
+        "relation": "ADV",
+        "lemma": "ἀράσσω",
+        "tag": "v3saia---"
+      },
+      {
+        "id": 23,
+        "value": "ῥαδίως",
+        "head_id": 24,
+        "relation": "ADV",
+        "lemma": "ῥᾴδιος",
+        "tag": "d--------"
+      },
+      {
+        "id": 24,
+        "value": "μαθήσεσθε",
+        "head_id": 0,
+        "relation": "PRED",
+        "lemma": "μανθάνω",
+        "tag": "v2pfim---",
+        "original_head_id": 0
+      },
+      {
+        "id": 25,
+        "value": ".",
+        "head_id": 0,
+        "relation": "AuxK",
+        "lemma": "punc1",
+        "tag": "u--------",
+        "original_head_id": 0
+      }
+    ],
+    "references": [
+      "urn:cts:greekLit:tlg0540.tlg023.perseus-grc1-vgorman1-trees:33"
+    ],
+    "citation": "13 (33)"
+  },
+  {
+    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg0540-tlg023-grc-34",
+    "treebank_id": "34",
+    "words": [
+      {
+        "id": 1,
+        "value": "ἐν",
+        "head_id": 22,
+        "relation": "AuxP",
+        "lemma": "ἐν",
+        "tag": "r--------"
+      },
+      {
+        "id": 2,
+        "value": "τῇ",
+        "head_id": 3,
+        "relation": "ATR",
+        "lemma": "ὁ",
+        "tag": "l-s---fd-"
+      },
+      {
+        "id": 3,
+        "value": "ἀντωμοσίᾳ",
+        "head_id": 1,
+        "relation": "ADV",
+        "lemma": "ἀντωμοσία",
+        "tag": "n-s---fd-"
+      },
+      {
+        "id": 4,
+        "value": "γὰρ",
+        "head_id": 22,
+        "relation": "AuxY",
+        "lemma": "γάρ",
+        "tag": "d--------"
+      },
+      {
+        "id": 5,
+        "value": "τῆς",
+        "head_id": 6,
+        "relation": "ATR",
+        "lemma": "ὁ",
+        "tag": "l-s---fg-"
+      },
+      {
+        "id": 6,
+        "value": "δίκης",
+        "head_id": 3,
+        "relation": "ATR",
+        "lemma": "δίκη",
+        "tag": "n-s---fg-"
+      },
+      {
+        "id": 7,
+        "value": "ἣν",
+        "head_id": 9,
+        "relation": "OBJ",
+        "lemma": "ὅς",
+        "tag": "p-s---fa-"
+      },
+      {
+        "id": 8,
+        "value": "αὐτῷ",
+        "head_id": 9,
+        "relation": "OBJ",
+        "lemma": "αὐτός",
+        "tag": "p-s---md-"
+      },
+      {
+        "id": 9,
+        "value": "ἔλαχεν",
+        "head_id": 6,
+        "relation": "ATR",
+        "lemma": "λαγχάνω",
+        "tag": "v3saia---"
+      },
+      {
+        "id": 10,
+        "value": "Ἀριστόδικος",
+        "head_id": 9,
+        "relation": "SBJ",
+        "lemma": "Ἀριστόδικος",
+        "tag": "n-s---mn-"
+      },
+      {
+        "id": 11,
+        "value": "οὑτοσί",
+        "head_id": 10,
+        "relation": "ATR",
+        "lemma": "οὗτος",
+        "tag": "a-s---mn_"
+      },
+      {
+        "id": 12,
+        "value": ",",
+        "head_id": 0,
+        "relation": "AuxX",
+        "lemma": "punc1",
+        "tag": "u--------",
+        "original_head_id": 0
+      },
+      {
+        "id": 13,
+        "value": "ἀμφισβητῶν",
+        "head_id": 22,
+        "relation": "ADV",
+        "lemma": "ἀμφισβητέω",
+        "tag": "v-sppamn-"
+      },
+      {
+        "id": 14,
+        "value": "μὴ",
+        "head_id": 17,
+        "relation": "AuxZ",
+        "lemma": "μή",
+        "tag": "d--------"
+      },
+      {
+        "id": 15,
+        "value": "πρὸς",
+        "head_id": 18,
+        "relation": "AuxP",
+        "lemma": "πρός",
+        "tag": "r--------"
+      },
+      {
+        "id": 16,
+        "value": "τὸν",
+        "head_id": 17,
+        "relation": "ATR",
+        "lemma": "ὁ",
+        "tag": "l-s---ma-"
+      },
+      {
+        "id": 17,
+        "value": "πολέμαρχον",
+        "head_id": 15,
+        "relation": "PNOM",
+        "lemma": "πολέμαρχος",
+        "tag": "n-s---ma-"
+      },
+      {
+        "id": 18,
+        "value": "εἶναί",
+        "head_id": 13,
+        "relation": "OBJ",
+        "lemma": "εἰμί",
+        "tag": "v--pna---"
+      },
+      {
+        "id": 19,
+        "value": "οἱ",
+        "head_id": 21,
+        "relation": "ATR",
+        "lemma": "ἕ",
+        "tag": "p-s---md-"
+      },
+      {
+        "id": 20,
+        "value": "τὰς",
+        "head_id": 21,
+        "relation": "ATR",
+        "lemma": "ὁ",
+        "tag": "l-p---fa-"
+      },
+      {
+        "id": 21,
+        "value": "δίκας",
+        "head_id": 18,
+        "relation": "SBJ",
+        "lemma": "δίκη",
+        "tag": "n-p---fa-"
+      },
+      {
+        "id": 22,
+        "value": "διεμαρτυρήθη",
+        "head_id": 0,
+        "relation": "PRED",
+        "lemma": "διαμαρτυρέω",
+        "tag": "v3saip---",
+        "original_head_id": 0
+      },
+      {
+        "id": 23,
+        "value": "μὴ",
+        "head_id": 24,
+        "relation": "AuxZ",
+        "lemma": "μή",
+        "tag": "d--------"
+      },
+      {
+        "id": 24,
+        "value": "Πλαταιεὺς",
+        "head_id": 25,
+        "relation": "PNOM",
+        "lemma": "Πλαταιεύς",
+        "tag": "n-s---mn-"
+      },
+      {
+        "id": 25,
+        "value": "εἶναι",
+        "head_id": 22,
+        "relation": "OBJ",
+        "lemma": "εἰμί",
+        "tag": "v--pna---"
+      },
+      {
+        "id": 26,
+        "value": ".",
+        "head_id": 0,
+        "relation": "AuxK",
+        "lemma": "punc1",
+        "tag": "u--------",
+        "original_head_id": 0
+      }
+    ],
+    "references": [
+      "urn:cts:greekLit:tlg0540.tlg023.perseus-grc1-vgorman1-trees:34"
+    ],
+    "citation": "13 (34)"
+  },
+  {
+    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg0540-tlg023-grc-35",
+    "treebank_id": "35",
+    "words": [
+      {
+        "id": 1,
+        "value": "ἐπισκηψάμενος",
+        "head_id": 6,
+        "relation": "ADV",
+        "lemma": "ἐπισκήπτω",
+        "tag": "v-sapmmn-"
+      },
+      {
+        "id": 2,
+        "value": "δὲ",
+        "head_id": 8,
+        "relation": "AuxY",
+        "lemma": "δέ",
+        "tag": "d--------"
+      },
+      {
+        "id": 3,
+        "value": "τῷ",
+        "head_id": 4,
+        "relation": "ATR",
+        "lemma": "ὁ",
+        "tag": "l-s---md-"
+      },
+      {
+        "id": 4,
+        "value": "μάρτυρι",
+        "head_id": 1,
+        "relation": "OBJ",
+        "lemma": "μάρτυς",
+        "tag": "n-s---md-"
+      },
+      {
+        "id": 5,
+        "value": "οὐκ",
+        "head_id": 6,
+        "relation": "AuxZ",
+        "lemma": "οὐ",
+        "tag": "d--------"
+      },
+      {
+        "id": 6,
+        "value": "ἐπεξῆλθεν",
+        "head_id": 8,
+        "relation": "PRED_CO",
+        "lemma": "ἐπεξέρχομαι",
+        "tag": "v3saia---"
+      },
+      {
+        "id": 7,
+        "value": ",",
+        "head_id": 0,
+        "relation": "AuxX",
+        "lemma": "punc1",
+        "tag": "u--------",
+        "original_head_id": 0
+      },
+      {
+        "id": 8,
+        "value": "ἀλλʼ",
+        "head_id": 0,
+        "relation": "COORD",
+        "lemma": "ἀλλά",
+        "tag": "c--------",
+        "original_head_id": 0
+      },
+      {
+        "id": 9,
+        "value": "εἴασε",
+        "head_id": 8,
+        "relation": "PRED_CO",
+        "lemma": "ἐάω",
+        "tag": "v3saia---"
+      },
+      {
+        "id": 10,
+        "value": "καταδικάσασθαι",
+        "head_id": 9,
+        "relation": "OBJ",
+        "lemma": "καταδικάζω",
+        "tag": "v--anm---"
+      },
+      {
+        "id": 11,
+        "value": "αὐτοῦ",
+        "head_id": 10,
+        "relation": "OBJ",
+        "lemma": "αὐτός",
+        "tag": "p-s---mg-"
+      },
+      {
+        "id": 12,
+        "value": "τὸν",
+        "head_id": 13,
+        "relation": "ATR",
+        "lemma": "ὁ",
+        "tag": "l-s---ma-"
+      },
+      {
+        "id": 13,
+        "value": "Ἀριστόδικον",
+        "head_id": 10,
+        "relation": "SBJ",
+        "lemma": "Ἀριστόδικος",
+        "tag": "n-s---ma-"
+      },
+      {
+        "id": 14,
+        "value": ".",
+        "head_id": 0,
+        "relation": "AuxK",
+        "lemma": "punc1",
+        "tag": "u--------",
+        "original_head_id": 0
+      }
+    ],
+    "references": [
+      "urn:cts:greekLit:tlg0540.tlg023.perseus-grc1-vgorman1-trees:35"
+    ],
+    "citation": "14 (35)"
+  },
+  {
+    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg0540-tlg023-grc-36",
+    "treebank_id": "36",
+    "words": [
+      {
+        "id": 1,
+        "value": "ἐπεὶ",
+        "head_id": 6,
+        "relation": "AuxC",
+        "lemma": "ἐπεί",
+        "tag": "c--------"
+      },
+      {
+        "id": 2,
+        "value": "δὲ",
+        "head_id": 6,
+        "relation": "AuxY",
+        "lemma": "δέ",
+        "tag": "d--------"
+      },
+      {
+        "id": 3,
+        "value": "ὑπερήμερος",
+        "head_id": 4,
+        "relation": "PNOM",
+        "lemma": "ὑπερήμερος",
+        "tag": "a-s---mn-"
+      },
+      {
+        "id": 4,
+        "value": "ἐγένετο",
+        "head_id": 1,
+        "relation": "ADV",
+        "lemma": "γίγνομαι",
+        "tag": "v3saim---"
+      },
+      {
+        "id": 5,
+        "value": ",",
+        "head_id": 0,
+        "relation": "AuxX",
+        "lemma": "punc1",
+        "tag": "u--------",
+        "original_head_id": 0
+      },
+      {
+        "id": 6,
+        "value": "ἐξέτισε",
+        "head_id": 0,
+        "relation": "PRED",
+        "lemma": "ἐκτίνω",
+        "tag": "v3saia---",
+        "original_head_id": 0
+      },
+      {
+        "id": 7,
+        "value": "τὴν",
+        "head_id": 8,
+        "relation": "ATR",
+        "lemma": "ὁ",
+        "tag": "l-s---fa-"
+      },
+      {
+        "id": 8,
+        "value": "δίκην",
+        "head_id": 6,
+        "relation": "OBJ",
+        "lemma": "δίκη",
+        "tag": "n-s---fa-"
+      },
+      {
+        "id": 9,
+        "value": ",",
+        "head_id": 0,
+        "relation": "AuxX",
+        "lemma": "punc1",
+        "tag": "u--------",
+        "original_head_id": 0
+      },
+      {
+        "id": 10,
+        "value": "καθʼ",
+        "head_id": 12,
+        "relation": "AuxP",
+        "lemma": "κατά",
+        "tag": "r--------"
+      },
+      {
+        "id": 11,
+        "value": "ὅτι",
+        "head_id": 10,
+        "relation": "ADV",
+        "lemma": "ὅστις",
+        "tag": "p-s---na-"
+      },
+      {
+        "id": 12,
+        "value": "ἔπειθε",
+        "head_id": 6,
+        "relation": "ADV",
+        "lemma": "πείθω",
+        "tag": "v3siia---"
+      },
+      {
+        "id": 13,
+        "value": ".",
+        "head_id": 0,
+        "relation": "AuxK",
+        "lemma": "punc1",
+        "tag": "u--------",
+        "original_head_id": 0
+      }
+    ],
+    "references": [
+      "urn:cts:greekLit:tlg0540.tlg023.perseus-grc1-vgorman1-trees:36"
+    ],
+    "citation": "14 (36)"
+  },
+  {
+    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg0540-tlg023-grc-37",
+    "treebank_id": "37",
+    "words": [
+      {
+        "id": 1,
+        "value": "καὶ",
+        "head_id": 10,
+        "relation": "AuxY",
+        "lemma": "καί",
+        "tag": "d--------"
+      },
+      {
+        "id": 2,
+        "value": "τούτων",
+        "head_id": 8,
+        "relation": "ATR",
+        "lemma": "οὗτος",
+        "tag": "p-p---ng-"
+      },
+      {
+        "id": 3,
+        "value": ",",
+        "head_id": 0,
+        "relation": "AuxX",
+        "lemma": "punc1",
+        "tag": "u--------",
+        "original_head_id": 0
+      },
+      {
+        "id": 4,
+        "value": "ὡς",
+        "head_id": 2,
+        "relation": "AuxC",
+        "lemma": "ὡς",
+        "tag": "c--------"
+      },
+      {
+        "id": 5,
+        "value": "ἀληθῆ",
+        "head_id": 6,
+        "relation": "PNOM",
+        "lemma": "ἀληθής",
+        "tag": "a-p---nn-"
+      },
+      {
+        "id": 6,
+        "value": "ἐστι",
+        "head_id": 4,
+        "relation": "ATR",
+        "lemma": "εἰμί",
+        "tag": "v3spia---"
+      },
+      {
+        "id": 7,
+        "value": ",",
+        "head_id": 0,
+        "relation": "AuxX",
+        "lemma": "punc1",
+        "tag": "u--------",
+        "original_head_id": 0
+      },
+      {
+        "id": 8,
+        "value": "μάρτυρας",
+        "head_id": 10,
+        "relation": "OBJ",
+        "lemma": "μάρτυς",
+        "tag": "n-p---ma-"
+      },
+      {
+        "id": 9,
+        "value": "ἐγὼ",
+        "head_id": 10,
+        "relation": "SBJ",
+        "lemma": "ἐγώ",
+        "tag": "p1s---mn-"
+      },
+      {
+        "id": 10,
+        "value": "παρέξομαι",
+        "head_id": 0,
+        "relation": "PRED",
+        "lemma": "παρέχω",
+        "tag": "v1sfim---",
+        "original_head_id": 0
+      },
+      {
+        "id": 11,
+        "value": "ὑμῖν",
+        "head_id": 10,
+        "relation": "OBJ",
+        "lemma": "σύ",
+        "tag": "p-p---md-"
+      },
+      {
+        "id": 12,
+        "value": ".",
+        "head_id": 0,
+        "relation": "AuxK",
+        "lemma": "punc1",
+        "tag": "u--------",
+        "original_head_id": 0
+      }
+    ],
+    "references": [
+      "urn:cts:greekLit:tlg0540.tlg023.perseus-grc1-vgorman1-trees:37"
+    ],
+    "citation": "14 (37)"
+  },
+  {
+    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg0540-tlg023-grc-38",
+    "treebank_id": "38",
+    "words": [
+      {
+        "id": 1,
+        "value": "καί",
+        "head_id": 3,
+        "relation": "AuxY",
+        "lemma": "καί",
+        "tag": "d-------_"
+      },
+      {
+        "id": 2,
+        "value": "μοι",
+        "head_id": 3,
+        "relation": "ADV",
+        "lemma": "ἐγώ",
+        "tag": "p1s---md-"
+      },
+      {
+        "id": 3,
+        "value": "ἐπίλαβε",
+        "head_id": 0,
+        "relation": "PRED",
+        "lemma": "ἐπιλαμβάνω",
+        "tag": "v2sama---",
+        "original_head_id": 0
+      },
+      {
+        "id": 4,
+        "value": "τὸ",
+        "head_id": 5,
+        "relation": "ATR",
+        "lemma": "ὁ",
+        "tag": "l-s---na-"
+      },
+      {
+        "id": 5,
+        "value": "ὕδωρ",
+        "head_id": 3,
+        "relation": "OBJ",
+        "lemma": "ὕδωρ",
+        "tag": "n-s---na-"
+      },
+      {
+        "id": 6,
+        "value": ".",
+        "head_id": 0,
+        "relation": "AuxK",
+        "lemma": "punc1",
+        "tag": "u--------",
+        "original_head_id": 0
+      }
+    ],
+    "references": [
+      "urn:cts:greekLit:tlg0540.tlg023.perseus-grc1-vgorman1-trees:38"
+    ],
+    "citation": "14 (38)"
+  },
+  {
+    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg0540-tlg023-grc-39",
+    "treebank_id": "39",
+    "words": [
+      {
+        "id": 1,
+        "value": "Μάρτυρες",
+        "head_id": 0,
+        "relation": "ExD",
+        "lemma": "μάρτυς",
+        "tag": "n-p---mn-",
+        "original_head_id": 0
+      }
+    ],
+    "references": [
+      "urn:cts:greekLit:tlg0540.tlg023.perseus-grc1-vgorman1-trees:39"
+    ],
+    "citation": "14 (39)"
+  },
+  {
+    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg0540-tlg023-grc-40",
+    "treebank_id": "40",
+    "words": [
+      {
+        "id": 1,
+        "value": "πρὶν",
+        "head_id": 13,
+        "relation": "AuxC",
+        "lemma": "πρίν",
+        "tag": "c--------"
+      },
+      {
+        "id": 2,
+        "value": "τοίνυν",
+        "head_id": 13,
+        "relation": "AuxY",
+        "lemma": "τοίνυν",
+        "tag": "d--------"
+      },
+      {
+        "id": 3,
+        "value": "ταῦτα",
+        "head_id": 4,
+        "relation": "SBJ",
+        "lemma": "οὗτος",
+        "tag": "p-p---na-"
+      },
+      {
+        "id": 4,
+        "value": "ὁμολογηθῆναι",
+        "head_id": 1,
+        "relation": "ADV",
+        "lemma": "ὁμολογέω",
+        "tag": "v--anp---"
+      },
+      {
+        "id": 5,
+        "value": "αὐτῶ",
+        "head_id": 4,
+        "relation": "OBJ",
+        "lemma": "αὐτός",
+        "tag": "p-s---mg-"
+      },
+      {
+        "id": 6,
+        "value": ",",
+        "head_id": 0,
+        "relation": "AuxX",
+        "lemma": "punc1",
+        "tag": "u--------",
+        "original_head_id": 0
+      },
+      {
+        "id": 7,
+        "value": "δεδιὼς",
+        "head_id": 13,
+        "relation": "ADV",
+        "lemma": "δείδω",
+        "tag": "v-srpamn-"
+      },
+      {
+        "id": 8,
+        "value": "τὸν",
+        "head_id": 9,
+        "relation": "ATR",
+        "lemma": "ὁ",
+        "tag": "l-s---ma-"
+      },
+      {
+        "id": 9,
+        "value": "Ἀριστόδικον",
+        "head_id": 7,
+        "relation": "OBJ",
+        "lemma": "Ἀριστόδικος",
+        "tag": "n-s---ma-"
+      },
+      {
+        "id": 10,
+        "value": "μεταστὰς",
+        "head_id": 13,
+        "relation": "ADV",
+        "lemma": "μεθίστημι",
+        "tag": "v-sapamn-"
+      },
+      {
+        "id": 11,
+        "value": "ἐντεῦθεν",
+        "head_id": 10,
+        "relation": "ADV",
+        "lemma": "ἐντεῦθεν",
+        "tag": "d--------"
+      },
+      {
+        "id": 12,
+        "value": "Θήβησι",
+        "head_id": 13,
+        "relation": "ADV",
+        "lemma": "Θήβησιν",
+        "tag": "d--------"
+      },
+      {
+        "id": 13,
+        "value": "μετῴκει",
+        "head_id": 0,
+        "relation": "PRED",
+        "lemma": "μετοικέω",
+        "tag": "v3siia---",
+        "original_head_id": 0
+      },
+      {
+        "id": 14,
+        "value": ".",
+        "head_id": 0,
+        "relation": "AuxK",
+        "lemma": "punc1",
+        "tag": "u--------",
+        "original_head_id": 0
+      }
+    ],
+    "references": [
+      "urn:cts:greekLit:tlg0540.tlg023.perseus-grc1-vgorman1-trees:40"
+    ],
+    "citation": "15 (40)"
+  },
+  {
+    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg0540-tlg023-grc-41",
+    "treebank_id": "41",
+    "words": [
+      {
+        "id": 1,
+        "value": "καίτοι",
+        "head_id": 2,
+        "relation": "AuxY",
+        "lemma": "καίτοι",
+        "tag": "d--------"
+      },
+      {
+        "id": 2,
+        "value": "οἶμαι",
+        "head_id": 0,
+        "relation": "PRED",
+        "lemma": "οἴομαι",
+        "tag": "v1spie---",
+        "original_head_id": 0
+      },
+      {
+        "id": 3,
+        "value": "εἰδέναι",
+        "head_id": 2,
+        "relation": "OBJ",
+        "lemma": "οἶδα",
+        "tag": "v--rna---"
+      },
+      {
+        "id": 4,
+        "value": "ὑμᾶς",
+        "head_id": 3,
+        "relation": "SBJ",
+        "lemma": "σύ",
+        "tag": "p-p---ma-"
+      },
+      {
+        "id": 5,
+        "value": "ὅτι",
+        "head_id": 3,
+        "relation": "AuxC",
+        "lemma": "ὅτι2",
+        "tag": "c--------"
+      },
+      {
+        "id": 6,
+        "value": "εἴπερ",
+        "head_id": 15,
+        "relation": "AuxC",
+        "lemma": "εἴπερ",
+        "tag": "c--------"
+      },
+      {
+        "id": 7,
+        "value": "ἦν",
+        "head_id": 6,
+        "relation": "ADV",
+        "lemma": "εἰμί",
+        "tag": "v3siia---"
+      },
+      {
+        "id": 8,
+        "value": "Πλαταιεύς",
+        "head_id": 7,
+        "relation": "PNOM",
+        "lemma": "Πλαταιεύς",
+        "tag": "n-s---mn-"
+      },
+      {
+        "id": 9,
+        "value": ",",
+        "head_id": 0,
+        "relation": "AuxX",
+        "lemma": "punc1",
+        "tag": "u--------",
+        "original_head_id": 0
+      },
+      {
+        "id": 10,
+        "value": "πανταχοῦ",
+        "head_id": 17,
+        "relation": "ADV",
+        "lemma": "πανταχοῦ",
+        "tag": "d--------"
+      },
+      {
+        "id": 11,
+        "value": "μᾶλλον",
+        "head_id": 10,
+        "relation": "ADV",
+        "lemma": "μᾶλλον",
+        "tag": "d--------"
+      },
+      {
+        "id": 12,
+        "value": "ἢ",
+        "head_id": 11,
+        "relation": "AuxC",
+        "lemma": "ἤ1",
+        "tag": "c--------"
+      },
+      {
+        "id": 13,
+        "value": "Θήβησιν",
+        "head_id": 19,
+        "relation": "ADV",
+        "lemma": "Θήβησιν",
+        "tag": "d--------"
+      },
+      {
+        "id": 14,
+        "value": "εἰκὸς",
+        "head_id": 15,
+        "relation": "PNOM",
+        "lemma": "εἰκός",
+        "tag": "v-srpann-"
+      },
+      {
+        "id": 15,
+        "value": "ἦν",
+        "head_id": 5,
+        "relation": "OBJ",
+        "lemma": "εἰμί",
+        "tag": "v3siia---"
+      },
+      {
+        "id": 16,
+        "value": "αὐτὸν",
+        "head_id": 17,
+        "relation": "SBJ",
+        "lemma": "αὐτός",
+        "tag": "p-s---ma-"
+      },
+      {
+        "id": 17,
+        "value": "μετοικῆσαι",
+        "head_id": 15,
+        "relation": "SBJ",
+        "lemma": "μετοικέω",
+        "tag": "v--ana---"
+      },
+      {
+        "id": 18,
+        "value": ".",
+        "head_id": 0,
+        "relation": "AuxK",
+        "lemma": "punc1",
+        "tag": "u--------",
+        "original_head_id": 0
+      },
+      {
+        "id": 19,
+        "value": "[0]",
+        "head_id": 12,
+        "relation": "ADV",
+        "lemma": "",
+        "tag": ""
+      }
+    ],
+    "references": [
+      "urn:cts:greekLit:tlg0540.tlg023.perseus-grc1-vgorman1-trees:41"
+    ],
+    "citation": "15 (41)"
+  },
+  {
+    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg0540-tlg023-grc-42",
+    "treebank_id": "42",
+    "words": [
+      {
+        "id": 1,
+        "value": "ὡς",
+        "head_id": 8,
+        "relation": "AuxC",
+        "lemma": "ὡς",
+        "tag": "c--------"
+      },
+      {
+        "id": 2,
+        "value": "οὖν",
+        "head_id": 11,
+        "relation": "AuxY",
+        "lemma": "οὖν",
+        "tag": "d--------"
+      },
+      {
+        "id": 3,
+        "value": "ᾤκει",
+        "head_id": 1,
+        "relation": "ATR",
+        "lemma": "οἰκέω",
+        "tag": "v3siia---"
+      },
+      {
+        "id": 4,
+        "value": "ἐκεῖ",
+        "head_id": 3,
+        "relation": "ADV",
+        "lemma": "ἐκεῖ",
+        "tag": "d--------"
+      },
+      {
+        "id": 5,
+        "value": "πολὺν",
+        "head_id": 6,
+        "relation": "ATR",
+        "lemma": "πολύς",
+        "tag": "a-s---ma-"
+      },
+      {
+        "id": 6,
+        "value": "χρόνον",
+        "head_id": 3,
+        "relation": "ADV",
+        "lemma": "χρόνος",
+        "tag": "n-s---ma-"
+      },
+      {
+        "id": 7,
+        "value": ",",
+        "head_id": 0,
+        "relation": "AuxX",
+        "lemma": "punc1",
+        "tag": "u--------",
+        "original_head_id": 0
+      },
+      {
+        "id": 8,
+        "value": "τούτων",
+        "head_id": 10,
+        "relation": "ATR",
+        "lemma": "οὗτος",
+        "tag": "p-p---ng-"
+      },
+      {
+        "id": 9,
+        "value": "ὑμῖν",
+        "head_id": 11,
+        "relation": "OBJ",
+        "lemma": "σύ",
+        "tag": "p-p---md-"
+      },
+      {
+        "id": 10,
+        "value": "μάρτυρας",
+        "head_id": 11,
+        "relation": "OBJ",
+        "lemma": "μάρτυς",
+        "tag": "n-p---ma-"
+      },
+      {
+        "id": 11,
+        "value": "παρέξομαι",
+        "head_id": 0,
+        "relation": "PRED",
+        "lemma": "παρέχω",
+        "tag": "v1sfim---",
+        "original_head_id": 0
+      },
+      {
+        "id": 12,
+        "value": ".",
+        "head_id": 0,
+        "relation": "AuxK",
+        "lemma": "punc1",
+        "tag": "u--------",
+        "original_head_id": 0
+      }
+    ],
+    "references": [
+      "urn:cts:greekLit:tlg0540.tlg023.perseus-grc1-vgorman1-trees:42"
+    ],
+    "citation": "15 (42)"
+  },
+  {
+    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg0540-tlg023-grc-43",
+    "treebank_id": "43",
+    "words": [
+      {
+        "id": 1,
+        "value": "καί",
+        "head_id": 3,
+        "relation": "AuxY",
+        "lemma": "καί",
+        "tag": "d-------_"
+      },
+      {
+        "id": 2,
+        "value": "μοι",
+        "head_id": 3,
+        "relation": "ADV",
+        "lemma": "ἐγώ",
+        "tag": "p1s---md-"
+      },
+      {
+        "id": 3,
+        "value": "ἐπίλαβε",
+        "head_id": 0,
+        "relation": "PRED",
+        "lemma": "ἐπιλαμβάνω",
+        "tag": "v2sama---",
+        "original_head_id": 0
+      },
+      {
+        "id": 4,
+        "value": "τὸ",
+        "head_id": 5,
+        "relation": "ATR",
+        "lemma": "ὁ",
+        "tag": "l-s---na-"
+      },
+      {
+        "id": 5,
+        "value": "ὕδωρ",
+        "head_id": 3,
+        "relation": "OBJ",
+        "lemma": "ὕδωρ",
+        "tag": "n-s---na-"
+      },
+      {
+        "id": 6,
+        "value": ".",
+        "head_id": 0,
+        "relation": "AuxK",
+        "lemma": "punc1",
+        "tag": "u--------",
+        "original_head_id": 0
+      }
+    ],
+    "references": [
+      "urn:cts:greekLit:tlg0540.tlg023.perseus-grc1-vgorman1-trees:43"
+    ],
+    "citation": "15 (43)"
+  },
+  {
+    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg0540-tlg023-grc-44",
+    "treebank_id": "44",
+    "words": [
+      {
+        "id": 1,
+        "value": "Μάρτυρες",
+        "head_id": 0,
+        "relation": "ExD",
+        "lemma": "μάρτυς",
+        "tag": "n-p---mn-",
+        "original_head_id": 0
+      }
+    ],
+    "references": [
+      "urn:cts:greekLit:tlg0540.tlg023.perseus-grc1-vgorman1-trees:44"
+    ],
+    "citation": "15 (44)"
+  },
+  {
+    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg0540-tlg023-grc-45",
+    "treebank_id": "45",
+    "words": [
+      {
+        "id": 1,
+        "value": "ἐξαρκεῖν",
+        "head_id": 3,
+        "relation": "OBJ",
+        "lemma": "ἐξαρκέω",
+        "tag": "v--pna---"
+      },
+      {
+        "id": 2,
+        "value": "μοι",
+        "head_id": 1,
+        "relation": "OBJ",
+        "lemma": "ἐγώ",
+        "tag": "p1s---md-"
+      },
+      {
+        "id": 3,
+        "value": "νομίζω",
+        "head_id": 0,
+        "relation": "PRED",
+        "lemma": "νομίζω",
+        "tag": "v1spia---",
+        "original_head_id": 0
+      },
+      {
+        "id": 4,
+        "value": "τὰ",
+        "head_id": 5,
+        "relation": "ATR",
+        "lemma": "ὁ",
+        "tag": "l-p---na-"
+      },
+      {
+        "id": 5,
+        "value": "εἰρημένα",
+        "head_id": 1,
+        "relation": "SBJ",
+        "lemma": "ἐρῶ",
+        "tag": "v-prpena-"
+      },
+      {
+        "id": 6,
+        "value": ",",
+        "head_id": 0,
+        "relation": "AuxX",
+        "lemma": "punc1",
+        "tag": "u--------",
+        "original_head_id": 0
+      },
+      {
+        "id": 7,
+        "value": "ὦ",
+        "head_id": 8,
+        "relation": "AuxZ",
+        "lemma": "ὦ",
+        "tag": "i--------"
+      },
+      {
+        "id": 8,
+        "value": "ἄνδρες",
+        "head_id": 3,
+        "relation": "ExD",
+        "lemma": "ἀνήρ",
+        "tag": "n-p---mv-"
+      },
+      {
+        "id": 9,
+        "value": "δικασταί",
+        "head_id": 8,
+        "relation": "ATR",
+        "lemma": "δικαστής",
+        "tag": "n-p---mv-"
+      },
+      {
+        "id": 10,
+        "value": "·",
+        "head_id": 0,
+        "relation": "AuxK",
+        "lemma": "punc1",
+        "tag": "u--------",
+        "original_head_id": 0
+      }
+    ],
+    "references": [
+      "urn:cts:greekLit:tlg0540.tlg023.perseus-grc1-vgorman1-trees:45"
+    ],
+    "citation": "16 (45)"
+  },
+  {
+    "urn": "urn:cite2:beyond-translation:syntaxTree.atlas_v1:tlg0540-tlg023-grc-46",
+    "treebank_id": "46",
+    "words": [
+      {
+        "id": 1,
+        "value": "ἐὰν",
+        "head_id": 5,
+        "relation": "AuxP",
+        "lemma": "ἐάν",
+        "tag": "c--------"
+      },
+      {
+        "id": 2,
+        "value": "γὰρ",
+        "head_id": 5,
+        "relation": "AuxY",
+        "lemma": "γάρ",
+        "tag": "d--------"
+      },
+      {
+        "id": 3,
+        "value": "διαμνημονεύητε",
+        "head_id": 1,
+        "relation": "ADV",
+        "lemma": "διαμνημονεύω",
+        "tag": "v2ppsa---"
+      },
+      {
+        "id": 4,
+        "value": ",",
+        "head_id": 0,
+        "relation": "AuxX",
+        "lemma": "punc1",
+        "tag": "u--------",
+        "original_head_id": 0
+      },
+      {
+        "id": 5,
+        "value": "οἶδʼ",
+        "head_id": 0,
+        "relation": "PRED",
+        "lemma": "οἶδα",
+        "tag": "v1spia---",
+        "original_head_id": 0
+      },
+      {
+        "id": 6,
+        "value": "ὅτι",
+        "head_id": 5,
+        "relation": "AuxP",
+        "lemma": "ὅτι2",
+        "tag": "c--------"
+      },
+      {
+        "id": 7,
+        "value": "τά",
+        "head_id": 9,
+        "relation": "ATR",
+        "lemma": "ὁ",
+        "tag": "l-p---na-"
+      },
+      {
+        "id": 8,
+        "value": "τε",
+        "head_id": 10,
+        "relation": "AuxY",
+        "lemma": "τε",
+        "tag": "d--------"
+      },
+      {
+        "id": 9,
+        "value": "δίκαια",
+        "head_id": 10,
+        "relation": "OBJ_CO",
+        "lemma": "δίκαιος",
+        "tag": "a-p---na-"
+      },
+      {
+        "id": 10,
+        "value": "καὶ",
+        "head_id": 13,
+        "relation": "COORD",
+        "lemma": "καί",
+        "tag": "c--------"
+      },
+      {
+        "id": 11,
+        "value": "τ-",
+        "head_id": 12,
+        "relation": "ATR",
+        "lemma": "ὁ",
+        "tag": "l-p---na-"
+      },
+      {
+        "id": 12,
+        "value": "ἀληθῆ",
+        "head_id": 10,
+        "relation": "OBJ_CO",
+        "lemma": "ἀληθής",
+        "tag": "a-p---na-"
+      },
+      {
+        "id": 13,
+        "value": "ψηφιεῖσθε",
+        "head_id": 6,
+        "relation": "OBJ",
+        "lemma": "ψηφίζομαι",
+        "tag": "v2pfie---"
+      },
+      {
+        "id": 14,
+        "value": ",",
+        "head_id": 0,
+        "relation": "AuxX",
+        "lemma": "punc1",
+        "tag": "u--------",
+        "original_head_id": 0
+      },
+      {
+        "id": 15,
+        "value": "ἃ",
+        "head_id": 19,
+        "relation": "OBJ",
+        "lemma": "ὅς",
+        "tag": "p-p---na-"
+      },
+      {
+        "id": 16,
+        "value": "καὶ",
+        "head_id": 15,
+        "relation": "AuxZ",
+        "lemma": "καί",
+        "tag": "d--------"
+      },
+      {
+        "id": 17,
+        "value": "ἐγὼ",
+        "head_id": 19,
+        "relation": "SBJ",
+        "lemma": "ἐγώ",
+        "tag": "p1s---mn-"
+      },
+      {
+        "id": 18,
+        "value": "ὑμῶν",
+        "head_id": 19,
+        "relation": "OBJ",
+        "lemma": "σύ",
+        "tag": "p-p---mg-"
+      },
+      {
+        "id": 19,
+        "value": "δέομαι",
+        "head_id": 10,
+        "relation": "ATR",
+        "lemma": "δέω2",
+        "tag": "v1spie---"
+      },
+      {
+        "id": 20,
+        "value": ".",
+        "head_id": 0,
+        "relation": "AuxK",
+        "lemma": "punc1",
+        "tag": "u--------",
+        "original_head_id": 0
+      }
+    ],
+    "references": [
+      "urn:cts:greekLit:tlg0540.tlg023.perseus-grc1-vgorman1-trees:46"
+    ],
+    "citation": "16 (46)"
+  }
+]

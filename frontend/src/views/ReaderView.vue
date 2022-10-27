@@ -27,6 +27,8 @@
   import LibraryWidget from '@scaife-viewer/widget-library';
   import NamedEntitiesWidget from '@scaife-viewer/widget-named-entities';
   // eslint-disable-next-line max-len
+  import GrammaticalEntriesWidget from '@scaife-viewer/widget-grammatical-entries';
+  // eslint-disable-next-line max-len
   import PassageLemmaTraversalWidget from '@scaife-viewer/widget-passage-lemma-traversal';
   // eslint-disable-next-line max-len
   import DictionaryEntriesWidget from '@scaife-viewer/widget-dictionary-entries';
@@ -78,6 +80,7 @@
           TextWidthWidget,
           AudioWidget,
           DisplayModeWidget,
+          GrammaticalEntriesWidget,
           NamedEntitiesWidget,
           PassageLemmaTraversalWidget,
           DictionaryEntriesWidget,
