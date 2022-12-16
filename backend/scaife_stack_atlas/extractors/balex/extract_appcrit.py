@@ -25,7 +25,8 @@ def find_rk(seq, subseq):
 
 
 def extract_readings(parsed):
-    # FIXME: Refactor with extract_text
+    # FIXME: Refactor using the new XSLT transform so we can get inline critical edition
+    # markup; see 40.4#lem-40.4-tricesima-sexta-legio for an example
     version_urn = "urn:cts:latinLit:phi0428.phi001.dll-ed-lat1:"
     edition = parsed.find("//TEI:div[@type='edition']", namespaces=ns)
     chapters = edition.findall("TEI:p", namespaces=ns)
@@ -34,12 +35,12 @@ def extract_readings(parsed):
     for chapter in chapters:
         chapter_ref = chapter.attrib["n"]
         # TODO: Handle chapter.seg refs
-        ref = f"{chapter_ref}"
-        parts[chapter_ref] = []
         segments = chapter.findall("TEI:seg", namespaces=ns)
         for segment in segments:
-            text_content = []
             segment_ref = segment.attrib["n"]
+            ref = f"{chapter_ref}.{segment_ref}"
+            parts[ref] = []
+            text_content = []
             segment_text = segment.text
             if segment_text is not None:
                 text_content.append(segment_text)
@@ -55,12 +56,7 @@ def extract_readings(parsed):
                         ipdb.set_trace()
                         raise e
 
-                    # TODO: Refactor using subrefs
-
-                    prior = parts.get(chapter_ref, [])
                     parts_ws = []
-                    for p in prior:
-                        parts_ws.extend(p[1].split())
                     try:
                         parts_ws.extend("".join(text_content).split())
                     except Exception as e:
@@ -83,11 +79,15 @@ def extract_readings(parsed):
                     # NOTE: These were the instances where we couldn't compute
                     # token offsets; even if we move to CTS subreferences, we
                     # would still hit this problem
+                    # TODO: 40.4 fix comma after interfecta in our extraction process (or possibly)
+                    # in the XML
                     corrected_tokens = {
                         ("multaque",): ["temerarii—multaque"],
                         ("castra",): ["remotis—castra"],
                         ("quod", "uel"): ["accessiones—quod", "uel"],
                         ("nihilo",): ["tempestate—nihilo"],
+                        ("neque",): ["Alexandrini—neque"],
+                        ('tricesima', 'sexta', 'legio'): ['interfecta,tricesima', 'sexta', 'legio']
                     }
                     correct_tokens = corrected_tokens.get(tuple(lem_tokens), lem_tokens)
                     try:
@@ -176,7 +176,7 @@ def extract_readings(parsed):
             text_content = "".join(
                 [re.sub(r"\s+", " ", s) for s in text_content if re.sub(r"\s+", " ", s)]
             ).strip()
-            parts[chapter_ref].append((segment_ref, text_content))
+            parts[chapter_ref].append((ref, text_content))
     return parts, readings
 
 
