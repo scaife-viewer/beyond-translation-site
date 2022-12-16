@@ -28,20 +28,26 @@ def main():
         "data/library/phi0428/phi001/phi0428.phi001.dll-tr-eng1.txt"
     )
     records = []
-    pairs = zip(
-        edition_path.read_text().splitlines(), translation_path.read_text().splitlines()
-    )
-    for idx, pair in enumerate(pairs):
+    edition_lu = {}
+    for line in edition_path.read_text().splitlines():
+        ref, content = line.split(" ", maxsplit=1)
+        edition_lu[ref] = content
+
+    translation_lu = {}
+    for line in translation_path.read_text().splitlines():
+        ref, content = line.split(" ", maxsplit=1)
+        translation_lu[ref] = content
+
+    for idx, ed_ref in enumerate(edition_lu):
         urn = f"urn:cite2:scaife-viewer:alignment-record.v1:balex-alignment_{idx}"
-        ed_ref, edition_text = pair[0].split(" ", maxsplit=1)
-        ed_ref = ed_ref.strip(".")
-        tr_ref, tr_text = pair[1].split(" ", maxsplit=1)
-        tr_ref = tr_ref.strip(".")
+        edition_text = edition_lu[ed_ref]
+        # NOTE: 3.3 was not translated
+        tr_text = translation_lu.get(ed_ref, "")
         metadata = dict(
             label=ed_ref,
             items=[
                 [[ed_ref, edition_text, "new"]],
-                [[tr_ref, tr_text, None]],
+                [[ed_ref, tr_text, None]],
             ],
         )
         # TODO: Determine if multiple relations make sense here so that we can access the
@@ -53,3 +59,7 @@ def main():
     outf = Path("data/annotations/text-alignments/balex-tr-alignment.json")
     with outf.open("w") as f:
         json.dump(body, f, indent=2, ensure_ascii=False)
+
+
+if __name__ == "__main__":
+    main()
