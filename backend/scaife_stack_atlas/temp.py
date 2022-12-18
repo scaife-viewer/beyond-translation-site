@@ -681,3 +681,57 @@ def stub_scholia_roi_text_annotations(reset=True):
     msg = f"Bulk creating {relation_label}"
     logger.info(msg)
     chunked_bulk_create(ImageROIThroughTextAnnotationsModel, prepared_objs)
+
+
+def ingest_balex_extras(reset=True):
+    editions = [
+        (3, {
+            "urn": "urn:cts:latinLit:phi0428.phi001.dll-commentary-eng1:",
+            "node_kind": "version",
+            "version_kind": "commentary",
+            "lang": "eng",
+            "first_passage_urn": "urn:cts:latinLit:phi0428.phi001.dll-commentary-eng1:all",
+            "citation_scheme": ["content"],
+            "label": [{"lang": "eng", "value": "Studies on the Text"}],
+            "description": [{"lang": "eng", "value": "Cynthia Damon, et al."}],
+        }
+        ),
+    ]
+    for idx, edition in editions:
+        work_urn = URN(edition["urn"]).up_to(URN.WORK)
+        work_node = Node.objects.get(urn=work_urn)
+        edition_kwargs = {
+            "idx": idx,
+            "kind": edition["node_kind"],
+            "urn": edition["urn"],
+            "metadata": {
+                "citation_scheme": edition["citation_scheme"],
+                "label": edition["label"][0]["value"],
+                "lang": edition["lang"],
+                "first_passage_urn": edition["first_passage_urn"],
+                "description": edition["description"][0]["value"],
+                "kind": "commentary",
+            }
+        }
+        # FIXME: work.add_child path constraint failure is strange
+        for child in work_node.get_children():
+            if idx > child.idx:
+                break
+        edition_kwargs["path"] = child._inc_path()
+        edition_node = work_node.add_child(**edition_kwargs)
+        # TODO: something in editions that keys up xml content
+        xml_path = Path("data/library/phi0428/phi001/phi0428.phi001.dll-commentary-eng1.xml")
+        content = xml_path.read_text()
+        textpart_kwargs = dict(
+            kind="content",
+            urn=f"{edition['urn']}all",
+            ref="all",
+            rank=1,
+            # @@@ idx vs path for ranged queries; could derive IDX
+            # from path as well
+            idx=0,
+            metadata=dict(
+                content=content
+            )
+        )
+        textpart_node = edition_node.add_child(**textpart_kwargs)
