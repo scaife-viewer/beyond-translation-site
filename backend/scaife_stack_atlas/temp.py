@@ -684,66 +684,82 @@ def stub_scholia_roi_text_annotations(reset=True):
 
 
 def ingest_balex_extras(reset=True):
+    # TODO: Update scaife-viewer-atlas package to support this use case;
+    # we should resolve the XML from within a hint provided by metadata.json
     editions = [
-        ('first-sibling', {
-            "urn": "urn:cts:latinLit:phi0428.phi001.dll-conspectus-editionum-eng1:",
-            "node_kind": "version",
-            "version_kind": "commentary",
-            "lang": "eng",
-            "first_passage_urn": "urn:cts:latinLit:phi0428.phi001.dll-conspectus-editionum-eng1:all",
-            "citation_scheme": ["content"],
-            "label": [{"lang": "eng", "value": "Conspectus Editionum"}],
-            "description": [{"lang": "eng", "value": "Cynthia Damon, et al."}],
-        }
+        (
+            "first-sibling",
+            {
+                "urn": "urn:cts:latinLit:phi0428.phi001.dll-conspectus-editionum-eng1:",
+                "node_kind": "version",
+                "version_kind": "commentary",
+                "lang": "eng",
+                "first_passage_urn": "urn:cts:latinLit:phi0428.phi001.dll-conspectus-editionum-eng1:all",
+                "citation_scheme": ["content"],
+                "label": [{"lang": "eng", "value": "Conspectus Editionum"}],
+                "description": [{"lang": "eng", "value": "Cynthia Damon, et al."}],
+            },
         ),
-        ('first-sibling', {
-            "urn": "urn:cts:latinLit:phi0428.phi001.dll-bibliography-eng1:",
-            "node_kind": "version",
-            "version_kind": "commentary",
-            "lang": "eng",
-            "first_passage_urn": "urn:cts:latinLit:phi0428.phi001.dll-bibliography-eng1:all",
-            "citation_scheme": ["content"],
-            "label": [{"lang": "eng", "value": "Bibliography"}],
-            "description": [{"lang": "eng", "value": "Cynthia Damon, et al."}],
-        }
+        (
+            "first-sibling",
+            {
+                "urn": "urn:cts:latinLit:phi0428.phi001.dll-bibliography-eng1:",
+                "node_kind": "version",
+                "version_kind": "commentary",
+                "lang": "eng",
+                "first_passage_urn": "urn:cts:latinLit:phi0428.phi001.dll-bibliography-eng1:all",
+                "citation_scheme": ["content"],
+                "label": [{"lang": "eng", "value": "Bibliography"}],
+                "description": [{"lang": "eng", "value": "Cynthia Damon, et al."}],
+            },
         ),
-        ('first-sibling', {
-            "urn": "urn:cts:latinLit:phi0428.phi001.dll-preface-eng1:",
-            "node_kind": "version",
-            "version_kind": "commentary",
-            "lang": "eng",
-            "first_passage_urn": "urn:cts:latinLit:phi0428.phi001.dll-preface-eng1:all",
-            "citation_scheme": ["content"],
-            "label": [{"lang": "eng", "value": "Preface"}],
-            "description": [{"lang": "eng", "value": "Cynthia Damon, et al."}],
-        }
+        (
+            "first-sibling",
+            {
+                "urn": "urn:cts:latinLit:phi0428.phi001.dll-preface-eng1:",
+                "node_kind": "version",
+                "version_kind": "commentary",
+                "lang": "eng",
+                "first_passage_urn": "urn:cts:latinLit:phi0428.phi001.dll-preface-eng1:all",
+                "citation_scheme": ["content"],
+                "label": [{"lang": "eng", "value": "Preface"}],
+                "description": [{"lang": "eng", "value": "Cynthia Damon, et al."}],
+            },
         ),
-        ('last-sibling', {
-            "urn": "urn:cts:latinLit:phi0428.phi001.dll-appendix-critica-eng1:",
-            "node_kind": "version",
-            "version_kind": "commentary",
-            "lang": "eng",
-            "first_passage_urn": "urn:cts:latinLit:phi0428.phi001.dll-appendix-critica-eng1:all",
-            "citation_scheme": ["content"],
-            "label": [{"lang": "eng", "value": "Appendix critica"}],
-            "description": [{"lang": "eng", "value": "Cynthia Damon, et al."}],
-        }
+        (
+            "last-sibling",
+            {
+                "urn": "urn:cts:latinLit:phi0428.phi001.dll-appendix-critica-eng1:",
+                "node_kind": "version",
+                "version_kind": "commentary",
+                "lang": "eng",
+                "first_passage_urn": "urn:cts:latinLit:phi0428.phi001.dll-appendix-critica-eng1:all",
+                "citation_scheme": ["content"],
+                "label": [{"lang": "eng", "value": "Appendix critica"}],
+                "description": [{"lang": "eng", "value": "Cynthia Damon, et al."}],
+            },
         ),
-        ('last-sibling', {
-            "urn": "urn:cts:latinLit:phi0428.phi001.dll-commentary-eng1:",
-            "node_kind": "version",
-            "version_kind": "commentary",
-            "lang": "eng",
-            "first_passage_urn": "urn:cts:latinLit:phi0428.phi001.dll-commentary-eng1:all",
-            "citation_scheme": ["content"],
-            "label": [{"lang": "eng", "value": "Studies on the Text"}],
-            "description": [{"lang": "eng", "value": "Cynthia Damon, et al."}],
-        }
+        (
+            "last-sibling",
+            {
+                "urn": "urn:cts:latinLit:phi0428.phi001.dll-commentary-eng1:",
+                "node_kind": "version",
+                "version_kind": "commentary",
+                "lang": "eng",
+                "first_passage_urn": "urn:cts:latinLit:phi0428.phi001.dll-commentary-eng1:all",
+                "citation_scheme": ["content"],
+                "label": [{"lang": "eng", "value": "Studies on the Text"}],
+                "description": [{"lang": "eng", "value": "Cynthia Damon, et al."}],
+            },
         ),
     ]
     work_urn = URN("urn:cts:latinLit:phi0428.phi001:")
     work_node = Node.objects.get(urn=work_urn)
-    version = work_node.get_children().filter(urn="urn:cts:latinLit:phi0428.phi001.dll-ed-lat1:").first()
+    version = (
+        work_node.get_children()
+        .filter(urn="urn:cts:latinLit:phi0428.phi001.dll-ed-lat1:")
+        .first()
+    )
     created = []
     # FIXME
     idx = 0
@@ -761,19 +777,16 @@ def ingest_balex_extras(reset=True):
                 "first_passage_urn": edition["first_passage_urn"],
                 "description": edition["description"][0]["value"],
                 "kind": edition["version_kind"],
-            }
+            },
         }
-        # TODO:
-        # FIXME: work.add_child path constraint failure is strange
-        # last_child = work_node.get_children().last()
-        # edition_kwargs["path"] = last_child._inc_path()
-        # edition_node = work_node.add_child(**edition_kwargs)
-
         edition_node = version.add_sibling(position, **edition_kwargs)
         created.append(edition_node)
         # TODO: something in editions that keys up xml content
-        xml_path = Path(f"data/library/phi0428/phi001/phi0428.phi001.{edition_urn.parsed['version']}.xml")
-        css_path = Path('data/raw/balex/balex-styles.scss')
+        xml_path = Path(
+            f"data/library/phi0428/phi001/phi0428.phi001.{edition_urn.parsed['version']}.xml"
+        )
+        # TODO: Vendor assets within library?
+        css_path = Path("data/raw/balex/balex-styles.scss")
         content = xml_path.read_text()
         textpart_kwargs = dict(
             kind="content",
@@ -783,9 +796,6 @@ def ingest_balex_extras(reset=True):
             # @@@ idx vs path for ranged queries; could derive IDX
             # from path as well
             idx=0,
-            metadata=dict(
-                content=content,
-                css=css_path.read_text()
-            )
+            metadata=dict(content=content, css=css_path.read_text()),
         )
-        textpart_node = edition_node.add_child(**textpart_kwargs)
+        edition_node.add_child(**textpart_kwargs)
