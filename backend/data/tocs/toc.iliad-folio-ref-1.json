@@ -1,0 +1,15 @@
+{
+  "@id": "urn:cite:scaife-viewer:toc.iliad-folio-ref-1",
+  "title": "Iliad Books by Folio Ref",
+  "description": "Mapping between book / line boundaries to Venetus A folios",
+  "items": [
+    {
+      "title": "1.1 :: 12r",
+      "uri": "urn:cts:greekLit:tlg0012.tlg001.msA-folios:12r.1.1-12r.1.25"
+    },
+    {
+      "title": "1.26 :: 12v",
+      "uri": "urn:cts:greekLit:tlg0012.tlg001.msA-folios:12v.1.26-12v.1.50"
+    }
+  ]
+}
