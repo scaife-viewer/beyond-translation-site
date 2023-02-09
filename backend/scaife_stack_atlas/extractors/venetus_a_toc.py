@@ -24,11 +24,15 @@ for book, toc_entries in folios_by_book.items():
     master_entries.append(
         {"title": f"{book}", "uri": f"urn:cite:scaife-viewer:{urnish}"}
     )
+    root_entry = {
+        "title": "↵",
+        "uri": "urn:cite:scaife-viewer:toc.iliad-folio-ref-root",
+    }
     data = {
         "@id": f"urn:cite:scaife-viewer:{urnish}",
         "title": f"Folio for Iliad Book {book}",
         "description": "Mapping between book / line boundaries to Venetus A folios",
-        "items": toc_entries,
+        "items": [root_entry] + toc_entries,
     }
     with toc_path.open("w") as f:
         json.dump(data, f, indent=2, ensure_ascii=False)
