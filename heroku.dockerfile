@@ -48,6 +48,7 @@ RUN python manage.py loaddata fixtures/sites.json
 
 # TODO: Revisit this if we tweak this multistage file
 # to handle code / data changes out of band
+# TODO: tocs not there; what to do?
 RUN rm -Rf data
 # TODO: Ensure $HEROKU_APP_NAME is applied via
 # an entrypoint script
@@ -70,6 +71,7 @@ ENV PYTHONUNBUFFERED=1 \
 COPY --from=frontend-build /app/dist /opt/scaife-stack/src/static
 # TODO: we may be able to tweak this COPY directive slightly
 COPY --from=backend-prep /opt/scaife-stack /opt/scaife-stack
+COPY ./backend/data/tocs /opt/scaife-stack/data/tocs
 
 RUN python manage.py collectstatic
 
