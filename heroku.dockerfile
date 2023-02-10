@@ -71,7 +71,7 @@ ENV PYTHONUNBUFFERED=1 \
 COPY --from=frontend-build /app/dist /opt/scaife-stack/src/static
 # TODO: we may be able to tweak this COPY directive slightly
 COPY --from=backend-prep /opt/scaife-stack /opt/scaife-stack
-COPY ./backend/data/tocs /opt/scaife-stack/data/tocs
+COPY ./backend/data/tocs /opt/scaife-stack/src/data/tocs
 
 RUN python manage.py collectstatic
 
