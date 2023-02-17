@@ -209,6 +209,7 @@ SV_ATLAS_INGESTION_PIPELINE = [
     "scaife_stack_atlas.temp.add_translations_to_trees",
     "scaife_stack_atlas.temp.add_glosses_to_trees",
     "scaife_stack_atlas.temp.import_grammatical_entries",
+    "scaife_stack_atlas.temp.stub_scholia_roi",
 ]
 DB_DATA_PATH = os.environ.get("DB_DATA_PATH", PROJECT_ROOT)
 SV_ATLAS_DB_PATH = os.path.join(DB_DATA_PATH, "db.sqlite")

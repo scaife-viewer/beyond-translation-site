@@ -15,6 +15,8 @@ from scaife_viewer.atlas.models import (
     AttributionRecord,
     GrammaticalEntry,
     GrammaticalEntryCollection,
+    ImageAnnotation,
+    ImageROI,
     Node,
     TextAlignment,
     TextAlignmentRecord,
@@ -482,3 +484,42 @@ def import_grammatical_entries(reset=None):
 
     for entry, tokens_qs in to_update:
         entry.tokens.set(tokens_qs)
+
+
+def stub_scholia_roi(reset=True):
+    token = Token.objects.get(
+        text_part__urn="urn:cts:greekLit:tlg0012.tlg001.msA-folios:12r.1.1", position=1
+    )
+    if reset:
+        token.roi.all().delete()
+
+    image_annotation = ImageAnnotation.objects.get(
+        urn="urn:cite2:hmt:vaimg.2017a:VA012RN_0013"
+    )
+    roi = image_annotation.roi.filter(
+        **{"data__urn:cite2:hmt:va_dse.v1.urn:": "urn:cite2:hmt:va_dse.v1:schol1"}
+    ).first()
+    if roi is None:
+        roi = ImageROI(
+            image_annotation=image_annotation,
+            **{
+                "data": {
+                    "urn:cite2:hmt:va_dse.v1.urn:": "urn:cite2:hmt:va_dse.v1:schol1",
+                    "urn:cite2:hmt:va_dse.v1.label:": "DSE record for scholion msA 1.2",
+                    "urn:cite2:hmt:va_dse.v1.passage:": "urn:cts:greekLit:tlg5026.msA.hmt:1.2",
+                    "urn:cite2:hmt:va_dse.v1.surface:": "urn:cite2:hmt:msA.v1:12r",
+                    "urn:cite2:hmt:va_dse.v1.imageroi:": "urn:cite2:hmt:vaimg.2017a:VA012RN_0013@0.16265750,0.17631881,0.62733868,0.02494266",
+                },
+                "image_identifier": "https://image.library.jhu.edu/iiif/homer%2FVA%2FVA012RN-0013/",
+                "coordinates_value": "0.16265750,0.17631881,0.62733868,0.02494266",
+            },
+        )
+        roi.save()
+        roi.text_parts.set([token.text_part])
+
+    text_annotation = TextAnnotation.objects.filter(
+        urn="urn:cts:greekLit:tlg5026.msA.hmt:1.2",
+        data__references=["urn:cts:greekLit:tlg0012.tlg001.msA-folios:12r.1.1"],
+    ).first()
+    roi.text_annotations.set([text_annotation])
+    roi.tokens.set([token])
