@@ -1,0 +1,34 @@
+{
+  "urn": "urn:cts:angLit:anon.beowulf:",
+  "group_urn": "urn:cts:angLit:anon:",
+  "node_kind": "work",
+  "lang": "ang",
+  "title": [
+    {
+      "lang": "eng",
+      "value": "Beowulf"
+    }
+  ],
+  "versions": [
+    {
+      "urn": "urn:cts:angLit:anon.beowulf.perseus-garnett:",
+      "node_kind": "version",
+      "version_kind": "edition",
+      "lang": "eng",
+      "first_passage_urn": "urn:cts:angLit:anon.beowulf.perseus-garnett:1-52",
+      "citation_scheme": ["line"],
+      "label": [
+        {
+          "lang": "eng",
+          "value": "Beowulf"
+        }
+      ],
+      "description": [
+        {
+          "lang": "eng",
+          "value": "James M. Garnett, Ed."
+        }
+      ]
+    }
+  ]
+}
