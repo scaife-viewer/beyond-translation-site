@@ -90,6 +90,8 @@ Vue.use(SkeletonPlugin, {
       [DISPLAY_MODE_ALIGNMENTS]: AlignmentsModeReader,
       [DISPLAY_MODE_SYNTAX_TREES]: SyntaxTreesModeReader,
     },
+    commentaryWidgetLabel: 'Critical Apparatus',
+    commentariesDisplayModeLabel: 'Critical Apparatus',
     pageTitle: title => (title ? `${siteLabel} | ${title}` : `${siteLabel}`),
   },
 });
