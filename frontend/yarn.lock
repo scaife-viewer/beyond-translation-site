@@ -1546,9 +1546,9 @@
     "@scaife-viewer/store" "^0.5.0-beta.1"
     graphql-tag "^2.12.6"
 
-"@scaife-viewer/widget-dictionary-entries@https://gitpkg.vercel.app/scaife-viewer/frontend/packages/widget-dictionary-entries?b4b377065e0428299c65bc2bc03b5caca7999332":
+"@scaife-viewer/widget-dictionary-entries@https://gitpkg.vercel.app/scaife-viewer/frontend/packages/widget-dictionary-entries?5fe0ba248411b61f36f59b1594f282233825bceb":
   version "0.5.0-beta.1"
-  resolved "https://gitpkg.vercel.app/scaife-viewer/frontend/packages/widget-dictionary-entries?b4b377065e0428299c65bc2bc03b5caca7999332#3dd8e9190837cc57a9da8c13c1dd3637bb38a7f8"
+  resolved "https://gitpkg.vercel.app/scaife-viewer/frontend/packages/widget-dictionary-entries?5fe0ba248411b61f36f59b1594f282233825bceb#1e18587af1a0fb53123279718a15ba82b4e54b33"
   dependencies:
     "@fortawesome/free-solid-svg-icons" "^5.15.2"
     "@scaife-viewer/common" "^0.4.0"
@@ -1629,9 +1629,9 @@
     "@scaife-viewer/store" "^0.0.10"
     graphql-tag "^2.10.3"
 
-"@scaife-viewer/widget-passage-lemma-traversal@https://gitpkg.vercel.app/scaife-viewer/frontend/packages/widget-passage-lemma-traversal?c5a00fee63b8dca09cc0a0343737974416c64065":
+"@scaife-viewer/widget-passage-lemma-traversal@https://gitpkg.vercel.app/scaife-viewer/frontend/packages/widget-passage-lemma-traversal?5fe0ba248411b61f36f59b1594f282233825bceb":
   version "0.5.0-beta.2"
-  resolved "https://gitpkg.vercel.app/scaife-viewer/frontend/packages/widget-passage-lemma-traversal?c5a00fee63b8dca09cc0a0343737974416c64065#99846af59351c2c37ff519c3088cd92833e424d3"
+  resolved "https://gitpkg.vercel.app/scaife-viewer/frontend/packages/widget-passage-lemma-traversal?5fe0ba248411b61f36f59b1594f282233825bceb#303647a7e933391c8ba5d1aa53ed7ce6b5cab081"
   dependencies:
     "@scaife-viewer/common" "^0.4.0"
     "@scaife-viewer/store" "^0.5.0-beta.1"
@@ -1695,9 +1695,9 @@
     "@scaife-viewer/common" "^0.0.7"
     "@scaife-viewer/store" "^0.0.10"
 
-"@scaife-viewer/widget-token-annotations@https://gitpkg.vercel.app/scaife-viewer/frontend/packages/widget-token-annotations?b4b377065e0428299c65bc2bc03b5caca7999332":
+"@scaife-viewer/widget-token-annotations@https://gitpkg.vercel.app/scaife-viewer/frontend/packages/widget-token-annotations?5fe0ba248411b61f36f59b1594f282233825bceb":
   version "0.5.0-beta.1"
-  resolved "https://gitpkg.vercel.app/scaife-viewer/frontend/packages/widget-token-annotations?b4b377065e0428299c65bc2bc03b5caca7999332#919a4b7286b63541340285a6770f4c9252efdaed"
+  resolved "https://gitpkg.vercel.app/scaife-viewer/frontend/packages/widget-token-annotations?5fe0ba248411b61f36f59b1594f282233825bceb#0135594cbc773e4eead4b9aeb12e30ce98555da6"
   dependencies:
     "@scaife-viewer/common" "^0.4.0"
     "@scaife-viewer/store" "^0.5.0-beta.1"
