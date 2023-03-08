@@ -418,6 +418,61 @@ def add_glosses_to_trees(reset=None):
     TextAnnotation.objects.bulk_update(to_update, fields=["data"], batch_size=500)
 
 
+# FIXME: Refactor with add_glosses_to_trees
+def add_anabasis_glosses_to_trees(reset=None, debug=False):
+    # NOTE: Reset is a no-op
+    token_annotation_collection_urn = "urn:cite2:beyond-tranlsation:token_annotation_collection.atlas_v1:glaux"
+    text_annotation_collection_urn = "urn:cite2:beyond-translation:text_annotation_collection.atlas_v1:glaux_trees"
+    version_urn = "urn:cts:greekLit:tlg0032.tlg006.perseus-grc2:"
+    version = Node.objects.get(urn=version_urn)
+    text_parts = get_lowest_citable_nodes(version)
+    collection = TextAnnotationCollection.objects.get(urn=text_annotation_collection_urn)
+    # TODO: Why is this subselect so slow?
+    trees = collection.annotations.filter(text_parts__in=text_parts.values_list("id", flat=True))
+
+    to_update = []
+    for tree in trees:
+        annotations = list(
+            TokenAnnotation.objects.filter(token__text_part__in=tree.text_parts.all())
+        )
+        words = tree.data["words"]
+        for word in words:
+            annotation = next(
+                iter(filter(lambda x: x.data["lemma"] == word["lemma"], annotations)),
+                None,
+            )
+            if not annotation:
+                annotation = next(
+                    iter(
+                        filter(
+                            lambda x: x.data["word_value"] == word["value"], annotations
+                        )
+                    ),
+                    None,
+                )
+                if not annotation:
+                    if word.get("tag") == "u--------":
+                        pass
+                    elif word.get("value") in ["[0]", "[1]"]:
+                        pass
+                    elif word.get("ref"):
+                        if debug:
+                            print(f'{word["ref"]}@{word["value"]}')
+                    else:
+                        if debug:
+                            print(f'{word["value"]}')
+                    # ~40 words unmapped with this naive pass
+            data = annotation.data if annotation else {}
+            word.update(
+                {
+                    "glossEng": data.get("gloss (eng)", ""),
+                }
+            )
+        to_update.append(tree)
+
+    TextAnnotation.objects.bulk_update(to_update, fields=["data"], batch_size=500)
+
+
 def import_grammatical_entries(reset=None):
     # FIXME: Add upstream on scaife-viewer/backend/atlas
     if reset:
