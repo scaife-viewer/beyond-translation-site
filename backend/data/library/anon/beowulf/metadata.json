@@ -11,11 +11,11 @@
   ],
   "versions": [
     {
-      "urn": "urn:cts:angLit:anon.beowulf.perseus-garnett:",
+      "urn": "urn:cts:angLit:anon.beowulf.perseus-ang1:",
       "node_kind": "version",
       "version_kind": "edition",
       "lang": "eng",
-      "first_passage_urn": "urn:cts:angLit:anon.beowulf.perseus-garnett:1-52",
+      "first_passage_urn": "urn:cts:angLit:anon.beowulf.perseus-ang1:1-52",
       "citation_scheme": ["line"],
       "label": [
         {
@@ -26,7 +26,7 @@
       "description": [
         {
           "lang": "eng",
-          "value": "James M. Garnett, Ed."
+          "value": "Fr. Klaeber, Ed."
         }
       ]
     }
