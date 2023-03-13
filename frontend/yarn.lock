@@ -1687,13 +1687,12 @@
   dependencies:
     "@scaife-viewer/store" "^0.0.10"
 
-"@scaife-viewer/widget-toc@^0.0.10":
-  version "0.0.10"
-  resolved "https://registry.yarnpkg.com/@scaife-viewer/widget-toc/-/widget-toc-0.0.10.tgz#d911fc0a4b7eff9dad00a6f60a72d84978616f79"
-  integrity sha512-vYCA8N/dK2309JsnZtcxNT98jSGx2q1X6EGRYnb/VdAuf2qCGJjyWlExITAeaHu9FkHxY019gLKe6zRfFJnTAw==
+"@scaife-viewer/widget-toc@https://gitpkg.vercel.app/scaife-viewer/frontend/packages/widget-toc?6cd1a75c06a14f373b55aee292251002ccd0028b":
+  version "0.5.0-beta.1"
+  resolved "https://gitpkg.vercel.app/scaife-viewer/frontend/packages/widget-toc?6cd1a75c06a14f373b55aee292251002ccd0028b#171839ce7d0ee25f87aa7c4fbc9d6e0758de1575"
   dependencies:
-    "@scaife-viewer/common" "^0.0.7"
-    "@scaife-viewer/store" "^0.0.10"
+    "@scaife-viewer/common" "^0.4.0"
+    "@scaife-viewer/store" "^0.5.0-beta.1"
 
 "@scaife-viewer/widget-token-annotations@https://gitpkg.vercel.app/scaife-viewer/frontend/packages/widget-token-annotations?b4b377065e0428299c65bc2bc03b5caca7999332":
   version "0.5.0-beta.1"
