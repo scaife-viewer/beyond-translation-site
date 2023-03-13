@@ -1453,9 +1453,9 @@
     openseadragon "^2.4.2"
     vue-apollo "^3.0.4"
 
-"@scaife-viewer/reader-interlinear-mode@https://gitpkg.vercel.app/scaife-viewer/frontend/packages/reader-interlinear-mode?88204f8d2c41517be6e449430b14853b897f9422":
+"@scaife-viewer/reader-interlinear-mode@https://gitpkg.vercel.app/scaife-viewer/frontend/packages/reader-interlinear-mode?1631bc7397b9e7917cfd0da175518d4e62ba0a5f":
   version "0.5.0-beta.1"
-  resolved "https://gitpkg.vercel.app/scaife-viewer/frontend/packages/reader-interlinear-mode?88204f8d2c41517be6e449430b14853b897f9422#aa7b1223695352e711b09a0bfc7c848cef105bfd"
+  resolved "https://gitpkg.vercel.app/scaife-viewer/frontend/packages/reader-interlinear-mode?1631bc7397b9e7917cfd0da175518d4e62ba0a5f#dbace3a4f274f89c235b1ee3c91b22b91c5df997"
   dependencies:
     "@scaife-viewer/common" "^0.4.0"
     "@scaife-viewer/widget-reader" "^0.5.0-beta.1"
@@ -1484,9 +1484,9 @@
     graphql-tag "^2.10.3"
     vue-apollo "^3.0.4"
 
-"@scaife-viewer/reader-syntax-trees-mode@https://gitpkg.vercel.app/scaife-viewer/frontend/packages/reader-syntax-trees-mode?88204f8d2c41517be6e449430b14853b897f9422":
+"@scaife-viewer/reader-syntax-trees-mode@https://gitpkg.vercel.app/scaife-viewer/frontend/packages/reader-syntax-trees-mode?1631bc7397b9e7917cfd0da175518d4e62ba0a5f":
   version "0.5.0-beta.1"
-  resolved "https://gitpkg.vercel.app/scaife-viewer/frontend/packages/reader-syntax-trees-mode?88204f8d2c41517be6e449430b14853b897f9422#2e25630be4cc4e628250c730838d78fd703feb71"
+  resolved "https://gitpkg.vercel.app/scaife-viewer/frontend/packages/reader-syntax-trees-mode?1631bc7397b9e7917cfd0da175518d4e62ba0a5f#9cddd4b0f97a851c924e5e7367742e735fa146e6"
   dependencies:
     "@scaife-viewer/common" "^0.4.0"
     "@scaife-viewer/store" "^0.5.0-beta.1"
@@ -1512,9 +1512,9 @@
     "@scaife-viewer/common" "^0.4.0"
     graphql-tag "^2.10.3"
 
-"@scaife-viewer/vue-treant@^0.5.0-beta.1", "@scaife-viewer/vue-treant@https://gitpkg.vercel.app/scaife-viewer/frontend/packages/vue-treant?658523eb8c6169d0b4d1c1612b9ca81ee0889b53":
+"@scaife-viewer/vue-treant@^0.5.0-beta.1", "@scaife-viewer/vue-treant@https://gitpkg.vercel.app/scaife-viewer/frontend/packages/vue-treant?1631bc7397b9e7917cfd0da175518d4e62ba0a5f":
   version "0.5.0-beta.1"
-  resolved "https://gitpkg.vercel.app/scaife-viewer/frontend/packages/vue-treant?658523eb8c6169d0b4d1c1612b9ca81ee0889b53#5d38b7087eb3834ecdd40f729147a03bf7659dc1"
+  resolved "https://gitpkg.vercel.app/scaife-viewer/frontend/packages/vue-treant?1631bc7397b9e7917cfd0da175518d4e62ba0a5f#21a965929ede94679bbae9ec2df24e367f618e9b"
   dependencies:
     "@panzoom/panzoom" "^4.4.3"
     raphael "^2.3.0"

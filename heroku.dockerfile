@@ -3,7 +3,7 @@
 # # # # # # # # # # # # # # # # # # # # # # # #
 FROM node:12.19.0-alpine AS frontend-build
 
-RUN yarn global add @vue/cli
+RUN yarn global add @vue/cli@4.4.4
 
 WORKDIR /app
 COPY ./frontend/package.json ./frontend/yarn.lock ./
