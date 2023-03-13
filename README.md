@@ -72,3 +72,7 @@ For convenience, `heroku.yml` and `heroku.dockerfile` can be used to deploy the 
 - `heroku.dockerfile` is used to build the frontend and backend into a single image.  Frontend static assets are served via Django and Whitenoise at the application root (`/`).  See [Building docker images with heroku.yml](https://devcenter.heroku.com/articles/build-docker-images-heroku-yml) for more information.
 
 Customize `app.json` and `herok.yml` as-needed for projects derived from this repo.
+
+## Nav
+
+- Set `VUE_APP_ABOUT_URL` and `VUE_APP_ABOUT_TEXT` to add a link to an about page
