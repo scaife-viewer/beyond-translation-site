@@ -1,0 +1,1898 @@
+<?xml version="1.1" encoding="UTF-8"?>
+<?xml-model href="https://digitallatin.github.io/guidelines/critical-editions.rng"
+type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://digitallatin.github.io/guidelines/critical-editions.rng"
+type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Bellum Alexandrinum</title>
+            <editor xml:id="damon" ref="http://viaf.org/viaf/116523553">Cynthia Damon, et al.</editor>
+            <sponsor>Society for Classical Studies</sponsor>
+            <respStmt>
+               <resp>TEI XML encoding:</resp>
+               <name xml:id="huskey" ref="https://orcid.org/0000-0002-8192-9385">Samuel J. Huskey</name>
+            </respStmt>
+            <respStmt>
+               <resp>Programming for automatic generation of TEI XML:</resp>
+               <name>Virgina K. Felkner</name>
+            </respStmt>
+            <respStmt>
+               <resp>Coauthor of content related to section 2.5:</resp>
+               <name sameAs="#DSimons">Dallas Simons</name>
+            </respStmt>
+            <respStmt>
+               <resp>Consultant on TEI XML encoding.</resp>
+               <name ref="https://orcid.org/0000-0003-0060-9396">Hugh Cayless</name>
+            </respStmt>
+            <respStmt>
+               <resp>Coauthor of content related to sections 12.1–2 and 13.5:</resp>
+               <name sameAs="#Vozar">Tom Vozar</name>
+            </respStmt>
+            <respStmt>
+               <resp>Coauthor of content related to section 26.1–2:</resp>
+               <name sameAs="#Persyn">Marcie Persyn</name>
+            </respStmt>
+            <respStmt>
+               <resp>Coauthor of content related to sections 35.3 and 36.4–5:</resp>
+               <name sameAs="#Kovalchuk">Maria Kovalchuk</name>
+            </respStmt>
+            <respStmt>
+               <resp>Coauthor of content related to sections 47.2, 49.1, and 49.2–3:</resp>
+               <name sameAs="#Warnock">Tim Warnock</name>
+            </respStmt>
+            <respStmt>
+               <resp>Coauthor of content related to section 60.2:</resp>
+               <name sameAs="#Reinhardt">Isabella Reinhardt</name>
+            </respStmt>
+            <respStmt>
+               <resp>Coauthor of content related to sections 63.5 and 66.3–4:</resp>
+               <name sameAs="#Credo">Brian Credo</name>
+            </respStmt>
+            <respStmt>
+               <resp>Coauthor of content related to sections 67.1 and 68.1:</resp>
+               <name sameAs="#Bensch-Schaus">Amelia Bensch-Schaus</name>
+            </respStmt>
+            <respStmt>
+               <resp>Coauthor of content related to sections 72.2–3 and 74.4:</resp>
+               <name sameAs="#Hanson">Wes Hanson</name>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.1">First Public Beta Edition</edition>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>The Digital Latin Library</publisher>
+            <address>
+               <street>650 Parrington Oval</street>
+               <addrLine>Carnegie Building 101</addrLine>
+               <settlement>Norman</settlement>
+               <name>OK</name>
+               <postCode>73071</postCode>
+               <country>USA</country>
+            </address>
+            <authority>The University of Oklahoma</authority>
+            <pubPlace>Norman, OK</pubPlace>
+            <date>2022</date>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by-sa/4.0/legalcode">Creative
+                  Commons Attribution-ShareAlike 4.0 International Licence (CC BY-SA 4.0)</licence>
+            </availability>
+         </publicationStmt>
+         <seriesStmt>
+            <title level="s">Library of Digital Latin Texts</title>
+            <respStmt>
+               <resp>Edited by</resp>
+               <name ref="#huskey">Samuel J. Huskey</name>
+            </respStmt>
+            <biblScope unit="volume">1</biblScope>
+            <idno type="DOI"/>
+         </seriesStmt>
+         <sourceDesc>
+            <p>Born digital.</p>
+         </sourceDesc>
+      </fileDesc>
+     <encodingDesc>
+       <listPrefixDef>
+         <prefixDef ident="dc" matchPattern="([a-zA-Z]+)" replacementPattern="http://purl.org/dc/terms/$1"/>
+       </listPrefixDef>
+       <refsDecl>
+         <!-- There's a citeStructure for each section of the document we want to a) appear in the ToC,
+             b) be output as a separate file.
+
+             @match selects the document section(s) to be used in resolving citations.
+             @use indicates the the string that will be used in citations. -->
+         <citeStructure match="//front/div[@xml:id='preface']" use="head">
+           <!-- Defines the identifier to use for this structure -->
+           <citeData property="dc:identifier" use="@xml:id"/>
+           <!-- Defines the title to be used for this structure (e.g. in a ToC) -->
+           <citeData property="dc:title" use="head"/>
+           <!-- Specifies a function for this structure, in this case, it should be used as an entry in the ToC. -->
+           <citeData property="function" use="'toc-entry'"/>
+           <citeStructure match="./div[@type='section']" use="head" delim=", ">
+             <citeData property="dc:title" use="head"/>
+             <citeData property="dc:identifier" use="@xml:id"/>
+             <citeData property="function" use="'toc-entry'"/>
+             <!-- This structure should be split out into a separate document. -->
+             <citeData property="function" use="'split'"/>
+             <!-- When it is split out, the bibliography should go along with it -->
+             <citeData property="dc:requires" use="//front/div[@type='bibliography']"/>
+           </citeStructure>
+         </citeStructure>
+         <citeStructure match="//front/div[@xml:id='bibliography']" use="head">
+           <citeData property="dc:identifier" use="@xml:id"/>
+           <citeData property="dc:title" use="head"/>
+           <citeData property="function" use="'toc-entry'"/>
+           <citeStructure match="./div[@type='section']" use="head" delim=", ">
+             <citeData property="dc:identifier" use="@xml:id"/>
+             <citeData property="dc:title" use="head"/>
+             <citeData property="function" use="'toc-entry'"/>
+             <citeData property="function" use="'split'"/>
+           </citeStructure>
+         </citeStructure>
+         <citeStructure match="//front/div[@xml:id='conspectus-editionum']" use="head" delim=", ">
+           <citeData property="dc:identifier" use="@xml:id"/>
+           <citeData property="dc:title" use="head"/>
+           <citeData property="function" use="'toc-entry'"/>
+           <citeData property="function" use="'split'"/>
+         </citeStructure>
+         <!-- The @unit attribute marks a citeStructure as a citable unit and makes e.g., 4.100 resolvable to poem 4, line 100. -->
+         <citeStructure match="//div[@type='edition']" use="head">
+           <citeData property="dc:title" use="head"/>
+           <citeData property="function" use="'toc-entry'"/>
+           <citeStructure match="p" use="@n" unit="chapter" delim=' '>
+             <citeData property="dc:title" use="@n"/>
+             <citeData property="dc:identifier" use="@n"/>
+             <citeData property="function" use="'toc-entry'"/>
+             <citeData property="function" use="'split'"/>
+             <citeData property="dc:requires" use="//front/div[@xml:id='bibliography']"/>
+             <citeStructure match=".//seg" use="@n" delim="." unit="part"/>
+           </citeStructure>
+         </citeStructure>
+          <citeStructure match="//back/div[@type='commentary'][@xml:id='appendix-critica']" use="head">
+             <citeData property="dc:identifier" use="@xml:id"/>
+             <citeData property="dc:title" use="head"/>
+             <citeData property="function" use="'toc-entry'"/>
+             <citeData property="function" use="'split'"/>
+          </citeStructure>
+         <citeStructure match="//back/div[@type='commentary'][@xml:id='commentary']" use="head">
+           <citeData property="dc:identifier" use="@xml:id"/>
+           <citeData property="dc:title" use="head"/>
+           <citeData property="function" use="'toc-entry'"/>
+            <citeStructure match="./div[@type='section']" use="head" delim=' '>
+               <citeData property="dc:identifier" use="@xml:id"/>
+               <citeData property="dc:title" use="head"/>
+               <citeData property="function" use="'toc-entry'"/>
+               <citeData property="function" use="'split'"/>
+            </citeStructure>
+         </citeStructure>
+       </refsDecl>
+     </encodingDesc>
+      <revisionDesc>
+         <listChange>
+            <change who="#huskey" when="2022-11-04">Adding revisionDesc to begin tracking changes after public beta release.</change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="textpart"></div>
+      </body>
+      <back>
+         <!-- Begin appendix critica -->
+         <div type="commentary" xml:id="appendix-critica">
+            <head>Appendix critica</head>
+
+            <p>1.1 Rhodo] et ordo <hi rend="bold">S</hi></p>
+
+            <p>1.1 Creta] certa <hi rend="bold">S</hi></p>
+
+            <p>1.2 operibus <hi rend="italic">om.</hi>
+               <hi rend="bold">M</hi></p>
+
+            <p>1.2 esse] essent <hi rend="bold">M<hi rend="superscript">mr</hi></hi></p>
+
+            <p>1.2 uidentur <hi rend="italic">om.</hi>
+               <hi rend="bold">M</hi></p>
+
+            <p>1.2 arietes] aretes <hi rend="bold">S</hi></p>
+
+            <p>1.3 contignatione] cogitatione <hi rend="bold">S</hi></p>
+
+            <p>1.3 et <hi rend="italic">om.</hi>
+               <hi rend="bold">M</hi></p>
+
+            <p>1.3 structuris] fruc- <hi rend="bold">S</hi></p>
+
+            <p>1.4 a] ac <hi rend="bold">V</hi></p>
+
+            <p>1.4 reliqua] relili- <hi rend="bold">S</hi></p>
+
+            <p>1.5 esset] esse <hi rend="bold">S</hi></p>
+
+            <p>1.5 altera] ad terra <hi rend="bold">S</hi></p>
+
+            <p>1.5 rei ... alterius <hi rend="italic">om.</hi>
+               <hi rend="bold">S</hi> (<hi rend="italic">uerba 4</hi>)</p>
+
+            <p>1.5 utrumque] utrique <hi rend="bold">M<hi rend="superscript">*</hi></hi></p>
+
+            <p>2.1 cunctatio] contatio <hi rend="bold">S</hi></p>
+
+            <p>2.1 fines] -e <hi rend="bold">S</hi></p>
+
+            <p>2.1 regnumque] ren- <hi rend="bold">S</hi></p>
+
+            <p>2.1 conquisitoresque] in- <hi rend="bold">M</hi></p>
+
+            <p>2.1 magnumque ... adduxerant <hi rend="italic">om.</hi>
+               <hi rend="bold">S</hi> (<hi rend="italic">uerba 12</hi>)</p>
+
+            <p>2.1 oppidum] -do <hi rend="bold">U<hi rend="superscript">ac</hi></hi></p>
+
+            <p>2.2 urbe] hurbe <hi rend="bold">S</hi></p>
+
+            <p>2.2 armauerant] -uerunt <hi rend="bold">M</hi>
+               <hi rend="italic">per compendium</hi></p>
+
+            <p>2.2 locupletiores] lucu- <hi rend="bold">M<hi rend="superscript">*</hi></hi></p>
+
+            <p>2.3 ueteranas] ueet- <hi rend="bold">S</hi>
+               <hi rend="italic">per compendium</hi></p>
+
+            <p>2.3 in ... locis <hi rend="italic">om.</hi>
+               <hi rend="bold">M</hi> (<hi rend="italic">uerba 4</hi>)</p>
+
+            <p>2.3 urbis] hubis <hi rend="bold">S</hi></p>
+
+            <p>2.4 uiis <hi rend="italic">om.</hi>
+               <hi rend="bold">S</hi></p>
+
+            <p>2.4 triplicem] -e <hi rend="bold">T</hi></p>
+
+            <p>2.4 erat] erant <hi rend="bold">S</hi></p>
+
+            <p>2.4 partes] pater <hi rend="bold">S</hi></p>
+
+            <p>2.4 urbis] ubis <hi rend="bold">S<hi rend="superscript">ac</hi></hi></p>
+
+            <p>2.4 erant] habebat e- <hi rend="bold">M<hi rend="superscript">ac</hi></hi></p>
+
+            <p>2.5 subiectisque] -tusque <hi rend="bold">S</hi></p>
+
+            <p>2.5 funibus] fin- <hi rend="bold">S</hi></p>
+
+            <p>2.5 quamcumque] qua- <hi rend="bold">S</hi></p>
+
+            <p>2.5 erat] erant <hi rend="bold">T</hi></p>
+
+            <p>2.5-3.1 mouebant Vrbs fertilissima] mouebatur his feralissima <hi rend="bold"
+               >S</hi></p>
+
+            <p>3.1 suggerebat] subgerebat <hi rend="bold">S<hi rend="superscript">c</hi></hi></p>
+
+            <p>3.1 homines] om- <hi rend="bold">S</hi></p>
+
+            <p>3.1 imitati] -ari <hi rend="bold">M</hi></p>
+
+            <p>3.1 et<hi rend="superscript">4</hi>
+               <hi rend="italic">om.</hi>
+               <hi rend="bold">S</hi></p>
+
+            <p>3.3 annis] animis <hi rend="bold">S</hi></p>
+
+            <p>3.3 Caesarem] ac cessarem <hi rend="bold">S</hi></p>
+
+            <p>3.4 non] on <hi rend="bold">S<hi rend="superscript">ac</hi></hi></p>
+
+            <p>3.4 ex <hi rend="italic">om.</hi>
+               <hi rend="bold">V</hi></p>
+
+            <p>3.4 namque] nam <hi rend="bold">T<hi rend="superscript">ac</hi></hi></p>
+
+            <p>3.4 tempestatibus] tempestabitis <hi rend="bold">S<hi rend="superscript">ac</hi></hi>
+               <hi rend="italic">ut uidetur</hi></p>
+
+            <p>3.4 propter <hi rend="italic">om.</hi>
+               <hi rend="bold">S</hi></p>
+
+            <p>4.1 dissensione] descensione <hi rend="bold">T<hi rend="superscript">ac</hi></hi> :
+               discensione <hi rend="bold">T<hi rend="superscript">c</hi></hi></p>
+
+            <p>4.1 exercitui] -u <hi rend="bold">V</hi></p>
+
+            <p>4.1 praeerat et] praeerat praeet <hi rend="bold">T<hi rend="superscript"
+               >ac</hi></hi></p>
+
+            <p>4.1 Arsinoen] asrnoen <hi rend="bold">U</hi></p>
+
+            <p>4.1 summam] sumam <hi rend="bold">S</hi></p>
+
+            <p>4.1 obtinere] optinere <hi rend="bold">S<hi rend="superscript">ac</hi></hi></p>
+
+            <p>4.1 praeoccupat] praeocupat <hi rend="bold">S</hi></p>
+
+            <p>4.1 eunuchum] eudum <hi rend="bold">S<hi rend="superscript">ac</hi></hi>
+               <hi rend="italic">ut uidetur</hi> : eunidum <hi rend="bold">S<hi rend="superscript"
+                     >c</hi></hi></p>
+
+            <p>4.1 Achillan<hi rend="superscript">2</hi>] -ani <hi rend="bold">S</hi></p>
+
+            <p>4.2 Ganymedi] grani- <hi rend="bold">S</hi></p>
+
+            <p>4.2 officio] offio <hi rend="bold">M</hi></p>
+
+            <p>4.2 pari] patri <hi rend="bold">S</hi></p>
+
+            <p>5.1 pertinentes] pertingentes <hi rend="bold">M</hi></p>
+
+            <p>5.1 priuatas] -tos <hi rend="bold">M</hi></p>
+
+            <p>5.1 ac] hac <hi rend="bold">U</hi></p>
+
+            <p>5.1 subsidit] -det <hi rend="bold">V</hi></p>
+
+            <p>5.2 hac] ac <hi rend="bold">V</hi></p>
+
+            <p>5.2 domini] -nia <hi rend="bold">S</hi></p>
+
+            <p>5.2 Nilo] nichilo <hi rend="bold">S</hi></p>
+
+            <p>5.2 adeo] aeo <hi rend="bold">S</hi></p>
+
+            <p>5.2 limosa] lunosa <hi rend="bold">S</hi></p>
+
+            <p>5.2 contenta] -emta <hi rend="bold">S</hi></p>
+
+            <p>5.2 parte] pater <hi rend="bold">S</hi></p>
+
+            <p>5.3 facto] -ta <hi rend="bold">S</hi></p>
+
+            <p>5.3 distributi] distribuendi <hi rend="bold">T<hi rend="superscript">ac</hi></hi></p>
+
+            <p>5.3 uicatim] uacatim <hi rend="bold">T<hi rend="superscript">ac</hi></hi> : uacati
+                  <hi rend="bold">T<hi rend="superscript">c</hi></hi></p>
+
+            <p>5.3 priuatis aedificiis] a- p- <hi rend="bold">V</hi></p>
+
+            <p>5.3 priuatis] primiuatis <hi rend="bold">S</hi></p>
+
+            <p>5.3 ac] a <hi rend="bold">S</hi></p>
+
+            <p>5.3 extracta] ex castra <hi rend="bold">U<hi rend="superscript">ac</hi></hi></p>
+
+            <p>5.3 utebantur] -batur <hi rend="bold">M</hi></p>
+
+            <p>6.1 mari] mare <hi rend="bold">V</hi></p>
+
+            <p>6.1 ac<hi rend="superscript">2</hi>
+               <hi rend="italic">om.</hi>
+               <hi rend="bold">V</hi></p>
+
+            <p>6.2 causam salsior] acussam fal- <hi rend="bold">S</hi></p>
+
+            <p>6.2 paulo praeter consuetudinem aqua] a- pa- pr- c- <hi rend="bold">M<hi
+                     rend="superscript">ac</hi></hi></p>
+
+            <p>6.2 admirationem praebebat] exhibebat admirationem <hi rend="bold">V</hi></p>
+
+            <p>6.2 nec] ne <hi rend="bold">S</hi></p>
+
+            <p>6.2 differrent] differret <hi rend="bold">S<hi rend="superscript">ac</hi></hi></p>
+
+            <p>6.3 uero <hi rend="italic">om.</hi>
+               <hi rend="bold">U</hi></p>
+
+            <p>6.3 propior] proprior <hi rend="bold">S</hi></p>
+
+            <p>7.1 quo] qua <hi rend="bold">M<hi rend="superscript">ac</hi></hi></p>
+
+            <p>7.1 incessit] iniessit <hi rend="bold">S</hi></p>
+
+            <p>7.1 casum<hi rend="superscript">2</hi>] cassum <hi rend="bold">S</hi></p>
+
+            <p>7.1 cum tam paruo] commitam paruos <hi rend="bold">S<hi rend="superscript"
+                  >c</hi></hi> : comimtam paruos <hi rend="bold">S<hi rend="superscript"
+                  >ac</hi></hi></p>
+
+            <p>7.2 quam domiciliis] quan domiciliis <hi rend="bold">S</hi></p>
+
+            <p>7.2 mouerat] nouerat <hi rend="bold">T</hi></p>
+
+            <p>7.3 et natura cognoscatur] c- et n- <hi rend="bold">M<hi rend="superscript"
+                  >ac</hi></hi></p>
+
+            <p>7.3 hoc genus ad proditionem] ad p- h- g- <hi rend="bold">M<hi rend="superscript"
+                     >*</hi></hi></p>
+
+            <p>7.3 ad] a <hi rend="bold">S</hi></p>
+
+            <p>8.1 suorum] suor <hi rend="bold">M</hi></p>
+
+            <p>8.1 consolatione] conlationem <hi rend="bold">T<hi rend="superscript">ac</hi></hi> :
+               conlatione <hi rend="bold">T<hi rend="superscript">c</hi></hi></p>
+
+            <p>8.1 ratione] -em <hi rend="bold">T<hi rend="superscript">ac</hi></hi></p>
+
+            <p>8.1 puteis] -eus <hi rend="bold">T</hi></p>
+
+            <p>8.1 enim <hi rend="italic">om</hi>. <hi rend="bold">T</hi></p>
+
+            <p>8.2 atque] aquae <hi rend="bold">S</hi></p>
+
+            <p>8.2 haberent] tener- <hi rend="bold">T</hi></p>
+
+            <p>8.2 cottidie nauibus] n- c- <hi rend="bold">V</hi></p>
+
+            <p>8.2 uel a] uella <hi rend="bold">S</hi></p>
+
+            <p>8.2 praecluderentur] -dentur <hi rend="bold">M</hi></p>
+
+            <p>8.3 esse] -et <hi rend="bold">S</hi></p>
+
+            <p>8.3 primam] primum <hi rend="bold">U<hi rend="superscript">ac</hi></hi></p>
+
+            <p>8.3 nihil] nichil <hi rend="bold">M</hi></p>
+
+            <p>8.3 praeterquam] praeter quan <hi rend="bold">S</hi></p>
+
+            <p>8.4 aduersos] -rsus <hi rend="bold">T</hi></p>
+
+            <p>8.4 ex <hi rend="italic">om.</hi>
+               <hi rend="bold">T</hi></p>
+
+            <p>8.4 pares] paress <hi rend="bold">S</hi></p>
+
+            <p>8.5 moram] -rem <hi rend="bold">S</hi></p>
+
+            <p>8.5 ascensum] aes censum <hi rend="bold">V<hi rend="superscript">ac</hi></hi></p>
+
+            <p>8.5 scaphis] caphis <hi rend="bold">S</hi></p>
+
+            <p>8.5 aedificiorum] aedificatiorum <hi rend="bold">T</hi>
+               <hi rend="italic">ut uidetur</hi></p>
+
+            <p>8.6 hos] hoc <hi rend="bold">M<hi rend="superscript">ac</hi></hi></p>
+
+            <p>8.6 proinde] dei- <hi rend="bold">U</hi></p>
+
+            <p>8.6 uincendum] uiue- <hi rend="bold">S</hi></p>
+
+            <p>9.1 hac] haec <hi rend="bold">S</hi></p>
+
+            <p>9.1 suos] uos <hi rend="bold">S</hi></p>
+
+            <p>9.1 atque <hi rend="italic">om.</hi>
+               <hi rend="bold">V<hi rend="superscript">ac</hi></hi></p>
+
+            <p>9.1 negotium <hi rend="italic">om.</hi>
+               <hi rend="bold">M</hi></p>
+
+            <p>9.1 fodiendos] -ndo <hi rend="bold">S</hi></p>
+
+            <p>9.3 Caluino] caluitio <hi rend="bold">T</hi></p>
+
+            <p>9.3 supra <hi rend="italic">om</hi>. <hi rend="bold">T</hi></p>
+
+            <p>10.2 appellatur] -abatur <hi rend="bold">M</hi></p>
+
+            <p>10.2 praedatum] praeced- <hi rend="bold">S</hi></p>
+
+            <p>10.3 crediderunt] credidederunt <hi rend="bold">S</hi></p>
+
+            <p>10.5 de <hi rend="italic">om.</hi>
+               <hi rend="bold">M<hi rend="superscript">ac</hi></hi></p>
+
+            <p>10.5 nolebat] ualebant <hi rend="bold">S</hi></p>
+
+            <p>10.5 nullos] -o <hi rend="bold">S</hi></p>
+
+            <p>10.5 X] decimam <hi rend="bold">V</hi></p>
+
+            <p>10.5 allatura] -ram <hi rend="bold">T</hi></p>
+
+            <p>10.5 notitia] -am <hi rend="bold">U</hi></p>
+
+            <p>10.5 idonea esset] e- i- <hi rend="bold">M</hi></p>
+
+            <p>10.5 quae] quod <hi rend="bold">U<hi rend="superscript">ac</hi></hi></p>
+
+            <p>10.5 inertiam] inhe- <hi rend="bold">S</hi></p>
+
+            <p>10.6 de causis] deauis <hi rend="bold">S</hi></p>
+
+            <p>10.6 detrahit] -achit <hi rend="bold">S</hi></p>
+
+            <p>11.1 nauis] nanauis <hi rend="bold">S</hi></p>
+
+            <p>11.1 Caesaris cornu] co- Cae- <hi rend="bold">V</hi></p>
+
+            <p>11.1 longe] longeque <hi rend="bold">S</hi></p>
+
+            <p>11.1 collocata] collata <hi rend="bold">M</hi></p>
+
+            <p>11.1 sese] ses <hi rend="bold">S</hi></p>
+
+            <p>11.1 magnoque] magno <hi rend="bold">M<hi rend="superscript">ac</hi></hi></p>
+
+            <p>11.2 coactus] coatus <hi rend="bold">S</hi></p>
+
+            <p>11.2 turpem] -piter <hi rend="bold">V</hi></p>
+
+            <p>11.2 casurum] caesarum <hi rend="bold">S</hi></p>
+
+            <p>11.3 scientia] scia <hi rend="bold">M<hi rend="superscript">ac</hi></hi></p>
+
+            <p>11.3 culpa] -am <hi rend="bold">U</hi></p>
+
+            <p>11.4 secundissimum] secumd- <hi rend="bold">S</hi></p>
+
+            <p>11.4 depressa] deperressa <hi rend="bold">S</hi></p>
+
+            <p>11.5 classe] cbasse <hi rend="bold">S</hi></p>
+
+            <p>11.5 potitus] porti- <hi rend="bold">S</hi></p>
+
+            <p>11.5 esset] est <hi rend="bold">V</hi></p>
+
+            <p>11.6 hac] hanc <hi rend="bold">S</hi></p>
+
+            <p>11.6 calamitate] cadam- <hi rend="bold">S</hi></p>
+
+            <p>11.6 flante] -ti <hi rend="bold">S</hi></p>
+
+            <p>11.6 nauibus <hi rend="italic">om.</hi>
+               <hi rend="bold">S</hi></p>
+
+            <p>12.1 se] sed <hi rend="bold">S</hi></p>
+
+            <p>12.1 classis] classes <hi rend="bold">V</hi></p>
+
+            <p>12.2 eas] eos <hi rend="bold">U</hi></p>
+
+            <p>12.2 et<hi rend="superscript">3</hi>
+               <hi rend="italic">om</hi>. <hi rend="bold">S</hi></p>
+
+            <p>12.3 deposuerunt] -suerant <hi rend="bold">T</hi></p>
+
+            <p>12.4 ac] et <hi rend="bold">M</hi></p>
+
+            <p>12.4 classem] cala- <hi rend="bold">M<hi rend="superscript">ac</hi></hi></p>
+
+            <p>13.1 ostiis] ho- <hi rend="bold">V</hi></p>
+
+            <p>13.1 Nili] portorium nuli <hi rend="bold">S</hi></p>
+
+            <p>13.1 occultis] -i <hi rend="bold">S</hi></p>
+
+            <p>13.1 usi <hi rend="italic">om</hi>. <hi rend="bold">V</hi></p>
+
+            <p>13.2 naturalis] -i <hi rend="bold">U</hi></p>
+
+            <p>13.4 diebus <hi rend="italic">om</hi>. <hi rend="bold">S</hi></p>
+
+            <p>13.4 apertasque] apertas <hi rend="bold">S</hi> : apertasque apertasque <hi
+                  rend="bold">M<hi rend="superscript">*</hi></hi></p>
+
+            <p>13.4 seque] sedque <hi rend="bold">S</hi></p>
+
+            <p>13.5 VIIII] IX <hi rend="bold">U</hi> : VIII <hi rend="bold">T</hi></p>
+
+            <p>13.5 Ponticas] -ias <hi rend="bold">S</hi></p>
+
+            <p>13.5 quadririmes decem] -dririmes et <hi rend="bold">V</hi></p>
+
+            <p>13.5 reliquae] -a <hi rend="bold">S</hi></p>
+
+            <p>13.6 confisus cognitis] consus cognitas <hi rend="bold">S</hi></p>
+
+            <p>13.6 se] sed <hi rend="bold">S</hi></p>
+
+            <p>14.1 postquam] postaquam <hi rend="bold">S</hi></p>
+
+            <p>14.1 circumuehitur] cirtumuettur <hi rend="bold">S<hi rend="superscript">ac</hi></hi>
+               : cirtumuehitur <hi rend="bold">S<hi rend="superscript">c</hi></hi></p>
+
+            <p>14.1 hos] his <hi rend="bold">T<hi rend="superscript">ac</hi></hi></p>
+
+            <p>14.1 spatium] ispatium <hi rend="bold">T</hi></p>
+
+            <p>14.1 esse] esset <hi rend="bold">S</hi></p>
+
+            <p>14.2 distribuit] sdistribuit <hi rend="bold">M<hi rend="superscript">*</hi></hi></p>
+
+            <p>14.2 quamque] quamcumque <hi rend="bold">V</hi></p>
+
+            <p>14.3 instruunt] instituunt <hi rend="bold">V</hi></p>
+
+            <p>14.4 ipsa] -am <hi rend="bold">S</hi></p>
+
+            <p>14.4 terroris] -ores <hi rend="bold">M<hi rend="superscript">*</hi></hi></p>
+
+            <p>14.5 transitu] -um <hi rend="bold">S</hi></p>
+
+            <p>14.5 sic ... Africae <hi rend="italic">om.</hi>
+               <hi rend="bold">M</hi> (<hi rend="italic">uerba 8</hi>)</p>
+
+            <p>14.5 utris] utrisque <hi rend="bold">M<hi rend="superscript">*</hi></hi></p>
+
+            <p>14.5 transeundi] transecundi <hi rend="bold">S</hi></p>
+
+            <p>14.5 transeundi fieret] f- t- <hi rend="bold">T</hi></p>
+
+            <p>15.1 Rhodiis] Rodius <hi rend="bold">V</hi></p>
+
+            <p>15.2 ob notissimam] obtatissimam <hi rend="bold">T<hi rend="superscript"
+               >ac</hi></hi></p>
+
+            <p>15.2 est <hi rend="italic">om.</hi>
+               <hi rend="bold">S</hi></p>
+
+            <p>15.3 mihi <hi rend="italic">om.</hi>
+               <hi rend="bold">U</hi><hi rend="superscript">ac</hi></p>
+
+            <p>15.3 inquit] inquita <hi rend="bold">S</hi></p>
+
+            <p>15.3 potueris] putaueris <hi rend="bold">V</hi></p>
+
+            <p>15.4 magno] magna <hi rend="bold">T</hi></p>
+
+            <p>15.4 dedecori] -r <hi rend="bold">S</hi></p>
+
+            <p>15.4 dolori] -is <hi rend="bold">S</hi></p>
+
+            <p>15.5 impetum] -unt <hi rend="bold">S</hi></p>
+
+            <p>15.6 sustinent] -et <hi rend="bold">S</hi></p>
+
+            <p>15.6 atque <hi rend="italic">om.</hi>
+               <hi rend="bold">M<hi rend="superscript">ac</hi></hi></p>
+
+            <p>15.6 aduersae] ac se <hi rend="bold">M<hi rend="superscript">ac</hi></hi></p>
+
+            <p>15.7 reliquae] reliqurae <hi rend="bold">S<hi rend="superscript">ac</hi></hi> :
+               reliquiae <hi rend="bold">S<hi rend="superscript">c</hi></hi></p>
+
+            <p>15.7 constitit] <hi rend="italic">post</hi> constit <hi rend="bold">T</hi>
+               <hi rend="italic">non legitur</hi> (*c. litterae 3*)</p>
+
+            <p>15.8 atque ... exposceret <hi rend="italic">om.</hi>
+               <hi rend="bold">S</hi> (<hi rend="italic">uerba 16</hi>)</p>
+
+            <p>15.8 caperet] peteret <hi rend="bold">V</hi></p>
+
+            <p>15.8 ab dis] abditis <hi rend="bold">T<hi rend="superscript">ac</hi></hi> : ab diis
+                  <hi rend="bold">T<hi rend="superscript">c</hi></hi></p>
+
+            <p>16.1 autem] enim <hi rend="bold">M</hi></p>
+
+            <p>16.1 periclitarentur] peritarentur <hi rend="bold">V<hi rend="superscript"
+                  >ac</hi></hi></p>
+
+            <p>16.2 simul] simulli <hi rend="bold">S</hi></p>
+
+            <p>16.2 ac<hi rend="superscript">1</hi>] a <hi rend="bold">S</hi></p>
+
+            <p>16.2 de summa <supplied reason="lost">exercitus</supplied> ac de salute] ac de summa
+               salute <hi rend="bold">T</hi></p>
+
+            <p>16.2 aut<hi rend="superscript">1</hi>
+               <hi rend="italic">om.</hi>
+               <hi rend="bold">U<hi rend="superscript">ac</hi></hi></p>
+
+            <p>16.4 falleret <hi rend="italic">om.</hi>
+               <hi rend="bold">M</hi></p>
+
+            <p>16.4 proficisceretur] profisceretur <hi rend="bold">S</hi></p>
+
+            <p>16.5 maritimis] matrimis <hi rend="bold">S</hi></p>
+
+            <p>16.5 numero] -rum <hi rend="bold">U</hi></p>
+
+            <p>16.5 multitudo] ita m- <hi rend="bold">V</hi></p>
+
+            <p>16.5 prodesset] nauium p- <hi rend="bold">M</hi></p>
+
+            <p>16.5 e] et <hi rend="bold">S</hi></p>
+
+            <p>16.6 cum defensoribus] condef- <hi rend="bold">V<hi rend="superscript"
+               >ac</hi></hi></p>
+
+            <p>16.6 remigibusque] suis r- <hi rend="bold">M</hi></p>
+
+            <p>16.6 nostris] ex n- <hi rend="bold">V</hi></p>
+
+            <p>16.6 omnibus] omibus <hi rend="bold">M</hi></p>
+
+            <p>16.7 propinquam] proprinquam <hi rend="bold">M<hi rend="superscript">*</hi></hi></p>
+
+            <p>16.7 ex] et <hi rend="bold">M</hi></p>
+
+            <p>16.7 atque] et <hi rend="bold">V</hi></p>
+
+            <p>16.7 proprius] proprus <hi rend="bold">M</hi></p>
+
+            <p>17.1 molemque] molesque <hi rend="bold">M</hi></p>
+
+            <p>17.1 ad insulam <hi rend="italic">om.</hi>
+               <hi rend="bold">M</hi></p>
+
+            <p>17.2 magna ex] e- m- <hi rend="bold">V</hi></p>
+
+            <p>17.2 tempore <hi rend="italic">om.</hi>
+               <hi rend="bold">T</hi></p>
+
+            <p>17.3 leuis armaturae] leuisarum maturae <hi rend="bold">S</hi></p>
+
+            <p>17.3 partem] partim <hi rend="bold">T</hi></p>
+
+            <p>17.3 magnis] -sque <hi rend="bold">S</hi></p>
+
+            <p>17.3 cepisset] cepissent <hi rend="bold">M<hi rend="superscript">ac</hi></hi></p>
+
+            <p>17.4 primo] -mum <hi rend="bold">T</hi></p>
+
+            <p>17.4 pariter sustinuerunt] s- p- <hi rend="bold">M<hi rend="superscript"
+               >*</hi></hi></p>
+
+            <p>17.4 nauibusque longis] nauibus longius <hi rend="bold">S</hi></p>
+
+            <p>17.5 constiterunt ... litore <hi rend="italic">om.</hi>
+               <hi rend="bold">S</hi> (<hi rend="italic">uerba 12</hi>)</p>
+
+            <p>17.5 Pharitae] <hi rend="italic">inter</hi> ph <hi rend="italic">et</hi> rite <hi
+                  rend="bold">T</hi>
+               <hi rend="italic">non legitur</hi></p>
+
+            <p>18.1 se] sed <hi rend="bold">S</hi></p>
+
+            <p>18.1 erat non dissimile] d- n- e- <hi rend="bold">V</hi></p>
+
+            <p>18.1 cratibus aut <hi rend="italic">om.</hi>
+               <hi rend="bold">V</hi></p>
+
+            <p>18.3 aequo loco] l- a- <hi rend="bold">V</hi></p>
+
+            <p>18.3 enatauerunt ... (<hi rend="italic">18.4</hi>) sex milium <hi rend="italic"
+                  >om.</hi>
+               <hi rend="bold">V</hi> (<hi rend="italic">uerba 15</hi>)</p>
+
+            <p>18.4 ex his <hi rend="italic">om.</hi>
+               <hi rend="bold">U</hi></p>
+
+            <p>18.4 interfectique] -ctaque <hi rend="bold">S<hi rend="superscript">ac</hi></hi></p>
+
+            <p>19.1 praeda militibus] m- p- <hi rend="bold">U</hi></p>
+
+            <p>19.1 propior] prior <hi rend="bold">S</hi></p>
+
+            <p>19.1 communiuit] cumminuit <hi rend="bold">S</hi></p>
+
+            <p>19.1 ibi praesidium] p- i- <hi rend="bold">V</hi></p>
+
+            <p>19.2 proprioremque] proprioremque <hi rend="bold">S</hi></p>
+
+            <p>19.2 sed] si <hi rend="bold">S</hi> 19.2 optentis] optenas <hi rend="bold">S</hi></p>
+
+            <p>19.3 depulerat] -ant <hi rend="bold">V<hi rend="superscript">ac</hi></hi></p>
+
+            <p>19.4 aduersus hostem] h- a- <hi rend="bold">V</hi></p>
+
+            <p>19.5 altero] -ra <hi rend="bold">S</hi></p>
+
+            <p>19.5 effecto] efecto <hi rend="bold">M<hi rend="superscript">ac</hi></hi></p>
+
+            <p>19.5 ut <hi rend="italic">om.</hi>
+               <hi rend="bold">M<hi rend="superscript">ac</hi></hi></p>
+
+            <p>19.5 eiecerunt] iec- <hi rend="bold">S</hi></p>
+
+            <p>19.5 eodemque] eodem <hi rend="bold">V</hi></p>
+
+            <p>19.6 pugnabatur ... (<hi rend="italic">24.2</hi>) ut ad <hi rend="italic">om.</hi>
+               <hi rend="bold">S</hi></p>
+
+            <p>20.1 remigum] -gium <hi rend="bold">T</hi></p>
+
+            <p>20.6 quid] quod <hi rend="bold">T</hi></p>
+
+            <p>20.6 pauci] -is <hi rend="bold">U<hi rend="superscript">ac</hi></hi></p>
+
+            <p>21.1 uniuersos] u- Cesar <hi rend="bold">V</hi></p>
+
+            <p>21.2 a terra] aeterna <hi rend="bold">V</hi></p>
+
+            <p>21.5 mittenda nauigia] n- m- <hi rend="bold">V</hi></p>
+
+            <p>22.1 in operibus] in o- in <hi rend="bold">V<hi rend="superscript">ac</hi></hi></p>
+
+            <p>22.2 hortatio] exhortacio <hi rend="bold">V</hi></p>
+
+            <p>23.1 alexandrini] -ri <hi rend="bold">T</hi></p>
+
+            <p>23.1 cum <hi rend="italic">om.</hi>
+               <hi rend="bold">T</hi></p>
+
+            <p>23.2 omnem <hi rend="italic">om.</hi>
+               <hi rend="bold">T</hi></p>
+
+            <p>23.2 regno <hi rend="italic">om.</hi>
+               <hi rend="bold">T</hi></p>
+
+            <p>23.2 facere id] i- f- <hi rend="bold">V</hi></p>
+
+            <p>23.2 uenturi] -ra <hi rend="bold">T<hi rend="superscript">ac</hi></hi></p>
+
+            <p>23.2 multitudini] -ne <hi rend="bold">T<hi rend="superscript">ac</hi></hi></p>
+
+            <p>24.1 etsi] si <hi rend="bold">T</hi></p>
+
+            <p>24.1 esse statuit] constituit e- <hi rend="bold">M<hi rend="superscript"
+               >*</hi></hi></p>
+
+            <p>24.1 gerundum] gesturum <hi rend="bold">V</hi></p>
+
+            <p>24.2 cum ipse tantum ei crederet] cum i- t- ei cr- cum ipse tantum ei crederet <hi
+                  rend="bold">M<hi rend="superscript">*</hi></hi></p>
+
+            <p>24.3 sibi <hi rend="italic">om.</hi>
+               <hi rend="bold">V</hi></p>
+
+            <p>24.4 compressis] compressisque <hi rend="bold">M</hi></p>
+
+            <p>24.5 ex] e <hi rend="bold">M</hi></p>
+
+            <p>25.1 firmiores] infirm- <hi rend="bold">S</hi></p>
+
+            <p>25.1 animaduerterent] adu- <hi rend="bold">T</hi></p>
+
+            <p>25.1 aetatem] aetate <hi rend="bold">S</hi></p>
+
+            <p>25.2 dispositis] dispotis <hi rend="bold">V</hi></p>
+
+            <p>25.3 Neronem] Nerorem <hi rend="bold">S</hi></p>
+
+            <p>25.4 quae <hi rend="italic">om.</hi>
+               <hi rend="bold">V<hi rend="superscript">ac</hi></hi></p>
+
+            <p>25.4 plurimis] -mos <hi rend="bold">T<hi rend="superscript">ac</hi></hi></p>
+
+            <p>25.4 prosequebatur] pers- <hi rend="bold">V</hi></p>
+
+            <p>25.5 cum <hi rend="italic">om.</hi>
+               <hi rend="bold">U<hi rend="superscript">ac</hi></hi></p>
+
+            <p>25.6 sibi] sic <hi rend="bold">M</hi></p>
+
+            <p>26.1 Caesaris <hi rend="italic">om.</hi>
+               <hi rend="bold">M</hi></p>
+
+            <p>26.1 propensissima] impen- <hi rend="bold">M</hi></p>
+
+            <p>26.2 Aegyptus maritimo] -tos maritimo <hi rend="bold">U<hi rend="superscript"
+                  >ac</hi></hi>
+               <hi rend="italic">ut uidetur</hi> : -tus maritima <hi rend="bold">U<hi
+                     rend="superscript">c</hi></hi></p>
+
+            <p>26.2 maritimo] maritumos <hi rend="bold">T<hi rend="superscript">ac</hi></hi></p>
+
+            <p>26.2 claustris] castr- <hi rend="bold">S</hi></p>
+
+            <p>26.2 magnis circumdatum] c- m- <hi rend="bold">V</hi></p>
+
+            <p>26.2 pertinaciter] pertinantiter <hi rend="bold">M<hi rend="superscript"
+               >*</hi></hi></p>
+
+            <p>26.3 contendit] conditendit <hi rend="bold">M<hi rend="superscript">ac</hi></hi> :
+               tetendit <hi rend="bold">M<hi rend="superscript">c</hi></hi>
+               <hi rend="italic">ut uidetur</hi> : contendit <hi rend="bold">M<hi rend="superscript"
+                     >mr</hi></hi></p>
+
+            <p>26.3 ea <hi rend="italic">om.</hi>
+               <hi rend="bold">V</hi></p>
+
+            <p>26.3 uictori] -riae <hi rend="bold">S</hi></p>
+
+            <p>27.1 cepit] accepit <hi rend="bold">T</hi></p>
+
+            <p>27.1 spatium <hi rend="italic">om.</hi>
+               <hi rend="bold">V</hi></p>
+
+            <p>27.1 relinquens] -quere <hi rend="bold">S</hi></p>
+
+            <p>27.2 uel superari delerique] uel s- uel d- <hi rend="bold">V</hi></p>
+
+            <p>27.3 autem <hi rend="italic">om.</hi>
+               <hi rend="bold">V</hi></p>
+
+            <p>27.3 interclusum a] interdum suma <hi rend="bold">S</hi></p>
+
+            <p>27.3 a<hi rend="superscript">2</hi>
+               <hi rend="italic">om</hi>. <hi rend="bold">V</hi></p>
+
+            <p>27.4 a Delta] ad Δ delta <hi rend="bold">V</hi></p>
+
+            <p>27.4 commiserunt] commiser <hi rend="bold">T</hi></p>
+
+            <p>27.5 constantiaque ... imprudentia <hi rend="italic">om.</hi>
+               <hi rend="bold">S</hi> (<hi rend="italic">uerba 5</hi>)</p>
+
+            <p>27.5 atque] et <hi rend="bold">V</hi></p>
+
+            <p>27.5 undique <hi rend="italic">om.</hi>
+               <hi rend="bold">M</hi></p>
+
+            <p>27.5 facta] stata <hi rend="bold">S</hi></p>
+
+            <p>27.6 reliqui se texissent] reliquisset exissent <hi rend="bold">S</hi></p>
+
+            <p>27.6 essent] -et <hi rend="bold">M<hi rend="superscript">ac</hi></hi></p>
+
+            <p>28.1 rem] regem <hi rend="bold">S</hi></p>
+
+            <p>28.1 eadem haec] h- e- <hi rend="bold">U</hi></p>
+
+            <p>28.2 celeriore] -ori <hi rend="bold">V</hi></p>
+
+            <p>28.2 fluminis Nili] n- f- <hi rend="bold">V</hi></p>
+
+            <p>28.2 ne <hi rend="italic">om</hi>. <hi rend="bold">S</hi></p>
+
+            <p>28.2 quod <hi rend="italic">om.</hi>
+               <hi rend="bold">T<hi rend="superscript">ac</hi></hi></p>
+
+            <p>28.2 is] his <hi rend="bold">M<hi rend="superscript">ac</hi></hi></p>
+
+            <p>28.3 plani(t/c)i(e/a)] -nicies <hi rend="bold">S</hi></p>
+
+            <p>28.3 adiectum] abi- <hi rend="bold">M</hi></p>
+
+            <p>29.1 influebat] effl- <hi rend="bold">S</hi></p>
+
+            <p>29.1 ab] a <hi rend="bold">M</hi></p>
+
+            <p>29.1 passuum] passus <hi rend="bold">S</hi></p>
+
+            <p>29.2 cum] <hi rend="italic">om.</hi>
+               <hi rend="bold">T<hi rend="superscript">ac</hi></hi></p>
+
+            <p>29.2 equitatum] -atem <hi rend="bold">T</hi></p>
+
+            <p>29.2 prohiberent] -beret <hi rend="bold">T<hi rend="superscript">ac</hi></hi></p>
+
+            <p>29.2 eminus] minus <hi rend="bold">T<hi rend="superscript">ac</hi></hi></p>
+
+            <p>29.3 dolore milites equitesque] -res -te sequentesque <hi rend="bold">S</hi></p>
+
+            <p>29.4 itaque <hi rend="italic">om.</hi>
+               <hi rend="bold">V</hi></p>
+
+            <p>29.4 tranarunt] transn- <hi rend="bold">M</hi></p>
+
+            <p>29.4 legionarii] -riis <hi rend="bold">S</hi></p>
+
+            <p>29.4 excisis] absc- <hi rend="bold">V</hi></p>
+
+            <p>29.4 iniecto] proie- <hi rend="bold">V</hi></p>
+
+            <p>29.5 multitudine] multidine <hi rend="bold">M</hi></p>
+
+            <p>30.1 re praeclarissime] -issima re <hi rend="bold">U</hi></p>
+
+            <p>30.2 confertam] conse- <hi rend="bold">V</hi></p>
+
+            <p>30.2 multitudinem] -e <hi rend="bold">S</hi></p>
+
+            <p>30.2 magno<hi rend="superscript">2</hi>] -na <hi rend="bold">S</hi></p>
+
+            <p>30.3 postero] p- uero <hi rend="bold">V</hi></p>
+
+            <p>30.3 quo id] quod <hi rend="bold">T</hi></p>
+
+            <p>30.3 numero <hi rend="italic">om.</hi>
+               <hi rend="bold">U</hi></p>
+
+            <p>30.5 una] -am <hi rend="bold">S</hi></p>
+
+            <p>30.5 altera] -am <hi rend="bold">S</hi></p>
+
+            <p>30.6 proficiebant] -bat <hi rend="bold">S</hi></p>
+
+            <p>30.6 uulnerandisque] -atisque <hi rend="bold">S</hi></p>
+
+            <p>30.6 regione] -nem <hi rend="bold">S</hi></p>
+
+            <p>31.1 per se] ipse <hi rend="bold">V</hi></p>
+
+            <p>31.1 studio partim pugnandi partim] pu- pa- s- pa- <hi rend="bold">M</hi></p>
+
+            <p>31.1 Carfulenum] carfunelum <hi rend="bold">V</hi> : calenum carfulenum <hi
+                  rend="bold">M<hi rend="superscript">ac</hi></hi></p>
+
+            <p>31.1 uirum <hi rend="italic">om.</hi>
+               <hi rend="bold">S</hi></p>
+
+            <p>31.3 adeo <hi rend="italic">om.</hi>
+               <hi rend="bold">V</hi></p>
+
+            <p>31.3 incitati] incitata <hi rend="bold">T<hi rend="superscript">ac</hi></hi></p>
+
+            <p>31.5 ruina] ui <hi rend="bold">S</hi></p>
+
+            <p>31.6 nauem] n- et <hi rend="bold">S</hi></p>
+
+            <p>32.2 eum] enim <hi rend="bold">V</hi></p>
+
+            <p>32.2 eo proelio audito nihil] a- e- p- nil <hi rend="bold">V</hi></p>
+
+            <p>32.2 audito] -tu <hi rend="bold">U</hi></p>
+
+            <p>32.3 magnitudinis] multitudinis <hi rend="bold">T</hi></p>
+
+            <p>32.3 religione] releg- <hi rend="bold">U</hi></p>
+
+            <p>32.4 ac] a <hi rend="bold">S</hi></p>
+
+            <p>33.1 erat populum Romanum] <hi rend="italic">post</hi> erat <hi rend="italic"
+                  >uacat</hi>
+               <hi rend="bold">V</hi> (<hi rend="italic">uerba 2</hi>)</p>
+
+            <p>33.2 maiorique] maiori <hi rend="bold">S</hi></p>
+
+            <p>33.2 filiis] filiabus <hi rend="bold">V</hi></p>
+
+            <p>33.2 manserat] -rant <hi rend="bold">U<hi rend="superscript">ac</hi></hi></p>
+
+            <p>33.2 impotenter Ganymeden] g- i- <hi rend="bold">M<hi rend="superscript"
+               >ac</hi></hi></p>
+
+            <p>33.2 rursus <hi rend="italic">om.</hi>
+               <hi rend="bold">V</hi></p>
+
+            <p>33.3 quo] quod <hi rend="bold">T</hi></p>
+
+            <p>33.3 esset eorum] eorum esset <hi rend="bold">V</hi></p>
+
+            <p>33.4 eos nostris] nostros eos <hi rend="bold">M<hi rend="superscript"
+               >ac</hi></hi></p>
+
+            <p>33.4 essent] -et <hi rend="bold">T</hi></p>
+
+            <p>33.4 coerceri] ceteri <hi rend="bold">M<hi rend="superscript">*</hi></hi></p>
+
+            <p>34.1 ad] a <hi rend="bold">U</hi></p>
+
+            <p>34.1 suum <hi rend="italic">om</hi>. <hi rend="bold">V</hi></p>
+
+            <p>34.1 regnum<hi rend="superscript">2</hi>
+               <hi rend="italic">om</hi>. <hi rend="bold">V</hi></p>
+
+            <p>34.1 posse] possem <hi rend="bold">T<hi rend="superscript">ac</hi></hi></p>
+
+            <p>34.2 C. <hi rend="italic">om</hi>. <hi rend="bold">S</hi></p>
+
+            <p>34.2 esse statueret] statueret esse <hi rend="bold">M<hi rend="superscript"
+                  >*</hi></hi></p>
+
+            <p>34.2 cappadociaque] captadociaque <hi rend="bold">U<hi rend="superscript"
+                  >ac</hi></hi></p>
+
+            <p>34.2 ciuilis] uiuilis <hi rend="bold">U<hi rend="superscript">ac</hi></hi></p>
+
+            <p>34.2 maiestatemque] potestatemque <hi rend="bold">M</hi></p>
+
+            <p>34.3 euocatas] uocatas <hi rend="bold">S</hi></p>
+
+            <p>34.3 altera in] alteram <hi rend="bold">S</hi></p>
+
+            <p>34.4 atque] et <hi rend="bold">M</hi></p>
+
+            <p>34.4 constitutas] constitutos <hi rend="bold">V</hi></p>
+
+            <p>34.5 mittit] mittitque <hi rend="bold">T</hi></p>
+
+            <p>34.5 sestium] sextium <hi rend="bold">U</hi></p>
+
+            <p>34.5 adduceret] abduceret <hi rend="bold">U</hi></p>
+
+            <p>34.5 Domitii] domii <hi rend="bold">M<hi rend="superscript">*</hi></hi></p>
+
+            <p>35.1 a] ad <hi rend="bold">S</hi></p>
+
+            <p>35.1 referunt] fecerunt <hi rend="bold">M<hi rend="superscript">*</hi></hi></p>
+
+            <p>35.1 iure] iuro <hi rend="bold">M<hi rend="superscript">ac</hi></hi></p>
+
+            <p>35.1 regni causa] causa regni <hi rend="bold">V<hi rend="superscript"
+               >ac</hi></hi></p>
+
+            <p>35.1 is] his <hi rend="bold">S</hi></p>
+
+            <p>35.1 statuisset] statuit <hi rend="bold">M</hi></p>
+
+            <p>35.2 decessisse] discessisse <hi rend="bold">T</hi></p>
+
+            <p>35.2 quod] quo <hi rend="bold">S</hi></p>
+
+            <p>35.2 tres legiones] legiones tres <hi rend="bold">V</hi></p>
+
+            <p>35.2 Domitium] dominum <hi rend="bold">V</hi></p>
+
+            <p>35.2 putasset] putaret <hi rend="bold">M</hi></p>
+
+            <p>35.2 Armenia] armeniam <hi rend="bold">M</hi></p>
+
+            <p>35.2 decederet] deceret <hi rend="bold">V</hi></p>
+
+            <p>35.3 a] ex <hi rend="bold">T<hi rend="superscript">ac</hi></hi></p>
+
+            <p>35.3 quo] qua <hi rend="bold">M</hi></p>
+
+            <p>36.1 Pharnaces] Pharnacis <hi rend="bold">T<hi rend="superscript">ac</hi></hi></p>
+
+            <p>36.2 constanter omnia] omnia constanter <hi rend="bold">T</hi></p>
+
+            <p>36.3 ipsum] ipso <hi rend="bold">S</hi></p>
+
+            <p>36.3 obiectis] abiectis <hi rend="bold">M</hi></p>
+
+            <p>36.3 milia (<hi rend="italic">per compendia</hi>)] mille <hi rend="bold">V</hi>
+               <hi rend="italic">per compendium</hi></p>
+
+            <p>36.4 dissipari] disperari <hi rend="bold">M</hi></p>
+
+            <p>36.5 eas <hi rend="italic">om</hi>. <hi rend="bold">V</hi></p>
+
+            <p>36.5 uersari] aduersari <hi rend="bold">V</hi></p>
+
+            <p>36.5 dissiparentur dispersique] disparentur dispersisque <hi rend="bold">M</hi></p>
+
+            <p>37.1 ipso] ipse <hi rend="bold">V</hi></p>
+
+            <p>37.1 eum <hi rend="italic">om.</hi>
+               <hi rend="bold">U<hi rend="superscript">ac</hi></hi></p>
+
+            <p>37.4 ratione] rationem <hi rend="bold">T</hi></p>
+
+            <p>37.5 perfecit] praefecit <hi rend="bold">M</hi></p>
+            <p>37.5 pro uallo <hi rend="italic">om.</hi>
+               <hi rend="bold">M</hi></p>
+
+            <p>38.1 proxima nocte] nocte proxima <hi rend="bold">V</hi></p>
+            <p>38.1 magno] magna <hi rend="bold">S</hi></p>
+            <p>38.1 caesari] sibi <hi rend="bold">M</hi></p>
+
+            <p>38.2 ducebat] ducere <hi rend="bold">U<hi rend="superscript">ac</hi></hi></p>
+
+            <p>38.3 facillimum] fallamum <hi rend="bold">U<hi rend="superscript">ac</hi></hi></p>
+
+            <p>38.3 d(i/e)rectas] rectas <hi rend="bold">U<hi rend="superscript">ac</hi></hi></p>
+
+            <p>38.4 equitatum] notatum <hi rend="bold">T<hi rend="superscript">ac</hi></hi></p>
+
+            <p>38.4 aliter] alter <hi rend="bold">U<hi rend="superscript">ac</hi></hi></p>
+
+            <p>39.2 mediam] media <hi rend="bold">S</hi></p>
+
+            <p>40.1 tricesima sexta (i.e., XXXVI)] XXVI <hi rend="bold">V</hi></p>
+
+            <p>40.1 equites] aequitates <hi rend="bold">S</hi></p>
+
+            <p>40.2 oppressa est] oppressae <hi rend="bold">T</hi></p>
+
+            <p>40.3 ita] et <hi rend="bold">M</hi></p>
+
+            <p>40.3 pugnans] pugnas <hi rend="bold">S</hi></p>
+
+            <p>40.4 se superiora] superiora se <hi rend="bold">V</hi></p>
+
+            <p>40.4 non amplius <hi rend="italic">om.</hi>
+               <hi rend="bold">M</hi></p>
+
+            <p>40.5 itineribusque] itineribus <hi rend="bold">M</hi></p>
+
+            <p>41.1 ibique et] et ibi <hi rend="bold">V</hi></p>
+
+            <p>41.2 atque <hi rend="italic">om.</hi>
+               <hi rend="bold">T<hi rend="superscript">ac</hi></hi></p>
+
+            <p>41.2 se <hi rend="italic">om.</hi>
+               <hi rend="bold">S</hi></p>
+
+            <p>42.1 sub] nub <hi rend="bold">S<hi rend="superscript">ac</hi></hi></p>
+
+            <p>42.1 retenta <hi rend="italic">om.</hi>
+               <hi rend="bold">V</hi></p>
+
+            <p>42.2 Q] Quintus <hi rend="bold">V<hi rend="superscript">c</hi></hi>
+               <hi rend="italic">supra lineam</hi></p>
+
+            <p>42.3 namque] nam <hi rend="bold">M</hi></p>
+
+            <p>42.3 praesertim] praesertim cum <hi rend="bold">V</hi></p>
+
+            <p>42.3 constiterat] constituerat <hi rend="bold">M<hi rend="superscript"
+               >ac</hi></hi></p>
+
+            <p>42.3 posset <hi rend="italic">om.</hi>
+               <hi rend="bold">V</hi></p>
+
+            <p>42.3 captiuis nauibus] nauibus <hi rend="bold">U<hi rend="superscript"
+               >ac</hi></hi></p>
+
+            <p>42.4 Cornificio] corfinio <hi rend="bold">M</hi></p>
+
+            <p>42.4 magnis copiis] copiis magnis <hi rend="bold">M<hi rend="superscript"
+                  >ac</hi></hi></p>
+
+            <p>42.5 instauraturam] instauratur in <hi rend="bold">S</hi></p>
+
+            <p>43.1 scientia sua] scientia <hi rend="bold">M<hi rend="superscript">ac</hi></hi></p>
+
+            <p>43.1 periclitatus] periclitatur <hi rend="bold">M</hi></p>
+
+            <p>43.2 crebro] crebra <hi rend="bold">M</hi></p>
+
+            <p>43.3 duobus milibus *om. <hi rend="bold">U<hi rend="superscript">ac</hi></hi>*</p>
+
+            <p>43.4 Cornificii] corfinii <hi rend="bold">M</hi></p>
+
+            <p>43.4 uersari passa non est] passa non est uersari <hi rend="bold">M<hi
+                     rend="superscript">ac</hi></hi></p>
+
+            <p>44.1 Brundisi] brundusium <hi rend="bold">M</hi></p>
+
+            <p>44.1 ferendum] inferendum <hi rend="bold">V<hi rend="superscript">ac</hi></hi></p>
+
+            <p>44.1 Octauium] octauianum <hi rend="bold">V</hi></p>
+
+            <p>44.2 misit <hi rend="italic">om</hi>. <hi rend="bold">M</hi></p>
+
+            <p>44.3 periculum] periculi <hi rend="bold">T<hi rend="superscript">ac</hi></hi></p>
+
+            <p>44.4 militibus] milibus <hi rend="bold">T<hi rend="superscript">ac</hi></hi></p>
+
+            <p>44.4 Illyricum] illyrico <hi rend="bold">T</hi></p>
+
+            <p>44.4 maritumasque] maritimas <hi rend="bold">T</hi></p>
+
+            <p>45.2 aduersam <hi rend="italic">om</hi>. <hi rend="bold">M</hi></p>
+
+            <p>45.2 demissis] dimissis <hi rend="bold">S</hi></p>
+
+            <p>45.3 uexillo sublato] sublato uexillo <hi rend="bold">M<hi rend="superscript"
+                  >ac</hi></hi></p>
+
+            <p>45.4 ex] de <hi rend="bold">V</hi></p>
+
+            <p>46.2 celerrime fortissimeque] fortissime celerrimeque <hi rend="bold">T</hi></p>
+
+            <p>46.3 concurrerunt] cucurrerunt <hi rend="bold">M</hi></p>
+
+            <p>46.4 admiranda uirtute] admirandam uirtutem <hi rend="bold">U</hi></p>
+
+            <p>46.4 aequata] aequanta <hi rend="bold">S</hi></p>
+
+            <p>46.5 magis] magnis <hi rend="bold">S</hi></p>
+
+            <p>46.5 Octauiani] octauii <hi rend="bold">M</hi></p>
+
+            <p>46.7 dirimeret] dimeret <hi rend="bold">V<hi rend="superscript">ac</hi></hi></p>
+
+            <p>47.1 Vatinius] uitius <hi rend="bold">T<hi rend="superscript">ac</hi></hi> : uatius
+                  <hi rend="bold">T<hi rend="superscript">c</hi></hi></p>
+
+            <p>47.1 portu] portis <hi rend="bold">T<hi rend="superscript">ac</hi></hi></p>
+
+            <p>47.2 proelio] periculo <hi rend="bold">U</hi>
+               <hi rend="italic">ut uidetur</hi></p>
+
+            <p>47.2 triremes] trirenes <hi rend="bold">T</hi></p>
+
+            <p>47.2 in insulam Issam] in insulas issas <hi rend="bold">U<hi rend="superscript"
+                     >ac</hi></hi></p>
+
+            <p>47.2 quod] quo <hi rend="bold">M</hi></p>
+
+            <p>47.2 ex fuga credebat Octauium] credebat Octauium ex fuga <hi rend="bold">M<hi
+                     rend="superscript">ac</hi></hi></p>
+
+            <p>47.3 earum oppidum] oppidum earum <hi rend="bold">M<hi rend="superscript"
+                  >ac</hi></hi></p>
+
+            <p>47.4 Vatinio] uatino <hi rend="bold">T<hi rend="superscript">ac</hi></hi></p>
+
+            <p>47.4 Octauium] octauianos <hi rend="bold">U<hi rend="superscript">ac</hi></hi></p>
+
+            <p>47.5 breui] breuissimo <hi rend="bold">T</hi></p>
+
+            <p>47.4 Siciliam] saciliam <hi rend="bold">U</hi></p>
+
+            <p>47.5 Cornificio] corfinio <hi rend="bold">M</hi></p>
+
+            <p>47.5 ex illo] ex illa <hi rend="bold">T<hi rend="superscript">ac</hi></hi></p>
+
+            <p>48.1 periculi] periculo <hi rend="bold">M</hi></p>
+
+            <p>48.1 siue] sine <hi rend="bold">M</hi></p>
+
+            <p>48.1 difficulter odia] difficultate rodia <hi rend="bold">S</hi></p>
+
+            <p>48.3 praemia] dona <hi rend="bold">T<hi rend="superscript">ac</hi></hi>
+               <hi rend="italic">ut uidetur</hi></p>
+
+            <p>49.1 et ut] ut et <hi rend="bold">T</hi></p>
+
+            <p>49.2 gregem] grege <hi rend="bold">U</hi></p>
+
+            <p>49.2 et euidentis] aut euidentis//// <hi rend="bold">T</hi></p>
+
+            <p>49.2 praetermittebatur] praetermittebant <hi rend="bold">T</hi></p>
+
+            <p>49.2 et tribunal] at tribunal <hi rend="bold">T<hi rend="superscript"
+               >ac</hi></hi></p>
+
+            <p>49.3 modo] domo <hi rend="bold">S</hi></p>
+
+            <p>49.3 periculorum] pepiculorum <hi rend="bold">S</hi></p>
+
+            <p>50.1 imperator <hi rend="italic">om</hi>. <hi rend="bold">V</hi></p>
+
+            <p>50.1 faceret quae <hi rend="italic">om</hi>. <hi rend="bold">U</hi></p>
+
+            <p>50.1 de morte eius prouinciales consilia] de morte eius prouintiales de morte
+               consilia <hi rend="bold">M<hi rend="superscript">*</hi></hi></p>
+
+            <p>50.2 eum] cum <hi rend="bold">S</hi></p>
+
+            <p>50.2 acceptum] accemptum <hi rend="bold">T</hi></p>
+
+            <p>50.3 sumptu] sunt tu <hi rend="bold">U</hi></p>
+
+            <p>51.2 esset] esse <hi rend="bold">V</hi></p>
+
+            <p>51.3 arcessendas] arcersendas <hi rend="bold">M</hi></p>
+
+            <p>51.3 nauesque] naues <hi rend="bold">M</hi></p>
+
+            <p>51.3 praepararentur] praeparentur <hi rend="bold">S</hi></p>
+
+            <p>51.3 pecuniaeque ... imperarentur <hi rend="italic">om</hi>. <hi rend="bold">V</hi>
+                  (<hi rend="italic">uerba 4</hi>)</p>
+
+            <p>51.3 moraretur] morarentur <hi rend="bold">U<hi rend="superscript">ac</hi></hi>
+               <hi rend="italic">ut uidetur</hi></p>
+
+            <p>51.4 aliquid] aliquod <hi rend="bold">M</hi></p>
+
+            <p>52.2 contione] conditione <hi rend="bold">U<hi rend="superscript">ac</hi></hi></p>
+
+            <p>52.2 se cordubam] cordubam se <hi rend="bold">M<hi rend="superscript"
+               >ac</hi></hi></p>
+
+            <p>52.2 postmeridiano] post meridianam <hi rend="bold">T</hi></p>
+
+            <p>52.2 in <hi rend="italic">om</hi>. <hi rend="bold">S</hi></p>
+
+            <p>52.2 libellum] bellum <hi rend="bold">V</hi></p>
+
+            <p>52.2 aliquid ab eo] ab eo aliquid <hi rend="bold">M</hi></p>
+
+            <p>52.3 Munatius] munutius <hi rend="bold">M<hi rend="superscript">*</hi></hi></p>
+
+            <p>52.3 interfecto Q.] interfectoque <hi rend="bold">S</hi></p>
+
+            <p>52.4 Licinius Squillus] lucinius quibus <hi rend="bold">V</hi></p>
+
+            <p>53.1 compluresque] complures <hi rend="bold">V</hi></p>
+
+            <p>53.1 euocatos] euocatas <hi rend="bold">M<hi rend="superscript">ac</hi></hi></p>
+
+            <p>53.1 secum] et <hi rend="bold">S</hi></p>
+
+            <p>53.1 consuerat] consueuerat <hi rend="bold">M</hi></p>
+
+            <p>53.3 saxa] sexa <hi rend="bold">S<hi rend="superscript">ac</hi></hi></p>
+
+            <p>53.3 iacebant] iaciebant <hi rend="bold">S</hi></p>
+
+            <p>53.3 se domum familiaris sui] domum familiaris sui se <hi rend="bold">V</hi></p>
+
+            <p>53.4 sui] suis <hi rend="bold">M<hi rend="superscript">ac</hi></hi>
+               <hi rend="italic">ut uidetur</hi></p>
+
+            <p>53.5 prouincia] prouicia <hi rend="bold">V<hi rend="superscript">ac</hi></hi></p>
+
+            <p>53.5 consenserat] conserat <hi rend="bold">M<hi rend="superscript">*</hi></hi></p>
+
+            <p>53.5 Italia] italiam <hi rend="bold">V</hi></p>
+
+            <p>53.5 scriptas] sciptas <hi rend="bold">T</hi></p>
+
+            <p>53.5 quinta] quanta <hi rend="bold">S<hi rend="superscript">ac</hi></hi></p>
+
+            <p>53.5 ibi erat] erat ibi <hi rend="bold">T</hi></p>
+
+            <p>54.1 interim <hi rend="italic">om.</hi>
+               <hi rend="bold">V</hi></p>
+
+            <p>54.1 magis] modis <hi rend="bold">T<hi rend="superscript">ac</hi></hi></p>
+
+            <p>54.1 permotus] per <hi rend="bold">S</hi></p>
+
+            <p>54.1 reficit] refecit <hi rend="bold">S<hi rend="superscript">ac</hi></hi></p>
+
+            <p>54.1 celeriter] celiter <hi rend="bold">S</hi></p>
+
+            <p>54.2 signa] signo <hi rend="bold">V</hi></p>
+
+            <p>54.2 secundani] secundam <hi rend="bold">S</hi></p>
+
+            <p>54.3 quid] quod <hi rend="bold">V</hi></p>
+
+            <p>55.2 indicio] inditicio <hi rend="bold">M</hi></p>
+
+            <p>55.3 libertis] libertatis <hi rend="bold">V</hi></p>
+
+            <p>55.3 excruciandum] ad cruciandum <hi rend="bold">V</hi></p>
+
+            <p>55.4 redemerunt] redimerunt <hi rend="bold">M</hi>
+               <hi rend="italic">per compendium</hi></p>
+
+            <p>56.2 mixtam] mixtum <hi rend="bold">S</hi></p>
+
+            <p>56.2 licere] liceret <hi rend="bold">T<hi rend="superscript">ac</hi></hi></p>
+
+            <p>56.3 expensas] pensas <hi rend="italic">post</hi>
+               <hi rend="italic">spatium trium litterarum</hi>
+               <hi rend="bold">V</hi></p>
+
+            <p>56.4 coloniisque] colonisque <hi rend="bold">S</hi></p>
+
+            <p>56.4 sacramenti] sacramenta <hi rend="bold">T<hi rend="superscript">ac</hi></hi></p>
+
+            <p>56.6 edictum] editum <hi rend="bold">U<hi rend="superscript">ac</hi></hi></p>
+
+            <p>56.6 se] sed <hi rend="bold">T</hi></p>
+
+            <p>57.1 tempore] tepore <hi rend="bold">M</hi></p>
+
+            <p>57.1 legatus] legatis <hi rend="bold">S</hi></p>
+
+            <p>57.1 seditione facta] facta seditione <hi rend="bold">V</hi></p>
+
+            <p>57.1 non <hi rend="italic">om.</hi>
+               <hi rend="bold">T</hi></p>
+
+            <p>57.2 mane] manu <hi rend="bold">S</hi></p>
+
+            <p>57.2 perspiceret] respiceret <hi rend="bold">S</hi></p>
+
+            <p>57.2 moratus] moratur <hi rend="bold">U</hi></p>
+
+            <p>57.3 cohortes] cohortium <hi rend="bold">T</hi></p>
+
+            <p>57.3 ex] et <hi rend="bold">M</hi></p>
+
+            <p>57.3 legione] legiones <hi rend="bold">M</hi></p>
+
+            <p>57.3 -que<hi rend="superscript">1</hi>
+               <hi rend="italic">om.</hi>
+               <hi rend="bold">V</hi></p>
+
+            <p>57.3 equitatus] aequitatus <hi rend="bold">S</hi></p>
+
+            <p>57.3 Obuculam] obuculum <hi rend="bold">T</hi></p>
+
+            <p>57.3 peruenisse] peruenisset <hi rend="bold">T<hi rend="superscript">ac</hi></hi></p>
+
+            <p>57.3 se <hi rend="italic">om.</hi>
+               <hi rend="bold">T</hi></p>
+
+            <p>57.4 eam in potestate] ean in potestatem <hi rend="bold">U</hi></p>
+
+            <p>57.4 Q. (<hi rend="italic">uel</hi> quintum)] quae <hi rend="bold">T</hi></p>
+
+            <p>57.5 affertur] ut fertur <hi rend="bold">S</hi></p>
+
+            <p>57.5 namque <hi rend="italic">om.</hi>
+               <hi rend="bold">S</hi></p>
+
+            <p>57.5 id uarie] iduriariae <hi rend="bold">V</hi></p>
+
+            <p>57.6 Segouiam] segoniam <hi rend="bold">T</hi></p>
+
+            <p>57.6 contione] cotione <hi rend="bold">U</hi></p>
+
+            <p>57.6 animos] animo <hi rend="bold">S</hi></p>
+            <p>57.6 Caesari] acaesari <hi rend="bold">S</hi></p>
+
+            <p>57.6 prouincia <hi rend="italic">om.</hi>
+               <hi rend="bold">M</hi></p>
+
+            <p>57.6 restitueretur] restituerunt <hi rend="bold">V</hi>
+               <hi rend="italic">per compendium</hi></p>
+
+            <p>58.1 -que <hi rend="italic">om.</hi>
+               <hi rend="bold">V<hi rend="superscript">ac</hi></hi></p>
+
+            <p>58.1 ut <hi rend="italic">om</hi>. <hi rend="bold">S</hi></p>
+
+            <p>58.1 contra] contraque <hi rend="bold">S</hi></p>
+
+            <p>58.1 qui] quae <hi rend="bold">S</hi></p>
+
+            <p>58.1 opponeret] opponeret et <hi rend="bold">M</hi></p>
+
+            <p>58.2 Caesaris] Caesaris nomine maioribus uiribus <hi rend="bold">S</hi></p>
+
+            <p>58.2 Pompei <hi rend="italic">om.</hi>
+               <hi rend="bold">M</hi></p>
+
+            <p>58.2 prae] per <hi rend="bold">V</hi></p>
+
+            <p>58.2 ferebat] fatebatur <hi rend="bold">M<hi rend="superscript">c</hi></hi></p>
+
+            <p>58.3 milites adeo fatebantur <hi rend="italic">om.</hi>
+               <hi rend="bold">M</hi></p>
+
+            <p>58.3 Pompei] pompeio <hi rend="bold">M<hi rend="superscript">ac</hi></hi></p>
+
+            <p>58.4 frequens ... diriperent <hi rend="italic">om.</hi>
+               <hi rend="bold">V</hi> (<hi rend="italic">uerba 20</hi>)</p>
+
+            <p>58.4 matrum] matrum fidelium <hi rend="bold">S</hi></p>
+
+            <p>58.4 facere cogerentur] facerentur <hi rend="bold">T</hi></p>
+
+            <p>59.1 tantae] tantu <hi rend="bold">T<hi rend="superscript">ac</hi></hi></p>
+
+            <p>59.1 commotus] commeatus <hi rend="bold">U<hi rend="superscript">ac</hi></hi></p>
+
+            <p>59.1 ad<hi rend="superscript">1</hi>
+               <hi rend="italic">om.</hi>
+               <hi rend="bold">U<hi rend="superscript">ac</hi></hi></p>
+
+            <p>59.1 posse ... causam <hi rend="italic">om.</hi>
+               <hi rend="bold">V</hi> (<hi rend="italic">uerba 12</hi>)</p>
+
+            <p>59.1 causam<hi rend="superscript">2</hi>] causa <hi rend="bold">U</hi></p>
+
+            <p>59.1 asciuerunt] adsciuerant <hi rend="bold">V</hi></p>
+
+            <p>59.1 et<hi rend="superscript">3</hi>
+               <hi rend="italic">om.</hi>
+               <hi rend="bold">V</hi></p>
+
+            <p>59.2 milia passuum] menses pompeium <hi rend="bold">V</hi></p>
+
+            <p>59.2 subsidio] subsidia <hi rend="bold">V</hi></p>
+
+            <p>60.1 indignitate] indignitatem <hi rend="bold">T<hi rend="superscript"
+               >ac</hi></hi></p>
+
+            <p>60.1 Marcellum sibi ducem] sibi ducem Marcellum <hi rend="bold">M<hi
+                     rend="superscript">*</hi></hi></p>
+
+            <p>60.1 concurrerunt] cucurrerunt <hi rend="bold">M</hi></p>
+
+            <p>60.1 possesiones] potestates a <hi rend="bold">T<hi rend="superscript"
+               >ac</hi></hi></p>
+
+            <p>60.2 legiones] legionos <hi rend="bold">S</hi></p>
+
+            <p>60.3 Cassium] cassius <hi rend="bold">U</hi></p>
+
+            <p>60.3 superiore] superiori <hi rend="bold">V</hi></p>
+
+            <p>60.3 recipiant] reciperent <hi rend="bold">T</hi></p>
+
+            <p>60.3 equitatu] aequitatum <hi rend="bold">S</hi></p>
+
+            <p>60.4 ripis <hi rend="italic">om.</hi>
+               <hi rend="bold">V</hi></p>
+
+            <p>60.5 aciem] acie <hi rend="bold">U</hi></p>
+
+            <p>61.1 firmior] firmiores <hi rend="bold">U<hi rend="superscript">ac</hi></hi></p>
+
+            <p>61.1 Marcellus <hi rend="italic">om.</hi>
+               <hi rend="bold">M</hi></p>
+
+            <p>61.1 legionum] legionem <hi rend="bold">S</hi></p>
+
+            <p>61.2 quodam] quoddam <hi rend="bold">T</hi></p>
+
+            <p>61.2 clauderetur] cluderetur <hi rend="bold">T<hi rend="superscript">c</hi></hi><hi
+                  rend="italic">ut uidetur</hi></p>
+
+            <p>61.2 infestis] infectis <hi rend="bold">T<hi rend="superscript">ac</hi></hi></p>
+
+            <p>61.2 silentio ex] ex silencio <hi rend="bold">U<hi rend="superscript"
+               >ac</hi></hi></p>
+
+            <p>61.2 fidele esse oppidum] oppidum fidele esse <hi rend="bold">V</hi></p>
+
+            <p>61.4 incitatis] inciuitatis <hi rend="bold">M</hi></p>
+
+            <p>61.4 ciuitates ea paterentur] ea paterentur ciuitates <hi rend="bold">U</hi></p>
+
+            <p>62.1 hispanorum] hispania <hi rend="bold">U<hi rend="superscript">ac</hi></hi></p>
+
+            <p>62.2 plures] complures <hi rend="bold">M</hi></p>
+
+            <p>62.2 accedit] accidit <hi rend="bold">T</hi></p>
+
+            <p>62.2 munitiones] munitionis <hi rend="bold">T<hi rend="superscript">ac</hi></hi></p>
+
+            <p>62.3 Bogus] bogas <hi rend="bold">S</hi></p>
+
+            <p>62.2 Marcelli <hi rend="italic">om.</hi>
+               <hi rend="bold">T</hi></p>
+
+            <p>62.2 tamen umquam] umquam tamen <hi rend="bold">T</hi></p>
+
+            <p>63.1 legionariis] legionaribus <hi rend="bold">V</hi></p>
+
+            <p>63.2 Marcellus <hi rend="italic">om.</hi>
+               <hi rend="bold">M</hi></p>
+
+            <p>63.2 se tenet] se recepit tenetque <hi rend="bold">T</hi></p>
+
+            <p>63.2 iuris] iuri <hi rend="bold">V</hi></p>
+
+            <p>63.2 ne] nec <hi rend="bold">U</hi></p>
+
+            <p>63.2 Lepidi] lipidi <hi rend="bold">T</hi></p>
+
+            <p>63.2 uerebatur] uidebatur <hi rend="bold">M</hi></p>
+
+            <p>63.3 ad exeundum] adeundem <hi rend="bold">V</hi></p>
+
+            <p>63.3 re omni] omni re <hi rend="bold">M</hi></p>
+
+            <p>63.4 dubitasset] dubisasset <hi rend="bold">M<hi rend="superscript">ac</hi></hi><hi
+                  rend="italic">ut uidetur</hi></p>
+
+            <p>63.4 sibi <hi rend="italic">om.</hi>
+               <hi rend="bold">V</hi></p>
+
+            <p>63.4 Lepido] lipodo <hi rend="bold">T</hi></p>
+
+            <p>63.4 credendum] credeudum <hi rend="bold">S<hi rend="superscript">ac</hi></hi>
+               <hi rend="italic">ut uidetur</hi></p>
+
+            <p>63.4 ullum] ullam <hi rend="bold">U<hi rend="superscript">ac</hi></hi></p>
+
+            <p>64.1 Marcellus] metellus <hi rend="bold">M</hi></p>
+
+            <p>64.1 Cassius <hi rend="italic">om.</hi>
+               <hi rend="bold">S</hi></p>
+
+            <p>64.1 proficiscitur] profisciscitur <hi rend="bold">S<hi rend="superscript"
+                  >ac</hi></hi></p>
+
+            <p>64.2 ad prouinciam obtinendam] ad optinendam prouintiam <hi rend="bold">V</hi></p>
+
+            <p>64.2 cuius] eius <hi rend="bold">T</hi></p>
+
+            <p>64.2 et Marcello] marcelloque <hi rend="bold">V</hi></p>
+
+            <p>64.2 amici eius] eius amici <hi rend="bold">V</hi></p>
+
+            <p>64.2 ne<hi rend="superscript">2</hi>] neque <hi rend="bold">U</hi></p>
+
+            <p>64.2 magna pars] pars magna <hi rend="bold">U<hi rend="superscript">ac</hi></hi></p>
+
+            <p>64.2 infinitis] infinitimis <hi rend="bold">T</hi></p>
+
+            <p>64.2 rapinis confecta] confecta rapinis <hi rend="bold">U<hi rend="superscript"
+                     >ac</hi></hi></p>
+
+            <p>64.3 ut <hi rend="italic">om.</hi>
+               <hi rend="bold">S</hi></p>
+
+            <p>64.3 Hiberum] hibernum <hi rend="bold">M</hi></p>
+
+            <p>64.3 se contulisset] secum tulisset <hi rend="bold">M</hi></p>
+
+            <p>64.4 demersa] dimersa <hi rend="bold">V</hi></p>
+
+            <p>65.1 consuetudinemque] consuedinemque <hi rend="bold">V<hi rend="superscript"
+                  >ac</hi></hi></p>
+
+            <p>65.1 uenisset] ueniret <hi rend="bold">M</hi></p>
+
+            <p>65.1 praeferendum] praefendum <hi rend="bold">U<hi rend="superscript"
+               >ac</hi></hi></p>
+
+            <p>65.1 existimauit] existimabat <hi rend="bold">S</hi></p>
+
+            <p>65.1 metum] metu <hi rend="bold">T</hi></p>
+
+            <p>65.2 plus <hi rend="italic">om.</hi>
+               <hi rend="bold">T</hi></p>
+
+            <p>65.2 uidebat sibi] sibi uidebat <hi rend="bold">M</hi></p>
+
+            <p>65.3 non] nam <hi rend="bold">U</hi></p>
+
+            <p>65.4 Commoratus] commoratur <hi rend="bold">S</hi></p>
+
+            <p>65.4 maiore] maiores <hi rend="bold">S</hi></p>
+
+            <p>65.4 dynastas] dinastas <hi rend="bold">U<hi rend="superscript">c</hi></hi> (<hi
+                  rend="italic">ut uidetur</hi>) <hi rend="italic">in margine</hi></p>
+
+            <p>65.4 in] in \| in <hi rend="bold">M</hi></p>
+
+            <p>66.1 magnisque] magnique <hi rend="bold">V<hi rend="superscript">ac</hi></hi></p>
+
+            <p>66.2 fere] est fere <hi rend="bold">T</hi></p>
+
+            <p>66.3 eius <hi rend="italic">om.</hi>
+               <hi rend="bold">V</hi></p>
+
+            <p>66.4 homini] homine <hi rend="bold">S<hi rend="superscript">ac</hi></hi></p>
+
+            <p>66.4 ortus] ortis <hi rend="bold">S</hi></p>
+
+            <p>66.5 Ariarathi] amarathi <hi rend="bold">S</hi></p>
+
+            <p>67.1 Pontum] pontem <hi rend="bold">T<hi rend="superscript">ac</hi></hi></p>
+
+            <p>67.1 quod ei] quo din <hi rend="bold">S</hi>
+               <hi rend="italic">per compendia</hi></p>
+
+            <p>67.1 legibus neque moribus] moribus neque legibus <hi rend="bold">M<hi
+                     rend="superscript">ac</hi></hi></p>
+
+            <p>67.1 esse] esset <hi rend="bold">S</hi></p>
+
+            <p>67.1 ab] a <hi rend="bold">U<hi rend="superscript">ac</hi></hi></p>
+
+            <p>67.1 parte <hi rend="italic">om.</hi>
+               <hi rend="bold">V</hi></p>
+
+            <p>67.1 in<hi rend="superscript">2</hi>
+               <hi rend="italic">om.</hi>
+               <hi rend="bold">U<hi rend="superscript">ac</hi></hi></p>
+
+            <p>67.1 castris] crasstris <hi rend="bold">S<hi rend="superscript">ac</hi></hi>:
+               crastris <hi rend="bold">S<hi rend="superscript">c</hi></hi></p>
+
+            <p>67.2 populi Romani <hi rend="italic">per compendia</hi>
+               <hi rend="italic">om</hi>. <hi rend="bold">M</hi></p>
+
+            <p>67.2 sed <hi rend="italic">om.</hi>
+               <hi rend="bold">V<hi rend="superscript">ac</hi></hi></p>
+
+            <p>68.1 esset<hi rend="superscript">1</hi>] etsset <hi rend="bold">T<hi
+                     rend="superscript">ac</hi></hi></p>
+
+            <p>68.1 post <hi rend="italic">om.</hi>
+               <hi rend="bold">S</hi></p>
+
+            <p>68.1 C.] quintum <hi rend="bold">V</hi></p>
+
+            <p>68.1 se<hi rend="superscript">1</hi>
+               <hi rend="italic">om.</hi>
+               <hi rend="bold">S</hi></p>
+
+            <p>68.1 tetrarcharum] tetharcarum <hi rend="bold">S</hi></p>
+
+            <p>68.1 esse <hi rend="italic">om.</hi>
+               <hi rend="bold">V</hi></p>
+
+            <p>68.2 ex] e <hi rend="bold">S<hi rend="superscript">ac</hi></hi></p>
+
+            <p>68.2 Deiotarus] deiotarius <hi rend="bold">T</hi></p>
+
+            <p>68.2 constitutam] constitutum <hi rend="bold">S</hi></p>
+
+            <p>69.1 legione] legionem <hi rend="bold">V</hi></p>
+
+            <p>69.1 Alexandria] alexandriam <hi rend="bold">V</hi></p>
+
+            <p>69.1 laboribus] laboris <hi rend="bold">S<hi rend="superscript">ac</hi></hi></p>
+
+            <p>69.2 eius aduentus] aduentus eius <hi rend="bold">V</hi></p>
+
+            <p>69.2 uoluisse] uoluisset <hi rend="bold">T</hi></p>
+
+            <p>69.3 Pompeio] pompei <hi rend="bold">V</hi></p>
+
+            <p>70.1 esset <hi rend="italic">om.</hi>
+               <hi rend="bold">S</hi></p>
+
+            <p>70.2 monuit] monebat <hi rend="bold">M</hi></p>
+
+            <p>70.3 quam <hi rend="italic">om.</hi>
+               <hi rend="bold">S</hi></p>
+
+            <p>70.4 commemorarent] commemorassent <hi rend="bold">S</hi></p>
+
+            <p>70.5 magnas et graues iniurias] magnas iniurias et graues iniurias <hi rend="bold"
+                  >S</hi></p>
+
+            <p>70.5 in integrum <hi rend="italic">om.</hi>
+               <hi rend="bold">S<hi rend="superscript">ac</hi></hi></p>
+
+            <p>70.5 non <hi rend="italic">om</hi>. <hi rend="bold">V<hi rend="superscript"
+                  >ac</hi></hi></p>
+
+            <p>70.6 exsectis] etectis <hi rend="bold">S</hi></p>
+
+            <p>70.6 uirilitatem] uirilitate <hi rend="bold">U</hi></p>
+
+            <p>70.6 posse] non posse <hi rend="bold">U<hi rend="superscript">c</hi></hi> : non
+               posset <hi rend="bold">U<hi rend="superscript">ac</hi></hi></p>
+
+            <p>70.7 ciuibusque] ciuibus <hi rend="bold">V</hi></p>
+
+            <p>70.8 tunc sibi mitteret] nunc mitteret sibi <hi rend="bold">V</hi></p>
+
+            <p>70.8 consuessent] consuescent <hi rend="bold">S</hi></p>
+
+            <p>71.1 at] ac <hi rend="bold">S</hi></p>
+
+            <p>71.1 liberaliter omnia] omnia legaliter <hi rend="bold">S</hi></p>
+
+            <p>71.1 enim <hi rend="italic">om</hi>. <hi rend="bold">V</hi></p>
+
+            <p>71.1 causis] rebus <hi rend="bold">V</hi></p>
+
+            <p>71.1 decedendi] decendi <hi rend="bold">V</hi></p>
+
+            <p>72.1 uelut(i)] sicuti <hi rend="bold">V</hi></p>
+
+            <p>72.2 uallibus colles] colles uallibus <hi rend="bold">M<hi rend="superscript"
+                  >ac</hi></hi></p>
+
+            <p>72.2 unus <hi rend="italic">om.</hi>
+               <hi rend="bold">S</hi></p>
+
+            <p>72.2 Triari] traiari <hi rend="bold">V</hi></p>
+
+            <p>72.2 oppido] oppida <hi rend="bold">U<hi rend="superscript">ac</hi></hi></p>
+
+            <p>72.2 ab <hi rend="italic">om</hi>. <hi rend="bold">V</hi></p>
+
+            <p>73.1 castra<hi rend="superscript">3</hi>] causa <hi rend="bold">S</hi></p>
+
+            <p>73.1 hostes priores] priores hostes <hi rend="bold">V</hi></p>
+
+            <p>73.2 omnibus] ominibus <hi rend="bold">S</hi></p>
+
+            <p>73.2 eum] cum <hi rend="bold">S</hi></p>
+
+            <p>73.3 discederet] cessaret <hi rend="bold">M</hi> : discederet <hi rend="bold">M</hi>
+               <hi rend="italic">supra lineam</hi></p>
+
+            <p>73.3 diuideret] uideret <hi rend="bold">S</hi></p>
+
+            <p>74.1 tenerentur] tenerentur id fieri credebat <hi rend="bold">U</hi></p>
+
+            <p>74.2 opus <hi rend="italic">om</hi>. <hi rend="bold">V</hi></p>
+
+            <p>74.3 illam] illorum <hi rend="bold">S</hi></p>
+
+            <p>74.3 XXII] XXXII <hi rend="bold">V</hi></p>
+
+            <p>74.4 inanem <hi rend="italic">om</hi>. <hi rend="bold">S</hi></p>
+
+            <p>74.4 subiturus esset] esset subiturus <hi rend="bold">V</hi></p>
+
+            <p>74.4 descenderat] descederat <hi rend="bold">S</hi></p>
+
+            <p>74.4 descenderat uallem] uallem descenderat <hi rend="bold">U<hi rend="superscript"
+                     >ac</hi></hi></p>
+
+            <p>75.1 imparatusque] imperatusque <hi rend="bold">U</hi>
+               <hi rend="italic">per compendium</hi></p>
+         </div>
+         <!-- End of apparatus critica -->
+      </back>
+   </text>
+</TEI>

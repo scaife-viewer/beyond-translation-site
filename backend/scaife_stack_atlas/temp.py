@@ -681,3 +681,121 @@ def stub_scholia_roi_text_annotations(reset=True):
     msg = f"Bulk creating {relation_label}"
     logger.info(msg)
     chunked_bulk_create(ImageROIThroughTextAnnotationsModel, prepared_objs)
+
+
+def ingest_balex_extras(reset=True):
+    # TODO: Update scaife-viewer-atlas package to support this use case;
+    # we should resolve the XML from within a hint provided by metadata.json
+    editions = [
+        (
+            "first-sibling",
+            {
+                "urn": "urn:cts:latinLit:phi0428.phi001.dll-conspectus-editionum-eng1:",
+                "node_kind": "version",
+                "version_kind": "commentary",
+                "lang": "eng",
+                "first_passage_urn": "urn:cts:latinLit:phi0428.phi001.dll-conspectus-editionum-eng1:all",
+                "citation_scheme": ["content"],
+                "label": [{"lang": "eng", "value": "Conspectus Editionum"}],
+                "description": [{"lang": "eng", "value": "Cynthia Damon, et al."}],
+            },
+        ),
+        (
+            "first-sibling",
+            {
+                "urn": "urn:cts:latinLit:phi0428.phi001.dll-bibliography-eng1:",
+                "node_kind": "version",
+                "version_kind": "commentary",
+                "lang": "eng",
+                "first_passage_urn": "urn:cts:latinLit:phi0428.phi001.dll-bibliography-eng1:all",
+                "citation_scheme": ["content"],
+                "label": [{"lang": "eng", "value": "Bibliography"}],
+                "description": [{"lang": "eng", "value": "Cynthia Damon, et al."}],
+            },
+        ),
+        (
+            "first-sibling",
+            {
+                "urn": "urn:cts:latinLit:phi0428.phi001.dll-preface-eng1:",
+                "node_kind": "version",
+                "version_kind": "commentary",
+                "lang": "eng",
+                "first_passage_urn": "urn:cts:latinLit:phi0428.phi001.dll-preface-eng1:all",
+                "citation_scheme": ["content"],
+                "label": [{"lang": "eng", "value": "Preface"}],
+                "description": [{"lang": "eng", "value": "Cynthia Damon, et al."}],
+            },
+        ),
+        (
+            "last-sibling",
+            {
+                "urn": "urn:cts:latinLit:phi0428.phi001.dll-appendix-critica-eng1:",
+                "node_kind": "version",
+                "version_kind": "commentary",
+                "lang": "eng",
+                "first_passage_urn": "urn:cts:latinLit:phi0428.phi001.dll-appendix-critica-eng1:all",
+                "citation_scheme": ["content"],
+                "label": [{"lang": "eng", "value": "Appendix critica"}],
+                "description": [{"lang": "eng", "value": "Cynthia Damon, et al."}],
+            },
+        ),
+        (
+            "last-sibling",
+            {
+                "urn": "urn:cts:latinLit:phi0428.phi001.dll-commentary-eng1:",
+                "node_kind": "version",
+                "version_kind": "commentary",
+                "lang": "eng",
+                "first_passage_urn": "urn:cts:latinLit:phi0428.phi001.dll-commentary-eng1:all",
+                "citation_scheme": ["content"],
+                "label": [{"lang": "eng", "value": "Studies on the Text"}],
+                "description": [{"lang": "eng", "value": "Cynthia Damon, et al."}],
+            },
+        ),
+    ]
+    work_urn = URN("urn:cts:latinLit:phi0428.phi001:")
+    work_node = Node.objects.get(urn=work_urn)
+    version = (
+        work_node.get_children()
+        .filter(urn="urn:cts:latinLit:phi0428.phi001.dll-ed-lat1:")
+        .first()
+    )
+    created = []
+    # FIXME
+    idx = 0
+    for (position, edition) in editions:
+        edition_urn = URN(edition["urn"])
+        edition_kwargs = {
+            "idx": idx,
+            "kind": edition["node_kind"],
+            "urn": edition["urn"],
+            "metadata": {
+                "citation_scheme": edition["citation_scheme"],
+                "fallback_display_mode": True,
+                "label": edition["label"][0]["value"],
+                "lang": edition["lang"],
+                "first_passage_urn": edition["first_passage_urn"],
+                "description": edition["description"][0]["value"],
+                "kind": edition["version_kind"],
+            },
+        }
+        edition_node = version.add_sibling(position, **edition_kwargs)
+        created.append(edition_node)
+        # TODO: something in editions that keys up xml content
+        xml_path = Path(
+            f"data/library/phi0428/phi001/phi0428.phi001.{edition_urn.parsed['version']}.xml"
+        )
+        # TODO: Vendor assets within library?
+        css_path = Path("data/raw/balex/balex-styles.scss")
+        content = xml_path.read_text()
+        textpart_kwargs = dict(
+            kind="content",
+            urn=f"{edition['urn']}all",
+            ref="all",
+            rank=1,
+            # @@@ idx vs path for ranged queries; could derive IDX
+            # from path as well
+            idx=0,
+            metadata=dict(content=content, css=css_path.read_text()),
+        )
+        edition_node.add_child(**textpart_kwargs)
