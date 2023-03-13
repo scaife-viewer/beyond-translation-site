@@ -24,6 +24,7 @@
   import PassageAncestorsWidget from '@scaife-viewer/widget-passage-ancestors';
   import PassageSiblingsWidget from '@scaife-viewer/widget-passage-siblings';
   import PassageChildrenWidget from '@scaife-viewer/widget-passage-children';
+  import TOCWidget from '@scaife-viewer/widget-toc';
   import LibraryWidget from '@scaife-viewer/widget-library';
   import NamedEntitiesWidget from '@scaife-viewer/widget-named-entities';
   // eslint-disable-next-line max-len
@@ -70,7 +71,7 @@
           PassageAncestorsWidget,
           PassageSiblingsWidget,
           PassageChildrenWidget,
-          // TOCWidget,
+          TOCWidget,
         ];
       },
       rightWidgets() {

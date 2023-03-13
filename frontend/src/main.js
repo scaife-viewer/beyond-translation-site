@@ -59,6 +59,9 @@ Vue.use(SkeletonPlugin, {
     ...imageModeReaderIconMap,
   },
   config: {
+    endpoints: {
+      tocEndpoint: process.env.VUE_APP_TOC_ENDPOINT || '',
+    },
     entityMap: {
       accessToken:
         // eslint-disable-next-line max-len
