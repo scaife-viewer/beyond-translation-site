@@ -1687,9 +1687,9 @@
   dependencies:
     "@scaife-viewer/store" "^0.0.10"
 
-"@scaife-viewer/widget-toc@https://gitpkg.vercel.app/scaife-viewer/frontend/packages/widget-toc?4af01a5dd0372bdce3608bd24264fb3ff5d197d8":
+"@scaife-viewer/widget-toc@https://gitpkg.vercel.app/scaife-viewer/frontend/packages/widget-toc?6cd1a75c06a14f373b55aee292251002ccd0028b":
   version "0.5.0-beta.1"
-  resolved "https://gitpkg.vercel.app/scaife-viewer/frontend/packages/widget-toc?4af01a5dd0372bdce3608bd24264fb3ff5d197d8#54190e6e1fdb9bdd32bb4edf91d417042d2d562a"
+  resolved "https://gitpkg.vercel.app/scaife-viewer/frontend/packages/widget-toc?6cd1a75c06a14f373b55aee292251002ccd0028b#171839ce7d0ee25f87aa7c4fbc9d6e0758de1575"
   dependencies:
     "@scaife-viewer/common" "^0.4.0"
     "@scaife-viewer/store" "^0.5.0-beta.1"
