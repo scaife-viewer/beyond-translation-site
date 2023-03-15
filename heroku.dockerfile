@@ -10,7 +10,7 @@ COPY ./frontend/package.json ./frontend/yarn.lock ./
 RUN yarn install
 
 COPY ./frontend .
-ENV VUE_APP_ABOUT_URL="https://pdldatajournal.pubpub.org/pub/el65xygp"
+ENV VUE_APP_ABOUT_URL="https://pdldatajournal.pubpub.org/new-features-in-beyond-translation"
 RUN yarn build
 
 # # # # # # # # # # # # # # # # # # # # # # # #
