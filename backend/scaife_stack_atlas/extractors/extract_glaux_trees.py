@@ -15,6 +15,12 @@ django.setup()
 from scaife_viewer.atlas.urn import URN  # noqa
 
 
+GLAUX_DATA_ROOT = Path(
+    os.environ.get(
+        "GLAUX_DATA_ROOT",
+        "/Users/jwegner/Data/development/repos/gregorycrane/glaux-trees/public/xml",
+    )
+)
 SV_ATLAS_GQL_ENDPOINT = "https://scaife.perseus.org/atlas/graphql/"
 
 
@@ -49,7 +55,7 @@ def transform_headwords(words):
         if word["head_id"] not in inbounds:
             # NOTE: This is likely from a sentence id that has been split
             # into sub-sentences; if the `head_id` is not in the split sentence,
-            # we interpret this as being the "new" oort
+            # we interpret this as being the "new" root
             word["original_head_id"] = word["head_id"]
             word["head_id"] = 0
     return words
@@ -167,7 +173,7 @@ def extract_trees(input_path, versions_lu):
         if subdoc:
             citation = f"{subdoc} ({sentence_id})"
         else:
-            print(sentence_id)
+            print(f"No subdoc found: {input_path.stem}::{sentence_id}")
             citation = None
         sentence_obj["citation"] = citation
         to_create.append(sentence_obj)
@@ -182,8 +188,10 @@ def process_directory(input_dir):
     problems = []
     versions_lu = get_atlas_versions()
     try:
-        paths = input_dir.glob("*.xml")
-        paths = [Path('data/raw/glaux-trees/0012-001.xml')]
+        # NOTE: Uncomment line below to restore
+        # parsing of entire directory
+        # paths = input_dir.glob("*.xml")
+        paths = [Path(GLAUX_DATA_ROOT / "0032-005.xml")]
         for input_path in paths:
             try:
                 version_urn, trees = extract_trees(input_path, versions_lu)
@@ -200,11 +208,17 @@ def process_directory(input_dir):
             wp = version_urn.parsed["work"]
             vp = version_urn.parsed["version"]
 
-            # TODO: Combine trees from the same version; we append idx for now.
-            annotation_basename = f"{prefix}_{str(idx).zfill(3)}_{tgp}.{wp}.{vp}.json"
+            # NOTE: This was only required for vgorman trees
+            # # TODO: Combine trees from the same version; we append idx for now.
+            # annotation_basename = f"{prefix}_{str(idx).zfill(3)}_{tgp}.{wp}.{vp}.json"
+
+            annotation_basename = f"{prefix}_{tgp}.{wp}.{vp}.json"
             output_path = Path(output_dir, annotation_basename)
             json.dump(
-                trees, output_path.open("w"), ensure_ascii=False, indent=2,
+                trees,
+                output_path.open("w"),
+                ensure_ascii=False,
+                indent=2,
             )
             idx += 1
     except Exception as excep:
@@ -216,7 +230,7 @@ def process_directory(input_dir):
 
 
 def main():
-    input_dir = Path("data/raw/glaux-trees")
+    input_dir = GLAUX_DATA_ROOT
     process_directory(input_dir)
 
 

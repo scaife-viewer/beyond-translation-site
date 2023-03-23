@@ -227,7 +227,7 @@ def write_glaux_annotations(lookups, version_urn, tokens):
 
                 tag = data["tag"]
                 if tag:
-                    # FIXME:
+                    # FIXME: Check with Toon about b?
                     if tag == "b--------":
                         part_of_speech = ""
                         parse = "INDECL"
