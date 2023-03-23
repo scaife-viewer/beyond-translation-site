@@ -5,4 +5,6 @@ metadata:
   - name:  Toon Van Hal et al.
     role: Annotator
 # TODO: refactor to bind to multiple files
-values: tlg0032.tlg006.perseus-grc2.csv
+values:
+- tlg0032.tlg005.perseus-grc2.csv
+- tlg0032.tlg006.perseus-grc2.csv
