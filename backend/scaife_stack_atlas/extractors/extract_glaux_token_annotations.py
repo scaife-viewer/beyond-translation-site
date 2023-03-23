@@ -248,7 +248,10 @@ def get_lookups(version_urn):
 
 
 def main():
-    version_urns = ["urn:cts:greekLit:tlg0032.tlg006.perseus-grc2:"]
+    version_urns = [
+        "urn:cts:greekLit:tlg0032.tlg005.perseus-grc2:",
+        "urn:cts:greekLit:tlg0032.tlg006.perseus-grc2:"
+    ]
     for urn_ in version_urns:
         version_urn = URN(urn_)
         tokens = Token.objects.filter(text_part__urn__startswith=version_urn)
