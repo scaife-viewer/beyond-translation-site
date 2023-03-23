@@ -211,7 +211,7 @@ SV_ATLAS_INGESTION_PIPELINE = [
     "scaife_stack_atlas.temp.import_grammatical_entries",
     # TODO: Restore after deployment
     # "scaife_stack_atlas.temp.stub_scholia_roi_text_annotations",
-    "scaife_stack_atlas.temp.add_anabasis_glosses_to_trees",
+    "scaife_stack_atlas.temp.add_glaux_glosses_to_trees",
     "scaife_stack_atlas.temp.ingest_balex_extras",
 ]
 DB_DATA_PATH = os.environ.get("DB_DATA_PATH", PROJECT_ROOT)

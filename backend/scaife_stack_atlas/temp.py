@@ -421,17 +421,17 @@ def add_glosses_to_trees(reset=None):
     TextAnnotation.objects.bulk_update(to_update, fields=["data"], batch_size=500)
 
 
-# FIXME: Refactor with add_glosses_to_trees
-def add_anabasis_glosses_to_trees(reset=None, debug=False):
-    # NOTE: Reset is a no-op
-    token_annotation_collection_urn = "urn:cite2:beyond-tranlsation:token_annotation_collection.atlas_v1:glaux"
-    text_annotation_collection_urn = "urn:cite2:beyond-translation:text_annotation_collection.atlas_v1:glaux_trees"
-    version_urn = "urn:cts:greekLit:tlg0032.tlg006.perseus-grc2:"
+def _update_trees_with_glosses(text_annotation_collection_urn, version_urn, debug):
+    # TODO: Scope to token annotation collection
     version = Node.objects.get(urn=version_urn)
     text_parts = get_lowest_citable_nodes(version)
-    collection = TextAnnotationCollection.objects.get(urn=text_annotation_collection_urn)
+    collection = TextAnnotationCollection.objects.get(
+        urn=text_annotation_collection_urn
+    )
     # TODO: Why is this subselect so slow?
-    trees = collection.annotations.filter(text_parts__in=text_parts.values_list("id", flat=True))
+    trees = collection.annotations.filter(
+        text_parts__in=text_parts.values_list("id", flat=True)
+    )
 
     to_update = []
     for tree in trees:
@@ -474,6 +474,20 @@ def add_anabasis_glosses_to_trees(reset=None, debug=False):
         to_update.append(tree)
 
     TextAnnotation.objects.bulk_update(to_update, fields=["data"], batch_size=500)
+
+
+# FIXME: Refactor with add_glosses_to_trees
+def add_glaux_glosses_to_trees(reset=None, debug=False):
+    # NOTE: Reset is a no-op
+    text_annotation_collection_urn = (
+        "urn:cite2:beyond-translation:text_annotation_collection.atlas_v1:glaux_trees"
+    )
+    version_urns = [
+        "urn:cts:greekLit:tlg0032.tlg005.perseus-grc2:",
+        "urn:cts:greekLit:tlg0032.tlg006.perseus-grc2:",
+    ]
+    for version_urn in version_urns:
+        _update_trees_with_glosses(text_annotation_collection_urn, version_urn, debug)
 
 
 def import_grammatical_entries(reset=None):
