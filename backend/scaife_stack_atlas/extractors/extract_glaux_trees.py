@@ -4,13 +4,43 @@ from pathlib import Path
 
 import django
 
+import requests
 from lxml import etree
+
 
 # TODO: refactor this as an actual Django management command
 os.environ.setdefault("DJANGO_SETTINGS_MODULE", "scaife_stack_atlas.settings")
 django.setup()
 
 from scaife_viewer.atlas.urn import URN  # noqa
+
+
+SV_ATLAS_GQL_ENDPOINT = "https://scaife.perseus.org/atlas/graphql/"
+
+
+class NoVersionFound(Exception):
+    pass
+
+
+def get_atlas_versions():
+    gql_query = """
+    {
+    versions {
+        edges {
+        node {
+            label
+            urn
+            lang
+        }
+        }
+    }
+    }
+    """
+    resp = requests.post(SV_ATLAS_GQL_ENDPOINT, data={"query": gql_query})
+    if resp.ok:
+        edges = resp.json()["data"]["versions"]["edges"]
+        nodes = [e["node"] for e in edges]
+        return nodes
 
 
 def transform_headwords(words):
@@ -25,24 +55,6 @@ def transform_headwords(words):
     return words
 
 
-def extract_version(sentence):
-    value = sentence.attrib["document_id"]
-    if value.startswith("urn"):
-        urn = value
-    elif value.startswith("http://perseids.org/annotsrc/"):
-        urn = value.split("http://perseids.org/annotsrc/")[1]
-    elif value.startswith("0012-001"):
-        # map this to a version URN, likely through a map file
-        # not sure if this should be the glaux or other refs;
-        # revisit for Gorman data
-        urn = "urn:cts:greekLit:tlg0012.tlg001.glaux-grc"
-    else:
-        assert False
-        print(value)
-        return None
-    return f"{urn}:"
-
-
 def extract_language(root):
     treebank = root.xpath("//treebank")[0]
     return treebank.attrib["{http://www.w3.org/XML/1998/namespace}lang"]
@@ -55,16 +67,27 @@ def build_base_urn(version_urn):
     return f"urn:cite2:beyond-translation:syntaxTree.atlas_v1:{collection}-{tgp}-{wp}"
 
 
-def extract_trees(input_path):
+def fetch_version(input_path, versions_lu):
+    stem = input_path.stem
+    tg, work = stem.split("-")
+    work_part = f"tlg{tg}.tlg{work}"
+    candidates = filter(lambda x: x["urn"].count(work_part), versions_lu)
+    grc_candidate = next(iter(filter(lambda x: x["lang"] == "grc", candidates)), None)
+    if not grc_candidate:
+        raise NoVersionFound(input_path)
+    return grc_candidate
+
+
+def extract_trees(input_path, versions_lu):
     with input_path.open() as f:
         tree = etree.parse(f)
 
     lang = extract_language(tree)
-    version = extract_version(tree.xpath("//sentence")[0])
+    version = fetch_version(input_path, versions_lu)
     if not version:
         return None, None
 
-    version_urn = URN(version)
+    version_urn = URN(version["urn"])
 
     # NOTE: We may want to revisit how this is extracted between gAGDT
     # and Gorman trees
@@ -157,11 +180,17 @@ def process_directory(input_dir):
     idx = 1
     # TODO: Resolve problems or improve logging
     problems = []
+    versions_lu = get_atlas_versions()
     try:
         paths = input_dir.glob("*.xml")
         paths = [Path('data/raw/glaux-trees/0012-001.xml')]
         for input_path in paths:
-            version_urn, trees = extract_trees(input_path)
+            try:
+                version_urn, trees = extract_trees(input_path, versions_lu)
+            except NoVersionFound:
+                print(f"No version found: {input_path.stem}")
+                version_urn = trees = None
+
             if not version_urn and not trees:
                 print(f"Could not extract data from {input_path.name}")
                 problems.append(input_path.name)
