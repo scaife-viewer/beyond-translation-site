@@ -15,6 +15,8 @@ from scaife_viewer.atlas.models import (
     AttributionRecord,
     GrammaticalEntry,
     GrammaticalEntryCollection,
+    ImageAnnotation,
+    ImageROI,
     Node,
     TextAlignment,
     TextAlignmentRecord,
@@ -26,6 +28,7 @@ from scaife_viewer.atlas.models import (
 )
 from scaife_viewer.atlas.urn import URN
 from scaife_viewer.atlas.utils import (
+    chunked_bulk_create,
     get_lowest_citable_nodes,
     get_textparts_from_passage_reference,
 )
@@ -418,6 +421,61 @@ def add_glosses_to_trees(reset=None):
     TextAnnotation.objects.bulk_update(to_update, fields=["data"], batch_size=500)
 
 
+# FIXME: Refactor with add_glosses_to_trees
+def add_anabasis_glosses_to_trees(reset=None, debug=False):
+    # NOTE: Reset is a no-op
+    token_annotation_collection_urn = "urn:cite2:beyond-tranlsation:token_annotation_collection.atlas_v1:glaux"
+    text_annotation_collection_urn = "urn:cite2:beyond-translation:text_annotation_collection.atlas_v1:glaux_trees"
+    version_urn = "urn:cts:greekLit:tlg0032.tlg006.perseus-grc2:"
+    version = Node.objects.get(urn=version_urn)
+    text_parts = get_lowest_citable_nodes(version)
+    collection = TextAnnotationCollection.objects.get(urn=text_annotation_collection_urn)
+    # TODO: Why is this subselect so slow?
+    trees = collection.annotations.filter(text_parts__in=text_parts.values_list("id", flat=True))
+
+    to_update = []
+    for tree in trees:
+        annotations = list(
+            TokenAnnotation.objects.filter(token__text_part__in=tree.text_parts.all())
+        )
+        words = tree.data["words"]
+        for word in words:
+            annotation = next(
+                iter(filter(lambda x: x.data["lemma"] == word["lemma"], annotations)),
+                None,
+            )
+            if not annotation:
+                annotation = next(
+                    iter(
+                        filter(
+                            lambda x: x.data["word_value"] == word["value"], annotations
+                        )
+                    ),
+                    None,
+                )
+                if not annotation:
+                    if word.get("tag") == "u--------":
+                        pass
+                    elif word.get("value") in ["[0]", "[1]"]:
+                        pass
+                    elif word.get("ref"):
+                        if debug:
+                            print(f'{word["ref"]}@{word["value"]}')
+                    else:
+                        if debug:
+                            print(f'{word["value"]}')
+                    # ~40 words unmapped with this naive pass
+            data = annotation.data if annotation else {}
+            word.update(
+                {
+                    "glossEng": data.get("gloss (eng)", ""),
+                }
+            )
+        to_update.append(tree)
+
+    TextAnnotation.objects.bulk_update(to_update, fields=["data"], batch_size=500)
+
+
 def import_grammatical_entries(reset=None):
     # FIXME: Add upstream on scaife-viewer/backend/atlas
     if reset:
@@ -482,3 +540,262 @@ def import_grammatical_entries(reset=None):
 
     for entry, tokens_qs in to_update:
         entry.tokens.set(tokens_qs)
+
+
+def stub_scholia_roi_to_token(reset=True):
+    token = Token.objects.get(
+        text_part__urn="urn:cts:greekLit:tlg0012.tlg001.msA-folios:12r.1.1", position=1
+    )
+    if reset:
+        token.roi.all().delete()
+
+    image_annotation = ImageAnnotation.objects.get(
+        urn="urn:cite2:hmt:vaimg.2017a:VA012RN_0013"
+    )
+    roi = image_annotation.roi.filter(
+        **{"data__urn:cite2:hmt:va_dse.v1.urn:": "urn:cite2:hmt:va_dse.v1:schol1"}
+    ).first()
+    if roi is None:
+        roi = ImageROI(
+            image_annotation=image_annotation,
+            **{
+                "data": {
+                    "urn:cite2:hmt:va_dse.v1.urn:": "urn:cite2:hmt:va_dse.v1:schol1",
+                    "urn:cite2:hmt:va_dse.v1.label:": "DSE record for scholion msA 1.2",
+                    "urn:cite2:hmt:va_dse.v1.passage:": "urn:cts:greekLit:tlg5026.msA.hmt:1.2",
+                    "urn:cite2:hmt:va_dse.v1.surface:": "urn:cite2:hmt:msA.v1:12r",
+                    "urn:cite2:hmt:va_dse.v1.imageroi:": "urn:cite2:hmt:vaimg.2017a:VA012RN_0013@0.16265750,0.17631881,0.62733868,0.02494266",
+                },
+                "image_identifier": "https://image.library.jhu.edu/iiif/homer%2FVA%2FVA012RN-0013/",
+                "coordinates_value": "0.16265750,0.17631881,0.62733868,0.02494266",
+            },
+        )
+        roi.save()
+        roi.text_parts.set([token.text_part])
+
+    text_annotation = TextAnnotation.objects.filter(
+        urn="urn:cts:greekLit:tlg5026.msA.hmt:1.2",
+        data__references=["urn:cts:greekLit:tlg0012.tlg001.msA-folios:12r.1.1"],
+    ).first()
+    roi.text_annotations.set([text_annotation])
+    roi.tokens.set([token])
+
+
+# TODO: Consider this a candidate for upstream refactoring
+def _bulk_prepare_through_models(through_model, qs, lookup, from_field, to_field):
+    logger.info("Preparing through objects for insert")
+    to_create = []
+    for urn, from_id in qs.values_list("urn", "pk"):
+        to_ids = lookup[urn]
+        for to_id in to_ids:
+            to_create.append(through_model(**{from_field: from_id, to_field: to_id}))
+    return to_create
+
+
+# FIXME: Refactor this to an on-disk form
+def stub_scholia_roi_text_annotations(reset=True):
+    collection_urn = (
+        "urn:cite2:beyond-translation:text_annotation_collection.atlas_v1:hmt_scholia"
+    )
+    if reset:
+        TextAnnotation.objects.filter(collection__urn=collection_urn).update(
+            collection=None
+        )
+        TextAnnotationCollection.objects.filter(urn=collection_urn).delete()
+
+    # create a collection and bind the second set of TAs to it
+    version_urn = "urn:cts:greekLit:tlg0012.tlg001.msA-folios:"
+    version_obj = Node.objects.get(urn=version_urn)
+    tas = TextAnnotation.objects.filter(text_parts__in=version_obj.get_descendants())
+    collection = TextAnnotationCollection.objects.create(
+        label="Scholia from the Homer Multitext project",
+        data={
+            "source": {
+                "title": "homermultitext/hmt-archive",
+                "url": "https://github.com/homermultitext/hmt-archive",
+            }
+        },
+        urn=collection_urn,
+    )
+    tas.update(collection=collection)
+
+    image_annotations = ImageAnnotation.objects.filter(
+        text_parts__in=version_obj.get_descendants()
+    )
+    image_annotations_by_urn = {}
+    for ia in image_annotations:
+        image_annotations_by_urn[ia.urn] = ia
+
+    roi_to_create = []
+    thru_text_annotations_lu = {}
+    thru_text_parts_lu = {}
+    for ta in tas:
+        dse_data = ta.data["dse"]
+        image_annotation_urn, coordinates = dse_data["image_roi"].split("@")
+
+        try:
+            ia = image_annotations_by_urn[image_annotation_urn]
+        except KeyError:
+            ia = ImageAnnotation.objects.filter(text_parts=ta.text_parts.first()).get()
+            image_annotations_by_urn[image_annotation_urn] = ia
+            # https://image.library.jhu.edu/iiif/homer%2FVA%2FVA083RN-0255/info.json exists
+            # https://image.library.jhu.edu/iiif/homer%2FVA%2FVA083RN-0255/full/1500,1500/0/default.jpg
+            # https://image.library.jhu.edu/iiif/homer%2FVA%2FVA083RN-0084/full/1500,1500/0/default.jpg
+            # break
+            # print(image_annotation_urn)
+            # continue
+        image_identifier = ia.image_identifier
+        dse_urn = dse_data["urn"]
+        roi = ImageROI(
+            image_annotation=ia,
+            image_identifier=image_identifier,
+            coordinates_value=coordinates,
+            urn=dse_urn,
+        )
+
+        roi_to_create.append(roi)
+        thru_text_annotations_lu[dse_urn] = [ta.id]
+        thru_text_parts_lu[dse_urn] = ta.text_parts.all().values_list("id", flat=True)
+
+    ImageROI.objects.bulk_create(roi_to_create, batch_size=500)
+    qs = ImageROI.objects.filter(urn__in=thru_text_parts_lu.keys())
+
+    ImageROIThroughTextPartsModel = ImageROI.text_parts.through
+    prepared_objs = _bulk_prepare_through_models(
+        ImageROIThroughTextPartsModel, qs, thru_text_parts_lu, "imageroi_id", "node_id"
+    )
+    relation_label = ImageROIThroughTextPartsModel._meta.verbose_name_plural
+    msg = f"Bulk creating {relation_label}"
+    logger.info(msg)
+    chunked_bulk_create(ImageROIThroughTextPartsModel, prepared_objs)
+
+    ImageROIThroughTextAnnotationsModel = ImageROI.text_annotations.through
+    prepared_objs = _bulk_prepare_through_models(
+        ImageROIThroughTextAnnotationsModel,
+        qs,
+        thru_text_annotations_lu,
+        "imageroi_id",
+        "textannotation_id",
+    )
+    relation_label = ImageROIThroughTextAnnotationsModel._meta.verbose_name_plural
+    msg = f"Bulk creating {relation_label}"
+    logger.info(msg)
+    chunked_bulk_create(ImageROIThroughTextAnnotationsModel, prepared_objs)
+
+
+def ingest_balex_extras(reset=True):
+    # TODO: Update scaife-viewer-atlas package to support this use case;
+    # we should resolve the XML from within a hint provided by metadata.json
+    editions = [
+        (
+            "first-sibling",
+            {
+                "urn": "urn:cts:latinLit:phi0428.phi001.dll-conspectus-editionum-eng1:",
+                "node_kind": "version",
+                "version_kind": "commentary",
+                "lang": "eng",
+                "first_passage_urn": "urn:cts:latinLit:phi0428.phi001.dll-conspectus-editionum-eng1:all",
+                "citation_scheme": ["content"],
+                "label": [{"lang": "eng", "value": "Conspectus Editionum"}],
+                "description": [{"lang": "eng", "value": "Cynthia Damon, et al."}],
+            },
+        ),
+        (
+            "first-sibling",
+            {
+                "urn": "urn:cts:latinLit:phi0428.phi001.dll-bibliography-eng1:",
+                "node_kind": "version",
+                "version_kind": "commentary",
+                "lang": "eng",
+                "first_passage_urn": "urn:cts:latinLit:phi0428.phi001.dll-bibliography-eng1:all",
+                "citation_scheme": ["content"],
+                "label": [{"lang": "eng", "value": "Bibliography"}],
+                "description": [{"lang": "eng", "value": "Cynthia Damon, et al."}],
+            },
+        ),
+        (
+            "first-sibling",
+            {
+                "urn": "urn:cts:latinLit:phi0428.phi001.dll-preface-eng1:",
+                "node_kind": "version",
+                "version_kind": "commentary",
+                "lang": "eng",
+                "first_passage_urn": "urn:cts:latinLit:phi0428.phi001.dll-preface-eng1:all",
+                "citation_scheme": ["content"],
+                "label": [{"lang": "eng", "value": "Preface"}],
+                "description": [{"lang": "eng", "value": "Cynthia Damon, et al."}],
+            },
+        ),
+        (
+            "last-sibling",
+            {
+                "urn": "urn:cts:latinLit:phi0428.phi001.dll-appendix-critica-eng1:",
+                "node_kind": "version",
+                "version_kind": "commentary",
+                "lang": "eng",
+                "first_passage_urn": "urn:cts:latinLit:phi0428.phi001.dll-appendix-critica-eng1:all",
+                "citation_scheme": ["content"],
+                "label": [{"lang": "eng", "value": "Appendix critica"}],
+                "description": [{"lang": "eng", "value": "Cynthia Damon, et al."}],
+            },
+        ),
+        (
+            "last-sibling",
+            {
+                "urn": "urn:cts:latinLit:phi0428.phi001.dll-commentary-eng1:",
+                "node_kind": "version",
+                "version_kind": "commentary",
+                "lang": "eng",
+                "first_passage_urn": "urn:cts:latinLit:phi0428.phi001.dll-commentary-eng1:all",
+                "citation_scheme": ["content"],
+                "label": [{"lang": "eng", "value": "Studies on the Text"}],
+                "description": [{"lang": "eng", "value": "Cynthia Damon, et al."}],
+            },
+        ),
+    ]
+    work_urn = URN("urn:cts:latinLit:phi0428.phi001:")
+    work_node = Node.objects.get(urn=work_urn)
+    version = (
+        work_node.get_children()
+        .filter(urn="urn:cts:latinLit:phi0428.phi001.dll-ed-lat1:")
+        .first()
+    )
+    created = []
+    # FIXME
+    idx = 0
+    for (position, edition) in editions:
+        edition_urn = URN(edition["urn"])
+        edition_kwargs = {
+            "idx": idx,
+            "kind": edition["node_kind"],
+            "urn": edition["urn"],
+            "metadata": {
+                "citation_scheme": edition["citation_scheme"],
+                "fallback_display_mode": True,
+                "label": edition["label"][0]["value"],
+                "lang": edition["lang"],
+                "first_passage_urn": edition["first_passage_urn"],
+                "description": edition["description"][0]["value"],
+                "kind": edition["version_kind"],
+            },
+        }
+        edition_node = version.add_sibling(position, **edition_kwargs)
+        created.append(edition_node)
+        # TODO: something in editions that keys up xml content
+        xml_path = Path(
+            f"data/library/phi0428/phi001/phi0428.phi001.{edition_urn.parsed['version']}.xml"
+        )
+        # TODO: Vendor assets within library?
+        css_path = Path("data/raw/balex/balex-styles.scss")
+        content = xml_path.read_text()
+        textpart_kwargs = dict(
+            kind="content",
+            urn=f"{edition['urn']}all",
+            ref="all",
+            rank=1,
+            # @@@ idx vs path for ranged queries; could derive IDX
+            # from path as well
+            idx=0,
+            metadata=dict(content=content, css=css_path.read_text()),
+        )
+        edition_node.add_child(**textpart_kwargs)

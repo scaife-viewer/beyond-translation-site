@@ -3,13 +3,14 @@
 # # # # # # # # # # # # # # # # # # # # # # # #
 FROM node:12.19.0-alpine AS frontend-build
 
-RUN yarn global add @vue/cli
+RUN yarn global add @vue/cli@4.4.4
 
 WORKDIR /app
 COPY ./frontend/package.json ./frontend/yarn.lock ./
 RUN yarn install
 
 COPY ./frontend .
+ENV VUE_APP_ABOUT_URL="https://pdldatajournal.pubpub.org/new-features-in-beyond-translation"
 RUN yarn build
 
 # # # # # # # # # # # # # # # # # # # # # # # #
@@ -48,6 +49,7 @@ RUN python manage.py loaddata fixtures/sites.json
 
 # TODO: Revisit this if we tweak this multistage file
 # to handle code / data changes out of band
+# TODO: tocs not there; what to do?
 RUN rm -Rf data
 # TODO: Ensure $HEROKU_APP_NAME is applied via
 # an entrypoint script
@@ -70,6 +72,7 @@ ENV PYTHONUNBUFFERED=1 \
 COPY --from=frontend-build /app/dist /opt/scaife-stack/src/static
 # TODO: we may be able to tweak this COPY directive slightly
 COPY --from=backend-prep /opt/scaife-stack /opt/scaife-stack
+COPY ./backend/data/tocs /opt/scaife-stack/src/data/tocs
 
 RUN python manage.py collectstatic
 

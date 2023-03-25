@@ -1,0 +1,58 @@
+{
+  "urn": "urn:cts:latinLit:phi0428.phi001:",
+  "group_urn": "urn:cts:latinLit:phi0428:",
+  "node_kind": "work",
+  "lang": "lat",
+  "title": [
+    {
+      "lang": "eng",
+      "value": "De Bello Alexandrino"
+    }
+  ],
+  "versions": [
+    {
+      "urn": "urn:cts:latinLit:phi0428.phi001.dll-ed-lat1:",
+      "node_kind": "version",
+      "version_kind": "edition",
+      "lang": "lat",
+      "first_passage_urn": "urn:cts:latinLit:phi0428.phi001.dll-ed-lat1:1",
+      "citation_scheme": [
+        "paragraph", "segment"
+      ],
+      "label": [
+        {
+          "lang": "eng",
+          "value": "Bellum Alexandrinum"
+        }
+      ],
+      "description": [
+        {
+          "lang": "eng",
+          "value": "Cynthia Damon, et al."
+        }
+      ]
+    },
+    {
+      "urn": "urn:cts:latinLit:phi0428.phi001.dll-tr-eng1:",
+      "node_kind": "version",
+      "version_kind": "edition",
+      "lang": "lat",
+      "first_passage_urn": "urn:cts:latinLit:phi0428.phi001.dll-tr-eng1:1",
+      "citation_scheme": [
+        "paragraph", "segment"
+      ],
+      "label": [
+        {
+          "lang": "eng",
+          "value": "Bellum Alexandrinum, Translation"
+        }
+      ],
+      "description": [
+        {
+          "lang": "eng",
+          "value": "Cynthia Damon, et al."
+        }
+      ]
+    }
+  ]
+}

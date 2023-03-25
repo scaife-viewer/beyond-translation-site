@@ -13,10 +13,12 @@ import {
   DISPLAY_MODE_NAMED_ENTITIES,
   DISPLAY_MODE_SYNTAX_TREES,
   DISPLAY_MODE_DEFAULT,
+  DISPLAY_MODE_FALLBACK,
 } from '@scaife-viewer/store';
 import { SkeletonPlugin } from '@scaife-viewer/skeleton';
 
 import { DefaultModeReader } from '@scaife-viewer/widget-reader';
+import FallbackModeReader from '@scaife-viewer/reader-tei-fallback-mode';
 
 import AlignmentsModeReader from '@scaife-viewer/reader-alignments-mode';
 import ImageModeReader, {
@@ -59,6 +61,9 @@ Vue.use(SkeletonPlugin, {
     ...imageModeReaderIconMap,
   },
   config: {
+    endpoints: {
+      tocEndpoint: process.env.VUE_APP_TOC_ENDPOINT || '',
+    },
     entityMap: {
       accessToken:
         // eslint-disable-next-line max-len
@@ -74,6 +79,7 @@ Vue.use(SkeletonPlugin, {
     //   'urn:cite2:beyond-translation:text_annotation_collection.atlas_v1:hmt_scholia',
     readerComponents: {
       [DISPLAY_MODE_DEFAULT]: DefaultModeReader,
+      [DISPLAY_MODE_FALLBACK]: FallbackModeReader,
       [DISPLAY_MODE_INTERLINEAR]: InterlinearModeReader,
       [DISPLAY_MODE_FOLIO]: ImageModeReader,
       [DISPLAY_MODE_METRICAL]: MetricalModeReader,
@@ -84,6 +90,8 @@ Vue.use(SkeletonPlugin, {
       [DISPLAY_MODE_ALIGNMENTS]: AlignmentsModeReader,
       [DISPLAY_MODE_SYNTAX_TREES]: SyntaxTreesModeReader,
     },
+    commentaryWidgetLabel: 'Textual Notes',
+    commentariesDisplayModeLabel: 'Textual Notes',
     pageTitle: title => (title ? `${siteLabel} | ${title}` : `${siteLabel}`),
   },
 });
