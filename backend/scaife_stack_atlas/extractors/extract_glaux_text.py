@@ -1,23 +1,25 @@
-from collections import defaultdict
-import os
 import json
+import os
 import time
+from collections import defaultdict
 from pathlib import Path
 
-import requests
 import django
+
+import requests
+
+from scaife_viewer.atlas.urn import URN  # noqa
+
 
 # TODO: refactor this as an actual Django management command
 os.environ.setdefault("DJANGO_SETTINGS_MODULE", "scaife_stack_atlas.settings")
 django.setup()
 
-from scaife_viewer.atlas.urn import URN  # noqa
 
 SV_ATLAS_GQL_ENDPOINT = "https://scaife.perseus.org/atlas/graphql/"
 SV_ATLAS_THROTTLE_DURATION = 0.1
 EXEMPLAR_PART = "glaux-grc"
 COLLETION_NAME = "glaux"
-
 
 
 def extract_version_refs_and_lines(input_path):
@@ -149,7 +151,10 @@ def ensure_work_metadata(version_urn, w_path):
                             }
                         ],
                         "description": [
-                            {"lang": "eng", "value": "Extracted from {COLLECTION_NAME} trees"}
+                            {
+                                "lang": "eng",
+                                "value": "Extracted from {COLLECTION_NAME} trees",
+                            }
                         ],
                     }
                 ],

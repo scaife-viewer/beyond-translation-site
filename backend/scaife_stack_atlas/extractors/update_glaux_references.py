@@ -5,12 +5,12 @@ from pathlib import Path
 
 import django
 
+from scaife_viewer.atlas.urn import URN  # noqa
+
 
 # TODO: refactor this as an actual Django management command
 os.environ.setdefault("DJANGO_SETTINGS_MODULE", "scaife_stack_atlas.settings")
 django.setup()
-
-from scaife_viewer.atlas.urn import URN  # noqa
 
 
 EXEMPLAR_PART = "glaux-grc"
