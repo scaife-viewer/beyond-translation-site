@@ -1558,9 +1558,9 @@
     "@scaife-viewer/store" "^0.5.0-beta.1"
     graphql-tag "^2.12.6"
 
-"@scaife-viewer/widget-dictionary-entries@https://gitpkg.vercel.app/scaife-viewer/frontend/packages/widget-dictionary-entries?6f131375e52e91de78d9e20b7c3513dc0b3be726":
+"@scaife-viewer/widget-dictionary-entries@https://gitpkg.vercel.app/scaife-viewer/frontend/packages/widget-dictionary-entries?b61b772cea7d58a94aafa92e455cdd150399c9ad":
   version "0.5.0-beta.1"
-  resolved "https://gitpkg.vercel.app/scaife-viewer/frontend/packages/widget-dictionary-entries?6f131375e52e91de78d9e20b7c3513dc0b3be726#9c90285d10ca2db7c37c549940c174cde2fae478"
+  resolved "https://gitpkg.vercel.app/scaife-viewer/frontend/packages/widget-dictionary-entries?b61b772cea7d58a94aafa92e455cdd150399c9ad#f428558303e214c34f37b799c41a505ed4c8e11a"
   dependencies:
     "@fortawesome/free-solid-svg-icons" "^5.15.2"
     "@scaife-viewer/common" "^0.4.0"
