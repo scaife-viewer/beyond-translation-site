@@ -805,3 +805,23 @@ def ingest_balex_extras(reset=True):
             metadata=dict(content=content, css=css_path.read_text()),
         )
         edition_node.add_child(**textpart_kwargs)
+
+
+def update_balex_metadata(reset=True):
+    balex_work_obj = Node.objects.get(urn="urn:cts:latinLit:phi0428.phi001:")
+    to_update = []
+    for version in balex_work_obj.get_children():
+        version.metadata.update(
+            {
+                "editor": {
+                    "name": "Cynthia Damon, et al.",
+                    "url": "http://viaf.org/viaf/116523553",
+                },
+                "repository": {
+                    "name": "DigitalLatin/caesar-balex",
+                    "url": "https://github.com/DigitalLatin/caesar-balex",
+                },
+            }
+        )
+        to_update.append(version)
+    Node.objects.bulk_update(to_update, fields=["metadata"])
