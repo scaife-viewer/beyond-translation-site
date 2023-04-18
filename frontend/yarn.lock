@@ -1592,12 +1592,11 @@
     "@scaife-viewer/store" "^0.0.10"
     graphql-tag "^2.10.3"
 
-"@scaife-viewer/widget-metadata@^0.0.10":
-  version "0.0.10"
-  resolved "https://registry.yarnpkg.com/@scaife-viewer/widget-metadata/-/widget-metadata-0.0.10.tgz#f6ef6a9beb369dff7efa76b1676d9f14c0e1c9f4"
-  integrity sha512-7R4TaWJti35aeb571ugUaCl58AEJ8pDT0C75v/PrtPrNZnOZErZdnI3L8mlfCBm++jCRGnK6Zkio5ebTdA8KdA==
+"@scaife-viewer/widget-metadata@https://gitpkg.vercel.app/scaife-viewer/frontend/packages/widget-metadata?5bfe5d2e9b3cba2c7dbc49490abc6bcb0a48487a":
+  version "0.5.0-beta.1"
+  resolved "https://gitpkg.vercel.app/scaife-viewer/frontend/packages/widget-metadata?5bfe5d2e9b3cba2c7dbc49490abc6bcb0a48487a#3042a1cf7fe8128ed586cb1eaa46432838266340"
   dependencies:
-    "@scaife-viewer/store" "^0.0.10"
+    "@scaife-viewer/store" "^0.5.0-beta.1"
 
 "@scaife-viewer/widget-morphology@https://gitpkg.vercel.app/scaife-viewer/frontend/packages/widget-morphology?b4b377065e0428299c65bc2bc03b5caca7999332":
   version "0.5.0-beta.2"
