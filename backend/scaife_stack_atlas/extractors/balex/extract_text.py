@@ -1,7 +1,9 @@
 import re
-from pathlib import Path
 from collections import defaultdict
+from pathlib import Path
+
 from lxml import etree
+
 
 ns = {"TEI": "http://www.tei-c.org/ns/1.0"}
 
@@ -34,7 +36,7 @@ def extract_edition(parsed):
             text_content.append(segment.text)
             for app in segment.findall("TEI:app", namespaces=ns):
                 # TODO: Make use of comments for app crit extraction
-                comment = app.getprevious()
+                comment = app.getprevious()  # noqa
                 lems = app.findall("TEI:lem", namespaces=ns)
                 for lem in lems:
                     # TODO: Process via XSLT?

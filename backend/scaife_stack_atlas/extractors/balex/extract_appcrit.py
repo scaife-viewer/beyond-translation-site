@@ -74,7 +74,7 @@ def extract_readings(parsed):
                     try:
                         lem_id = lem.attrib["{http://www.w3.org/XML/1998/namespace}id"]
                     except Exception:
-                        lem_id = None
+                        lem_id = None  # noqa
 
                     # NOTE: These were the instances where we couldn't compute
                     # token offsets; even if we move to CTS subreferences, we
@@ -87,7 +87,11 @@ def extract_readings(parsed):
                         ("quod", "uel"): ["accessiones—quod", "uel"],
                         ("nihilo",): ["tempestate—nihilo"],
                         ("neque",): ["Alexandrini—neque"],
-                        ('tricesima', 'sexta', 'legio'): ['interfecta,tricesima', 'sexta', 'legio']
+                        ("tricesima", "sexta", "legio"): [
+                            "interfecta,tricesima",
+                            "sexta",
+                            "legio",
+                        ],
                     }
                     correct_tokens = corrected_tokens.get(tuple(lem_tokens), lem_tokens)
                     try:
@@ -133,7 +137,7 @@ def extract_readings(parsed):
                                 "{http://www.w3.org/XML/1998/namespace}id"
                             ]
                         except Exception:
-                            rdg_id = None
+                            rdg_id = None  # noqa
                         # rdg_value = rdg.text or "".join(lem_text) or text
                         rdg_value = rdg.text
                         if rdg_value is None:

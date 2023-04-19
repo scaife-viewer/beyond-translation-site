@@ -5,6 +5,7 @@ from django.contrib import admin
 from . import views
 from .tocs.views import serve_toc, tocs_index
 
+
 urlpatterns = [
     path("admin/", admin.site.urls),
     path("", include("scaife_viewer.atlas.urls")),
