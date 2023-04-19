@@ -10,7 +10,7 @@ COPY ./frontend/package.json ./frontend/yarn.lock ./
 RUN yarn install
 
 COPY ./frontend .
-ENV VUE_APP_ABOUT_URL="https://pdldatajournal.pubpub.org/new-features-in-beyond-translation"
+ENV VUE_APP_ABOUT_URL="https://sites.tufts.edu/perseusupdates/2023/03/15/perseus-6-0-beyond-translation-the-first-version-of-a-next-generation-perseus/"
 RUN yarn build
 
 # # # # # # # # # # # # # # # # # # # # # # # #
