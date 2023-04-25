@@ -1,13 +1,14 @@
 import json
 import os
+import re
 import time
 from collections import defaultdict
 from pathlib import Path
-from lxml import etree
-import re
+
 import django
 
 import requests
+from lxml import etree
 
 from scaife_viewer.atlas.urn import URN  # noqa
 
