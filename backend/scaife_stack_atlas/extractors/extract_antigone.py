@@ -136,6 +136,8 @@ def ensure_work_metadata(version_urn, w_path):
                         "lang": version_metadata["lang"],
                         # TODO: Discuss chunking
                         "first_passage_urn": version_metadata["firstPassageUrn"],
+                        # TODO: setting this dynamically; URN ending in :
+                        "default_toc_urn": "urn:cite:scaife-viewer:toc.antigone",
                         "citation_scheme": version_metadata["citationScheme"],
                         "label": [
                             {
