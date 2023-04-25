@@ -36,14 +36,21 @@ def main():
                 raise exception
         else:
             lookup[pos - 1].append(previous_line)
+    # this appends the final line
+    last_line = milestone.xpath("./following::TEI:l[last()]", namespaces=TEI_NS)[
+        0
+    ].attrib.get("n")
+    last_pos = pos
+    lookup[pos].append(last_line)
 
     tocs = []
-    for entry in lookup.values():
-        title = f'lines {"-".join(entry)}'
-        if len(entry) == 1:
+    for pos, entry in lookup.items():
+        refs = "-".join(entry)
+        title = f"lines {refs}"
+        if pos == last_pos:
             # this is the last line
-            title = f"{title}ff."
-        toc = dict(title=title, uri=f"{version_urn}:{entry[0]}")
+            title = f"lines {entry[0]}ff."
+        toc = dict(title=title, uri=f"{version_urn}:{refs}")
         tocs.append(toc)
 
     antigone_toc_path = Path("data/tocs/toc.antigone.json")
