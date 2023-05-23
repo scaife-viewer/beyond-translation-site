@@ -1558,15 +1558,17 @@
     "@scaife-viewer/store" "^0.5.0-beta.1"
     graphql-tag "^2.12.6"
 
-"@scaife-viewer/widget-dictionary-entries@https://gitpkg.vercel.app/scaife-viewer/frontend/packages/widget-dictionary-entries?4aa5c8f69d5b40a6fd1946ad662451233bf56ec6":
+"@scaife-viewer/widget-dictionary-entries@https://gitpkg.vercel.app/scaife-viewer/frontend/packages/widget-dictionary-entries?bb1c41c4bc7cf0c1cefd22ffdd99d156f99cca91":
   version "0.5.0-beta.1"
-  resolved "https://gitpkg.vercel.app/scaife-viewer/frontend/packages/widget-dictionary-entries?4aa5c8f69d5b40a6fd1946ad662451233bf56ec6#9f5d6fade882c8f4493378d765ed5772d9b9a0cf"
+  resolved "https://gitpkg.vercel.app/scaife-viewer/frontend/packages/widget-dictionary-entries?bb1c41c4bc7cf0c1cefd22ffdd99d156f99cca91#0c7564819ee1ff660216e22086682d7c61680219"
   dependencies:
     "@fortawesome/free-solid-svg-icons" "^5.15.2"
     "@scaife-viewer/common" "^0.4.0"
     "@scaife-viewer/store" "^0.5.0-beta.1"
+    CETEIcean "^1.8.0"
     graphql-tag "^2.10.3"
     portal-vue "^2.1.7"
+    sass.js "^0.11.1"
 
 "@scaife-viewer/widget-display-mode@https://gitpkg.vercel.app/scaife-viewer/frontend/packages/widget-display-mode?7b525c7209dc84ac419e5d2f98479f3a25338585":
   version "0.5.0-beta.1"
@@ -2580,6 +2582,11 @@ CETEIcean@^1.7.1:
   version "1.7.1"
   resolved "https://registry.yarnpkg.com/CETEIcean/-/CETEIcean-1.7.1.tgz#5e4b92c275925921cf0e02bb19fb40c9ea4cb211"
   integrity sha512-IssXP6BLKlaploKivvAmBOtS94x8DRLrsHa6pQwrzjctgrTNMckeC1ter5eRCuQvpKSx2jkMJZKegKdwJHoYrQ==
+
+CETEIcean@^1.8.0:
+  version "1.8.0"
+  resolved "https://registry.yarnpkg.com/CETEIcean/-/CETEIcean-1.8.0.tgz#da5d1db0beed10fbcdfb2d9c4677183f1f0a8e2e"
+  integrity sha512-x0kEFFKpO21hkemPt5w8/IezQEL3suUfEeYpLbw98Y/0WH5wlbDKEpmpQLR02/2dTL2kFE+sHUCmeAVDD816YA==
 
 abab@^2.0.0, abab@^2.0.3:
   version "2.0.5"
