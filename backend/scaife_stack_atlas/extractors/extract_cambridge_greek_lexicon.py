@@ -16,7 +16,7 @@ def extract_entries():
         entry=0,
         citation=0,
     )
-    path = Path("data/raw/cambridge/alpha.tsv")
+    path = Path("data/raw/cambridge/all.tsv")
     reader = csv.reader(path.open(), delimiter="\t")
     for headword, content in reader:
         counters["entry"] += 1
