@@ -16,13 +16,14 @@ def extract_entries():
         entry=0,
         citation=0,
     )
-    path = Path("data/raw/cambridge/all.tsv")
+    path = Path("data/raw/cambridge/all_fixed.tsv")
     reader = csv.reader(path.open(), delimiter="\t")
-    for headword, content in reader:
+    for key, display, content in reader:
         counters["entry"] += 1
+        headword = next(iter(key.split("_")))
         yield dict(
             headword=headword,
-            data=dict(content=content),
+            data=dict(headword_display=display, content=content, key=key),
             senses=[],
             citations=[],
             urn=f"urn:cite2:scafife-viewer:dictionary-entries.atlas_v1:cambridge-greek-lexicon-{counters['entry']}",
