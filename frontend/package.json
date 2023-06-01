@@ -16,7 +16,7 @@
     "@fortawesome/fontawesome-svg-core": "^1.2.32",
     "@fortawesome/free-solid-svg-icons": "^5.15.1",
     "@fortawesome/vue-fontawesome": "^2.0.0",
-    "@scaife-viewer/common": "https://gitpkg.vercel.app/scaife-viewer/frontend/packages/common?7b525c7209dc84ac419e5d2f98479f3a25338585",
+    "@scaife-viewer/common": "https://gitpkg.vercel.app/scaife-viewer/frontend/packages/common?a4743042dfa3a35504da3d534a3b798d3e18e06a",
     "@scaife-viewer/reader-alignments-mode": "https://gitpkg.vercel.app/scaife-viewer/frontend/packages/reader-alignments-mode?7b525c7209dc84ac419e5d2f98479f3a25338585",
     "@scaife-viewer/reader-commentaries-mode": "https://gitpkg.vercel.app/scaife-viewer/frontend/packages/reader-commentaries-mode?7b525c7209dc84ac419e5d2f98479f3a25338585",
     "@scaife-viewer/reader-dictionary-entries-mode": "https://gitpkg.vercel.app/scaife-viewer/frontend/packages/reader-dictionary-entries-mode?6f131375e52e91de78d9e20b7c3513dc0b3be726",
@@ -31,7 +31,7 @@
     "@scaife-viewer/store": "https://gitpkg.vercel.app/scaife-viewer/frontend/packages/store?7b525c7209dc84ac419e5d2f98479f3a25338585",
     "@scaife-viewer/widget-audio": "^0.0.11",
     "@scaife-viewer/widget-commentary": "https://gitpkg.vercel.app/scaife-viewer/frontend/packages/widget-commentary?7b525c7209dc84ac419e5d2f98479f3a25338585",
-    "@scaife-viewer/widget-dictionary-entries": "https://gitpkg.vercel.app/scaife-viewer/frontend/packages/widget-dictionary-entries?6b93f0b50e3d1f121a5dde918be39c10f0810915",
+    "@scaife-viewer/widget-dictionary-entries": "https://gitpkg.vercel.app/scaife-viewer/frontend/packages/widget-dictionary-entries?a4743042dfa3a35504da3d534a3b798d3e18e06a",
     "@scaife-viewer/widget-display-mode": "https://gitpkg.vercel.app/scaife-viewer/frontend/packages/widget-display-mode?7b525c7209dc84ac419e5d2f98479f3a25338585",
     "@scaife-viewer/widget-library": "^0.0.10",
     "@scaife-viewer/widget-metadata": "https://gitpkg.vercel.app/scaife-viewer/frontend/packages/widget-metadata?5bfe5d2e9b3cba2c7dbc49490abc6bcb0a48487a",
@@ -99,7 +99,7 @@
   ],
   "resolutions": {
     "@scaife-viewer/widget-reader": "https://gitpkg.vercel.app/scaife-viewer/frontend/packages/widget-reader?7b525c7209dc84ac419e5d2f98479f3a25338585",
-    "@scaife-viewer/common": "https://gitpkg.vercel.app/scaife-viewer/frontend/packages/common?7b525c7209dc84ac419e5d2f98479f3a25338585",
+    "@scaife-viewer/common": "https://gitpkg.vercel.app/scaife-viewer/frontend/packages/common?a4743042dfa3a35504da3d534a3b798d3e18e06a",
     "@scaife-viewer/store": "https://gitpkg.vercel.app/scaife-viewer/frontend/packages/store?7b525c7209dc84ac419e5d2f98479f3a25338585",
     "@scaife-viewer/vue-treant": "https://gitpkg.vercel.app/scaife-viewer/frontend/packages/vue-treant?658523eb8c6169d0b4d1c1612b9ca81ee0889b53"
   }
