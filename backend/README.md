@@ -45,6 +45,11 @@ Create a superuser:
 
 Browse to `/admin/library/`
 
+## Adding new text content
+TODO: Write up the metadata spec and provide instructions.
+
+See work done in https://github.com/scaife-viewer/beyond-translation-site/pull/126/files as a starting point.
+
 ## Sample Queries
 
 Retrieve a list of versions.
