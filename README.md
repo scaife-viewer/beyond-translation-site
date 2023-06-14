@@ -86,12 +86,12 @@ The backend will run in a Python [virtual environment](https://docs.python.org/3
 
 ```
 ..
-cd backend
+cd ../backend
 ```
 
 - Create the virtual environment and activate it:
 ```shell
-python3 -m venv .venv`
+python3 -m venv .venv
 source .venv/bin/activate
 ```
 - Update the `pip` and `wheel` packages before installing the project packages; the install the project packages:
