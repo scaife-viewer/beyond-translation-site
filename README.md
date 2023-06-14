@@ -16,8 +16,10 @@ This project can be developed via [GitHub Codespaces](https://github.com/feature
 - From the "Code" button choose the "Codespaces" tab and then "Create codespace on main": ![image-20230609113900044](https://p.ipic.vip/n17meq.png)
 
 - This will build a new Codespace environment: ![image-20230609113955162](https://p.ipic.vip/coeobl.png)
-- From the "Codespaces" menu at the bottom right of the screen (can also use F1 to open command search bar), select "Stop current codespace": ![image-20230609161218432](https://p.ipic.vip/jfroyd.jpg)
-![image-20230609114120729](https://p.ipic.vip/wt9idm.png)
+- From the "Codespaces" menu at the bottom left corner of the screen (can also use F1 to open command search bar), select "Stop current codespace": 
+  - ![image-20230614095207321](https://f000.backblazeb2.com/file/typora-images-23-06-14/uPic/image-20230614095207321.png) 
+  - ![image-20230609161218432](https://p.ipic.vip/jfroyd.jpg)
+  - ![image-20230609114120729](https://p.ipic.vip/wt9idm.png)
 
 - Browse to https://github.com/codespaces, navigate to the codespace and rename it: ![image-20230609114212538](https://p.ipic.vip/o9tav0.png)
 
