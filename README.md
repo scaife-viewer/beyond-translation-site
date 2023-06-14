@@ -16,7 +16,7 @@ This project can be developed via [GitHub Codespaces](https://github.com/feature
 - From the "Code" button choose the "Codespaces" tab and then "Create codespace on main": ![image-20230609113900044](https://p.ipic.vip/n17meq.png)
 
 - This will build a new Codespace environment: ![image-20230609113955162](https://p.ipic.vip/coeobl.png)
-- From the "Codespaces" menu at the bottom right of the screen, select "Stop current codespace": ![image-20230609161218432](https://p.ipic.vip/jfroyd.jpg)
+- From the "Codespaces" menu at the bottom right of the screen (can also use F1 to open command search bar), select "Stop current codespace": ![image-20230609161218432](https://p.ipic.vip/jfroyd.jpg)
 ![image-20230609114120729](https://p.ipic.vip/wt9idm.png)
 
 - Browse to https://github.com/codespaces, navigate to the codespace and rename it: ![image-20230609114212538](https://p.ipic.vip/o9tav0.png)
@@ -82,6 +82,11 @@ This will create a frontend bundle that will be served by the backend.
 #### Install the backend
 The backend will run in a Python [virtual environment](https://docs.python.org/3/library/venv.html).
 
+```
+..
+cd backend
+```
+
 - Create the virtual environment and activate it:
 ```shell
 python3 -m venv .venv`
@@ -128,7 +133,7 @@ The final step will be to run a script that loads all of the current data into a
 <!-- TODO: Clean up the output -->
 
 #### Resize the codespace again
-- After the script completes, select the "Codespaces" menu at the bottom right of the screen and then select "Stop current codespace":
+- After the script completes, select the "Codespaces" menu at the bottom right of the screen (or use F1 for command search bar)and then select "Stop current codespace":
 
 ![image-20230609161218432](https://p.ipic.vip/jfroyd.jpg)
 
