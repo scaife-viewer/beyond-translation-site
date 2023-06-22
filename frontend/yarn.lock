@@ -1668,9 +1668,9 @@
     "@scaife-viewer/store" "^0.0.10"
     graphql-tag "^2.10.3"
 
-"@scaife-viewer/widget-reader@^0.5.0-beta.1", "@scaife-viewer/widget-reader@https://gitpkg.vercel.app/scaife-viewer/frontend/packages/widget-reader?7b525c7209dc84ac419e5d2f98479f3a25338585":
+"@scaife-viewer/widget-reader@^0.5.0-beta.1", "@scaife-viewer/widget-reader@https://gitpkg.vercel.app/scaife-viewer/frontend/packages/widget-reader?cfe26fa76d87aed8dbe4f84a29eef6eacd001d25":
   version "0.5.0-beta.1"
-  resolved "https://gitpkg.vercel.app/scaife-viewer/frontend/packages/widget-reader?7b525c7209dc84ac419e5d2f98479f3a25338585#bd53ec66ca02c3757f2a433cfb233b6ccda82079"
+  resolved "https://gitpkg.vercel.app/scaife-viewer/frontend/packages/widget-reader?cfe26fa76d87aed8dbe4f84a29eef6eacd001d25#67eb98070f0feb9ea2697d2ba922ff8c50cd89e5"
   dependencies:
     "@scaife-viewer/common" "^0.4.0"
     "@scaife-viewer/store" "^0.5.0-beta.1"
