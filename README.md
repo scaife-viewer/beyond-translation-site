@@ -76,3 +76,4 @@ Customize `app.json` and `herok.yml` as-needed for projects derived from this re
 ## Nav
 
 - Set `VUE_APP_ABOUT_URL` and `VUE_APP_ABOUT_TEXT` to add a link to an about page
+
