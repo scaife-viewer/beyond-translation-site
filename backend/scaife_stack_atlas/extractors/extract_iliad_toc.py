@@ -2,6 +2,7 @@ import json
 from collections import defaultdict
 from pathlib import Path
 
+import more_itertools
 from lxml import etree
 
 
@@ -58,7 +59,7 @@ def main():
     lookup[pos].append(ref)
 
     # TODO: Refactor these into book-level TOCs, like we did for folios
-    tocs = []
+    all_tocs = []
     for pos, entry in lookup.items():
         refs = "-".join(entry)
         title = f"lines {refs}"
@@ -66,14 +67,36 @@ def main():
             # this is the last line
             title = f"lines {entry[0]}ff."
         toc = dict(title=title, uri=f"{version_urn}:{refs}")
-        tocs.append(toc)
+        all_tocs.append(toc)
 
-    iliad_toc_path = Path("data/tocs/toc.iliad.json")
+    # regroup tocs
+    root_items = []
+    tocs_by_book = more_itertools.bucket(
+        all_tocs, key=lambda x: x["uri"].rsplit(":", maxsplit=1)[1].split(".")[0]
+    )
+    for book in tocs_by_book:
+        urnish = f"toc.iliad-{book}"
+        book_entries = tocs_by_book[book]
+        root_entry = {
+            "title": "↵",
+            "uri": "urn:cite:scaife-viewer:toc.iliad",
+        }
+        data = {
+            "@id": f"urn:cite:scaife-viewer:{urnish}",
+            "title": f"Book {book}",
+            "uri": f"urn:cite:scaife-viewer:{urnish}",
+            # TODO: Distinguish between entry title and TOC title
+            # "title": f"Folios for Iliad {book}",
+            "items": [root_entry] + list(book_entries),
+        }
+        root_items.append(data)
+
+    iliad_toc_path = Path("data/annotations/tocs/liad-cards/toc.iliad.json")
     data = {
         "@id": "urn:cite:scaife-viewer:toc.iliad",
         "title": "Iliad (Cards)",
-        "description": "Mapping of cards to lines",
-        "items": tocs,
+        "description": "Mapping of cards to books / lines",
+        "items": root_items,
     }
     with iliad_toc_path.open("w") as f:
         json.dump(data, f, indent=2, ensure_ascii=False)
