@@ -1700,12 +1700,14 @@
   dependencies:
     "@scaife-viewer/store" "^0.0.10"
 
-"@scaife-viewer/widget-toc@https://gitpkg.vercel.app/scaife-viewer/frontend/packages/widget-toc?7b525c7209dc84ac419e5d2f98479f3a25338585":
+"@scaife-viewer/widget-toc@https://gitpkg.vercel.app/scaife-viewer/frontend/packages/widget-toc?48eab6741fcb5eb0d3277c81dad7831c25574c5d":
   version "0.5.0-beta.1"
-  resolved "https://gitpkg.vercel.app/scaife-viewer/frontend/packages/widget-toc?7b525c7209dc84ac419e5d2f98479f3a25338585#b5c8a792af92efd003bfcabb91a2a565cc4a90fc"
+  resolved "https://gitpkg.vercel.app/scaife-viewer/frontend/packages/widget-toc?48eab6741fcb5eb0d3277c81dad7831c25574c5d#6d5f09d60efff937765921bd972ecbd6657149f9"
   dependencies:
+    "@fortawesome/free-solid-svg-icons" "^5.14.0"
     "@scaife-viewer/common" "^0.4.0"
     "@scaife-viewer/store" "^0.5.0-beta.1"
+    graphql-tag "^2.12.6"
 
 "@scaife-viewer/widget-token-annotations@https://gitpkg.vercel.app/scaife-viewer/frontend/packages/widget-token-annotations?7b525c7209dc84ac419e5d2f98479f3a25338585":
   version "0.5.0-beta.1"

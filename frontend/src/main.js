@@ -42,6 +42,7 @@ import { iconMap as audioIconMap } from '@scaife-viewer/widget-audio';
 import { iconMap as namedEntitiesIconMap } from '@scaife-viewer/widget-named-entities';
 // eslint-disable-next-line max-len
 import { iconMap as dictionaryEntriesIconMap } from '@scaife-viewer/widget-dictionary-entries';
+import { iconMap as tocIconMap } from '@scaife-viewer/widget-toc';
 
 import App from '@/App.vue';
 import router from '@/router';
@@ -59,6 +60,7 @@ Vue.use(SkeletonPlugin, {
     ...dictionaryEntriesIconMap,
     ...namedEntitesReaderIconMap,
     ...imageModeReaderIconMap,
+    ...tocIconMap,
   },
   config: {
     endpoints: {
@@ -93,7 +95,7 @@ Vue.use(SkeletonPlugin, {
     commentaryWidgetLabel: 'Textual Notes',
     commentariesDisplayModeLabel: 'Textual Notes',
     pageTitle: title => (title ? `${siteLabel} | ${title}` : `${siteLabel}`),
-  },
+},
 });
 
 Vue.use(VueApollo);
