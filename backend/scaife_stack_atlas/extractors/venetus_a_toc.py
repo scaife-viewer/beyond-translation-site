@@ -1,8 +1,9 @@
+import json
 from collections import defaultdict
 from pathlib import Path
-import json
 
 from scaife_viewer.atlas.models import Node
+
 
 version = Node.objects.get(urn="urn:cts:greekLit:tlg0012.tlg001.msA-folios:")
 folios_by_book = defaultdict(list)

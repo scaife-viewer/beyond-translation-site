@@ -1,24 +1,24 @@
 import csv
 import json
 import logging
-import pprint
 import os
-from functools import cache
+import pprint
 from collections import Counter, defaultdict
+from functools import cache
 from pathlib import Path
-from scaife_viewer.atlas.urn import URN
-from django.utils.functional import SimpleLazyObject
 
 from thefuzz import process
 
 # TODO: Vendor these out to ATLAS proper?
 from scaife_stack_atlas.extractors.glosses import get_gloss
 from scaife_stack_atlas.postag_convert import deep_morphology_pos_and_parse
+from scaife_viewer.atlas.language_utils import normalize_string
+from scaife_viewer.atlas.models import Token
+from scaife_viewer.atlas.urn import URN
+
 
 # END TODO
 
-from scaife_viewer.atlas.language_utils import normalize_string
-from scaife_viewer.atlas.models import Token
 
 OGL_PDL_ANNOTATIONS_ROOT = Path(
     os.environ.get(
@@ -54,9 +54,7 @@ def build_treebank_lookups(version_urn):
     # we have to merge these words together here
     # TODO: Prefer JSONL format
     filename = version_urn_to_fname(version_urn, "json")
-    treebank_path = Path(
-        f'data/annotations/syntax-trees/glaux_syntax_trees_{filename}'
-    )
+    treebank_path = Path(f"data/annotations/syntax-trees/glaux_syntax_trees_{filename}")
     trees = json.load(treebank_path.open())
     tree_token_lookup = dict()
     forms_by_citation = defaultdict(Counter)
@@ -72,9 +70,7 @@ def build_treebank_lookups(version_urn):
             if idx > 1:
                 subref_value = f"{subref_value}[{idx}]"
             tree_token_lookup[subref_value] = dict(lemma=word["lemma"], tag=word["tag"])
-    return dict(
-        tree_tokens=tree_token_lookup, forms_by_citation=forms_by_citation
-    )
+    return dict(tree_tokens=tree_token_lookup, forms_by_citation=forms_by_citation)
 
 
 def fuzzy_token_match(fragment, candidates):
@@ -150,7 +146,9 @@ def resolve_annotation(lookups, token, counters=None):
                     # return TREE_TOKEN_LU[repaired_key]
 
                     return None
-                if fuzzy_token_match(normalized_form, lookups["forms_by_citation"][citation]):
+                if fuzzy_token_match(
+                    normalized_form, lookups["forms_by_citation"][citation]
+                ):
                     fuzzy_match = fuzzy_token_match(
                         normalized_form, lookups["forms_by_citation"][citation]
                     )
@@ -242,7 +240,7 @@ def write_glaux_annotations(lookups, version_urn, tokens):
 def get_lookups(version_urn):
     lookups = dict(
         fallback=build_fallback_lookup(version_urn),
-        **build_treebank_lookups(version_urn)
+        **build_treebank_lookups(version_urn),
     )
     return lookups
 

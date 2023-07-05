@@ -1,6 +1,8 @@
 import csv
 from pathlib import Path
+
 from django.utils.functional import SimpleLazyObject
+
 from scaife_viewer.atlas.language_utils import normalize_string
 
 

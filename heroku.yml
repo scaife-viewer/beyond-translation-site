@@ -1,5 +1,9 @@
 build:
   docker:
     web: heroku.dockerfile
+release:
+  image: web
+  command:
+    - python manage.py check
 run:
   web: gunicorn scaife_stack_atlas.wsgi

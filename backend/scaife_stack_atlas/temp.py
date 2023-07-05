@@ -191,11 +191,11 @@ def set_glaux_attributions(reset=False):
         # FIXME: Actually create the proper attribution modeling for this
         # TODO: Alias as records
         person.attributionrecord_set.all().delete()
-    organization, _ = AttributionOrganization.objects.get_or_create(
-        name="KU Leuven"
-    )
+    organization, _ = AttributionOrganization.objects.get_or_create(name="KU Leuven")
 
-    syntax_trees = TextAnnotation.objects.filter(urn__startswith="urn:cite2:beyond-translation:syntaxTree.atlas_v1:glaux-")
+    syntax_trees = TextAnnotation.objects.filter(
+        urn__startswith="urn:cite2:beyond-translation:syntaxTree.atlas_v1:glaux-"
+    )
     AttributionRecord.objects.create(
         person=person,
         organization=organization,
@@ -214,7 +214,9 @@ def create_glaux_collection(reset=False):
         )
         TextAnnotationCollection.objects.filter(urn=collection_urn).delete()
 
-    tas = TextAnnotation.objects.filter(urn__startswith="urn:cite2:beyond-translation:syntaxTree.atlas_v1:glaux-")
+    tas = TextAnnotation.objects.filter(
+        urn__startswith="urn:cite2:beyond-translation:syntaxTree.atlas_v1:glaux-"
+    )
     collection = TextAnnotationCollection.objects.create(
         label="gregorycrane/glaux-trees",
         data={
@@ -424,14 +426,19 @@ def add_glosses_to_trees(reset=None):
 # FIXME: Refactor with add_glosses_to_trees
 def add_anabasis_glosses_to_trees(reset=None, debug=False):
     # NOTE: Reset is a no-op
-    token_annotation_collection_urn = "urn:cite2:beyond-tranlsation:token_annotation_collection.atlas_v1:glaux"
-    text_annotation_collection_urn = "urn:cite2:beyond-translation:text_annotation_collection.atlas_v1:glaux_trees"
+    text_annotation_collection_urn = (
+        "urn:cite2:beyond-translation:text_annotation_collection.atlas_v1:glaux_trees"
+    )
     version_urn = "urn:cts:greekLit:tlg0032.tlg006.perseus-grc2:"
     version = Node.objects.get(urn=version_urn)
     text_parts = get_lowest_citable_nodes(version)
-    collection = TextAnnotationCollection.objects.get(urn=text_annotation_collection_urn)
+    collection = TextAnnotationCollection.objects.get(
+        urn=text_annotation_collection_urn
+    )
     # TODO: Why is this subselect so slow?
-    trees = collection.annotations.filter(text_parts__in=text_parts.values_list("id", flat=True))
+    trees = collection.annotations.filter(
+        text_parts__in=text_parts.values_list("id", flat=True)
+    )
 
     to_update = []
     for tree in trees:
@@ -492,7 +499,7 @@ def import_grammatical_entries(reset=None):
     collection = GrammaticalEntryCollection.objects.create(
         label=collection_data["label"],
         urn=collection_data["urn"],
-        data=collection_data["metadata"]
+        data=collection_data["metadata"],
     )
 
     # Load entries
@@ -505,9 +512,8 @@ def import_grammatical_entries(reset=None):
             idx=row["idx"],
             label=row["label"],
             data=dict(
-                title=row["data"]["title"],
-                description=row["data"]["description"]
-            )
+                title=row["data"]["title"], description=row["data"]["description"]
+            ),
         )
         to_create.append(entry)
     GrammaticalEntry.objects.bulk_create(to_create)
@@ -530,13 +536,13 @@ def import_grammatical_entries(reset=None):
                 tokens_lookup[entry].append(row["ve_ref"])
 
     # FIXME: Support more than just Iliad
-    tokens = Token.objects.filter(text_part__urn__startswith="urn:cts:greekLit:tlg0012.tlg001.perseus-grc2:")
+    tokens = Token.objects.filter(
+        text_part__urn__startswith="urn:cts:greekLit:tlg0012.tlg001.perseus-grc2:"
+    )
     to_update = []
     for entry, token_ve_refs in tokens_lookup.items():
         tokens_qs = tokens.filter(ve_ref__in=token_ve_refs)
-        to_update.append(
-            (entry, tokens_qs)
-        )
+        to_update.append((entry, tokens_qs))
 
     for entry, tokens_qs in to_update:
         entry.tokens.set(tokens_qs)
@@ -799,3 +805,23 @@ def ingest_balex_extras(reset=True):
             metadata=dict(content=content, css=css_path.read_text()),
         )
         edition_node.add_child(**textpart_kwargs)
+
+
+def update_balex_metadata(reset=True):
+    balex_work_obj = Node.objects.get(urn="urn:cts:latinLit:phi0428.phi001:")
+    to_update = []
+    for version in balex_work_obj.get_children():
+        version.metadata.update(
+            {
+                "editor": {
+                    "name": "Cynthia Damon, et al.",
+                    "url": "http://viaf.org/viaf/116523553",
+                },
+                "repository": {
+                    "name": "DigitalLatin/caesar-balex",
+                    "url": "https://github.com/DigitalLatin/caesar-balex",
+                },
+            }
+        )
+        to_update.append(version)
+    Node.objects.bulk_update(to_update, fields=["metadata"])

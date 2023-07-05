@@ -361,3 +361,9 @@ Invoke tests via:
 ```
 pytest
 ```
+
+## Transliteration
+
+Transliteration requires installing the [PyICU](https://pypi.org/project/PyICU/) bindings.
+
+See the documentation ["Installing PyICU"](https://gitlab.pyicu.org/main/pyicu#installing-pyicu) for additional instructions for your operating system.

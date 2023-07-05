@@ -6,11 +6,12 @@ import django
 
 from lxml import etree
 
+from scaife_viewer.atlas.urn import URN  # noqa
+
+
 # TODO: refactor this as an actual Django management command
 os.environ.setdefault("DJANGO_SETTINGS_MODULE", "scaife_stack_atlas.settings")
 django.setup()
-
-from scaife_viewer.atlas.urn import URN  # noqa
 
 
 def transform_headwords(words):
@@ -159,7 +160,7 @@ def process_directory(input_dir):
     problems = []
     try:
         paths = input_dir.glob("*.xml")
-        paths = [Path('data/raw/glaux-trees/0012-001.xml')]
+        paths = [Path("data/raw/glaux-trees/0012-001.xml")]
         for input_path in paths:
             version_urn, trees = extract_trees(input_path)
             if not version_urn and not trees:
@@ -175,7 +176,10 @@ def process_directory(input_dir):
             annotation_basename = f"{prefix}_{str(idx).zfill(3)}_{tgp}.{wp}.{vp}.json"
             output_path = Path(output_dir, annotation_basename)
             json.dump(
-                trees, output_path.open("w"), ensure_ascii=False, indent=2,
+                trees,
+                output_path.open("w"),
+                ensure_ascii=False,
+                indent=2,
             )
             idx += 1
     except Exception as excep:
