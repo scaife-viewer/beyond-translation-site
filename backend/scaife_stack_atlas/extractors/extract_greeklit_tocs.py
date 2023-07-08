@@ -32,8 +32,7 @@ def get_paths():
     return [
         GREEK_LIT_ROOT / "tlg0012/tlg001/tlg0012.tlg001.perseus-grc2.xml",
         GREEK_LIT_ROOT / "tlg0012/tlg002/tlg0012.tlg002.perseus-grc2.xml",
-        # FIXME: Enable Antigone
-        # GREEK_LIT_ROOT / "tlg0011/tlg002/tlg0011.tlg002.perseus-grc2.xml",
+        GREEK_LIT_ROOT / "tlg0011/tlg002/tlg0011.tlg002.perseus-grc2.xml",
     ]
 
 
