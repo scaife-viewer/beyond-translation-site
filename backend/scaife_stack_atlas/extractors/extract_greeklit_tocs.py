@@ -131,7 +131,9 @@ def extract_toc_entries(parsed, version_urn, citation_scheme, milestone_unit):
     """
     lookup = defaultdict(list)
     milestones = parsed.xpath(
-        f"//tei:milestone[@unit='{milestone_unit}']", namespaces=TEI_NS
+        # f"//tei:milestone[@unit='{milestone_unit}']",
+        f"//tei:milestone[translate(@unit, 'ABCDEFGHIJKLMNOPQRSTUVWXYZ', 'abcdefghijklmnopqrstuvwxyz')='{milestone_unit}']",
+        namespaces=TEI_NS
     )
     for pos, milestone in enumerate(milestones):
         ref = get_previous_reference(milestone, citation_scheme)
@@ -235,7 +237,8 @@ def get_milestone_kinds(parsed):
     # FIXME: Make this check more efficient
     milestones = parsed.xpath("//tei:milestone[@unit]", namespaces=TEI_NS)
     # FIXME: Hard-coded to `card`; "Para" worked for Iliad but not Odyssey
-    return set([ms.attrib["unit"] for ms in milestones])
+    # return set([ms.attrib["unit"] for ms in milestones])
+    return set([ms.attrib["unit"].lower() for ms in milestones])
 
 
 def process_path(path):
