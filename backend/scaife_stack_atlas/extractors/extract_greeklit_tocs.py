@@ -36,26 +36,22 @@ def get_paths():
     ]
 
 
-def get_reference(milestone, citation_scheme, direction="next", last=False):
+def get_reference(milestone, citation_scheme, direction="next"):
     """
     Retrieve a CTS reference for a milestone
 
     Functionality backported from MyCapytain
     """
-    xpath_axis = "following" if direction == "next" else "preceding"
-    citation_selector = "last()" if last else "position()=1"
+    xpath_axis = "following" if direction == "next" else "ancestor"
+    citation_selector = "last()"
     parts = []
     citations = iter(citation_scheme)
     citation = next(citations, None)
     xpath = citation["xpath"]
+    resolved_xpath = citation["xpath"].strip("/").replace("='?'", "")
+    compiled_xpath = f"(./{xpath_axis}::{resolved_xpath})[{citation_selector}]"
     citation_elem = milestone.xpath(
-        "".join(
-            [
-                f"./{xpath_axis}::",
-                xpath.strip("/").replace("='?'", ""),
-                f"[{citation_selector}]",
-            ]
-        ),
+        compiled_xpath,
         namespaces=TEI_NS,
     )[0]
     parts.append(citation_elem.attrib["n"])
@@ -71,6 +67,7 @@ def get_reference(milestone, citation_scheme, direction="next", last=False):
         parts.append(parent_elem.attrib["n"])
         parent = next(citations, None)
         citation_elem = parent_elem
+    assert len(parts) == len(citation_scheme)
     return ".".join(reversed(parts))
 
 
@@ -86,13 +83,6 @@ def get_previous_reference(milestone, citation_scheme):
     Get the previous reference for a milestone
     """
     return get_reference(milestone, citation_scheme, direction="previous")
-
-
-def get_last_reference(milestone, citation_scheme):
-    """
-    Get the final reference for a milestone
-    """
-    return get_reference(milestone, citation_scheme, last=True)
 
 
 # TODO: Refactor with CTS metadata
@@ -144,21 +134,16 @@ def extract_toc_entries(parsed, version_urn, citation_scheme, milestone_unit):
         f"//tei:milestone[@unit='{milestone_unit}']", namespaces=TEI_NS
     )
     for pos, milestone in enumerate(milestones):
-        ref = get_next_reference(milestone, citation_scheme)
+        ref = get_previous_reference(milestone, citation_scheme)
         lookup[pos].append(ref)
-        try:
-            ref = get_previous_reference(milestone, citation_scheme)
-        except IndexError as exception:
-            if pos == 0:
-                pass
-            else:
-                raise exception
+        if pos == 0:
+            pass
         else:
             lookup[pos - 1].append(ref)
 
     # this appends the last reference
     last_pos = pos
-    ref = get_last_reference(milestone, citation_scheme)
+    ref = get_next_reference(milestone, citation_scheme)
     lookup[pos].append(ref)
 
     entries = []
@@ -250,7 +235,7 @@ def get_milestone_kinds(parsed):
     # FIXME: Make this check more efficient
     milestones = parsed.xpath("//tei:milestone[@unit]", namespaces=TEI_NS)
     # FIXME: Hard-coded to `card`; "Para" worked for Iliad but not Odyssey
-    return set([ms.attrib["unit"] for ms in milestones]).intersection(["card"])
+    return set([ms.attrib["unit"] for ms in milestones])
 
 
 def process_path(path):
