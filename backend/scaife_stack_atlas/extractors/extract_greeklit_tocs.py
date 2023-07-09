@@ -47,6 +47,7 @@ def get_paths():
         GREEK_LIT_ROOT / "tlg0012/tlg001/tlg0012.tlg001.perseus-grc2.xml",
         GREEK_LIT_ROOT / "tlg0012/tlg002/tlg0012.tlg002.perseus-grc2.xml",
         GREEK_LIT_ROOT / "tlg0011/tlg002/tlg0011.tlg002.perseus-grc2.xml",
+        GREEK_LIT_ROOT / "tlg0032/tlg006/tlg0032.tlg006.perseus-grc2.xml",
     ]
 
 
