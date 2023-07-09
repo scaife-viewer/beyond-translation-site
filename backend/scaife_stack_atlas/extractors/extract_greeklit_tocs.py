@@ -1,6 +1,7 @@
 import json
 import os
 import re
+import time
 from collections import defaultdict
 from pathlib import Path
 
@@ -26,6 +27,19 @@ GREEK_LIT_ROOT = (
 )
 
 
+def get_processors():
+    return {
+        "card": {
+            "refs": refs_for_cards,
+            "tail": tail_for_cards,
+        },
+        "para": {
+            "refs": refs_for_paras,
+            "tail": tail_for_paras,
+        },
+    }
+
+
 def get_paths():
     # FIXME: Generalize for all PDL content
 
@@ -36,20 +50,18 @@ def get_paths():
     ]
 
 
-def get_reference(milestone, citation_scheme, direction="next"):
+def get_reference(milestone, citation_scheme, xpath_axis, citation_selector):
     """
     Retrieve a CTS reference for a milestone
 
     Functionality backported from MyCapytain
     """
-    xpath_axis = "following" if direction == "next" else "ancestor"
-    citation_selector = "last()"
     parts = []
     citations = iter(citation_scheme)
     citation = next(citations, None)
     xpath = citation["xpath"]
     resolved_xpath = citation["xpath"].strip("/").replace("='?'", "")
-    compiled_xpath = f"(./{xpath_axis}::{resolved_xpath})[{citation_selector}]"
+    compiled_xpath = f"./{xpath_axis}::{resolved_xpath}[{citation_selector}]"
     citation_elem = milestone.xpath(
         compiled_xpath,
         namespaces=TEI_NS,
@@ -125,6 +137,68 @@ def get_citation_scheme(parsed):
     return list(citation_lu.values())
 
 
+def refs_for_paras(lookup, pos, milestone, citation_scheme):
+    try:
+        ref = get_reference(milestone, citation_scheme, "ancestor", "position() = 1")
+    except IndexError:
+        return
+    else:
+        lookup[pos].append(ref)
+
+    try:
+        next_ref = get_reference(
+            milestone, citation_scheme, "preceding", "position() = 1"
+        )
+    except Exception as excep:
+        if pos == 0 and isinstance(excep, IndexError):
+            return
+        raise excep
+    else:
+        lookup[pos - 1].append(next_ref)
+
+
+def tail_for_paras(lookup, pos, milestone, citation_scheme):
+    try:
+        ref = get_reference(milestone, citation_scheme, "ancestor", "last()")
+    except IndexError:
+        ref = get_reference(milestone, citation_scheme, "following", "last()")
+    if lookup[pos][-1] != ref:
+        lookup[pos].append(ref)
+    return pos
+
+
+def refs_for_cards(lookup, pos, milestone, citation_scheme):
+    try:
+        ref = get_reference(milestone, citation_scheme, "following", "position() = 1")
+    except IndexError:
+        return
+    else:
+        lookup[pos].append(ref)
+
+    try:
+        next_ref = get_reference(
+            milestone, citation_scheme, "preceding", "position() = 1"
+        )
+    except Exception as excep:
+        if pos == 0 and isinstance(excep, IndexError):
+            return
+        raise excep
+    else:
+        lookup[pos - 1].append(next_ref)
+
+
+def tail_for_cards(lookup, pos, milestone, citation_scheme):
+    last_pos = None
+    try:
+        ref = get_reference(milestone, citation_scheme, "following", "last()")
+        if lookup[pos][-1] != ref:
+            lookup[pos].append(ref)
+        return pos
+    except IndexError:
+        pass
+    return last_pos
+
+
 def extract_toc_entries(parsed, version_urn, citation_scheme, milestone_unit):
     """
     Extract TOC entries for each milestone
@@ -133,21 +207,14 @@ def extract_toc_entries(parsed, version_urn, citation_scheme, milestone_unit):
     milestones = parsed.xpath(
         # f"//tei:milestone[@unit='{milestone_unit}']",
         f"//tei:milestone[translate(@unit, 'ABCDEFGHIJKLMNOPQRSTUVWXYZ', 'abcdefghijklmnopqrstuvwxyz')='{milestone_unit}']",
-        namespaces=TEI_NS
+        namespaces=TEI_NS,
     )
+    processors = get_processors()[milestone_unit]
     for pos, milestone in enumerate(milestones):
-        ref = get_previous_reference(milestone, citation_scheme)
-        lookup[pos].append(ref)
-        if pos == 0:
-            pass
-        else:
-            lookup[pos - 1].append(ref)
+        processors["refs"](lookup, pos, milestone, citation_scheme)
 
     # this appends the last reference
-    last_pos = pos
-    ref = get_next_reference(milestone, citation_scheme)
-    lookup[pos].append(ref)
-
+    last_pos = processors["tail"](lookup, pos, milestone, citation_scheme)
     entries = []
     plural_label = citation_scheme[0]["kind"] + "s"
     for pos, entry in lookup.items():
@@ -226,7 +293,11 @@ def create_milestone_toc(path, parsed, version_urn, citation_scheme, milestone_u
     toc_entries = extract_toc_entries(
         parsed, version_urn, citation_scheme, milestone_unit
     )
-    regrouped_entries = regroup_entries(toc_slug, citation_scheme, toc_entries)
+    # FIXME: Support regrouping at muiltiple levels
+    if len(citation_scheme) > 1:
+        regrouped_entries = regroup_entries(toc_slug, citation_scheme, toc_entries)
+    else:
+        regrouped_entries = toc_entries
     write_toc(work_title, toc_slug, citation_scheme, milestone_unit, regrouped_entries)
 
 
@@ -266,4 +337,7 @@ def main():
 
 
 if __name__ == "__main__":
+    start = time.time()
     main()
+    end = time.time()
+    print(end - start)
