@@ -182,6 +182,8 @@ GRAPHENE = {
 }
 
 
+SV_ATLAS_HOOKSET = "scaife_stack_atlas.hooks.ATLASHookSet"
+
 SV_ATLAS_DB_LABEL = "default"  # NOTE: Ensures we pick up ATLAS pragma customizations on the default database
 SV_ATLAS_DATA_DIR = os.path.join(PROJECT_ROOT, "data")
 if "SV_ATLAS_INGESTION_CONCURRENCY" in os.environ:
