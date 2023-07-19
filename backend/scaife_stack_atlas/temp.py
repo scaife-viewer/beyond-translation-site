@@ -371,7 +371,7 @@ def add_translations_to_trees(reset=None):
     add_odyssey_english_translations()
 
 
-def add_glosses_to_trees(reset=None):
+def add_glosses_to_trees(reset=None, debug=False):
     # NOTE: Reset is a no-op
     collection_urn = "urn:cite2:beyond-translation:text_annotation_collection.atlas_v1:il_gregorycrane_gAGDT"
     # TODO: Figure out why this query doesn't work as expected against
@@ -406,9 +406,11 @@ def add_glosses_to_trees(reset=None):
                     elif word.get("value") in ["[0]", "[1]"]:
                         pass
                     elif word.get("ref"):
-                        print(f'{word["ref"]}@{word["value"]}')
+                        if debug:
+                            print(f'{word["ref"]}@{word["value"]}')
                     else:
-                        print(f'{word["value"]}')
+                        if debug:
+                            print(f'{word["value"]}')
                     # ~40 words unmapped with this naive pass
             data = annotation.data if annotation else {}
             word.update(
