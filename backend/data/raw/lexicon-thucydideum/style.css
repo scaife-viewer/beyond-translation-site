@@ -1,0 +1,15 @@
+head {
+    display: none;
+}
+hi, gloss {
+    font-style: italic;
+}
+
+bibl[urn] {
+    color: #b45141;
+}
+
+p {
+    display: block;
+    margin: 1em 0;
+}
