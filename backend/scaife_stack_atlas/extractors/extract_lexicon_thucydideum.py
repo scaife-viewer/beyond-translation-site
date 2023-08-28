@@ -1,5 +1,6 @@
 import itertools
 import json
+from functools import lru_cache
 from pathlib import Path
 
 import jsonlines
@@ -7,8 +8,39 @@ from lxml import etree
 from more_itertools import peekable
 
 
+CATALOG_API_HOST = "catalog-api-dev.scaife.eldarion.com"
+
 DICTIONARY_PATH = Path("data/annotations/dictionaries/lexicon-thucydideum")
 TEI_NS = {"tei": "http://www.tei-c.org/ns/1.0"}
+XSL_STYLESHEET_PATH = Path("data/raw/lexicon-thucydideum/lexicon-thucydideum.xsl")
+
+
+class XSLTransformer:
+    def __init__(self, xml):
+        self.xml = xml
+
+    def canonical_urn_link(self, ctx, value):
+        node = value[0]
+        urn = node.attrib["urn"]
+        return f"https://{CATALOG_API_HOST}/{urn}/canonical-url/"
+
+    # TODO: Backported from scaife_viewer_core TEIRenderer
+    @lru_cache
+    def render(self):
+        with XSL_STYLESHEET_PATH.open("rb") as f:
+            func_ns = "urn:python-funcs"
+            transform = etree.XSLT(
+                etree.XML(f.read()),
+                extensions={
+                    (func_ns, "canonical_urn_link"): self.canonical_urn_link,
+                },
+            )
+            try:
+                return str(transform(self.xml))
+            except Exception:
+                for error in transform.error_log:
+                    print(error.message, error.line)
+                raise
 
 
 def clean_xml_namespaces(root):
@@ -50,9 +82,13 @@ def extract_entries():
         display = f"<b>{headword}</b>"
         clean_xml_namespaces(entry)
         convert_to_urns(entry)
-        content = etree.tostring(entry, encoding="unicode").replace(
-            'xmlns="http://www.tei-c.org/ns/1.0"', ""
+        transformer = XSLTransformer(entry)
+        content = (
+            transformer.render()
+            .strip()
+            .replace('xmlns="http://www.tei-c.org/ns/1.0"', "")
         )
+        content = f'<div class="entry">{content}</div>'
         yield dict(
             headword=headword,
             data=dict(headword_display=display, content=content, key=key),
