@@ -215,7 +215,6 @@ SV_ATLAS_INGESTION_PIPELINE = [
     "scaife_stack_atlas.temp.ingest_balex_extras",
     "scaife_stack_atlas.temp.update_balex_metadata",
     "scaife_stack_atlas.temp.add_cgl_css",
-    "scaife_stack_atlas.temp.add_lexicon_thucydideum_css",
 ]
 DB_DATA_PATH = os.environ.get("DB_DATA_PATH", PROJECT_ROOT)
 SV_ATLAS_DB_PATH = os.path.join(DB_DATA_PATH, "db.sqlite")
