@@ -837,3 +837,13 @@ def add_cgl_css(reset=True):
     )
     cgl.data["css"] = Path("data/raw/cambridge/lexicon.css").read_text()
     cgl.save()
+
+
+def add_lexicon_thucydideum_css(reset=True):
+    lexicon_thucydideum = Dictionary.objects.get(
+        urn="urn:cite2:scaife-viewer:dictionaries.v1:lexicon-thucydideum"
+    )
+    lexicon_thucydideum.data["css"] = Path(
+        "data/raw/lexicon-thucydideum/style.css"
+    ).read_text()
+    lexicon_thucydideum.save()
