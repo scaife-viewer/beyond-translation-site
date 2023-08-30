@@ -13,6 +13,7 @@ from scaife_viewer.atlas.models import (
     AttributionOrganization,
     AttributionPerson,
     AttributionRecord,
+    Dictionary,
     GrammaticalEntry,
     GrammaticalEntryCollection,
     ImageAnnotation,
@@ -827,3 +828,12 @@ def update_balex_metadata(reset=True):
         )
         to_update.append(version)
     Node.objects.bulk_update(to_update, fields=["metadata"])
+
+
+def add_cgl_css(reset=True):
+    # NOTE: Reset is a no-op
+    cgl = Dictionary.objects.get(
+        urn="urn:cite2:scaife-viewer:dictionaries.v1:cambridge-greek-lexicon"
+    )
+    cgl.data["css"] = Path("data/raw/cambridge/lexicon.css").read_text()
+    cgl.save()
