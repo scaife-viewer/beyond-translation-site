@@ -71,7 +71,17 @@ For convenience, `heroku.yml` and `heroku.dockerfile` can be used to deploy the 
 - [Review apps](https://devcenter.heroku.com/articles/build-docker-images-heroku-yml#review-apps-and-app-json) can be used to spin up a copy of the application when pull requests are opened on GitHub.
 - `heroku.dockerfile` is used to build the frontend and backend into a single image.  Frontend static assets are served via Django and Whitenoise at the application root (`/`).  See [Building docker images with heroku.yml](https://devcenter.heroku.com/articles/build-docker-images-heroku-yml) for more information.
 
-Customize `app.json` and `herok.yml` as-needed for projects derived from this repo.
+Customize `app.json` and `heroku.yml` as-needed for projects derived from this repo.
+
+### Review Apps
+[Review Apps](https://devcenter.heroku.com/articles/github-integration-review-apps) have been set up for Beyond Translation.
+
+To have a review app created for a pull request:
+- Open a new pull request
+- Ping @jacobwegner on the pull request and request that a review app be created
+- Once the review app has been created, a "View deployment" button will appear on the PR:
+![image](https://github.com/scaife-viewer/beyond-translation-site/assets/629062/472d6769-332a-4728-b6f1-991b64dccb71)
+- Subsequent commits pushed to the PR branch will trigger new deployments
 
 ## Nav
 
