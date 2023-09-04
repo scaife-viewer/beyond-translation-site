@@ -1,0 +1,34 @@
+{
+  "urn": "urn:cts:araLit:mutanabbi.divan:",
+  "group_urn": "urn:cts:araLit:mutanabbi:",
+  "node_kind": "work",
+  "lang": "ara",
+  "title": [
+    {
+      "lang": "eng",
+      "value": "Divān"
+    }
+  ],
+  "versions": [
+    {
+      "urn": "urn:cts:araLit:mutanabbi.divan.clavis-ara1:",
+      "node_kind": "version",
+      "version_kind": "edition",
+      "lang": "ara",
+      "first_passage_urn": "urn:cts:araLit:mutanabbi.divan.clavis-ara1:1.1",
+      "citation_scheme": ["work", "poem", "line", "half-verse"],
+      "label": [
+        {
+          "lang": "eng",
+          "value": "Divān"
+        }
+      ],
+      "description": [
+        {
+          "lang": "eng",
+          "value": "Derived from urn:cts:araLit:mutanabbi.divan.clavis-ara1: and edited by Ernest Suyver"
+        }
+      ]
+    }
+  ]
+}
