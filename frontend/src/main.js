@@ -49,7 +49,7 @@ import store, { apolloProvider } from '@/store';
 
 sync(store, router);
 
-const siteLabel = 'Beyond Translation';
+const siteLabel = 'Beyond Translation (Clavis Aurea)';
 
 Vue.use(SkeletonPlugin, {
   iconMap: {
