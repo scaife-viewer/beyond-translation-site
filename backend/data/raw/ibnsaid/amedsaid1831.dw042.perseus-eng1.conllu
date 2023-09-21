@@ -1,0 +1,2093 @@
+# text = Omar to Sheikh Hunter:
+# sent_id = 0
+# constituency = (ROOT (NP (NP (NNP Omar)) (PP (IN to) (NP (NNP Sheikh) (NNP Hunter))) (: :)))
+# sentiment = 1
+1	Omar	Omar	PROPN	NNP	Number=Sing	0	root	_	start_char=1|end_char=5|ner=S-PERSON
+2	to	to	ADP	IN	_	3	case	_	start_char=6|end_char=8|ner=O
+3	Sheikh	Sheikh	PROPN	NNP	Number=Sing	1	nmod	_	start_char=9|end_char=15|ner=B-PERSON
+4	Hunter	Hunter	PROPN	NNP	Number=Sing	3	flat	_	start_char=16|end_char=22|ner=E-PERSON
+5	:	:	PUNCT	:	_	1	punct	_	start_char=22|end_char=23|ner=O
+
+# text = You asked me to write my life, but I am not able to write my life, for I have forgotten much of my language along with the Arabic language.
+# sent_id = 1
+# constituency = (ROOT (S (S (NP (PRP You)) (VP (VBD asked) (NP (PRP me)) (S (VP (TO to) (VP (VB write) (NP (PRP$ my) (NN life))))))) (, ,) (CC but) (S (S (NP (PRP I)) (VP (VBP am) (RB not) (ADJP (JJ able) (S (VP (TO to) (VP (VB write) (NP (PRP$ my) (NN life)))))))) (, ,) (SBAR (IN for) (S (NP (PRP I)) (VP (VBP have) (VP (VBN forgotten) (NP (NP (JJ much)) (PP (IN of) (NP (PRP$ my) (NN language)))) (PP (IN along) (PP (IN with) (NP (DT the) (JJ Arabic) (NN language))))))))) (. .)))
+# sentiment = 0
+1	You	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	2	nsubj	_	start_char=24|end_char=27|ner=O
+2	asked	ask	VERB	VBD	Mood=Ind|Number=Sing|Person=2|Tense=Past|VerbForm=Fin	0	root	_	start_char=28|end_char=33|ner=O
+3	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	2	obj	_	start_char=34|end_char=36|ner=O
+4	to	to	PART	TO	_	5	mark	_	start_char=37|end_char=39|ner=O
+5	write	write	VERB	VB	VerbForm=Inf	2	xcomp	_	start_char=40|end_char=45|ner=O
+6	my	my	PRON	PRP$	Case=Gen|Number=Sing|Person=1|Poss=Yes|PronType=Prs	7	nmod:poss	_	start_char=46|end_char=48|ner=O
+7	life	life	NOUN	NN	Number=Sing	5	obj	_	start_char=49|end_char=53|ner=O
+8	,	,	PUNCT	,	_	13	punct	_	start_char=53|end_char=54|ner=O
+9	but	but	CCONJ	CC	_	13	cc	_	start_char=55|end_char=58|ner=O
+10	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	13	nsubj	_	start_char=59|end_char=60|ner=O
+11	am	be	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	13	cop	_	start_char=61|end_char=63|ner=O
+12	not	not	PART	RB	_	13	advmod	_	start_char=64|end_char=67|ner=O
+13	able	able	ADJ	JJ	Degree=Pos	2	conj	_	start_char=68|end_char=72|ner=O
+14	to	to	PART	TO	_	15	mark	_	start_char=73|end_char=75|ner=O
+15	write	write	VERB	VB	VerbForm=Inf	13	xcomp	_	start_char=76|end_char=81|ner=O
+16	my	my	PRON	PRP$	Case=Gen|Number=Sing|Person=1|Poss=Yes|PronType=Prs	17	nmod:poss	_	start_char=82|end_char=84|ner=O
+17	life	life	NOUN	NN	Number=Sing	15	obj	_	start_char=85|end_char=89|ner=O
+18	,	,	PUNCT	,	_	22	punct	_	start_char=89|end_char=90|ner=O
+19	for	for	SCONJ	IN	_	22	mark	_	start_char=91|end_char=94|ner=O
+20	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	22	nsubj	_	start_char=95|end_char=96|ner=O
+21	have	have	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	22	aux	_	start_char=97|end_char=101|ner=O
+22	forgotten	forget	VERB	VBN	Tense=Past|VerbForm=Part	13	advcl	_	start_char=102|end_char=111|ner=O
+23	much	much	ADJ	JJ	Degree=Pos	22	obj	_	start_char=112|end_char=116|ner=O
+24	of	of	ADP	IN	_	26	case	_	start_char=117|end_char=119|ner=O
+25	my	my	PRON	PRP$	Case=Gen|Number=Sing|Person=1|Poss=Yes|PronType=Prs	26	nmod:poss	_	start_char=120|end_char=122|ner=O
+26	language	language	NOUN	NN	Number=Sing	23	nmod	_	start_char=123|end_char=131|ner=O
+27	along	along	ADP	IN	_	31	case	_	start_char=132|end_char=137|ner=O
+28	with	with	ADP	IN	_	31	case	_	start_char=138|end_char=142|ner=O
+29	the	the	DET	DT	Definite=Def|PronType=Art	31	det	_	start_char=143|end_char=146|ner=O
+30	Arabic	Arabic	ADJ	JJ	Degree=Pos	31	amod	_	start_char=147|end_char=153|ner=S-LANGUAGE
+31	language	language	NOUN	NN	Number=Sing	22	obl	_	start_char=154|end_char=162|ner=O
+32	.	.	PUNCT	.	_	2	punct	_	start_char=162|end_char=163|ner=O
+
+# text = I cannot read grammatically except a little, or linguistically except a little.
+# sent_id = 2
+# constituency = (ROOT (S (NP (PRP I)) (VP (MD cannot) (VP (VB read) (ADVP (RB grammatically)) (PP (IN except) (NP (NP (DT a) (JJ little)) (, ,) (CC or) (ADVP (RB linguistically)) (PP (IN except) (NP (DT a) (JJ little))))))) (. .)))
+# sentiment = 0
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	start_char=164|end_char=165|ner=O
+2	cannot	cannot	AUX	MD	VerbForm=Fin	3	aux	_	start_char=166|end_char=172|ner=O
+3	read	read	VERB	VB	VerbForm=Inf	0	root	_	start_char=173|end_char=177|ner=O
+4	grammatically	grammatically	ADV	RB	_	3	advmod	_	start_char=178|end_char=191|ner=O
+5	except	except	ADP	IN	_	7	case	_	start_char=192|end_char=198|ner=O
+6	a	a	DET	DT	Definite=Ind|PronType=Art	7	det	_	start_char=199|end_char=200|ner=O
+7	little	little	ADJ	JJ	Degree=Pos	3	obl	_	start_char=201|end_char=207|ner=O
+8	,	,	PUNCT	,	_	10	punct	_	start_char=207|end_char=208|ner=O
+9	or	or	CCONJ	CC	_	10	cc	_	start_char=209|end_char=211|ner=O
+10	linguistically	linguistically	ADV	RB	_	7	conj	_	start_char=212|end_char=226|ner=O
+11	except	except	ADP	IN	_	13	case	_	start_char=227|end_char=233|ner=O
+12	a	a	DET	DT	Definite=Ind|PronType=Art	13	det	_	start_char=234|end_char=235|ner=O
+13	little	little	ADJ	JJ	Degree=Pos	10	obl	_	start_char=236|end_char=242|ner=O
+14	.	.	PUNCT	.	_	3	punct	_	start_char=242|end_char=243|ner=O
+
+# text = Oh my brother, I ask you by God not to blame me, for my eyes are weak and my body is likewise.
+# sent_id = 3
+# constituency = (ROOT (S (PP (UH Oh)) (NP (PRP$ my) (NN brother)) (, ,) (S (NP (PRP I)) (VP (VBP ask) (NP (PRP you)) (PP (IN by) (NP (NNP God))) (S (RB not) (VP (TO to) (VP (VB blame) (NP (PRP me))))))) (, ,) (SBAR (IN for) (S (S (NP (PRP$ my) (NNS eyes)) (VP (VBP are) (ADJP (JJ weak)))) (CC and) (S (NP (PRP$ my) (NN body)) (VP (VBZ is) (ADVP (RB likewise)))))) (. .)))
+# sentiment = 1
+1	Oh	oh	INTJ	UH	_	6	discourse	_	start_char=244|end_char=246|ner=O
+2	my	my	PRON	PRP$	Case=Gen|Number=Sing|Person=1|Poss=Yes|PronType=Prs	3	nmod:poss	_	start_char=247|end_char=249|ner=O
+3	brother	brother	NOUN	NN	Number=Sing	6	vocative	_	start_char=250|end_char=257|ner=O
+4	,	,	PUNCT	,	_	3	punct	_	start_char=257|end_char=258|ner=O
+5	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	6	nsubj	_	start_char=259|end_char=260|ner=O
+6	ask	ask	VERB	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	start_char=261|end_char=264|ner=O
+7	you	you	PRON	PRP	Case=Acc|Person=2|PronType=Prs	6	obj	_	start_char=265|end_char=268|ner=O
+8	by	by	ADP	IN	_	9	case	_	start_char=269|end_char=271|ner=O
+9	God	God	PROPN	NNP	Number=Sing	6	obl	_	start_char=272|end_char=275|ner=O
+10	not	not	PART	RB	_	12	advmod	_	start_char=276|end_char=279|ner=O
+11	to	to	PART	TO	_	12	mark	_	start_char=280|end_char=282|ner=O
+12	blame	blame	VERB	VB	VerbForm=Inf	6	xcomp	_	start_char=283|end_char=288|ner=O
+13	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	12	obj	_	start_char=289|end_char=291|ner=O
+14	,	,	PUNCT	,	_	19	punct	_	start_char=291|end_char=292|ner=O
+15	for	for	ADP	IN	_	19	mark	_	start_char=293|end_char=296|ner=O
+16	my	my	PRON	PRP$	Case=Gen|Number=Sing|Person=1|Poss=Yes|PronType=Prs	17	nmod:poss	_	start_char=297|end_char=299|ner=O
+17	eyes	eye	NOUN	NNS	Number=Plur	19	nsubj	_	start_char=300|end_char=304|ner=O
+18	are	be	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	19	cop	_	start_char=305|end_char=308|ner=O
+19	weak	weak	ADJ	JJ	Degree=Pos	6	parataxis	_	start_char=309|end_char=313|ner=O
+20	and	and	CCONJ	CC	_	24	cc	_	start_char=314|end_char=317|ner=O
+21	my	my	PRON	PRP$	Case=Gen|Number=Sing|Person=1|Poss=Yes|PronType=Prs	22	nmod:poss	_	start_char=318|end_char=320|ner=O
+22	body	body	NOUN	NN	Number=Sing	24	nsubj	_	start_char=321|end_char=325|ner=O
+23	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	24	cop	_	start_char=326|end_char=328|ner=O
+24	likewise	likewise	ADV	RB	_	19	conj	_	start_char=329|end_char=337|ner=O
+25	.	.	PUNCT	.	_	6	punct	_	start_char=337|end_char=338|ner=O
+
+# text = My name is Omar Ibn Said of the birthplace of Fuut of Turu between the two seas.
+# sent_id = 4
+# constituency = (ROOT (S (NP (PRP$ My) (NN name)) (VP (VBZ is) (NP (NP (NNP Omar) (NNP Ibn) (NNP Said)) (PP (IN of) (NP (NP (DT the) (NN birthplace)) (PP (IN of) (NP (NP (NNP Fuut)) (PP (IN of) (NP (NNP Turu))))) (PP (IN between) (NP (DT the) (CD two) (NNS seas))))))) (. .)))
+# sentiment = 1
+1	My	my	PRON	PRP$	Case=Gen|Number=Sing|Person=1|Poss=Yes|PronType=Prs	2	nmod:poss	_	start_char=339|end_char=341|ner=O
+2	name	name	NOUN	NN	Number=Sing	4	nsubj	_	start_char=342|end_char=346|ner=O
+3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	start_char=347|end_char=349|ner=O
+4	Omar	Omar	PROPN	NNP	Number=Sing	0	root	_	start_char=350|end_char=354|ner=B-PERSON
+5	Ibn	Ibn	PROPN	NNP	Number=Sing	4	flat	_	start_char=355|end_char=358|ner=I-PERSON
+6	Said	Said	PROPN	NNP	Number=Sing	4	flat	_	start_char=359|end_char=363|ner=E-PERSON
+7	of	of	ADP	IN	_	9	case	_	start_char=364|end_char=366|ner=O
+8	the	the	DET	DT	Definite=Def|PronType=Art	9	det	_	start_char=367|end_char=370|ner=O
+9	birthplace	birthplace	NOUN	NN	Number=Sing	4	nmod	_	start_char=371|end_char=381|ner=O
+10	of	of	ADP	IN	_	11	case	_	start_char=382|end_char=384|ner=O
+11	Fuut	Fuut	PROPN	NNP	Number=Sing	9	nmod	_	start_char=385|end_char=389|ner=B-PERSON
+12	of	of	ADP	IN	_	13	case	_	start_char=390|end_char=392|ner=I-PERSON
+13	Turu	Turu	PROPN	NNP	Number=Sing	11	nmod	_	start_char=393|end_char=397|ner=E-PERSON
+14	between	between	ADP	IN	_	17	case	_	start_char=398|end_char=405|ner=O
+15	the	the	DET	DT	Definite=Def|PronType=Art	17	det	_	start_char=406|end_char=409|ner=O
+16	two	two	NUM	CD	NumForm=Word|NumType=Card	17	nummod	_	start_char=410|end_char=413|ner=S-CARDINAL
+17	seas	sea	NOUN	NNS	Number=Plur	4	nmod	_	start_char=414|end_char=418|ner=O
+18	.	.	PUNCT	.	_	4	punct	_	start_char=418|end_char=419|ner=O
+
+# text = I sought educational provisions under a sheik named Mohammed Said and my brothers Suleiman Kembeh and Sheik Jabril Abdel.
+# sent_id = 5
+# constituency = (ROOT (S (NP (PRP I)) (VP (VBD sought) (NP (JJ educational) (NNS provisions)) (PP (IN under) (NP (NP (NP (DT a) (NN sheik)) (VP (VBN named) (S (NP (NNP Mohammed) (NNP Said))))) (CC and) (NP (PRP$ my) (NNS brothers) (NML (NML (NNP Suleiman) (NNP Kembeh)) (CC and) (NML (NNP Sheik) (NNP Jabril) (NNP Abdel))))))) (. .)))
+# sentiment = 1
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	start_char=420|end_char=421|ner=O
+2	sought	seek	VERB	VBD	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	0	root	_	start_char=422|end_char=428|ner=O
+3	educational	educational	ADJ	JJ	Degree=Pos	4	amod	_	start_char=429|end_char=440|ner=O
+4	provisions	provision	NOUN	NNS	Number=Plur	2	obj	_	start_char=441|end_char=451|ner=O
+5	under	under	ADP	IN	_	7	case	_	start_char=452|end_char=457|ner=O
+6	a	a	DET	DT	Definite=Ind|PronType=Art	7	det	_	start_char=458|end_char=459|ner=O
+7	sheik	sheik	NOUN	NN	Number=Sing	2	obl	_	start_char=460|end_char=465|ner=O
+8	named	name	VERB	VBN	Tense=Past|VerbForm=Part	7	acl	_	start_char=466|end_char=471|ner=O
+9	Mohammed	Mohammed	PROPN	NNP	Number=Sing	8	xcomp	_	start_char=472|end_char=480|ner=B-PERSON
+10	Said	Said	PROPN	NNP	Number=Sing	9	flat	_	start_char=481|end_char=485|ner=E-PERSON
+11	and	and	CCONJ	CC	_	13	cc	_	start_char=486|end_char=489|ner=O
+12	my	my	PRON	PRP$	Case=Gen|Number=Sing|Person=1|Poss=Yes|PronType=Prs	13	nmod:poss	_	start_char=490|end_char=492|ner=O
+13	brothers	brother	NOUN	NNS	Number=Plur	9	conj	_	start_char=493|end_char=501|ner=O
+14	Suleiman	Suleiman	PROPN	NNP	Number=Sing	13	appos	_	start_char=502|end_char=510|ner=B-PERSON
+15	Kembeh	Kembeh	PROPN	NNP	Number=Sing	14	flat	_	start_char=511|end_char=517|ner=E-PERSON
+16	and	and	CCONJ	CC	_	17	cc	_	start_char=518|end_char=521|ner=O
+17	Sheik	Sheik	PROPN	NNP	Number=Sing	14	conj	_	start_char=522|end_char=527|ner=B-PERSON
+18	Jabril	Jabril	PROPN	NNP	Number=Sing	17	flat	_	start_char=528|end_char=534|ner=I-PERSON
+19	Abdel	Abdel	PROPN	NNP	Number=Sing	17	flat	_	start_char=535|end_char=540|ner=E-PERSON
+20	.	.	PUNCT	.	_	2	punct	_	start_char=540|end_char=541|ner=O
+
+# text = I remained a student of learning for 25 years.
+# sent_id = 6
+# constituency = (ROOT (S (NP (PRP I)) (VP (VBD remained) (NP (NP (DT a) (NN student)) (PP (IN of) (NP (NN learning)))) (PP (IN for) (NP (CD 25) (NNS years)))) (. .)))
+# sentiment = 1
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	start_char=542|end_char=543|ner=O
+2	remained	remain	VERB	VBD	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	0	root	_	start_char=544|end_char=552|ner=O
+3	a	a	DET	DT	Definite=Ind|PronType=Art	4	det	_	start_char=553|end_char=554|ner=O
+4	student	student	NOUN	NN	Number=Sing	2	xcomp	_	start_char=555|end_char=562|ner=O
+5	of	of	ADP	IN	_	6	case	_	start_char=563|end_char=565|ner=O
+6	learning	learning	NOUN	NN	Number=Sing	4	nmod	_	start_char=566|end_char=574|ner=O
+7	for	for	ADP	IN	_	9	case	_	start_char=575|end_char=578|ner=O
+8	25	25	NUM	CD	NumForm=Digit|NumType=Card	9	nummod	_	start_char=579|end_char=581|ner=B-DATE
+9	years	year	NOUN	NNS	Number=Plur	2	obl	_	start_char=582|end_char=587|ner=E-DATE
+10	.	.	PUNCT	.	_	2	punct	_	start_char=587|end_char=588|ner=O
+
+# text = I returned to my place for six years.
+# sent_id = 7
+# constituency = (ROOT (S (NP (PRP I)) (VP (VBD returned) (PP (IN to) (NP (PRP$ my) (NN place))) (PP (IN for) (NP (CD six) (NNS years)))) (. .)))
+# sentiment = 1
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	start_char=589|end_char=590|ner=O
+2	returned	return	VERB	VBD	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	0	root	_	start_char=591|end_char=599|ner=O
+3	to	to	ADP	IN	_	5	case	_	start_char=600|end_char=602|ner=O
+4	my	my	PRON	PRP$	Case=Gen|Number=Sing|Person=1|Poss=Yes|PronType=Prs	5	nmod:poss	_	start_char=603|end_char=605|ner=O
+5	place	place	NOUN	NN	Number=Sing	2	obl	_	start_char=606|end_char=611|ner=O
+6	for	for	ADP	IN	_	8	case	_	start_char=612|end_char=615|ner=O
+7	six	six	NUM	CD	NumForm=Word|NumType=Card	8	nummod	_	start_char=616|end_char=619|ner=B-DATE
+8	years	year	NOUN	NNS	Number=Plur	2	obl	_	start_char=620|end_char=625|ner=E-DATE
+9	.	.	PUNCT	.	_	2	punct	_	start_char=625|end_char=626|ner=O
+
+# text = There came to our country a great army.
+# sent_id = 8
+# constituency = (ROOT (S (NP (EX There)) (VP (VBD came) (PP (IN to) (NP (PRP$ our) (NN country))) (NP (DT a) (JJ great) (NN army))) (. .)))
+# sentiment = 1
+1	There	there	PRON	EX	_	2	expl	_	start_char=628|end_char=633|ner=O
+2	came	come	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	start_char=634|end_char=638|ner=O
+3	to	to	ADP	IN	_	5	case	_	start_char=639|end_char=641|ner=O
+4	our	we	PRON	PRP$	Case=Gen|Number=Plur|Person=1|Poss=Yes|PronType=Prs	5	nmod:poss	_	start_char=642|end_char=645|ner=O
+5	country	country	NOUN	NN	Number=Sing	2	obl	_	start_char=646|end_char=653|ner=O
+6	a	a	DET	DT	Definite=Ind|PronType=Art	8	det	_	start_char=654|end_char=655|ner=O
+7	great	great	ADJ	JJ	Degree=Pos	8	amod	_	start_char=656|end_char=661|ner=O
+8	army	army	NOUN	NN	Number=Sing	2	nsubj	_	start_char=662|end_char=666|ner=O
+9	.	.	PUNCT	.	_	2	punct	_	start_char=666|end_char=667|ner=O
+
+# text = It killed many people, made me go to the greatest sea, sold me into the hand of the Christian who bought me and moved me to a large ship of the great sea.
+# sent_id = 9
+# constituency = (ROOT (S (NP (PRP It)) (VP (VP (VBD killed) (NP (JJ many) (NNS people))) (, ,) (VP (VBD made) (S (NP (PRP me)) (VP (VB go) (PP (IN to) (NP (DT the) (JJS greatest) (NN sea)))))) (, ,) (VP (VBD sold) (NP (PRP me)) (PP (IN into) (NP (NP (DT the) (NN hand)) (PP (IN of) (NP (NP (DT the) (NNP Christian)) (SBAR (WHNP (WP who)) (S (VP (VP (VBD bought) (NP (PRP me))) (CC and) (VP (VBD moved) (NP (PRP me)) (PP (IN to) (NP (NP (DT a) (JJ large) (NN ship)) (PP (IN of) (NP (DT the) (JJ great) (NN sea))))))))))))))) (. .)))
+# sentiment = 1
+1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	start_char=668|end_char=670|ner=O
+2	killed	kill	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	start_char=671|end_char=677|ner=O
+3	many	many	ADJ	JJ	Degree=Pos	4	amod	_	start_char=678|end_char=682|ner=O
+4	people	people	NOUN	NNS	Number=Plur	2	obj	_	start_char=683|end_char=689|ner=O
+5	,	,	PUNCT	,	_	6	punct	_	start_char=689|end_char=690|ner=O
+6	made	make	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	2	conj	_	start_char=691|end_char=695|ner=O
+7	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	6	obj	_	start_char=696|end_char=698|ner=O
+8	go	go	VERB	VB	VerbForm=Inf	6	xcomp	_	start_char=699|end_char=701|ner=O
+9	to	to	ADP	IN	_	12	case	_	start_char=702|end_char=704|ner=O
+10	the	the	DET	DT	Definite=Def|PronType=Art	12	det	_	start_char=705|end_char=708|ner=O
+11	greatest	great	ADJ	JJS	Degree=Sup	12	amod	_	start_char=709|end_char=717|ner=O
+12	sea	sea	NOUN	NN	Number=Sing	8	obl	_	start_char=718|end_char=721|ner=O
+13	,	,	PUNCT	,	_	14	punct	_	start_char=721|end_char=722|ner=O
+14	sold	sell	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	2	conj	_	start_char=723|end_char=727|ner=O
+15	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	14	obj	_	start_char=728|end_char=730|ner=O
+16	into	into	ADP	IN	_	18	case	_	start_char=731|end_char=735|ner=O
+17	the	the	DET	DT	Definite=Def|PronType=Art	18	det	_	start_char=736|end_char=739|ner=O
+18	hand	hand	NOUN	NN	Number=Sing	14	obl	_	start_char=740|end_char=744|ner=O
+19	of	of	ADP	IN	_	21	case	_	start_char=745|end_char=747|ner=O
+20	the	the	DET	DT	Definite=Def|PronType=Art	21	det	_	start_char=748|end_char=751|ner=O
+21	Christian	Christian	PROPN	NNP	Number=Sing	18	nmod	_	start_char=752|end_char=761|ner=S-NORP
+22	who	who	PRON	WP	PronType=Rel	23	nsubj	_	start_char=762|end_char=765|ner=O
+23	bought	buy	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	21	acl:relcl	_	start_char=766|end_char=772|ner=O
+24	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	23	obj	_	start_char=773|end_char=775|ner=O
+25	and	and	CCONJ	CC	_	26	cc	_	start_char=776|end_char=779|ner=O
+26	moved	move	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	23	conj	_	start_char=780|end_char=785|ner=O
+27	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	26	obj	_	start_char=786|end_char=788|ner=O
+28	to	to	ADP	IN	_	31	case	_	start_char=789|end_char=791|ner=O
+29	a	a	DET	DT	Definite=Ind|PronType=Art	31	det	_	start_char=792|end_char=793|ner=O
+30	large	large	ADJ	JJ	Degree=Pos	31	amod	_	start_char=794|end_char=799|ner=O
+31	ship	ship	NOUN	NN	Number=Sing	26	obl	_	start_char=800|end_char=804|ner=O
+32	of	of	ADP	IN	_	35	case	_	start_char=805|end_char=807|ner=O
+33	the	the	DET	DT	Definite=Def|PronType=Art	35	det	_	start_char=808|end_char=811|ner=O
+34	great	great	ADJ	JJ	Degree=Pos	35	amod	_	start_char=812|end_char=817|ner=O
+35	sea	sea	NOUN	NN	Number=Sing	31	nmod	_	start_char=818|end_char=821|ner=O
+36	.	.	PUNCT	.	_	2	punct	_	start_char=821|end_char=822|ner=O
+
+# text = It moved on the great sea for a month and half a month and came to a place called Charleston in the words of the Christian and they sold me.
+# sent_id = 10
+# constituency = (ROOT (S (S (NP (PRP It)) (VP (VP (VBD moved) (PP (IN on) (NP (DT the) (JJ great) (NN sea))) (PP (IN for) (NP (NP (DT a) (NN month)) (CC and) (NP (PDT half) (DT a) (NN month))))) (CC and) (VP (VBD came) (PP (IN to) (NP (NP (DT a) (NN place)) (VP (VBN called) (S (NP (NNP Charleston))) (PP (IN in) (NP (NP (DT the) (NNS words)) (PP (IN of) (NP (DT the) (NNP Christian))))))))))) (CC and) (S (NP (PRP they)) (VP (VBD sold) (NP (PRP me)))) (. .)))
+# sentiment = 0
+1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	start_char=823|end_char=825|ner=O
+2	moved	move	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	start_char=826|end_char=831|ner=O
+3	on	on	ADP	IN	_	6	case	_	start_char=832|end_char=834|ner=O
+4	the	the	DET	DT	Definite=Def|PronType=Art	6	det	_	start_char=835|end_char=838|ner=O
+5	great	great	ADJ	JJ	Degree=Pos	6	amod	_	start_char=839|end_char=844|ner=O
+6	sea	sea	NOUN	NN	Number=Sing	2	obl	_	start_char=845|end_char=848|ner=O
+7	for	for	ADP	IN	_	9	case	_	start_char=849|end_char=852|ner=O
+8	a	a	DET	DT	Definite=Ind|PronType=Art	9	det	_	start_char=853|end_char=854|ner=B-DATE
+9	month	month	NOUN	NN	Number=Sing	2	obl	_	start_char=855|end_char=860|ner=I-DATE
+10	and	and	CCONJ	CC	_	13	cc	_	start_char=861|end_char=864|ner=I-DATE
+11	half	half	DET	PDT	NumForm=Word|NumType=Frac|PronType=Neg	13	det:predet	_	start_char=865|end_char=869|ner=I-DATE
+12	a	a	DET	DT	Definite=Ind|PronType=Art	13	det	_	start_char=870|end_char=871|ner=I-DATE
+13	month	month	NOUN	NN	Number=Sing	9	conj	_	start_char=872|end_char=877|ner=E-DATE
+14	and	and	CCONJ	CC	_	15	cc	_	start_char=878|end_char=881|ner=O
+15	came	come	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	2	conj	_	start_char=882|end_char=886|ner=O
+16	to	to	ADP	IN	_	18	case	_	start_char=887|end_char=889|ner=O
+17	a	a	DET	DT	Definite=Ind|PronType=Art	18	det	_	start_char=890|end_char=891|ner=O
+18	place	place	NOUN	NN	Number=Sing	15	obl	_	start_char=892|end_char=897|ner=O
+19	called	call	VERB	VBN	Tense=Past|VerbForm=Part	18	acl	_	start_char=898|end_char=904|ner=O
+20	Charleston	Charleston	PROPN	NNP	Number=Sing	19	xcomp	_	start_char=905|end_char=915|ner=S-GPE
+21	in	in	ADP	IN	_	23	case	_	start_char=916|end_char=918|ner=O
+22	the	the	DET	DT	Definite=Def|PronType=Art	23	det	_	start_char=919|end_char=922|ner=O
+23	words	word	NOUN	NNS	Number=Plur	19	obl	_	start_char=923|end_char=928|ner=O
+24	of	of	ADP	IN	_	26	case	_	start_char=929|end_char=931|ner=O
+25	the	the	DET	DT	Definite=Def|PronType=Art	26	det	_	start_char=932|end_char=935|ner=O
+26	Christian	Christian	PROPN	NNP	Number=Sing	23	nmod	_	start_char=936|end_char=945|ner=S-NORP
+27	and	and	CCONJ	CC	_	29	cc	_	start_char=946|end_char=949|ner=O
+28	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	29	nsubj	_	start_char=950|end_char=954|ner=O
+29	sold	sell	VERB	VBD	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	2	conj	_	start_char=955|end_char=959|ner=O
+30	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	29	obj	_	start_char=960|end_char=962|ner=O
+31	.	.	PUNCT	.	_	2	punct	_	start_char=962|end_char=963|ner=O
+
+# text = A small, weak little man of evil bought me.
+# sent_id = 11
+# constituency = (ROOT (S (NP (NP (DT A) (JJ small) (, ,) (JJ weak) (JJ little) (NN man)) (PP (IN of) (NP (NN evil)))) (VP (VBD bought) (NP (PRP me))) (. .)))
+# sentiment = 0
+1	A	a	DET	DT	Definite=Ind|PronType=Art	6	det	_	start_char=965|end_char=966|ner=O
+2	small	small	ADJ	JJ	Degree=Pos	6	amod	_	start_char=967|end_char=972|ner=O
+3	,	,	PUNCT	,	_	6	punct	_	start_char=972|end_char=973|ner=O
+4	weak	weak	ADJ	JJ	Degree=Pos	6	amod	_	start_char=974|end_char=978|ner=O
+5	little	little	ADJ	JJ	Degree=Pos	6	amod	_	start_char=979|end_char=985|ner=O
+6	man	man	NOUN	NN	Number=Sing	9	nsubj	_	start_char=986|end_char=989|ner=O
+7	of	of	ADP	IN	_	8	case	_	start_char=990|end_char=992|ner=O
+8	evil	evil	NOUN	NN	Number=Sing	6	nmod	_	start_char=993|end_char=997|ner=O
+9	bought	buy	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	start_char=998|end_char=1004|ner=O
+10	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	9	obj	_	start_char=1005|end_char=1007|ner=O
+11	.	.	PUNCT	.	_	9	punct	_	start_char=1007|end_char=1008|ner=O
+
+# text = He was called Johnson.
+# sent_id = 12
+# constituency = (ROOT (S (NP (PRP He)) (VP (VBD was) (VP (VBN called) (S (NP (NNP Johnson))))) (. .)))
+# sentiment = 1
+1	He	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	nsubj:pass	_	start_char=1009|end_char=1011|ner=O
+2	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	3	aux:pass	_	start_char=1012|end_char=1015|ner=O
+3	called	call	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	start_char=1016|end_char=1022|ner=O
+4	Johnson	Johnson	PROPN	NNP	Number=Sing	3	xcomp	_	start_char=1023|end_char=1030|ner=S-PERSON
+5	.	.	PUNCT	.	_	3	punct	_	start_char=1030|end_char=1031|ner=O
+
+# text = A great infidel, he did not fear God at all.
+# sent_id = 13
+# constituency = (ROOT (S (S (NP (DT A) (JJ great) (NN infidel))) (, ,) (NP (PRP he)) (VP (VBD did) (RB not) (VP (VB fear) (NP (NNP God)) (ADVP (IN at) (DT all)))) (. .)))
+# sentiment = 1
+1	A	a	DET	DT	Definite=Ind|PronType=Art	3	det	_	start_char=1032|end_char=1033|ner=O
+2	great	great	ADJ	JJ	Degree=Pos	3	amod	_	start_char=1034|end_char=1039|ner=O
+3	infidel	infidel	NOUN	NN	Number=Sing	0	root	_	start_char=1040|end_char=1047|ner=O
+4	,	,	PUNCT	,	_	3	punct	_	start_char=1047|end_char=1048|ner=O
+5	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	8	nsubj	_	start_char=1049|end_char=1051|ner=O
+6	did	do	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	8	aux	_	start_char=1052|end_char=1055|ner=O
+7	not	not	PART	RB	_	8	advmod	_	start_char=1056|end_char=1059|ner=O
+8	fear	fear	VERB	VB	VerbForm=Inf	3	parataxis	_	start_char=1060|end_char=1064|ner=O
+9	God	God	PROPN	NNP	Number=Sing	8	obj	_	start_char=1065|end_char=1068|ner=O
+10	at	at	ADP	IN	_	11	case	_	start_char=1069|end_char=1071|ner=O
+11	all	all	DET	DT	_	8	obl	_	start_char=1072|end_char=1075|ner=O
+12	.	.	PUNCT	.	_	8	punct	_	start_char=1075|end_char=1076|ner=O
+
+# text = I am a small man not able to work intensely.
+# sent_id = 14
+# constituency = (ROOT (S (NP (PRP I)) (VP (VBP am) (NP (NP (DT a) (JJ small) (NN man)) (ADJP (RB not) (JJ able) (S (VP (TO to) (VP (VB work) (ADVP (RB intensely)))))))) (. .)))
+# sentiment = 0
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	5	nsubj	_	start_char=1077|end_char=1078|ner=O
+2	am	be	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	5	cop	_	start_char=1079|end_char=1081|ner=O
+3	a	a	DET	DT	Definite=Ind|PronType=Art	5	det	_	start_char=1082|end_char=1083|ner=O
+4	small	small	ADJ	JJ	Degree=Pos	5	amod	_	start_char=1084|end_char=1089|ner=O
+5	man	man	NOUN	NN	Number=Sing	0	root	_	start_char=1090|end_char=1093|ner=O
+6	not	not	PART	RB	_	7	advmod	_	start_char=1094|end_char=1097|ner=O
+7	able	able	ADJ	JJ	Degree=Pos	5	conj	_	start_char=1098|end_char=1102|ner=O
+8	to	to	PART	TO	_	9	mark	_	start_char=1103|end_char=1105|ner=O
+9	work	work	VERB	VB	VerbForm=Inf	7	xcomp	_	start_char=1106|end_char=1110|ner=O
+10	intensely	intensely	ADV	RB	_	9	advmod	_	start_char=1111|end_char=1120|ner=O
+11	.	.	PUNCT	.	_	5	punct	_	start_char=1120|end_char=1121|ner=O
+
+# text = I fled from the hand of Johnson.
+# sent_id = 15
+# constituency = (ROOT (S (NP (PRP I)) (VP (VBD fled) (PP (IN from) (NP (NP (DT the) (NN hand)) (PP (IN of) (NP (NNP Johnson)))))) (. .)))
+# sentiment = 1
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	start_char=1122|end_char=1123|ner=O
+2	fled	fly	VERB	VBD	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	0	root	_	start_char=1124|end_char=1128|ner=O
+3	from	from	ADP	IN	_	5	case	_	start_char=1129|end_char=1133|ner=O
+4	the	the	DET	DT	Definite=Def|PronType=Art	5	det	_	start_char=1134|end_char=1137|ner=O
+5	hand	hand	NOUN	NN	Number=Sing	2	obl	_	start_char=1138|end_char=1142|ner=O
+6	of	of	ADP	IN	_	7	case	_	start_char=1143|end_char=1145|ner=O
+7	Johnson	Johnson	PROPN	NNP	Number=Sing	5	nmod	_	start_char=1146|end_char=1153|ner=S-PERSON
+8	.	.	PUNCT	.	_	2	punct	_	start_char=1153|end_char=1154|ner=O
+
+# text = For months I walked to a place called Fayetteville.
+# sent_id = 16
+# constituency = (ROOT (S (PP (IN For) (NP (NNS months))) (NP (PRP I)) (VP (VBD walked) (PP (IN to) (NP (NP (DT a) (NN place)) (VP (VBN called) (S (NP (NNP Fayetteville))))))) (. .)))
+# sentiment = 1
+1	For	for	ADP	IN	_	2	case	_	start_char=1155|end_char=1158|ner=O
+2	months	month	NOUN	NNS	Number=Plur	4	obl	_	start_char=1159|end_char=1165|ner=S-DATE
+3	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	nsubj	_	start_char=1166|end_char=1167|ner=O
+4	walked	walk	VERB	VBD	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	0	root	_	start_char=1168|end_char=1174|ner=O
+5	to	to	ADP	IN	_	7	case	_	start_char=1175|end_char=1177|ner=O
+6	a	a	DET	DT	Definite=Ind|PronType=Art	7	det	_	start_char=1178|end_char=1179|ner=O
+7	place	place	NOUN	NN	Number=Sing	4	obl	_	start_char=1180|end_char=1185|ner=O
+8	called	call	VERB	VBN	Tense=Past|VerbForm=Part	7	acl	_	start_char=1186|end_char=1192|ner=O
+9	Fayetteville	Fayetteville	PROPN	NNP	Number=Sing	8	obj	_	start_char=1193|end_char=1205|ner=S-GPE
+10	.	.	PUNCT	.	_	4	punct	_	start_char=1205|end_char=1206|ner=O
+
+# text = I saw houses.
+# sent_id = 17
+# constituency = (ROOT (S (NP (PRP I)) (VP (VBD saw) (NP (NNS houses))) (. .)))
+# sentiment = 1
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	start_char=1207|end_char=1208|ner=O
+2	saw	see	VERB	VBD	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	0	root	_	start_char=1209|end_char=1212|ner=O
+3	houses	house	NOUN	NNS	Number=Plur	2	obj	_	start_char=1213|end_char=1219|ner=O
+4	.	.	PUNCT	.	_	2	punct	_	start_char=1219|end_char=1220|ner=O
+
+# text = For months I entered into the houses to pray.
+# sent_id = 18
+# constituency = (ROOT (S (PP (IN For) (NP (NNS months))) (NP (PRP I)) (VP (VBD entered) (PP (IN into) (NP (DT the) (NNS houses))) (S (VP (TO to) (VP (VB pray))))) (. .)))
+# sentiment = 1
+1	For	for	ADP	IN	_	2	case	_	start_char=1221|end_char=1224|ner=O
+2	months	month	NOUN	NNS	Number=Plur	4	obl	_	start_char=1225|end_char=1231|ner=S-DATE
+3	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	nsubj	_	start_char=1232|end_char=1233|ner=O
+4	entered	enter	VERB	VBD	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	0	root	_	start_char=1234|end_char=1241|ner=O
+5	into	into	ADP	IN	_	7	case	_	start_char=1242|end_char=1246|ner=O
+6	the	the	DET	DT	Definite=Def|PronType=Art	7	det	_	start_char=1247|end_char=1250|ner=O
+7	houses	house	NOUN	NNS	Number=Plur	4	obl	_	start_char=1251|end_char=1257|ner=O
+8	to	to	PART	TO	_	9	mark	_	start_char=1258|end_char=1260|ner=O
+9	pray	pray	VERB	VB	VerbForm=Inf	4	advcl	_	start_char=1261|end_char=1265|ner=O
+10	.	.	PUNCT	.	_	4	punct	_	start_char=1265|end_char=1266|ner=O
+
+# text = I saw a boy riding a horse.
+# sent_id = 19
+# constituency = (ROOT (S (NP (PRP I)) (VP (VBD saw) (S (NP (DT a) (NN boy)) (VP (VBG riding) (NP (DT a) (NN horse))))) (. .)))
+# sentiment = 1
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	start_char=1267|end_char=1268|ner=O
+2	saw	see	VERB	VBD	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	0	root	_	start_char=1269|end_char=1272|ner=O
+3	a	a	DET	DT	Definite=Ind|PronType=Art	4	det	_	start_char=1273|end_char=1274|ner=O
+4	boy	boy	NOUN	NN	Number=Sing	2	obj	_	start_char=1275|end_char=1278|ner=O
+5	riding	ride	VERB	VBG	VerbForm=Ger	4	acl	_	start_char=1279|end_char=1285|ner=O
+6	a	a	DET	DT	Definite=Ind|PronType=Art	7	det	_	start_char=1286|end_char=1287|ner=O
+7	horse	horse	NOUN	NN	Number=Sing	5	obj	_	start_char=1288|end_char=1293|ner=O
+8	.	.	PUNCT	.	_	2	punct	_	start_char=1293|end_char=1294|ner=O
+
+# text = The boy came to the place of his father and informed his father that he saw me, a Black man, in the prominent house.
+# sent_id = 20
+# constituency = (ROOT (S (NP (DT The) (NN boy)) (VP (VP (VBD came) (PP (IN to) (NP (NP (DT the) (NN place)) (PP (IN of) (NP (PRP$ his) (NN father)))))) (CC and) (VP (VBD informed) (NP (PRP$ his) (NN father)) (SBAR (IN that) (S (NP (PRP he)) (VP (VBD saw) (NP (NP (PRP me)) (, ,) (NP (DT a) (JJ Black) (NN man)) (, ,)) (PP (IN in) (NP (DT the) (JJ prominent) (NN house)))))))) (. .)))
+# sentiment = 1
+1	The	the	DET	DT	Definite=Def|PronType=Art	2	det	_	start_char=1295|end_char=1298|ner=O
+2	boy	boy	NOUN	NN	Number=Sing	3	nsubj	_	start_char=1299|end_char=1302|ner=O
+3	came	come	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	start_char=1303|end_char=1307|ner=O
+4	to	to	ADP	IN	_	6	case	_	start_char=1308|end_char=1310|ner=O
+5	the	the	DET	DT	Definite=Def|PronType=Art	6	det	_	start_char=1311|end_char=1314|ner=O
+6	place	place	NOUN	NN	Number=Sing	3	obl	_	start_char=1315|end_char=1320|ner=O
+7	of	of	ADP	IN	_	9	case	_	start_char=1321|end_char=1323|ner=O
+8	his	he	PRON	PRP$	Case=Gen|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	9	nmod:poss	_	start_char=1324|end_char=1327|ner=O
+9	father	father	NOUN	NN	Number=Sing	6	nmod	_	start_char=1328|end_char=1334|ner=O
+10	and	and	CCONJ	CC	_	11	cc	_	start_char=1335|end_char=1338|ner=O
+11	informed	inform	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	3	conj	_	start_char=1339|end_char=1347|ner=O
+12	his	he	PRON	PRP$	Case=Gen|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	13	nmod:poss	_	start_char=1348|end_char=1351|ner=O
+13	father	father	NOUN	NN	Number=Sing	11	obj	_	start_char=1352|end_char=1358|ner=O
+14	that	that	SCONJ	IN	_	16	mark	_	start_char=1359|end_char=1363|ner=O
+15	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	16	nsubj	_	start_char=1364|end_char=1366|ner=O
+16	saw	see	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	11	ccomp	_	start_char=1367|end_char=1370|ner=O
+17	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	16	obj	_	start_char=1371|end_char=1373|ner=O
+18	,	,	PUNCT	,	_	21	punct	_	start_char=1373|end_char=1374|ner=O
+19	a	a	DET	DT	Definite=Ind|PronType=Art	21	det	_	start_char=1375|end_char=1376|ner=O
+20	Black	Black	ADJ	JJ	Degree=Pos	21	amod	_	start_char=1377|end_char=1382|ner=S-NORP
+21	man	man	NOUN	NN	Number=Sing	17	appos	_	start_char=1383|end_char=1386|ner=O
+22	,	,	PUNCT	,	_	26	punct	_	start_char=1386|end_char=1387|ner=O
+23	in	in	ADP	IN	_	26	case	_	start_char=1388|end_char=1390|ner=O
+24	the	the	DET	DT	Definite=Def|PronType=Art	26	det	_	start_char=1391|end_char=1394|ner=O
+25	prominent	prominent	ADJ	JJ	Degree=Pos	26	amod	_	start_char=1395|end_char=1404|ner=O
+26	house	house	NOUN	NN	Number=Sing	16	obl	_	start_char=1405|end_char=1410|ner=O
+27	.	.	PUNCT	.	_	3	punct	_	start_char=1410|end_char=1411|ner=O
+
+# text = A man named Hunter and one other man among them riding horses with many dogs took me to go with them twelve miles to a place called Fayetteville, to a big house that I was not able to leave.
+# sent_id = 21
+# constituency = (ROOT (S (NP (NP (NP (NP (DT A) (NN man)) (VP (VBN named) (S (NP (NNP Hunter))))) (CC and) (NP (NP (CD one) (JJ other) (NN man)) (PP (IN among) (NP (PRP them))))) (VP (VBG riding) (NP (NNS horses)) (PP (IN with) (NP (JJ many) (NNS dogs))))) (VP (VBD took) (NP (PRP me)) (S (VP (TO to) (VP (VB go) (PP (IN with) (NP (PRP them))) (NP (NP (CD twelve) (NNS miles)) (PP (IN to) (NP (NP (DT a) (NN place)) (VP (VBN called) (S (NP (NNP Fayetteville))))))) (, ,) (PP (IN to) (NP (NP (DT a) (JJ big) (NN house)) (SBAR (WHNP (WDT that)) (S (NP (PRP I)) (VP (VBD was) (RB not) (ADJP (JJ able) (S (VP (TO to) (VP (VB leave)))))))))))))) (. .)))
+# sentiment = 0
+1	A	a	DET	DT	Definite=Ind|PronType=Art	2	det	_	start_char=1412|end_char=1413|ner=O
+2	man	man	NOUN	NN	Number=Sing	16	nsubj	_	start_char=1414|end_char=1417|ner=O
+3	named	name	VERB	VBN	Tense=Past|VerbForm=Part	2	acl	_	start_char=1418|end_char=1423|ner=O
+4	Hunter	Hunter	PROPN	NNP	Number=Sing	3	xcomp	_	start_char=1424|end_char=1430|ner=S-PERSON
+5	and	and	CCONJ	CC	_	8	cc	_	start_char=1431|end_char=1434|ner=O
+6	one	one	NUM	CD	NumForm=Word|NumType=Card	8	nummod	_	start_char=1435|end_char=1438|ner=S-CARDINAL
+7	other	other	ADJ	JJ	Degree=Pos	8	amod	_	start_char=1439|end_char=1444|ner=O
+8	man	man	NOUN	NN	Number=Sing	2	conj	_	start_char=1445|end_char=1448|ner=O
+9	among	among	ADP	IN	_	10	case	_	start_char=1449|end_char=1454|ner=O
+10	them	they	PRON	PRP	Case=Acc|Number=Plur|Person=3|PronType=Prs	8	nmod	_	start_char=1455|end_char=1459|ner=O
+11	riding	ride	VERB	VBG	VerbForm=Ger	8	acl	_	start_char=1460|end_char=1466|ner=O
+12	horses	horse	NOUN	NNS	Number=Plur	11	obj	_	start_char=1467|end_char=1473|ner=O
+13	with	with	ADP	IN	_	15	case	_	start_char=1474|end_char=1478|ner=O
+14	many	many	ADJ	JJ	Degree=Pos	15	amod	_	start_char=1479|end_char=1483|ner=O
+15	dogs	dog	NOUN	NNS	Number=Plur	11	obl	_	start_char=1484|end_char=1488|ner=O
+16	took	take	VERB	VBD	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	0	root	_	start_char=1489|end_char=1493|ner=O
+17	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	16	obj	_	start_char=1494|end_char=1496|ner=O
+18	to	to	PART	TO	_	19	mark	_	start_char=1497|end_char=1499|ner=O
+19	go	go	VERB	VB	VerbForm=Inf	16	xcomp	_	start_char=1500|end_char=1502|ner=O
+20	with	with	ADP	IN	_	21	case	_	start_char=1503|end_char=1507|ner=O
+21	them	they	PRON	PRP	Case=Acc|Number=Plur|Person=3|PronType=Prs	19	obl	_	start_char=1508|end_char=1512|ner=O
+22	twelve	twelve	NUM	CD	NumForm=Word|NumType=Card	23	nummod	_	start_char=1513|end_char=1519|ner=B-QUANTITY
+23	miles	mile	NOUN	NNS	Number=Plur	19	obl:npmod	_	start_char=1520|end_char=1525|ner=E-QUANTITY
+24	to	to	ADP	IN	_	26	case	_	start_char=1526|end_char=1528|ner=O
+25	a	a	DET	DT	Definite=Ind|PronType=Art	26	det	_	start_char=1529|end_char=1530|ner=O
+26	place	place	NOUN	NN	Number=Sing	19	obl	_	start_char=1531|end_char=1536|ner=O
+27	called	call	VERB	VBN	Tense=Past|VerbForm=Part	26	acl	_	start_char=1537|end_char=1543|ner=O
+28	Fayetteville	Fayetteville	PROPN	NNP	Number=Sing	27	xcomp	_	start_char=1544|end_char=1556|ner=S-GPE
+29	,	,	PUNCT	,	_	33	punct	_	start_char=1556|end_char=1557|ner=O
+30	to	to	ADP	IN	_	33	case	_	start_char=1558|end_char=1560|ner=O
+31	a	a	DET	DT	Definite=Ind|PronType=Art	33	det	_	start_char=1561|end_char=1562|ner=O
+32	big	big	ADJ	JJ	Degree=Pos	33	amod	_	start_char=1563|end_char=1566|ner=O
+33	house	house	NOUN	NN	Number=Sing	19	obl	_	start_char=1567|end_char=1572|ner=O
+34	that	that	PRON	WDT	PronType=Rel	40	obj	_	start_char=1573|end_char=1577|ner=O
+35	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	38	nsubj	_	start_char=1578|end_char=1579|ner=O
+36	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	38	cop	_	start_char=1580|end_char=1583|ner=O
+37	not	not	PART	RB	_	38	advmod	_	start_char=1584|end_char=1587|ner=O
+38	able	able	ADJ	JJ	Degree=Pos	33	acl:relcl	_	start_char=1588|end_char=1592|ner=O
+39	to	to	PART	TO	_	40	mark	_	start_char=1593|end_char=1595|ner=O
+40	leave	leave	VERB	VB	VerbForm=Inf	38	xcomp	_	start_char=1596|end_char=1601|ner=O
+41	.	.	PUNCT	.	_	16	punct	_	start_char=1601|end_char=1602|ner=O
+
+# text = I remained in the big house called jail in the Christian language for 16 days and nights.
+# sent_id = 22
+# constituency = (ROOT (S (NP (PRP I)) (VP (VBD remained) (PP (IN in) (NP (NP (DT the) (JJ big) (NN house)) (VP (VBN called) (S (NP (NN jail)))))) (PP (IN in) (NP (DT the) (JJ Christian) (NN language))) (PP (IN for) (NP (CD 16) (NNS days) (CC and) (NNS nights)))) (. .)))
+# sentiment = 1
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	start_char=1603|end_char=1604|ner=O
+2	remained	remain	VERB	VBD	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	0	root	_	start_char=1605|end_char=1613|ner=O
+3	in	in	ADP	IN	_	6	case	_	start_char=1614|end_char=1616|ner=O
+4	the	the	DET	DT	Definite=Def|PronType=Art	6	det	_	start_char=1617|end_char=1620|ner=O
+5	big	big	ADJ	JJ	Degree=Pos	6	amod	_	start_char=1621|end_char=1624|ner=O
+6	house	house	NOUN	NN	Number=Sing	2	obl	_	start_char=1625|end_char=1630|ner=O
+7	called	call	VERB	VBN	Tense=Past|VerbForm=Part	6	acl	_	start_char=1631|end_char=1637|ner=O
+8	jail	jail	NOUN	NN	Number=Sing	7	xcomp	_	start_char=1638|end_char=1642|ner=O
+9	in	in	ADP	IN	_	12	case	_	start_char=1643|end_char=1645|ner=O
+10	the	the	DET	DT	Definite=Def|PronType=Art	12	det	_	start_char=1646|end_char=1649|ner=O
+11	Christian	Christian	ADJ	JJ	Degree=Pos	12	amod	_	start_char=1650|end_char=1659|ner=S-NORP
+12	language	language	NOUN	NN	Number=Sing	7	obl	_	start_char=1660|end_char=1668|ner=O
+13	for	for	ADP	IN	_	15	case	_	start_char=1669|end_char=1672|ner=O
+14	16	16	NUM	CD	NumForm=Digit|NumType=Card	15	nummod	_	start_char=1673|end_char=1675|ner=B-DATE
+15	days	day	NOUN	NNS	Number=Plur	2	obl	_	start_char=1676|end_char=1680|ner=E-DATE
+16	and	and	CCONJ	CC	_	17	cc	_	start_char=1681|end_char=1684|ner=O
+17	nights	night	NOUN	NNS	Number=Plur	15	conj	_	start_char=1685|end_char=1691|ner=O
+18	.	.	PUNCT	.	_	2	punct	_	start_char=1691|end_char=1692|ner=O
+
+# text = On Friday I went to the big one who opened the door of the house.
+# sent_id = 23
+# constituency = (ROOT (S (PP (IN On) (NP (NNP Friday))) (NP (PRP I)) (VP (VBD went) (PP (IN to) (NP (NP (DT the) (JJ big) (NN one)) (SBAR (WHNP (WP who)) (S (VP (VBD opened) (NP (NP (DT the) (NN door)) (PP (IN of) (NP (DT the) (NN house)))))))))) (. .)))
+# sentiment = 1
+1	On	on	ADP	IN	_	2	case	_	start_char=1693|end_char=1695|ner=O
+2	Friday	Friday	PROPN	NNP	Number=Sing	4	obl	_	start_char=1696|end_char=1702|ner=S-DATE
+3	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	nsubj	_	start_char=1703|end_char=1704|ner=O
+4	went	go	VERB	VBD	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	0	root	_	start_char=1705|end_char=1709|ner=O
+5	to	to	ADP	IN	_	8	case	_	start_char=1710|end_char=1712|ner=O
+6	the	the	DET	DT	Definite=Def|PronType=Art	8	det	_	start_char=1713|end_char=1716|ner=O
+7	big	big	ADJ	JJ	Degree=Pos	8	amod	_	start_char=1717|end_char=1720|ner=O
+8	one	one	NOUN	NN	Number=Sing	4	obl	_	start_char=1721|end_char=1724|ner=O
+9	who	who	PRON	WP	PronType=Rel	10	nsubj	_	start_char=1725|end_char=1728|ner=O
+10	opened	open	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	8	acl:relcl	_	start_char=1729|end_char=1735|ner=O
+11	the	the	DET	DT	Definite=Def|PronType=Art	12	det	_	start_char=1736|end_char=1739|ner=O
+12	door	door	NOUN	NN	Number=Sing	10	obj	_	start_char=1740|end_char=1744|ner=O
+13	of	of	ADP	IN	_	15	case	_	start_char=1745|end_char=1747|ner=O
+14	the	the	DET	DT	Definite=Def|PronType=Art	15	det	_	start_char=1748|end_char=1751|ner=O
+15	house	house	NOUN	NN	Number=Sing	12	nmod	_	start_char=1752|end_char=1757|ner=O
+16	.	.	PUNCT	.	_	4	punct	_	start_char=1757|end_char=1758|ner=O
+
+# text = I saw lots of men all of them Christian.
+# sent_id = 24
+# constituency = (ROOT (S (NP (PRP I)) (VP (VBD saw) (S (NP (NP (NNS lots)) (PP (IN of) (NP (NP (NNS men)) (NP (NP (DT all)) (PP (IN of) (NP (PRP them))))))) (ADJP (NNP Christian)))) (. .)))
+# sentiment = 1
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	start_char=1759|end_char=1760|ner=O
+2	saw	see	VERB	VBD	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	0	root	_	start_char=1761|end_char=1764|ner=O
+3	lots	lot	NOUN	NNS	Number=Plur	2	obj	_	start_char=1765|end_char=1769|ner=O
+4	of	of	ADP	IN	_	5	case	_	start_char=1770|end_char=1772|ner=O
+5	men	man	NOUN	NNS	Number=Plur	3	nmod	_	start_char=1773|end_char=1776|ner=O
+6	all	all	DET	DT	_	9	nsubj	_	start_char=1777|end_char=1780|ner=O
+7	of	of	ADP	IN	_	8	case	_	start_char=1781|end_char=1783|ner=O
+8	them	they	PRON	PRP	Case=Acc|Number=Plur|Person=3|PronType=Prs	6	nmod	_	start_char=1784|end_char=1788|ner=O
+9	Christian	Christian	PROPN	NNP	Number=Sing	5	appos	_	start_char=1789|end_char=1798|ner=S-NORP
+10	.	.	PUNCT	.	_	2	punct	_	start_char=1798|end_char=1799|ner=O
+
+# text = He called to me, “Is your name Omar or Said?” I couldn’t hear the Christian words.
+# sent_id = 25
+# constituency = (ROOT (S (NP (PRP He)) (VP (VBD called) (PP (IN to) (NP (PRP me))) (, ,) (`` “) (SQ (VBZ Is) (NP (PRP$ your) (NN name)) (NP (NP (NNP Omar)) (CC or) (VP (VBN Said))) (. ?) ('' ”) (S (NP (PRP I)) (VP (MD could) (RB n’t) (VP (VB hear) (NP (DT the) (JJ Christian) (NNS words))))))) (. .)))
+# sentiment = 1
+1	He	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	start_char=1800|end_char=1802|ner=O
+2	called	call	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	start_char=1803|end_char=1809|ner=O
+3	to	to	ADP	IN	_	4	case	_	start_char=1810|end_char=1812|ner=O
+4	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	2	obl	_	start_char=1813|end_char=1815|ner=O
+5	,	,	PUNCT	,	_	10	punct	_	start_char=1815|end_char=1816|ner=O
+6	“	''	PUNCT	``	_	10	punct	_	start_char=1817|end_char=1818|ner=O
+7	Is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	cop	_	start_char=1818|end_char=1820|ner=O
+8	your	you	PRON	PRP$	Case=Gen|Person=2|Poss=Yes|PronType=Prs	9	nmod:poss	_	start_char=1821|end_char=1825|ner=O
+9	name	name	NOUN	NN	Number=Sing	10	nsubj	_	start_char=1826|end_char=1830|ner=O
+10	Omar	Omar	PROPN	NNP	Number=Sing	2	ccomp	_	start_char=1831|end_char=1835|ner=S-PERSON
+11	or	or	CCONJ	CC	_	12	cc	_	start_char=1836|end_char=1838|ner=O
+12	Said	Said	VERB	VBN	Tense=Past|VerbForm=Part	10	conj	_	start_char=1839|end_char=1843|ner=S-PERSON
+13	?	?	PUNCT	.	_	10	punct	_	start_char=1843|end_char=1844|ner=O
+14	”	''	PUNCT	''	_	10	punct	_	start_char=1844|end_char=1845|ner=O
+15	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	18	nsubj	_	start_char=1846|end_char=1847|ner=O
+16	could	could	AUX	MD	VerbForm=Fin	18	aux	_	start_char=1848|end_char=1853|ner=O
+17	n’t	not	PART	RB	_	18	advmod	_	start_char=1853|end_char=1856|ner=O
+18	hear	hear	VERB	VB	VerbForm=Inf	2	parataxis	_	start_char=1857|end_char=1861|ner=O
+19	the	the	DET	DT	Definite=Def|PronType=Art	21	det	_	start_char=1862|end_char=1865|ner=O
+20	Christian	Christian	ADJ	JJ	Degree=Pos	21	amod	_	start_char=1866|end_char=1875|ner=S-NORP
+21	words	word	NOUN	NNS	Number=Plur	18	obj	_	start_char=1876|end_char=1881|ner=O
+22	.	.	PUNCT	.	_	18	punct	_	start_char=1881|end_char=1882|ner=O
+
+# text = I saw a man called Bob Mumford who concealed me and sent me out of the big house.
+# sent_id = 26
+# constituency = (ROOT (S (NP (PRP I)) (VP (VBD saw) (NP (NP (NP (DT a) (NN man)) (VP (VBN called) (S (NP (NNP Bob) (NNP Mumford))))) (SBAR (WHNP (WP who)) (S (VP (VP (VBD concealed) (NP (PRP me))) (CC and) (VP (VBD sent) (NP (PRP me)) (PP (IN out) (PP (IN of) (NP (DT the) (JJ big) (NN house)))))))))) (. .)))
+# sentiment = 1
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	start_char=1883|end_char=1884|ner=O
+2	saw	see	VERB	VBD	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	0	root	_	start_char=1885|end_char=1888|ner=O
+3	a	a	DET	DT	Definite=Ind|PronType=Art	4	det	_	start_char=1889|end_char=1890|ner=O
+4	man	man	NOUN	NN	Number=Sing	2	obj	_	start_char=1891|end_char=1894|ner=O
+5	called	call	VERB	VBN	Tense=Past|VerbForm=Part	4	acl	_	start_char=1895|end_char=1901|ner=O
+6	Bob	Bob	PROPN	NNP	Number=Sing	5	xcomp	_	start_char=1902|end_char=1905|ner=B-PERSON
+7	Mumford	Mumford	PROPN	NNP	Number=Sing	6	flat	_	start_char=1906|end_char=1913|ner=E-PERSON
+8	who	who	PRON	WP	PronType=Rel	9	nsubj	_	start_char=1914|end_char=1917|ner=O
+9	concealed	conceal	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	4	acl:relcl	_	start_char=1918|end_char=1927|ner=O
+10	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	9	obj	_	start_char=1928|end_char=1930|ner=O
+11	and	and	CCONJ	CC	_	12	cc	_	start_char=1931|end_char=1934|ner=O
+12	sent	send	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	9	conj	_	start_char=1935|end_char=1939|ner=O
+13	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	12	obj	_	start_char=1940|end_char=1942|ner=O
+14	out	out	ADP	IN	_	18	case	_	start_char=1943|end_char=1946|ner=O
+15	of	of	ADP	IN	_	18	case	_	start_char=1947|end_char=1949|ner=O
+16	the	the	DET	DT	Definite=Def|PronType=Art	18	det	_	start_char=1950|end_char=1953|ner=O
+17	big	big	ADJ	JJ	Degree=Pos	18	amod	_	start_char=1954|end_char=1957|ner=O
+18	house	house	NOUN	NN	Number=Sing	12	obl	_	start_char=1958|end_char=1963|ner=O
+19	.	.	PUNCT	.	_	2	punct	_	start_char=1963|end_char=1964|ner=O
+
+# text = I rejoiced greatly.
+# sent_id = 27
+# constituency = (ROOT (S (NP (PRP I)) (VP (VBD rejoiced) (ADVP (RB greatly))) (. .)))
+# sentiment = 1
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	start_char=1965|end_char=1966|ner=O
+2	rejoiced	rejoice	VERB	VBD	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	0	root	_	start_char=1967|end_char=1975|ner=O
+3	greatly	greatly	ADV	RB	_	2	advmod	_	start_char=1976|end_char=1983|ner=O
+4	.	.	PUNCT	.	_	2	punct	_	start_char=1983|end_char=1984|ner=O
+
+# text = I went with him to his place.
+# sent_id = 28
+# constituency = (ROOT (S (NP (PRP I)) (VP (VBD went) (PP (IN with) (NP (PRP him))) (PP (IN to) (NP (PRP$ his) (NN place)))) (. .)))
+# sentiment = 1
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	start_char=1985|end_char=1986|ner=O
+2	went	go	VERB	VBD	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	0	root	_	start_char=1987|end_char=1991|ner=O
+3	with	with	ADP	IN	_	4	case	_	start_char=1992|end_char=1996|ner=O
+4	him	he	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	obl	_	start_char=1997|end_char=2000|ner=O
+5	to	to	ADP	IN	_	7	case	_	start_char=2001|end_char=2003|ner=O
+6	his	he	PRON	PRP$	Case=Gen|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	7	nmod:poss	_	start_char=2004|end_char=2007|ner=O
+7	place	place	NOUN	NN	Number=Sing	2	obl	_	start_char=2008|end_char=2013|ner=O
+8	.	.	PUNCT	.	_	2	punct	_	start_char=2013|end_char=2014|ner=O
+
+# text = I remained at the Mumford place four nights and days.
+# sent_id = 29
+# constituency = (ROOT (S (NP (PRP I)) (VP (VBD remained) (PP (IN at) (NP (DT the) (NNP Mumford) (NN place))) (NP (CD four) (NNS nights) (CC and) (NNS days))) (. .)))
+# sentiment = 1
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	start_char=2015|end_char=2016|ner=O
+2	remained	remain	VERB	VBD	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	0	root	_	start_char=2017|end_char=2025|ner=O
+3	at	at	ADP	IN	_	6	case	_	start_char=2026|end_char=2028|ner=O
+4	the	the	DET	DT	Definite=Def|PronType=Art	6	det	_	start_char=2029|end_char=2032|ner=O
+5	Mumford	Mumford	PROPN	NNP	Number=Sing	6	compound	_	start_char=2033|end_char=2040|ner=S-PERSON
+6	place	place	NOUN	NN	Number=Sing	2	obl	_	start_char=2041|end_char=2046|ner=O
+7	four	four	NUM	CD	NumForm=Word|NumType=Card	8	nummod	_	start_char=2047|end_char=2051|ner=B-DATE
+8	nights	night	NOUN	NNS	Number=Plur	2	obl:tmod	_	start_char=2052|end_char=2058|ner=I-DATE
+9	and	and	CCONJ	CC	_	10	cc	_	start_char=2059|end_char=2062|ner=I-DATE
+10	days	day	NOUN	NNS	Number=Plur	8	conj	_	start_char=2063|end_char=2067|ner=E-DATE
+11	.	.	PUNCT	.	_	2	punct	_	start_char=2067|end_char=2068|ner=O
+
+# text = A man named Jim Owen, the husband of Mumford’s daughter, Betsy Mumford, asked me if I was willing to go to the place called Bladen.
+# sent_id = 30
+# constituency = (ROOT (S (NP (NP (NP (DT A) (NN man)) (VP (VBN named) (S (NP (NNP Jim) (NNP Owen))))) (, ,) (NP (NP (DT the) (NN husband)) (PP (IN of) (NP (NP (NNP Mumford) (POS ’s) (NN daughter)) (, ,) (NP (NNP Betsy) (NNP Mumford)) (, ,))))) (VP (VBD asked) (NP (PRP me)) (SBAR (IN if) (S (NP (PRP I)) (VP (VBD was) (ADJP (JJ willing) (S (VP (TO to) (VP (VB go) (PP (IN to) (NP (NP (DT the) (NN place)) (VP (VBN called) (S (NP (NNP Bladen)))))))))))))) (. .)))
+# sentiment = 1
+1	A	a	DET	DT	Definite=Ind|PronType=Art	2	det	_	start_char=2069|end_char=2070|ner=O
+2	man	man	NOUN	NN	Number=Sing	17	nsubj	_	start_char=2071|end_char=2074|ner=O
+3	named	name	VERB	VBN	Tense=Past|VerbForm=Part	2	acl	_	start_char=2075|end_char=2080|ner=O
+4	Jim	Jim	PROPN	NNP	Number=Sing	3	xcomp	_	start_char=2081|end_char=2084|ner=B-PERSON
+5	Owen	Owen	PROPN	NNP	Number=Sing	4	flat	_	start_char=2085|end_char=2089|ner=E-PERSON
+6	,	,	PUNCT	,	_	8	punct	_	start_char=2089|end_char=2090|ner=O
+7	the	the	DET	DT	Definite=Def|PronType=Art	8	det	_	start_char=2091|end_char=2094|ner=O
+8	husband	husband	NOUN	NN	Number=Sing	4	appos	_	start_char=2095|end_char=2102|ner=O
+9	of	of	ADP	IN	_	12	case	_	start_char=2103|end_char=2105|ner=O
+10	Mumford	Mumford	PROPN	NNP	Number=Sing	12	nmod:poss	_	start_char=2106|end_char=2113|ner=S-PERSON
+11	’s	's	PART	POS	_	10	case	_	start_char=2113|end_char=2115|ner=O
+12	daughter	daughter	NOUN	NN	Number=Sing	8	nmod	_	start_char=2116|end_char=2124|ner=O
+13	,	,	PUNCT	,	_	14	punct	_	start_char=2124|end_char=2125|ner=O
+14	Betsy	Betsy	PROPN	NNP	Number=Sing	12	appos	_	start_char=2126|end_char=2131|ner=B-PERSON
+15	Mumford	Mumford	PROPN	NNP	Number=Sing	14	flat	_	start_char=2132|end_char=2139|ner=E-PERSON
+16	,	,	PUNCT	,	_	2	punct	_	start_char=2139|end_char=2140|ner=O
+17	asked	ask	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	start_char=2141|end_char=2146|ner=O
+18	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	17	obj	_	start_char=2147|end_char=2149|ner=O
+19	if	if	SCONJ	IN	_	22	mark	_	start_char=2150|end_char=2152|ner=O
+20	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	22	nsubj	_	start_char=2153|end_char=2154|ner=O
+21	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	22	cop	_	start_char=2155|end_char=2158|ner=O
+22	willing	willing	ADJ	JJ	Degree=Pos	17	advcl	_	start_char=2159|end_char=2166|ner=O
+23	to	to	PART	TO	_	24	mark	_	start_char=2167|end_char=2169|ner=O
+24	go	go	VERB	VB	VerbForm=Inf	22	xcomp	_	start_char=2170|end_char=2172|ner=O
+25	to	to	ADP	IN	_	27	case	_	start_char=2173|end_char=2175|ner=O
+26	the	the	DET	DT	Definite=Def|PronType=Art	27	det	_	start_char=2176|end_char=2179|ner=O
+27	place	place	NOUN	NN	Number=Sing	24	obl	_	start_char=2180|end_char=2185|ner=O
+28	called	call	VERB	VBN	Tense=Past|VerbForm=Part	27	acl	_	start_char=2186|end_char=2192|ner=O
+29	Bladen	Bladen	PROPN	NNP	Number=Sing	28	xcomp	_	start_char=2193|end_char=2199|ner=S-PERSON
+30	.	.	PUNCT	.	_	17	punct	_	start_char=2199|end_char=2200|ner=O
+
+# text = Yes, I was willing to go with them.
+# sent_id = 31
+# constituency = (ROOT (S (INTJ (UH Yes)) (, ,) (NP (PRP I)) (VP (VBD was) (ADJP (JJ willing) (S (VP (TO to) (VP (VB go) (PP (IN with) (NP (PRP them)))))))) (. .)))
+# sentiment = 1
+1	Yes	yes	INTJ	UH	_	5	discourse	_	start_char=2201|end_char=2204|ner=O
+2	,	,	PUNCT	,	_	5	punct	_	start_char=2204|end_char=2205|ner=O
+3	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	5	nsubj	_	start_char=2206|end_char=2207|ner=O
+4	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	5	cop	_	start_char=2208|end_char=2211|ner=O
+5	willing	willing	ADJ	JJ	Degree=Pos	0	root	_	start_char=2212|end_char=2219|ner=O
+6	to	to	PART	TO	_	7	mark	_	start_char=2220|end_char=2222|ner=O
+7	go	go	VERB	VB	VerbForm=Inf	5	xcomp	_	start_char=2223|end_char=2225|ner=O
+8	with	with	ADP	IN	_	9	case	_	start_char=2226|end_char=2230|ner=O
+9	them	they	PRON	PRP	Case=Acc|Number=Plur|Person=3|PronType=Prs	7	obl	_	start_char=2231|end_char=2235|ner=O
+10	.	.	PUNCT	.	_	5	punct	_	start_char=2235|end_char=2236|ner=O
+
+# text = I remained at the place of Jim Owen until now.
+# sent_id = 32
+# constituency = (ROOT (S (NP (PRP I)) (VP (VBD remained) (PP (IN at) (NP (NP (DT the) (NN place)) (PP (IN of) (NP (NNP Jim) (NNP Owen))))) (PP (IN until) (ADVP (RB now)))) (. .)))
+# sentiment = 1
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	start_char=2237|end_char=2238|ner=O
+2	remained	remain	VERB	VBD	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	0	root	_	start_char=2239|end_char=2247|ner=O
+3	at	at	ADP	IN	_	5	case	_	start_char=2248|end_char=2250|ner=O
+4	the	the	DET	DT	Definite=Def|PronType=Art	5	det	_	start_char=2251|end_char=2254|ner=O
+5	place	place	NOUN	NN	Number=Sing	2	obl	_	start_char=2255|end_char=2260|ner=O
+6	of	of	ADP	IN	_	7	case	_	start_char=2261|end_char=2263|ner=O
+7	Jim	Jim	PROPN	NNP	Number=Sing	5	nmod	_	start_char=2264|end_char=2267|ner=B-PERSON
+8	Owen	Owen	PROPN	NNP	Number=Sing	7	flat	_	start_char=2268|end_char=2272|ner=E-PERSON
+9	until	until	ADP	IN	_	10	case	_	start_char=2273|end_char=2278|ner=O
+10	now	now	ADV	RB	_	2	obl	_	start_char=2279|end_char=2282|ner=O
+11	.	.	PUNCT	.	_	2	punct	_	start_char=2282|end_char=2283|ner=O
+
+# text = Before bringing me to the hand of General Owen, a man named Mitchell bought me.
+# sent_id = 33
+# constituency = (ROOT (S (PP (IN Before) (S (VP (VBG bringing) (NP (PRP me)) (PP (IN to) (NP (NP (DT the) (NN hand)) (PP (IN of) (NP (NNP General) (NNP Owen)))))))) (, ,) (NP (NP (DT a) (NN man)) (VP (VBN named) (S (NP (NNP Mitchell))))) (VP (VBD bought) (NP (PRP me))) (. .)))
+# sentiment = 1
+1	Before	before	SCONJ	IN	_	2	mark	_	start_char=2284|end_char=2290|ner=O
+2	bringing	bring	VERB	VBG	VerbForm=Ger	15	advcl	_	start_char=2291|end_char=2299|ner=O
+3	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	2	obj	_	start_char=2300|end_char=2302|ner=O
+4	to	to	ADP	IN	_	6	case	_	start_char=2303|end_char=2305|ner=O
+5	the	the	DET	DT	Definite=Def|PronType=Art	6	det	_	start_char=2306|end_char=2309|ner=O
+6	hand	hand	NOUN	NN	Number=Sing	2	obl	_	start_char=2310|end_char=2314|ner=O
+7	of	of	ADP	IN	_	9	case	_	start_char=2315|end_char=2317|ner=O
+8	General	General	PROPN	NNP	Number=Sing	9	compound	_	start_char=2318|end_char=2325|ner=O
+9	Owen	Owen	PROPN	NNP	Number=Sing	6	nmod	_	start_char=2326|end_char=2330|ner=S-PERSON
+10	,	,	PUNCT	,	_	2	punct	_	start_char=2330|end_char=2331|ner=O
+11	a	a	DET	DT	Definite=Ind|PronType=Art	12	det	_	start_char=2332|end_char=2333|ner=O
+12	man	man	NOUN	NN	Number=Sing	15	nsubj	_	start_char=2334|end_char=2337|ner=O
+13	named	name	VERB	VBN	Tense=Past|VerbForm=Part	12	acl	_	start_char=2338|end_char=2343|ner=O
+14	Mitchell	Mitchell	PROPN	NNP	Number=Sing	13	obj	_	start_char=2344|end_char=2352|ner=S-PERSON
+15	bought	buy	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	start_char=2353|end_char=2359|ner=O
+16	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	15	obj	_	start_char=2360|end_char=2362|ner=O
+17	.	.	PUNCT	.	_	15	punct	_	start_char=2362|end_char=2363|ner=O
+
+# text = Mitchell came to me and asked me to come to the place of Charleston.
+# sent_id = 34
+# constituency = (ROOT (S (NP (NNP Mitchell)) (VP (VP (VBD came) (PP (IN to) (NP (PRP me)))) (CC and) (VP (VBD asked) (NP (PRP me)) (S (VP (TO to) (VP (VB come) (PP (IN to) (NP (NP (DT the) (NN place)) (PP (IN of) (NP (NNP Charleston)))))))))) (. .)))
+# sentiment = 1
+1	Mitchell	Mitchell	PROPN	NNP	Number=Sing	2	nsubj	_	start_char=2365|end_char=2373|ner=S-PERSON
+2	came	come	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	start_char=2374|end_char=2378|ner=O
+3	to	to	ADP	IN	_	4	case	_	start_char=2379|end_char=2381|ner=O
+4	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	2	obl	_	start_char=2382|end_char=2384|ner=O
+5	and	and	CCONJ	CC	_	6	cc	_	start_char=2385|end_char=2388|ner=O
+6	asked	ask	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	2	conj	_	start_char=2389|end_char=2394|ner=O
+7	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	6	obj	_	start_char=2395|end_char=2397|ner=O
+8	to	to	PART	TO	_	9	mark	_	start_char=2398|end_char=2400|ner=O
+9	come	come	VERB	VB	VerbForm=Inf	6	xcomp	_	start_char=2401|end_char=2405|ner=O
+10	to	to	ADP	IN	_	12	case	_	start_char=2406|end_char=2408|ner=O
+11	the	the	DET	DT	Definite=Def|PronType=Art	12	det	_	start_char=2409|end_char=2412|ner=O
+12	place	place	NOUN	NN	Number=Sing	9	obl	_	start_char=2413|end_char=2418|ner=O
+13	of	of	ADP	IN	_	14	case	_	start_char=2419|end_char=2421|ner=O
+14	Charleston	Charleston	PROPN	NNP	Number=Sing	12	nmod	_	start_char=2422|end_char=2432|ner=S-GPE
+15	.	.	PUNCT	.	_	2	punct	_	start_char=2432|end_char=2433|ner=O
+
+# text = I said no, no, no, no, no, no, no I wouldn’t go to the place of Charleston.
+# sent_id = 35
+# constituency = (ROOT (S (NP (PRP I)) (VP (VBD said) (INTJ (UH no)) (, ,) (S (INTJ (UH no) (, ,) (UH no) (, ,) (UH no) (, ,) (UH no) (, ,) (UH no) (, ,) (UH no)) (NP (PRP I)) (VP (MD would) (RB n’t) (VP (VB go) (PP (IN to) (NP (NP (DT the) (NN place)) (PP (IN of) (NP (NNP Charleston))))))))) (. .)))
+# sentiment = 1
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	start_char=2434|end_char=2435|ner=O
+2	said	say	VERB	VBD	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	0	root	_	start_char=2436|end_char=2440|ner=O
+3	no	no	INTJ	UH	Polarity=Neg	2	discourse	_	start_char=2441|end_char=2443|ner=O
+4	,	,	PUNCT	,	_	5	punct	_	start_char=2443|end_char=2444|ner=O
+5	no	no	INTJ	UH	Polarity=Neg	2	discourse	_	start_char=2445|end_char=2447|ner=O
+6	,	,	PUNCT	,	_	7	punct	_	start_char=2447|end_char=2448|ner=O
+7	no	no	INTJ	UH	Polarity=Neg	2	discourse	_	start_char=2449|end_char=2451|ner=O
+8	,	,	PUNCT	,	_	9	punct	_	start_char=2451|end_char=2452|ner=O
+9	no	no	INTJ	UH	Polarity=Neg	2	discourse	_	start_char=2453|end_char=2455|ner=O
+10	,	,	PUNCT	,	_	9	punct	_	start_char=2455|end_char=2456|ner=O
+11	no	no	INTJ	UH	Polarity=Neg	19	discourse	_	start_char=2457|end_char=2459|ner=O
+12	,	,	PUNCT	,	_	11	punct	_	start_char=2459|end_char=2460|ner=O
+13	no	no	INTJ	UH	Polarity=Neg	19	discourse	_	start_char=2461|end_char=2463|ner=O
+14	,	,	PUNCT	,	_	13	punct	_	start_char=2463|end_char=2464|ner=O
+15	no	no	INTJ	UH	Polarity=Neg	19	discourse	_	start_char=2465|end_char=2467|ner=O
+16	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	19	nsubj	_	start_char=2468|end_char=2469|ner=O
+17	would	would	AUX	MD	VerbForm=Fin	19	aux	_	start_char=2470|end_char=2475|ner=O
+18	n’t	not	PART	RB	_	19	advmod	_	start_char=2475|end_char=2478|ner=O
+19	go	go	VERB	VB	VerbForm=Inf	2	parataxis	_	start_char=2479|end_char=2481|ner=O
+20	to	to	ADP	IN	_	22	case	_	start_char=2482|end_char=2484|ner=O
+21	the	the	DET	DT	Definite=Def|PronType=Art	22	det	_	start_char=2485|end_char=2488|ner=O
+22	place	place	NOUN	NN	Number=Sing	19	obl	_	start_char=2489|end_char=2494|ner=O
+23	of	of	ADP	IN	_	24	case	_	start_char=2495|end_char=2497|ner=O
+24	Charleston	Charleston	PROPN	NNP	Number=Sing	22	nmod	_	start_char=2498|end_char=2508|ner=S-GPE
+25	.	.	PUNCT	.	_	2	punct	_	start_char=2508|end_char=2509|ner=O
+
+# text = I remained in the hand of Jim Owen Oh people of North Carolina, oh people of South Carolina, oh people of America, all of them, are there among them two righteous men like these righteous men called Jim Owen and John Owen?
+# sent_id = 36
+# constituency = (ROOT (S (NP (PRP I)) (VP (VBD remained) (PP (IN in) (NP (NP (DT the) (NN hand)) (PP (IN of) (NP (NP (NP (NNP Jim) (NNP Owen)) (UH Oh) (NP (NP (NNS people)) (PP (IN of) (NP (NNP North) (NNP Carolina))))) (, ,) (NP (NP (UH oh) (NNS people)) (PP (IN of) (NP (NNP South) (NNP Carolina)))) (, ,) (NP (NP (UH oh) (NNS people)) (PP (IN of) (NP (NNP America)))) (, ,) (NP (NP (DT all)) (PP (IN of) (NP (PRP them)))) (, ,))))) (VP (VBP are) (ADVP (RB there)) (PP (IN among) (NP (PRP them))) (NP (NP (CD two) (JJ righteous) (NNS men)) (PP (IN like) (NP (NP (DT these) (JJ righteous) (NNS men)) (VP (VBN called) (NP (NP (NNP Jim) (NNP Owen)) (CC and) (NP (NNP John) (NNP Owen))))))))) (. ?)))
+# sentiment = 1
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	start_char=2510|end_char=2511|ner=O
+2	remained	remain	VERB	VBD	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	0	root	_	start_char=2512|end_char=2520|ner=O
+3	in	in	ADP	IN	_	5	case	_	start_char=2521|end_char=2523|ner=O
+4	the	the	DET	DT	Definite=Def|PronType=Art	5	det	_	start_char=2524|end_char=2527|ner=O
+5	hand	hand	NOUN	NN	Number=Sing	2	obl	_	start_char=2528|end_char=2532|ner=O
+6	of	of	ADP	IN	_	7	case	_	start_char=2533|end_char=2535|ner=O
+7	Jim	Jim	PROPN	NNP	Number=Sing	5	nmod	_	start_char=2536|end_char=2539|ner=B-PERSON
+8	Owen	Owen	PROPN	NNP	Number=Sing	7	flat	_	start_char=2540|end_char=2544|ner=E-PERSON
+9	Oh	oh	INTJ	UH	_	10	discourse	_	start_char=2545|end_char=2547|ner=O
+10	people	people	NOUN	NNS	Number=Plur	7	appos	_	start_char=2548|end_char=2554|ner=O
+11	of	of	ADP	IN	_	13	case	_	start_char=2555|end_char=2557|ner=O
+12	North	North	PROPN	NNP	Number=Sing	13	compound	_	start_char=2558|end_char=2563|ner=B-GPE
+13	Carolina	Carolina	PROPN	NNP	Number=Sing	10	nmod	_	start_char=2564|end_char=2572|ner=E-GPE
+14	,	,	PUNCT	,	_	16	punct	_	start_char=2572|end_char=2573|ner=O
+15	oh	oh	INTJ	UH	_	16	discourse	_	start_char=2574|end_char=2576|ner=O
+16	people	people	NOUN	NNS	Number=Plur	10	conj	_	start_char=2577|end_char=2583|ner=O
+17	of	of	ADP	IN	_	19	case	_	start_char=2584|end_char=2586|ner=O
+18	South	South	PROPN	NNP	Number=Sing	19	compound	_	start_char=2587|end_char=2592|ner=B-GPE
+19	Carolina	Carolina	PROPN	NNP	Number=Sing	16	nmod	_	start_char=2593|end_char=2601|ner=E-GPE
+20	,	,	PUNCT	,	_	31	punct	_	start_char=2601|end_char=2602|ner=O
+21	oh	oh	INTJ	UH	_	31	discourse	_	start_char=2603|end_char=2605|ner=O
+22	people	people	NOUN	NNS	Number=Plur	31	nsubj	_	start_char=2606|end_char=2612|ner=O
+23	of	of	ADP	IN	_	24	case	_	start_char=2613|end_char=2615|ner=O
+24	America	America	PROPN	NNP	Number=Sing	22	nmod	_	start_char=2616|end_char=2623|ner=S-GPE
+25	,	,	PUNCT	,	_	26	punct	_	start_char=2623|end_char=2624|ner=O
+26	all	all	DET	DT	_	22	appos	_	start_char=2625|end_char=2628|ner=O
+27	of	of	ADP	IN	_	28	case	_	start_char=2629|end_char=2631|ner=O
+28	them	they	PRON	PRP	Case=Acc|Number=Plur|Person=3|PronType=Prs	26	nmod	_	start_char=2632|end_char=2636|ner=O
+29	,	,	PUNCT	,	_	22	punct	_	start_char=2636|end_char=2637|ner=O
+30	are	be	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	31	cop	_	start_char=2638|end_char=2641|ner=O
+31	there	there	ADV	RB	PronType=Dem	2	parataxis	_	start_char=2642|end_char=2647|ner=O
+32	among	among	ADP	IN	_	33	case	_	start_char=2648|end_char=2653|ner=O
+33	them	they	PRON	PRP	Case=Acc|Number=Plur|Person=3|PronType=Prs	31	obl	_	start_char=2654|end_char=2658|ner=O
+34	two	two	NUM	CD	NumForm=Word|NumType=Card	36	nummod	_	start_char=2659|end_char=2662|ner=S-CARDINAL
+35	righteous	righteous	ADJ	JJ	Degree=Pos	36	amod	_	start_char=2663|end_char=2672|ner=O
+36	men	man	NOUN	NNS	Number=Plur	31	parataxis	_	start_char=2673|end_char=2676|ner=O
+37	like	like	ADP	IN	_	40	case	_	start_char=2677|end_char=2681|ner=O
+38	these	this	DET	DT	Number=Plur|PronType=Dem	40	det	_	start_char=2682|end_char=2687|ner=O
+39	righteous	righteous	ADJ	JJ	Degree=Pos	40	amod	_	start_char=2688|end_char=2697|ner=O
+40	men	man	NOUN	NNS	Number=Plur	36	nmod	_	start_char=2698|end_char=2701|ner=O
+41	called	call	VERB	VBN	Tense=Past|VerbForm=Part	40	acl	_	start_char=2702|end_char=2708|ner=O
+42	Jim	Jim	PROPN	NNP	Number=Sing	41	xcomp	_	start_char=2709|end_char=2712|ner=B-PERSON
+43	Owen	Owen	PROPN	NNP	Number=Sing	42	flat	_	start_char=2713|end_char=2717|ner=E-PERSON
+44	and	and	CCONJ	CC	_	45	cc	_	start_char=2718|end_char=2721|ner=O
+45	John	John	PROPN	NNP	Number=Sing	42	conj	_	start_char=2722|end_char=2726|ner=B-PERSON
+46	Owen	Owen	PROPN	NNP	Number=Sing	45	flat	_	start_char=2727|end_char=2731|ner=E-PERSON
+47	?	?	PUNCT	.	_	2	punct	_	start_char=2731|end_char=2732|ner=O
+
+# text = All of the food that I am fed, all of the clothes I wear, they give me.
+# sent_id = 37
+# constituency = (ROOT (S (NP (NP (NP (DT All)) (PP (IN of) (NP (NP (DT the) (NN food)) (SBAR (WHNP (WDT that)) (S (NP (PRP I)) (VP (VBP am) (VP (JJ fed)))))))) (, ,) (NP (NP (DT all)) (PP (IN of) (NP (NP (DT the) (NNS clothes)) (SBAR (S (NP (PRP I)) (VP (VBP wear))))))) (, ,)) (NP (PRP they)) (VP (VBP give) (NP (PRP me))) (. .)))
+# sentiment = 1
+1	All	all	DET	DT	_	18	dislocated	_	start_char=2733|end_char=2736|ner=O
+2	of	of	ADP	IN	_	4	case	_	start_char=2737|end_char=2739|ner=O
+3	the	the	DET	DT	Definite=Def|PronType=Art	4	det	_	start_char=2740|end_char=2743|ner=O
+4	food	food	NOUN	NN	Number=Sing	1	nmod	_	start_char=2744|end_char=2748|ner=O
+5	that	that	PRON	WDT	PronType=Rel	8	obj	_	start_char=2749|end_char=2753|ner=O
+6	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	8	nsubj	_	start_char=2754|end_char=2755|ner=O
+7	am	be	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	8	cop	_	start_char=2756|end_char=2758|ner=O
+8	fed	fed	ADJ	JJ	Degree=Pos	4	acl:relcl	_	start_char=2759|end_char=2762|ner=O
+9	,	,	PUNCT	,	_	10	punct	_	start_char=2762|end_char=2763|ner=O
+10	all	all	DET	DT	_	18	dislocated	_	start_char=2764|end_char=2767|ner=O
+11	of	of	ADP	IN	_	13	case	_	start_char=2768|end_char=2770|ner=O
+12	the	the	DET	DT	Definite=Def|PronType=Art	13	det	_	start_char=2771|end_char=2774|ner=O
+13	clothes	clothes	NOUN	NNS	Number=Plur	10	nmod	_	start_char=2775|end_char=2782|ner=O
+14	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	15	nsubj	_	start_char=2783|end_char=2784|ner=O
+15	wear	wear	VERB	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	13	acl:relcl	_	start_char=2785|end_char=2789|ner=O
+16	,	,	PUNCT	,	_	18	punct	_	start_char=2789|end_char=2790|ner=O
+17	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	18	nsubj	_	start_char=2791|end_char=2795|ner=O
+18	give	give	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=2796|end_char=2800|ner=O
+19	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	18	obj	_	start_char=2801|end_char=2803|ner=O
+20	.	.	PUNCT	.	_	18	punct	_	start_char=2803|end_char=2804|ner=O
+
+# text = Jim and his brother read the gospel of God our lord, our savior, and our king and reformer of our state of being, our condition and our wealth, generously, not requisitely, according to his power.
+# sent_id = 38
+# constituency = (ROOT (S (NP (NP (NNP Jim)) (CC and) (NP (PRP$ his) (NN brother))) (VP (VBD read) (NP (NP (NP (DT the) (NN gospel)) (PP (IN of) (NP (NNP God)))) (NP (NP (PRP$ our) (NN lord)) (, ,) (NP (PRP$ our) (NN savior)) (, ,) (CC and) (NP (NP (NP (PRP$ our) (NN king) (CC and) (NN reformer)) (PP (IN of) (NP (NP (PRP$ our) (NN state)) (PP (IN of) (NP (NN being)))))) (, ,) (NP (PRP$ our) (NN condition)) (CC and) (NP (PRP$ our) (NN wealth))) (, ,) (ADVP (RB generously)) (, ,) (RB not) (ADVP (RB requisitely)) (, ,))) (PP (VBG according) (PP (IN to) (NP (PRP$ his) (NN power))))) (. .)))
+# sentiment = 2
+1	Jim	Jim	PROPN	NNP	Number=Sing	5	nsubj	_	start_char=2805|end_char=2808|ner=S-PERSON
+2	and	and	CCONJ	CC	_	4	cc	_	start_char=2809|end_char=2812|ner=O
+3	his	he	PRON	PRP$	Case=Gen|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	4	nmod:poss	_	start_char=2813|end_char=2816|ner=O
+4	brother	brother	NOUN	NN	Number=Sing	1	conj	_	start_char=2817|end_char=2824|ner=O
+5	read	read	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	start_char=2825|end_char=2829|ner=O
+6	the	the	DET	DT	Definite=Def|PronType=Art	7	det	_	start_char=2830|end_char=2833|ner=O
+7	gospel	gospel	NOUN	NN	Number=Sing	5	obj	_	start_char=2834|end_char=2840|ner=O
+8	of	of	ADP	IN	_	9	case	_	start_char=2841|end_char=2843|ner=O
+9	God	God	PROPN	NNP	Number=Sing	7	nmod	_	start_char=2844|end_char=2847|ner=O
+10	our	we	PRON	PRP$	Case=Gen|Number=Plur|Person=1|Poss=Yes|PronType=Prs	11	nmod:poss	_	start_char=2848|end_char=2851|ner=O
+11	lord	lord	NOUN	NN	Number=Sing	9	appos	_	start_char=2852|end_char=2856|ner=O
+12	,	,	PUNCT	,	_	14	punct	_	start_char=2856|end_char=2857|ner=O
+13	our	we	PRON	PRP$	Case=Gen|Number=Plur|Person=1|Poss=Yes|PronType=Prs	14	nmod:poss	_	start_char=2858|end_char=2861|ner=O
+14	savior	savior	NOUN	NN	Number=Sing	11	conj	_	start_char=2862|end_char=2868|ner=O
+15	,	,	PUNCT	,	_	18	punct	_	start_char=2868|end_char=2869|ner=O
+16	and	and	CCONJ	CC	_	18	cc	_	start_char=2870|end_char=2873|ner=O
+17	our	we	PRON	PRP$	Case=Gen|Number=Plur|Person=1|Poss=Yes|PronType=Prs	18	nmod:poss	_	start_char=2874|end_char=2877|ner=O
+18	king	king	NOUN	NN	Number=Sing	9	conj	_	start_char=2878|end_char=2882|ner=O
+19	and	and	CCONJ	CC	_	20	cc	_	start_char=2883|end_char=2886|ner=O
+20	reformer	reformer	NOUN	NN	Number=Sing	18	conj	_	start_char=2887|end_char=2895|ner=O
+21	of	of	ADP	IN	_	23	case	_	start_char=2896|end_char=2898|ner=O
+22	our	we	PRON	PRP$	Case=Gen|Number=Plur|Person=1|Poss=Yes|PronType=Prs	23	nmod:poss	_	start_char=2899|end_char=2902|ner=O
+23	state	state	NOUN	NN	Number=Sing	18	nmod	_	start_char=2903|end_char=2908|ner=O
+24	of	of	ADP	IN	_	25	case	_	start_char=2909|end_char=2911|ner=O
+25	being	being	NOUN	NN	Number=Sing	23	nmod	_	start_char=2912|end_char=2917|ner=O
+26	,	,	PUNCT	,	_	28	punct	_	start_char=2917|end_char=2918|ner=O
+27	our	we	PRON	PRP$	Case=Gen|Number=Plur|Person=1|Poss=Yes|PronType=Prs	28	nmod:poss	_	start_char=2919|end_char=2922|ner=O
+28	condition	condition	NOUN	NN	Number=Sing	23	conj	_	start_char=2923|end_char=2932|ner=O
+29	and	and	CCONJ	CC	_	31	cc	_	start_char=2933|end_char=2936|ner=O
+30	our	we	PRON	PRP$	Case=Gen|Number=Plur|Person=1|Poss=Yes|PronType=Prs	31	nmod:poss	_	start_char=2937|end_char=2940|ner=O
+31	wealth	wealth	NOUN	NN	Number=Sing	23	conj	_	start_char=2941|end_char=2947|ner=O
+32	,	,	PUNCT	,	_	33	punct	_	start_char=2947|end_char=2948|ner=O
+33	generously	generously	ADV	RB	_	7	advmod	_	start_char=2949|end_char=2959|ner=O
+34	,	,	PUNCT	,	_	33	punct	_	start_char=2959|end_char=2960|ner=O
+35	not	not	PART	RB	_	36	advmod	_	start_char=2961|end_char=2964|ner=O
+36	requisitely	requisitely	ADV	RB	_	33	conj	_	start_char=2965|end_char=2976|ner=O
+37	,	,	PUNCT	,	_	41	punct	_	start_char=2976|end_char=2977|ner=O
+38	according	accord	VERB	VBG	ExtPos=ADP|VerbForm=Ger	41	case	_	start_char=2978|end_char=2987|ner=O
+39	to	to	ADP	IN	_	38	fixed	_	start_char=2988|end_char=2990|ner=O
+40	his	he	PRON	PRP$	Case=Gen|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	41	nmod:poss	_	start_char=2991|end_char=2994|ner=O
+41	power	power	NOUN	NN	Number=Sing	7	nmod	_	start_char=2995|end_char=3000|ner=O
+42	.	.	PUNCT	.	_	5	punct	_	start_char=3000|end_char=3001|ner=O
+
+# text = I open my heart to the right way, to the way of Jesus the Messiah to a great light.
+# sent_id = 39
+# constituency = (ROOT (S (NP (PRP I)) (VP (VBP open) (NP (PRP$ my) (NN heart)) (PP (IN to) (NP (DT the) (JJ right) (NN way))) (, ,) (PP (PP (IN to) (NP (NP (NP (DT the) (NN way)) (PP (IN of) (NP (NNP Jesus)))) (NP (DT the) (NNP Messiah)))) (PP (IN to) (NP (DT a) (JJ great) (NN light))))) (. .)))
+# sentiment = 1
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	start_char=3002|end_char=3003|ner=O
+2	open	open	VERB	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	start_char=3004|end_char=3008|ner=O
+3	my	my	PRON	PRP$	Case=Gen|Number=Sing|Person=1|Poss=Yes|PronType=Prs	4	nmod:poss	_	start_char=3009|end_char=3011|ner=O
+4	heart	heart	NOUN	NN	Number=Sing	2	obj	_	start_char=3012|end_char=3017|ner=O
+5	to	to	ADP	IN	_	8	case	_	start_char=3018|end_char=3020|ner=O
+6	the	the	DET	DT	Definite=Def|PronType=Art	8	det	_	start_char=3021|end_char=3024|ner=O
+7	right	right	ADJ	JJ	Degree=Pos	8	amod	_	start_char=3025|end_char=3030|ner=O
+8	way	way	NOUN	NN	Number=Sing	2	obl	_	start_char=3031|end_char=3034|ner=O
+9	,	,	PUNCT	,	_	12	punct	_	start_char=3034|end_char=3035|ner=O
+10	to	to	ADP	IN	_	12	case	_	start_char=3036|end_char=3038|ner=O
+11	the	the	DET	DT	Definite=Def|PronType=Art	12	det	_	start_char=3039|end_char=3042|ner=O
+12	way	way	NOUN	NN	Number=Sing	2	obl	_	start_char=3043|end_char=3046|ner=O
+13	of	of	ADP	IN	_	14	case	_	start_char=3047|end_char=3049|ner=O
+14	Jesus	Jesus	PROPN	NNP	Number=Sing	12	nmod	_	start_char=3050|end_char=3055|ner=O
+15	the	the	DET	DT	Definite=Def|PronType=Art	16	det	_	start_char=3056|end_char=3059|ner=O
+16	Messiah	Messiah	PROPN	NNP	Number=Sing	14	appos	_	start_char=3060|end_char=3067|ner=O
+17	to	to	ADP	IN	_	20	case	_	start_char=3068|end_char=3070|ner=O
+18	a	a	DET	DT	Definite=Ind|PronType=Art	20	det	_	start_char=3071|end_char=3072|ner=O
+19	great	great	ADJ	JJ	Degree=Pos	20	amod	_	start_char=3073|end_char=3078|ner=O
+20	light	light	NOUN	NN	Number=Sing	12	nmod	_	start_char=3079|end_char=3084|ner=O
+21	.	.	PUNCT	.	_	2	punct	_	start_char=3084|end_char=3085|ner=O
+
+# text = Before coming to the Christian land my religion was the religion of Muhammad, the prophet of God, God bless him and grant him peace.
+# sent_id = 40
+# constituency = (ROOT (S (PP (IN Before) (S (VP (VBG coming) (PP (IN to) (NP (DT the) (JJ Christian) (NN land)))))) (NP (PRP$ my) (NN religion)) (VP (VBD was) (NP (NP (DT the) (NN religion)) (PP (IN of) (NP (NP (NNP Muhammad)) (, ,) (NP (NP (DT the) (NN prophet)) (PP (IN of) (NP (NNP God)))) (, ,) (S (NP (NNP God)) (VP (VP (VB bless) (NP (PRP him))) (CC and) (VP (VB grant) (NP (PRP him)) (NP (NN peace))))))))) (. .)))
+# sentiment = 2
+1	Before	before	SCONJ	IN	_	2	mark	_	start_char=3086|end_char=3092|ner=O
+2	coming	come	VERB	VBG	VerbForm=Ger	11	advcl	_	start_char=3093|end_char=3099|ner=O
+3	to	to	ADP	IN	_	6	case	_	start_char=3100|end_char=3102|ner=O
+4	the	the	DET	DT	Definite=Def|PronType=Art	6	det	_	start_char=3103|end_char=3106|ner=O
+5	Christian	Christian	ADJ	JJ	Degree=Pos	6	amod	_	start_char=3107|end_char=3116|ner=S-NORP
+6	land	land	NOUN	NN	Number=Sing	2	obl	_	start_char=3117|end_char=3121|ner=O
+7	my	my	PRON	PRP$	Case=Gen|Number=Sing|Person=1|Poss=Yes|PronType=Prs	8	nmod:poss	_	start_char=3122|end_char=3124|ner=O
+8	religion	religion	NOUN	NN	Number=Sing	11	nsubj	_	start_char=3125|end_char=3133|ner=O
+9	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	11	cop	_	start_char=3134|end_char=3137|ner=O
+10	the	the	DET	DT	Definite=Def|PronType=Art	11	det	_	start_char=3138|end_char=3141|ner=O
+11	religion	religion	NOUN	NN	Number=Sing	0	root	_	start_char=3142|end_char=3150|ner=O
+12	of	of	ADP	IN	_	13	case	_	start_char=3151|end_char=3153|ner=O
+13	Muhammad	Muhammad	PROPN	NNP	Number=Sing	11	nmod	_	start_char=3154|end_char=3162|ner=S-PERSON
+14	,	,	PUNCT	,	_	16	punct	_	start_char=3162|end_char=3163|ner=O
+15	the	the	DET	DT	Definite=Def|PronType=Art	16	det	_	start_char=3164|end_char=3167|ner=O
+16	prophet	prophet	NOUN	NN	Number=Sing	13	appos	_	start_char=3168|end_char=3175|ner=O
+17	of	of	ADP	IN	_	18	case	_	start_char=3176|end_char=3178|ner=O
+18	God	God	PROPN	NNP	Number=Sing	16	nmod	_	start_char=3179|end_char=3182|ner=O
+19	,	,	PUNCT	,	_	21	punct	_	start_char=3182|end_char=3183|ner=O
+20	God	God	PROPN	NNP	Number=Sing	21	nsubj	_	start_char=3184|end_char=3187|ner=O
+21	bless	bless	VERB	VB	VerbForm=Inf	11	parataxis	_	start_char=3188|end_char=3193|ner=O
+22	him	he	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	21	obj	_	start_char=3194|end_char=3197|ner=O
+23	and	and	CCONJ	CC	_	24	cc	_	start_char=3198|end_char=3201|ner=O
+24	grant	grant	VERB	VB	VerbForm=Inf	21	conj	_	start_char=3202|end_char=3207|ner=O
+25	him	he	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	24	iobj	_	start_char=3208|end_char=3211|ner=O
+26	peace	peace	NOUN	NN	Number=Sing	24	obj	_	start_char=3212|end_char=3217|ner=O
+27	.	.	PUNCT	.	_	11	punct	_	start_char=3217|end_char=3218|ner=O
+
+# text = I went to the mosque before the rising of dawn, washed my face and head and hands and feet.
+# sent_id = 41
+# constituency = (ROOT (S (NP (PRP I)) (VP (VP (VBD went) (PP (IN to) (NP (DT the) (NN mosque))) (PP (IN before) (NP (NP (DT the) (NN rising)) (PP (IN of) (NP (NN dawn)))))) (, ,) (VP (VBD washed) (NP (PRP$ my) (NN face) (CC and) (NN head) (CC and) (NNS hands) (CC and) (NNS feet)))) (. .)))
+# sentiment = 1
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	start_char=3219|end_char=3220|ner=O
+2	went	go	VERB	VBD	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	0	root	_	start_char=3221|end_char=3225|ner=O
+3	to	to	ADP	IN	_	5	case	_	start_char=3226|end_char=3228|ner=O
+4	the	the	DET	DT	Definite=Def|PronType=Art	5	det	_	start_char=3229|end_char=3232|ner=O
+5	mosque	mosque	NOUN	NN	Number=Sing	2	obl	_	start_char=3233|end_char=3239|ner=O
+6	before	before	ADP	IN	_	8	case	_	start_char=3240|end_char=3246|ner=O
+7	the	the	DET	DT	Definite=Def|PronType=Art	8	det	_	start_char=3247|end_char=3250|ner=O
+8	rising	rising	NOUN	NN	Number=Sing	2	obl	_	start_char=3251|end_char=3257|ner=O
+9	of	of	ADP	IN	_	10	case	_	start_char=3258|end_char=3260|ner=O
+10	dawn	dawn	NOUN	NN	Number=Sing	8	nmod	_	start_char=3261|end_char=3265|ner=O
+11	,	,	PUNCT	,	_	12	punct	_	start_char=3265|end_char=3266|ner=O
+12	washed	wash	VERB	VBD	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	2	conj	_	start_char=3267|end_char=3273|ner=O
+13	my	my	PRON	PRP$	Case=Gen|Number=Sing|Person=1|Poss=Yes|PronType=Prs	14	nmod:poss	_	start_char=3274|end_char=3276|ner=O
+14	face	face	NOUN	NN	Number=Sing	12	obj	_	start_char=3277|end_char=3281|ner=O
+15	and	and	CCONJ	CC	_	16	cc	_	start_char=3282|end_char=3285|ner=O
+16	head	head	NOUN	NN	Number=Sing	14	conj	_	start_char=3286|end_char=3290|ner=O
+17	and	and	CCONJ	CC	_	18	cc	_	start_char=3291|end_char=3294|ner=O
+18	hands	hand	NOUN	NNS	Number=Plur	14	conj	_	start_char=3295|end_char=3300|ner=O
+19	and	and	CCONJ	CC	_	20	cc	_	start_char=3301|end_char=3304|ner=O
+20	feet	foot	NOUN	NNS	Number=Plur	18	conj	_	start_char=3305|end_char=3309|ner=O
+21	.	.	PUNCT	.	_	2	punct	_	start_char=3309|end_char=3310|ner=O
+
+# text = I prayed at noon time.
+# sent_id = 42
+# constituency = (ROOT (S (NP (PRP I)) (VP (VBD prayed) (PP (IN at) (NP (NN noon) (NN time)))) (. .)))
+# sentiment = 1
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	start_char=3311|end_char=3312|ner=O
+2	prayed	pray	VERB	VBD	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	0	root	_	start_char=3313|end_char=3319|ner=O
+3	at	at	ADP	IN	_	5	case	_	start_char=3320|end_char=3322|ner=O
+4	noon	noon	NOUN	NN	Number=Sing	5	compound	_	start_char=3323|end_char=3327|ner=S-TIME
+5	time	time	NOUN	NN	Number=Sing	2	obl	_	start_char=3328|end_char=3332|ner=O
+6	.	.	PUNCT	.	_	2	punct	_	start_char=3332|end_char=3333|ner=O
+
+# text = I prayed in the time after.
+# sent_id = 43
+# constituency = (ROOT (S (NP (PRP I)) (VP (VBD prayed) (PP (IN in) (NP (NP (DT the) (NN time)) (ADVP (RB after))))) (. .)))
+# sentiment = 1
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	start_char=3334|end_char=3335|ner=O
+2	prayed	pray	VERB	VBD	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	0	root	_	start_char=3336|end_char=3342|ner=O
+3	in	in	ADP	IN	_	5	case	_	start_char=3343|end_char=3345|ner=O
+4	the	the	DET	DT	Definite=Def|PronType=Art	5	det	_	start_char=3346|end_char=3349|ner=O
+5	time	time	NOUN	NN	Number=Sing	2	obl	_	start_char=3350|end_char=3354|ner=O
+6	after	after	ADV	RB	_	2	advmod	_	start_char=3355|end_char=3360|ner=O
+7	.	.	PUNCT	.	_	2	punct	_	start_char=3360|end_char=3361|ner=O
+
+# text = I prayed at the time of sunset.
+# sent_id = 44
+# constituency = (ROOT (S (NP (PRP I)) (VP (VBD prayed) (PP (IN at) (NP (NP (DT the) (NN time)) (PP (IN of) (NP (NN sunset)))))) (. .)))
+# sentiment = 1
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	start_char=3364|end_char=3365|ner=O
+2	prayed	pray	VERB	VBD	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	0	root	_	start_char=3366|end_char=3372|ner=O
+3	at	at	ADP	IN	_	5	case	_	start_char=3373|end_char=3375|ner=O
+4	the	the	DET	DT	Definite=Def|PronType=Art	5	det	_	start_char=3376|end_char=3379|ner=O
+5	time	time	NOUN	NN	Number=Sing	2	obl	_	start_char=3380|end_char=3384|ner=O
+6	of	of	ADP	IN	_	7	case	_	start_char=3385|end_char=3387|ner=O
+7	sunset	sunset	NOUN	NN	Number=Sing	5	nmod	_	start_char=3388|end_char=3394|ner=O
+8	.	.	PUNCT	.	_	2	punct	_	start_char=3394|end_char=3395|ner=O
+
+# text = I prayed at evening time.
+# sent_id = 45
+# constituency = (ROOT (S (NP (PRP I)) (VP (VBD prayed) (PP (IN at) (NP (NN evening) (NN time)))) (. .)))
+# sentiment = 1
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	start_char=3396|end_char=3397|ner=O
+2	prayed	pray	VERB	VBD	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	0	root	_	start_char=3398|end_char=3404|ner=O
+3	at	at	ADP	IN	_	5	case	_	start_char=3405|end_char=3407|ner=O
+4	evening	evening	NOUN	NN	Number=Sing	5	compound	_	start_char=3408|end_char=3415|ner=O
+5	time	time	NOUN	NN	Number=Sing	2	obl	_	start_char=3416|end_char=3420|ner=O
+6	.	.	PUNCT	.	_	2	punct	_	start_char=3420|end_char=3421|ner=O
+
+# text = I prayed.
+# sent_id = 46
+# constituency = (ROOT (S (NP (PRP I)) (VP (VBD prayed)) (. .)))
+# sentiment = 1
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	start_char=3422|end_char=3423|ner=O
+2	prayed	pray	VERB	VBD	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	0	root	_	start_char=3424|end_char=3430|ner=O
+3	.	.	PUNCT	.	_	2	punct	_	start_char=3430|end_char=3431|ner=O
+
+# text = I gave zakat every year, gold and silver and seed and cows and sheep and goats or rice and wheat and barley.
+# sent_id = 47
+# constituency = (ROOT (S (NP (PRP I)) (VP (VBD gave) (NP (NN zakat)) (NP (NP (DT every) (NN year)) (, ,) (NP (NN gold) (CC and) (NN silver)) (CC and) (NP (NN seed)) (CC and) (NP (NNS cows)) (CC and) (NP (NNS sheep) (CC and) (NNS goats) (CC or) (NN rice) (CC and) (NN wheat) (CC and) (NN barley)))) (. .)))
+# sentiment = 2
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	start_char=3432|end_char=3433|ner=O
+2	gave	give	VERB	VBD	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	0	root	_	start_char=3434|end_char=3438|ner=O
+3	zakat	zakat	NOUN	NN	Number=Sing	2	obj	_	start_char=3439|end_char=3444|ner=O
+4	every	every	DET	DT	_	5	det	_	start_char=3445|end_char=3450|ner=O
+5	year	year	NOUN	NN	Number=Sing	2	obl:tmod	_	start_char=3451|end_char=3455|ner=O
+6	,	,	PUNCT	,	_	7	punct	_	start_char=3455|end_char=3456|ner=O
+7	gold	gold	NOUN	NN	Number=Sing	2	parataxis	_	start_char=3457|end_char=3461|ner=O
+8	and	and	CCONJ	CC	_	9	cc	_	start_char=3462|end_char=3465|ner=O
+9	silver	silver	NOUN	NN	Number=Sing	7	conj	_	start_char=3466|end_char=3472|ner=O
+10	and	and	CCONJ	CC	_	11	cc	_	start_char=3473|end_char=3476|ner=O
+11	seed	seed	NOUN	NN	Number=Sing	7	conj	_	start_char=3477|end_char=3481|ner=O
+12	and	and	CCONJ	CC	_	13	cc	_	start_char=3482|end_char=3485|ner=O
+13	cows	cow	NOUN	NNS	Number=Plur	7	conj	_	start_char=3486|end_char=3490|ner=O
+14	and	and	CCONJ	CC	_	15	cc	_	start_char=3491|end_char=3494|ner=O
+15	sheep	sheep	NOUN	NNS	Number=Plur	7	conj	_	start_char=3495|end_char=3500|ner=O
+16	and	and	CCONJ	CC	_	17	cc	_	start_char=3501|end_char=3504|ner=O
+17	goats	goat	NOUN	NNS	Number=Plur	15	conj	_	start_char=3505|end_char=3510|ner=O
+18	or	or	CCONJ	CC	_	19	cc	_	start_char=3511|end_char=3513|ner=O
+19	rice	rice	NOUN	NN	Number=Sing	7	conj	_	start_char=3514|end_char=3518|ner=O
+20	and	and	CCONJ	CC	_	21	cc	_	start_char=3519|end_char=3522|ner=O
+21	wheat	wheat	NOUN	NN	Number=Sing	19	conj	_	start_char=3523|end_char=3528|ner=O
+22	and	and	CCONJ	CC	_	23	cc	_	start_char=3529|end_char=3532|ner=O
+23	barley	barley	NOUN	NN	Number=Sing	7	conj	_	start_char=3533|end_char=3539|ner=O
+24	.	.	PUNCT	.	_	2	punct	_	start_char=3539|end_char=3540|ner=O
+
+# text = I gave all this as zakat, sending it for jihad every year against the infidels.
+# sent_id = 48
+# constituency = (ROOT (S (NP (PRP I)) (VP (VBD gave) (NP (PDT all) (DT this)) (PP (IN as) (NP (NN zakat))) (, ,) (S (VP (VBG sending) (NP (PRP it)) (PP (IN for) (NP (NN jihad))) (NP (DT every) (NN year)) (PP (IN against) (NP (DT the) (NNS infidels)))))) (. .)))
+# sentiment = 1
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	start_char=3541|end_char=3542|ner=O
+2	gave	give	VERB	VBD	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	0	root	_	start_char=3543|end_char=3547|ner=O
+3	all	all	DET	PDT	_	4	det:predet	_	start_char=3548|end_char=3551|ner=O
+4	this	this	PRON	DT	Number=Sing|PronType=Dem	2	obj	_	start_char=3552|end_char=3556|ner=O
+5	as	as	ADP	IN	_	6	case	_	start_char=3557|end_char=3559|ner=O
+6	zakat	zakat	NOUN	NN	Number=Sing	2	obl	_	start_char=3560|end_char=3565|ner=O
+7	,	,	PUNCT	,	_	8	punct	_	start_char=3565|end_char=3566|ner=O
+8	sending	send	VERB	VBG	VerbForm=Ger	2	advcl	_	start_char=3567|end_char=3574|ner=O
+9	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	8	obj	_	start_char=3575|end_char=3577|ner=O
+10	for	for	ADP	IN	_	11	case	_	start_char=3578|end_char=3581|ner=O
+11	jihad	jihad	NOUN	NN	Number=Sing	8	obl	_	start_char=3582|end_char=3587|ner=O
+12	every	every	DET	DT	_	13	det	_	start_char=3588|end_char=3593|ner=O
+13	year	year	NOUN	NN	Number=Sing	8	obl:tmod	_	start_char=3594|end_char=3598|ner=O
+14	against	against	ADP	IN	_	16	case	_	start_char=3599|end_char=3606|ner=O
+15	the	the	DET	DT	Definite=Def|PronType=Art	16	det	_	start_char=3607|end_char=3610|ner=O
+16	infidels	infidel	NOUN	NNS	Number=Plur	8	obl	_	start_char=3611|end_char=3619|ner=O
+17	.	.	PUNCT	.	_	2	punct	_	start_char=3619|end_char=3620|ner=O
+
+# text = I went to Mecca and Medina with whoever was able.
+# sent_id = 49
+# constituency = (ROOT (S (NP (PRP I)) (VP (VBD went) (PP (IN to) (NP (NNP Mecca) (CC and) (NNP Medina))) (PP (IN with) (S (NP (WP whoever)) (VP (VBD was) (ADJP (JJ able)))))) (. .)))
+# sentiment = 1
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	start_char=3621|end_char=3622|ner=O
+2	went	go	VERB	VBD	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	0	root	_	start_char=3623|end_char=3627|ner=O
+3	to	to	ADP	IN	_	4	case	_	start_char=3628|end_char=3630|ner=O
+4	Mecca	Mecca	PROPN	NNP	Number=Sing	2	obl	_	start_char=3631|end_char=3636|ner=S-GPE
+5	and	and	CCONJ	CC	_	6	cc	_	start_char=3637|end_char=3640|ner=O
+6	Medina	Medina	PROPN	NNP	Number=Sing	4	conj	_	start_char=3641|end_char=3647|ner=S-GPE
+7	with	with	ADP	IN	_	10	mark	_	start_char=3648|end_char=3652|ner=O
+8	whoever	whoever	PRON	WP	PronType=Int	10	nsubj	_	start_char=3653|end_char=3660|ner=O
+9	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	10	cop	_	start_char=3661|end_char=3664|ner=O
+10	able	able	ADJ	JJ	Degree=Pos	2	advcl	_	start_char=3665|end_char=3669|ner=O
+11	.	.	PUNCT	.	_	2	punct	_	start_char=3669|end_char=3670|ner=O
+
+# text = My father has six sons and five daughters.
+# sent_id = 50
+# constituency = (ROOT (S (NP (PRP$ My) (NN father)) (VP (VBZ has) (NP (NP (CD six) (NNS sons)) (CC and) (NP (CD five) (NNS daughters)))) (. .)))
+# sentiment = 1
+1	My	my	PRON	PRP$	Case=Gen|Number=Sing|Person=1|Poss=Yes|PronType=Prs	2	nmod:poss	_	start_char=3671|end_char=3673|ner=O
+2	father	father	NOUN	NN	Number=Sing	3	nsubj	_	start_char=3674|end_char=3680|ner=O
+3	has	have	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=3681|end_char=3684|ner=O
+4	six	six	NUM	CD	NumForm=Word|NumType=Card	5	nummod	_	start_char=3685|end_char=3688|ner=S-CARDINAL
+5	sons	son	NOUN	NNS	Number=Plur	3	obj	_	start_char=3689|end_char=3693|ner=O
+6	and	and	CCONJ	CC	_	8	cc	_	start_char=3694|end_char=3697|ner=O
+7	five	five	NUM	CD	NumForm=Word|NumType=Card	8	nummod	_	start_char=3698|end_char=3702|ner=S-CARDINAL
+8	daughters	daughter	NOUN	NNS	Number=Plur	5	conj	_	start_char=3703|end_char=3712|ner=O
+9	.	.	PUNCT	.	_	3	punct	_	start_char=3712|end_char=3713|ner=O
+
+# text = My mother has three sons and one daughter.
+# sent_id = 51
+# constituency = (ROOT (S (NP (PRP$ My) (NN mother)) (VP (VBZ has) (NP (NP (CD three) (NNS sons)) (CC and) (NP (CD one) (NN daughter)))) (. .)))
+# sentiment = 1
+1	My	my	PRON	PRP$	Case=Gen|Number=Sing|Person=1|Poss=Yes|PronType=Prs	2	nmod:poss	_	start_char=3714|end_char=3716|ner=O
+2	mother	mother	NOUN	NN	Number=Sing	3	nsubj	_	start_char=3717|end_char=3723|ner=O
+3	has	have	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=3724|end_char=3727|ner=O
+4	three	three	NUM	CD	NumForm=Word|NumType=Card	5	nummod	_	start_char=3728|end_char=3733|ner=S-CARDINAL
+5	sons	son	NOUN	NNS	Number=Plur	3	obj	_	start_char=3734|end_char=3738|ner=O
+6	and	and	CCONJ	CC	_	8	cc	_	start_char=3739|end_char=3742|ner=O
+7	one	one	NUM	CD	NumForm=Word|NumType=Card	8	nummod	_	start_char=3743|end_char=3746|ner=S-CARDINAL
+8	daughter	daughter	NOUN	NN	Number=Sing	5	conj	_	start_char=3747|end_char=3755|ner=O
+9	.	.	PUNCT	.	_	3	punct	_	start_char=3755|end_char=3756|ner=O
+
+# text = As for me, on the day I left our country my age was 37 years.
+# sent_id = 52
+# constituency = (ROOT (S (PP (IN As) (PP (IN for) (NP (PRP me)))) (, ,) (PP (IN on) (NP (NP (DT the) (NN day)) (SBAR (S (NP (PRP I)) (VP (VBD left) (NP (PRP$ our) (NN country))))))) (NP (PRP$ my) (NN age)) (VP (VBD was) (NP (CD 37) (NNS years))) (. .)))
+# sentiment = 1
+1	As	as	ADP	IN	_	3	case	_	start_char=3757|end_char=3759|ner=O
+2	for	for	ADP	IN	_	1	fixed	_	start_char=3760|end_char=3763|ner=O
+3	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	16	obl	_	start_char=3764|end_char=3766|ner=O
+4	,	,	PUNCT	,	_	16	punct	_	start_char=3766|end_char=3767|ner=O
+5	on	on	ADP	IN	_	7	case	_	start_char=3768|end_char=3770|ner=O
+6	the	the	DET	DT	Definite=Def|PronType=Art	7	det	_	start_char=3771|end_char=3774|ner=O
+7	day	day	NOUN	NN	Number=Sing	16	obl	_	start_char=3775|end_char=3778|ner=O
+8	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	9	nsubj	_	start_char=3779|end_char=3780|ner=O
+9	left	leave	VERB	VBD	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	7	acl:relcl	_	start_char=3781|end_char=3785|ner=O
+10	our	we	PRON	PRP$	Case=Gen|Number=Plur|Person=1|Poss=Yes|PronType=Prs	11	nmod:poss	_	start_char=3786|end_char=3789|ner=O
+11	country	country	NOUN	NN	Number=Sing	9	obj	_	start_char=3790|end_char=3797|ner=O
+12	my	my	PRON	PRP$	Case=Gen|Number=Sing|Person=1|Poss=Yes|PronType=Prs	13	nmod:poss	_	start_char=3798|end_char=3800|ner=O
+13	age	age	NOUN	NN	Number=Sing	16	nsubj	_	start_char=3801|end_char=3804|ner=O
+14	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	16	cop	_	start_char=3805|end_char=3808|ner=O
+15	37	37	NUM	CD	NumForm=Digit|NumType=Card	16	nummod	_	start_char=3809|end_char=3811|ner=B-DATE
+16	years	year	NOUN	NNS	Number=Plur	0	root	_	start_char=3812|end_char=3817|ner=E-DATE
+17	.	.	PUNCT	.	_	16	punct	_	start_char=3817|end_char=3818|ner=O
+
+# text = I have remained in the Christian country 24 years.
+# sent_id = 53
+# constituency = (ROOT (S (NP (PRP I)) (VP (VBP have) (VP (VBN remained) (PP (IN in) (NP (DT the) (JJ Christian) (NN country))) (NP (CD 24) (NNS years)))) (. .)))
+# sentiment = 1
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	start_char=3819|end_char=3820|ner=O
+2	have	have	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	3	aux	_	start_char=3821|end_char=3825|ner=O
+3	remained	remain	VERB	VBN	Tense=Past|VerbForm=Part	0	root	_	start_char=3826|end_char=3834|ner=O
+4	in	in	ADP	IN	_	7	case	_	start_char=3835|end_char=3837|ner=O
+5	the	the	DET	DT	Definite=Def|PronType=Art	7	det	_	start_char=3838|end_char=3841|ner=O
+6	Christian	Christian	ADJ	JJ	Degree=Pos	7	amod	_	start_char=3842|end_char=3851|ner=S-NORP
+7	country	country	NOUN	NN	Number=Sing	3	obl	_	start_char=3852|end_char=3859|ner=O
+8	24	24	NUM	CD	NumForm=Digit|NumType=Card	9	nummod	_	start_char=3860|end_char=3862|ner=B-DATE
+9	years	year	NOUN	NNS	Number=Plur	3	obl:tmod	_	start_char=3863|end_char=3868|ner=E-DATE
+10	.	.	PUNCT	.	_	3	punct	_	start_char=3868|end_char=3869|ner=O
+
+# text = In the year 1831 of Jesus the Messiah.
+# sent_id = 54
+# constituency = (ROOT (PP (IN In) (NP (NP (NP (NP (DT the) (NN year)) (CD 1831)) (PP (IN of) (NP (NNP Jesus)))) (NP (DT the) (NNP Messiah))) (. .)))
+# sentiment = 1
+1	In	in	ADP	IN	_	3	case	_	start_char=3870|end_char=3872|ner=O
+2	the	the	DET	DT	Definite=Def|PronType=Art	3	det	_	start_char=3873|end_char=3876|ner=B-DATE
+3	year	year	NOUN	NN	Number=Sing	0	root	_	start_char=3877|end_char=3881|ner=I-DATE
+4	1831	1831	NUM	CD	NumForm=Digit|NumType=Card	3	nummod	_	start_char=3882|end_char=3886|ner=E-DATE
+5	of	of	ADP	IN	_	6	case	_	start_char=3887|end_char=3889|ner=O
+6	Jesus	Jesus	PROPN	NNP	Number=Sing	3	nmod	_	start_char=3890|end_char=3895|ner=B-WORK_OF_ART
+7	the	the	DET	DT	Definite=Def|PronType=Art	8	det	_	start_char=3896|end_char=3899|ner=I-WORK_OF_ART
+8	Messiah	Messiah	PROPN	NNP	Number=Sing	6	appos	_	start_char=3900|end_char=3907|ner=E-WORK_OF_ART
+9	.	.	PUNCT	.	_	3	punct	_	start_char=3907|end_char=3908|ner=O
+
+# text = Oh people of North Carolina, oh people of South Carolina, oh American people, all of them!
+# sent_id = 55
+# constituency = (ROOT (LST (UH Oh) (NP (NP (NNS people)) (PP (IN of) (NP (NNP North) (NNP Carolina)))) (, ,) (NP (NP (UH oh) (NNS people)) (PP (IN of) (NP (NNP South) (NNP Carolina)))) (, ,) (NP (UH oh) (JJ American) (NNS people)) (, ,) (NP (NP (DT all)) (PP (IN of) (NP (PRP them)))) (. !)))
+# sentiment = 1
+1	Oh	oh	INTJ	UH	_	2	discourse	_	start_char=3909|end_char=3911|ner=O
+2	people	people	NOUN	NNS	Number=Plur	0	root	_	start_char=3912|end_char=3918|ner=O
+3	of	of	ADP	IN	_	5	case	_	start_char=3919|end_char=3921|ner=O
+4	North	North	PROPN	NNP	Number=Sing	5	compound	_	start_char=3922|end_char=3927|ner=B-GPE
+5	Carolina	Carolina	PROPN	NNP	Number=Sing	2	nmod	_	start_char=3928|end_char=3936|ner=E-GPE
+6	,	,	PUNCT	,	_	8	punct	_	start_char=3936|end_char=3937|ner=O
+7	oh	oh	INTJ	UH	_	8	discourse	_	start_char=3938|end_char=3940|ner=O
+8	people	people	NOUN	NNS	Number=Plur	2	parataxis	_	start_char=3941|end_char=3947|ner=O
+9	of	of	ADP	IN	_	11	case	_	start_char=3948|end_char=3950|ner=O
+10	South	South	PROPN	NNP	Number=Sing	11	compound	_	start_char=3951|end_char=3956|ner=B-GPE
+11	Carolina	Carolina	PROPN	NNP	Number=Sing	8	nmod	_	start_char=3957|end_char=3965|ner=E-GPE
+12	,	,	PUNCT	,	_	15	punct	_	start_char=3965|end_char=3966|ner=O
+13	oh	oh	INTJ	UH	_	15	discourse	_	start_char=3967|end_char=3969|ner=O
+14	American	American	ADJ	JJ	Degree=Pos	15	amod	_	start_char=3970|end_char=3978|ner=S-NORP
+15	people	people	NOUN	NNS	Number=Plur	8	parataxis	_	start_char=3979|end_char=3985|ner=O
+16	,	,	PUNCT	,	_	17	punct	_	start_char=3985|end_char=3986|ner=O
+17	all	all	DET	DT	_	8	appos	_	start_char=3987|end_char=3990|ner=O
+18	of	of	ADP	IN	_	19	case	_	start_char=3991|end_char=3993|ner=O
+19	them	they	PRON	PRP	Case=Acc|Number=Plur|Person=3|PronType=Prs	17	nmod	_	start_char=3994|end_char=3998|ner=O
+20	!	!	PUNCT	.	_	2	punct	_	start_char=3998|end_char=3999|ner=O
+
+# text = The first son of Jim Owen is called Thomas, and his other daughter is called Martha Jane.
+# sent_id = 56
+# constituency = (ROOT (S (S (NP (NP (DT The) (JJ first) (NN son)) (PP (IN of) (NP (NNP Jim) (NNP Owen)))) (VP (VBZ is) (VP (VBN called) (S (NP (NNP Thomas)))))) (, ,) (CC and) (S (NP (PRP$ his) (JJ other) (NN daughter)) (VP (VBZ is) (VP (VBN called) (S (NP (NNP Martha) (NNP Jane)))))) (. .)))
+# sentiment = 1
+1	The	the	DET	DT	Definite=Def|PronType=Art	3	det	_	start_char=4000|end_char=4003|ner=O
+2	first	first	ADJ	JJ	Degree=Pos|NumType=Ord	3	amod	_	start_char=4004|end_char=4009|ner=S-ORDINAL
+3	son	son	NOUN	NN	Number=Sing	8	nsubj:pass	_	start_char=4010|end_char=4013|ner=O
+4	of	of	ADP	IN	_	5	case	_	start_char=4014|end_char=4016|ner=O
+5	Jim	Jim	PROPN	NNP	Number=Sing	3	nmod	_	start_char=4017|end_char=4020|ner=B-PERSON
+6	Owen	Owen	PROPN	NNP	Number=Sing	5	flat	_	start_char=4021|end_char=4025|ner=E-PERSON
+7	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	aux:pass	_	start_char=4026|end_char=4028|ner=O
+8	called	call	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	start_char=4029|end_char=4035|ner=O
+9	Thomas	Thomas	PROPN	NNP	Number=Sing	8	xcomp	_	start_char=4036|end_char=4042|ner=S-PERSON
+10	,	,	PUNCT	,	_	16	punct	_	start_char=4042|end_char=4043|ner=O
+11	and	and	CCONJ	CC	_	16	cc	_	start_char=4044|end_char=4047|ner=O
+12	his	he	PRON	PRP$	Case=Gen|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	14	nmod:poss	_	start_char=4048|end_char=4051|ner=O
+13	other	other	ADJ	JJ	Degree=Pos	14	amod	_	start_char=4052|end_char=4057|ner=O
+14	daughter	daughter	NOUN	NN	Number=Sing	16	nsubj:pass	_	start_char=4058|end_char=4066|ner=O
+15	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	16	aux:pass	_	start_char=4067|end_char=4069|ner=O
+16	called	call	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	8	conj	_	start_char=4070|end_char=4076|ner=O
+17	Martha	Martha	PROPN	NNP	Number=Sing	16	xcomp	_	start_char=4077|end_char=4083|ner=B-PERSON
+18	Jane	Jane	PROPN	NNP	Number=Sing	17	flat	_	start_char=4084|end_char=4088|ner=E-PERSON
+19	.	.	PUNCT	.	_	8	punct	_	start_char=4088|end_char=4089|ner=O
+
+# text = This family is a good family.
+# sent_id = 57
+# constituency = (ROOT (S (NP (DT This) (NN family)) (VP (VBZ is) (NP (DT a) (JJ good) (NN family))) (. .)))
+# sentiment = 1
+1	This	this	DET	DT	Number=Sing|PronType=Dem	2	det	_	start_char=4091|end_char=4095|ner=O
+2	family	family	NOUN	NN	Number=Sing	6	nsubj	_	start_char=4096|end_char=4102|ner=O
+3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	start_char=4103|end_char=4105|ner=O
+4	a	a	DET	DT	Definite=Ind|PronType=Art	6	det	_	start_char=4106|end_char=4107|ner=O
+5	good	good	ADJ	JJ	Degree=Pos	6	amod	_	start_char=4108|end_char=4112|ner=O
+6	family	family	NOUN	NN	Number=Sing	0	root	_	start_char=4113|end_char=4119|ner=O
+7	.	.	PUNCT	.	_	6	punct	_	start_char=4119|end_char=4120|ner=O
+
+# text = Tom Owen and Nell Owen have two sons and one daughter
+# sent_id = 58
+# constituency = (ROOT (S (NP (NP (NNP Tom) (NNP Owen)) (CC and) (NP (NNP Nell) (NNP Owen))) (VP (VBP have) (NP (NP (CD two) (NNS sons)) (CC and) (NP (CD one) (NN daughter))))))
+# sentiment = 1
+1	Tom	Tom	PROPN	NNP	Number=Sing	6	nsubj	_	start_char=4122|end_char=4125|ner=B-PERSON
+2	Owen	Owen	PROPN	NNP	Number=Sing	1	flat	_	start_char=4126|end_char=4130|ner=E-PERSON
+3	and	and	CCONJ	CC	_	4	cc	_	start_char=4131|end_char=4134|ner=O
+4	Nell	Nell	PROPN	NNP	Number=Sing	1	conj	_	start_char=4135|end_char=4139|ner=B-PERSON
+5	Owen	Owen	PROPN	NNP	Number=Sing	4	flat	_	start_char=4140|end_char=4144|ner=E-PERSON
+6	have	have	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	start_char=4145|end_char=4149|ner=O
+7	two	two	NUM	CD	NumForm=Word|NumType=Card	8	nummod	_	start_char=4150|end_char=4153|ner=S-CARDINAL
+8	sons	son	NOUN	NNS	Number=Plur	6	obj	_	start_char=4154|end_char=4158|ner=O
+9	and	and	CCONJ	CC	_	11	cc	_	start_char=4159|end_char=4162|ner=O
+10	one	one	NUM	CD	NumForm=Word|NumType=Card	11	nummod	_	start_char=4163|end_char=4166|ner=S-CARDINAL
+11	daughter	daughter	NOUN	NN	Number=Sing	8	conj	_	start_char=4167|end_char=4175|ner=O
+
+# text = The first son is call Jim and the other John and the daughter is called Melissa.
+# sent_id = 59
+# constituency = (ROOT (S (NP (DT The) (JJ first) (NN son)) (VP (VBZ is) (VP (VB call) (S (NP (NP (NNP Jim)) (CC and) (NP (NP (DT the) (JJ other) (NNP John)) (CC and) (NP (DT the) (NN daughter)))) (VP (VBZ is) (VP (VBN called) (S (NP (NNP Melissa)))))))) (. .)))
+# sentiment = 1
+1	The	the	DET	DT	Definite=Def|PronType=Art	3	det	_	start_char=4176|end_char=4179|ner=O
+2	first	first	ADJ	JJ	Degree=Pos|NumType=Ord	3	amod	_	start_char=4180|end_char=4185|ner=S-ORDINAL
+3	son	son	NOUN	NN	Number=Sing	5	nsubj	_	start_char=4186|end_char=4189|ner=O
+4	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	start_char=4190|end_char=4192|ner=O
+5	call	call	VERB	VB	VerbForm=Inf	0	root	_	start_char=4193|end_char=4197|ner=O
+6	Jim	Jim	PROPN	NNP	Number=Sing	5	obj	_	start_char=4198|end_char=4201|ner=S-PERSON
+7	and	and	CCONJ	CC	_	10	cc	_	start_char=4202|end_char=4205|ner=O
+8	the	the	DET	DT	Definite=Def|PronType=Art	10	det	_	start_char=4206|end_char=4209|ner=O
+9	other	other	ADJ	JJ	Degree=Pos	10	amod	_	start_char=4210|end_char=4215|ner=O
+10	John	John	PROPN	NNP	Number=Sing	6	conj	_	start_char=4216|end_char=4220|ner=S-PERSON
+11	and	and	CCONJ	CC	_	13	cc	_	start_char=4221|end_char=4224|ner=O
+12	the	the	DET	DT	Definite=Def|PronType=Art	13	det	_	start_char=4225|end_char=4228|ner=O
+13	daughter	daughter	NOUN	NN	Number=Sing	10	conj	_	start_char=4229|end_char=4237|ner=O
+14	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	15	aux:pass	_	start_char=4238|end_char=4240|ner=O
+15	called	call	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	5	conj	_	start_char=4241|end_char=4247|ner=O
+16	Melissa	Melissa	PROPN	NNP	Number=Sing	15	xcomp	_	start_char=4248|end_char=4255|ner=S-PERSON
+17	.	.	PUNCT	.	_	5	punct	_	start_char=4255|end_char=4256|ner=O
+
+# text = Mr. Jim and Betsy Owen, his wife, have two sons and five daughters.
+# sent_id = 60
+# constituency = (ROOT (S (NP (NP (NNP Mr.) (NNP Jim)) (CC and) (NP (NP (NNP Betsy) (NNP Owen)) (, ,) (NP (PRP$ his) (NN wife)) (, ,))) (VP (VBP have) (NP (NP (CD two) (NNS sons)) (CC and) (NP (CD five) (NNS daughters)))) (. .)))
+# sentiment = 1
+1	Mr.	Mr.	PROPN	NNP	Number=Sing	10	nsubj	_	start_char=4257|end_char=4260|ner=O
+2	Jim	Jim	PROPN	NNP	Number=Sing	1	flat	_	start_char=4261|end_char=4264|ner=S-PERSON
+3	and	and	CCONJ	CC	_	4	cc	_	start_char=4265|end_char=4268|ner=O
+4	Betsy	Betsy	PROPN	NNP	Number=Sing	1	conj	_	start_char=4269|end_char=4274|ner=B-PERSON
+5	Owen	Owen	PROPN	NNP	Number=Sing	4	flat	_	start_char=4275|end_char=4279|ner=E-PERSON
+6	,	,	PUNCT	,	_	8	punct	_	start_char=4279|end_char=4280|ner=O
+7	his	he	PRON	PRP$	Case=Gen|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	8	nmod:poss	_	start_char=4281|end_char=4284|ner=O
+8	wife	wife	NOUN	NN	Number=Sing	4	appos	_	start_char=4285|end_char=4289|ner=O
+9	,	,	PUNCT	,	_	1	punct	_	start_char=4289|end_char=4290|ner=O
+10	have	have	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=4291|end_char=4295|ner=O
+11	two	two	NUM	CD	NumForm=Word|NumType=Card	12	nummod	_	start_char=4296|end_char=4299|ner=S-CARDINAL
+12	sons	son	NOUN	NNS	Number=Plur	10	obj	_	start_char=4300|end_char=4304|ner=O
+13	and	and	CCONJ	CC	_	15	cc	_	start_char=4305|end_char=4308|ner=O
+14	five	five	NUM	CD	NumForm=Word|NumType=Card	15	nummod	_	start_char=4309|end_char=4313|ner=S-CARDINAL
+15	daughters	daughter	NOUN	NNS	Number=Plur	12	conj	_	start_char=4314|end_char=4323|ner=O
+16	.	.	PUNCT	.	_	10	punct	_	start_char=4323|end_char=4324|ner=O
+
+# text = The first is Tom, John, Mercy, Sophia, Margaret, and Eliza.
+# sent_id = 61
+# constituency = (ROOT (S (NP (DT The) (JJ first)) (VP (VBZ is) (NP (NNP Tom) (, ,) (NNP John) (, ,) (NNP Mercy) (, ,) (NNP Sophia) (, ,) (NNP Margaret) (, ,) (CC and) (NNP Eliza))) (. .)))
+# sentiment = 0
+1	The	the	DET	DT	Definite=Def|PronType=Art	2	det	_	start_char=4325|end_char=4328|ner=O
+2	first	first	ADJ	JJ	Degree=Pos|NumType=Ord	4	nsubj	_	start_char=4329|end_char=4334|ner=S-ORDINAL
+3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	start_char=4335|end_char=4337|ner=O
+4	Tom	Tom	PROPN	NNP	Number=Sing	0	root	_	start_char=4338|end_char=4341|ner=S-PERSON
+5	,	,	PUNCT	,	_	6	punct	_	start_char=4341|end_char=4342|ner=O
+6	John	John	PROPN	NNP	Number=Sing	4	conj	_	start_char=4343|end_char=4347|ner=S-PERSON
+7	,	,	PUNCT	,	_	8	punct	_	start_char=4347|end_char=4348|ner=O
+8	Mercy	Mercy	PROPN	NNP	Number=Sing	4	conj	_	start_char=4349|end_char=4354|ner=S-PERSON
+9	,	,	PUNCT	,	_	10	punct	_	start_char=4354|end_char=4355|ner=O
+10	Sophia	Sophia	PROPN	NNP	Number=Sing	4	conj	_	start_char=4356|end_char=4362|ner=S-PERSON
+11	,	,	PUNCT	,	_	12	punct	_	start_char=4362|end_char=4363|ner=O
+12	Margaret	Margaret	PROPN	NNP	Number=Sing	4	conj	_	start_char=4364|end_char=4372|ner=S-PERSON
+13	,	,	PUNCT	,	_	15	punct	_	start_char=4372|end_char=4373|ner=O
+14	and	and	CCONJ	CC	_	15	cc	_	start_char=4374|end_char=4377|ner=O
+15	Eliza	Eliza	PROPN	NNP	Number=Sing	4	conj	_	start_char=4378|end_char=4383|ner=S-PERSON
+16	.	.	PUNCT	.	_	4	punct	_	start_char=4383|end_char=4384|ner=O
+
+# text = This family is a very good family.
+# sent_id = 62
+# constituency = (ROOT (S (NP (DT This) (NN family)) (VP (VBZ is) (NP (DT a) (ADJP (RB very) (JJ good)) (NN family))) (. .)))
+# sentiment = 1
+1	This	this	DET	DT	Number=Sing|PronType=Dem	2	det	_	start_char=4385|end_char=4389|ner=O
+2	family	family	NOUN	NN	Number=Sing	7	nsubj	_	start_char=4390|end_char=4396|ner=O
+3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	cop	_	start_char=4397|end_char=4399|ner=O
+4	a	a	DET	DT	Definite=Ind|PronType=Art	7	det	_	start_char=4400|end_char=4401|ner=O
+5	very	very	ADV	RB	_	6	advmod	_	start_char=4402|end_char=4406|ner=O
+6	good	good	ADJ	JJ	Degree=Pos	7	amod	_	start_char=4407|end_char=4411|ner=O
+7	family	family	NOUN	NN	Number=Sing	0	root	_	start_char=4412|end_char=4418|ner=O
+8	.	.	PUNCT	.	_	7	punct	_	start_char=4418|end_char=4419|ner=O
+
+# text = And John Owen and his wife called Luisa, a righteous wife, had three and two children.
+# sent_id = 63
+# constituency = (ROOT (S (CC And) (NP (NP (NP (NNP John) (NNP Owen)) (CC and) (NP (PRP$ his) (NN wife))) (VP (VBD called) (NP (NP (NNP Luisa)) (, ,) (NP (DT a) (JJ righteous) (NN wife)) (, ,)))) (VP (VBD had) (NP (QP (CD three) (CC and) (CD two)) (NNS children))) (. .)))
+# sentiment = 1
+1	And	and	CCONJ	CC	_	7	cc	_	start_char=4420|end_char=4423|ner=O
+2	John	John	PROPN	NNP	Number=Sing	7	nsubj	_	start_char=4424|end_char=4428|ner=B-PERSON
+3	Owen	Owen	PROPN	NNP	Number=Sing	2	flat	_	start_char=4429|end_char=4433|ner=E-PERSON
+4	and	and	CCONJ	CC	_	6	cc	_	start_char=4434|end_char=4437|ner=O
+5	his	he	PRON	PRP$	Case=Gen|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	6	nmod:poss	_	start_char=4438|end_char=4441|ner=O
+6	wife	wife	NOUN	NN	Number=Sing	2	conj	_	start_char=4442|end_char=4446|ner=O
+7	called	call	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	start_char=4447|end_char=4453|ner=O
+8	Luisa	Luisa	PROPN	NNP	Number=Sing	7	obj	_	start_char=4454|end_char=4459|ner=S-PERSON
+9	,	,	PUNCT	,	_	12	punct	_	start_char=4459|end_char=4460|ner=O
+10	a	a	DET	DT	Definite=Ind|PronType=Art	12	det	_	start_char=4461|end_char=4462|ner=O
+11	righteous	righteous	ADJ	JJ	Degree=Pos	12	amod	_	start_char=4463|end_char=4472|ner=O
+12	wife	wife	NOUN	NN	Number=Sing	8	appos	_	start_char=4473|end_char=4477|ner=O
+13	,	,	PUNCT	,	_	14	punct	_	start_char=4477|end_char=4478|ner=O
+14	had	have	VERB	VBD	Mood=Ind|Person=3|Tense=Past|VerbForm=Fin	7	conj	_	start_char=4479|end_char=4482|ner=O
+15	three	three	NUM	CD	NumForm=Word|NumType=Card	18	nummod	_	start_char=4483|end_char=4488|ner=S-CARDINAL
+16	and	and	CCONJ	CC	_	17	cc	_	start_char=4489|end_char=4492|ner=O
+17	two	two	NUM	CD	NumForm=Word|NumType=Card	15	conj	_	start_char=4493|end_char=4496|ner=S-CARDINAL
+18	children	child	NOUN	NNS	Number=Plur	14	obj	_	start_char=4497|end_char=4505|ner=O
+19	.	.	PUNCT	.	_	7	punct	_	start_char=4505|end_char=4506|ner=O
+
+# text = Three died and two remain.
+# sent_id = 64
+# constituency = (ROOT (S (S (NP (CD Three)) (VP (VBD died))) (CC and) (S (NP (CD two)) (VP (VBP remain))) (. .)))
+# sentiment = 1
+1	Three	three	NUM	CD	NumForm=Word|NumType=Card	2	nsubj	_	start_char=4508|end_char=4513|ner=S-CARDINAL
+2	died	die	VERB	VBD	Mood=Ind|Person=3|Tense=Past|VerbForm=Fin	0	root	_	start_char=4514|end_char=4518|ner=O
+3	and	and	CCONJ	CC	_	5	cc	_	start_char=4519|end_char=4522|ner=O
+4	two	two	NUM	CD	NumForm=Word|NumType=Card	5	nsubj	_	start_char=4523|end_char=4526|ner=S-CARDINAL
+5	remain	remain	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	2	conj	_	start_char=4527|end_char=4533|ner=O
+6	.	.	PUNCT	.	_	2	punct	_	start_char=4533|end_char=4534|ner=O
+
+# text = Oh people of America, oh people of North Carolina, is there among you?
+# sent_id = 65
+# constituency = (ROOT (S (LST (UH Oh) (NP (NP (NNS people)) (PP (IN of) (NP (NNP America)))) (, ,) (UH oh) (NP (NP (NNS people)) (PP (IN of) (NP (NNP North) (NNP Carolina)))) (, ,)) (VP (VBZ is) (ADVP (RB there)) (PP (IN among) (NP (PRP you)))) (. ?)))
+# sentiment = 0
+1	Oh	oh	INTJ	UH	_	13	discourse	_	start_char=4535|end_char=4537|ner=O
+2	people	people	NOUN	NNS	Number=Plur	13	nsubj	_	start_char=4538|end_char=4544|ner=O
+3	of	of	ADP	IN	_	4	case	_	start_char=4545|end_char=4547|ner=O
+4	America	America	PROPN	NNP	Number=Sing	2	nmod	_	start_char=4548|end_char=4555|ner=S-GPE
+5	,	,	PUNCT	,	_	2	punct	_	start_char=4555|end_char=4556|ner=O
+6	oh	oh	INTJ	UH	_	7	discourse	_	start_char=4557|end_char=4559|ner=O
+7	people	people	NOUN	NNS	Number=Plur	2	appos	_	start_char=4560|end_char=4566|ner=O
+8	of	of	ADP	IN	_	10	case	_	start_char=4567|end_char=4569|ner=O
+9	North	North	PROPN	NNP	Number=Sing	10	compound	_	start_char=4570|end_char=4575|ner=B-GPE
+10	Carolina	Carolina	PROPN	NNP	Number=Sing	7	nmod	_	start_char=4576|end_char=4584|ner=E-GPE
+11	,	,	PUNCT	,	_	2	punct	_	start_char=4584|end_char=4585|ner=O
+12	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	cop	_	start_char=4586|end_char=4588|ner=O
+13	there	there	ADV	RB	PronType=Dem	0	root	_	start_char=4589|end_char=4594|ner=O
+14	among	among	ADP	IN	_	15	case	_	start_char=4595|end_char=4600|ner=O
+15	you	you	PRON	PRP	Case=Acc|Person=2|PronType=Prs	13	obl	_	start_char=4601|end_char=4604|ner=O
+16	?	?	PUNCT	.	_	13	punct	_	start_char=4604|end_char=4605|ner=O
+
+# text = Is there among you?
+# sent_id = 66
+# constituency = (ROOT (SQ (VBZ Is) (NP (EX there)) (PP (IN among) (NP (PRP you))) (. ?)))
+# sentiment = 0
+1	Is	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=4606|end_char=4608|ner=O
+2	there	there	PRON	EX	_	1	expl	_	start_char=4609|end_char=4614|ner=O
+3	among	among	ADP	IN	_	4	case	_	start_char=4615|end_char=4620|ner=O
+4	you	you	PRON	PRP	Case=Acc|Person=2|PronType=Prs	1	obl	_	start_char=4621|end_char=4624|ner=O
+5	?	?	PUNCT	.	_	1	punct	_	start_char=4624|end_char=4625|ner=O
+
+# text = Is there among you?
+# sent_id = 67
+# constituency = (ROOT (SQ (VBZ Is) (NP (EX there)) (PP (IN among) (NP (PRP you))) (. ?)))
+# sentiment = 0
+1	Is	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=4626|end_char=4628|ner=O
+2	there	there	PRON	EX	_	1	expl	_	start_char=4629|end_char=4634|ner=O
+3	among	among	ADP	IN	_	4	case	_	start_char=4635|end_char=4640|ner=O
+4	you	you	PRON	PRP	Case=Acc|Person=2|PronType=Prs	1	obl	_	start_char=4641|end_char=4644|ner=O
+5	?	?	PUNCT	.	_	1	punct	_	start_char=4644|end_char=4645|ner=O
+
+# text = Is there among you as good a family, fearing God greatly?
+# sent_id = 68
+# constituency = (ROOT (SQ (VBZ Is) (NP (EX there)) (PP (IN among) (NP (PRP you))) (PP (IN as) (NP (JJ good) (DT a) (NN family))) (, ,) (S (VP (VBG fearing) (NP (NNP God)) (ADVP (RB greatly)))) (. ?)))
+# sentiment = 0
+1	Is	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=4646|end_char=4648|ner=O
+2	there	there	PRON	EX	_	1	expl	_	start_char=4649|end_char=4654|ner=O
+3	among	among	ADP	IN	_	4	case	_	start_char=4655|end_char=4660|ner=O
+4	you	you	PRON	PRP	Case=Acc|Person=2|PronType=Prs	1	nsubj	_	start_char=4661|end_char=4664|ner=O
+5	as	as	ADP	IN	_	6	case	_	start_char=4665|end_char=4667|ner=O
+6	good	good	ADJ	JJ	Degree=Pos	8	amod	_	start_char=4668|end_char=4672|ner=O
+7	a	a	DET	DT	Definite=Ind|PronType=Art	8	det	_	start_char=4673|end_char=4674|ner=O
+8	family	family	NOUN	NN	Number=Sing	4	nmod	_	start_char=4675|end_char=4681|ner=O
+9	,	,	PUNCT	,	_	10	punct	_	start_char=4681|end_char=4682|ner=O
+10	fearing	fear	VERB	VBG	VerbForm=Ger	1	advcl	_	start_char=4683|end_char=4690|ner=O
+11	God	God	PROPN	NNP	Number=Sing	10	obj	_	start_char=4691|end_char=4694|ner=O
+12	greatly	greatly	ADV	RB	_	10	advmod	_	start_char=4695|end_char=4702|ner=O
+13	?	?	PUNCT	.	_	1	punct	_	start_char=4702|end_char=4703|ner=O
+
+# text = I, Omar, love to read the book of the great Qur’an General Jim Owen and his wife read the gospel.
+# sent_id = 69
+# constituency = (ROOT (S (NP (NP (PRP I)) (, ,) (NP (NNP Omar)) (, ,)) (VP (VBP love) (S (VP (TO to) (VP (VB read) (NP (NP (DT the) (NN book)) (PP (IN of) (NP (NP (DT the) (JJ great) (NML (NNP Qur’an) (NNP General)) (NNP Jim) (NNP Owen)) (CC and) (NP (PRP$ his) (NN wife))))))))) (VP (VBD read) (NP (DT the) (NN gospel))) (. .)))
+# sentiment = 1
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	5	nsubj	_	start_char=4704|end_char=4705|ner=O
+2	,	,	PUNCT	,	_	1	punct	_	start_char=4705|end_char=4706|ner=O
+3	Omar	Omar	PROPN	NNP	Number=Sing	1	appos	_	start_char=4707|end_char=4711|ner=S-PERSON
+4	,	,	PUNCT	,	_	5	punct	_	start_char=4711|end_char=4712|ner=O
+5	love	love	VERB	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	start_char=4713|end_char=4717|ner=O
+6	to	to	PART	TO	_	7	mark	_	start_char=4718|end_char=4720|ner=O
+7	read	read	VERB	VB	VerbForm=Inf	5	xcomp	_	start_char=4721|end_char=4725|ner=O
+8	the	the	DET	DT	Definite=Def|PronType=Art	9	det	_	start_char=4726|end_char=4729|ner=O
+9	book	book	NOUN	NN	Number=Sing	7	obj	_	start_char=4730|end_char=4734|ner=O
+10	of	of	ADP	IN	_	14	case	_	start_char=4735|end_char=4737|ner=O
+11	the	the	DET	DT	Definite=Def|PronType=Art	14	det	_	start_char=4738|end_char=4741|ner=O
+12	great	great	ADJ	JJ	Degree=Pos	14	amod	_	start_char=4742|end_char=4747|ner=O
+13	Qur’an	Qur’an	PROPN	NNP	Number=Sing	14	compound	_	start_char=4748|end_char=4754|ner=S-NORP
+14	General	General	PROPN	NNP	Number=Sing	9	nmod	_	start_char=4755|end_char=4762|ner=O
+15	Jim	Jim	PROPN	NNP	Number=Sing	14	flat	_	start_char=4763|end_char=4766|ner=B-PERSON
+16	Owen	Owen	PROPN	NNP	Number=Sing	15	flat	_	start_char=4767|end_char=4771|ner=E-PERSON
+17	and	and	CCONJ	CC	_	19	cc	_	start_char=4772|end_char=4775|ner=O
+18	his	he	PRON	PRP$	Case=Gen|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	19	nmod:poss	_	start_char=4776|end_char=4779|ner=O
+19	wife	wife	NOUN	NN	Number=Sing	15	conj	_	start_char=4780|end_char=4784|ner=O
+20	read	read	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	9	acl:relcl	_	start_char=4785|end_char=4789|ner=O
+21	the	the	DET	DT	Definite=Def|PronType=Art	22	det	_	start_char=4790|end_char=4793|ner=O
+22	gospel	gospel	NOUN	NN	Number=Sing	20	obj	_	start_char=4794|end_char=4800|ner=O
+23	.	.	PUNCT	.	_	5	punct	_	start_char=4800|end_char=4801|ner=O
+
+# text = They read a lot to me the gospel of God, our lord, our creator, our king, and reformer of our present state of being, condition and wealth, generously, not requisitely, according to his power.
+# sent_id = 70
+# constituency = (ROOT (S (NP (PRP They)) (VP (VBD read) (NP (NP (DT a) (NN lot)) (PP (IN to) (NP (PRP me)))) (NP (NP (DT the) (NN gospel)) (PP (IN of) (NP (NP (NNP God)) (, ,) (NP (PRP$ our) (NN lord)) (, ,) (NP (PRP$ our) (NN creator)) (, ,) (NP (PRP$ our) (NN king)) (, ,) (CC and) (NP (NP (NN reformer)) (PP (IN of) (NP (NP (NP (PRP$ our) (JJ present) (NN state)) (PP (IN of) (NP (NN being)))) (, ,) (NP (NN condition) (CC and) (NN wealth)) (, ,) (ADVP (RB generously)) (, ,) (RB not) (ADVP (RB requisitely)) (, ,) (PP (VBG according) (PP (IN to) (NP (PRP$ his) (NN power))))))))))) (. .)))
+# sentiment = 2
+1	They	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	2	nsubj	_	start_char=4802|end_char=4806|ner=O
+2	read	read	VERB	VBD	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	0	root	_	start_char=4807|end_char=4811|ner=O
+3	a	a	DET	DT	Definite=Ind|PronType=Art	4	det	_	start_char=4812|end_char=4813|ner=O
+4	lot	lot	NOUN	NN	Number=Sing	2	obj	_	start_char=4814|end_char=4817|ner=O
+5	to	to	ADP	IN	_	6	case	_	start_char=4818|end_char=4820|ner=O
+6	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	2	obl	_	start_char=4821|end_char=4823|ner=O
+7	the	the	DET	DT	Definite=Def|PronType=Art	8	det	_	start_char=4824|end_char=4827|ner=O
+8	gospel	gospel	NOUN	NN	Number=Sing	2	obj	_	start_char=4828|end_char=4834|ner=O
+9	of	of	ADP	IN	_	10	case	_	start_char=4835|end_char=4837|ner=O
+10	God	God	PROPN	NNP	Number=Sing	8	nmod	_	start_char=4838|end_char=4841|ner=O
+11	,	,	PUNCT	,	_	13	punct	_	start_char=4841|end_char=4842|ner=O
+12	our	we	PRON	PRP$	Case=Gen|Number=Plur|Person=1|Poss=Yes|PronType=Prs	13	nmod:poss	_	start_char=4843|end_char=4846|ner=O
+13	lord	lord	NOUN	NN	Number=Sing	10	conj	_	start_char=4847|end_char=4851|ner=O
+14	,	,	PUNCT	,	_	16	punct	_	start_char=4851|end_char=4852|ner=O
+15	our	we	PRON	PRP$	Case=Gen|Number=Plur|Person=1|Poss=Yes|PronType=Prs	16	nmod:poss	_	start_char=4853|end_char=4856|ner=O
+16	creator	creator	NOUN	NN	Number=Sing	10	conj	_	start_char=4857|end_char=4864|ner=O
+17	,	,	PUNCT	,	_	19	punct	_	start_char=4864|end_char=4865|ner=O
+18	our	we	PRON	PRP$	Case=Gen|Number=Plur|Person=1|Poss=Yes|PronType=Prs	19	nmod:poss	_	start_char=4866|end_char=4869|ner=O
+19	king	king	NOUN	NN	Number=Sing	10	conj	_	start_char=4870|end_char=4874|ner=O
+20	,	,	PUNCT	,	_	22	punct	_	start_char=4874|end_char=4875|ner=O
+21	and	and	CCONJ	CC	_	22	cc	_	start_char=4876|end_char=4879|ner=O
+22	reformer	reformer	NOUN	NN	Number=Sing	10	conj	_	start_char=4880|end_char=4888|ner=O
+23	of	of	ADP	IN	_	26	case	_	start_char=4889|end_char=4891|ner=O
+24	our	we	PRON	PRP$	Case=Gen|Number=Plur|Person=1|Poss=Yes|PronType=Prs	26	nmod:poss	_	start_char=4892|end_char=4895|ner=O
+25	present	present	ADJ	JJ	Degree=Pos	26	amod	_	start_char=4896|end_char=4903|ner=O
+26	state	state	NOUN	NN	Number=Sing	22	nmod	_	start_char=4904|end_char=4909|ner=O
+27	of	of	ADP	IN	_	28	case	_	start_char=4910|end_char=4912|ner=O
+28	being	being	NOUN	NN	Number=Sing	26	nmod	_	start_char=4913|end_char=4918|ner=O
+29	,	,	PUNCT	,	_	30	punct	_	start_char=4918|end_char=4919|ner=O
+30	condition	condition	NOUN	NN	Number=Sing	28	conj	_	start_char=4920|end_char=4929|ner=O
+31	and	and	CCONJ	CC	_	32	cc	_	start_char=4930|end_char=4933|ner=O
+32	wealth	wealth	NOUN	NN	Number=Sing	28	conj	_	start_char=4934|end_char=4940|ner=O
+33	,	,	PUNCT	,	_	34	punct	_	start_char=4940|end_char=4941|ner=O
+34	generously	generously	ADV	RB	_	26	advmod	_	start_char=4942|end_char=4952|ner=O
+35	,	,	PUNCT	,	_	34	punct	_	start_char=4952|end_char=4953|ner=O
+36	not	not	PART	RB	_	37	advmod	_	start_char=4954|end_char=4957|ner=O
+37	requisitely	requisitely	ADV	RB	_	34	conj	_	start_char=4958|end_char=4969|ner=O
+38	,	,	PUNCT	,	_	42	punct	_	start_char=4969|end_char=4970|ner=O
+39	according	accord	VERB	VBG	VerbForm=Ger	42	case	_	start_char=4971|end_char=4980|ner=O
+40	to	to	ADP	IN	_	39	fixed	_	start_char=4981|end_char=4983|ner=O
+41	his	he	PRON	PRP$	Case=Gen|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	42	nmod:poss	_	start_char=4984|end_char=4987|ner=O
+42	power	power	NOUN	NN	Number=Sing	8	nmod	_	start_char=4988|end_char=4993|ner=O
+43	.	.	PUNCT	.	_	2	punct	_	start_char=4993|end_char=4994|ner=O
+
+# text = Open my heart to the gospel, to the right way.
+# sent_id = 71
+# constituency = (ROOT (S (VP (VB Open) (NP (PRP$ my) (NN heart)) (PP (IN to) (NP (DT the) (NN gospel))) (, ,) (PP (IN to) (NP (DT the) (JJ right) (NN way)))) (. .)))
+# sentiment = 1
+1	Open	open	VERB	VB	Mood=Imp|VerbForm=Fin	0	root	_	start_char=4995|end_char=4999|ner=O
+2	my	my	PRON	PRP$	Case=Gen|Number=Sing|Person=1|Poss=Yes|PronType=Prs	3	nmod:poss	_	start_char=5000|end_char=5002|ner=O
+3	heart	heart	NOUN	NN	Number=Sing	1	obj	_	start_char=5003|end_char=5008|ner=O
+4	to	to	ADP	IN	_	6	case	_	start_char=5009|end_char=5011|ner=O
+5	the	the	DET	DT	Definite=Def|PronType=Art	6	det	_	start_char=5012|end_char=5015|ner=O
+6	gospel	gospel	NOUN	NN	Number=Sing	1	obl	_	start_char=5016|end_char=5022|ner=O
+7	,	,	PUNCT	,	_	1	punct	_	start_char=5022|end_char=5023|ner=O
+8	to	to	ADP	IN	_	11	case	_	start_char=5024|end_char=5026|ner=O
+9	the	the	DET	DT	Definite=Def|PronType=Art	11	det	_	start_char=5027|end_char=5030|ner=O
+10	right	right	ADJ	JJ	Degree=Pos	11	amod	_	start_char=5031|end_char=5036|ner=O
+11	way	way	NOUN	NN	Number=Sing	1	obl	_	start_char=5037|end_char=5040|ner=O
+12	.	.	PUNCT	.	_	1	punct	_	start_char=5040|end_char=5041|ner=O
+
+# text = Thanks be to God, lord of all worlds, many thanks.
+# sent_id = 72
+# constituency = (ROOT (S (NP (NN Thanks)) (VP (VB be) (PP (IN to) (NP (NP (NNP God)) (, ,) (NP (NP (NN lord)) (PP (IN of) (NP (DT all) (NNS worlds)))) (, ,) (NP (JJ many) (NNS thanks))))) (. .)))
+# sentiment = 1
+1	Thanks	thanks	NOUN	NN	Number=Sing	0	root	_	start_char=5042|end_char=5048|ner=O
+2	be	be	AUX	VB	VerbForm=Fin	1	cop	_	start_char=5049|end_char=5051|ner=O
+3	to	to	ADP	IN	_	4	case	_	start_char=5052|end_char=5054|ner=O
+4	God	God	PROPN	NNP	Number=Sing	1	nmod	_	start_char=5055|end_char=5058|ner=O
+5	,	,	PUNCT	,	_	6	punct	_	start_char=5058|end_char=5059|ner=O
+6	lord	lord	NOUN	NN	Number=Sing	4	conj	_	start_char=5060|end_char=5064|ner=O
+7	of	of	ADP	IN	_	9	case	_	start_char=5065|end_char=5067|ner=O
+8	all	all	DET	DT	_	9	det	_	start_char=5068|end_char=5071|ner=O
+9	worlds	world	NOUN	NNS	Number=Plur	6	nmod	_	start_char=5072|end_char=5078|ner=O
+10	,	,	PUNCT	,	_	4	punct	_	start_char=5078|end_char=5079|ner=O
+11	many	many	ADJ	JJ	Degree=Pos	12	amod	_	start_char=5080|end_char=5084|ner=O
+12	thanks	thanks	NOUN	NNS	Number=Plur	1	parataxis	_	start_char=5085|end_char=5091|ner=O
+13	.	.	PUNCT	.	_	1	punct	_	start_char=5091|end_char=5092|ner=O
+
+# text = He is bountiful in blessing who increases in goodness.
+# sent_id = 73
+# constituency = (ROOT (S (NP (PRP He)) (VP (VBZ is) (ADJP (JJ bountiful)) (PP (IN in) (S (NP (NP (NN blessing)) (SBAR (WHNP (WP who)) (S (VP (VBZ increases) (PP (IN in) (NP (NN goodness)))))))))) (. .)))
+# sentiment = 2
+1	He	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	start_char=5093|end_char=5095|ner=O
+2	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	start_char=5096|end_char=5098|ner=O
+3	bountiful	bountiful	ADJ	JJ	Degree=Pos	0	root	_	start_char=5099|end_char=5108|ner=O
+4	in	in	ADP	IN	_	5	case	_	start_char=5109|end_char=5111|ner=O
+5	blessing	blessing	NOUN	NN	Number=Sing	3	obl	_	start_char=5112|end_char=5120|ner=O
+6	who	who	PRON	WP	PronType=Rel	7	nsubj	_	start_char=5121|end_char=5124|ner=O
+7	increases	increase	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	acl:relcl	_	start_char=5125|end_char=5134|ner=O
+8	in	in	ADP	IN	_	9	case	_	start_char=5135|end_char=5137|ner=O
+9	goodness	goodness	NOUN	NN	Number=Sing	7	obl	_	start_char=5138|end_char=5146|ner=O
+10	.	.	PUNCT	.	_	3	punct	_	start_char=5146|end_char=5147|ner=O
+
+# text = So that the law was given by Moses and grace and truth were by Jesus Christ.
+# sent_id = 74
+# constituency = (ROOT (S (ADVP (RB So) (SBAR (IN that) (S (NP (DT the) (NN law)) (VP (VBD was) (VP (VBN given) (PP (IN by) (NP (NNP Moses) (CC and) (NN grace) (CC and) (NN truth)))))))) (VP (VBD were) (PP (IN by) (NP (NNP Jesus) (NNP Christ)))) (. .)))
+# sentiment = 1
+1	So	so	ADV	RB	_	15	advmod	_	start_char=5148|end_char=5150|ner=O
+2	that	that	SCONJ	IN	_	6	mark	_	start_char=5151|end_char=5155|ner=O
+3	the	the	DET	DT	Definite=Def|PronType=Art	4	det	_	start_char=5156|end_char=5159|ner=O
+4	law	law	NOUN	NN	Number=Sing	6	nsubj:pass	_	start_char=5160|end_char=5163|ner=O
+5	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	6	aux:pass	_	start_char=5164|end_char=5167|ner=O
+6	given	give	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	15	csubj	_	start_char=5168|end_char=5173|ner=O
+7	by	by	ADP	IN	_	8	case	_	start_char=5174|end_char=5176|ner=O
+8	Moses	Moses	PROPN	NNP	Number=Sing	6	obl	_	start_char=5177|end_char=5182|ner=S-PERSON
+9	and	and	CCONJ	CC	_	10	cc	_	start_char=5183|end_char=5186|ner=O
+10	grace	grace	NOUN	NN	Number=Sing	8	conj	_	start_char=5187|end_char=5192|ner=O
+11	and	and	CCONJ	CC	_	12	cc	_	start_char=5193|end_char=5196|ner=O
+12	truth	truth	NOUN	NN	Number=Sing	8	conj	_	start_char=5197|end_char=5202|ner=O
+13	were	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	15	cop	_	start_char=5203|end_char=5207|ner=O
+14	by	by	ADP	IN	_	15	case	_	start_char=5208|end_char=5210|ner=O
+15	Jesus	Jesus	PROPN	NNP	Number=Sing	0	root	_	start_char=5211|end_char=5216|ner=B-PERSON
+16	Christ	Christ	PROPN	NNP	Number=Sing	15	flat	_	start_char=5217|end_char=5223|ner=E-PERSON
+17	.	.	PUNCT	.	_	15	punct	_	start_char=5223|end_char=5224|ner=O
+
+# text = To pray, Muhammad said first: praise to God, Lord of Worlds, the Merciful, the Compassionate, Possessor of the Day of Judgment, you we worship, from you we seek aid.
+# sent_id = 75
+# constituency = (ROOT (S (S (VP (TO To) (VP (VB pray)))) (, ,) (NP (NNP Muhammad)) (VP (VBD said) (ADVP (RB first)) (: :) (NP (NP (NN praise)) (PP (IN to) (NP (NP (NNP God)) (, ,) (NP (NP (NNP Lord)) (PP (IN of) (NP (NNPS Worlds)))) (, ,) (NP (DT the) (NNP Merciful)) (, ,) (NP (DT the) (JJ Compassionate)) (, ,) (NP (NP (NNP Possessor)) (PP (IN of) (NP (NP (DT the) (NNP Day)) (PP (IN of) (NP (NNP Judgment)))))) (SBAR (PRN (, ,) (NP (NP (PRP you)) (SBAR (S (NP (PRP we)) (VP (VBP worship))))) (, ,) (PP (IN from) (NP (PRP you)))) (S (NP (PRP we)) (VP (VBP seek) (NP (NN aid))))))))) (. .)))
+# sentiment = 1
+1	To	to	PART	TO	_	2	mark	_	start_char=5225|end_char=5227|ner=O
+2	pray	pray	VERB	VB	VerbForm=Inf	5	advcl	_	start_char=5228|end_char=5232|ner=O
+3	,	,	PUNCT	,	_	2	punct	_	start_char=5232|end_char=5233|ner=O
+4	Muhammad	Muhammad	PROPN	NNP	Number=Sing	5	nsubj	_	start_char=5234|end_char=5242|ner=S-PERSON
+5	said	say	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	start_char=5243|end_char=5247|ner=O
+6	first	first	ADV	RB	NumType=Ord	5	advmod	_	start_char=5248|end_char=5253|ner=S-ORDINAL
+7	:	:	PUNCT	:	_	8	punct	_	start_char=5253|end_char=5254|ner=O
+8	praise	praise	NOUN	NN	Number=Sing	5	ccomp	_	start_char=5255|end_char=5261|ner=O
+9	to	to	ADP	IN	_	10	case	_	start_char=5262|end_char=5264|ner=O
+10	God	God	PROPN	NNP	Number=Sing	8	nmod	_	start_char=5265|end_char=5268|ner=O
+11	,	,	PUNCT	,	_	12	punct	_	start_char=5268|end_char=5269|ner=O
+12	Lord	Lord	PROPN	NNP	Number=Sing	8	conj	_	start_char=5270|end_char=5274|ner=O
+13	of	of	ADP	IN	_	14	case	_	start_char=5275|end_char=5277|ner=O
+14	Worlds	Worlds	PROPN	NNPS	Number=Plur	12	nmod	_	start_char=5278|end_char=5284|ner=O
+15	,	,	PUNCT	,	_	17	punct	_	start_char=5284|end_char=5285|ner=O
+16	the	the	DET	DT	Definite=Def|PronType=Art	17	det	_	start_char=5286|end_char=5289|ner=O
+17	Merciful	Merciful	PROPN	NNP	Number=Sing	8	conj	_	start_char=5290|end_char=5298|ner=O
+18	,	,	PUNCT	,	_	20	punct	_	start_char=5298|end_char=5299|ner=O
+19	the	the	DET	DT	Definite=Def|PronType=Art	20	det	_	start_char=5300|end_char=5303|ner=O
+20	Compassionate	Compassionate	ADJ	JJ	Degree=Pos	8	conj	_	start_char=5304|end_char=5317|ner=O
+21	,	,	PUNCT	,	_	22	punct	_	start_char=5317|end_char=5318|ner=O
+22	Possessor	Possessor	PROPN	NNP	Number=Sing	8	conj	_	start_char=5319|end_char=5328|ner=B-LAW
+23	of	of	ADP	IN	_	25	case	_	start_char=5329|end_char=5331|ner=I-LAW
+24	the	the	DET	DT	Definite=Def|PronType=Art	25	det	_	start_char=5332|end_char=5335|ner=I-LAW
+25	Day	Day	PROPN	NNP	Number=Sing	22	nmod	_	start_char=5336|end_char=5339|ner=I-LAW
+26	of	of	ADP	IN	_	27	case	_	start_char=5340|end_char=5342|ner=I-LAW
+27	Judgment	Judgment	PROPN	NNP	Number=Sing	25	nmod	_	start_char=5343|end_char=5351|ner=E-LAW
+28	,	,	PUNCT	,	_	29	punct	_	start_char=5351|end_char=5352|ner=O
+29	you	you	PRON	PRP	Case=Acc|Person=2|PronType=Prs	8	conj	_	start_char=5353|end_char=5356|ner=O
+30	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	31	nsubj	_	start_char=5357|end_char=5359|ner=O
+31	worship	worship	VERB	VBP	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	29	acl:relcl	_	start_char=5360|end_char=5367|ner=O
+32	,	,	PUNCT	,	_	8	punct	_	start_char=5367|end_char=5368|ner=O
+33	from	from	ADP	IN	_	34	case	_	start_char=5369|end_char=5373|ner=O
+34	you	you	PRON	PRP	Case=Acc|Person=2|PronType=Prs	8	nmod	_	start_char=5374|end_char=5377|ner=O
+35	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	36	nsubj	_	start_char=5378|end_char=5380|ner=O
+36	seek	seek	VERB	VBP	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	8	parataxis	_	start_char=5381|end_char=5385|ner=O
+37	aid	aid	NOUN	NN	Number=Sing	36	obj	_	start_char=5386|end_char=5389|ner=O
+38	.	.	PUNCT	.	_	5	punct	_	start_char=5389|end_char=5390|ner=O
+
+# text = Guide us on the straight path, the path of those on whom you bestow grace, not those against whom you are angered, and not those who are astray.
+# sent_id = 76
+# constituency = (ROOT (S (S (VP (VB Guide) (NP (PRP us)) (PP (IN on) (NP (DT the) (JJ straight) (NN path))))) (, ,) (NP (NP (DT the) (NN path)) (PP (IN of) (NP (NP (NP (DT those)) (SBAR (WHPP (IN on) (WHNP (WP whom))) (S (NP (PRP you)) (VP (VBP bestow) (NP (NN grace)))))) (, ,) (RB not) (NP (NP (NP (DT those)) (SBAR (WHPP (IN against) (WHNP (WP whom))) (S (NP (PRP you)) (VP (VBP are) (VP (VBN angered)))))) (, ,) (CC and) (RB not) (NP (NP (DT those)) (SBAR (WHNP (WP who)) (S (VP (VBP are) (ADJP (JJ astray)))))))))) (. .)))
+# sentiment = 1
+1	Guide	guide	VERB	VB	Mood=Imp|VerbForm=Fin	0	root	_	start_char=5391|end_char=5396|ner=O
+2	us	we	PRON	PRP	Case=Acc|Number=Plur|Person=1|PronType=Prs	1	obj	_	start_char=5397|end_char=5399|ner=O
+3	on	on	ADP	IN	_	6	case	_	start_char=5400|end_char=5402|ner=O
+4	the	the	DET	DT	Definite=Def|PronType=Art	6	det	_	start_char=5403|end_char=5406|ner=O
+5	straight	straight	ADJ	JJ	Degree=Pos	6	amod	_	start_char=5407|end_char=5415|ner=O
+6	path	path	NOUN	NN	Number=Sing	1	obl	_	start_char=5416|end_char=5420|ner=O
+7	,	,	PUNCT	,	_	9	punct	_	start_char=5420|end_char=5421|ner=O
+8	the	the	DET	DT	Definite=Def|PronType=Art	9	det	_	start_char=5422|end_char=5425|ner=O
+9	path	path	NOUN	NN	Number=Sing	6	appos	_	start_char=5426|end_char=5430|ner=O
+10	of	of	ADP	IN	_	11	case	_	start_char=5431|end_char=5433|ner=O
+11	those	that	PRON	DT	Number=Plur|PronType=Dem	9	nmod	_	start_char=5434|end_char=5439|ner=O
+12	on	on	ADP	IN	_	13	case	_	start_char=5440|end_char=5442|ner=O
+13	whom	whom	PRON	WP	PronType=Int	11	nmod	_	start_char=5443|end_char=5447|ner=O
+14	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	15	nsubj	_	start_char=5448|end_char=5451|ner=O
+15	bestow	bestow	VERB	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	11	acl:relcl	_	start_char=5452|end_char=5458|ner=O
+16	grace	grace	NOUN	NN	Number=Sing	15	obj	_	start_char=5459|end_char=5464|ner=O
+17	,	,	PUNCT	,	_	19	punct	_	start_char=5464|end_char=5465|ner=O
+18	not	not	PART	RB	_	19	advmod	_	start_char=5466|end_char=5469|ner=O
+19	those	that	PRON	DT	Number=Plur|PronType=Dem	11	conj	_	start_char=5470|end_char=5475|ner=O
+20	against	against	ADP	IN	_	21	case	_	start_char=5476|end_char=5483|ner=O
+21	whom	whom	PRON	WP	PronType=Int	19	nmod	_	start_char=5484|end_char=5488|ner=O
+22	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	24	nsubj:pass	_	start_char=5489|end_char=5492|ner=O
+23	are	be	AUX	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	24	aux:pass	_	start_char=5493|end_char=5496|ner=O
+24	angered	anger	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	19	acl:relcl	_	start_char=5497|end_char=5504|ner=O
+25	,	,	PUNCT	,	_	28	punct	_	start_char=5504|end_char=5505|ner=O
+26	and	and	CCONJ	CC	_	28	cc	_	start_char=5506|end_char=5509|ner=O
+27	not	not	PART	RB	_	28	advmod	_	start_char=5510|end_char=5513|ner=O
+28	those	that	PRON	DT	Number=Plur|PronType=Dem	6	conj	_	start_char=5514|end_char=5519|ner=O
+29	who	who	PRON	WP	PronType=Rel	31	nsubj	_	start_char=5520|end_char=5523|ner=O
+30	are	be	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	31	cop	_	start_char=5524|end_char=5527|ner=O
+31	astray	astray	ADJ	JJ	Degree=Pos	28	acl:relcl	_	start_char=5528|end_char=5534|ner=O
+32	.	.	PUNCT	.	_	1	punct	_	start_char=5534|end_char=5535|ner=O
+
+# text = Amen.
+# sent_id = 77
+# constituency = (ROOT (INTJ (UH Amen) (. .)))
+# sentiment = 1
+1	Amen	amen	INTJ	UH	_	0	root	_	start_char=5536|end_char=5540|ner=O
+2	.	.	PUNCT	.	_	1	punct	_	start_char=5540|end_char=5541|ner=O
+
+# text = And now he prays the words of our Lord Jesus Christ:
+# sent_id = 78
+# constituency = (ROOT (S (CC And) (ADVP (RB now)) (NP (PRP he)) (VP (VBZ prays) (NP (NP (DT the) (NNS words)) (PP (IN of) (NP (PRP$ our) (NNP Lord) (NNP Jesus) (NNP Christ))))) (: :)))
+# sentiment = 1
+1	And	and	CCONJ	CC	_	4	cc	_	start_char=5542|end_char=5545|ner=O
+2	now	now	ADV	RB	_	4	advmod	_	start_char=5546|end_char=5549|ner=O
+3	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	4	nsubj	_	start_char=5550|end_char=5552|ner=O
+4	prays	pray	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=5553|end_char=5558|ner=O
+5	the	the	DET	DT	Definite=Def|PronType=Art	6	det	_	start_char=5559|end_char=5562|ner=O
+6	words	word	NOUN	NNS	Number=Plur	4	obj	_	start_char=5563|end_char=5568|ner=O
+7	of	of	ADP	IN	_	9	case	_	start_char=5569|end_char=5571|ner=O
+8	our	we	PRON	PRP$	Case=Gen|Number=Plur|Person=1|Poss=Yes|PronType=Prs	9	nmod:poss	_	start_char=5572|end_char=5575|ner=O
+9	Lord	Lord	PROPN	NNP	Number=Sing	6	nmod	_	start_char=5576|end_char=5580|ner=O
+10	Jesus	Jesus	PROPN	NNP	Number=Sing	9	appos	_	start_char=5581|end_char=5586|ner=B-PERSON
+11	Christ	Christ	PROPN	NNP	Number=Sing	9	flat	_	start_char=5587|end_char=5593|ner=E-PERSON
+12	:	:	PUNCT	:	_	4	punct	_	start_char=5593|end_char=5594|ner=O
+
+# text = Oh our Father, who is in the heavens, your name is holy.
+# sent_id = 79
+# constituency = (ROOT (FRAG (ADVP (UH Oh)) (NP (NP (PRP$ our) (NN Father)) (, ,) (SBAR (WHNP (WP who)) (S (VP (VBZ is) (PP (IN in) (NP (DT the) (NNS heavens)))))) (, ,)) (NP (PRP$ your) (NN name)) (VP (VBZ is) (ADJP (JJ holy))) (. .)))
+# sentiment = 1
+1	Oh	oh	INTJ	UH	_	3	discourse	_	start_char=5595|end_char=5597|ner=O
+2	our	we	PRON	PRP$	Case=Gen|Number=Plur|Person=1|Poss=Yes|PronType=Prs	3	nmod:poss	_	start_char=5598|end_char=5601|ner=O
+3	Father	father	NOUN	NN	Number=Sing	14	dislocated	_	start_char=5602|end_char=5608|ner=O
+4	,	,	PUNCT	,	_	3	punct	_	start_char=5608|end_char=5609|ner=O
+5	who	who	PRON	WP	PronType=Rel	9	nsubj	_	start_char=5610|end_char=5613|ner=O
+6	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	cop	_	start_char=5614|end_char=5616|ner=O
+7	in	in	ADP	IN	_	9	case	_	start_char=5617|end_char=5619|ner=O
+8	the	the	DET	DT	Definite=Def|PronType=Art	9	det	_	start_char=5620|end_char=5623|ner=O
+9	heavens	heaven	NOUN	NNS	Number=Plur	3	acl:relcl	_	start_char=5624|end_char=5631|ner=O
+10	,	,	PUNCT	,	_	3	punct	_	start_char=5631|end_char=5632|ner=O
+11	your	you	PRON	PRP$	Case=Gen|Person=2|Poss=Yes|PronType=Prs	12	nmod:poss	_	start_char=5633|end_char=5637|ner=O
+12	name	name	NOUN	NN	Number=Sing	14	nsubj	_	start_char=5638|end_char=5642|ner=O
+13	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	cop	_	start_char=5643|end_char=5645|ner=O
+14	holy	holy	ADJ	JJ	Degree=Pos	0	root	_	start_char=5646|end_char=5650|ner=O
+15	.	.	PUNCT	.	_	14	punct	_	start_char=5650|end_char=5651|ner=O
+
+# text = May your kingdom come, your will come to be, as in heaven and upon earth.
+# sent_id = 80
+# constituency = (ROOT (S (SINV (MD May) (NP (PRP$ your) (NNP kingdom)) (VP (VB come))) (, ,) (NP (PRP$ your)) (VP (MD will) (VP (VB come) (S (VP (TO to) (VP (VB be)))) (, ,) (PP (IN as) (PP (PP (IN in) (NP (NN heaven))) (CC and) (PP (IN upon) (NP (NN earth))))))) (. .)))
+# sentiment = 1
+1	May	may	AUX	MD	VerbForm=Fin	4	aux	_	start_char=5652|end_char=5655|ner=O
+2	your	you	PRON	PRP$	Case=Gen|Person=2|Poss=Yes|PronType=Prs	3	nmod:poss	_	start_char=5656|end_char=5660|ner=O
+3	kingdom	kingdom	PROPN	NNP	Number=Sing	4	nsubj	_	start_char=5661|end_char=5668|ner=O
+4	come	come	VERB	VB	VerbForm=Inf	0	root	_	start_char=5669|end_char=5673|ner=O
+5	,	,	PUNCT	,	_	4	punct	_	start_char=5673|end_char=5674|ner=O
+6	your	you	PRON	PRP$	Case=Gen|Person=2|Poss=Yes|PronType=Prs	8	nsubj	_	start_char=5675|end_char=5679|ner=O
+7	will	will	AUX	MD	VerbForm=Fin	8	aux	_	start_char=5680|end_char=5684|ner=O
+8	come	come	VERB	VB	VerbForm=Inf	4	parataxis	_	start_char=5685|end_char=5689|ner=O
+9	to	to	PART	TO	_	10	mark	_	start_char=5690|end_char=5692|ner=O
+10	be	be	AUX	VB	VerbForm=Inf	8	xcomp	_	start_char=5693|end_char=5695|ner=O
+11	,	,	PUNCT	,	_	14	punct	_	start_char=5695|end_char=5696|ner=O
+12	as	as	ADP	IN	_	14	case	_	start_char=5697|end_char=5699|ner=O
+13	in	in	ADP	IN	_	14	case	_	start_char=5700|end_char=5702|ner=O
+14	heaven	heaven	NOUN	NN	Number=Sing	8	obl	_	start_char=5703|end_char=5709|ner=O
+15	and	and	CCONJ	CC	_	17	cc	_	start_char=5710|end_char=5713|ner=O
+16	upon	upon	ADP	IN	_	17	case	_	start_char=5714|end_char=5718|ner=O
+17	earth	earth	NOUN	NN	Number=Sing	14	conj	_	start_char=5719|end_char=5724|ner=O
+18	.	.	PUNCT	.	_	4	punct	_	start_char=5724|end_char=5725|ner=O
+
+# text = Give us our bread which is for tomorrow, today, and forgive us what is against us, like we forgive him against whom we have something.
+# sent_id = 81
+# constituency = (ROOT (S (VP (VB Give) (NP (PRP us)) (NP (NP (PRP$ our) (NN bread)) (SBAR (WHNP (WDT which)) (S (VP (VP (VBZ is) (PP (IN for) (NP (NN tomorrow)))) (, ,) (NP (NN today)) (, ,) (CC and) (VP (VB forgive) (NP (PRP us)) (SBAR (WHNP (WP what)) (S (VP (VBZ is) (PP (IN against) (NP (PRP us))))))))))) (, ,) (SBAR (IN like) (S (NP (PRP we)) (VP (VBP forgive) (NP (PRP him)) (SBAR (WHPP (IN against) (WHNP (WP whom))) (S (NP (PRP we)) (VP (VBP have) (NP (NN something))))))))) (. .)))
+# sentiment = 1
+1	Give	give	VERB	VB	Mood=Imp|VerbForm=Fin	0	root	_	start_char=5726|end_char=5730|ner=O
+2	us	we	PRON	PRP	Case=Acc|Number=Plur|Person=1|PronType=Prs	1	iobj	_	start_char=5731|end_char=5733|ner=O
+3	our	we	PRON	PRP$	Case=Gen|Number=Plur|Person=1|Poss=Yes|PronType=Prs	4	nmod:poss	_	start_char=5734|end_char=5737|ner=O
+4	bread	bread	NOUN	NN	Number=Sing	1	obj	_	start_char=5738|end_char=5743|ner=O
+5	which	which	PRON	WDT	PronType=Rel	8	nsubj	_	start_char=5744|end_char=5749|ner=O
+6	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	cop	_	start_char=5750|end_char=5752|ner=O
+7	for	for	ADP	IN	_	8	case	_	start_char=5753|end_char=5756|ner=O
+8	tomorrow	tomorrow	NOUN	NN	Number=Sing	4	acl:relcl	_	start_char=5757|end_char=5765|ner=S-DATE
+9	,	,	PUNCT	,	_	10	punct	_	start_char=5765|end_char=5766|ner=O
+10	today	today	NOUN	NN	Number=Sing	1	obl:tmod	_	start_char=5767|end_char=5772|ner=S-DATE
+11	,	,	PUNCT	,	_	13	punct	_	start_char=5772|end_char=5773|ner=O
+12	and	and	CCONJ	CC	_	13	cc	_	start_char=5774|end_char=5777|ner=O
+13	forgive	forgive	VERB	VB	Mood=Imp|VerbForm=Fin	1	conj	_	start_char=5778|end_char=5785|ner=O
+14	us	we	PRON	PRP	Case=Acc|Number=Plur|Person=1|PronType=Prs	13	iobj	_	start_char=5786|end_char=5788|ner=O
+15	what	what	PRON	WP	PronType=Int	16	nsubj	_	start_char=5789|end_char=5793|ner=O
+16	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	18	cop	_	start_char=5794|end_char=5796|ner=O
+17	against	against	ADP	IN	_	18	case	_	start_char=5797|end_char=5804|ner=O
+18	us	we	PRON	PRP	Case=Acc|Number=Plur|Person=1|PronType=Prs	13	ccomp	_	start_char=5805|end_char=5807|ner=O
+19	,	,	PUNCT	,	_	22	punct	_	start_char=5807|end_char=5808|ner=O
+20	like	like	SCONJ	IN	_	22	mark	_	start_char=5809|end_char=5813|ner=O
+21	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	22	nsubj	_	start_char=5814|end_char=5816|ner=O
+22	forgive	forgive	VERB	VBP	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	13	advcl	_	start_char=5817|end_char=5824|ner=O
+23	him	he	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	22	obj	_	start_char=5825|end_char=5828|ner=O
+24	against	against	ADP	IN	_	25	case	_	start_char=5829|end_char=5836|ner=O
+25	whom	whom	PRON	WP	PronType=Int	22	obl	_	start_char=5837|end_char=5841|ner=O
+26	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	27	nsubj	_	start_char=5842|end_char=5844|ner=O
+27	have	have	VERB	VBP	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	25	acl:relcl	_	start_char=5845|end_char=5849|ner=O
+28	something	something	PRON	NN	Number=Sing|PronType=Ind	27	obj	_	start_char=5850|end_char=5859|ner=O
+29	.	.	PUNCT	.	_	1	punct	_	start_char=5859|end_char=5860|ner=O
+
+# text = And do not lead us to temptation, but bring us from evil.
+# sent_id = 82
+# constituency = (ROOT (S (CC And) (VP (VB do) (RB not) (VP (VP (VB lead) (NP (PRP us)) (PP (IN to) (NP (NN temptation)))) (, ,) (CC but) (VP (VB bring) (NP (PRP us)) (PP (IN from) (NP (NN evil)))))) (. .)))
+# sentiment = 1
+1	And	and	CCONJ	CC	_	4	cc	_	start_char=5861|end_char=5864|ner=O
+2	do	do	AUX	VB	Mood=Imp|VerbForm=Fin	4	aux	_	start_char=5865|end_char=5867|ner=O
+3	not	not	PART	RB	_	4	advmod	_	start_char=5868|end_char=5871|ner=O
+4	lead	lead	VERB	VB	Mood=Imp|VerbForm=Fin	0	root	_	start_char=5872|end_char=5876|ner=O
+5	us	we	PRON	PRP	Case=Acc|Number=Plur|Person=1|PronType=Prs	4	obj	_	start_char=5877|end_char=5879|ner=O
+6	to	to	ADP	IN	_	7	case	_	start_char=5880|end_char=5882|ner=O
+7	temptation	temptation	NOUN	NN	Number=Sing	4	obl	_	start_char=5883|end_char=5893|ner=O
+8	,	,	PUNCT	,	_	10	punct	_	start_char=5893|end_char=5894|ner=O
+9	but	but	CCONJ	CC	_	10	cc	_	start_char=5895|end_char=5898|ner=O
+10	bring	bring	VERB	VB	Mood=Imp|VerbForm=Fin	4	conj	_	start_char=5899|end_char=5904|ner=O
+11	us	we	PRON	PRP	Case=Acc|Number=Plur|Person=1|PronType=Prs	10	obj	_	start_char=5905|end_char=5907|ner=O
+12	from	from	ADP	IN	_	13	case	_	start_char=5908|end_char=5912|ner=O
+13	evil	evil	NOUN	NN	Number=Sing	10	obl	_	start_char=5913|end_char=5917|ner=O
+14	.	.	PUNCT	.	_	4	punct	_	start_char=5917|end_char=5918|ner=O
+
+# text = For yours is the kingdom and the power and the glory forever.
+# sent_id = 83
+# constituency = (ROOT (SINV (PP (IN For) (NP (PRP yours))) (VP (VBZ is)) (NP (NP (DT the) (NN kingdom)) (CC and) (NP (NP (DT the) (NN power)) (CC and) (NP (DT the) (NN glory)))) (ADVP (RB forever)) (. .)))
+# sentiment = 1
+1	For	for	ADP	IN	_	2	case	_	start_char=5919|end_char=5922|ner=O
+2	yours	yours	PRON	PRP	Gender=Neut|Number=Sing|Person=2|Poss=Yes|PronType=Prs	0	root	_	start_char=5923|end_char=5928|ner=O
+3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	cop	_	start_char=5929|end_char=5931|ner=O
+4	the	the	DET	DT	Definite=Def|PronType=Art	5	det	_	start_char=5932|end_char=5935|ner=O
+5	kingdom	kingdom	NOUN	NN	Number=Sing	2	nsubj	_	start_char=5936|end_char=5943|ner=O
+6	and	and	CCONJ	CC	_	8	cc	_	start_char=5944|end_char=5947|ner=O
+7	the	the	DET	DT	Definite=Def|PronType=Art	8	det	_	start_char=5948|end_char=5951|ner=O
+8	power	power	NOUN	NN	Number=Sing	5	conj	_	start_char=5952|end_char=5957|ner=O
+9	and	and	CCONJ	CC	_	11	cc	_	start_char=5958|end_char=5961|ner=O
+10	the	the	DET	DT	Definite=Def|PronType=Art	11	det	_	start_char=5962|end_char=5965|ner=O
+11	glory	glory	NOUN	NN	Number=Sing	5	conj	_	start_char=5966|end_char=5971|ner=O
+12	forever	forever	ADV	RB	_	11	advmod	_	start_char=5972|end_char=5979|ner=O
+13	.	.	PUNCT	.	_	2	punct	_	start_char=5979|end_char=5980|ner=O
+
+# text = Amen.
+# sent_id = 84
+# constituency = (ROOT (INTJ (UH Amen) (. .)))
+# sentiment = 1
+1	Amen	amen	INTJ	UH	_	0	root	_	start_char=5981|end_char=5985|ner=O
+2	.	.	PUNCT	.	_	1	punct	_	start_char=5985|end_char=5986|ner=O
+
+# text = I stay in our land because of great harm.
+# sent_id = 85
+# constituency = (ROOT (S (NP (PRP I)) (VP (VBP stay) (PP (IN in) (NP (PRP$ our) (NN land))) (PP (IN because) (IN of) (NP (JJ great) (NN harm)))) (. .)))
+# sentiment = 1
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	start_char=5987|end_char=5988|ner=O
+2	stay	stay	VERB	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	start_char=5989|end_char=5993|ner=O
+3	in	in	ADP	IN	_	5	case	_	start_char=5994|end_char=5996|ner=O
+4	our	we	PRON	PRP$	Case=Gen|Number=Plur|Person=1|Poss=Yes|PronType=Prs	5	nmod:poss	_	start_char=5997|end_char=6000|ner=O
+5	land	land	NOUN	NN	Number=Sing	2	obl	_	start_char=6001|end_char=6005|ner=O
+6	because	because	ADP	IN	_	9	case	_	start_char=6006|end_char=6013|ner=O
+7	of	of	ADP	IN	_	6	fixed	_	start_char=6014|end_char=6016|ner=O
+8	great	great	ADJ	JJ	Degree=Pos	9	amod	_	start_char=6017|end_char=6022|ner=O
+9	harm	harm	NOUN	NN	Number=Sing	2	obl	_	start_char=6023|end_char=6027|ner=O
+10	.	.	PUNCT	.	_	2	punct	_	start_char=6027|end_char=6028|ner=O
+
+# text = Infidels did a great injustice and sold me into the hand of Christians.
+# sent_id = 86
+# constituency = (ROOT (S (NP (NNPS Infidels)) (VP (VP (VBD did) (NP (DT a) (JJ great) (NN injustice))) (CC and) (VP (VBD sold) (NP (PRP me)) (PP (IN into) (NP (NP (DT the) (NN hand)) (PP (IN of) (NP (NNPS Christians))))))) (. .)))
+# sentiment = 1
+1	Infidels	Infidel	PROPN	NNPS	Number=Plur	2	nsubj	_	start_char=6029|end_char=6037|ner=S-PERSON
+2	did	do	VERB	VBD	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	0	root	_	start_char=6038|end_char=6041|ner=O
+3	a	a	DET	DT	Definite=Ind|PronType=Art	5	det	_	start_char=6042|end_char=6043|ner=O
+4	great	great	ADJ	JJ	Degree=Pos	5	amod	_	start_char=6044|end_char=6049|ner=O
+5	injustice	injustice	NOUN	NN	Number=Sing	2	obj	_	start_char=6050|end_char=6059|ner=O
+6	and	and	CCONJ	CC	_	7	cc	_	start_char=6060|end_char=6063|ner=O
+7	sold	sell	VERB	VBD	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	2	conj	_	start_char=6064|end_char=6068|ner=O
+8	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	7	obj	_	start_char=6069|end_char=6071|ner=O
+9	into	into	ADP	IN	_	11	case	_	start_char=6072|end_char=6076|ner=O
+10	the	the	DET	DT	Definite=Def|PronType=Art	11	det	_	start_char=6077|end_char=6080|ner=O
+11	hand	hand	NOUN	NN	Number=Sing	7	obl	_	start_char=6081|end_char=6085|ner=O
+12	of	of	ADP	IN	_	13	case	_	start_char=6086|end_char=6088|ner=O
+13	Christians	Christian	PROPN	NNPS	Number=Plur	11	nmod	_	start_char=6089|end_char=6099|ner=S-NORP
+14	.	.	PUNCT	.	_	2	punct	_	start_char=6099|end_char=6100|ner=O
+
+# text = I was purchased and went on the great sea for a month and half-a-month to a place called Charleston in the Christian speech.
+# sent_id = 87
+# constituency = (ROOT (S (NP (PRP I)) (VP (VBD was) (VP (VP (VBN purchased)) (CC and) (VP (VBN went) (PP (IN on) (NP (DT the) (JJ great) (NN sea))) (PP (PP (IN for) (NP (NP (DT a) (NN month)) (CC and) (NP (NN half) (HYPH -) (DT a-) (NN month)))) (PP (IN to) (NP (NP (DT a) (NN place)) (VP (VBN called) (S (NP (NNP Charleston))) (PP (IN in) (NP (DT the) (JJ Christian) (NN speech)))))))))) (. .)))
+# sentiment = 2
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj:pass	_	start_char=6101|end_char=6102|ner=O
+2	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	3	aux:pass	_	start_char=6103|end_char=6106|ner=O
+3	purchased	purchase	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	start_char=6107|end_char=6116|ner=O
+4	and	and	CCONJ	CC	_	5	cc	_	start_char=6117|end_char=6120|ner=O
+5	went	go	VERB	VBN	Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin	3	conj	_	start_char=6121|end_char=6125|ner=O
+6	on	on	ADP	IN	_	9	case	_	start_char=6126|end_char=6128|ner=O
+7	the	the	DET	DT	Definite=Def|PronType=Art	9	det	_	start_char=6129|end_char=6132|ner=O
+8	great	great	ADJ	JJ	Degree=Pos	9	amod	_	start_char=6133|end_char=6138|ner=O
+9	sea	sea	NOUN	NN	Number=Sing	5	obl	_	start_char=6139|end_char=6142|ner=O
+10	for	for	ADP	IN	_	12	case	_	start_char=6143|end_char=6146|ner=O
+11	a	a	DET	DT	Definite=Ind|PronType=Art	12	det	_	start_char=6147|end_char=6148|ner=B-DATE
+12	month	month	NOUN	NN	Number=Sing	5	obl	_	start_char=6149|end_char=6154|ner=I-DATE
+13	and	and	CCONJ	CC	_	17	cc	_	start_char=6155|end_char=6158|ner=I-DATE
+14	half	half	NOUN	NN	NumForm=Word|NumType=Frac|Number=Sing	16	compound	_	start_char=6159|end_char=6163|ner=I-DATE
+15	-	-	PUNCT	HYPH	_	16	punct	_	start_char=6163|end_char=6164|ner=I-DATE
+16	a-	a	DET	DT	PronType=Art	17	nummod	_	start_char=6164|end_char=6166|ner=I-DATE
+17	month	month	NOUN	NN	Number=Sing	12	conj	_	start_char=6166|end_char=6171|ner=E-DATE
+18	to	to	ADP	IN	_	20	case	_	start_char=6172|end_char=6174|ner=O
+19	a	a	DET	DT	Definite=Ind|PronType=Art	20	det	_	start_char=6175|end_char=6176|ner=O
+20	place	place	NOUN	NN	Number=Sing	5	obl	_	start_char=6177|end_char=6182|ner=O
+21	called	call	VERB	VBN	Tense=Past|VerbForm=Part	20	acl	_	start_char=6183|end_char=6189|ner=O
+22	Charleston	Charleston	PROPN	NNP	Number=Sing	21	xcomp	_	start_char=6190|end_char=6200|ner=S-GPE
+23	in	in	ADP	IN	_	26	case	_	start_char=6201|end_char=6203|ner=O
+24	the	the	DET	DT	Definite=Def|PronType=Art	26	det	_	start_char=6204|end_char=6207|ner=O
+25	Christian	Christian	ADJ	JJ	Degree=Pos	26	amod	_	start_char=6208|end_char=6217|ner=S-NORP
+26	speech	speech	NOUN	NN	Number=Sing	21	obl	_	start_char=6218|end_char=6224|ner=O
+27	.	.	PUNCT	.	_	3	punct	_	start_char=6224|end_char=6225|ner=O
+
+# text = I was driven into the hand of a small, weak and evil little man, who did not fear God at all, who did not read nor pray.
+# sent_id = 88
+# constituency = (ROOT (S (NP (PRP I)) (VP (VBD was) (VP (VBN driven) (PP (IN into) (NP (NP (DT the) (NN hand)) (PP (IN of) (NP (NP (NP (DT a) (ADJP (JJ small) (, ,) (JJ weak) (CC and) (JJ evil)) (JJ little) (NN man)) (, ,) (SBAR (WHNP (WP who)) (S (VP (VBD did) (RB not) (VP (VB fear) (NP (NNP God)) (ADVP (IN at) (DT all))))))) (, ,) (SBAR (WHNP (WP who)) (S (VP (VBD did) (RB not) (VP (VB read) (CC nor) (VB pray))))))))))) (. .)))
+# sentiment = 1
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj:pass	_	start_char=6226|end_char=6227|ner=O
+2	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	3	aux:pass	_	start_char=6228|end_char=6231|ner=O
+3	driven	drive	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	start_char=6232|end_char=6238|ner=O
+4	into	into	ADP	IN	_	6	case	_	start_char=6239|end_char=6243|ner=O
+5	the	the	DET	DT	Definite=Def|PronType=Art	6	det	_	start_char=6244|end_char=6247|ner=O
+6	hand	hand	NOUN	NN	Number=Sing	3	obl	_	start_char=6248|end_char=6252|ner=O
+7	of	of	ADP	IN	_	15	case	_	start_char=6253|end_char=6255|ner=O
+8	a	a	DET	DT	Definite=Ind|PronType=Art	15	det	_	start_char=6256|end_char=6257|ner=O
+9	small	small	ADJ	JJ	Degree=Pos	15	amod	_	start_char=6258|end_char=6263|ner=O
+10	,	,	PUNCT	,	_	11	punct	_	start_char=6263|end_char=6264|ner=O
+11	weak	weak	ADJ	JJ	Degree=Pos	9	conj	_	start_char=6265|end_char=6269|ner=O
+12	and	and	CCONJ	CC	_	13	cc	_	start_char=6270|end_char=6273|ner=O
+13	evil	evil	ADJ	JJ	Degree=Pos	9	conj	_	start_char=6274|end_char=6278|ner=O
+14	little	little	ADJ	JJ	Degree=Pos	15	amod	_	start_char=6279|end_char=6285|ner=O
+15	man	man	NOUN	NN	Number=Sing	6	nmod	_	start_char=6286|end_char=6289|ner=O
+16	,	,	PUNCT	,	_	15	punct	_	start_char=6289|end_char=6290|ner=O
+17	who	who	PRON	WP	PronType=Rel	20	nsubj	_	start_char=6291|end_char=6294|ner=O
+18	did	do	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	20	aux	_	start_char=6295|end_char=6298|ner=O
+19	not	not	PART	RB	_	20	advmod	_	start_char=6299|end_char=6302|ner=O
+20	fear	fear	VERB	VB	VerbForm=Inf	15	acl:relcl	_	start_char=6303|end_char=6307|ner=O
+21	God	God	PROPN	NNP	Number=Sing	20	obj	_	start_char=6308|end_char=6311|ner=O
+22	at	at	ADP	IN	_	23	case	_	start_char=6312|end_char=6314|ner=O
+23	all	all	DET	DT	_	20	obl	_	start_char=6315|end_char=6318|ner=O
+24	,	,	PUNCT	,	_	28	punct	_	start_char=6318|end_char=6319|ner=O
+25	who	who	PRON	WP	PronType=Rel	28	nsubj	_	start_char=6320|end_char=6323|ner=O
+26	did	do	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	28	aux	_	start_char=6324|end_char=6327|ner=O
+27	not	not	PART	RB	_	28	advmod	_	start_char=6328|end_char=6331|ner=O
+28	read	read	VERB	VB	VerbForm=Inf	15	acl:relcl	_	start_char=6332|end_char=6336|ner=O
+29	nor	nor	CCONJ	CC	_	30	cc	_	start_char=6337|end_char=6340|ner=O
+30	pray	pray	VERB	VB	VerbForm=Inf	28	conj	_	start_char=6341|end_char=6345|ner=O
+31	.	.	PUNCT	.	_	3	punct	_	start_char=6345|end_char=6346|ner=O
+
+# text = I was afraid to stay with this evil man, great in his sins.
+# sent_id = 89
+# constituency = (ROOT (S (NP (PRP I)) (VP (VBD was) (ADJP (JJ afraid) (S (VP (TO to) (VP (VB stay) (PP (IN with) (NP (DT this) (JJ evil) (NN man))) (, ,) (ADJP (JJ great) (PP (IN in) (NP (PRP$ his) (NNS sins))))))))) (. .)))
+# sentiment = 1
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	start_char=6347|end_char=6348|ner=O
+2	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	3	cop	_	start_char=6349|end_char=6352|ner=O
+3	afraid	afraid	ADJ	JJ	Degree=Pos	0	root	_	start_char=6353|end_char=6359|ner=O
+4	to	to	PART	TO	_	5	mark	_	start_char=6360|end_char=6362|ner=O
+5	stay	stay	VERB	VB	VerbForm=Inf	3	xcomp	_	start_char=6363|end_char=6367|ner=O
+6	with	with	ADP	IN	_	9	case	_	start_char=6368|end_char=6372|ner=O
+7	this	this	DET	DT	Number=Sing|PronType=Dem	9	det	_	start_char=6373|end_char=6377|ner=O
+8	evil	evil	ADJ	JJ	Degree=Pos	9	amod	_	start_char=6378|end_char=6382|ner=O
+9	man	man	NOUN	NN	Number=Sing	5	obl	_	start_char=6383|end_char=6386|ner=O
+10	,	,	PUNCT	,	_	11	punct	_	start_char=6386|end_char=6387|ner=O
+11	great	great	ADJ	JJ	Degree=Pos	9	amod	_	start_char=6388|end_char=6393|ner=O
+12	in	in	ADP	IN	_	14	case	_	start_char=6394|end_char=6396|ner=O
+13	his	he	PRON	PRP$	Case=Gen|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	14	nmod:poss	_	start_char=6397|end_char=6400|ner=O
+14	sins	sin	NOUN	NNS	Number=Plur	11	obl	_	start_char=6401|end_char=6405|ner=O
+15	.	.	PUNCT	.	_	3	punct	_	start_char=6405|end_char=6406|ner=O
+
+# text = I fled for months.
+# sent_id = 90
+# constituency = (ROOT (S (NP (PRP I)) (VP (VBD fled) (PP (IN for) (NP (NNS months)))) (. .)))
+# sentiment = 1
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	start_char=6407|end_char=6408|ner=O
+2	fled	fly	VERB	VBD	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	0	root	_	start_char=6409|end_char=6413|ner=O
+3	for	for	ADP	IN	_	4	case	_	start_char=6414|end_char=6417|ner=O
+4	months	month	NOUN	NNS	Number=Plur	2	obl	_	start_char=6418|end_char=6424|ner=S-DATE
+5	.	.	PUNCT	.	_	2	punct	_	start_char=6424|end_char=6425|ner=O
+
+# text = God our Lord brought us forward to the hand of a pious man who feared God and loved to do righteous deeds.
+# sent_id = 91
+# constituency = (ROOT (S (NP (NP (NNP God)) (NP (PRP$ our) (NN Lord))) (VP (VBD brought) (NP (PRP us)) (ADVP (RB forward)) (PP (IN to) (NP (NP (DT the) (NN hand)) (PP (IN of) (NP (NP (DT a) (JJ pious) (NN man)) (SBAR (WHNP (WP who)) (S (VP (VP (VBD feared) (NP (NNP God))) (CC and) (VP (VBD loved) (S (VP (TO to) (VP (VB do) (NP (JJ righteous) (NNS deeds)))))))))))))) (. .)))
+# sentiment = 2
+1	God	God	PROPN	NNP	Number=Sing	4	nsubj	_	start_char=6426|end_char=6429|ner=O
+2	our	we	PRON	PRP$	Case=Gen|Number=Plur|Person=1|Poss=Yes|PronType=Prs	3	nmod:poss	_	start_char=6430|end_char=6433|ner=O
+3	Lord	lord	NOUN	NN	Number=Sing	4	nsubj	_	start_char=6434|end_char=6438|ner=O
+4	brought	bring	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	start_char=6439|end_char=6446|ner=O
+5	us	we	PRON	PRP	Case=Acc|Number=Plur|Person=1|PronType=Prs	4	obj	_	start_char=6447|end_char=6449|ner=O
+6	forward	forward	ADV	RB	_	4	advmod	_	start_char=6450|end_char=6457|ner=O
+7	to	to	ADP	IN	_	9	case	_	start_char=6458|end_char=6460|ner=O
+8	the	the	DET	DT	Definite=Def|PronType=Art	9	det	_	start_char=6461|end_char=6464|ner=O
+9	hand	hand	NOUN	NN	Number=Sing	4	obl	_	start_char=6465|end_char=6469|ner=O
+10	of	of	ADP	IN	_	13	case	_	start_char=6470|end_char=6472|ner=O
+11	a	a	DET	DT	Definite=Ind|PronType=Art	13	det	_	start_char=6473|end_char=6474|ner=O
+12	pious	pious	ADJ	JJ	Degree=Pos	13	amod	_	start_char=6475|end_char=6480|ner=O
+13	man	man	NOUN	NN	Number=Sing	9	nmod	_	start_char=6481|end_char=6484|ner=O
+14	who	who	PRON	WP	PronType=Rel	15	nsubj	_	start_char=6485|end_char=6488|ner=O
+15	feared	fear	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	13	acl:relcl	_	start_char=6489|end_char=6495|ner=O
+16	God	God	PROPN	NNP	Number=Sing	15	obj	_	start_char=6496|end_char=6499|ner=O
+17	and	and	CCONJ	CC	_	18	cc	_	start_char=6500|end_char=6503|ner=O
+18	loved	love	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	15	conj	_	start_char=6504|end_char=6509|ner=O
+19	to	to	PART	TO	_	20	mark	_	start_char=6510|end_char=6512|ner=O
+20	do	do	VERB	VB	VerbForm=Inf	18	xcomp	_	start_char=6513|end_char=6515|ner=O
+21	righteous	righteous	ADJ	JJ	Degree=Pos	22	amod	_	start_char=6516|end_char=6525|ner=O
+22	deeds	deed	NOUN	NNS	Number=Plur	20	obj	_	start_char=6526|end_char=6531|ner=O
+23	.	.	PUNCT	.	_	4	punct	_	start_char=6531|end_char=6532|ner=O
+
+# text = He was called General Jim Owen With their brother called Colonel John Owen.
+# sent_id = 92
+# constituency = (ROOT (S (NP (PRP He)) (VP (VBD was) (VP (VBN called) (S (NP (NNP General) (NNP Jim) (NNP Owen))) (PP (IN With) (NP (NP (PRP$ their) (NN brother)) (VP (VBN called) (S (NP (NNP Colonel) (NNP John) (NNP Owen)))))))) (. .)))
+# sentiment = 1
+1	He	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	nsubj:pass	_	start_char=6533|end_char=6535|ner=O
+2	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	3	aux:pass	_	start_char=6536|end_char=6539|ner=O
+3	called	call	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	start_char=6540|end_char=6546|ner=O
+4	General	General	PROPN	NNP	Number=Sing	3	xcomp	_	start_char=6547|end_char=6554|ner=O
+5	Jim	Jim	PROPN	NNP	Number=Sing	4	flat	_	start_char=6555|end_char=6558|ner=B-PERSON
+6	Owen	Owen	PROPN	NNP	Number=Sing	4	flat	_	start_char=6559|end_char=6563|ner=E-PERSON
+7	With	with	ADP	IN	_	9	case	_	start_char=6564|end_char=6568|ner=O
+8	their	they	PRON	PRP$	Case=Gen|Number=Plur|Person=3|Poss=Yes|PronType=Prs	9	nmod:poss	_	start_char=6569|end_char=6574|ner=O
+9	brother	brother	NOUN	NN	Number=Sing	3	obl	_	start_char=6575|end_char=6582|ner=O
+10	called	call	VERB	VBN	Tense=Past|VerbForm=Part	9	acl	_	start_char=6583|end_char=6589|ner=O
+11	Colonel	Colonel	PROPN	NNP	Number=Sing	10	xcomp	_	start_char=6590|end_char=6597|ner=O
+12	John	John	PROPN	NNP	Number=Sing	11	flat	_	start_char=6598|end_char=6602|ner=B-PERSON
+13	Owen	Owen	PROPN	NNP	Number=Sing	11	flat	_	start_char=6603|end_char=6607|ner=E-PERSON
+14	.	.	PUNCT	.	_	3	punct	_	start_char=6607|end_char=6608|ner=O
+
+# text = These are two pious men.
+# sent_id = 93
+# constituency = (ROOT (S (NP (DT These)) (VP (VBP are) (NP (CD two) (JJ pious) (NNS men))) (. .)))
+# sentiment = 0
+1	These	this	PRON	DT	Number=Plur|PronType=Dem	5	nsubj	_	start_char=6609|end_char=6614|ner=O
+2	are	be	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	start_char=6615|end_char=6618|ner=O
+3	two	two	NUM	CD	NumForm=Word|NumType=Card	5	nummod	_	start_char=6619|end_char=6622|ner=S-CARDINAL
+4	pious	pious	ADJ	JJ	Degree=Pos	5	amod	_	start_char=6623|end_char=6628|ner=O
+5	men	man	NOUN	NNS	Number=Plur	0	root	_	start_char=6629|end_char=6632|ner=O
+6	.	.	PUNCT	.	_	5	punct	_	start_char=6632|end_char=6633|ner=O
+
+# text = I remain in the place Bladen County.
+# sent_id = 94
+# constituency = (ROOT (S (NP (PRP I)) (VP (VBP remain) (PP (IN in) (NP (NP (DT the) (NN place)) (NP (NNP Bladen) (NNP County))))) (. .)))
+# sentiment = 1
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	start_char=6634|end_char=6635|ner=O
+2	remain	remain	VERB	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	start_char=6636|end_char=6642|ner=O
+3	in	in	ADP	IN	_	5	case	_	start_char=6643|end_char=6645|ner=O
+4	the	the	DET	DT	Definite=Def|PronType=Art	5	det	_	start_char=6646|end_char=6649|ner=O
+5	place	place	NOUN	NN	Number=Sing	2	obl	_	start_char=6650|end_char=6655|ner=O
+6	Bladen	Bladen	PROPN	NNP	Number=Sing	7	compound	_	start_char=6656|end_char=6662|ner=B-GPE
+7	County	County	PROPN	NNP	Number=Sing	5	appos	_	start_char=6663|end_char=6669|ner=E-GPE
+8	.	.	PUNCT	.	_	2	punct	_	start_char=6669|end_char=6670|ner=O
+
+# text = I remain in the hand of Jim Owen.
+# sent_id = 95
+# constituency = (ROOT (S (NP (PRP I)) (VP (VBP remain) (PP (IN in) (NP (NP (DT the) (NN hand)) (PP (IN of) (NP (NNP Jim) (NNP Owen)))))) (. .)))
+# sentiment = 1
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	start_char=6671|end_char=6672|ner=O
+2	remain	remain	VERB	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	start_char=6673|end_char=6679|ner=O
+3	in	in	ADP	IN	_	5	case	_	start_char=6680|end_char=6682|ner=O
+4	the	the	DET	DT	Definite=Def|PronType=Art	5	det	_	start_char=6683|end_char=6686|ner=O
+5	hand	hand	NOUN	NN	Number=Sing	2	obl	_	start_char=6687|end_char=6691|ner=O
+6	of	of	ADP	IN	_	7	case	_	start_char=6692|end_char=6694|ner=O
+7	Jim	Jim	PROPN	NNP	Number=Sing	5	nmod	_	start_char=6695|end_char=6698|ner=B-PERSON
+8	Owen	Owen	PROPN	NNP	Number=Sing	7	flat	_	start_char=6699|end_char=6703|ner=E-PERSON
+9	.	.	PUNCT	.	_	2	punct	_	start_char=6703|end_char=6704|ner=O
+
+# text = He does not beat me.
+# sent_id = 96
+# constituency = (ROOT (S (NP (PRP He)) (VP (VBZ does) (RB not) (VP (VB beat) (NP (PRP me)))) (. .)))
+# sentiment = 2
+1	He	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	4	nsubj	_	start_char=6705|end_char=6707|ner=O
+2	does	do	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux	_	start_char=6708|end_char=6712|ner=O
+3	not	not	PART	RB	_	4	advmod	_	start_char=6713|end_char=6716|ner=O
+4	beat	beat	VERB	VB	VerbForm=Inf	0	root	_	start_char=6717|end_char=6721|ner=O
+5	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	4	obj	_	start_char=6722|end_char=6724|ner=O
+6	.	.	PUNCT	.	_	4	punct	_	start_char=6724|end_char=6725|ner=O
+
+# text = He does not keep me nailed down.
+# sent_id = 97
+# constituency = (ROOT (S (NP (PRP He)) (VP (VBZ does) (RB not) (VP (VB keep) (NP (PRP me)) (S (VP (VBN nailed) (PRT (RP down)))))) (. .)))
+# sentiment = 2
+1	He	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	4	nsubj	_	start_char=6726|end_char=6728|ner=O
+2	does	do	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux	_	start_char=6729|end_char=6733|ner=O
+3	not	not	PART	RB	_	4	advmod	_	start_char=6734|end_char=6737|ner=O
+4	keep	keep	VERB	VB	VerbForm=Inf	0	root	_	start_char=6738|end_char=6742|ner=O
+5	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	4	obj	_	start_char=6743|end_char=6745|ner=O
+6	nailed	nail	VERB	VBN	Tense=Past|VerbForm=Part	4	xcomp	_	start_char=6746|end_char=6752|ner=O
+7	down	down	ADP	RP	_	6	compound:prt	_	start_char=6753|end_char=6757|ner=O
+8	.	.	PUNCT	.	_	4	punct	_	start_char=6757|end_char=6758|ner=O
+
+# text = I do not hunger.
+# sent_id = 98
+# constituency = (ROOT (S (NP (PRP I)) (VP (VBP do) (RB not) (VP (VB hunger))) (. .)))
+# sentiment = 1
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	nsubj	_	start_char=6759|end_char=6760|ner=O
+2	do	do	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	4	aux	_	start_char=6761|end_char=6763|ner=O
+3	not	not	PART	RB	_	4	advmod	_	start_char=6764|end_char=6767|ner=O
+4	hunger	hunger	VERB	VB	VerbForm=Inf	0	root	_	start_char=6768|end_char=6774|ner=O
+5	.	.	PUNCT	.	_	4	punct	_	start_char=6774|end_char=6775|ner=O
+
+# text = I am not naked.
+# sent_id = 99
+# constituency = (ROOT (S (NP (PRP I)) (VP (VBP am) (RB not) (ADJP (JJ naked))) (. .)))
+# sentiment = 1
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	nsubj	_	start_char=6776|end_char=6777|ner=O
+2	am	be	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	4	cop	_	start_char=6778|end_char=6780|ner=O
+3	not	not	PART	RB	_	4	advmod	_	start_char=6781|end_char=6784|ner=O
+4	naked	naked	ADJ	JJ	Degree=Pos	0	root	_	start_char=6785|end_char=6790|ner=O
+5	.	.	PUNCT	.	_	4	punct	_	start_char=6790|end_char=6791|ner=O
+
+# text = I do not labor intensely for I am not able to labor intense labor for I am a small, ill man.
+# sent_id = 100
+# constituency = (ROOT (S (NP (PRP I)) (VP (VBP do) (RB not) (VP (VB labor) (ADVP (RB intensely)) (SBAR (IN for) (S (NP (PRP I)) (VP (VBP am) (RB not) (ADJP (JJ able) (S (VP (TO to) (VP (VB labor) (NP (JJ intense) (NN labor)) (SBAR (IN for) (S (NP (PRP I)) (VP (VBP am) (NP (DT a) (JJ small) (, ,) (JJ ill) (NN man)))))))))))))) (. .)))
+# sentiment = 0
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	nsubj	_	start_char=6792|end_char=6793|ner=O
+2	do	do	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	4	aux	_	start_char=6794|end_char=6796|ner=O
+3	not	not	PART	RB	_	4	advmod	_	start_char=6797|end_char=6800|ner=O
+4	labor	labor	VERB	VB	VerbForm=Inf	0	root	_	start_char=6801|end_char=6806|ner=O
+5	intensely	intensely	ADV	RB	_	4	advmod	_	start_char=6807|end_char=6816|ner=O
+6	for	for	SCONJ	IN	_	10	mark	_	start_char=6817|end_char=6820|ner=O
+7	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	10	nsubj	_	start_char=6821|end_char=6822|ner=O
+8	am	be	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	10	cop	_	start_char=6823|end_char=6825|ner=O
+9	not	not	PART	RB	_	10	advmod	_	start_char=6826|end_char=6829|ner=O
+10	able	able	ADJ	JJ	Degree=Pos	4	advcl	_	start_char=6830|end_char=6834|ner=O
+11	to	to	PART	TO	_	12	mark	_	start_char=6835|end_char=6837|ner=O
+12	labor	labor	VERB	VB	VerbForm=Inf	10	xcomp	_	start_char=6838|end_char=6843|ner=O
+13	intense	intense	ADJ	JJ	Degree=Pos	14	amod	_	start_char=6844|end_char=6851|ner=O
+14	labor	labor	NOUN	NN	Number=Sing	12	obj	_	start_char=6852|end_char=6857|ner=O
+15	for	for	SCONJ	IN	_	22	mark	_	start_char=6858|end_char=6861|ner=O
+16	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	22	nsubj	_	start_char=6862|end_char=6863|ner=O
+17	am	be	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	22	cop	_	start_char=6864|end_char=6866|ner=O
+18	a	a	DET	DT	Definite=Ind|PronType=Art	22	det	_	start_char=6867|end_char=6868|ner=O
+19	small	small	ADJ	JJ	Degree=Pos	22	amod	_	start_char=6869|end_char=6874|ner=O
+20	,	,	PUNCT	,	_	22	punct	_	start_char=6874|end_char=6875|ner=O
+21	ill	ill	ADJ	JJ	Degree=Pos	22	amod	_	start_char=6876|end_char=6879|ner=O
+22	man	man	NOUN	NN	Number=Sing	12	advcl	_	start_char=6880|end_char=6883|ner=O
+23	.	.	PUNCT	.	_	4	punct	_	start_char=6883|end_char=6884|ner=O
+
+# text = I have remained twenty years, not seeing anything harmful from the hand of Jim Owen.
+# sent_id = 101
+# constituency = (ROOT (S (NP (PRP I)) (VP (VBP have) (VP (VBN remained) (NP (CD twenty) (NNS years)) (, ,) (S (RB not) (VP (VBG seeing) (NP (NP (NN anything)) (ADJP (JJ harmful) (PP (IN from) (NP (NP (DT the) (NN hand)) (PP (IN of) (NP (NNP Jim) (NNP Owen))))))))))) (. .)))
+# sentiment = 1
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	start_char=6885|end_char=6886|ner=O
+2	have	have	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	3	aux	_	start_char=6887|end_char=6891|ner=O
+3	remained	remain	VERB	VBN	Tense=Past|VerbForm=Part	0	root	_	start_char=6892|end_char=6900|ner=O
+4	twenty	twenty	NUM	CD	NumForm=Word|NumType=Card	5	nummod	_	start_char=6901|end_char=6907|ner=B-DATE
+5	years	year	NOUN	NNS	Number=Plur	3	obl:tmod	_	start_char=6908|end_char=6913|ner=E-DATE
+6	,	,	PUNCT	,	_	8	punct	_	start_char=6913|end_char=6914|ner=O
+7	not	not	PART	RB	_	8	advmod	_	start_char=6915|end_char=6918|ner=O
+8	seeing	see	VERB	VBG	VerbForm=Ger	3	advcl	_	start_char=6919|end_char=6925|ner=O
+9	anything	anything	PRON	NN	Number=Sing|PronType=Ind	8	obj	_	start_char=6926|end_char=6934|ner=O
+10	harmful	harmful	ADJ	JJ	Degree=Pos	9	amod	_	start_char=6935|end_char=6942|ner=O
+11	from	from	ADP	IN	_	13	case	_	start_char=6943|end_char=6947|ner=O
+12	the	the	DET	DT	Definite=Def|PronType=Art	13	det	_	start_char=6948|end_char=6951|ner=O
+13	hand	hand	NOUN	NN	Number=Sing	8	obl	_	start_char=6952|end_char=6956|ner=O
+14	of	of	ADP	IN	_	15	case	_	start_char=6957|end_char=6959|ner=O
+15	Jim	Jim	PROPN	NNP	Number=Sing	13	nmod	_	start_char=6960|end_char=6963|ner=B-PERSON
+16	Owen	Owen	PROPN	NNP	Number=Sing	15	flat	_	start_char=6964|end_char=6968|ner=E-PERSON
+17	.	.	PUNCT	.	_	3	punct	_	start_char=6968|end_char=6969|ner=O
+
