@@ -552,7 +552,7 @@
 # sent_id = 25
 # constituency = (ROOT (S (NP (PRP He)) (VP (VBD called) (PP (IN to) (NP (PRP me))) (, ,) (`` “) (SQ (VBZ Is) (NP (PRP$ your) (NN name)) (NP (NP (NNP Omar)) (CC or) (VP (VBN Said))) (. ?) ('' ”) (S (NP (PRP I)) (VP (MD could) (RB n’t) (VP (VB hear) (NP (DT the) (JJ Christian) (NNS words))))))) (. .)))
 # sentiment = 1
-# references = urn:cts:arabicLit:amedsaid1831.dw042.perseus-eng1:4.3
+# references = urn:cts:arabicLit:amedsaid1831.dw042.perseus-eng1:4.3|urn:cts:arabicLit:amedsaid1831.dw042.perseus-eng1:4.4
 1	He	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	start_char=1800|end_char=1802|ner=O
 2	called	call	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	start_char=1803|end_char=1809|ner=O
 3	to	to	ADP	IN	_	4	case	_	start_char=1810|end_char=1812|ner=O
@@ -2036,7 +2036,7 @@
 # sent_id = 92
 # constituency = (ROOT (S (NP (PRP He)) (VP (VBD was) (VP (VBN called) (S (NP (NNP General) (NNP Jim) (NNP Owen))) (PP (IN With) (NP (NP (PRP$ their) (NN brother)) (VP (VBN called) (S (NP (NNP Colonel) (NNP John) (NNP Owen)))))))) (. .)))
 # sentiment = 1
-# references = urn:cts:arabicLit:amedsaid1831.dw042.perseus-eng1:18:9
+# references = urn:cts:arabicLit:amedsaid1831.dw042.perseus-eng1:18.8|urn:cts:arabicLit:amedsaid1831.dw042.perseus-eng1:18.9
 1	He	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	nsubj:pass	_	start_char=6533|end_char=6535|ner=O
 2	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	3	aux:pass	_	start_char=6536|end_char=6539|ner=O
 3	called	call	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	start_char=6540|end_char=6546|ner=O
