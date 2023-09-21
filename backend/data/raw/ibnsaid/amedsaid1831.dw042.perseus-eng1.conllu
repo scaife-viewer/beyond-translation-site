@@ -552,7 +552,7 @@
 # sent_id = 25
 # constituency = (ROOT (S (NP (PRP He)) (VP (VBD called) (PP (IN to) (NP (PRP me))) (, ,) (`` “) (SQ (VBZ Is) (NP (PRP$ your) (NN name)) (NP (NP (NNP Omar)) (CC or) (VP (VBN Said))) (. ?) ('' ”) (S (NP (PRP I)) (VP (MD could) (RB n’t) (VP (VB hear) (NP (DT the) (JJ Christian) (NNS words))))))) (. .)))
 # sentiment = 1
-# references = FIXME
+# references = urn:cts:arabicLit:amedsaid1831.dw042.perseus-eng1:4.3
 1	He	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	start_char=1800|end_char=1802|ner=O
 2	called	call	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	start_char=1803|end_char=1809|ner=O
 3	to	to	ADP	IN	_	4	case	_	start_char=1810|end_char=1812|ner=O
@@ -790,7 +790,7 @@
 # sent_id = 36
 # constituency = (ROOT (S (NP (PRP I)) (VP (VBD remained) (PP (IN in) (NP (NP (DT the) (NN hand)) (PP (IN of) (NP (NP (NP (NNP Jim) (NNP Owen)) (UH Oh) (NP (NP (NNS people)) (PP (IN of) (NP (NNP North) (NNP Carolina))))) (, ,) (NP (NP (UH oh) (NNS people)) (PP (IN of) (NP (NNP South) (NNP Carolina)))) (, ,) (NP (NP (UH oh) (NNS people)) (PP (IN of) (NP (NNP America)))) (, ,) (NP (NP (DT all)) (PP (IN of) (NP (PRP them)))) (, ,))))) (VP (VBP are) (ADVP (RB there)) (PP (IN among) (NP (PRP them))) (NP (NP (CD two) (JJ righteous) (NNS men)) (PP (IN like) (NP (NP (DT these) (JJ righteous) (NNS men)) (VP (VBN called) (NP (NP (NNP Jim) (NNP Owen)) (CC and) (NP (NNP John) (NNP Owen))))))))) (. ?)))
 # sentiment = 1
-# references = FIXME
+# references = urn:cts:arabicLit:amedsaid1831.dw042.perseus-eng1:5.4|urn:cts:arabicLit:amedsaid1831.dw042.perseus-eng1:6.1
 1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	start_char=2510|end_char=2511|ner=O
 2	remained	remain	VERB	VBD	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	0	root	_	start_char=2512|end_char=2520|ner=O
 3	in	in	ADP	IN	_	5	case	_	start_char=2521|end_char=2523|ner=O
@@ -1417,7 +1417,7 @@
 # sent_id = 65
 # constituency = (ROOT (S (LST (UH Oh) (NP (NP (NNS people)) (PP (IN of) (NP (NNP America)))) (, ,) (UH oh) (NP (NP (NNS people)) (PP (IN of) (NP (NNP North) (NNP Carolina)))) (, ,)) (VP (VBZ is) (ADVP (RB there)) (PP (IN among) (NP (PRP you)))) (. ?)))
 # sentiment = 0
-# references = FIXME
+# references = urn:cts:arabicLit:amedsaid1831.dw042.perseus-eng1:13.1
 1	Oh	oh	INTJ	UH	_	13	discourse	_	start_char=4535|end_char=4537|ner=O
 2	people	people	NOUN	NNS	Number=Plur	13	nsubj	_	start_char=4538|end_char=4544|ner=O
 3	of	of	ADP	IN	_	4	case	_	start_char=4545|end_char=4547|ner=O
@@ -1439,7 +1439,7 @@
 # sent_id = 66
 # constituency = (ROOT (SQ (VBZ Is) (NP (EX there)) (PP (IN among) (NP (PRP you))) (. ?)))
 # sentiment = 0
-# references = FIXME
+# references = urn:cts:arabicLit:amedsaid1831.dw042.perseus-eng1:13.1
 1	Is	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=4606|end_char=4608|ner=O
 2	there	there	PRON	EX	_	1	expl	_	start_char=4609|end_char=4614|ner=O
 3	among	among	ADP	IN	_	4	case	_	start_char=4615|end_char=4620|ner=O
@@ -1450,7 +1450,7 @@
 # sent_id = 67
 # constituency = (ROOT (SQ (VBZ Is) (NP (EX there)) (PP (IN among) (NP (PRP you))) (. ?)))
 # sentiment = 0
-# references = FIXME
+# references = urn:cts:arabicLit:amedsaid1831.dw042.perseus-eng1:13.1
 1	Is	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=4626|end_char=4628|ner=O
 2	there	there	PRON	EX	_	1	expl	_	start_char=4629|end_char=4634|ner=O
 3	among	among	ADP	IN	_	4	case	_	start_char=4635|end_char=4640|ner=O
@@ -1461,7 +1461,7 @@
 # sent_id = 68
 # constituency = (ROOT (SQ (VBZ Is) (NP (EX there)) (PP (IN among) (NP (PRP you))) (PP (IN as) (NP (JJ good) (DT a) (NN family))) (, ,) (S (VP (VBG fearing) (NP (NNP God)) (ADVP (RB greatly)))) (. ?)))
 # sentiment = 0
-# references = FIXME
+# references = urn:cts:arabicLit:amedsaid1831.dw042.perseus-eng1:13.1
 1	Is	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=4646|end_char=4648|ner=O
 2	there	there	PRON	EX	_	1	expl	_	start_char=4649|end_char=4654|ner=O
 3	among	among	ADP	IN	_	4	case	_	start_char=4655|end_char=4660|ner=O
@@ -1480,7 +1480,7 @@
 # sent_id = 69
 # constituency = (ROOT (S (NP (NP (PRP I)) (, ,) (NP (NNP Omar)) (, ,)) (VP (VBP love) (S (VP (TO to) (VP (VB read) (NP (NP (DT the) (NN book)) (PP (IN of) (NP (NP (DT the) (JJ great) (NML (NNP Qur’an) (NNP General)) (NNP Jim) (NNP Owen)) (CC and) (NP (PRP$ his) (NN wife))))))))) (VP (VBD read) (NP (DT the) (NN gospel))) (. .)))
 # sentiment = 1
-# references = FIXME
+# references = urn:cts:arabicLit:amedsaid1831.dw042.perseus-eng1:14.1|urn:cts:arabicLit:amedsaid1831.dw042.perseus-eng1:14.2
 1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	5	nsubj	_	start_char=4704|end_char=4705|ner=O
 2	,	,	PUNCT	,	_	1	punct	_	start_char=4705|end_char=4706|ner=O
 3	Omar	Omar	PROPN	NNP	Number=Sing	1	appos	_	start_char=4707|end_char=4711|ner=S-PERSON
@@ -2036,7 +2036,7 @@
 # sent_id = 92
 # constituency = (ROOT (S (NP (PRP He)) (VP (VBD was) (VP (VBN called) (S (NP (NNP General) (NNP Jim) (NNP Owen))) (PP (IN With) (NP (NP (PRP$ their) (NN brother)) (VP (VBN called) (S (NP (NNP Colonel) (NNP John) (NNP Owen)))))))) (. .)))
 # sentiment = 1
-# references = FIXME
+# references = urn:cts:arabicLit:amedsaid1831.dw042.perseus-eng1:18:9
 1	He	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	nsubj:pass	_	start_char=6533|end_char=6535|ner=O
 2	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	3	aux:pass	_	start_char=6536|end_char=6539|ner=O
 3	called	call	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	start_char=6540|end_char=6546|ner=O
@@ -2192,4 +2192,3 @@
 15	Jim	Jim	PROPN	NNP	Number=Sing	13	nmod	_	start_char=6960|end_char=6963|ner=B-PERSON
 16	Owen	Owen	PROPN	NNP	Number=Sing	15	flat	_	start_char=6964|end_char=6968|ner=E-PERSON
 17	.	.	PUNCT	.	_	3	punct	_	start_char=6968|end_char=6969|ner=O
-
