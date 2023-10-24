@@ -209,7 +209,6 @@ SV_ATLAS_INGESTION_PIPELINE = [
     "scaife_stack_atlas.temp.add_translations_to_trees",
     "scaife_stack_atlas.temp.add_glosses_to_trees",
     "scaife_stack_atlas.temp.import_grammatical_entries",
-    # TODO: Restore after deployment
     "scaife_stack_atlas.temp.stub_scholia_roi_text_annotations",
     "scaife_stack_atlas.temp.add_anabasis_glosses_to_trees",
     "scaife_stack_atlas.temp.ingest_balex_extras",
