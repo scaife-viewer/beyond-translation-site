@@ -598,7 +598,8 @@ def _bulk_prepare_through_models(through_model, qs, lookup, from_field, to_field
     return to_create
 
 
-# FIXME: Refactor this to an on-disk form
+# FIXME: Refactor this to an on-disk form; will require further changes to our
+# data model and ingestion pipeline to fully support
 def stub_scholia_roi_text_annotations(reset=True):
     collection_urn = (
         "urn:cite2:beyond-translation:text_annotation_collection.atlas_v1:hmt_scholia"
