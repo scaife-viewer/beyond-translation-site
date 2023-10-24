@@ -1,5 +1,78 @@
 [
   {
+    "urn": "urn:cts:greekLit:tlg5026.msAext.hmt:8.1001",
+    "comment": "πυρι κηλέῳ",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol3227",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA104VN_0607@0.0969,0.7091,0.062,0.0266"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:104v.8.217"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAim.hmt:8.156",
+    "comment": "οτ  ἀντι τοῦ όλην",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol3148",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA104VN_0607@0.4046,0.2512,0.0437,0.0197"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:104v.8.193"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAim.hmt:8.157",
+    "comment": "οτ  μακρὸν Ὄλυμπ  ὡς όρος ⁑",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol3149",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA104VN_0607@0.3951,0.3671,0.0529,0.0268"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:104v.8.199"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAim.hmt:8.158",
+    "comment": "πρὸς τὴν συναλιφην αντ  τοῦ Ζῆνα ⁑",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol3150",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA104VN_0607@0.3934,0.4975,0.0611,0.0352"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:104v.8.206"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAim.hmt:8.159",
+    "comment": "διχῶς Αρισταρχος καὶ ἔεργε καὶ έρυκε ⁑",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol3151",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA104VN_0607@0.408,0.6288,0.0583,0.0519"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:104v.8.213"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAil.hmt:8.160",
+    "comment": "α",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol3251",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA104VN_0607@0.4694,0.5145,0.0109,0.0109"
+    },
+    "references": []
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAil.hmt:8.161",
+    "comment": "ε",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol3252",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA104VN_0607@0.5154,0.6252,0.0091,0.0086"
+    },
+    "references": []
+  },
+  {
     "urn": "urn:cts:greekLit:tlg5026.msA.hmt:8.146",
     "lemma": "‡ κανόνας",
     "dse": {
@@ -43,7 +116,6 @@
       "image_roi": "urn:cite2:hmt:vaimg.2017a:VA104VN_0607@0.1863,0.1832,0.6877,0.0348"
     },
     "references": [
-      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:104v.8.205",
       "urn:cts:greekLit:tlg0012.tlg001.msA-folios:104v.8.206"
     ],
     "comment": "Ζῆν αὐτοῦ κ' ἔνθ' ἀκαχοιτο⁚ εἰ δια τὸν ει σύνδεσμον ἀποτελουμένη ὑποστιγμὴ πίπτει μετα τὸ Ζῆν ὄνομα ⁑"
@@ -56,7 +128,6 @@
       "image_roi": "urn:cite2:hmt:vaimg.2017a:VA104VN_0607@0.1791,0.1946,0.698,0.0862"
     },
     "references": [
-      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:104v.8.206",
       "urn:cts:greekLit:tlg0012.tlg001.msA-folios:104v.8.207"
     ],
     "comment": "οὐδὲν ἂν ἐζητεῖτο· ἐπεὶ δὲ συνείληπται καὶ ὑπο τῶν γραμματικῶν μετενήνεκται τὸ ν εἰς τὸν ἑξῆς στίχον δύο παρηκολούθησεν ἄλογα· ἓν μὲν ὅτι μεταξὺ μιᾶς συλλαβῆς τῆς ναυ , ὑποστιγμὴ πέπτωκεν καὶ αὐτὴ χρόνου ἔχουσα διάστημα , ᾧ παραπλήσια κἀκεῖνα ὡς ἔφαθ' αι δ' ἐπέμυξαν · ὡς εφαθ' οὐδ' ἀπίθησεν ⁚ ἕτερον δὲ ὅτι συμβήσεται κατ αρχὰς τοῦ στίχου μετὰ τὸ ν μόνον στοιχεῖον διάστημα εἶναι τῆς ὑποστιγμῆς ⁑"

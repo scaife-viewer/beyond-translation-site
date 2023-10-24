@@ -1,5 +1,71 @@
 [
   {
+    "urn": "urn:cts:greekLit:tlg5026.msAext.hmt:16.3000",
+    "comment": "κεῖρει",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol8056",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA208RN_0379@0.8386,0.58,0.0295,0.0155"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:208r.16.120"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAint.hmt:16.3000",
+    "comment": "ἀρίσ Δια τοῦ καὶ συνδεσμ καὶ φάλαπα Γραφῶ παντῶσ βραχὺ Διεστελλεν ἐπι τὸ αιεὶ ⁑",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol8049",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA208RN_0379@0.1318,0.3071,0.0675,0.047"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:208r.16.105"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAint.hmt:16.3001",
+    "comment": "συν απτεον μέχρι τοῦ θεῶν δύναται δὲ στίζεσθ καὶ ἐπι τὰ αμύμονα ⁑",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol8050",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA208RN_0379@0.1122,0.5547,0.073,0.0476"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:208r.16.119"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAint.hmt:16.3002",
+    "comment": "πρὸσ τὴν φράσιν οτ ουτ εἴρηκε τὴν μὲν πρύμνην αντ τῆσ μὲν πρύνης",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol8051",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA208RN_0379@0.1086,0.6445,0.0768,0.055"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:208r.16.124"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAim.hmt:16.3000",
+    "comment": "ουτ  ὡς λόγον ὁ Ασκαλωνιτ  καγὼ δὲ συγκατατίθεμαι ⁑",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol8030",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA208RN_0379@0.5648,0.5231,0.0408,0.0485"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:208r.16.117"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAim.hmt:16.3001",
+    "comment": "Αρισταρχ  κεῖρε χω τοῦ ϊ αλλοι δὲ κείρει :",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol8031",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA208RN_0379@0.5714,0.5773,0.0467,0.039"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:208r.16.119"
+    ]
+  },
+  {
     "urn": "urn:cts:greekLit:tlg5026.msA.hmt:16.3000",
     "lemma": "‡ πήληξ βαλλομένη :",
     "dse": {

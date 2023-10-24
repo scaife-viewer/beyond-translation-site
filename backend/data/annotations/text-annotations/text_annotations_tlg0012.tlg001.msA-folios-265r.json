@@ -1,5 +1,77 @@
 [
   {
+    "urn": "urn:cts:greekLit:tlg5026.msAext.hmt:20.265r_1",
+    "comment": "πολλ' ἐτεά τε καὶ οὐκί~",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol7496",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA265RN_0435@0.8331,0.2678,0.07406,0.01438"
+    },
+    "references": []
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAint.hmt:20.265r_1",
+    "comment": "γρ αποστρεψεις",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol7518",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA265RN_0435@0.1411,0.2650,0.06559,0.02739"
+    },
+    "references": []
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAint.hmt:20.265r_2",
+    "comment": "οτ Ζηνοδ γρ ἀπο οῦ ⁑",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol7519",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA265RN_0435@0.1188,0.3563,0.06927,0.03347"
+    },
+    "references": []
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAim.hmt:20.265r_1",
+    "comment": "ουτ Αρισταρχ αλλοι δὲ πολλά τι εόντα ταδ' οὐκί ⁑",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol7590",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA265RN_0435@0.6505,0.2528,0.09654,0.03790"
+    },
+    "references": []
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAim.hmt:20.265r_2",
+    "comment": "ὅτι ἀντι τοῦ ἤχασε καὶ οὐ διεκόπη ⁑",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol7591",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA265RN_0435@0.6520,0.3438,0.06227,0.03320"
+    },
+    "references": []
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAim.hmt:20.265r_3",
+    "comment": "έξω ἀνέστεινεν ἑαὺτοῦ",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol7592",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA265RN_0435@0.6185,0.3751,0.1037,0.01397"
+    },
+    "references": []
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAim.hmt:20.265r_4",
+    "comment": "Ἀρισταρχ ἕξω τοῦ ϊ ῥέα ⁑",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol7593",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA265RN_0435@0.5636,0.4048,0.1011,0.01978"
+    },
+    "references": []
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAim.hmt:20.265r_5",
+    "comment": "ἔν τισιν ἔργα ⁑",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol7594",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA265RN_0435@0.5884,0.4422,0.05656,0.01618"
+    },
+    "references": []
+  },
+  {
     "urn": "urn:cts:greekLit:tlg5026.msA.hmt:20.265r_1",
     "lemma": "‡ πολλὰ τά τε καὶ οὐκί~",
     "dse": {
@@ -45,7 +117,8 @@
     "dse": {
       "urn": "urn:cite2:hmt:va_dse.v1:schol7684",
       "image_roi": "urn:cite2:hmt:vaimg.2017a:VA265RN_0435@0.1813,0.6593,0.6461,0.08603"
-    }
+    },
+    "references": []
   },
   {
     "urn": "urn:cts:greekLit:tlg5026.msA.hmt:20.265r_6",

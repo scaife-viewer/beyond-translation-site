@@ -1,5 +1,76 @@
 [
   {
+    "urn": "urn:cts:greekLit:tlg5026.msAint.hmt:13.3",
+    "comment": "αντ  τοῦ εἰς εκάτερα τὰ μέρη",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol8454",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA170RN_0341@0.1057,0.2837,0.05766,0.02725"
+    },
+    "references": []
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAint.hmt:13.4",
+    "comment": "οὑ πληθυντικῶς αἱ Αριστάρχου ⁑",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol8455",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA170RN_0341@0.1024,0.4155,0.05803,0.02780"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:170r.13.318"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAim.hmt:13.4",
+    "comment": "οτ  περισσὸς ὁ και σύνδεσμος",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol8451",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA170RN_0341@0.5925,0.2059,0.06448,0.02172"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:170r.13.306"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAim.hmt:13.5",
+    "comment": "Ἀρίσταρχ  ἀέπτους ἄλλοι δὲ αάπτους ⁑",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol8452",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA170RN_0341@0.5663,0.4116,0.03850,0.05062"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:170r.13.318"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAim.hmt:13.6",
+    "comment": "εν άλλῳ συν έντεσι μαρμαίροντας ⁑",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol8453",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA170RN_0341@0.5660,0.6618,0.05011,0.04232"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:170r.13.331"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAil.hmt:13.1",
+    "comment": "εἰς κορὸν",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol8456",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA170RN_0341@0.2515,0.3693,0.04108,0.01591"
+    },
+    "references": []
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAil.hmt:13.2",
+    "comment": "αντ  ἡγοῦ",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol8457",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA170RN_0341@0.3742,0.5639,0.03998,0.01494"
+    },
+    "references": []
+  },
+  {
     "urn": "urn:cts:greekLit:tlg5026.msA.hmt:13.7",
     "lemma": "‡ Δευκαλίδης",
     "dse": {

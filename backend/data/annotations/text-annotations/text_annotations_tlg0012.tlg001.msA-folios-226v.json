@@ -1,5 +1,121 @@
 [
   {
+    "urn": "urn:cts:greekLit:tlg5026.msAint.hmt:17.18",
+    "comment": "oτ  Ζηνόδ  γρ  κύεν ἔτλης ἄλογον δέ ⁑",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol5886",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA226VN_0728@0.857,0.2524,0.074,0.0353"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:226v.17.153"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAint.hmt:17.19",
+    "comment": "καὶ δια μαχης αὐτὸν ἐξελκύσομεν ⁑",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol5887",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA226VN_0728@0.871,0.4072,0.055,0.0466"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:226v.17.161"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAint.hmt:17.20",
+    "lemma": "τίη",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol5888",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA226VN_0728@0.882,0.5853,0.044,0.024"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:226v.17.170"
+    ],
+    "comment": "Αττικῶς δια τί ,"
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAim.hmt:17.18",
+    "comment": "πολλαχῶς ὠφέλημα",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol5961",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA226VN_0728@0.409,0.2434,0.077,0.0203"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:226v.17.152"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAim.hmt:17.19",
+    "comment": "ουτ  δια τοῦ η τεθνῃὼς ~",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol5962",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA226VN_0728@0.444,0.4102,0.048,0.0248"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:226v.17.161"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAim.hmt:17.20",
+    "comment": "οτ  ἐπι αψύχων τὸ αγοίμεθ  ⁑",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol5963",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA226VN_0728@0.44,0.4523,0.048,0.0316"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:226v.17.163"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAim.hmt:17.21",
+    "comment": "παρα Ζηνοδ  ὦ πέπον , ου κακῶς :",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol5964",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA226VN_0728@0.437,0.6026,0.053,0.0255"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:226v.17.171"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAim.hmt:17.22",
+    "comment": "ουτ  ἐπι ενεστῶτ  ἂν λέγεις καὶ τὸ ϊ ⁑",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol5965",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA226VN_0728@0.432,0.6627,0.066,0.0293"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:226v.17.174"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAil.hmt:17.16",
+    "comment": "παραστρόφοις τοῖς ὀφθαλμοῖς ⁑",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol5925",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA226VN_0728@0.699,0.2923,0.091,0.0165"
+    },
+    "references": []
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAil.hmt:17.17",
+    "comment": "φανερος γενήσεται :",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol5926",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA226VN_0728@0.524,0.405,0.066,0.0135"
+    },
+    "references": []
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAil.hmt:17.18",
+    "comment": "αντ  τοῦ κομισθείη",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol5927",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA226VN_0728@0.642,0.5965,0.083,0.0158"
+    },
+    "references": []
+  },
+  {
     "urn": "urn:cts:greekLit:tlg5026.msA.hmt:17.63",
     "lemma": "‡ κάλλιπες ,",
     "dse": {
@@ -31,7 +147,6 @@
       "image_roi": "urn:cite2:hmt:vaimg.2017a:VA226VN_0728@0.239,0.157,0.653,0.0376"
     },
     "references": [
-      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:226v.17.154",
       "urn:cts:greekLit:tlg0012.tlg001.msA-folios:226v.17.155"
     ],
     "comment": "ἤτοι ὑποστικτέον ἀνδρῶν ἵνα στίζωμεν ΐμεν . ὁ δὲ λόγος εἴη διόπερ εἴ τίς μοι πεισθείη τῶν Λυκίων οἵκαδὲ πορευσόμεθα~ ἢ ὑποστικτέον ἐπι τὸ ΐμεν ἵν' ᾖ ἀπαρέμφατον~ ὁ δὲ δὲ σύνδεσμος περισσεύει~ Τροιη δὲ τοῦ λόγου τοιούτου γινομένου δι ὅπερ νῦν εἴ τις μοι πεισθείη τῶν Λυκίων οἴκαδὲ ὑποστρέφειν~ ἀπόλοιτο ἂν ἡ Τροία"
@@ -68,7 +183,6 @@
       "image_roi": "urn:cite2:hmt:vaimg.2017a:VA226VN_0728@0.228,0.5094,0.219,0.1104"
     },
     "references": [
-      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:226v.17.163",
       "urn:cts:greekLit:tlg0012.tlg001.msA-folios:226v.17.164"
     ],
     "comment": "οὐ τὸν Πάτροκλον ταχέως ἂν ἀπολυτρωθείη τὸ σῶμα τοῦ Σαρπηδόνος , πῶς . διδάξει δια τῶν ἐπιφερομένων~ τοίου γὰρ θεράπων πέφατ' ἀνέρος οὐκ ὰν έναδιαφοροῖεν ἐν τῇ αἰκείά , τοῦ Πατρόκλου . δια τὸ εἶναι αὐτὸν ὑπερέχοντος ἀνδρὸς θεράποντα , ἀλλα ταχέως ἂν ἀπολυτρώσαιεν τὸν Σαρπηδόνα ἵνα καὶ αὐτοὶ κομίσωνται τὸν Πάτροκλον ⁑"

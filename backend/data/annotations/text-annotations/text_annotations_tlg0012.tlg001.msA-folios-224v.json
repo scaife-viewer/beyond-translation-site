@@ -1,5 +1,85 @@
 [
   {
+    "urn": "urn:cts:greekLit:tlg5026.msAint.hmt:17.9",
+    "comment": "λάπτει τῶν δὲ κατ  μίμησιν ἡ λέξις ⁑",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol5877",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA224VN_0726@0.866,0.4966,0.059,0.0488"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:224v.17.64"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAim.hmt:17.9",
+    "comment": "εν ῶ μόνος τίς πολειτ  :",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol5952",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA224VN_0726@0.422,0.2825,0.074,0.0338"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:224v.17.54"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAim.hmt:17.10",
+    "comment": "καὶ δήϊοι οἱ πολέμιοι",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol5953",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA224VN_0726@0.436,0.4944,0.059,0.0293"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:224v.17.65"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAim.hmt:17.11",
+    "comment": "τὸ αγάσσατ  νῦν αντ  τοῦ ἐφθόνησεν καὶ αντ  τοῦ εθαύμασεν ⁑",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol5954",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA224VN_0726@0.44,0.6168,0.059,0.0609"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:224v.17.71"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAil.hmt:17.10",
+    "comment": "ἀνεφύσησεν",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol5919",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA224VN_0726@0.753,0.2893,0.056,0.0105"
+    },
+    "references": []
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAil.hmt:17.11",
+    "comment": "τοῦτο ἢν το ἀνεμοστρεφες",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol5920",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA224VN_0726@0.721,0.3035,0.115,0.0173"
+    },
+    "references": []
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAil.hmt:17.12",
+    "comment": "διασπῶν διακόπτων",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol5921",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA224VN_0726@0.515,0.4906,0.097,0.015"
+    },
+    "references": []
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAil.hmt:17.13",
+    "comment": "τῶν κατ  μίμησιν καὶ τουτ",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol5922",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA224VN_0726@0.615,0.5124,0.1,0.012"
+    },
+    "references": []
+  },
+  {
     "urn": "urn:cts:greekLit:tlg5026.msA.hmt:17.25",
     "lemma": "‡ αἵματί οι δεύοντο :",
     "dse": {
@@ -79,7 +159,6 @@
       "image_roi": "urn:cite2:hmt:vaimg.2017a:VA224VN_0726@0.221,0.5541,0.233,0.0308"
     },
     "references": [
-      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:224v.17.65",
       "urn:cts:greekLit:tlg0012.tlg001.msA-folios:224v.17.66"
     ],
     "comment": "οἱ νομῆες , οἱ δε κῦνες  ὑλακτοῦσιν ⁑"
@@ -114,7 +193,10 @@
     "dse": {
       "urn": "urn:cite2:hmt:va_dse.v1:schol6028",
       "image_roi": "urn:cite2:hmt:vaimg.2017a:VA224VN_0726@0.2409,0.6611,0.2112,0.0495"
-    }
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:224v.17.73"
+    ]
   },
   {
     "urn": "urn:cts:greekLit:tlg5026.msA.hmt:17.35",

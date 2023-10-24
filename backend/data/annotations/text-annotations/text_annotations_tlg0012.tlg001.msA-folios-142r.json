@@ -1,5 +1,61 @@
 [
   {
+    "urn": "urn:cts:greekLit:tlg5026.msAint.hmt:11.9",
+    "comment": "ἡ γὰρ ἥττα τούτου δόξα τῶν Ἑλλήνων ἐγίνετο ⁑",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol4203",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA142RN_0314@0.101,0.2296,0.067,0.0315"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:142r.11.227"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAil.hmt:11.113",
+    "comment": "πο",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol4304",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA142RN_0314@0.365,0.2618,0.024,0.0105"
+    },
+    "references": []
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAil.hmt:11.114",
+    "comment": "οὐδε διέκοψε",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol4305",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA142RN_0314@0.233,0.3901,0.065,0.0165"
+    },
+    "references": []
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAil.hmt:11.115",
+    "comment": "ὑπαντησασα",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol4306",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA142RN_0314@0.268,0.4126,0.06,0.012"
+    },
+    "references": []
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAil.hmt:11.116",
+    "comment": "εἰς τοῦ πίσω ἀνετραπ",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol4307",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA142RN_0314@0.451,0.4096,0.119,0.0158"
+    },
+    "references": []
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAil.hmt:11.118",
+    "comment": "τοῖς ἰδίοις πολιτ",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol4308",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA142RN_0314@0.454,0.5086,0.058,0.0098"
+    },
+    "references": []
+  },
+  {
     "urn": "urn:cts:greekLit:tlg5026.msA.hmt:11.96",
     "lemma": "αὐτοῦ μιν κατέρυκε",
     "dse": {

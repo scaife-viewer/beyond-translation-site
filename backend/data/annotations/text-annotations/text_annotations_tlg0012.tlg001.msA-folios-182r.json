@@ -1,5 +1,93 @@
 [
   {
+    "urn": "urn:cts:greekLit:tlg5026.msAext.hmt:14.E1",
+    "comment": "δέ σευ",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol5441",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA182RN_0353@0.8257,0.5679,0.03703,0.01881"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:182r.14.95"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAint.hmt:14.E6",
+    "comment": "αἱ Ζηνοδοτ  ἐκπέρσειν οὐ καλλείψειν καὶ παρίστησιν ῆθος :",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol5363",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA182RN_0353@0.1080,0.4498,0.07590,0.04412"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:182r.14.89"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAint.hmt:14.E7",
+    "comment": "ὃν οὐχ ἕτερος εἴποι :",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol5364",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA182RN_0353@0.1021,0.4925,0.08014,0.01770"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:182r.14.91"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAint.hmt:14.E8",
+    "comment": "ἐπικρατοῦσι",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol5365",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA182RN_0353@0.1172,0.6228,0.05693,0.01701"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:182r.14.98"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAim.hmt:14.E2",
+    "comment": "ἐλλείπει τὸ ἠ μίνας ἀλώῃ ,",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol5300",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA182RN_0353@0.6236,0.2949,0.06338,0.02199"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:182r.14.81"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAim.hmt:14.E3",
+    "comment": "ουτ  ἐπίσταιτο :",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol5301",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA182RN_0353@0.5536,0.5071,0.06245,0.01743"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:182r.14.92"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAil.hmt:14.E2",
+    "comment": "κατεργάζεται :",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol5407",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA182RN_0353@0.5158,0.3900,0.06282,0.01452"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:182r.14.86"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAil.hmt:14.E3",
+    "comment": "ανθέξουσι πεβλέψονται  φυγεῖν ⁑",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol5408",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA182RN_0353@0.2504,0.6881,0.1874,0.02946"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:182r.14.101"
+    ]
+  },
+  {
     "urn": "urn:cts:greekLit:tlg5026.msA.hmt:14.E8",
     "lemma": "νὺξ ἀβρότη",
     "dse": {

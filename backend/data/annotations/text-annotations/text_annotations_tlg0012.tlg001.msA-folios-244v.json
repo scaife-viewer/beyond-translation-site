@@ -1,5 +1,49 @@
 [
   {
+    "urn": "urn:cts:greekLit:tlg5026.msAint.hmt:18.26",
+    "comment": "στικτέον ἐπι τὸ μάχεσθαι ⁑",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol6182",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA244VN_0746@0.896,0.2457,0.044,0.0376"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:244v.18.279"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAint.hmt:18.27",
+    "comment": "ἐπειδὴ απόλωλε τα τῆς π  χρηματ  ἀφειδεῖν χρέ καὶ τῶν σωμάτων ⁑",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol6183",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA244VN_0746@0.887,0.4478,0.057,0.0541"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:244v.18.292"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAim.hmt:18.34",
+    "comment": "οτ  Ζηνοδ  γράφει κεκόρησθον συγχέον τὸ δυϊκόν ⁑",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol6286",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA244VN_0746@0.433,0.3922,0.072,0.0631"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:244v.18.287"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAim.hmt:18.35",
+    "comment": "οτ  αντ  μη λύσοντες τὰς τάξεις ⁑",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol6287",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA244VN_0746@0.44,0.6048,0.058,0.0466"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:244v.18.298"
+    ]
+  },
+  {
     "urn": "urn:cts:greekLit:tlg5026.msA.hmt:18.102",
     "lemma": "‡ παντοίου δρόμου άσῃ⁚",
     "dse": {
@@ -77,7 +121,10 @@
     "dse": {
       "urn": "urn:cite2:hmt:va_dse.v1:schol6435",
       "image_roi": "urn:cite2:hmt:vaimg.2017a:VA244VN_0746@0.232,0.7107,0.69,0.0323"
-    }
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:244v.18.300"
+    ]
   },
   {
     "urn": "urn:cts:greekLit:tlg5026.msA.hmt:18.109",
@@ -85,6 +132,9 @@
     "dse": {
       "urn": "urn:cite2:hmt:va_dse.v1:schol6436",
       "image_roi": "urn:cite2:hmt:vaimg.2017a:VA244VN_0746@0.243,0.74,0.673,0.0518"
-    }
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:244v.18.301"
+    ]
   }
 ]

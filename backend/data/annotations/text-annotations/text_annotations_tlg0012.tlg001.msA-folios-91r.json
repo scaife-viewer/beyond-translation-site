@@ -1,5 +1,93 @@
 [
   {
+    "urn": "urn:cts:greekLit:tlg5026.msAint.hmt:7.14",
+    "comment": "ουτ  Ἀρισταρχ  ἄλλοι δὲ ἐπήν κε ⁑",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol2963",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA091RN_0263@0.1038,0.2889,0.0747,0.0299"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:91r.7.5"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAint.hmt:7.15",
+    "comment": "προς το σχημα ὡς σπάρτα λέλυνται ⁑",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol2964",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA091RN_0263@0.1059,0.3143,0.0688,0.0259"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:91r.7.6"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAint.hmt:7.16",
+    "comment": "Ἀμμώνιος ἐν τῷ πρὸς Ἀθηνοκλέα τοὶ Τρώεσσι προφέρεται πληθυνται ⁑",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol2965",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA091RN_0263@0.1109,0.337,0.064,0.0372"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:91r.7.8"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAint.hmt:7.17",
+    "comment": "βραχ  διασταλτ  ἐπι τὸ ἑλέτην ἡ γὰρ σύλληψις εἰς διάλυψσιν τρέπεται·",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol2966",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA091RN_0263@0.0969,0.3725,0.0778,0.0435"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:91r.7.8"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAint.hmt:7.18",
+    "comment": "οτ  πεκεφαλαιας  ειδ  ἡ στεφάνη·",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol2967",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA091RN_0263@0.1,0.4292,0.0735,0.0268"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:91r.7.12"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAint.hmt:7.19",
+    "comment": "κατ  τὸν ῶμον ·",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol2968",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA091RN_0263@0.1044,0.5055,0.0684,0.0249"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:91r.7.16"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAim.hmt:7.12",
+    "comment": "ουτως Αρισταρχ  τὸ δυϊκῶς ⁑",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol2930",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA091RN_0263@0.5808,0.338,0.0343,0.0432"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:91r.7.7"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAim.hmt:7.13",
+    "comment": "Ἀρισταρχ  λῦντο δὲ γυῖα ·",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol2931",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA091RN_0263@0.5313,0.4154,0.0767,0.0391"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:91r.7.12"
+    ]
+  },
+  {
     "urn": "urn:cts:greekLit:tlg5026.msA.hmt:7.2",
     "lemma": "πόντον ἐλαύνοντες·",
     "dse": {
@@ -29,7 +117,10 @@
     "dse": {
       "urn": "urn:cite2:hmt:va_dse.v1:schol2802",
       "image_roi": "urn:cite2:hmt:vaimg.2017a:VA091RN_0263@0.1764,0.1664,0.6489,0.1239"
-    }
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:91r.7.8"
+    ]
   },
   {
     "urn": "urn:cts:greekLit:tlg5026.msA.hmt:7.9",

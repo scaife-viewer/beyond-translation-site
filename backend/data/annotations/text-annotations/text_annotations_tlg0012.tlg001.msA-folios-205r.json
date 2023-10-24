@@ -1,5 +1,60 @@
 [
   {
+    "urn": "urn:cts:greekLit:tlg5026.msAext.hmt:15.23",
+    "comment": "τοιουτ  καλουτο ταλαυρινον ⁑",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol5489",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA205RN_0376@0.818,0.1225,0.069,0.0391"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:205r.15.705"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAint.hmt:15.54",
+    "comment": "σημ",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol5545",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA205RN_0376@0.143,0.1052,0.028,0.0503"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:205r.15.705"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAint.hmt:15.55",
+    "comment": "ουτ  δια τοῦ ο πέσον ⁑",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol5546",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA205RN_0376@0.115,0.4388,0.062,0.0398"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:205r.15.714"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAint.hmt:15.56",
+    "comment": "οτ  δεῖ κατ  τὸ τέλειον προφέρεσθ  ἐθέλοντα ⁑",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol5547",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA205RN_0376@0.115,0.589,0.065,0.0639"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:205r.15.722"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAim.hmt:15.75",
+    "comment": "οτ  Ζηνοδ  γράφει οὐκ εμεθίει ⁑",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol5657",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA205RN_0376@0.587,0.4681,0.057,0.0548"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:205r.15.716"
+    ]
+  },
+  {
     "urn": "urn:cts:greekLit:tlg5026.msA.hmt:15.187",
     "lemma": "‡ καλῆς ὠκυάλου⁚",
     "dse": {
@@ -17,7 +72,10 @@
     "dse": {
       "urn": "urn:cite2:hmt:va_dse.v1:schol5850",
       "image_roi": "urn:cite2:hmt:vaimg.2017a:VA205RN_0376@0.182,0.1322,0.635,0.0639"
-    }
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:205r.15.705"
+    ]
   },
   {
     "urn": "urn:cts:greekLit:tlg5026.msA.hmt:15.189",
@@ -27,8 +85,6 @@
       "image_roi": "urn:cite2:hmt:vaimg.2017a:VA205RN_0376@0.607,0.1766,0.207,0.0894"
     },
     "references": [
-      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:205r.15.712",
-      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:205r.15.713",
       "urn:cts:greekLit:tlg0012.tlg001.msA-folios:205r.15.714"
     ],
     "comment": "ἀθετεῖται ὅτι εὐτελὴς ὁ στίχος καὶ ἰδιώτης τῆς μάχης οὐ σώζεται· ξίφεσι μὲν γὰρ καὶ ἔγχεσι πάντοτε μάχονται , νῦν δὲ πελέκεσι καὶ ἀξίναις ὁ δὲ Διονύσιος . πῶς οὖν ἐπιφέρει πολλὰ δὲ φάσγανα ἄλλα μὲν ἐκ χειρῶν χαμάδις πέσον εἰ μὴ εἶχον ξίφη ⁑"
@@ -89,7 +145,6 @@
       "image_roi": "urn:cite2:hmt:vaimg.2017a:VA205RN_0376@0.607,0.5935,0.198,0.0563"
     },
     "references": [
-      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:205r.15.719",
       "urn:cts:greekLit:tlg0012.tlg001.msA-folios:205r.15.720"
     ],
     "comment": "νῦν ἀντι τοῦ πάντων τῶν τολμηθέντων εἰς ἡμᾶς ἀξίαν ἀμοιβήν  παρέσχεν ἡμῖν ὁ Ζεὺς προς τὸ ἑλεῖν τὰς ναῦς ⁑"

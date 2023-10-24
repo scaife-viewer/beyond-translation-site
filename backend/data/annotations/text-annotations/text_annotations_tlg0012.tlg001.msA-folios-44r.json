@@ -1,5 +1,126 @@
 [
   {
+    "urn": "urn:cts:greekLit:tlg5026.msAint.hmt:3.176",
+    "comment": "ὅτι τὸ ἄξετε οὐ τὸν μελλοντα σημ  αλλ' ΐσον τῷ ἄγετε ⁑",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol1934",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA044RN_0045@0.08511422,0.27136929,0.05121592,0.04177040"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:44r.3.105"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAim.hmt:3.693",
+    "comment": "ἐπὶ τὸ ἄρνε διαστο  βραχεια συλληπτικῶς γὰρ λεγει αρες εῖτα διαιρεῖ ⁑",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol1982",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA044RN_0045@0.51086957,0.22365145,0.03426676,0.08838174"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:44r.3.103"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAim.hmt:3.694",
+    "comment": "γαλῶς ὡς ᾿ Αθῶς καὶ διαίρεσις γαλόῳ ὡς ἐξ ᾿ Αθόω δ‘ ἐπὶ πόητω ⁑",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol1983",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA044RN_0045@0.50957996,0.60193638,0.06411201,0.03236515"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:44r.3.122"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAil.hmt:3.695",
+    "comment": "ἐν τὴ ὑπερηφανίη",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol1956",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA044RN_0045@0.21149595,0.30414938,0.10464259,0.02406639"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:44r.3.107"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAil.hmt:3.696",
+    "comment": "υτάψει",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol1957",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA044RN_0045@0.41046426,0.30885201,0.09322034,0.02074689"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:44r.3.107"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAil.hmt:3.697",
+    "comment": "νεωτερ",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol1958",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA044RN_0045@0.20854827,0.32295989,0.09801032,0.02434302"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:44r.3.108"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAil.hmt:3.698",
+    "comment": "κσέμαντ",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol1959",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA044RN_0045@0.44399410,0.32572614,0.06742815,0.02185339"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:44r.3.108"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAil.hmt:3.699",
+    "comment": "Ν symbol",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol1960",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA044RN_0045@0.52063375,0.32185339,0.02321297,0.02461964"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:44r.3.108"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAil.hmt:3.700",
+    "comment": "ἐκράτεις",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol1961",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA044RN_0045@0.30287399,0.42365145,0.06226971,0.02351314"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:44r.3.113"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAil.hmt:3.701",
+    "comment": "ἀνδρα δέλφη",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol1962",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA044RN_0045@0.22955048,0.59211618,0.06595431,0.02544952"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:44r.3.122"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAil.hmt:3.702",
+    "comment": "ὄνκος",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol1963",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA044RN_0045@0.41672808,0.61092669,0.07553427,0.02295989"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:44r.3.123"
+    ]
+  },
+  {
     "urn": "urn:cts:greekLit:tlg5026.msA.hmt:3.170",
     "lemma": "διακρινθεῖτε τάχιστα",
     "dse": {
@@ -19,7 +140,6 @@
       "image_roi": "urn:cite2:hmt:vaimg.2017a:VA044RN_0045@0.13983051,0.13208852,0.61016949,0.04813278"
     },
     "references": [
-      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:44r.3.103",
       "urn:cts:greekLit:tlg0012.tlg001.msA-folios:44r.3.104"
     ],
     "comment": "τὰ οικεῖα ἑκάστω θεῷ ἱερουργούμενα εἰσάγει τῶ μὲν γὰρ ηλίῳ λαμπρῷ ὄντι καὶ αρρενα φησὶ καὶ λευκὸν ἱερουργηθῆναι ἄρνα τῇ δε γῇ μέλαιναν καὶ θήλειαν ἐπεὶ τοιαύτη ἡ θεός· τῷ δὲ Διῒ ἡμεῖς ἄλλον κομίσωμ  ὡς ξένοι ἐπεὶ καὶ ξένιος Ζεὺς προσαγορεύεται· ῾Ελληνικῶς ἐπὶ μὲν τῶν δύο τὸ ἕτερον τῷ ἑτέρῳ ἀντιδιέσταλκεν ἐπει δὲ τοῦ τρίτου ἄλλον εἴρηκεν ⁑"

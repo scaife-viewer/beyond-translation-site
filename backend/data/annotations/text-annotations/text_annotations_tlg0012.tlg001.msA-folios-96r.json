@@ -1,5 +1,49 @@
 [
   {
+    "urn": "urn:cts:greekLit:tlg5026.msAext.hmt:7.2008",
+    "comment": "ἐπέρεισε δὲ",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol2986",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA096RN_0268@0.8358,0.5247,0.0508,0.0413"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:96r.7.269"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAim.hmt:7.2005",
+    "comment": "Αριστ  δια τοῦ σ χαλκος ⁑",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol2932",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA096RN_0268@0.625,0.3406,0.0433,0.0369"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:96r.7.259"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAim.hmt:7.2006",
+    "comment": "Ἀρισταρχ  ἀσπίδ' ἐνιχριμφθεις ·",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol2933",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA096RN_0268@0.6108,0.5936,0.0483,0.0445"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:96r.7.272"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAim.hmt:7.2007",
+    "comment": "οτ  προς το δεύτερον πρωτὸν ὁ γὰρ Ταλθὺβιος εστ  Ἀχαιϊκος",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol2934",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA096RN_0268@0.6017,0.6731,0.0708,0.0463"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:96r.7.276"
+    ]
+  },
+  {
     "urn": "urn:cts:greekLit:tlg5026.msA.hmt:7.2002",
     "lemma": "‡ καὶ νύ κε·",
     "dse": {

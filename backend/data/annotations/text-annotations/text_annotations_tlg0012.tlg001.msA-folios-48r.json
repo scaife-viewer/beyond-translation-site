@@ -1,5 +1,94 @@
 [
   {
+    "urn": "urn:cts:greekLit:tlg5026.msAext.hmt:3.742",
+    "comment": "ὅτι σαφῶς ἐνταῦθα βραχείαν τῆν ὑπο στιγμην εἵρηκεν ⁑",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol2024",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA048RN_0049@0.70449521,0.12213001,0.04605748,0.06721992"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:48r.3.325"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAext.hmt:3.743",
+    "lemma": "ορωῶν",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol2025",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA048RN_0049@0.77118644,0.66542185,0.05784819,0.03485477"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:48r.3.325"
+    ],
+    "comment": "παρὰ τὸ ῥῶ τὸ ὁρμῶ τελέαν ασαμοῦ· τοῦ ο"
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAint.hmt:3.469",
+    "comment": "αντι τοῦ ΄Ιδης μεδέων ⁑",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol1945",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA048RN_0049@0.09893147,0.57773167,0.02081798,0.02074689"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:48r.3.320"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAint.hmt:3.478",
+    "comment": "τὸ ἧχι χωρὶς τοῦ ι ἡ Αρισταρχου ⁑",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol1946",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA048RN_0049@0.06521739,0.69004149,0.07313928,0.01991701"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:48r.3.326"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAim.hmt:3.738",
+    "comment": "ὅτι θηλυκῶς δεὶ τὴν ΄Ϊλιον λέγει ⁑",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol1994",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA048RN_0049@0.46849668,0.29363762,0.06116433,0.01673582"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:48r.3.305"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAim.hmt:3.739",
+    "comment": "δύναται καὶ ουτως ηρησάτο θεοις ἱδὲ χείρας ανέσχον και ο ϊδε ἀντι του και ⁑",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol1995",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA048RN_0049@0.48968312,0.54011065,0.04679440,0.06334716"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:48r.3.318"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAim.hmt:3.740",
+    "comment": "ἐαν στιζωμεν προ τούτου τοῦ στίχου ἐπι τῶ εἴσω ελλειπ  ῥῆμα εὐτικὸν τὸ εἴη εαν δὲ διαστέλλωμεν κοινὸν έσται τὸ δός ⁑",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol1996",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA048RN_0049@0.48176124,0.62461964,0.05784819,0.02821577"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:48r.3.323"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAim.hmt:3.741",
+    "comment": "Αρισταρχος κατα γενικην εκαστου ⁑",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol1997",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA048RN_0049@0.50902727,0.68934993,0.02302874,0.02821577"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:48r.3.326"
+    ]
+  },
+  {
     "urn": "urn:cts:greekLit:tlg5026.msA.hmt:3.454",
     "lemma": "ὁρασθαι",
     "dse": {
@@ -7,10 +96,6 @@
       "image_roi": "urn:cite2:hmt:vaimg.2017a:VA048RN_0049@0.13614591,0.13278008,0.54826824,0.05228216"
     },
     "references": [
-      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:48r.3.306",
-      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:48r.3.307",
-      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:48r.3.308",
-      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:48r.3.309",
       "urn:cts:greekLit:tlg0012.tlg001.msA-folios:48r.3.310"
     ],
     "comment": "παθητικὸν ἀντι ἐνεργητικοῦ ἀντέστραπται δὲ ἡ περίοδος ορθῇ δ ὰν ἦν οὕτως· ὁπποτέρῳ θανάτοιο τέλος πεπρωμένον . Ζεὺς μὲν τοῦτό γε οἶδεν . εἰς δὲ τὴν πόλιν ὁ Πρίαμος τοὺς ἄρνας τεθυμένους ἔχων ἄπεισιν ἵνα αὐτοὺς περιστείλη ἔθος γὰρ ἦν τὰ ἐπι τοῖς όρκοις γιγνόμα  ἱερεῖα τοὺς μὲν ἐγχωρίους γῇ περιστέλλειν τοὺς δὲ ἐπίλυδας εἰς τὴν θάλασσαν ῥίπτειν ⁑"
@@ -71,7 +156,6 @@
       "image_roi": "urn:cite2:hmt:vaimg.2017a:VA048RN_0049@0.11072218,0.68298755,0.62122329,0.06846473"
     },
     "references": [
-      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:48r.3.315",
       "urn:cts:greekLit:tlg0012.tlg001.msA-folios:48r.3.316"
     ],
     "comment": "μετα ταῦτα δεόντως καὶ κλῆρον ἐποιήσαντο περι τῆς ἀφέσεως τοῦ δόρατος ὥστε μὴ θόρυβον ἐμπεσεῖν τοῦ ὑστέρου φθάσαντος δια τῆς πρώτης βολῆς ἀνελεῖν τὸν πολέμιον ψῆφοι δε τίνες ἦσαν οἱ κλήροι· εἰς οὓς ἐσημειοῦτο ἕκαστος οὓς οὕτως ὠνόμασαν δια τὸ καλεῖσθαι ὑπ' αὐτῶν εἰς τὰς πράξεις ⁑"

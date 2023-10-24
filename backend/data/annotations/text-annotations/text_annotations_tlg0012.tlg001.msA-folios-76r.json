@@ -1,5 +1,82 @@
 [
   {
+    "urn": "urn:cts:greekLit:tlg5026.msAext.hmt:5.4077",
+    "comment": "οὐκ άρ'",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol2489",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA076RN_0077@0.849299926308032,0.195850622406639,0.0331613854089904,0.0182572614107884"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:76r.5.686"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAext.hmt:5.4078",
+    "comment": "γράφεται ἀμπνύνθη",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol2490",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA076RN_0077@0.805821665438467,0.404702627939142,0.0700073691967576,0.0246196403872752"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:76r.5.697"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAext.hmt:5.4080",
+    "comment": "ξειν",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol2492",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA076RN_0077@0.868828297715549,0.528907330567082,0.0283714075165807,0.0215767634854772"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:76r.5.703"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAext.hmt:5.4081",
+    "comment": "κεικλοι",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol2493",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA076RN_0077@0.861827560795873,0.648409405255878,0.0350036845983788,0.0182572614107884"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:76r.5.709"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAint.hmt:5.4070",
+    "comment": "Πτολεμαῖος ὁ τοῦ Ὀροάνδου · διὰ τοῦ σ σελάγων ·",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol2460",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA076RN_0077@0.122697126013265,0.372614107883817,0.0674281503316139,0.0356846473029046"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:76r.5.695"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAim.hmt:5.4047",
+    "comment": "έν τισι δια τοῦ ε ἐμπνύνθη γράφεται",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol2397",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA076RN_0077@0.549373618275608,0.413831258644537,0.0666912306558585,0.023789764868603"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:76r.5.697"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAim.hmt:5.4048",
+    "comment": "Αρισταρχος δια του ἐξενάριξαν ·",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol2398",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA076RN_0077@0.557111274871039,0.521715076071923,0.0711127487103906,0.016597510373444"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:76r.5.703"
+    ]
+  },
+  {
     "urn": "urn:cts:greekLit:tlg5026.msA.hmt:5.4005",
     "lemma": "κεκαφηότα·",
     "dse": {

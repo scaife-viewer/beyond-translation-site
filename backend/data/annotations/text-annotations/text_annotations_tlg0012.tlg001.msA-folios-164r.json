@@ -1,5 +1,129 @@
 [
   {
+    "urn": "urn:cts:greekLit:tlg5026.msAext.hmt:13.164r1",
+    "comment": "οὐδ΄ἀλαοσκοπ",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol8377",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA164RN_0335@0.8305,0.3761,0.06853,0.02268"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:164r.13.10",
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:164r.13.346"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAext.hmt:13.164r2",
+    "comment": "Ποσειδά",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol8378",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA164RN_0335@0.8392,0.5476,0.05859,0.02379"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:164r.13.19"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAint.hmt:13.164r1",
+    "comment": "Ζηνοδοτος καὶ Αριστοφάνης περὶ τῇσι . μήποτ' οὖν διχῶς . ⁑",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol8371",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA164RN_0335@0.1800,0.2181,0.04679,0.05007"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:164r.13.2",
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:164r.13.287",
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:164r.13.546"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAint.hmt:13.164r2",
+    "comment": "οτι πόνον τὸ κατα πόλεμον ἔργον εἴρηκεν . ⁑",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol8372",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA164RN_0335@0.1177,0.2207,0.04679,0.04163"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:164r.13.2"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAint.hmt:13.164r3",
+    "comment": "Ἀρισταρχος χωρὶς τοῦ τε δικαιοτάτων \t\t\t\t\t\t\t\t\t\t\tανων \t\t\t\t\t\t\t\t\t\t\tανθρωπων \t\t\t\t\t\t\t\t\t\t \t\t\t\t\t\t\t\t\t ⁑",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol8373",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA164RN_0335@0.1303,0.2994,0.07627,0.03223"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:164r.13.6"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAint.hmt:13.164r4",
+    "comment": "Ἀριστοφανης δια τοὺ ε οὐ γὰρ έτ΄ἀθανάτων ~ ⁑",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol8374",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA164RN_0335@0.1207,0.3353,0.06945,0.04509"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:164r.13.8"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAint.hmt:13.164r5",
+    "comment": "οτ  οὐδέποτὲ συνθέτως εἴρηκε \t\t\t\t\t\t\t\t\tΣαμοθρακην \t\t\t\t\t\t\t\t ⁑",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol8375",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA164RN_0335@0.1148,0.4167,0.05619,0.04108"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:164r.13.12"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAint.hmt:13.164r6",
+    "comment": "οτ  ἀντι τοῦ ὑπὸ Τρώων \t\t\t\t\t\t\t\t ⁑",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol8376",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA164RN_0335@0.1080,0.4936,0.06338,0.03582"
+    },
+    "references": []
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAim.hmt:13.164r1",
+    "comment": "γράφεται καὶ ἀρήξειν ⁑",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol8368",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA164RN_0335@0.5894,0.3559,0.04237,0.03734"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:164r.13.9",
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:164r.13.287",
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:164r.13.383"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAim.hmt:13.164r2",
+    "comment": "οτ  θαυμάζων ἀντὶ τοῦ θεώμενος ⁑",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol8369",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA164RN_0335@0.5910,0.4000,0.04827,0.03928"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:164r.13.11"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAim.hmt:13.164r3",
+    "comment": "οτ  ἐκ τῶν συμφραζομένων τὸ γέντο ἔλαβεν σημαίνει ⁑",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol8370",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA164RN_0335@0.4932,0.6820,0.1463,0.02144"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:164r.13.25"
+    ]
+  },
+  {
     "urn": "urn:cts:greekLit:tlg5026.msA.hmt:13.164r1",
     "lemma": "Ζεὺς 'ἐπει οῦν τρῶάς ε καὶ Ἕκτορα :",
     "dse": {
@@ -79,7 +203,10 @@
     "dse": {
       "urn": "urn:cite2:hmt:va_dse.v1:schol8167",
       "image_roi": "urn:cite2:hmt:vaimg.2017a:VA164RN_0335@0.631,0.5661,0.204,0.0646"
-    }
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:164r.13.6"
+    ]
   },
   {
     "urn": "urn:cts:greekLit:tlg5026.msA.hmt:13.164r9",
@@ -87,7 +214,10 @@
     "dse": {
       "urn": "urn:cite2:hmt:va_dse.v1:schol8168",
       "image_roi": "urn:cite2:hmt:vaimg.2017a:VA164RN_0335@0.1729,0.6274,0.651,0.0901"
-    }
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:164r.13.6"
+    ]
   },
   {
     "urn": "urn:cts:greekLit:tlg5026.msA.hmt:13.164r10",
@@ -143,7 +273,10 @@
     "dse": {
       "urn": "urn:cite2:hmt:va_dse.v1:schol8173",
       "image_roi": "urn:cite2:hmt:vaimg.2017a:VA164RN_0335@0.1747,0.7593,0.6647,0.0446"
-    }
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:164r.13.13"
+    ]
   },
   {
     "urn": "urn:cts:greekLit:tlg5026.msA.hmt:13.164r15",

@@ -1,5 +1,357 @@
 [
   {
+    "urn": "urn:cts:greekLit:tlg5026.msAext.hmt:2.271",
+    "comment": "γρ  εἱατ' ἐνι μεγαροις ποτιδέγμεναι",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol1767",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA027RN_0028@0.76,0.2346,0.1086,0.0201"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:27r.2.137"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAint.hmt:2.242",
+    "comment": "ἀθετεῖται ὅτι κενῶς ἐπεξηγεῖται τὸ γαρ νοούμενον το αυτό",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol1572",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA027RN_0028@0.0763,0.337,0.0712,0.0432"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:27r.2.143"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAint.hmt:2.243",
+    "comment": "ἀπο τοῦ όρωρε ὑπέρθεσις χρόνου·",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol1573",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA027RN_0028@0.065,0.3942,0.0933,0.0319"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:27r.2.146"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAint.hmt:2.244",
+    "comment": "οὕτως νῆας ἐπ' ἐσσεύοντο",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol1574",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA027RN_0028@0.0929,0.475,0.0621,0.0235"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:27r.2.150"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAint.hmt:2.245",
+    "comment": "‡ἐπιλαμβάνεσθαι ὡς το εανοῦ απτομένη",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol1575",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA027RN_0028@0.0875,0.5135,0.0771,0.0266"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:27r.2.152"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAint.hmt:2.246",
+    "comment": "οὐδετέρως τὸ νῶτον καὶ τα νῶτα λέγει ὁ ποιητὴς πανταχοῦ καὶ Ἡσίοδος καὶ οὐκ αρσενικῶς τον νῶτον ⁑",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol1576",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA027RN_0028@0.0625,0.6461,0.0988,0.0585"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:27r.2.159"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAim.hmt:2.239",
+    "comment": "ἐπι τὸ Ϊκαρίοιο στιγμή βραχὺ δὲ διαστελοῦμεν ἐπι τὸ ἀγορή ·",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol1508",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA027RN_0028@0.4908,0.3802,0.0667,0.0375"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:27r.2.145"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAim.hmt:2.240",
+    "comment": "ὑποστιγμαὶ ἐν ὑποκρίσει ἐπαιγίζων ἀσταχύεσσιν ⁑",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol1509",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA027RN_0028@0.5021,0.4471,0.0542,0.0401"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:27r.2.148"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAim.hmt:2.241",
+    "comment": "παραλόγως δασύνεται το ερῶ ⁑",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol1510",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA027RN_0028@0.5179,0.5544,0.035,0.0401"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:27r.2.154"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAil.hmt:2.247",
+    "comment": "καθέζονται",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol1689",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA027RN_0028@0.1829,0.2253,0.0529,0.01"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:27r.2.137"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAil.hmt:2.248",
+    "comment": "ἐν τοῖς οίκοις",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol1690",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA027RN_0028@0.2675,0.2275,0.0508,0.011"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:27r.2.137"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAil.hmt:2.249",
+    "comment": "προσδεχόμεναι",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol1691",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA027RN_0028@0.35,0.2293,0.0621,0.0091"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:27r.2.137"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAil.hmt:2.250",
+    "comment": "ὁμοίως ἠ ματαῖως",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol1692",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA027RN_0028@0.1904,0.2451,0.0661,0.0088"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:27r.2.138"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAil.hmt:2.251",
+    "comment": "ἐνταῦθα",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol1693",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA027RN_0028@0.4257,0.2467,0.0271,0.0083"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:27r.2.138"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAil.hmt:2.252",
+    "comment": "πορθήσωμεν λαβωμεν",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol1694",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA027RN_0028@0.3507,0.3052,0.0625,0.0083"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:27r.2.141"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAil.hmt:2.253",
+    "comment": "ἐν τῷ πλήθει",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol1695",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA027RN_0028@0.2589,0.3403,0.0625,0.0099"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:27r.2.143"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAil.hmt:2.254",
+    "comment": "ἀντὶ μεγάλα",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol1696",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA027RN_0028@0.4082,0.361,0.0475,0.0102"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:27r.2.144"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAil.hmt:2.255",
+    "comment": "διήγειρεν διεταρραξεν ἐφορμήσας·",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol1697",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA027RN_0028@0.1796,0.3955,0.1343,0.0134"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:27r.2.146"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAil.hmt:2.256",
+    "comment": "τοῦ XX ἢ τοῦ XX",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol1698",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA027RN_0028@0.3496,0.3985,0.0436,0.0113"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:27r.2.146"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAil.hmt:2.257",
+    "comment": "μέγα καὶ εὔφορον σιτοφόρον χωρίον",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol1699",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA027RN_0028@0.3789,0.4159,0.1311,0.015"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:27r.2.147"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAil.hmt:2.258",
+    "comment": "σφοδρῶς ἐπικαταπνέων",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol1700",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA027RN_0028@0.18,0.4331,0.0914,0.0099"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:27r.2.148"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAil.hmt:2.259",
+    "comment": "ἐπικατακλΐνει δὲ τοὺς ἀσταχυας τοῖς ἀστάχυσιν·",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol1701",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA027RN_0028@0.3429,0.4352,0.1764,0.0153"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:27r.2.148"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAil.hmt:2.260",
+    "comment": "συν θορύβῳ",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol1702",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA027RN_0028@0.4207,0.4572,0.0614,0.0102"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:27r.2.149"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAil.hmt:2.261",
+    "comment": "ὑποκάτωθεν",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol1703",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA027RN_0028@0.4007,0.4749,0.0614,0.0094"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:27r.2.150"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAil.hmt:2.262",
+    "comment": "ὑψοῦται",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol1704",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA027RN_0028@0.1854,0.4894,0.0304,0.0134"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:27r.2.151"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAil.hmt:2.263",
+    "comment": "ταφροειδῆ ὀρύγματα :",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol1705",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA027RN_0028@0.1689,0.5267,0.1018,0.0131"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:27r.2.153"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAil.hmt:2.264",
+    "comment": "εἰς τὸν οἴκον ἀπιέναι προθυμουμένων ⁑",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol1706",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA027RN_0028@0.1821,0.5436,0.1375,0.0131"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:27r.2.154"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAil.hmt:2.265",
+    "comment": "ὑφήρουν δὲ",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol1707",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA027RN_0028@0.3521,0.5449,0.0564,0.0153"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:27r.2.154"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAil.hmt:2.267",
+    "comment": "ὑπερ τὸ εἰμαρμένον ὀνοματικὸν ἐπίρρημα",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol1708",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA027RN_0028@0.3082,0.5632,0.1607,0.018"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:27r.2.155"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAil.hmt:2.268",
+    "comment": "ἐγένετο",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol1709",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA027RN_0028@0.4821,0.5693,0.0311,0.0105"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:27r.2.155"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAil.hmt:2.269",
+    "comment": "φεῦ παπαι",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol1710",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA027RN_0028@0.1818,0.6023,0.0457,0.0142"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:27r.2.157"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAil.hmt:2.270",
+    "comment": "ακαταπόνητε ⁑",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol1711",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA027RN_0028@0.4307,0.6066,0.0729,0.0142"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:27r.2.157"
+    ]
+  },
+  {
     "urn": "urn:cts:greekLit:tlg5026.msA.hmt:2.230",
     "lemma": "νήας ἔπ' ἐσσεύοντο·",
     "dse": {

@@ -1,5 +1,27 @@
 [
   {
+    "urn": "urn:cts:greekLit:tlg5026.msAext.hmt:2.714",
+    "comment": "μηθάνην",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol1779",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA038RN_0039@0.761,0.6776,0.051,0.0133"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:38r.2.716"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAint.hmt:2.712",
+    "comment": "βαρυτονητεον τὸ Φυλὰκην Φυλάκην πρὸς ἀντιδιαστο  τοῦ ὀξυνομένου ⁑",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol1610",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA038RN_0039@0.0833,0.2723,0.0593,0.0496"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:38r.2.695"
+    ]
+  },
+  {
     "urn": "urn:cts:greekLit:tlg5026.msA.hmt:2.704",
     "lemma": "‡τῆς ὅ γε κεῖτ' ἀχέων·",
     "dse": {

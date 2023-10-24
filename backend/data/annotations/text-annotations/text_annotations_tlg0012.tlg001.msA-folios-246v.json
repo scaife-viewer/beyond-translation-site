@@ -1,5 +1,36 @@
 [
   {
+    "urn": "urn:cts:greekLit:tlg5026.msAext.hmt:18.5",
+    "comment": "θ'",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol6149",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA246VN_0748@0.163,0.5905,0.018,0.0173"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:246v.18.398"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAim.hmt:18.41",
+    "comment": "Ζηνοδ  καὶ Αριστοφ  δαίδαλα πάντ  ⁑",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol6293",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA246VN_0748@0.447,0.6273,0.044,0.0586"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:246v.18.400"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAil.hmt:18.19",
+    "comment": "συνεχῶς παραγίνη",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol6233",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA246VN_0748@0.815,0.3599,0.081,0.0158"
+    },
+    "references": []
+  },
+  {
     "urn": "urn:cts:greekLit:tlg5026.msA.hmt:18.128",
     "lemma": "οἳ δ ήτοι·",
     "dse": {
@@ -149,6 +180,9 @@
     "dse": {
       "urn": "urn:cite2:hmt:va_dse.v1:schol6467",
       "image_roi": "urn:cite2:hmt:vaimg.2017a:VA246VN_0748@0.404,0.1195,0.425,0.0331"
-    }
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:246v.18.381"
+    ]
   }
 ]

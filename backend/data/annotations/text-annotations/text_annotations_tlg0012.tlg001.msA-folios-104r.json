@@ -1,5 +1,47 @@
 [
   {
+    "urn": "urn:cts:greekLit:tlg5026.msAint.hmt:8.141",
+    "comment": "γρ  καὶ ἐπ Ιδαίω  ⁚",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol3203",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA104RN_0276@0.1311,0.2705,0.0611,0.0263"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:104r.8.170"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAint.hmt:8.143",
+    "comment": "καὶ παρα Ἀριστοφα  ἀθετεῖται ⁑",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol3204",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA104RN_0276@0.1231,0.6326,0.0551,0.0413"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:104r.8.189"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAint.hmt:8.144",
+    "comment": "ουτ  Ἀρισταρχ  ἄλλοι δὲ αί κε λάβωμεν ⁑",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol3205",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA104RN_0276@0.1171,0.6694,0.0621,0.0406"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:104r.8.191"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAil.hmt:8.145",
+    "comment": "ἠπερ εμοὶ",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol3250",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA104RN_0276@0.2102,0.6491,0.0501,0.0158"
+    },
+    "references": []
+  },
+  {
     "urn": "urn:cts:greekLit:tlg5026.msA.hmt:8.133",
     "lemma": "ἀβληχρά~",
     "dse": {
@@ -43,8 +85,6 @@
       "image_roi": "urn:cite2:hmt:vaimg.2017a:VA104RN_0276@0.5996,0.5965,0.2368,0.0833"
     },
     "references": [
-      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:104r.8.188",
-      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:104r.8.189",
       "urn:cts:greekLit:tlg0012.tlg001.msA-folios:104r.8.190"
     ],
     "comment": "τὸ ἑξῆς τοῦτό ἐστιν ἠ εμοὶ ὅς πέρ οἱ θαλερὸς πόσις εὔχομαι εἶναι οἴνον τ' ἐγκεράσασα πιεῖν ὅτε μοι θυμὸς ἀνώγοι ἱστεον δὲ ὅτι προ τοῦ εὑρεθῆναι τὴν τῶν ποτηρίων χρῆσιν κέρασιν ἔπινον ⁑"

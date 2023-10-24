@@ -1,5 +1,65 @@
 [
   {
+    "urn": "urn:cts:greekLit:tlg5026.msAint.hmt:18.32",
+    "comment": "ἐρυθρὰν ποιῆσαι τῷ αἵματ  ⁚",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol6188",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA245VN_0747@0.869,0.2524,0.067,0.0293"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:245v.18.329"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAim.hmt:18.37",
+    "comment": "δια τοῦ α αύτως πάσαι εῖχον ⁑",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol6289",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA245VN_0747@0.431,0.4185,0.065,0.0563"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:245v.18.338"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAim.hmt:18.38",
+    "comment": "προς το λιτη ⁚",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol6290",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA245VN_0747@0.428,0.6799,0.062,0.0233"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:245v.18.352"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAil.hmt:18.14",
+    "comment": "μετα καμάτου ἐκτησάμεθα⁚",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol6228",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA245VN_0747@0.605,0.4703,0.121,0.0158"
+    },
+    "references": []
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAil.hmt:18.15",
+    "comment": "λιπαρας",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol6229",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA245VN_0747@0.515,0.4936,0.039,0.0105"
+    },
+    "references": []
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAil.hmt:18.16",
+    "comment": "περιεῖπεν",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol6230",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA245VN_0747@0.716,0.5995,0.042,0.0128"
+    },
+    "references": []
+  },
+  {
     "urn": "urn:cts:greekLit:tlg5026.msA.hmt:18.118",
     "lemma": "‡ οὐδε Θέτις μηρ  ⁚",
     "dse": {

@@ -1,5 +1,69 @@
 [
   {
+    "urn": "urn:cts:greekLit:tlg5026.msAext.hmt:22.1",
+    "comment": "ση  ὅτι ἅπαξ ὁ πυρετός·",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol6759",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA282VN_0784@0.149,0.6306,0.061,0.0526"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:282v.22.31"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAint.hmt:22.1",
+    "comment": "οτ  αντ  αρίδηλοι οὐ γὰρ ὁ ζηλοί ἔγκειται ⁑",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol6763",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA282VN_0784@0.853,0.5871,0.067,0.0383"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:282v.22.27"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAim.hmt:22.2",
+    "comment": "ἀπ' ἀλλης ἀρχῆς τοῦτο ἀναγνωστ  τοῦ η ψιλουμενον ⁑",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol6846",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA282VN_0784@0.436,0.458,0.046,0.0616"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:282v.22.20"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAim.hmt:22.3",
+    "comment": "ουτ  λείπει ἡ δι α δια πεδιου ⁑",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol6847",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA282VN_0784@0.433,0.5646,0.046,0.039"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:282v.22.23"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAim.hmt:22.4",
+    "comment": "οτ  περισσὸς ὁ τὲ σύνδεσμος ⁑",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol6848",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA282VN_0784@0.433,0.6291,0.053,0.0315"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:282v.22.29"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAil.hmt:22.2",
+    "comment": "αν εισιν ἀνατέλλει",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol6799",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA282VN_0784@0.605,0.5826,0.088,0.0113"
+    },
+    "references": []
+  },
+  {
     "urn": "urn:cts:greekLit:tlg5026.msA.hmt:22.4",
     "lemma": "ῆ νύ τοι οὔ τι μέλει Τρώων πόνος οὓς ἐφόβησας·",
     "dse": {

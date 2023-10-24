@@ -1,5 +1,71 @@
 [
   {
+    "urn": "urn:cts:greekLit:tlg5026.msAext.hmt:24.7",
+    "comment": "ρητορικός",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol7203",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA318RN_0488@0.801,0.4482,0.058,0.0368"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:318r.24.369"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAext.hmt:24.8",
+    "comment": "αλλ ετι τίς",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol7204",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA318RN_0488@0.819,0.5526,0.077,0.0233"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:318r.24.374"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAint.hmt:24.5",
+    "comment": "γράφεται κακoν",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol7219",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA318RN_0488@0.111,0.4745,0.057,0.0323"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:318r.24.370"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAint.hmt:24.6",
+    "comment": "γράφεται ἀλλ’ έτι τίς  ⁑",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol7220",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA318RN_0488@0.112,0.5503,0.068,0.0413"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:318r.24.374"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAim.hmt:24.22",
+    "comment": "γράφεται εἰ δέ κεν ἡ διπλῆ δέ οτ  τὸ δεν παρελκετ  ⁑",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol7293",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA318RN_0488@0.576,0.4692,0.043,0.0465"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:318r.24.370"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAim.hmt:24.23",
+    "comment": "ουτ  δια τοῦ π οὕτω πη · ἐν δέ τισι δια τοῦ δ ούτω δὴ ⁑",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol7294",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA318RN_0488@0.56,0.5308,0.054,0.0586"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:318r.24.373"
+    ]
+  },
+  {
     "urn": "urn:cts:greekLit:tlg5026.msA.hmt:24.59",
     "lemma": "τόσσα δ’ ὀνείατ’ άγοντα :",
     "dse": {

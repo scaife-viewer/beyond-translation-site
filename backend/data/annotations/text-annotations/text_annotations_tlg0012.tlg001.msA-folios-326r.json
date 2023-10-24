@@ -1,5 +1,89 @@
 [
   {
+    "urn": "urn:cts:greekLit:tlg5026.msAext.hmt:24.11",
+    "comment": "ὤφελλ' απολέσθαι",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol7207",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA326RN_0496@0.784,0.3453,0.088,0.027"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:326r.24.764"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAext.hmt:24.12",
+    "comment": "ἔστενε",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol7208",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA326RN_0496@0.757,0.5773,0.055,0.021"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:326r.24.776"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAim.hmt:24.46",
+    "comment": "εν αλλῳ οἷς ἀγανοῖσι βέλεσσι ἐποιχόμενος καταπέφνῃ ⁑",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol7317",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA326RN_0496@0.565,0.2598,0.05,0.0668"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:326r.24.759"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAim.hmt:24.47",
+    "comment": "γράφεται ένισσοι",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol7318",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA326RN_0496@0.553,0.4287,0.051,0.0218"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:326r.24.768"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAim.hmt:24.48",
+    "comment": "γράφεται εῖεν :",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol7319",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA326RN_0496@0.531,0.467,0.044,0.0158"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:326r.24.770"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAim.hmt:24.49",
+    "comment": "νῦν βδελύττονται ⁑",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol7320",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA326RN_0496@0.545,0.5541,0.077,0.0285"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:326r.24.775"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAil.hmt:24.24",
+    "comment": "ἀνθηρός",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol7261",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA326RN_0496@0.288,0.2185,0.039,0.015"
+    },
+    "references": []
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAil.hmt:24.25",
+    "comment": "ἐπιπλήττοι",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol7262",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA326RN_0496@0.504,0.4212,0.047,0.015"
+    },
+    "references": []
+  },
+  {
     "urn": "urn:cts:greekLit:tlg5026.msA.hmt:24.103",
     "lemma": "ὄν τ' ἀργυρότοξος Ἀπόλλω  ·",
     "dse": {
@@ -19,8 +103,6 @@
       "image_roi": "urn:cite2:hmt:vaimg.2017a:VA326RN_0496@0.614,0.2658,0.184,0.226"
     },
     "references": [
-      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:326r.24.765",
-      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:326r.24.766",
       "urn:cts:greekLit:tlg0012.tlg001.msA-folios:326r.24.767"
     ],
     "comment": "ψευδὲς οὐ γὰρ εἰκοστὸν ἔτος δύναται εἶναι ἐξ οῦ εἰς τὸ Ἴλιον ἦλθεν Ἑλένη εἴγε δεκαετὴς μὲν ἡ τοῦ θανάτου παρασκευὴ ὁμολογεῖται γεγονέναι εἰκοστῷ δὲ Ὀδυσσεὺς ἐνιαυτῷ εἰς τὴν θάκην ἐπανελήλυθεν πολὺν ἐν τῇ πλάνῃ ενδιατρίψας χρόνον· ῥητέον οῦ δὲ ὅτι δέκα ἔτη ἐστρατολόγουν χειμάζοντες ἐν ταῖς ἰδίαις καὶ θέρους εἰς Αὐλίδα ἀφικνούμενοι· νῦν εἰκοστὸν ἐτος ἐστιν ἀπο τῆς ἁρπαγῆς Ἑλενης · ἐπι δὲ Ὀδυσσέως τὰ δέκα ἔτι , τῆς στρατολογίας οὐκ αριθμητέον· λεληθότως δὲ ἐσήμανεν ὡς οἱ φρόνιμοι τῶν Τρώων πρὸς τιμῆς ἔχειν ἡγοῦντο τὴν Ἑλένην ⁑"

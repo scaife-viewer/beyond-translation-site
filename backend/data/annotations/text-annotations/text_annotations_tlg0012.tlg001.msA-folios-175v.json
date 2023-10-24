@@ -1,5 +1,67 @@
 [
   {
+    "urn": "urn:cts:greekLit:tlg5026.msAint.hmt:13.B1",
+    "comment": "ἔφερε τῷ αγήνορι ⁑",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol8529",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA175VN_0677@0.9108,0.4927,0.04385,0.04647"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:175v.13.600"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAint.hmt:13.B2",
+    "comment": "Ζηνοδ μέγα δ' ἠλπε το νικην ⁑",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol8530",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA175VN_0677@0.9083,0.6683,0.04035,0.03845"
+    },
+    "references": []
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAim.hmt:13.A5a",
+    "comment": "ουτ  Αριστ  ῄ ρ' ἔχε καθ' ὃ μέρος κατεῖχε ⁑",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol8136bis",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA175VN_0677@0.426,0.3839,0.079,0.0601"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:175v.13.594"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAim.hmt:13.A5b",
+    "comment": "Αριστ  ἐϋστρεφεῖ ὡς ἀπὸ τῆς εὐσρεφές ⁑",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol8137bis",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA175VN_0677@0.434,0.4786,0.072,0.0518"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:175v.13.599"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAim.hmt:13.A5c",
+    "comment": "γρ  ⁑",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol8138bis",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA175VN_0677@0.444,0.6476,0.056,0.0376"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:175v.13.608"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAil.hmt:13.B1",
+    "comment": "απεκρούετο",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol8531",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA175VN_0677@0.7366,0.2574,0.05582,0.01674"
+    },
+    "references": []
+  },
+  {
     "urn": "urn:cts:greekLit:tlg5026.msA.hmt:13.A5",
     "lemma": "πριαμίδης μὲν ἔπειτα κατα στῆθος",
     "dse": {

@@ -1,5 +1,49 @@
 [
   {
+    "urn": "urn:cts:greekLit:tlg5026.msAext.hmt:15.18",
+    "comment": "ύμεων",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol5484",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA200VN_0702@0.131,0.5507,0.028,0.0165"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:200v.15.494"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAim.hmt:15.56",
+    "comment": "οτ  ασπουδι χωρὶς κακοπαθείας ⁑",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol5638",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA200VN_0702@0.435,0.2269,0.065,0.0406"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:200v.15.476"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAim.hmt:15.57",
+    "comment": "οτ  διαστελλει τὸ βαλεῖν καὶ τύψαι ⁑",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol5639",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA200VN_0702@0.442,0.5642,0.061,0.0436"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:200v.15.495"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAim.hmt:15.58",
+    "comment": "καὶ ἡ ουσία καὶ ὁ βίος ⁑",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol5640",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA200VN_0702@0.445,0.6251,0.065,0.0248"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:200v.15.498"
+    ]
+  },
+  {
     "urn": "urn:cts:greekLit:tlg5026.msA.hmt:15.137",
     "lemma": "κρατὶ δ' ἐπ' ἰφθήμῳ ,",
     "dse": {
@@ -17,7 +61,10 @@
     "dse": {
       "urn": "urn:cite2:hmt:va_dse.v1:schol5800",
       "image_roi": "urn:cite2:hmt:vaimg.2017a:VA200VN_0702@0.245,0.3464,0.206,0.0458"
-    }
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:200v.15.480"
+    ]
   },
   {
     "urn": "urn:cts:greekLit:tlg5026.msA.hmt:15.139",

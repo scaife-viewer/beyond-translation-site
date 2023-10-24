@@ -1,5 +1,71 @@
 [
   {
+    "urn": "urn:cts:greekLit:tlg5026.msAint.hmt:6.171",
+    "comment": "τὸ πολὺ φέρτατος καὶ τα ἑξης ἐπι τοῦ Προιτ  πδεκτεον  ⁑",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol2682",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA083VN_0586@0.83750921,0.29557400,0.04310980,0.03872752"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:83v.6.158"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAint.hmt:6.172",
+    "comment": "ὅτι τουτον οἱ νεώτεροι Ϊωβατ  φασιν ⁑",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol2683",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA083VN_0586@0.86072218,0.51881051,0.02910833,0.03679115"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:83v.6.170"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAint.hmt:6.173",
+    "comment": "τὸ ἐπιφερόμενον οτι προς τον εννεα αριθμόν ⁑",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol2684",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA083VN_0586@0.82461312,0.59128631,0.05600590,0.03098202"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:83v.6.174"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAil.hmt:6.A7",
+    "comment": "ο",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol2789",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA083VN_0586@0.772,0.2201,0.027,0.0135"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:83v.6.154"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAil.hmt:6.A8",
+    "comment": "α",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol2790",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA083VN_0586@0.748,0.3306,0.037,0.0173"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:83v.6.160"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAil.hmt:6.286",
+    "comment": "ατος",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol2773",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA083VN_0586@0.75607959,0.29668050,0.03205601,0.00912863"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:83v.6.158"
+    ]
+  },
+  {
     "urn": "urn:cts:greekLit:tlg5026.msA.hmt:6.53",
     "lemma": "‡ Σίσυφος",
     "dse": {
@@ -29,7 +95,10 @@
     "dse": {
       "urn": "urn:cite2:hmt:va_dse.v1:schol2589",
       "image_roi": "urn:cite2:hmt:vaimg.2017a:VA083VN_0586@0.19731024,0.41452282,0.20412675,0.02517289"
-    }
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:83v.6.160"
+    ]
   },
   {
     "urn": "urn:cts:greekLit:tlg5026.msA.hmt:6.56",
@@ -37,7 +106,10 @@
     "dse": {
       "urn": "urn:cite2:hmt:va_dse.v1:schol2590",
       "image_roi": "urn:cite2:hmt:vaimg.2017a:VA083VN_0586@0.19509948,0.42475795,0.21370671,0.04343015"
-    }
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:83v.6.160"
+    ]
   },
   {
     "urn": "urn:cts:greekLit:tlg5026.msA.hmt:6.57",

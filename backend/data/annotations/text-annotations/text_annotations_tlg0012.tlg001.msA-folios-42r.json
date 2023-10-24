@@ -1,5 +1,82 @@
 [
   {
+    "urn": "urn:cts:greekLit:tlg5026.msAint.hmt:3.4",
+    "comment": "ὅτι ἀντὶ τοῦ μετὰ κλαγγῆς καὶ ἐνοπῆς . ἄμφω δὲ ἤχου ὀνόματα ⁑",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol1928",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA042RN_0043@0.07184967,0.28049793,0.06890199,0.02461964"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:42r.3.2"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAint.hmt:3.31",
+    "comment": "ἀντι του Τρώων πτωτικὸν τὸ σχῆμα ταῖς δοτικαῖς γὰρ ἀντι γενικῶν χρῶνται οἱ ποιηται ⁑",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol1929",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA042RN_0043@0.06521739,0.52627939,0.05711127,0.05062241"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:42r.3.16"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAint.hmt:3.43",
+    "comment": "ουτως ὁ Αρισταρχος προπερισπᾶ δηϊοτητι ὡς ἀπο ὀξυτόνου ευθ  τὸ δε κεφάλαιον ἐκτέταται ἐν τῇ Ιλιακ  προσαδ  ⁑",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol1930",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA042RN_0043@0.06061164,0.59211618,0.06300663,0.04121715"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:42r.3.20"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAint.hmt:3.49",
+    "comment": "νεκροῦ γὰρ φασὶ σώματος μὴ άπτεσθαι λέοντα ⁑",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol1931",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA042RN_0043@0.06263817,0.64273859,0.06374355,0.01728907"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:42r.3.22"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAint.hmt:3.55",
+    "comment": "ὁτι τὸ εἴπερ ἂν αυτὸν ἀντι του ει καὶ αὐτον ὡς ὅταν λεγ  εἴπερ ἂν αὐταὶ μοῦσαι θέ δ' οιεν ἀντι τοῦ καὶ αὐταὶ · και ὅτι ὁ τὲ συνδ  περισσός ⁑",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol1932",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA042RN_0043@0.06448047,0.69446750,0.11238025,0.03388658"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:42r.3.25"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAim.hmt:3.682",
+    "comment": "συναπτέον ἕως του πεινάων φαύλοι γὰρ οἱ συνάπτοντες τὸ πεινάων τοῖς επομενοις ὑποστικτεον δὲ εἰς το αἰζειοί ⁑",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol1979",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA042RN_0043@0.42446573,0.67510373,0.11238025,0.04647303"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:42r.3.26"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAil.hmt:3.46",
+    "comment": "τὸ προπαροιθ  ὁμίλου ἠτοι τοῖς ἐπάνω προσδοτέον",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol1951",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA042RN_0043@0.14369934,0.63056708,0.15585851,0.01410788"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:42r.3.22"
+    ]
+  },
+  {
     "urn": "urn:cts:greekLit:tlg5026.msA.hmt:3.5",
     "lemma": "‡ αὐτὰρ ἐπεὶ",
     "dse": {
@@ -17,7 +94,10 @@
     "dse": {
       "urn": "urn:cite2:hmt:va_dse.v1:schol1797",
       "image_roi": "urn:cite2:hmt:vaimg.2017a:VA042RN_0043@0.13780398,0.13609959,0.60722181,0.04536653"
-    }
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:42r.3.1"
+    ]
   },
   {
     "urn": "urn:cts:greekLit:tlg5026.msA.hmt:3.671",
@@ -73,7 +153,10 @@
     "dse": {
       "urn": "urn:cite2:hmt:va_dse.v1:schol1802",
       "image_roi": "urn:cite2:hmt:vaimg.2017a:VA042RN_0043@0.52579219,0.61881051,0.22162859,0.06597510"
-    }
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:42r.3.20"
+    ]
   },
   {
     "urn": "urn:cts:greekLit:tlg5026.msA.hmt:3.50",

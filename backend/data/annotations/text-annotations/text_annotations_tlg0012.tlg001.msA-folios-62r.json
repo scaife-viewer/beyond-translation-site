@@ -1,5 +1,38 @@
 [
   {
+    "urn": "urn:cts:greekLit:tlg5026.msAint.hmt:4.782",
+    "comment": "οτ  διέσταλκε τὸ οὔτασαι καὶ τὸ βαλεῖν ⁑",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol2193",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA062RN_0063@0.12988209,0.28769018,0.04918939,0.02738589"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:62r.4.540"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAint.hmt:5.6000",
+    "comment": "τότε ὅτε πολλοὶ ὄλοντο ⁑",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol2466",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA062RN_0063@0.08142962,0.53139696,0.02100221,0.04536653"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:62r.5.1"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAint.hmt:5.6001",
+    "comment": "ὅτι τὸν Κῦνα λε  αστέρα ὁ δὲ τὲ περισσος·",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol2467",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA062RN_0063@0.11422255,0.62876902,0.06263817,0.02213001"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:62r.5.5"
+    ]
+  },
+  {
     "urn": "urn:cts:greekLit:tlg5026.msA.hmt:4.780",
     "lemma": "‡ ἔνθά κεν οὐκέτι ἔργον·",
     "dse": {
@@ -19,7 +52,6 @@
       "image_roi": "urn:cite2:hmt:vaimg.2017a:VA062RN_0063@0.16912307,0.19073306,0.64664702,0.04813278"
     },
     "references": [
-      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:62r.4.541",
       "urn:cts:greekLit:tlg0012.tlg001.msA-folios:62r.4.542"
     ],
     "comment": "διασταλτέον μέσον , καὶ ἑλοῦσα ἤρτηται γὰρ ὁ λόγος ἐκ τῶν προκειμένων . ἵν' ᾖ ἡ διάνοια τότε ἄν τις πάντα τὰ τῆς μάχης ἔργα κατεπλάγη παρατυχὼν εἴ γε τις ἄτρωτος διὰ μέσων ἐδύνατο πορευθῆναι ἦγε δὲ αὐτον ἡ Αθ  ἁπτομένη τῆς χειρος τὰ φερόμενα ἀπέτρεπε βέλη ⁑"

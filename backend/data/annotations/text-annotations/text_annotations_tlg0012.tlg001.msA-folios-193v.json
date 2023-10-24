@@ -1,5 +1,47 @@
 [
   {
+    "urn": "urn:cts:greekLit:tlg5026.msAint.hmt:15.15",
+    "comment": "καὶ Ἀριστοφάνης προηθέτει ⁑",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol5506",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA193VN_0695@0.892,0.6326,0.041,0.0466"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:193v.15.148"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAim.hmt:15.19",
+    "comment": "ἐν ἄλλῳ πημ  φυτεῦσαι ⁚",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol5601",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA193VN_0695@0.443,0.3824,0.054,0.0308"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:193v.15.134"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAim.hmt:15.20",
+    "comment": " καὶ Ἀριστοφ  τοῦ δε",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol5602",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA193VN_0695@0.439,0.4643,0.06,0.0316"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:193v.15.139"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAil.hmt:15.15",
+    "comment": "εκ",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol5562",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA193VN_0695@0.721,0.2329,0.016,0.0135"
+    },
+    "references": []
+  },
+  {
     "urn": "urn:cts:greekLit:tlg5026.msA.hmt:15.38",
     "lemma": "‡ χάλκεον ἡ δ' ἐπέεσσι",
     "dse": {
@@ -91,7 +133,6 @@
       "image_roi": "urn:cite2:hmt:vaimg.2017a:VA193VN_0695@0.207,0.6424,0.236,0.0917"
     },
     "references": [
-      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:193v.15.147",
       "urn:cts:greekLit:tlg0012.tlg001.msA-folios:193v.15.148"
     ],
     "comment": "ἀθετοῦνται ἀμφοτεροὶ  ὅτι ἀνηθοποίητοί εισὶ . καὶ γὰρ εἰ μὴ ἐνετείλατο ἡ Ἥρα , ὤφειλον ὑπακούειν τῷ Διῒ καὶ λόγον ἂν εἶχεν ἡ ἐντολὴ  εἰ κεχαρισμένον τί αὐτῇ ἐπετέλλουν καὶ μὴ ἐναντίον· ὥστε ἔδει μᾶλλον παρακαλεῖν εἰς τὸ παριδεῖν τί τῶν ὑπο Διὸς προστασσομένων ⁑"

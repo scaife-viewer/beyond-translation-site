@@ -1,5 +1,56 @@
 [
   {
+    "urn": "urn:cts:greekLit:tlg5026.msAext.hmt:18.4",
+    "comment": "τα β β δασειαν ειχον εις το η",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol6148",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA246RN_0417@0.854,0.6777,0.059,0.0346"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:246r.18.377"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAim.hmt:18.39",
+    "comment": "προς το κάτω τὸ κακὰ ἡ ἀπδοσις  ⁑",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol6291",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA246RN_0417@0.613,0.3869,0.075,0.0428"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:246r.18.367"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAim.hmt:18.40",
+    "comment": "ἐν ἄλλω δύσονται ἀγῶνα ⁑",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol6292",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA246RN_0417@0.555,0.6484,0.044,0.0285"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:246r.18.376"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAil.hmt:18.17",
+    "comment": "τροχοὺς",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol6231",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA246RN_0417@0.363,0.6258,0.047,0.012"
+    },
+    "references": []
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAil.hmt:18.18",
+    "comment": "τῷ ὑποκάτω μέρει τῆς βάσεως ⁑",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol6232",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA246RN_0417@0.494,0.6236,0.116,0.0165"
+    },
+    "references": []
+  },
+  {
     "urn": "urn:cts:greekLit:tlg5026.msA.hmt:18.121",
     "lemma": "Ζεὺς δ' Ἥρην ⁚",
     "dse": {

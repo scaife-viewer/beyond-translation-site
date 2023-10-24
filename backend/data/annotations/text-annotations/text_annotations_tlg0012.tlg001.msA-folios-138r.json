@@ -1,5 +1,94 @@
 [
   {
+    "urn": "urn:cts:greekLit:tlg5026.msAext.hmt:11.1",
+    "comment": "ἐπιστεφέες .",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol4186",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA138RN_0310@0.8156,0.4895,0.0621,0.0195"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:138r.11.40"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAint.hmt:11.3",
+    "comment": "ουτ  Ϊακῶς τὸ στήριξε·",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol4198",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA138RN_0310@0.1052,0.2602,0.0711,0.0218"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:138r.11.28"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAint.hmt:11.4",
+    "comment": "πολεμικὴ ἣν εὐκίνητον καὶ κοῦφιν τῷ φοροῦντι : ⁑",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol4199",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA138RN_0310@0.0902,0.3286,0.0691,0.0556"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:138r.11.32"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAim.hmt:11.3",
+    "comment": "Ζηνοτ  ἐριδεσσιν",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol4504",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA138RN_0310@0.5661,0.2406,0.0301,0.0195"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:138r.11.27"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAil.hmt:11.13",
+    "comment": "ταῖς ἐν τῷ ουνω",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol4236",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA138RN_0310@0.348,0.2341,0.071,0.0143"
+    },
+    "references": []
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAil.hmt:11.14",
+    "comment": "σ",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol4237",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA138RN_0310@0.357,0.2446,0.01,0.0045"
+    },
+    "references": []
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAil.hmt:11.15",
+    "comment": "τοῖς ἀπαιωροῦσιν τὸ ξίφος ἱμᾶσι·",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol4238",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA138RN_0310@0.391,0.3136,0.124,0.0113"
+    },
+    "references": []
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAil.hmt:11.18",
+    "comment": "ουτ  Αριστ  γράφεται δὲ καὶ ἐπ αυτῶ :",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol4239",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA138RN_0310@0.462,0.4486,0.115,0.0113"
+    },
+    "references": []
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAil.hmt:11.19",
+    "comment": "ἀπ αυτων",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol4240",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA138RN_0310@0.436,0.5641,0.055,0.009"
+    },
+    "references": []
+  },
+  {
     "urn": "urn:cts:greekLit:tlg5026.msA.hmt:11.11",
     "lemma": "‡ κυάνεοι δε δράκοντες :",
     "dse": {

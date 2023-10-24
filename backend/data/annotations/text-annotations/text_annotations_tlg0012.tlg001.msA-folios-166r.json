@@ -1,5 +1,73 @@
 [
   {
+    "urn": "urn:cts:greekLit:tlg5026.msAext.hmt:13.166r1",
+    "comment": "παρδ",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol8407",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA166RN_0337@0.8543,0.2580,0.05435,0.01743"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:166r.13.103"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAint.hmt:13.166r1",
+    "comment": "οὔτως Ἀρισταρχος ἀλλοι δε πορδαλίων ⁑",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol8404",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA166RN_0337@0.1162,0.2477,0.08567,0.02199"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:166r.13.103"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAint.hmt:13.166r2",
+    "comment": "Ζηνόδοτος καὶ Ἀριστοφάνης νῦν δὲ ἑκὰς πόλιος",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol8405",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA166RN_0337@0.1225,0.3230,0.07480,0.02213"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:166r.13.107"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAint.hmt:13.166r3",
+    "comment": "ἔν τισι τῶν ὑπομνημάτῶν διὰ τοῦ τε , ἀκεσταί τε ⁑",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol8406",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA166RN_0337@0.1100,0.4693,0.05803,0.04523"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:166r.13.115"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAim.hmt:13.166r1",
+    "lemma": "νηῶν",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol8402",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA166RN_0337@0.5711,0.3856,0.04329,0.03970"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:166r.13.110"
+    ],
+    "comment": "ὅτι ἐλλειπ  ἡ περί περι νηῶν"
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAim.hmt:13.166r2",
+    "lemma": "μαχησαίμην",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol8403",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA166RN_0337@0.5591,0.5495,0.08088,0.01203"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:166r.13.118"
+    ],
+    "comment": "ἀντι τοῦ ἐγκαλέσαιμι"
+  },
+  {
     "urn": "urn:cts:greekLit:tlg5026.msA.hmt:13.166r1",
     "lemma": "φυζακινῆς ἐλάφοισιν~",
     "dse": {

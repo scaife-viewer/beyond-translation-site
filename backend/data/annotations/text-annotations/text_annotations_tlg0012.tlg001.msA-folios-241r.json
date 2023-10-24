@@ -1,5 +1,71 @@
 [
   {
+    "urn": "urn:cts:greekLit:tlg5026.msAint.hmt:18.9",
+    "comment": "τοῦτον κατ ιδίαν",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol6165",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA241RN_0412@0.14,0.2186,0.063,0.0195"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:241r.18.102"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAint.hmt:18.10",
+    "comment": "ἐχθρὸς γὰρ τῆς ἀργίας ὁ ἥρως φιλότιμος δὲ περι τὰς πράξεις ⁑",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol6166",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA241RN_0412@0.135,0.2562,0.073,0.0518"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:241r.18.104"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAint.hmt:18.11",
+    "comment": "οτ  αντ  τοῦ ἵνα γνῶσι ⁑",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol6167",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA241RN_0412@0.135,0.6544,0.064,0.0346"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:241r.18.125"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAim.hmt:18.14",
+    "comment": "οτ  ἀντι ὑφ' Έκτορος δίου ⁑",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol6266",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA241RN_0412@0.607,0.2427,0.089,0.0248"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:241r.18.103"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAim.hmt:18.15",
+    "comment": "οτ  οὐκ οῖδεν ἀθανατον τὸν Ἡρακλέᾳ · ⁑",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol6267",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA241RN_0412@0.55,0.5049,0.076,0.0293"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:241r.18.117"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAim.hmt:18.16",
+    "comment": "ουτ  Αριστ  αλλοι δὲ αδινᾷ ⁑",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol6268",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA241RN_0412@0.596,0.6304,0.036,0.0368"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:241r.18.124"
+    ]
+  },
+  {
     "urn": "urn:cts:greekLit:tlg5026.msA.hmt:18.42",
     "lemma": "νῦν δ' ἐπεὶ οὐ νέομαί γε",
     "dse": {
@@ -7,19 +73,6 @@
       "image_roi": "urn:cite2:hmt:vaimg.2017a:VA241RN_0412@0.2,0.0999,0.643,0.0706"
     },
     "references": [
-      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:241r.18.101",
-      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:241r.18.102",
-      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:241r.18.103",
-      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:241r.18.104",
-      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:241r.18.105",
-      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:241r.18.106",
-      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:241r.18.107",
-      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:241r.18.108",
-      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:241r.18.109",
-      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:241r.18.110",
-      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:241r.18.111",
-      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:241r.18.112",
-      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:241r.18.113",
       "urn:cts:greekLit:tlg0012.tlg001.msA-folios:241r.18.114"
     ],
     "comment": "φησὶ τὸ εξῆς· νῦν δ' ἐπεὶ οὐ νεομαί γε νῦν δ' εἰμ' ὄφρα φίλης κεφαλῆς · αἱ ὑποστιγμαὶ δὲ μέχρι τοῦ αμείνονές εἰσὶ καὶ ἄλλοι ἀποτελοῦνται τοῦ ἐπεὶ συνδέσμου τὸν λογον ἀρτῶντος ἵν' ᾗ ἀνταπόδοσις . ἣ ὡς ἐρις ἔκ τε θέων  ὁ δὲ λόγος ηθικός . νῦν δ' ἐπεὶ μήτε εἰς τὴν πατρίδα ὑποστρέψαι εἱμαρμένον ἐστὶ μήτε ἐξεδίκησα τοὺς ἀναιρεθέντας , τὸ φιλονικεῖν ἔκ τε θν  καὶ ανων  καὶ ανων  ἀπόλοιτο ἣ τὸ ἑξῆς τοῦ λόγου . νῦν δ' ἐπεὶ οὐ νέομαι . νῦν δ' εῖμ' ὄφρα φίλης κεφαλῆς καὶ γὰρ ἐπανείληψε τὸ χρονικὸν ἐπίρρημα ὡσπερ εἰς ὑπόμνησιν τῆς ἀρχῆς ἦν παραλιπὼν παρεξέβη ⁑"
@@ -32,7 +85,6 @@
       "image_roi": "urn:cite2:hmt:vaimg.2017a:VA241RN_0412@0.199,0.1548,0.643,0.0195"
     },
     "references": [
-      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:241r.18.105",
       "urn:cts:greekLit:tlg0012.tlg001.msA-folios:241r.18.106"
     ],
     "comment": "ἀλαζῶν  φησι καὶ φορτικός . ῥητέον δὲ ὅτι ἔθος ἦν πᾶσιν ἑαυτοὺς ἐπαινεῖν ⁑"
@@ -45,7 +97,6 @@
       "image_roi": "urn:cite2:hmt:vaimg.2017a:VA241RN_0412@0.203,0.157,0.643,0.0616"
     },
     "references": [
-      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:241r.18.107",
       "urn:cts:greekLit:tlg0012.tlg001.msA-folios:241r.18.108"
     ],
     "comment": "Ἡράκλειτος τὴν τῶν ὄντων φύσιν κατ έριν συνεστᾶναι νομίζων μέμφεται Ὅμρον  σύγχυσιν κόσμου δοκῶν αὐτὸν εὔχεσθαι πρὸς ὃν ἄν τις εἴποι . ὅτι οὐ λέγει νῦν τὴν ἐναντίωσιν ἔρϊν , ἀλλα τὴν ἔχθραν ὅθεν ἐπιφέρει καὶ χόλος οὐ γὰρ ἡ τῶν πραγμάτων ἐναντίωσις τοὺς φρονίμους ἐξίστησι τῶν λογισμῶν ⁑"
@@ -116,7 +167,10 @@
     "dse": {
       "urn": "urn:cite2:hmt:va_dse.v1:schol6377",
       "image_roi": "urn:cite2:hmt:vaimg.2017a:VA241RN_0412@0.19,0.7153,0.626,0.0346"
-    }
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:241r.18.117"
+    ]
   },
   {
     "urn": "urn:cts:greekLit:tlg5026.msA.hmt:18.51",

@@ -1,5 +1,60 @@
 [
   {
+    "urn": "urn:cts:greekLit:tlg5026.msAint.hmt:23.417",
+    "comment": "οτ θηλυ τὴν Ἴλιον",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol7030",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA294RN_0464@0.125,0.2583,0.064,0.0233"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:294r.23.64"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAint.hmt:23.418",
+    "comment": "γράφεται οὐ γαρ έτι",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol7031",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA294RN_0464@0.121,0.5023,0.07,0.03"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:294r.23.77"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAim.hmt:23.414",
+    "comment": "οτ σαφῶσ ἀπο τοῦ ν ἄρχετ τὰ ὄνομα",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol7065",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA294RN_0464@0.635,0.2282,0.078,0.0263"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:294r.23.63"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAim.hmt:23.415",
+    "comment": "γράφεται ετράφημεν",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol7066",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA294RN_0464@0.569,0.6389,0.061,0.0263"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:294r.23.84"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAil.hmt:23.416",
+    "comment": "περιέβαλε περιεχύθη",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol7043",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA294RN_0464@0.41,0.5435,0.11,0.0135"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:294r.23.79"
+    ]
+  },
+  {
     "urn": "urn:cts:greekLit:tlg5026.msA.hmt:23.400",
     "lemma": "ἦλθε δ' ἐπι ψυχῆ",
     "dse": {

@@ -1,5 +1,69 @@
 [
   {
+    "urn": "urn:cts:greekLit:tlg5026.msAint.hmt:19.2015office5_1",
+    "comment": "ὅτι νῦν ἀντὶ τοῦ θυμοῦσθαι",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol6554",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA252VN_0754@0.89,0.5409,0.041,0.0586"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:252v.19.68"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAim.hmt:19.2015office5_1",
+    "comment": "ὅτι αντιπεφρακε τῆ μήνιδι τὸν χολον",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol6583",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA252VN_0754@0.436,0.5379,0.055,0.0458"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:252v.19.67"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAim.hmt:19.2015office5_2",
+    "comment": "ουτως αρισταρχ  δια τοῦ ν αντίον",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol6584",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA252VN_0754@0.427,0.592,0.067,0.0376"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:252v.19.70"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAim.hmt:19.2015office5_3",
+    "comment": "γρ  δηΐου ἐκ πολέμοιο",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol6585",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA252VN_0754@0.427,0.6499,0.067,0.0376"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:252v.19.73"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAim.hmt:19.2015office5_4",
+    "comment": "Αρισταρχ  ἔξω τοῦ ο ἀπειπόντος καὶ αἱ πλείους",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol6586",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA252VN_0754@0.428,0.6844,0.15,0.0458"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:252v.19.75"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAil.hmt:19.2015office5_1",
+    "comment": "διαπαυσεσθαι",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol6574",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA252VN_0754@0.665,0.6191,0.072,0.0195"
+    },
+    "references": []
+  },
+  {
     "urn": "urn:cts:greekLit:tlg5026.msA.hmt:19.2015office5_1",
     "lemma": "αὐτὰρ ὃ δεύτατος .",
     "dse": {

@@ -1,5 +1,99 @@
 [
   {
+    "urn": "urn:cts:greekLit:tlg5026.msAint.hmt:11.1",
+    "comment": "Λαομέδοντος παῖς . Πριάμου ἀδελφος Ἡμέρας σύνευνος : ⁑",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol4197",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA137VN_0639@0.7124,0.2338,0.1643,0.0376"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:137v.11.1"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAim.hmt:11.1",
+    "comment": "ὀρθίως μεγάλως ⁑",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol4503",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA137VN_0639@0.4208,0.4361,0.0381,0.0346"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:137v.11.11"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAil.hmt:11.1",
+    "comment": "ἀπέστελλεν",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol4228",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA137VN_0639@0.595,0.2821,0.061,0.0098"
+    },
+    "references": []
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAil.hmt:11.4",
+    "comment": "βοᾶν",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol4229",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA137VN_0639@0.668,0.3398,0.027,0.0105"
+    },
+    "references": []
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAil.hmt:11.5",
+    "comment": "α",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol4230",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA137VN_0639@0.487,0.4344,0.022,0.0113"
+    },
+    "references": []
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAil.hmt:11.6",
+    "comment": "ο",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol4231",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA137VN_0639@0.767,0.4741,0.019,0.009"
+    },
+    "references": []
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAil.hmt:11.7",
+    "comment": "καθοπλίζεσθαι :",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol4232",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA137VN_0639@0.696,0.5086,0.062,0.0113"
+    },
+    "references": []
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAil.hmt:11.9",
+    "comment": "ηκούετο",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol4233",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA137VN_0639@0.51,0.6219,0.041,0.0098"
+    },
+    "references": []
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAil.hmt:11.10",
+    "comment": "μεταληπτικῶς ἀντ  τοῦ ῥάβδοι",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol4234",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA137VN_0639@0.556,0.6752,0.09,0.0165"
+    },
+    "references": []
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAil.hmt:11.11",
+    "comment": "μέλανος καταπληκτικοῦ ⁑",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol4235",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA137VN_0639@0.795,0.6744,0.116,0.0165"
+    },
+    "references": []
+  },
+  {
     "urn": "urn:cts:greekLit:tlg5026.msA.hmt:11.1",
     "lemma": "‡ Ἠὼς δ' ἐκ λεχέων :",
     "dse": {

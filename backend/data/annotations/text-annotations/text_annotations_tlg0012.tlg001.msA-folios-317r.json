@@ -1,5 +1,98 @@
 [
   {
+    "urn": "urn:cts:greekLit:tlg5026.msAext.hmt:24.6",
+    "comment": "πολίος",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol7202",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA317RN_0487@0.832,0.6426,0.066,0.0443"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:317r.24.329"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAim.hmt:24.14",
+    "comment": "λειπ  ἡ παρᾶ",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol7285",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA317RN_0487@0.603,0.1937,0.061,0.0293"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:317r.24.305"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAim.hmt:24.15",
+    "comment": "ἐν αλλῳ ἐὸν ἄγγελο",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol7286",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA317RN_0487@0.597,0.2853,0.102,0.027"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:317r.24.310"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAim.hmt:24.16",
+    "comment": "γράφεται μέγιστον ⁑",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol7287",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA317RN_0487@0.595,0.3131,0.08,0.024"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:317r.24.311"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAim.hmt:24.17",
+    "comment": "γράφεται δι αστεος",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol7288",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA317RN_0487@0.557,0.4775,0.056,0.0203"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:317r.24.320"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAim.hmt:24.18",
+    "comment": "γράφεται ὁ γερων ξερτοῦ ἐπεβίσετο ⁑",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol7289",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA317RN_0487@0.586,0.5075,0.031,0.0631"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:317r.24.322"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAil.hmt:24.12",
+    "comment": "μέλαν",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol7249",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA317RN_0487@0.444,0.4024,0.046,0.0128"
+    },
+    "references": []
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAil.hmt:24.13",
+    "comment": "εύκλειστος",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol7250",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA317RN_0487@0.368,0.4362,0.055,0.012"
+    },
+    "references": []
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAil.hmt:24.14",
+    "comment": "τηλικαῦτα",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol7251",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA317RN_0487@0.18,0.455,0.056,0.0135"
+    },
+    "references": []
+  },
+  {
     "urn": "urn:cts:greekLit:tlg5026.msA.hmt:24.43",
     "lemma": "εὔχετ' ἔπειτα στὰς·",
     "dse": {
@@ -63,7 +156,10 @@
     "dse": {
       "urn": "urn:cite2:hmt:va_dse.v1:schol7416",
       "image_roi": "urn:cite2:hmt:vaimg.2017a:VA317RN_0487@0.162,0.768,0.655,0.0556"
-    }
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:317r.24.318"
+    ]
   },
   {
     "urn": "urn:cts:greekLit:tlg5026.msA.hmt:24.49",

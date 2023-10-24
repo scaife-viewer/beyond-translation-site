@@ -1,5 +1,50 @@
 [
   {
+    "urn": "urn:cts:greekLit:tlg5026.msAext.hmt:16.209r1",
+    "comment": "ΐασιν",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol7735",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA209RN_0380@0.8581,0.3939,0.02340,0.01010"
+    },
+    "references": []
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAint.hmt:16.209r1",
+    "comment": "Ζηνόδοτος πάντη ἀνα κλησιας",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol7752",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA209RN_0380@0.1291,0.3162,0.05324,0.01840"
+    },
+    "references": []
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAint.hmt:16.209r2",
+    "comment": "βραχ διασταλτ ἐπι τὸ ϊᾶσι πρὸς τὸ σαφεστερον",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol7753",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA209RN_0380@0.1255,0.3877,0.06227,0.03264"
+    },
+    "references": []
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAint.hmt:16.209r3",
+    "comment": "ὡραίων πιθηκ",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol7754",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA209RN_0380@0.1164,0.6166,0.06209,0.01535"
+    },
+    "references": []
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAint.hmt:16.209r4",
+    "comment": "χω του τ ὃν τεκε Ἀρισταρχος ουτ καὶ Αριστοφανης",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol7755",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA209RN_0380@0.1172,0.6701,0.06338,0.03873"
+    },
+    "references": []
+  },
+  {
     "urn": "urn:cts:greekLit:tlg5026.msA.hmt:16.209r1",
     "lemma": "λαμψοντες γλώσσησιν",
     "dse": {

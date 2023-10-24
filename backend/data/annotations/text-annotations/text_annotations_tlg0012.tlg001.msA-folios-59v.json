@@ -1,5 +1,60 @@
 [
   {
+    "urn": "urn:cts:greekLit:tlg5026.msAext.hmt:4.870",
+    "comment": "νεμεσῶ . δοτ",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol2262",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA059VN_0561@0.10980103,0.28049793,0.06448047,0.01715076"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:59v.4.413"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAint.hmt:4.636",
+    "comment": "οτ  θηλυκως τὴν Ἴλιον :",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol2185",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA059VN_0561@0.83935151,0.34149378,0.03758290,0.01535270"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:59v.4.416"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAim.hmt:4.867",
+    "comment": "δασυντέον τὸ ἧσο ⁑",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol2231",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA059VN_0561@0.39185704,0.26929461,0.06245394,0.02171508"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:59v.4.412"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAim.hmt:4.868",
+    "comment": "Ἀρισταρχ  δια τοῦ ϊ ϊόν :",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol2232",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA059VN_0561@0.43920413,0.53457815,0.03960943,0.01950207"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:59v.4.426"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAil.hmt:4.869",
+    "comment": "πολυκτήμονος :",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol2255",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA059VN_0561@0.66728077,0.64951591,0.06521739,0.00705394"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:59v.4.433"
+    ]
+  },
+  {
     "urn": "urn:cts:greekLit:tlg5026.msA.hmt:4.639",
     "lemma": "ὀρνυμένου ,",
     "dse": {

@@ -1,5 +1,100 @@
 [
   {
+    "urn": "urn:cts:greekLit:tlg5026.msAext.hmt:18.3",
+    "comment": "τὸ δ' ἔδαιε",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol6147",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA243RN_0414@0.846,0.6551,0.059,0.0263"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:243r.18.227"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAint.hmt:18.18",
+    "comment": "αντ  ὑπο στυγεροῦ",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol6174",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA243RN_0414@0.134,0.3118,0.067,0.0225"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:243r.18.209"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAint.hmt:18.19",
+    "comment": "Ζηνοδ  ἀστυ ποτὲ σφέτερον ⁑",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol6175",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA243RN_0414@0.134,0.3321,0.068,0.0473"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:243r.18.210"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAint.hmt:18.20",
+    "comment": "χαλκεν αντ  τοῦ χαλκῆν ⁑",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol6176",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA243RN_0414@0.124,0.5665,0.061,0.0398"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:243r.18.222"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAint.hmt:18.21",
+    "comment": "εἰς τοὐπίσω τὰ ἅρματα ἔτρεπον ⁑",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol6177",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA243RN_0414@0.128,0.6018,0.063,0.0579"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:243r.18.224"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAim.hmt:18.24",
+    "comment": "Αρισταρχ  Άρεω ⁚",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol6276",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA243RN_0414@0.589,0.3817,0.049,0.0218"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:243r.18.213"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAim.hmt:18.25",
+    "comment": "τὸ ἑξῆς· ὑπο θυμοραϊστέον δηΐων ἄστυ περιπλομένων ⁑",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol6277",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA243RN_0414@0.577,0.5252,0.069,0.0428"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:243r.18.220"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAil.hmt:18.7",
+    "comment": "άπωθεν τοῦ τείχους",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol6221",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA243RN_0414@0.437,0.4207,0.073,0.018"
+    },
+    "references": []
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAil.hmt:18.8",
+    "comment": "επεστρέφετ",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol6222",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA243RN_0414@0.476,0.4418,0.067,0.018"
+    },
+    "references": []
+  },
+  {
     "urn": "urn:cts:greekLit:tlg5026.msA.hmt:18.71",
     "lemma": "‡ ὤμοις ἰφθίμοισι .",
     "dse": {
@@ -113,7 +208,10 @@
     "dse": {
       "urn": "urn:cite2:hmt:va_dse.v1:schol6407",
       "image_roi": "urn:cite2:hmt:vaimg.2017a:VA243RN_0414@0.635,0.5229,0.196,0.0796"
-    }
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:243r.18.219"
+    ]
   },
   {
     "urn": "urn:cts:greekLit:tlg5026.msA.hmt:18.81",

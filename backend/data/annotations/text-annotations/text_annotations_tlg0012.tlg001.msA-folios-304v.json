@@ -1,5 +1,49 @@
 [
   {
+    "urn": "urn:cts:greekLit:tlg5026.msAint.hmt:23.2508",
+    "comment": "οἱ περι Αντιμαχου νόημα γράφουσι",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol7039",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA304VN_0806@0.86,0.6258,0.067,0.0383"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:304v.23.604"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAim.hmt:23.2505",
+    "comment": "ἐν ἀλλῷ ΐσχεο",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol7099",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA304VN_0806@0.424,0.3035,0.052,0.0421"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:304v.23.587"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAim.hmt:23.2506",
+    "comment": "αντὶ τοῦ φρίσσοντας ἔχουσι τοὺς στάχυας",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol7100",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA304VN_0806@0.422,0.5379,0.058,0.0496"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:304v.23.599"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAim.hmt:23.2507",
+    "comment": "γράφεται υστερον",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol7101",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA304VN_0806@0.415,0.6499,0.061,0.0308"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:304v.23.605"
+    ]
+  },
+  {
     "urn": "urn:cts:greekLit:tlg5026.msA.hmt:23.2501",
     "lemma": "δωσω τὴν αρόμην~",
     "dse": {

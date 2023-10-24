@@ -1,5 +1,47 @@
 [
   {
+    "urn": "urn:cts:greekLit:tlg5026.msAint.hmt:22.27",
+    "comment": "ἐν αλλω τερπικεραυνος ⁑",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol6789",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA290RN_0460@0.1258,0.5188,0.06356,0.03873"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:290r.22.403"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAim.hmt:22.36",
+    "comment": "οτ  ζωὸς ἐν Αργείοισι φιλοπτολέμοισι μετείω ⁑",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol6880",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA290RN_0460@0.5870,0.2402,0.07553,0.04703"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:290r.22.388"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAim.hmt:22.37",
+    "comment": "ἔν τισι πιμπλανται ⁑",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol6881",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA290RN_0460@0.5859,0.5015,0.03224,0.03734"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:290r.22.402"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAil.hmt:22.41",
+    "comment": "αντ  τοῦ βουλήμενοι",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol6838",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA290RN_0460@0.4738,0.4599,0.07830,0.01480"
+    },
+    "references": []
+  },
+  {
     "urn": "urn:cts:greekLit:tlg5026.msA.hmt:22.92",
     "lemma": "ἐκ δίφροιο δ' ἔδησε ,",
     "dse": {

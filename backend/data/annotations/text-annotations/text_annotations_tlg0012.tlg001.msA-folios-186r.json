@@ -1,5 +1,89 @@
 [
   {
+    "urn": "urn:cts:greekLit:tlg5026.msAext.hmt:14.H1",
+    "comment": "οἵ μ' εν σφοῖσι",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol5447",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA186RN_0357@0.8012,0.6761,0.07903,0.02379"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:186r.14.303"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAint.hmt:14.H2",
+    "comment": "γράφεται καὶ οῖος",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol5386",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA186RN_0357@0.1100,0.5264,0.03703,0.01466"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:186r.14.295"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAint.hmt:14.H3",
+    "comment": "Ζηνόδ  καὶ Ἀριστοφ  ἔξω τοῦ κέ συνδ  τῶν ἐπιβαίης :",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol5387",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA186RN_0357@0.09230,0.5959,0.07240,0.04302"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:186r.14.299"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAint.hmt:14.H4",
+    "comment": "γράφεται οἵ μ' ἐν σφοῖσι ,",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol5388",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA186RN_0357@0.1115,0.6763,0.05932,0.02254"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:186r.14.303"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAim.hmt:14.H3",
+    "comment": "Αρισταρχ  ὑπο εῖτα σείετο ϊακῶς ουτ  καὶ Ζηνοδοτ  καὶ Ἀρίστοφανης :",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol5326",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA186RN_0357@0.5472,0.3277,0.1067,0.03845"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:186r.14.285"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAim.hmt:14.H4",
+    "comment": "ουτ  Ἀρίσταρχ  ἄλλοι δὲ πρώτιστον :",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol5327",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA186RN_0357@0.5501,0.5189,0.07977,0.02808"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:186r.14.295"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAil.hmt:14.H3",
+    "comment": "κατέλιπον",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol5423",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA186RN_0357@0.3710,0.3017,0.05453,0.01660"
+    },
+    "references": []
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAil.hmt:14.H4",
+    "comment": "ϊμνε",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol5424",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA186RN_0357@0.3408,0.3444,0.02708,0.01259"
+    },
+    "references": []
+  },
+  {
     "urn": "urn:cts:greekLit:tlg5026.msA.hmt:14.H11",
     "lemma": "τοὺς ὑποταρταρίους οἱ Τιτῆνες καλέονται :",
     "dse": {

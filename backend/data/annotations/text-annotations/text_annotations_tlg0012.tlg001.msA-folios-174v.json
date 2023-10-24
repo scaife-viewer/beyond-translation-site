@@ -1,5 +1,91 @@
 [
   {
+    "urn": "urn:cts:greekLit:tlg5026.msAext.hmt:13.8",
+    "comment": "Αἰνειας",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol8520",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA174VN_0676@0.1513,0.3913,0.03906,0.02600"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:174v.13.541"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAext.hmt:13.9",
+    "comment": "Ποσειδά",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol8521",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA174VN_0676@0.1538,0.6390,0.05564,0.02379"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:174v.13.551"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAint.hmt:13.15",
+    "comment": "ἐκάμφθη ἢ επι κολουθησε",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol8518",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA174VN_0676@0.8683,0.4172,0.06743,0.02462"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:174v.13.542"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAint.hmt:13.16",
+    "comment": "οτ  αν  πολιν",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol8519",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA174VN_0676@0.9151,0.4775,0.03721,0.01867"
+    },
+    "references": []
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAim.hmt:13.32",
+    "comment": "ουτ  Ἀρισταρχ  χως  τοῦ ϊ ένιοι δὲ Αἰνείας δ' Ἀφαρεῖα ⁑",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol8514",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA174VN_0676@0.4479,0.3712,0.06043,0.06169"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:174v.13.540"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAim.hmt:13.33",
+    "comment": "Ζηνοδ  δια δε φλέβα ⁑",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol8515",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA174VN_0676@0.4482,0.4864,0.05048,0.03181"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:174v.13.546"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAim.hmt:13.34",
+    "comment": "Ζηνοτ  καὶ Αριστοφα  δια τοῦ α παρασταδόν ⁑",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol8516",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA174VN_0676@0.4563,0.5752,0.05564,0.04827"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:174v.13.551"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAim.hmt:13.35",
+    "comment": "ὅτι πτῶσις ἤλλακται δοτικος αντι γενικης οὐδε αὐτοῦ τὸ έγχος ⁑",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol8517",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA174VN_0676@0.4539,0.6860,0.1433,0.04302"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:174v.13.557"
+    ]
+  },
+  {
     "urn": "urn:cts:greekLit:tlg5026.msA.hmt:13.65",
     "lemma": "‡ ἐπι οἷ τετραμμένον",
     "dse": {
@@ -41,7 +127,10 @@
     "dse": {
       "urn": "urn:cite2:hmt:va_dse.v1:schol8309",
       "image_roi": "urn:cite2:hmt:vaimg.2017a:VA174VN_0676@0.2461,0.8172,0.08364,0.05989"
-    }
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:174v.13.66"
+    ]
   },
   {
     "urn": "urn:cts:greekLit:tlg5026.msA.hmt:13.69",
@@ -49,6 +138,9 @@
     "dse": {
       "urn": "urn:cite2:hmt:va_dse.v1:schol8310",
       "image_roi": "urn:cite2:hmt:vaimg.2017a:VA174VN_0676@0.3766,0.8130,0.09285,0.04454"
-    }
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:174v.13.66"
+    ]
   }
 ]

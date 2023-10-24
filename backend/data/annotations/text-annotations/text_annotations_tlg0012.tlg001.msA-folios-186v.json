@@ -1,5 +1,69 @@
 [
   {
+    "urn": "urn:cts:greekLit:tlg5026.msAext.hmt:14.H2",
+    "comment": "πολυπίδακος",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol5448",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA186VN_0688@0.16488578,0.28630705,0.06190125,0.01867220"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:186v.14.307"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAint.hmt:14.H5",
+    "comment": "οτ  ἔχει τι Ὁμηρικὸν πρὸς γὰρ τὸ δεύτερον πρότερον ἀπήντηκεν ⁑",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol5389",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA186VN_0688@0.90475313,0.61051176,0.03868828,0.06874136"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:186v.14.324"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAim.hmt:14.H5",
+    "comment": "ἡθετοῦντο παρα Ζηνοδότω",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol5328",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA186VN_0688@0.45652174,0.29515906,0.04863670,0.02710927"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:186v.14.307"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAim.hmt:14.H6",
+    "comment": "Ζηνοδ  καὶ Ἀριστοφ  μετόπισθε ⁑",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol5329",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA186VN_0688@0.45670597,0.34937759,0.04661017,0.04011065"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:186v.14.310"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAim.hmt:14.H7",
+    "comment": "Ἀρίσταρχ  Μίνων συν τῷ ν Ζηνοδ  χωρὶς τοῦ ν ‡",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol5330",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA186VN_0688@0.45136330,0.57330567,0.04955785,0.02987552"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:186v.14.322"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAil.hmt:14.Z1",
+    "comment": "ι",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol5462",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA186VN_0688@0.555,0.3056,0.013,0.0113"
+    },
+    "references": []
+  },
+  {
     "urn": "urn:cts:greekLit:tlg5026.msA.hmt:14.H19",
     "lemma": "τοὺς εἶμ' ὀψομένη :",
     "dse": {
@@ -7,8 +71,6 @@
       "image_roi": "urn:cite2:hmt:vaimg.2017a:VA186VN_0688@0.24834193,0.11230982,0.62048637,0.04536653"
     },
     "references": [
-      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:186v.14.304",
-      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:186v.14.305",
       "urn:cts:greekLit:tlg0012.tlg001.msA-folios:186v.14.306"
     ],
     "comment": "ἀθετοῦνται στίχοι γ καὶ ἀστερίσκοι παράκεινται· ὅτι πρὸς μὲν Αφροδίτην δεόντως λέγονται προς δὲ τὸν Δία οὐκ ἔτι οὐ γὰρ προσεδεῖτο προεράσεως ἔχουσα τὸν \t\t\t\t\t\t\t\tκεστὸν ἰ̈μάντα· καὶ τάχα ἂν συνεφώρμησεν αὐτῇ οὐ δεῖ οὖν παρακινδυνεύειν ⁑"

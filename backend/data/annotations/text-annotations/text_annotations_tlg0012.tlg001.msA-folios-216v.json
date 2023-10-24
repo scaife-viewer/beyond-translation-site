@@ -1,5 +1,38 @@
 [
   {
+    "urn": "urn:cts:greekLit:tlg5026.msAint.hmt:16.216v1",
+    "comment": "μεμπτὸν ἡγήσασθε",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol7775",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA216VN_0718@0.8771,0.5409,0.03574,0.01729"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:216v.16.544"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAim.hmt:16.216v1",
+    "comment": "ὅτι ελλειπει ἡ περι πρόθεσις περι Δαναῶν ⁑",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol7835",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA216VN_0718@0.4200,0.5823,0.04864,0.05131"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:216v.16.546"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAim.hmt:16.216v2",
+    "comment": "βραχὺ διασταλτέον μετα τὸ ἄσχετον , δια τὴν ἐμφασιν ⁑",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol7836",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA216VN_0718@0.4293,0.6394,0.04587,0.03596"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:216v.16.549"
+    ]
+  },
+  {
     "urn": "urn:cts:greekLit:tlg5026.msA.hmt:16.216v1",
     "lemma": "Γλαυκος δ' ἔγνω ἧσιν ἐνι φρεσὶ ,",
     "dse": {
