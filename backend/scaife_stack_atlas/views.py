@@ -3,9 +3,12 @@ import os
 
 from django.conf import settings
 from django.http import HttpResponse
+from django.utils.decorators import method_decorator
+from django.views.decorators.clickjacking import xframe_options_exempt
 from django.views.generic import View
 
 
+@method_decorator(xframe_options_exempt, name="dispatch")
 class FrontendAppView(View):
     """
     Serves the compiled frontend entry point (only works if you have run `yarn
