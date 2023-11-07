@@ -1,5 +1,27 @@
 [
   {
+    "urn": "urn:cts:greekLit:tlg5026.msAim.hmt:24.29",
+    "comment": "Αριστ  συν τῷ ν τῶν σε ⁑",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol7300",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA321VN_0823@0.444,0.5323,0.048,0.0293"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:321v.24.546"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAim.hmt:24.30",
+    "comment": "οτ  Ζηνοδ  γράφει ἑοῖο · καὶ οτ  λειπ  ἡ περῖ ⁑",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol7301",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA321VN_0823@0.437,0.6104,0.055,0.042"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:321v.24.550"
+    ]
+  },
+  {
     "urn": "urn:cts:greekLit:tlg5026.msA.hmt:24.72",
     "lemma": "‡ ὄλβῳ τε πλούτῳ τε :",
     "dse": {

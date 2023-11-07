@@ -1,5 +1,60 @@
 [
   {
+    "urn": "urn:cts:greekLit:tlg5026.msAext.hmt:16.209v1",
+    "comment": "προ φόως δὲ",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol7736",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA209VN_0711@0.1592,0.4703,0.06964,0.02006"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:209v.16.188"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAint.hmt:16.209v1",
+    "comment": "ὁτι εδνα τα ὑπο τῶν γαμούντων διδομενα ταις γαμουμεναις",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol7756",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA209VN_0711@0.8771,0.2777,0.06798,0.03555"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:209v.16.178"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAint.hmt:16.209v2",
+    "comment": "οὕτως καὶ Ἀριστοφάνης φώως δὲ Ζηνόδοτος προ φώως δὲ",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol7757",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA209VN_0711@0.8788,0.4562,0.06982,0.03665"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:209v.16.188"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAim.hmt:16.209v1",
+    "comment": "διασταλτεον βραχυ μετα τὸ ἡράσατο .",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol7803",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA209VN_0711@0.4536,0.3539,0.04808,0.03389"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:209v.16.182"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAim.hmt:16.209v2",
+    "comment": "Ἀρισταρχος προπαροξύνει~ οἱ δὲ ἄλλοι ἀναλογίαι πειθόμεναι προπερισπωσί ἐπεισθη δὲ ἡ παραδοσις",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol7804",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA209VN_0711@0.4466,0.4102,0.05066,0.08243"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:209v.16.185"
+    ]
+  },
+  {
     "urn": "urn:cts:greekLit:tlg5026.msA.hmt:16.209v1",
     "lemma": "Περιήρεος ὗϊ",
     "dse": {

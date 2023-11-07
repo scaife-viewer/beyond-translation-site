@@ -1,5 +1,25 @@
 [
   {
+    "urn": "urn:cts:greekLit:tlg5026.msAim.hmt:22.1",
+    "comment": "προς τας σκαιάς ⁑",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol6845",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA282RN_0452@0.587,0.6426,0.051,0.0188"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:282r.22.6"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAil.hmt:22.1",
+    "comment": "παρ ἐγένοντο",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol6798",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA282RN_0452@0.359,0.5998,0.055,0.0188"
+    },
+    "references": []
+  },
+  {
     "urn": "urn:cts:greekLit:tlg5026.msA.hmt:22.1",
     "lemma": "ὡς οἱ μὲν κατα άστυ πεφυζότες ὴ ΰπε νεβροι :",
     "dse": {

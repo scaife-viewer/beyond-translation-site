@@ -1,5 +1,49 @@
 [
   {
+    "urn": "urn:cts:greekLit:tlg5026.msAext.hmt:3.731",
+    "comment": "ἑταίρους",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol2021",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA047RN_0048@0.74834193,0.37192254,0.04495210,0.01770401"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:47r.3.259"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAint.hmt:3.397",
+    "comment": "προκρίνει μὲν τὴν δια τοῦ ε γραφὴν βήσετο πλὴν οὐ μετατίθησι αλλα δια τοῦ α γρ  ὁ Ἀρίσταρχος ⁑",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol1943",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA047RN_0048@0.07184967,0.42821577,0.05655859,0.05255878"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:47r.3.262"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAint.hmt:3.403",
+    "comment": "‡ Ἀρίσταρχος δια τοῦ ο καὶ ἀναλογεῖ τὸ μίσγον ⁑",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol1944",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA047RN_0048@0.07037583,0.57524205,0.05342668,0.04190871"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:47r.3.270"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAim.hmt:3.730",
+    "comment": "ὅτι ἀντι τοῦ ῎Ιδης μεδέων ⁑",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol1991",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA047RN_0048@0.50939573,0.68769018,0.03352985,0.02600277"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:47r.3.276"
+    ]
+  },
+  {
     "urn": "urn:cts:greekLit:tlg5026.msA.hmt:3.391",
     "lemma": "ναίοιμεν",
     "dse": {
@@ -19,7 +63,6 @@
       "image_roi": "urn:cite2:hmt:vaimg.2017a:VA047RN_0048@0.55176861,0.36804979,0.18570376,0.07441217"
     },
     "references": [
-      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:47r.3.261",
       "urn:cts:greekLit:tlg0012.tlg001.msA-folios:47r.3.262"
     ],
     "comment": "ὅτι δύο ἐπεδέχοντο οἱ δίφροι· δι ὃ νῦν Πρίαμος ἡνιοχεῖ παραβατοῦντος Ἀντήνορος καὶ ὅτι οἱ ἡρωες πάντες ἔμπειροι καὶ αὐτουργοὶ δι ὃ καὶ ὁ Οδ  ναυπηγεῖ καὶ κυβερνᾷ ⁑"

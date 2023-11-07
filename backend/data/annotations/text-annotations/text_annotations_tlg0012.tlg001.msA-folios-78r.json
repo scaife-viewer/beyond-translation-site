@@ -1,5 +1,93 @@
 [
   {
+    "urn": "urn:cts:greekLit:tlg5026.msAext.hmt:5.4083",
+    "comment": "τοί η",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol2494",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA078RN_0079@0.873249815770081,0.617427385892116,0.0265291083271923,0.0174273858921162"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:78r.5.808"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAext.hmt:5.4084",
+    "comment": "αλλὰσεῦ",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol2495",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA078RN_0079@0.861090641120118,0.667219917012448,0.0375829034635225,0.0171507607192255"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:78r.5.811"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAint.hmt:5.4073",
+    "comment": "εἰδος ἀγητοί τῷ είδει μόνον θαυμαστοί·",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol2461",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA078RN_0079@0.128592483419307,0.210788381742739,0.0692704495210022,0.027939142461964"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:78r.5.787"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAint.hmt:5.4075",
+    "comment": "οτι οὐ λέγει κατά τι ὅμοιον , ἀλλ' αντι τοῦ οὐδε όλως ὅμοιον ⁑",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol2462",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA078RN_0079@0.126750184229919,0.465836791147994,0.0596904937361828,0.0365145228215768"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:78r.5.800"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAint.hmt:5.4076",
+    "comment": "τοῦτον τoν στίχον . οὐχ εὑρῆσθαι καθόλου φασὶν ἐν ταῖς Ἀριστάρχου · καὶ γὰρ ἀντιπράττει , καὶ προς τὸ δαίνυσθαί μιν ἄνωγον ἐνι μεγάροισιν ἕκηλον · καὶ οὐχ οἷόν τε ἐπιφέρειν , σοὶ δ' ἤτοι μὲν ἐγὼ παρά θ' ἵ¨σταμαι , ἠδὲ φυλάσσω ·",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol2463",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA078RN_0079@0.104642593957259,0.610511756569848,0.0840088430361091,0.131120331950207"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:78r.5.808"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAim.hmt:5.4059",
+    "comment": "ἐλέγχεα ὡς τείχεα οὐ γὰρ νῦν ἐπιθετικὸν·",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol2408",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA078RN_0079@0.469417833456153,0.197233748271093,0.148120854826824,0.0146611341632089"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:78r.5.787"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAim.hmt:5.4060",
+    "comment": "Ἀρίσταρχος κακκελέχεες τὸ δὲ ἑξῆς διχῶς εἶδος ἄριστοι καὶ εἶδος ἄγητοί ⁑",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol2409",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA078RN_0079@0.619749447310243,0.21881051175657,0.0899042004421518,0.0381742738589212"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:78r.5.787"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAim.hmt:5.4061",
+    "comment": "ὅτι ἰδίως εἴρηκεν ἀντὶ του ο βαλων ἕλκος ἐποίησεν ⁑",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol2410",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA078RN_0079@0.619749447310243,0.356293222683264,0.0641120117907148,0.0354080221300138"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:78r.5.795"
+    ]
+  },
+  {
     "urn": "urn:cts:greekLit:tlg5026.msA.hmt:5.4036",
     "lemma": "ἀν δ' ἴσχων·",
     "dse": {

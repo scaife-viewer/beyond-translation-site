@@ -1,5 +1,71 @@
 [
   {
+    "urn": "urn:cts:greekLit:tlg5026.msAint.hmt:16.221r_1",
+    "comment": "βραχ διασταλτέον ἐπι τὸ μεγάλ' ⁑",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol8097",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA221RN_0392@0.1218,0.5444,0.05914,0.04509"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:221r.16.774"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAint.hmt:16.221r_2",
+    "comment": "επι το μεγαλωστι βραχὺ διαστ ⁑",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol8098",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA221RN_0392@0.1249,0.5860,0.05435,0.04550"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:221r.16.776"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAim.hmt:16.221r_1",
+    "comment": "λ γινετ",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol8082",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA221RN_0392@0.5676,0.4560,0.04624,0.01867"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:221r.16.769"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAim.hmt:16.221r_2",
+    "comment": "Αρίσταρχ δια τοῦ α εστυφελιξαν ⁑",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol8083",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA221RN_0392@0.5956,0.5429,0.04385,0.02835"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:221r.16.774"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAim.hmt:16.221r_3",
+    "comment": "Αριστ ὁ δ' ἐν στροφάλιγγι σὺν τῷ ν ⁑",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol8084",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA221RN_0392@0.5993,0.5705,0.05158,0.02656"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:221r.16.775"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAim.hmt:16.221r_4",
+    "comment": "καθ ὃν καιρὸν οἱ βόες ἀπολύονται τῶν ἔργων ⁑",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol8085",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA221RN_0392@0.5477,0.6433,0.1413,0.02545"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:221r.16.779"
+    ]
+  },
+  {
     "urn": "urn:cts:greekLit:tlg5026.msA.hmt:16.221r_1",
     "lemma": "ὡς δ' Εὑρός τε Νότος τ' .",
     "dse": {

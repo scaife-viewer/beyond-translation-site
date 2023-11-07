@@ -1,5 +1,49 @@
 [
   {
+    "urn": "urn:cts:greekLit:tlg5026.msAext.hmt:13.7",
+    "comment": "θυμῶ",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol8508",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA173VN_0675@0.1612,0.2761,0.03095,0.02047"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:173v.13.485"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAint.hmt:13.13",
+    "comment": "ἐπι τῇ παρούση μοι προθ  ~",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol8507",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA173VN_0675@0.8939,0.2715,0.05472,0.02739"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:173v.13.485"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAim.hmt:13.28",
+    "comment": "ἀριστ  ~ τῷ δ' ἐπὶ θυμῶι",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol8505",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA173VN_0675@0.4305,0.2805,0.07443,0.01397"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:173v.13.485"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAim.hmt:13.31",
+    "comment": "ουτ  δια τοῦ ν ἔξοχον ἅπασαι ⁑",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol8506",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA173VN_0675@0.4464,0.5456,0.05674,0.03638"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:173v.13.499"
+    ]
+  },
+  {
     "urn": "urn:cts:greekLit:tlg5026.msA.hmt:13.56",
     "lemma": "‡τῷ δ' ἐπι θυμῷ",
     "dse": {

@@ -1,5 +1,38 @@
 [
   {
+    "urn": "urn:cts:greekLit:tlg5026.msAext.hmt:9.310",
+    "comment": "τιμήσουσι·",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:tlg5026_msAext_hmt_9_310",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA117VN_0620@0.1271,0.4478,0.0691,0.0346"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:117v.9.297"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAim.hmt:9.308",
+    "comment": "ουτ  Ἱρην ὀξυτόνως ὡς ἐν τη Καθόλου ⁑",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:tlg5026_msAim_hmt_9_308",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA117VN_0620@0.4104,0.3471,0.0831,0.0669"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:117v.9.292"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAim.hmt:9.309",
+    "comment": "δια τοῦ ἑτέρου λ τὸ μεταλλήξαντι αἱ Ἀρισταρχ  :",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:tlg5026_msAim_hmt_9_309",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA117VN_0620@0.4344,0.4763,0.0601,0.0751"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:117v.9.299"
+    ]
+  },
+  {
     "urn": "urn:cts:greekLit:tlg5026.msA.hmt:9.304",
     "lemma": "‡οἵ κε σε δωτίνῃσι :",
     "dse": {

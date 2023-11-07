@@ -1,5 +1,49 @@
 [
   {
+    "urn": "urn:cts:greekLit:tlg5026.msAint.hmt:3.165",
+    "comment": "διὰ τοῦ α τὸ πεπασ  Ἀρίσταρχος ⁑",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol1933",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA043VN_0545@0.88890936,0.63526971,0.02450258,0.02378976"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:43v.3.99"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAim.hmt:3.687",
+    "comment": "τὸ ῆν",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol1981",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA043VN_0545@0.46094326,0.62047026,0.02210759,0.01009682"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:43v.3.97"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAil.hmt:3.688",
+    "comment": "τὰ τόξα ἔστιν",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol1954",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA043VN_0545@0.54439941,0.27372061,0.11643331,0.02351314"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:43v.3.79"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAil.hmt:3.690",
+    "comment": "δανεναι οὑτως",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol1955",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA043VN_0545@0.49834193,0.34979253,0.09837878,0.02406639"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:43v.3.83"
+    ]
+  },
+  {
     "urn": "urn:cts:greekLit:tlg5026.msA.hmt:3.149",
     "lemma": "ϊοῖσιν τι τυσκόμενοι",
     "dse": {

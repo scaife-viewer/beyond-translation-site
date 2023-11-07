@@ -1,5 +1,82 @@
 [
   {
+    "urn": "urn:cts:greekLit:tlg5026.msAext.hmt:6.299",
+    "comment": "εβίην θόντε",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol2784",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA089VN_0592@0.09911570,0.68520055,0.03131909,0.01936376"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:89v.6.479"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAim.hmt:6.273",
+    "comment": "Μεσηῒς καὶ Ὑπερεια κρηναι Ἄργους ⁑",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol2761",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA089VN_0592@0.38817244,0.28132780,0.04679440,0.04343015"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:89v.6.457"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAim.hmt:6.274",
+    "comment": "ορέξατο ἀντι τοῦ ἐλάβετο",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol2762",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA089VN_0592@0.40070007,0.45366528,0.05600590,0.02323651"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:89v.6.466"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAim.hmt:6.275",
+    "comment": "Ἀρισταρχος δια τοῦ δ ειπε δ' επευξάμενος ⁑",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol2763",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA089VN_0592@0.41175387,0.62157676,0.04716286,0.04619640"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:89v.6.475"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAim.hmt:6.276",
+    "comment": "ἄλλοι ῶδε βίην ἀγαθόν τέ ⁑",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol2764",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA089VN_0592@0.40659543,0.68354080,0.06153279,0.01853389"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:89v.6.478"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAil.hmt:6.292",
+    "comment": "ἐνι",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol2778",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA089VN_0592@0.71554901,0.64951591,0.01694915,0.00829876"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:89v.6.478"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAil.hmt:6.293",
+    "comment": "Ἀρισταρχος πατρὸς γ' όδε ⁑",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol2779",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA089VN_0592@0.67501842,0.70760719,0.08474576,0.01106501"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:89v.6.480"
+    ]
+  },
+  {
     "urn": "urn:cts:greekLit:tlg5026.msA.hmt:6.132",
     "lemma": "‡ καί κεν ὕδωρ φορέοις",
     "dse": {
@@ -29,7 +106,10 @@
     "dse": {
       "urn": "urn:cite2:hmt:va_dse.v1:schol2650",
       "image_roi": "urn:cite2:hmt:vaimg.2017a:VA089VN_0592@0.51639646,0.13609959,0.35814296,0.01742739"
-    }
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:89v.6.459"
+    ]
   },
   {
     "urn": "urn:cts:greekLit:tlg5026.msA.hmt:6.135",
@@ -87,7 +167,6 @@
       "image_roi": "urn:cite2:hmt:vaimg.2017a:VA089VN_0592@0.21278556,0.72116183,0.64775239,0.06016598"
     },
     "references": [
-      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:89v.6.479",
       "urn:cts:greekLit:tlg0012.tlg001.msA-folios:89v.6.480"
     ],
     "comment": "τὸ ἑξῆς καί ποτε τίς εἴποι ἐκ πολέμου ἀνιόντα~ καὶ οὐ λείπει τὸ ϊδών , ἀλλ' ἔστι συνήθης >Ἀττικοῖς ἡ φράσις Εὐριπίδης Ῥήσῳ χαίρω δέ σ' εὐτυχοῦν τα καὶ προσήμενον πύργοισιν ἐχθρόν~ καὶ αὐτος Ὅμηρος ἀλλαχοῦ . ἤχθετο γάρ ῥα Τρωσὶ δαμναμένους ἤλακται δὲ πτῶσις ἀντι τοῦ ἐκ πολέμου ἀνιόντος ⁑"

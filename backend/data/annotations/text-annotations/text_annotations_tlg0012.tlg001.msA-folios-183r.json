@@ -1,5 +1,71 @@
 [
   {
+    "urn": "urn:cts:greekLit:tlg5026.msAext.hmt:14.G1",
+    "comment": "ἀλαοσκοπιὴν",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol5443",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA183RN_0354@0.7892,0.3506,0.09156,0.02365"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:183r.14.135"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAint.hmt:14.G1",
+    "comment": "ἐλλειπ  ἡ ἀπὸ προθ  ἀπεχώμεθ  ⁑",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol5370",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA183RN_0354@0.1212,0.2278,0.06338,0.04550"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:183r.14.129"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAint.hmt:14.G2",
+    "comment": "οτ  Ζηνοδ  γράφει οὐδ' αλαὸν σκοπίήν ⁑",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol5371",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA183RN_0354@0.1216,0.3445,0.05122,0.03997"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:183r.14.135"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAint.hmt:14.G3",
+    "comment": "ἡ Αριστοφάνους δια τοῦ δε οσσὸν δ' εννεαχιλοι επίαχον ⁑",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol5372",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA183RN_0354@0.1078,0.6148,0.07148,0.06805"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:183r.14.148"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAim.hmt:14.G1",
+    "comment": "ἐν αλλ  συ δ' επόψεαι αυτους ⁑",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol5307",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA183RN_0354@0.5825,0.5364,0.04108,0.04675"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:183r.14.145"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAim.hmt:14.G2",
+    "comment": "οτ  ἐλλειπ  ἡ διὰ δια πεδίον",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol5308",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA183RN_0354@0.5560,0.5776,0.05085,0.02268"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:183r.14.147"
+    ]
+  },
+  {
     "urn": "urn:cts:greekLit:tlg5026.msA.hmt:14.G1",
     "lemma": "δεῦτ' ΐομεν πόλεμον δέ ,",
     "dse": {

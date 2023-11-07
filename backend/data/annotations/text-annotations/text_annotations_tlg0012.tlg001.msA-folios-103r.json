@@ -1,5 +1,80 @@
 [
   {
+    "urn": "urn:cts:greekLit:tlg5026.msAint.hmt:8.113",
+    "comment": "οτ  ελλειπ  ἡ περὶ καὶ ὅτι ἀντι τοῦ Ἕκτορος φρένας ⁑",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol3201",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA103RN_0275@0.1261,0.3847,0.0621,0.0436"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:103r.8.124"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAint.hmt:8.114",
+    "comment": "οτ  κατα τοῦ ουδ  τὸ πληθυντικόν ὡς σπάρτα λέλυνται ⁑",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol3202",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA103RN_0275@0.1251,0.4996,0.0681,0.0466"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:103r.8.130"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAim.hmt:8.108",
+    "comment": "ἐν ἄλλω σιγαλόεντ",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol3144",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA103RN_0275@0.6176,0.2434,0.0711,0.018"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:103r.8.116"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAim.hmt:8.109",
+    "comment": "οτ  καὶ ἐνθάδε λειπ  ἡ περι⁚",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol3145",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA103RN_0275@0.5946,0.4065,0.046,0.0338"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:103r.8.125"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAim.hmt:8.110",
+    "comment": "τοὺ κεραυνίου πυρος",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol3146",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA103RN_0275@0.5495,0.6026,0.0841,0.0195"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:103r.8.135"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAim.hmt:8.111",
+    "comment": "Ἀρισταρχ  φύγον ἄλλοι δὲ φύγεν ἐν αλλω δὲ τὸ φοινικόεντα ⁑",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol3147",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA103RN_0275@0.5716,0.6319,0.0591,0.0992"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:103r.8.137"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAil.hmt:8.115",
+    "comment": "ε",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol3248",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA103RN_0275@0.3904,0.6379,0.013,0.009"
+    },
+    "references": []
+  },
+  {
     "urn": "urn:cts:greekLit:tlg5026.msA.hmt:8.101",
     "lemma": "καὶ ἀχνύμενός περ ἑταίρου~",
     "dse": {
@@ -17,7 +92,10 @@
     "dse": {
       "urn": "urn:cite2:hmt:va_dse.v1:schol3033",
       "image_roi": "urn:cite2:hmt:vaimg.2017a:VA103RN_0275@0.6136,0.6461,0.2362,0.0383"
-    }
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:103r.8.131"
+    ]
   },
   {
     "urn": "urn:cts:greekLit:tlg5026.msA.hmt:8.105",

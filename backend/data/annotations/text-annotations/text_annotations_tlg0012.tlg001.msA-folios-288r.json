@@ -1,5 +1,58 @@
 [
   {
+    "urn": "urn:cts:greekLit:tlg5026.msAint.hmt:22.24",
+    "comment": "ἐν αλλῶ καί σφιν",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol6786",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA288RN_0458@0.1350,0.2643,0.05674,0.02586"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:288r.22.287"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAim.hmt:22.28",
+    "comment": "ὅτι ἀντι τοῦ όλον ⁑",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol6872",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA288RN_0458@0.6061,0.2459,0.07111,0.01867"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:288r.22.286"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAim.hmt:22.29",
+    "comment": "ὅτι ἀντι τοῦ συνεχυθ  ⁑",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol6873",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA288RN_0458@0.6142,0.3400,0.08088,0.02268"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:288r.22.291"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAim.hmt:22.30",
+    "comment": "ὅτι άπαξ εἴρηκε λευκάσπιδα ⁑",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol6874",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA288RN_0458@0.6277,0.3942,0.1111,0.03195"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:288r.22.294"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAil.hmt:22.34",
+    "comment": "ουκ εστι φησιν ἐκφυγεῖν ⁑",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol6831",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA288RN_0458@0.2248,0.5210,0.09433,0.01438"
+    },
+    "references": []
+  },
+  {
     "urn": "urn:cts:greekLit:tlg5026.msA.hmt:22.69",
     "lemma": "ἐπίκλοπος .",
     "dse": {
@@ -43,7 +96,6 @@
       "image_roi": "urn:cite2:hmt:vaimg.2017a:VA288RN_0458@0.6175,0.5448,0.2135,0.02752"
     },
     "references": [
-      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:288r.22.300",
       "urn:cts:greekLit:tlg0012.tlg001.msA-folios:288r.22.301"
     ],
     "comment": "βραχὺ διασταλτ  κακός . στικτέον δὲ ἄνευθε · τὸ γὰρ οὐδ ἀλέη καθ εαυτὸ προενεκτέον λείποντος τοῦ ἐστι ⁑"

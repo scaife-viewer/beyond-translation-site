@@ -1,5 +1,58 @@
 [
   {
+    "urn": "urn:cts:greekLit:tlg5026.msAext.hmt:14.A1",
+    "comment": "λεξάσθην ἕἐρσα",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol5449",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA187RN_0358@0.8042,0.6274,0.06301,0.03804"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:187r.14.348"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAint.hmt:14.A1",
+    "comment": "ουτ  Ἀρίσταρχ  έεργε ⁑",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol5390",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA187RN_0358@0.09525,0.6011,0.06798,0.03499"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:187r.14.349"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAim.hmt:14.A1",
+    "comment": "Ζηνόδοτ  καὶ Ἀριστοφανης επεὶ νύ τοι εὔαδεν εὐνήν ⁑",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol5331",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA187RN_0358@0.5658,0.4267,0.06098,0.05892"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:187r.14.340"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAim.hmt:14.A2",
+    "comment": "Ζηνοδ  ἐπέπιπτον ⁑",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol5332",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA187RN_0358@0.5912,0.6400,0.02985,0.03762"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:187r.14.351"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAil.hmt:14.A1",
+    "comment": "βλέπειν",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol5425",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA187RN_0358@0.5444,0.5189,0.04403,0.01812"
+    },
+    "references": []
+  },
+  {
     "urn": "urn:cts:greekLit:tlg5026.msA.hmt:14.A1",
     "lemma": "αινοτ  Κρονιδ  ποῖον τὸν μυθ  ἔειπες·",
     "dse": {
@@ -7,11 +60,6 @@
       "image_roi": "urn:cite2:hmt:vaimg.2017a:VA187RN_0358@0.152,0.1014,0.622,0.2072"
     },
     "references": [
-      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:187r.14.330",
-      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:187r.14.331",
-      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:187r.14.332",
-      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:187r.14.333",
-      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:187r.14.334",
       "urn:cts:greekLit:tlg0012.tlg001.msA-folios:187r.14.335"
     ],
     "comment": "τελεία στιγμὴ μετὰ τὸ Κρονιδ  προσαγορευτικη γάρ ἐστιν ἡ περίοδος . ἡ δε ἑξῆς ἀνάγνωσις \t\t\t\t\t\t\t\tἀμφίβολος , ἤ τοι γὰρ καθαυτὸ ἀναγνωστέον ποῖον τὸν μῦθον ἔειπες· εὶ τα ἀφετέρας ἀρχῆς εἰ \t\t\t\t\t\t\t\t\tνῦν ἐν φιλότητι ἥ μ' ὑποστίζωμεν κορυφῇσι καὶ ἅπαντ  · στίζομεν δὲ μετὰ τὸ πῶς κ έοι εῖτα ἀπάλλης ἀρχῆς εἴ τις νῶϊ θεῶν \t\t\t\t\t\t\t\t\tαῖειγενετάων καὶ ὑποστίζωμεν ἀθρήσειε πεφράδοι ἤν ἢ ἀνάγνωσις οὐκ ὰν ἔγωγε τεὸν προς δῶμα οὑτως δ' ἔσονται \t\t\t\t\t\t\t\tἀνταποδοτι καὶ περίοδοι , ἀμφότεραι ορθαὶ τοιαύται· εἰ νῦν ἐπι τῆς Ἴδης κοιμηθῆναι βούλει πῶς ἂν εἴη οἶον πῶς ἂν \t\t\t\t\t\t\t\tἐνδέχοιτο· ἡ δὲ ἑτέρα εἴ τις ἴδοι τῶν θεῶν καὶ τοῖς ἄλλοις εἴποι οὐκ ὰν ἔλθοιμι εἰς τὸν σὸν \t\t\t\t\t\t\t\tοῖκον , ἡ ἀνεστραμμένας αὐτὰς ποιητέον συνάπτοντα οὕτως ποῖον τὸν μῦθον ἔειπες εἰ νῦν ἐν φιλότητ  λίλαιε · ἔσται δὲ στιγμῇ ἐν κορυφῇσι καὶ ἅπαντα εἰτ  καθε ἀυτὸ ἀπορούσης τῆς θεοῦ· πῶς κ έοι· πῶς ἂν τοῦτο ἐνδέχοιτο εἰ καὶ τουτ  αὐτὸ τοῖς ἑξῆς συναπτέον πῶς κ έοι εἴ τις νῶϊ θεῶν ἕως τοῦ πεφράδοι εῖτα ἀφετέρας ἀρχῆς , οὐκ ἂν ἔγωγε τεὸν προς δῶμα νεοίμην ⁑"

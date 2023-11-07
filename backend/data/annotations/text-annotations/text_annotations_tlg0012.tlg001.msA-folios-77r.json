@@ -1,5 +1,60 @@
 [
   {
+    "urn": "urn:cts:greekLit:tlg5026.msAim.hmt:5.4051",
+    "comment": "ἀναστρεπτέον τὴν πρόθεσιν ἵνα πρὸς τὸ ἢν συντάττηται ⁑",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol2401",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA077RN_0078@0.608695652173913,0.276625172890733,0.0744288872512896,0.0503457814661134"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:77r.5.739"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAim.hmt:5.4053",
+    "comment": "ὅτι ἐντεῦθεν εἰς τὴν Ὀδύσσειαν μετάκεινται ⁑",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol2402",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA077RN_0078@0.62822402358143,0.406085753803596,0.0534266764922623,0.023789764868603"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:77r.5.747"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAim.hmt:5.4054",
+    "comment": "αντὶ τοῦ τῶν ἵππων",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol2403",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA077RN_0078@0.572218128224024,0.445089903181189,0.0405305821665438,0.0157676348547718"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:77r.5.748"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAim.hmt:5.4055",
+    "comment": "οὗτος Ἀρίσταρχος . ἄλλοι δὲ τάδε ἔργ' ἀΐδηλα ⁑",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol2404",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA077RN_0078@0.648857774502579,0.613278008298755,0.0685335298452469,0.0390041493775934"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:77r.5.757"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAil.hmt:5.4086",
+    "comment": "ἐφήν τε το",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol2517",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA077RN_0078@0.417833456153279,0.439834024896266,0.0357406042741341,0.0132780082987552"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:77r.5.748"
+    ]
+  },
+  {
     "urn": "urn:cts:greekLit:tlg5026.msA.hmt:5.4030",
     "lemma": "αὐτόμαται δὲ πύλαι·",
     "dse": {

@@ -1,5 +1,47 @@
 [
   {
+    "urn": "urn:cts:greekLit:tlg5026.msAint.hmt:17.40",
+    "comment": "κεχολωμε  Ἀτρείωνι .",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol5908",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA237VN_0739@0.88,0.3238,0.048,0.027"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:237v.17.710"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAint.hmt:17.41",
+    "comment": "Αριστοφ  δκ  μένοντε ⁑",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol5909",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA237VN_0739@0.888,0.5274,0.047,0.0361"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:237v.17.721"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAim.hmt:17.51",
+    "comment": "τὸ ἕως αντ  τοῦ τέως διόπερ οὐδε ὑποστιγμὴν ποιεῖ : ⁑",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol5994",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA237VN_0739@0.431,0.6484,0.075,0.0654"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:237v.17.727"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAil.hmt:17.35",
+    "comment": "ανέπεισε καὶ παρώτρυνεν ⁑",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol6142",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA237VN_0739@0.879,0.229,0.053,0.018"
+    },
+    "references": []
+  },
+  {
     "urn": "urn:cts:greekLit:tlg5026.msA.hmt:17.144",
     "lemma": "αλλ ὅ γε τοῖσιν μὲν :",
     "dse": {

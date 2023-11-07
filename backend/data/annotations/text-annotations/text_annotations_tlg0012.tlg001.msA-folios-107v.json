@@ -1,5 +1,27 @@
 [
   {
+    "urn": "urn:cts:greekLit:tlg5026.msAim.hmt:8.244",
+    "comment": "Αρισταρχος Γοργοῦς οἴ´ματ' εχων ⁚",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol3167",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA107VN_0610@0.3916,0.249,0.0652,0.0288"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:107v.8.349"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAim.hmt:8.246",
+    "comment": "ουδὲ παρὰ Ζηνοδότω ῆσαν ⁑",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol3168",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA107VN_0610@0.424,0.6666,0.0416,0.0388"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:107v.8.371"
+    ]
+  },
+  {
     "urn": "urn:cts:greekLit:tlg5026.msA.hmt:8.233",
     "lemma": "‡ Γοργοῦς ὄμματ' ἔχων~",
     "dse": {
@@ -103,7 +125,6 @@
       "image_roi": "urn:cite2:hmt:vaimg.2017a:VA107VN_0610@0.2156,0.7885,0.68,0.0667"
     },
     "references": [
-      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:107v.8.371",
       "urn:cts:greekLit:tlg0012.tlg001.msA-folios:107v.8.372"
     ],
     "comment": "ἀθετοῦνται δύο στίχοι ὅτι οὐκ έδει κατ  μερος διηγήσασθαι καὶ ταῦτα πρὸς τὴν καλῶς εἰδυῖαν . καὶ μὴν οὐδὲ ἡμεῖς περισσόν τι προσιστοροῦμεν ⁑"

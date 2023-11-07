@@ -1,5 +1,63 @@
 [
   {
+    "urn": "urn:cts:greekLit:tlg5026.msAint.hmt:11.47",
+    "comment": "γράφεται ἀμφί τε ἄστυ",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol4224",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA151VN_0653@0.863,0.2813,0.067,0.0195"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:151v.11.706"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAim.hmt:11.85",
+    "comment": "βραχ  διασταλτ  ἐπι τὸ ῆλθον πρὸς τὸ σαφέστερον ⁑",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol4559",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA151VN_0653@0.449,0.3293,0.045,0.0578"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:151v.11.708"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAil.hmt:11.330",
+    "comment": "διαφθεῖραι :",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol4456",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA151VN_0653@0.722,0.4179,0.059,0.0158"
+    },
+    "references": []
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAil.hmt:11.331",
+    "comment": "παρεγένοντο :",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol4457",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA151VN_0653@0.694,0.4374,0.063,0.0158"
+    },
+    "references": []
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAil.hmt:11.333",
+    "comment": "πο  Πύλου",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol4458",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA151VN_0653@0.587,0.6054,0.042,0.0165"
+    },
+    "references": []
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAil.hmt:11.334",
+    "comment": "μετα μεσημβρίαν",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol4459",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA151VN_0653@0.559,0.6647,0.081,0.0113"
+    },
+    "references": []
+  },
+  {
     "urn": "urn:cts:greekLit:tlg5026.msA.hmt:11.264",
     "lemma": "μή τίς οι ἀτεμβόμενος κίος ἴσης :",
     "dse": {
@@ -41,7 +99,10 @@
     "dse": {
       "urn": "urn:cite2:hmt:va_dse.v1:schol4756",
       "image_roi": "urn:cite2:hmt:vaimg.2017a:VA151VN_0653@0.228,0.1905,0.697,0.081"
-    }
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:151v.11.709"
+    ]
   },
   {
     "urn": "urn:cts:greekLit:tlg5026.msA.hmt:11.268",

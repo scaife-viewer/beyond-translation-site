@@ -1,5 +1,113 @@
 [
   {
+    "urn": "urn:cts:greekLit:tlg5026.msAext.hmt:19.hc_1",
+    "comment": "εῦτε",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol6547",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA259RN_0430@0.831,0.3764,0.037,0.021"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:259r.19.386"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAext.hmt:19.hc_2",
+    "comment": "ἡνιοχῆας",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol6548",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA259RN_0430@0.822,0.6657,0.075,0.0225"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:259r.19.401"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAint.hmt:19.hc_1",
+    "comment": "Αρισταρχ  εῦτε",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol6566",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA259RN_0430@0.134,0.3779,0.051,0.027"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:259r.19.386"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAint.hmt:19.hc_2",
+    "comment": "οὐδὲ ἐν ταῖς ἄλλαις ησαν οἱ αθετούμενοι ⁑",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol6567",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA259RN_0430@0.129,0.4035,0.09,0.0293"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:259r.19.388"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAint.hmt:19.hc_3",
+    "comment": "καὶ πόρε Xείρων ⁑",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol6568",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA259RN_0430@0.114,0.45,0.056,0.0263"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:259r.19.390"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAint.hmt:19.hc_4",
+    "comment": "ουτ  πληθυντικῶς αι Αρισταρχ  ⁑",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol6569",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA259RN_0430@0.11,0.4703,0.063,0.0473"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:259r.19.391"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAint.hmt:19.hc_5",
+    "comment": "ουτ  δια τοῦ ο ζεύγνυον ⁑",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol6570",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA259RN_0430@0.11,0.5071,0.072,0.0436"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:259r.19.393"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAim.hmt:19.hc_5",
+    "comment": "ουτ  εο αὐτοῦ αἱ Ἀρισταρχ  Ζηνοδ  εου αυτοῦ ⁑",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol6595",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA259RN_0430@0.584,0.3388,0.049,0.0526"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:259r.19.384"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAim.hmt:19.hc_6",
+    "comment": "οτ  τὸν Ἀλκιμέδοντ  νῦν Αλκιμον λέγει ⁑",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol6596",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA259RN_0430@0.575,0.4808,0.069,0.0398"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:259r.19.392"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAil.hmt:19.hc_4",
+    "comment": "περιέβαλον⁚",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol6576",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA259RN_0430@0.494,0.5071,0.047,0.0173"
+    },
+    "references": []
+  },
+  {
     "urn": "urn:cts:greekLit:tlg5026.msA.hmt:19.hc_9",
     "lemma": "καλοῦ δαιδαλέου⁚",
     "dse": {
@@ -29,7 +137,10 @@
     "dse": {
       "urn": "urn:cite2:hmt:va_dse.v1:schol6651",
       "image_roi": "urn:cite2:hmt:vaimg.2017a:VA259RN_0430@0.625,0.2968,0.204,0.2104"
-    }
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:259r.19.385"
+    ]
   },
   {
     "urn": "urn:cts:greekLit:tlg5026.msA.hmt:19.hc_12",

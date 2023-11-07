@@ -1,5 +1,113 @@
 [
   {
+    "urn": "urn:cts:greekLit:tlg5026.msAext.hmt:13.1",
+    "comment": "τετεύχατον",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol8466",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA170VN_0672@0.1581,0.4806,0.05490,0.02503"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:170v.13.346"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAext.hmt:13.2",
+    "comment": "Ποσειδά",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol8467",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA170VN_0672@0.1553,0.5715,0.05140,0.02808"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:170v.13.351"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAint.hmt:13.5",
+    "comment": "Ζηνοδ  καὶ Αριστ  ώτρυνε ⁑",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol8464",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA170VN_0672@0.8900,0.5730,0.06024,0.03071"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:170v.13.351"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAim.hmt:13.7",
+    "comment": "ταχὺ πνεόντων",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol8458",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA170VN_0672@0.4425,0.2622,0.06338,0.02379"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:170v.13.334"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAim.hmt:13.8",
+    "comment": "ορθώθη τῆς μάχης τὰ δόρατα ⁑",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol8459",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA170VN_0672@0.4469,0.3563,0.06153,0.04136"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:170v.13.339"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAim.hmt:13.9",
+    "comment": "οτ  ήλλακται το ῥῆμα : εἴη αντ  τοῦ ἤν",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol8460",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA170VN_0672@0.4423,0.4318,0.05914,0.03181"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:170v.13.343"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAim.hmt:13.10",
+    "comment": "ἐν ἄλλῳ ἡρώεσσιν ἐτεύχετ",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol8461",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA170VN_0672@0.4409,0.4876,0.05601,0.02905"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:170v.13.346"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAim.hmt:13.11",
+    "comment": "ουτ  Ἀριστ  ἄλλοι δὲ Ζεὺς μὲν αρα ⁑",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol8462",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA170VN_0672@0.4392,0.5152,0.06577,0.02172"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:170v.13.347"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAim.hmt:13.12",
+    "comment": "Ἀριστοφάνης οὐδ' όγε πάμπαν :",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol8463",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA170VN_0672@0.4379,0.5332,0.06540,0.02116"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:170v.13.348"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAil.hmt:13.3",
+    "comment": "ἡμαύρου",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol8465",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA170VN_0672@0.8723,0.3716,0.03648,0.01286"
+    },
+    "references": []
+  },
+  {
     "urn": "urn:cts:greekLit:tlg5026.msA.hmt:13.13",
     "lemma": "ταμεσίχροας ,",
     "dse": {
@@ -42,7 +150,9 @@
       "urn": "urn:cite2:hmt:va_dse.v1:schol8257",
       "image_roi": "urn:cite2:hmt:vaimg.2017a:VA170VN_0672@0.2517,0.4864,0.1756,0.04066"
     },
-    "references": [],
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:170v.13.350"
+    ],
     "comment": "θετεῖται ὅτι οὐκ ἀναγκαῖος~ προείρηται γὰρ κυδαίνων Ἀχιλῆαόδας ταχύν"
   },
   {

@@ -1,5 +1,71 @@
 [
   {
+    "urn": "urn:cts:greekLit:tlg5026.msAext.hmt:16.212r1",
+    "comment": "ὑποεἴκον",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol7740",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA212RN_0383@0.8296,0.2828,0.04827,0.02006"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:212r.16.305"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAint.hmt:16.212r1",
+    "comment": "ζητῶ περι τοῦ τόνου τοῦ ὑποεῖκον πῶς δεῖ ἀναγινώσκειν ⁑",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol7762",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA212RN_0383@0.1091,0.2881,0.08585,0.03154"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:212r.16.305"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAint.hmt:16.212r2",
+    "comment": "τὸ ἡγεμόνων βέλτιον ἡ συνηθεια τῆς ἄνω προσνέμει ⁑",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol7763",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA212RN_0383@0.1072,0.3180,0.07719,0.05602"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:212r.16.307"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAint.hmt:16.212r3",
+    "comment": "μῦιες καλοῦνται αἱ συνεστραμμέναι σάρκαι ⁑ ⁑",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol7764",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA212RN_0383@0.1185,0.4705,0.06706,0.03721"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:212r.16.315"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAint.hmt:16.212r4",
+    "comment": "μετὰ τὸν δε συνδεσμον διασταλτεόν ⁑",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol7765",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA212RN_0383@0.1288,0.5057,0.05085,0.02711"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:212r.16.317"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAim.hmt:16.212r1",
+    "comment": "προς τὴν ὁμωνυμίαν ὅτι Τρωϊκος ὁ Θόας ουτος ⁑",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol7815",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA212RN_0383@0.5921,0.3968,0.08788,0.03347"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:212r.16.311"
+    ]
+  },
+  {
     "urn": "urn:cts:greekLit:tlg5026.msA.hmt:16.212r1",
     "lemma": "ἀνθ ἵσταντο :",
     "dse": {

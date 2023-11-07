@@ -1,5 +1,131 @@
 [
   {
+    "urn": "urn:cts:greekLit:tlg5026.msAext.hmt:13.A1",
+    "comment": "Ποσειδά",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol8524",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA175RN_0346@0.8147,0.3217,0.07019,0.02434"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:175r.13.563"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAext.hmt:13.A2",
+    "comment": "ὁμαρτητην",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol8525",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA175RN_0346@0.8209,0.7201,0.05730,0.02047"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:175r.13.584"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAint.hmt:13.17",
+    "comment": "ἀκάνθ  εἰδος ἡ σκῶλος ἢ πυρωθεῖσα εὔτονος γίνεται ⁑",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol8522",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA175RN_0346@0.1172,0.3184,0.06006,0.04592"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:175r.13.564"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAint.hmt:13.A2",
+    "comment": "ὁ πόλεμος κυρίως δι ὸν ἡ τρῶσις .",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol8523",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA175RN_0346@0.1133,0.4304,0.07167,0.02905"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:175r.13.569"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAim.hmt:13.A1",
+    "comment": "ὅτι ἀντὶ τοῦ κυανοχαίτης ⁑",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol8131a",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA175RN_0346@0.584,0.3193,0.103,0.0255"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:175r.13.563"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAim.hmt:13.A2",
+    "comment": "ὅτι ἅπαξ ὁ σκῶλος",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol8132",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA175RN_0346@0.599,0.3441,0.09,0.0255"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:175r.13.564"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAim.hmt:13.A3",
+    "comment": "ἐν αλλῳ ὁ δὲ σχόμενος",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol8133",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA175RN_0346@0.595,0.3922,0.113,0.0346"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:175r.13.567"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAim.hmt:13.A4",
+    "comment": "ὅτι πτῶσις ἤλλακται αντι τοῦ δε σκότος ὄσσε ⁑",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol8134",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA175RN_0346@0.58,0.5462,0.096,0.0406"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:175r.13.575"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAim.hmt:13.A5",
+    "comment": "Ἀρισταρχος ὁμαρτηδην ὡς τμήδην ⁑",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol8135",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA175RN_0346@0.571,0.7235,0.102,0.0263"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:175r.13.584"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAil.hmt:13.A1",
+    "comment": "δουρι",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol8526",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA175RN_0346@0.5405,0.2823,0.02966,0.01508"
+    },
+    "references": []
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAil.hmt:13.A2",
+    "comment": "νὺν καίριοσ",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol8527",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA175RN_0346@0.3226,0.4295,0.06190,0.01369"
+    },
+    "references": []
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAil.hmt:13.A3",
+    "comment": "ομου συνήλθον",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol8528",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA175RN_0346@0.2839,0.7116,0.07019,0.01300"
+    },
+    "references": []
+  },
+  {
     "urn": "urn:cts:greekLit:tlg5026.msA.hmt:13.A1",
     "lemma": "ὥστε σκῶλος πυρίκαυτος",
     "dse": {

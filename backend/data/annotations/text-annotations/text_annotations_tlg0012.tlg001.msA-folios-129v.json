@@ -1,5 +1,109 @@
 [
   {
+    "urn": "urn:cts:greekLit:tlg5026.msAext.hmt:10.1556",
+    "comment": " ρωρήσωνται",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol3897",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA129VN_0632@0.105,0.3794,0.088,0.0203"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:129v.10.183"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAext.hmt:10.1557",
+    "comment": "γράφεται τῶν ,",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol3898",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA129VN_0632@0.17,0.562,0.04,0.0203"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:129v.10.194"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAint.hmt:10.1554",
+    "comment": "οτ  ελλείπει ἡ εῖς ἵν ῇ εἰς βουλήν ⁑",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol3895",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA129VN_0632@0.875,0.5695,0.05,0.0293"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:129v.10.195"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAint.hmt:10.1555",
+    "comment": "το εξῆς ἐν καθαρῷ νεκυων όθι διεφαίνετο χωρος ⁑",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol3896",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA129VN_0632@0.899,0.6446,0.042,0.0646"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:129v.10.199"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAim.hmt:10.1558",
+    "comment": "ουτ  διὰ τ  ν ἄνστησον αἱ Ἀρισταρχ",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol3899",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA129VN_0632@0.476,0.2194,0.127,0.018"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:129v.10.176"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAim.hmt:10.1559",
+    "comment": "δια μέσου τὸ σὺ γὰρ έσσι νεώτερος ⁑",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol3900",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA129VN_0632@0.623,0.2179,0.127,0.018"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:129v.10.176"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAim.hmt:10.1553",
+    "comment": "προς ί̈στρον οτ  οὐ γέγονε νεκρῶν ἀναίρεσις :",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol3894",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA129VN_0632@0.414,0.6544,0.078,0.0413"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:129v.10.199"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAil.hmt:10.1560",
+    "comment": "περιεβάλετο :",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol3901",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA129VN_0632@0.72,0.2464,0.072,0.015"
+    },
+    "references": []
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAil.hmt:10.1561",
+    "comment": "εγρηγορῶτες",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol3902",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA129VN_0632@0.546,0.3441,0.072,0.015"
+    },
+    "references": []
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAil.hmt:10.1563",
+    "comment": "βουλεύσθαι :",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol3903",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA129VN_0632@0.775,0.6063,0.072,0.015"
+    },
+    "references": []
+  },
+  {
     "urn": "urn:cts:greekLit:tlg5026.msA.hmt:10.1547",
     "lemma": "‡ ἀλλ' ἐγρηγορτὶ συν τεύχεσιν εἴατο πάντες :",
     "dse": {

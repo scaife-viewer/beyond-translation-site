@@ -1,5 +1,83 @@
 [
   {
+    "urn": "urn:cts:greekLit:tlg5026.msAim.hmt:23.2104",
+    "comment": "Αρισταρχος νίκος ἄριστε ὡς εἰδος αριστε",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol7082",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA302VN_0804@0.418,0.2487,0.068,0.0541"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:302v.23.483"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAim.hmt:23.2105",
+    "comment": "ὅτι ἄντι τοῦ άγε το δεῦρο",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol7083",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA302VN_0804@0.417,0.296,0.068,0.0308"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:302v.23.485"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAim.hmt:23.2106",
+    "comment": "ὅτι ἄντι τοῦ μάρτυρα οἷον συνθηκοφύλακα",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol7084",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA302VN_0804@0.416,0.3163,0.068,0.0496"
+    },
+    "references": []
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAim.hmt:23.2107",
+    "comment": "ἐν ἄλλῳ καὶ κατέρυκε",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol7085",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA302VN_0804@0.417,0.3974,0.068,0.0368"
+    },
+    "references": []
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAim.hmt:23.2108",
+    "comment": "κατεχρήσατ",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol7086",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA302VN_0804@0.415,0.5943,0.071,0.027"
+    },
+    "references": []
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAim.hmt:23.2109",
+    "comment": "ὅτι τὰ ἄρματα ἐπετρεχον καὶ οὐκ επετρεχεν",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol7087",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA302VN_0804@0.411,0.6506,0.077,0.0496"
+    },
+    "references": []
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAim.hmt:23.2110",
+    "comment": "ἐν αλλῳ πετεσθον",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol7088",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA302VN_0804@0.4,0.6927,0.086,0.0285"
+    },
+    "references": []
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAil.hmt:23.2111",
+    "comment": "кαтὰ τῶν ώμων",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol7058",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA302VN_0804@0.679,0.5702,0.067,0.0225"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:302v.23.500"
+    ]
+  },
+  {
     "urn": "urn:cts:greekLit:tlg5026.msA.hmt:23.2101",
     "lemma": "δεῦρο νῦν ἡ τρίποδος περιδώμεθον~",
     "dse": {

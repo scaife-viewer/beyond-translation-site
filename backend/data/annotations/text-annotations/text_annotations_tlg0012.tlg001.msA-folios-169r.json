@@ -1,5 +1,49 @@
 [
   {
+    "urn": "urn:cts:greekLit:tlg5026.msAint.hmt:13.169r1",
+    "comment": "οτ πληθυντικῶς κατεάξαμεν καὶ ἑνικῶς οἰσομενος καὶ ἔχεσκον ⁑",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol8445",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA169RN_0340@0.1111,0.2263,0.05103,0.04398"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:169r.13.257"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAim.hmt:13.169r1",
+    "comment": "Ζηνοδ κατεήξαμεν δια τὸ καὶ ἐν τοῖς ἔμπροσθεν ὃ ξυνεήξε λέγειν ⁑",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol8442",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA169RN_0340@0.5967,0.2166,0.07682,0.04260"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:169r.13.257"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAim.hmt:13.169r2",
+    "comment": "ουκ ἀπίθανον διαστέλλειν ἐπι τὸ ἑν προς το σαφές .",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol8443",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA169RN_0340@0.5967,0.2809,0.06890,0.03043"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:169r.13.260"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAim.hmt:13.169r3",
+    "comment": "οτ  πρόθεσις παρείται καὶ ἡ πτῶσις ήλλακται ἀντι τοῦ περι τουτῶν διαλέγεσθαι ⁑",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol8444",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA169RN_0340@0.5590,0.5589,0.09267,0.03914"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:169r.13.275"
+    ]
+  },
+  {
     "urn": "urn:cts:greekLit:tlg5026.msA.hmt:13.169r1",
     "lemma": "‡ το νυ γὰρ κατεαξαμεν ὃ πρὶν ἔχεσκον :",
     "dse": {

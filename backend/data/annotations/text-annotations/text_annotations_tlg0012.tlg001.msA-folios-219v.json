@@ -1,5 +1,47 @@
 [
   {
+    "urn": "urn:cts:greekLit:tlg5026.msAim.hmt:16.219v1",
+    "comment": "γραφεται ἀνδρῶν",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol7842",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA219VN_0721@0.4414,0.4017,0.04901,0.01923"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:219v.16.688"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAim.hmt:16.219v2",
+    "comment": "ὅτι ἀγκῶνος τῆς γωνίας λε",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol7843",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA219VN_0721@0.4385,0.6234,0.04735,0.02393"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:219v.16.702"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAim.hmt:16.219v3",
+    "comment": "βέλτιον τοῖς ἑξῆς τοῦτο συνάπτειν ⁑",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol7844",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA219VN_0721@0.4469,0.6638,0.05177,0.04426"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:219v.16.704"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAil.hmt:16.219v1",
+    "comment": "ἐβλάβη",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol7799",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA219VN_0721@0.8325,0.3391,0.03390,0.01037"
+    },
+    "references": []
+  },
+  {
     "urn": "urn:cts:greekLit:tlg5026.msA.hmt:16.219v1",
     "lemma": "νήπιος εἰδὲ ἔπος",
     "dse": {

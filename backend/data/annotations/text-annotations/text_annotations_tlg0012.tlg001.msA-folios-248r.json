@@ -1,5 +1,71 @@
 [
   {
+    "urn": "urn:cts:greekLit:tlg5026.msAint.hmt:18.35",
+    "comment": "ἔξω τοῦ ϊ τὸ εμ ὠκυμορῳ συνεκτέθλιπται γὰρ τῷ ῳ τὸ ϊ ⁑",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol6191",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA248RN_0419@0.127,0.2667,0.079,0.0669"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:248r.18.458"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAint.hmt:18.36",
+    "comment": "εἰς το παρεῖναι καὶ ἕτοιμοι εῖναι καὶ σπεύδοντι καὶ μή ⁑",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol6192",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA248RN_0419@0.114,0.5252,0.082,0.0781"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:248r.18.472"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAint.hmt:18.37",
+    "comment": "παρα Ζηνοτ  κρατερόν διὰ τοῦ ο ⁑",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol6193",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA248RN_0419@0.112,0.6251,0.085,0.0398"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:248r.18.477"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAim.hmt:18.47",
+    "comment": "παρα Ζηνοδ  καὶ Αριστοφ  παρέξομαι ⁑",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol6299",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA248RN_0419@0.569,0.4155,0.068,0.0406"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:248r.18.466"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAim.hmt:18.48",
+    "comment": "οτ  τὸ πάσαι  παρελκει διὸ ἡ διπλη ⁑",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol6300",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA248RN_0419@0.583,0.4884,0.052,0.0511"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:248r.18.470"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAim.hmt:18.49",
+    "comment": "ελλειπ  τὸ μὴ σπευδοντ  ⁑",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol6301",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA248RN_0419@0.601,0.5304,0.062,0.0451"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:248r.18.472"
+    ]
+  },
+  {
     "urn": "urn:cts:greekLit:tlg5026.msA.hmt:18.152",
     "lemma": "τούνεκα νῦν τα σὰ·",
     "dse": {
@@ -55,8 +121,6 @@
       "image_roi": "urn:cite2:hmt:vaimg.2017a:VA248RN_0419@0.621,0.3847,0.236,0.0631"
     },
     "references": [
-      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:248r.18.464",
-      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:248r.18.465",
       "urn:cts:greekLit:tlg0012.tlg001.msA-folios:248r.18.466"
     ],
     "comment": "διασταλτέον ἐπι τὸ ϊκάνοι τὸ γὰρ ὃς κυρίως κεῖται ἐπιφερόμενον ὁ δὲ λόγος εῖθε γὰρ αὐτὸν καὶ τοῦ θανάτου δυναίμην ἀπαλλάξαι ὡς κάλλιστα ὅπλα ἕχει ⁑"

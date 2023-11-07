@@ -1,5 +1,16 @@
 [
   {
+    "urn": "urn:cts:greekLit:tlg5026.msAil.hmt:5.5033",
+    "comment": "μανιοδῶς διακεῖσθαι ⁑",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol2519",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA079VN_0582@0.48563007,0.57717842,0.08032424,0.00802213"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:79v.5.1"
+    ]
+  },
+  {
     "urn": "urn:cts:greekLit:tlg5026.msA.hmt:5.5011",
     "lemma": "οἵη δ' ἐκ νεφέων ἐρεβεννῆ .",
     "dse": {
@@ -55,8 +66,6 @@
       "image_roi": "urn:cite2:hmt:vaimg.2017a:VA079VN_0582@0.18165070,0.61092669,0.22623434,0.06721992"
     },
     "references": [
-      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:79v.5.885",
-      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:79v.5.886",
       "urn:cts:greekLit:tlg0012.tlg001.msA-folios:79v.5.887"
     ],
     "comment": "ῆ κεν ζῶς· διζεντκοὶ ἀμφότεροι διὸ ὀξύνονται δια τὰ ἐπιφερόμεναv ἐγκλιτικὰ χωρὶς εἰ μη ὁ δεύτερος βεβαιωτικος· καὶ γὰρ τοῦτο μᾶλλον αἰτεῖ ἡ διάνοια ⁑"

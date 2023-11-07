@@ -1,5 +1,49 @@
 [
   {
+    "urn": "urn:cts:greekLit:tlg5026.msAext.hmt:23.2209",
+    "comment": "ἐπισσώτρου τρι",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol7023",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA303RN_0473@0.807,0.4335,0.102,0.0376"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:303r.23.519"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAim.hmt:23.2206",
+    "comment": "προς τὴν διαφορὰν τοῦ άγειν καὶ φέρειν",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol7089",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA303RN_0473@0.611,0.2945,0.116,0.0383"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:303r.23.512"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAim.hmt:23.2207",
+    "comment": "ὅτι δια πεδίου",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol7090",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA303RN_0473@0.62,0.4237,0.069,0.018"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:303r.23.518"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAim.hmt:23.2208",
+    "comment": "ὅτι δια πεδίου",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol7091",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA303RN_0473@0.583,0.4763,0.071,0.027"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:303r.23.521"
+    ]
+  },
+  {
     "urn": "urn:cts:greekLit:tlg5026.msA.hmt:23.2201",
     "lemma": "αὐτὸς δ' ἐκ δίφροιο χαμαὶ .",
     "dse": {

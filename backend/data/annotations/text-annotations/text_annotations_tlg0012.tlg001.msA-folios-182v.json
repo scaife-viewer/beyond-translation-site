@@ -1,5 +1,115 @@
 [
   {
+    "urn": "urn:cts:greekLit:tlg5026.msAext.hmt:14.E2",
+    "comment": "οὐ δηθὰ ματεύσομεν",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol5442",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA182VN_0684@0.16764923,0.40318119,0.05711127,0.02185339"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:182v.14.110"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAint.hmt:14.E9",
+    "comment": "νῦν φθόνω φθονήσετε",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol5366",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA182VN_0684@0.90198968,0.41120332,0.03960943,0.01784232"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:182v.14.111"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAint.hmt:14.E10",
+    "comment": "γράφεται \"κάλυψε\" :",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol5367",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA182VN_0684@0.90954311,0.46556017,0.02929256,0.01562932"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:182v.14.114"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAint.hmt:14.E11",
+    "comment": "ἐν αλλῳ \"μίμνε\" :",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol5368",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA182VN_0684@0.92815033,0.55836791,0.02394989,0.01175657"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:182v.14.119"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAint.hmt:14.E12",
+    "comment": "ὅτι ἀντὶ τοῦ εοίκατε ἀκηκοέναι :",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol5369",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA182VN_0684@0.90475313,0.67081604,0.03224024,0.02074689"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:182v.14.125"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAim.hmt:14.E4",
+    "comment": "οὕτως νεώτατος ὑπερθετικῶς ὡμολογουν ἅπασαι :",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol5302",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA182VN_0684@0.44731024,0.43886584,0.04513633,0.04011065"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:182v.14.112"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAim.hmt:14.E5",
+    "comment": "οὗτος ὁ στίχος μεταξὺ κεῖται· τὸ δὲ ἑξῆς Άγριος ἡ δὲ \t\t\t\t\t\t\t\t\t\t Μέλας",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol5303",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA182VN_0684@0.44620486,0.50401107,0.05287399,0.03457815"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:182v.14.116"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAim.hmt:14.E6",
+    "comment": "οὕτως Αρίσταρχος Ζηνόδοτος δὲ \"εμεῖο\" οὐκ ὀρθῶς",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol5304",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA182VN_0684@0.45357406,0.53845090,0.05011054,0.01632089"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:182v.14.118"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAim.hmt:14.E7",
+    "comment": "γράφεται καὶ αὐτοῦ ὡς αὐτοῦ οἱ καὶ σῆμα τετεύξεται :",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol5305",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA182VN_0684@0.44915254,0.56030429,0.04642594,0.04204703"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:182v.14.119"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAim.hmt:14.E8",
+    "comment": "Ἀρίσταρχος εἰ ετεόν περ",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol5306",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA182VN_0684@0.45081061,0.67579530,0.04642594,0.02047026"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:182v.14.125"
+    ]
+  },
+  {
     "urn": "urn:cts:greekLit:tlg5026.msA.hmt:14.E13",
     "lemma": "ἐγγὺς ἀνὴρ",
     "dse": {

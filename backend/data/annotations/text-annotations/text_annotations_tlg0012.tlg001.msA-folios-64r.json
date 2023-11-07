@@ -1,5 +1,27 @@
 [
   {
+    "urn": "urn:cts:greekLit:tlg5026.msAext.hmt:5.6031",
+    "comment": "ἀμπεδ",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol2500",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA064RN_0065@0.80029477,0.41770401,0.03352985,0.01493776"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:64r.5.96"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAint.hmt:5.6030",
+    "comment": "ἐπι τὸ ἀναχωρησας βραχὺ διασταλτ  ‡",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol2470",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA064RN_0065@0.11053795,0.62627939,0.07406043,0.02295989"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:64r.5.107"
+    ]
+  },
+  {
     "urn": "urn:cts:greekLit:tlg5026.msA.hmt:5.1030",
     "lemma": "θώρηκος γύαλον",
     "dse": {

@@ -1,5 +1,36 @@
 [
   {
+    "urn": "urn:cts:greekLit:tlg5026.msAint.hmt:15.45",
+    "comment": "ουτ  αὐτήν μετα τοῦ η Ἀριστ  τὴν πέτραν ⁑",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol5536",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA203RN_0374@0.1,0.553,0.076,0.0421"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:203r.15.621"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAint.hmt:15.46",
+    "comment": "Ζηνοδ  χωρὶς τοῦ ϊ άχνη ⁑",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol5537",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA203RN_0374@0.089,0.6484,0.091,0.0421"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:203r.15.626"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAil.hmt:15.32",
+    "comment": "ειν",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol5579",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA203RN_0374@0.55,0.1908,0.027,0.0173"
+    },
+    "references": []
+  },
+  {
     "urn": "urn:cts:greekLit:tlg5026.msA.hmt:15.161",
     "lemma": "τάρφεσιν⁚",
     "dse": {
@@ -31,10 +62,6 @@
       "image_roi": "urn:cite2:hmt:vaimg.2017a:VA203RN_0374@0.596,0.3599,0.205,0.1818"
     },
     "references": [
-      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:203r.15.610",
-      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:203r.15.611",
-      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:203r.15.612",
-      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:203r.15.613",
       "urn:cts:greekLit:tlg0012.tlg001.msA-folios:203r.15.614"
     ],
     "comment": "ἀθετοῦνται στίχοι ε ἐπιστάμεθα γὰρ ὅτι περι Έκτορός ἐστιν ὁ λόγος τὴν ἔνθουν ορμὴν τοῦ Εκτορος ταυτ  παρεριειρμένα ἐκλύει συναπτόμενα γοὖν τὰ γνήσια τὴν δεινότητα σώζει· καὶ Κυκλικῶς ταυτολογεῖται προ εἴρηται γὰρ τὰ φρονέων νήεσσιν ἐπι γλαφυρῇσιν ἔγειρεν Ἕκτορα Πριαμίδην· πρός τι οὖν παλιλλογεῖται Ἕκτορος αὐτος γάρ οἱ ἀπ' αἰθέρος ῆεν ἀμύντωρ ⁑"
@@ -83,7 +110,6 @@
       "image_roi": "urn:cite2:hmt:vaimg.2017a:VA203RN_0374@0.166,0.7551,0.628,0.0361"
     },
     "references": [
-      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:203r.15.625",
       "urn:cts:greekLit:tlg0012.tlg001.msA-folios:203r.15.626"
     ],
     "comment": "ἡ ναῦς δήλονότι ὑπο τῆς ἀχνης ἐσκεπάσθη ἄχνη δὲ τὸ ἀφρωδες ⁑"

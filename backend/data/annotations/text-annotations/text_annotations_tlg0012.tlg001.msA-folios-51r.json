@@ -1,5 +1,27 @@
 [
   {
+    "urn": "urn:cts:greekLit:tlg5026.msAim.hmt:3.780",
+    "comment": "ὅτι ἡ μετὰ ἀντι τῆς ἐν ⁑",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol2018",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA051RN_0052@0.49705232,0.37275242,0.07350774,0.01175657"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:51r.3.460"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAim.hmt:4.788",
+    "comment": "επι θηλυκοῦ τάσσει αὐτὸ ὁ ποιητ  η αρηγών ⁑",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol2194",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA051RN_0052@0.51639646,0.66348548,0.05471629,0.02461964"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:51r.4.7"
+    ]
+  },
+  {
     "urn": "urn:cts:greekLit:tlg5026.msA.hmt:3.668",
     "lemma": "ἀποτινέμεν",
     "dse": {
@@ -41,7 +63,10 @@
     "dse": {
       "urn": "urn:cite2:hmt:va_dse.v1:schol2028",
       "image_roi": "urn:cite2:hmt:vaimg.2017a:VA051RN_0052@0.57148121,0.60733057,0.18570376,0.06721992"
-    }
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:51r.4.3"
+    ]
   },
   {
     "urn": "urn:cts:greekLit:tlg5026.msA.hmt:4.5",
@@ -73,7 +98,10 @@
     "dse": {
       "urn": "urn:cite2:hmt:va_dse.v1:schol2031",
       "image_roi": "urn:cite2:hmt:vaimg.2017a:VA051RN_0052@0.14277819,0.74896266,0.60740604,0.03734440"
-    }
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:51r.4.2"
+    ]
   },
   {
     "urn": "urn:cts:greekLit:tlg5026.msA.hmt:4.787",
@@ -81,7 +109,10 @@
     "dse": {
       "urn": "urn:cite2:hmt:va_dse.v1:schol2032",
       "image_roi": "urn:cite2:hmt:vaimg.2017a:VA051RN_0052@0.14388357,0.77261411,0.60740604,0.02572614"
-    }
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:51r.4.2"
+    ]
   },
   {
     "urn": "urn:cts:greekLit:tlg5026.msA.hmt:4.10",

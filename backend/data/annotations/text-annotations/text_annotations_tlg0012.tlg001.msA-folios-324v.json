@@ -1,5 +1,27 @@
 [
   {
+    "urn": "urn:cts:greekLit:tlg5026.msAint.hmt:24.14",
+    "comment": "γράφεται φερον",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol7228",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA324VN_0826@0.87,0.5135,0.05,0.042"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:324v.24.697"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAim.hmt:24.41",
+    "comment": "Ἀρισταρχ  ἑστεῶτ’ ⁑",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol7312",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA324VN_0826@0.432,0.5976,0.045,0.0323"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:324v.24.701"
+    ]
+  },
+  {
     "urn": "urn:cts:greekLit:tlg5026.msA.hmt:24.107",
     "lemma": "παρα δ' εἶσαν ἀοιδοὺς·",
     "dse": {

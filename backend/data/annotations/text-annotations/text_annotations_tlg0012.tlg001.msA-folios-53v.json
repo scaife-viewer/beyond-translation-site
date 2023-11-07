@@ -1,5 +1,60 @@
 [
   {
+    "urn": "urn:cts:greekLit:tlg5026.msAint.hmt:4.187",
+    "comment": "Ϊακῶς το πεφυκει",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol2265",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA053VN_0555@0.864,0.232,0.032,0.0263"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:53v.4.109"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAint.hmt:4.805",
+    "comment": "δεσμοί",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol2264",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA053VN_0555@0.841,0.6562,0.042,0.0143"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:53v.4.132"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAim.hmt:4.803",
+    "comment": "ουτ  δια τοῦ ε δια το μέτρον ⁑",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol2201",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA053VN_0555@0.42778187,0.38962656,0.04734709,0.01977870"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:53v.4.117"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAim.hmt:4.804",
+    "comment": "ουτ  μετα τοῦ τ ἤ τοι",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol2202",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA053VN_0555@0.43515107,0.61313970,0.05895357,0.01673582"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:53v.4.129"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAil.hmt:4.806",
+    "comment": "εμπεσείν",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol2244",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA053VN_0555@0.70449521,0.54730290,0.02358143,0.00663900"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:53v.4.126"
+    ]
+  },
+  {
     "urn": "urn:cts:greekLit:tlg5026.msA.hmt:4.185",
     "lemma": "‡ τοῦ κέρα·",
     "dse": {
@@ -17,7 +72,10 @@
     "dse": {
       "urn": "urn:cite2:hmt:va_dse.v1:schol2066",
       "image_roi": "urn:cite2:hmt:vaimg.2017a:VA053VN_0555@0.21499632,0.16307054,0.64277819,0.03443983"
-    }
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:53v.4.109"
+    ]
   },
   {
     "urn": "urn:cts:greekLit:tlg5026.msA.hmt:4.192",
@@ -27,7 +85,6 @@
       "image_roi": "urn:cite2:hmt:vaimg.2017a:VA053VN_0555@0.20781135,0.18630705,0.66156964,0.03941909"
     },
     "references": [
-      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:53v.4.112",
       "urn:cts:greekLit:tlg0012.tlg001.msA-folios:53v.4.113"
     ],
     "comment": "ἐπι τὸ τανυσσάμενος βραχὺ διασταλτέον πρὸς γὰρ τῇ γῇ ἀνέκλινεν αὐτὸ πρότερον ἐντείνας τὴν νευράν ⁑"
@@ -40,7 +97,6 @@
       "image_roi": "urn:cite2:hmt:vaimg.2017a:VA053VN_0555@0.33769344,0.20124481,0.54274134,0.02074689"
     },
     "references": [
-      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:53v.4.112",
       "urn:cts:greekLit:tlg0012.tlg001.msA-folios:53v.4.113"
     ],
     "comment": "πρὸς τῇ γῇ επερείσας ἑαυτόν δῆλον ὅτι τοῦ μὴ ὀραθῆναι ὑπο τῶν Ἑλλήνων ⁑"

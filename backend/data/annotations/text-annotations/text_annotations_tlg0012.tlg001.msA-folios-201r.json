@@ -1,5 +1,36 @@
 [
   {
+    "urn": "urn:cts:greekLit:tlg5026.msAint.hmt:15.39",
+    "comment": "ουτ  γραπτέον ὦδ' αύτως ,",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol5530",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA201RN_0372@0.11,0.4192,0.072,0.027"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:201r.15.513"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAim.hmt:15.59",
+    "comment": "οτ  το ωδ  αντ  τοῦ ουτ  ⁑",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol5641",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA201RN_0372@0.589,0.4027,0.034,0.0458"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:201r.15.513"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAil.hmt:15.27",
+    "comment": "αρμόζον ευμφέρον",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol5574",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA201RN_0372@0.383,0.1916,0.086,0.021"
+    },
+    "references": []
+  },
+  {
     "urn": "urn:cts:greekLit:tlg5026.msA.hmt:15.143",
     "lemma": "‡ ἐμβαδὸν ΐξεσθαι·",
     "dse": {
@@ -41,7 +72,10 @@
     "dse": {
       "urn": "urn:cite2:hmt:va_dse.v1:schol5808",
       "image_roi": "urn:cite2:hmt:vaimg.2017a:VA201RN_0372@0.602,0.4951,0.202,0.0563"
-    }
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:201r.15.12"
+    ]
   },
   {
     "urn": "urn:cts:greekLit:tlg5026.msA.hmt:15.147",

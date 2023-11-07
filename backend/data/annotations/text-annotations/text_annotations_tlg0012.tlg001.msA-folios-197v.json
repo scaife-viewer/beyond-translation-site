@@ -1,5 +1,58 @@
 [
   {
+    "urn": "urn:cts:greekLit:tlg5026.msAext.hmt:15.15",
+    "comment": "Μηκιστὴν δ'",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol5481",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA197VN_0699@0.134,0.4726,0.079,0.0278"
+    },
+    "references": []
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAint.hmt:15.30",
+    "comment": "γρ  καρτεροθυμων ⁑",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol5521",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA197VN_0699@0.855,0.3013,0.065,0.0255"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:197v.15.330"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAint.hmt:15.31",
+    "comment": "ἐμπελάσαντες ⁑",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol5522",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA197VN_0699@0.903,0.5883,0.039,0.0488"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:197v.15.344"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAim.hmt:15.45",
+    "comment": "οτ  γνωτὸς ὁ αδελφὸς καὶ Ἐριωπ  ον  κύριον :",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol5627",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA197VN_0699@0.444,0.4185,0.061,0.0406"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:197v.15.336"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAim.hmt:15.46",
+    "comment": "ἀντι τοῦ λαχεῖν ποιήσουσιν ⁑",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol5628",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA197VN_0699@0.419,0.6852,0.076,0.0293"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:197v.15.350"
+    ]
+  },
+  {
     "urn": "urn:cts:greekLit:tlg5026.msA.hmt:15.96",
     "lemma": "‡ τὸν μὲν Βοιωτῶν",
     "dse": {
@@ -54,7 +107,9 @@
       "urn": "urn:cite2:hmt:va_dse.v1:schol5762",
       "image_roi": "urn:cite2:hmt:vaimg.2017a:VA197VN_0699@0.224,0.4936,0.229,0.0518"
     },
-    "references": [],
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:197v.15.339"
+    ],
     "comment": "ὁμοίως τῷ ἐνθ' αῦτ' ἀγγελίην ἐπὶ Τυδῆ στεῖλαν Ἀχαιοί , καὶ ἥτοι ἀπεκόπη ἡ Μηκιστῇα αἰτιατικὴ ἡ Δορικῶς κέκλιται ὅπερ μοι δοκεῖ ⁑"
   },
   {
@@ -77,8 +132,6 @@
       "image_roi": "urn:cite2:hmt:vaimg.2017a:VA197VN_0699@0.249,0.7145,0.654,0.0421"
     },
     "references": [
-      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:197v.15.346",
-      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:197v.15.347",
       "urn:cts:greekLit:tlg0012.tlg001.msA-folios:197v.15.348"
     ],
     "comment": "ἡ συνήθεια συνάπτει . καὶ τὸ νηυσὶν ἐπισσεύεσθαι ἵνα ἡ μετάβασις ἡ ἀπο τοῦ διηγηματικοῦ ἐπι τὸ μιμητικὸν ἦ· ὃν δ ἂν ἐγὼν ἀπάνευθε ·"

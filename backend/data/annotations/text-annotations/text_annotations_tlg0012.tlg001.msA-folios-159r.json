@@ -1,5 +1,90 @@
 [
   {
+    "urn": "urn:cts:greekLit:tlg5026.msAint.hmt:12.G5",
+    "comment": "οτ  ἀντι τοῦ ἀποκρίναιτο :",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol4807",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA159RN_0330@0.1192,0.2008,0.0812,0.0316"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:159r.12.228"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAint.hmt:12.G6",
+    "comment": "παρα Ζηνοδ  νηυσὶν ὑπ Αργείων :",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol4808",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA159RN_0330@0.1032,0.5391,0.0832,0.0331"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:159r.12.246"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAil.hmt:12.G10",
+    "comment": "αντι τοῦ ἀπεκρίνατο ἐξηγούμενος τὸ σημεῖον",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol4930",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA159RN_0330@0.2672,0.1907,0.2182,0.0256"
+    },
+    "references": []
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAil.hmt:12.G500",
+    "comment": "οἰωνιστ",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol4931",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA159RN_0330@0.4481,0.205,0.0283,0.0075"
+    },
+    "references": []
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAil.hmt:12.G11",
+    "comment": "ἀπο κρίσεως",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol4932",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA159RN_0330@0.3842,0.2906,0.0725,0.0175"
+    },
+    "references": []
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAil.hmt:12.G13",
+    "comment": "προς δυσμάς",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol4933",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA159RN_0330@0.3972,0.4258,0.0688,0.0158"
+    },
+    "references": []
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAil.hmt:12.G14",
+    "comment": "ἐν τῇ μάχη καρτερικός",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol4934",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA159RN_0330@0.3582,0.5566,0.1001,0.0158"
+    },
+    "references": []
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAil.hmt:12.G15",
+    "comment": "παραλογισάμενος",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol4935",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA159RN_0330@0.2115,0.5932,0.085,0.0134"
+    },
+    "references": []
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAil.hmt:12.G16",
+    "comment": "πληγεὶς",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol4936",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA159RN_0330@0.3847,0.6167,0.0401,0.013"
+    },
+    "references": []
+  },
+  {
     "urn": "urn:cts:greekLit:tlg5026.msA.hmt:12.G13",
     "lemma": "τὸν δ ὰρ ὑπόδρα ἰδὼν ,",
     "dse": {

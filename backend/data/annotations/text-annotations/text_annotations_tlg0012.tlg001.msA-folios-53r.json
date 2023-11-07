@@ -1,5 +1,27 @@
 [
   {
+    "urn": "urn:cts:greekLit:tlg5026.msAint.hmt:4.165",
+    "comment": "προς το σχημ  ὅτι ἀντι τοῦ ἐπι τὸν Μενελαον ⁑",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol2169",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA053RN_0054@0.09966839,0.52531120,0.05987472,0.04177040"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:53r.4.100"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAim.hmt:4.800",
+    "comment": "οτ  απο τῆς Τρωϊκης Λυκίας εξ' εστ  ὁ Πάνδαρος ⁑",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol2200",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA053RN_0054@0.53242447,0.54619640,0.03371408,0.02655602"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:53r.4.101"
+    ]
+  },
+  {
     "urn": "urn:cts:greekLit:tlg5026.msA.hmt:4.139",
     "lemma": "‡ Πάνδαρον ἀντίθεον διζημένη·",
     "dse": {
@@ -77,7 +99,10 @@
     "dse": {
       "urn": "urn:cite2:hmt:va_dse.v1:schol2061",
       "image_roi": "urn:cite2:hmt:vaimg.2017a:VA053RN_0054@0.14701548,0.69419087,0.60298452,0.03485477"
-    }
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:53r.4.99"
+    ]
   },
   {
     "urn": "urn:cts:greekLit:tlg5026.msA.hmt:4.169",

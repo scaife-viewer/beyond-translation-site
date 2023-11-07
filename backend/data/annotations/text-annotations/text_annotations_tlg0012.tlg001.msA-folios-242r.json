@@ -1,5 +1,60 @@
 [
   {
+    "urn": "urn:cts:greekLit:tlg5026.msAint.hmt:18.13",
+    "comment": "ἐν αλλ  οὐδ' ἀρα",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol6169",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA242RN_0413@0.147,0.1908,0.056,0.0301"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:242r.18.151"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAint.hmt:18.14",
+    "comment": "τῶν τοις Τρωσὶ συμμαχούντων ⁑",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol6170",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA242RN_0413@0.134,0.5214,0.061,0.0233"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:242r.18.168"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAint.hmt:18.15",
+    "comment": "Ἀρισταρχ  κατ  γενικ  Πατροκλου · ⁑",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol6171",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA242RN_0413@0.138,0.58,0.055,0.0301"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:242r.18.171"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAint.hmt:18.16",
+    "comment": "προς παροξυσμὸν τοῦ Ἀχιλλέως οὐ γὰρ ἄλλον τὸν σπουδάζοντ  ἢ τὸν ἀνελοντ  . ⁑",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol6172",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA242RN_0413@0.143,0.6514,0.145,0.0406"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:242r.18.175"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAim.hmt:18.20",
+    "comment": "κατα τὴν μάχην ἀπο τοῦ ομοῦ θεῖν ⁑",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol6272",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA242RN_0413@0.59,0.3486,0.051,0.0376"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:242r.18.159"
+    ]
+  },
+  {
     "urn": "urn:cts:greekLit:tlg5026.msA.hmt:18.60",
     "lemma": "τρὶς μέν μιν μετόπισθε",
     "dse": {
@@ -7,10 +62,6 @@
       "image_roi": "urn:cite2:hmt:vaimg.2017a:VA242RN_0413@0.186,0.0744,0.662,0.1059"
     },
     "references": [
-      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:242r.18.154",
-      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:242r.18.155",
-      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:242r.18.156",
-      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:242r.18.157",
       "urn:cts:greekLit:tlg0012.tlg001.msA-folios:242r.18.158"
     ],
     "comment": "ὅτι Ζηνόδοτος γράφει οὕτως· Ἕκτωρ τὲ Πριάμοιο σὺῒ ΐκελος ἀλκὴν  , ὅς μιν τρὶς μετόπισθε ποδῶν λάβε καὶ μέγ' ἀϋτει ἐλκέμεναι μεμαώς κεφαλὴν δέ ἑ θυμὸς ἀνώγει πῆξαι ἀνα σκόλοπας οἳ τάμονθ' ἁπαλῆς ἀπο δειρῆς κακῶς οὐ γὰρ ὑπο τοῦ τὸν καιρὸν ὁ Ἕκτωρ ελκύσαι τὸν Πάτροκλον ἐβούλετο ἵνα αἰκίσηται ἀλλ' έμπροσθεν· ὅτε δὲ Γλαῦκος ὠνείδισεν τῷ προλελοιπότι τὸ σῶμα τοῦ Σαρπηδόνος τοῖς Ἀχαιοῖς , τότε ἑλκῦσαι φιλοτιμεῖται τὸν Πάτροκλον εἰς ἀντικατάλλαξιν τοῦ Σαρπηδόνος οὐκ εις αἰκείαν· ὅταν με̏ν οὖν ὕστερον , ῆ Ἶ̈ρις εἴπῃ τῷ Ἀχιλλεῖ ὅτι βούλεται ὁ Ἕκτωρ τὸν Πάτροκλον αἰκίσασθαι . νοητέον μή τ' ἀληθὲς ὑποφαίνειν ἀλλα παρορμῆσαι αὐτὸν εἰς τὴν κατὰ τῶν βαρβάρων ὀργήν ⁑"
@@ -59,9 +110,6 @@
       "image_roi": "urn:cite2:hmt:vaimg.2017a:VA242RN_0413@0.17,0.6897,0.633,0.0526"
     },
     "references": [
-      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:242r.18.174",
-      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:242r.18.175",
-      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:242r.18.176",
       "urn:cts:greekLit:tlg0012.tlg001.msA-folios:242r.18.177"
     ],
     "comment": "ὅτι Ζηνόδοτος γράφει Ἴ̈λιον αἰπὺ θέλοντες· καὶ τοὺς ἑξῆς ἀπο τοῦ ελκέμεναι μέμονεν ἕως τοῦ πῆξαι ἀνα σκολότεσσιν . ἄνω μετατέθεικεν· ὁ μὲν οὖν Ἕκτωρ οὐκέτι ταύτην ἔχει τὴν ὁρμὴν ὡς προείρητ  ἡ δε Ἶρις ὡς προς τὸ διεγεῖραι τὸν Ἀχιλλέα ταῦτα κελεύει καὶ οὐδεποτε κατὰ τὸ οὐδέτερον λέγει Ί̈λιον ⁑"

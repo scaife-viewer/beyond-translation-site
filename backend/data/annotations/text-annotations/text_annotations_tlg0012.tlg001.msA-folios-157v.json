@@ -1,5 +1,121 @@
 [
   {
+    "urn": "urn:cts:greekLit:tlg5026.msAim.hmt:12.E3",
+    "comment": "τοῖς ἀπο τοῦ τείχους όχλοις θαρροῦντες",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol4982",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA157VN_0659@0.4355,0.2614,0.1326,0.0092"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:157v.12.153"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAim.hmt:12.E4",
+    "comment": "ὅτι λείπει ἡ ὑπὸ πρόθεσις",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol4983",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA157VN_0659@0.4345,0.304,0.0706,0.011"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:157v.12.155"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAim.hmt:12.E5",
+    "comment": "οὔτως διὰ τοῦ ο ῥέον ὁμηρικὸν τὸ σχημα :",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol4984",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA157VN_0659@0.4332,0.3876,0.0662,0.0211"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:157v.12.161"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAim.hmt:12.E6",
+    "comment": "Αρισταρχος βαλλομενων ἄλλοι δὲ βαλλόμεναι :",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol4985",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA157VN_0659@0.4426,0.4228,0.0789,0.0237"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:157v.12.161"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAil.hmt:12.E10",
+    "comment": "ἐκτύπει",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol4881",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA157VN_0659@0.5865,0.2182,0.041,0.0108"
+    },
+    "references": []
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAil.hmt:12.E11",
+    "comment": "βίαιος",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol4882",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA157VN_0659@0.636,0.3362,0.0272,0.0096"
+    },
+    "references": []
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAil.hmt:12.E13",
+    "comment": "τραχέσσι λίθοις",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol4883",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA157VN_0659@0.6424,0.4137,0.0618,0.0096"
+    },
+    "references": []
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAil.hmt:12.E14",
+    "comment": "δεινοπαθήσας",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol4884",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA157VN_0659@0.7358,0.4504,0.0618,0.0096"
+    },
+    "references": []
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAil.hmt:12.E15",
+    "comment": "φωλεούς",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol4885",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA157VN_0659@0.5336,0.5438,0.0435,0.0104"
+    },
+    "references": []
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAil.hmt:12.E17",
+    "comment": "χωρισθῆναι",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol4886",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA157VN_0659@0.5519,0.6232,0.0578,0.0108"
+    },
+    "references": []
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAil.hmt:12.E18",
+    "comment": "ε",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol4970",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA157VN_0659@0.7549,0.3985,0.0078,0.0073"
+    },
+    "references": []
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAil.hmt:12.E19",
+    "comment": "αι",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol4971",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA157VN_0659@0.6017,0.4173,0.0191,0.0077"
+    },
+    "references": []
+  },
+  {
     "urn": "urn:cts:greekLit:tlg5026.msA.hmt:12.E10",
     "lemma": "‡ λαοῖσιν καθύπερθε·",
     "dse": {
@@ -79,7 +195,6 @@
       "image_roi": "urn:cite2:hmt:vaimg.2017a:VA157VN_0659@0.2503,0.6154,0.2192,0.0367"
     },
     "references": [
-      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:157v.12.169",
       "urn:cts:greekLit:tlg0012.tlg001.msA-folios:157v.12.170"
     ],
     "comment": "τὸ θηρητῆρας ἑκατέρωσε δύναται προσνέμεσθαι ⁑"

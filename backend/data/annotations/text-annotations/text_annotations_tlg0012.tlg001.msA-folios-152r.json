@@ -1,5 +1,90 @@
 [
   {
+    "urn": "urn:cts:greekLit:tlg5026.msAext.hmt:11.17",
+    "comment": "Ποσειδάωνι",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol4195",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA152RN_0324@0.801,0.2018,0.063,0.0203"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:152r.11.728"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAim.hmt:11.86",
+    "comment": "γράφεται διαπραθέσιν",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol4560",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA152RN_0324@0.5475,0.2968,0.0721,0.015"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:152r.11.733"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAil.hmt:11.335",
+    "comment": "ποτ",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol4460",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA152RN_0324@0.29,0.1935,0.023,0.0165"
+    },
+    "references": []
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAil.hmt:11.336",
+    "comment": "ἐν αγέλη έτι ούσαν ἀδάμαστ",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol4461",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA152RN_0324@0.489,0.2153,0.104,0.0165"
+    },
+    "references": []
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAil.hmt:11.337",
+    "comment": "οπότε",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol4462",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA152RN_0324@0.202,0.3361,0.029,0.0105"
+    },
+    "references": []
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAil.hmt:11.338",
+    "comment": "ὑπερέσχε συνεμάχησε :",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol4463",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA152RN_0324@0.4,0.3308,0.12,0.0173"
+    },
+    "references": []
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAil.hmt:11.339",
+    "comment": "άμα συνηνέχθημεν",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol4464",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA152RN_0324@0.179,0.3526,0.095,0.0143"
+    },
+    "references": []
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAil.hmt:11.340",
+    "comment": "τοῖς οδοῦσι τὴν γην έδακον θνήσκοντες ⁑",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol4465",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA152RN_0324@0.238,0.5956,0.178,0.018"
+    },
+    "references": []
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAil.hmt:11.341",
+    "comment": "ε",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol4466",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA152RN_0324@0.467,0.6227,0.01,0.0083"
+    },
+    "references": []
+  },
+  {
     "urn": "urn:cts:greekLit:tlg5026.msA.hmt:11.275",
     "lemma": "‡ ταῦρον δ' Ἀλφειῷ , ταῦρον δὲ Ποσειδῶνι :",
     "dse": {

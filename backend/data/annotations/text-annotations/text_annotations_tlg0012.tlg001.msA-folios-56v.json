@@ -1,5 +1,71 @@
 [
   {
+    "urn": "urn:cts:greekLit:tlg5026.msAext.hmt:4.1002",
+    "comment": "δαὶθ' ὅτε",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol2268",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA056VN_0558@0.089,0.2335,0.075,0.0263"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:56v.4.259"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAim.hmt:4.831",
+    "comment": "Αρισταρχ  ἑνικως ἐνι κρητηρι",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol2213",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA056VN_0558@0.42317612,0.24854772,0.04753132,0.02849239"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:56v.4.260"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAim.hmt:4.832",
+    "comment": "Ἀρισταρχ  ἔοντι :",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol2214",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA056VN_0558@0.44565217,0.57192254,0.03297716,0.01908714"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:56v.4.277"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAim.hmt:4.833",
+    "comment": "ἡ ετερα τῶν Ἀρισταρχ  βεβρισθυῖαι εῖχεν ⁑",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol2215",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA056VN_0558@0.43865144,0.66860304,0.05140015,0.02738589"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:56v.4.282"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAil.hmt:4.834",
+    "comment": "μεταφορὰ",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol2246",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA056VN_0558@0.71757553,0.50000000,0.03666175,0.00871369"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:56v.4.274"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAil.hmt:4.835",
+    "comment": "πεπυκνωμεναι :",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol2247",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA056VN_0558@0.81245394,0.65062241,0.05913780,0.00746888"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:56v.4.282"
+    ]
+  },
+  {
     "urn": "urn:cts:greekLit:tlg5026.msA.hmt:4.451",
     "lemma": "ἐπεὶ σύν γ' ὄρκι' ἔχευαν·",
     "dse": {

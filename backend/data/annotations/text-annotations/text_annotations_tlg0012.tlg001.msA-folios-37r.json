@@ -1,5 +1,38 @@
 [
   {
+    "urn": "urn:cts:greekLit:tlg5026.msAext.hmt:2.685",
+    "comment": "Γόρτυνά τε",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol1777",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA037RN_0038@0.7692,0.2969,0.0596,0.0219"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:37r.2.646"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAext.hmt:2.687",
+    "comment": "ὄζος",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol1778",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA037RN_0038@0.8183,0.6145,0.0321,0.0153"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:37r.2.663"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAint.hmt:2.684",
+    "comment": "ἐπι τοῦ Θόαντος ἵν ῆ τούτω·",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol1608",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA037RN_0038@0.0862,0.2275,0.0654,0.0275"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:37r.2.643"
+    ]
+  },
+  {
     "urn": "urn:cts:greekLit:tlg5026.msA.hmt:2.673",
     "lemma": "Φαιστόν ·",
     "dse": {

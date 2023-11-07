@@ -1,5 +1,27 @@
 [
   {
+    "urn": "urn:cts:greekLit:tlg5026.msAint.hmt:4.791",
+    "comment": "' πάρεστι",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol2167",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA051VN_0553@0.86366986,0.26569848,0.03260870,0.01479945"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:51v.4.11"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAim.hmt:4.789",
+    "comment": "Ἀρισταρχ  εἰ δ' αὖ πωσι",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol2195",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA051VN_0553@0.44288873,0.37814661,0.03868828,0.01964039"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:51v.4.17"
+    ]
+  },
+  {
     "urn": "urn:cts:greekLit:tlg5026.msA.hmt:4.32",
     "lemma": "εἰ δ' αὕτως .",
     "dse": {

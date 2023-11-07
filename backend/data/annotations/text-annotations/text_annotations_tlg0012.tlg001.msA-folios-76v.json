@@ -1,5 +1,27 @@
 [
   {
+    "urn": "urn:cts:greekLit:tlg5026.msAim.hmt:5.4049",
+    "comment": "ἔν τισι γράφεται ὀπίσσωτρα δια τοῦ ω ⁑",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol2399",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA076VN_0579@0.391672807663965,0.462793914246196,0.05379513633014,0.0381742738589212"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:76v.5.725"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAim.hmt:5.4050",
+    "comment": "ὅτι ὅταν εἴπῃ ἐν πρώτῳ ῥυμῷ τῷ άκρω λέγει εἷς γὰρ ἐστι ῥυμος τὸ δὲ πέλεν ἀντι τοῦ πέλει ⁑",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol2400",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA076VN_0579@0.385040530582167,0.545228215767635,0.0622697126013265,0.0716459197786999"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:76v.5.729"
+    ]
+  },
+  {
     "urn": "urn:cts:greekLit:tlg5026.msA.hmt:5.4010",
     "lemma": "κύκλα·",
     "dse": {
@@ -89,7 +111,10 @@
     "dse": {
       "urn": "urn:cite2:hmt:va_dse.v1:schol2368",
       "image_roi": "urn:cite2:hmt:vaimg.2017a:VA076VN_0579@0.170228445099484,0.610788381742739,0.223286661753869,0.0367911479944675"
-    }
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:76v.5.729"
+    ]
   },
   {
     "urn": "urn:cts:greekLit:tlg5026.msA.hmt:5.4019",

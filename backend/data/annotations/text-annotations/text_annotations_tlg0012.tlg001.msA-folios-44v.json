@@ -1,5 +1,71 @@
 [
   {
+    "urn": "urn:cts:greekLit:tlg5026.msAint.hmt:3.241",
+    "comment": "ασυναλνπτως τῷ γηραϊ αναγνωστεον ⁑",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol1935",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA044VN_0546@0.85519528,0.65076072,0.03095063,0.05172891"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:44v.3.150"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAim.hmt:3.706",
+    "comment": "απο τοῦ ηνται διαλ",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol1984",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA044VN_0546@0.43551953,0.36279391,0.04900516,0.00899032"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:44v.3.134"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAim.hmt:3.707",
+    "comment": "ὅτι περισσὸς ὁ κε καὶ ὅτι πτῶσις ἐνήλλακτ  ἀντι τοῦ δε νικήσαντος ⁑",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol1985",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA044VN_0546@0.43404569,0.43430152,0.06005895,0.03872752"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:44v.3.138"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAim.hmt:3.708",
+    "comment": "‡ καὶ γηρεϊ ὡς οὐδεϊ",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol1986",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA044VN_0546@0.43257185,0.66044260,0.06153279,0.00968188"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:44v.3.150"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAim.hmt:3.709",
+    "comment": "διασταλτεον βραχυ επι εσθλοὶ την γὰρ ἐπιτασιν μαλλον εμφαίνει ⁑",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol1987",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA044VN_0546@0.44970523,0.67372061,0.03813559,0.04536653"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:44v.3.151"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAil.hmt:3.704",
+    "comment": "θειά",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol1964",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA044VN_0546@0.67943994,0.27800830,0.10058954,0.02226833"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:44v.3.130"
+    ]
+  },
+  {
     "urn": "urn:cts:greekLit:tlg5026.msA.hmt:3.206",
     "lemma": "‡ οὕς ἔθεν",
     "dse": {
@@ -19,10 +85,6 @@
       "image_roi": "urn:cite2:hmt:vaimg.2017a:VA044VN_0546@0.22641857,0.16334716,0.64830508,0.02821577"
     },
     "references": [
-      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:44v.3.130",
-      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:44v.3.131",
-      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:44v.3.132",
-      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:44v.3.133",
       "urn:cts:greekLit:tlg0012.tlg001.msA-folios:44v.3.134"
     ],
     "comment": "εἶτα ἀπο ἄλλης ἀρχῆς . ἀσύνδετα γὰρ πρὸς τὰ ἐπάνω· διὸ τελεία στικτέον· ὑποστικτέον δὲ ἐν ὑποκρίσει ἀνταποδοτικῆς οὔσης τῆς περιόδου ὑποτακτικοῦ δὲ τοῦ προτέρου οι τοῦ δὲ δευτέρου ἀντωνυμίαν δηλοῦντος ⁑"
@@ -83,7 +145,6 @@
       "image_roi": "urn:cite2:hmt:vaimg.2017a:VA044VN_0546@0.23305085,0.78907331,0.64333088,0.05767635"
     },
     "references": [
-      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:44v.3.151",
       "urn:cts:greekLit:tlg0012.tlg001.msA-folios:44v.3.152"
     ],
     "comment": "ἀρσενικῶς οἱ γὰρ άρσενες μόνοι τεττιγες ἄδουσιν· τούτοις δὲ παρείκασεν τοὺς γέροντας· άναιμον γὰρ καὶ ψυχρὸν τὸ ζῷον ἐπί τε τείχους κάθηντα ⁑"

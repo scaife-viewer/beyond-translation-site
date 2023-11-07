@@ -1,5 +1,38 @@
 [
   {
+    "urn": "urn:cts:greekLit:tlg5026.msAim.hmt:4.875",
+    "comment": "τὸ ἑξῆς πλευρὰ οὔτησε τα δε λοιπ  δια μέσου ⁑",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol2236",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA060VN_0562@0.41120118,0.37219917,0.05895357,0.04232365"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:60v.4.468"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAim.hmt:4.876",
+    "comment": "τὸ εἱαμενὴ δασυντεον ἀπο τῆς έσεως :",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol2237",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA060VN_0562@0.43367723,0.65338866,0.04126750,0.02724758"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:60v.4.483"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAil.hmt:4.877",
+    "comment": "ποώδη τόπω",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol2256",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA060VN_0562@0.57184967,0.64591978,0.04495210,0.00802213"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:60v.4.484"
+    ]
+  },
+  {
     "urn": "urn:cts:greekLit:tlg5026.msA.hmt:4.697",
     "lemma": "‡ τὸν δὲ πεσόντα·",
     "dse": {
@@ -19,7 +52,6 @@
       "image_roi": "urn:cite2:hmt:vaimg.2017a:VA060VN_0562@0.21149595,0.13485477,0.60298452,0.02863071"
     },
     "references": [
-      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:60v.4.465",
       "urn:cts:greekLit:tlg0012.tlg001.msA-folios:60v.4.466"
     ],
     "comment": "διαστολῆ βραχεῖα βελεών· τἄλλα δὲ συναπτέον λελιημενος ὄφρα τάχιστα ⁑"

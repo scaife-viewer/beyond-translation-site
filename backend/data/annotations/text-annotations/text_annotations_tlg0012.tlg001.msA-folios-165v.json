@@ -1,5 +1,82 @@
 [
   {
+    "urn": "urn:cts:greekLit:tlg5026.msAext.hmt:13.165v1",
+    "comment": "νερθε δὲ ποσσὶν",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol8401",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA165VN_0667@0.1339,0.2538,0.08861,0.02296"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:165v.13.78"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAint.hmt:13.165v1",
+    "comment": "νερθε δὲ ποσσὶν ⁑",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol8399",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA165VN_0667@0.8633,0.2534,0.04643,0.03057"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:165v.13.78"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAim.hmt:13.165v1",
+    "comment": "ὅτι  ἐλλειπ ἡ επι ἵν' ῆ επι  χαρμ ⁑",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol8395",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA165VN_0667@0.4151,0.3376,0.06522,0.03306"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:165v.13.82"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAim.hmt:13.165v2",
+    "comment": "πρὸς τὸ  σχημ ὅτι ὡς σπάρτα λέλυνται ⁑",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol8396",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA165VN_0667@0.4129,0.4021,0.06411,0.03361"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:165v.13.85"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAim.hmt:13.165v3",
+    "comment": "δια τοῦ ο Ἀριστοφάνης πηνέλεον ⁑",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol8397",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA165VN_0667@0.4123,0.5339,0.06964,0.03015"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:165v.13.92"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAim.hmt:13.165v4",
+    "comment": "ἔμφασιν ἔχει πλείονα τὸ κοῦροι  χωριζόμεν τοῦ νέοι ⁑ ⁑",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol8398",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA165VN_0667@0.4188,0.5929,0.06632,0.05602"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:165v.13.95"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAil.hmt:13.165v1",
+    "comment": "μετελθῶν παραγενόμενος ⁑",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol8400",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA165VN_0667@0.5667,0.4858,0.1046,0.01286"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:165v.13.90"
+    ]
+  },
+  {
     "urn": "urn:cts:greekLit:tlg5026.msA.hmt:13.165v1",
     "lemma": "‡ χάρμη γηθόσυνοι",
     "dse": {

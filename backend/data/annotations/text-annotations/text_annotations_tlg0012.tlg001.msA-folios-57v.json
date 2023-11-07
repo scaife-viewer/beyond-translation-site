@@ -1,5 +1,60 @@
 [
   {
+    "urn": "urn:cts:greekLit:tlg5026.msAim.hmt:4.844",
+    "comment": "οτ  οἱ Γλωσσογράφοι ὁμοίϊον τὸ κακόν :",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol2217",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA057VN_0559@0.41820192,0.35159059,0.05047900,0.02130014"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:57v.4.315"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAim.hmt:4.845",
+    "comment": "ουτ  Ἠρωδιανὸς μετα τοῦ ν κατέκταν :",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol2218",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA057VN_0559@0.41985999,0.42088520,0.05526898,0.02406639"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:57v.4.319"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAim.hmt:4.846",
+    "comment": "Ἀρισταρχ  γῆρας ὀπάζει ἐπείγει ἐλαύνει ἀπο δε τοῦ κατοπιν ἐσχημάτισται ⁑",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol2219",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA057VN_0559@0.42649226,0.46182573,0.05379514,0.04550484"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:57v.4.321"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAim.hmt:4.847",
+    "comment": "ουτ  Ἀρίσταρχ  Ϊακῶς ἐστήκει ⁑",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol2220",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA057VN_0559@0.43238762,0.61396957,0.04255711,0.02614108"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:57v.4.329"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAim.hmt:4.848",
+    "comment": "Ἀρίσταρχ  χωρὶς τοῦ θ Τρώων ἱπποδάμων ·  δὲ Αχαιῶν άμεινον ακούειν ἐπ Αχαιούς ⁑",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol2221",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA057VN_0559@0.43091378,0.68243430,0.11016949,0.03112033"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:57v.4.333"
+    ]
+  },
+  {
     "urn": "urn:cts:greekLit:tlg5026.msA.hmt:4.499",
     "lemma": "‡ ὡς ὁ γερων ὤτρυνε·",
     "dse": {

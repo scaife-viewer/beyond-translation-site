@@ -1,5 +1,82 @@
 [
   {
+    "urn": "urn:cts:greekLit:tlg5026.msAext.hmt:6.300",
+    "comment": "οτι εις ὁ κειται",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol2799",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA090VN_0593@0.08,0.2568,0.034,0.0511"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:90v.6.511"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAint.hmt:6.205",
+    "comment": "αντι ἀγλαΐηφι πεποιθότα ⁑",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol2712",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA090VN_0593@0.83714075,0.31950207,0.04882093,0.02074689"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:90v.6.511"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAim.hmt:6.278",
+    "comment": "μετέβη τὴν πτῶσιν τὸ γὰρ ἑ αὐτὸν σημαίνει ⁑",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol2765",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA090VN_0593@0.40456890,0.35560166,0.05305822,0.03319502"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:90v.6.511"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAim.hmt:6.279",
+    "comment": "διασταλτεον ἐπι τὸ ηλέκτωρ λάμπειν γὰρ αὐτὸν φησιν ὡς ἥλιον ⁑",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol2766",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA090VN_0593@0.39959469,0.39806362,0.06208548,0.03554633"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:90v.6.513"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAim.hmt:6.280",
+    "comment": "τὸ η πευστικως καὶ ἡθικῶς ⁑",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol2767",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA090VN_0593@0.40899042,0.49308437,0.04955785,0.01894882"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:90v.6.518"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAim.hmt:6.281",
+    "comment": "ἀλλ ἐπεῖ ἀλκιμός εσσι ἑκῶν μεθίεις ⁑",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol2768",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA090VN_0593@0.41396463,0.56901798,0.04863670,0.02821577"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:90v.6.522"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAim.hmt:6.282",
+    "comment": "βραχὺ διασταλ  ἐπι τὸ δῴη θεοῖς γὰρ κρατηρα τήσασθαι λέγει ⁑",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol2769",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA090VN_0593@0.41267502,0.66154910,0.05913780,0.04218534"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:90v.6.527"
+    ]
+  },
+  {
     "urn": "urn:cts:greekLit:tlg5026.msA.hmt:6.149",
     "lemma": "‡ ὡς δ' ὅτε τις στατος",
     "dse": {
@@ -7,11 +84,6 @@
       "image_roi": "urn:cite2:hmt:vaimg.2017a:VA090VN_0593@0.17759764,0.12130014,0.68644068,0.05477178"
     },
     "references": [
-      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:90v.6.506",
-      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:90v.6.507",
-      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:90v.6.508",
-      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:90v.6.509",
-      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:90v.6.510",
       "urn:cts:greekLit:tlg0012.tlg001.msA-folios:90v.6.511"
     ],
     "comment": "καὶ τούτοις ὁμοίοις ἀστερίσκοι παράκεινται οτι την παραβολὴν όλην ἐπι Ἔκτορος βληθέντος λίθῳ ὑπ Αἵαντος μετήνεγκεν ἐντεῦθεν~ ἡ δὲ διπλη προς τὸ ἀκοστήσας ὅτι ἄλλοι ἄλλως ἀπέδωκαν ἔστι δε ἥτοι ἐν αχει γενόμενος δια την στάσιν ἠ ακος τϊ καὶ βοήθημα της στάσεως ζητῶν ⁑"
@@ -46,7 +118,10 @@
     "dse": {
       "urn": "urn:cite2:hmt:va_dse.v1:schol2666",
       "image_roi": "urn:cite2:hmt:vaimg.2017a:VA090VN_0593@0.32240236,0.21092669,0.34985262,0.01535270"
-    }
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:90v.6.507"
+    ]
   },
   {
     "urn": "urn:cts:greekLit:tlg5026.msA.hmt:6.153",
@@ -114,7 +189,10 @@
     "dse": {
       "urn": "urn:cite2:hmt:va_dse.v1:schol2672",
       "image_roi": "urn:cite2:hmt:vaimg.2017a:VA090VN_0593@0.20965365,0.55809129,0.20596905,0.12946058"
-    }
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:90v.6.518"
+    ]
   },
   {
     "urn": "urn:cts:greekLit:tlg5026.msA.hmt:6.160",

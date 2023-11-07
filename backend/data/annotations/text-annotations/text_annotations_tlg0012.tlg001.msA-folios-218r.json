@@ -1,5 +1,36 @@
 [
   {
+    "urn": "urn:cts:greekLit:tlg5026.msAint.hmt:16.218r1",
+    "comment": "τρίτη ἀπο τελους ἡ οξεῖα κύριον γὰρ ⁑",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol7779",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA218RN_0389@0.1129,0.2369,0.08235,0.04302"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:218r.16.604"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAim.hmt:16.218r1",
+    "comment": "ἐν αλλῳ δώιης ⁑",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol7840",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA218RN_0389@0.5779,0.6004,0.04090,0.02089"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:218r.16.625"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAil.hmt:16.218r1",
+    "comment": "ἀπέπεμψε",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol7798",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA218RN_0389@0.4000,0.4107,0.04053,0.01051"
+    },
+    "references": []
+  },
+  {
     "urn": "urn:cts:greekLit:tlg5026.msA.hmt:16.218r1",
     "lemma": "ἔγχεος ἔνθ'αδ' ἔπειτ' :",
     "dse": {

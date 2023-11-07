@@ -1,5 +1,79 @@
 [
   {
+    "urn": "urn:cts:greekLit:tlg5026.msAint.hmt:17.16",
+    "comment": "κυνηγοί~ ἀπο τοῦ ἐπα̋γειν τοὺς κύνας ⁑",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol5884",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA226RN_0397@0.108,0.3704,0.069,0.0466"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:226r.17.135"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAint.hmt:17.17",
+    "comment": "ἑξω τοῦ ϊ",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol5885",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA226RN_0397@0.105,0.4545,0.049,0.027"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:226r.17.139"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAim.hmt:17.15",
+    "comment": "οτ  χω  τοῦ ϊ ἑστήκει",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol5958",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA226RN_0397@0.532,0.3366,0.08,0.0173"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:226r.17.133"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAim.hmt:17.16",
+    "comment": "ουτ  Αριστ  αλλοι δὲ σαώσῃς διὰ  τοῦ η ⁑",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol5959",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA226RN_0397@0.574,0.5222,0.042,0.0391"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:226r.17.144"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAim.hmt:17.17",
+    "lemma": "σχέτλι'",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol5960",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA226RN_0397@0.184,0.6634,0.341,0.0293"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:226r.17.151"
+    ],
+    "comment": "αγνοοῦσι τὰ ᾠκονομημένα πε  τοῦ Σαρπηδόνος Ἀπόλλωνι ⁑"
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAil.hmt:17.14",
+    "comment": "αντ  ἐγγύς",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol5923",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA226RN_0397@0.266,0.2352,0.043,0.0135"
+    },
+    "references": []
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAil.hmt:17.15",
+    "comment": "τὸ υπ  τὰς ὀφρῦς δέρμα :",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol5924",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA226RN_0397@0.279,0.3914,0.1,0.0128"
+    },
+    "references": []
+  },
+  {
     "urn": "urn:cts:greekLit:tlg5026.msA.hmt:17.53",
     "lemma": "ἕλχ' ΐν’ ἀπ ώμοιϊν :",
     "dse": {
@@ -31,8 +105,6 @@
       "image_roi": "urn:cite2:hmt:vaimg.2017a:VA226RN_0397@0.608,0.1833,0.197,0.2231"
     },
     "references": [
-      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:226r.17.134",
-      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:226r.17.135",
       "urn:cts:greekLit:tlg0012.tlg001.msA-folios:226r.17.136"
     ],
     "comment": "παρα Ζηνοδότῳ καὶ ἐν τῇ Χίᾳ οὐκ’ ἦσαν οἱ Γ στίχοι ἴσως φασὶν ἕνιοι ὅτι οἱ ἄρσενες λέοντες οὐ σκυμναγωγοῦσιν ἀλλὰ θήλειαι μόναι . κατa δὲ τὸ ἀρσενικὸν καὶ ἐπι τῆς θηλείας τέτακται ὁ λέων καὶ ἔστιν ἐπίκοινον~ ἔστι γάρ τινα ὀνόματα ἀρσενικὰ ἃ καὶ επι θηλυκῶν τάσσεται καὶ θηλυκὰ ἃ καὶ επ αρσενικῶν οἷον ἱέραξ μὲν καὶ ἐπ άρσενος και θηλείας τάσσεται~ πάρδαλις δὲ θηλυκὸν ὄνομα καὶ ἐπ ἀρσενικος τίθεται~ οὐκ οὖν κατα μὲν τὴν ἡμετέραν συνήθειαν λέων μὲν λέγεται ὁ ἄρσην λέαινα δὲ ἡ θήλεια~ κατ  δὲ τὸν Ὅμηρον μήπω τὴν λέαιναν εἴθισται ἀλλα τὸ ἀρσενικὸν μόνον διὸ εἲπιν ἀρσενικῷ ἄρθρῳ χρώμενον~ ᾧ ῥά τε νήπι' ἄγοντι οὐχὶ ᾔ ρα τε νήπι' ἀγούσῃ ὁ δὲ Ἀντίμαχος ἐκ τούτου πλανηθεὶς , ᾠήθη καὶ τὸν ἄρσενα σκυμναγωγεῖν~ τὸ μέγεθος δὲ Αἴαντος ὑποφαινει ἡ παραβοων ⁑"

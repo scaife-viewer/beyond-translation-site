@@ -1,5 +1,71 @@
 [
   {
+    "urn": "urn:cts:greekLit:tlg5026.msAint.hmt:6.164",
+    "comment": "οτι πρώτῳ αντι τοῦ ἄκρω καὶ οτι εἰς ῥυμός ⁑",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol2675",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA081RN_0082@0.10390567,0.48838174,0.05195284,0.02780083"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:81r.6.40"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAint.hmt:6.165",
+    "comment": "προς τὸν ἀναδιπλασιασμὸν οτι ὡς λελάχωσι αντι τοῦ πύθοιτο ⁑",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol2676",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA081RN_0082@0.10058954,0.68049793,0.15585851,0.03112033"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:81r.6.50"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAim.hmt:6.210",
+    "comment": "οἱ μεν Ἀρετάονα ἐξεδέξαντο οἱ δὲ ὰρ εῖτα Ἐτάωνα",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol2716",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA081RN_0082@0.57995578,0.32780083,0.07737657,0.02655602"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:81r.6.31"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAim.hmt:6.211",
+    "comment": "οτι ἐλλειπ  ἡ δία καὶ ίππῳ δυϊκῶς ὡς επι ξυνωριδ  εφη ⁑",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol2717",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA081RN_0082@0.57442889,0.44854772,0.06300663,0.04107884"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:81r.6.37"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAil.hmt:6.A4",
+    "comment": "ε",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol2787",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA081RN_0082@0.214,0.4853,0.029,0.0113"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:81r.6.40"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAil.hmt:6.283",
+    "comment": "ἡ βαρβαρέη",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol2770",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA081RN_0082@0.26989683,0.21327801,0.05305822,0.01244813"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:81r.6.26"
+    ]
+  },
+  {
     "urn": "urn:cts:greekLit:tlg5026.msA.hmt:6.11",
     "lemma": "καὶ ἀπ' ὥμων τεύχε ἐσύλα",
     "dse": {
@@ -41,7 +107,10 @@
     "dse": {
       "urn": "urn:cite2:hmt:va_dse.v1:schol2562",
       "image_roi": "urn:cite2:hmt:vaimg.2017a:VA081RN_0082@0.16912307,0.14315353,0.60740604,0.03402490"
-    }
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:81r.6.36"
+    ]
   },
   {
     "urn": "urn:cts:greekLit:tlg5026.msA.hmt:6.15",

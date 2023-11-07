@@ -1,5 +1,38 @@
 [
   {
+    "urn": "urn:cts:greekLit:tlg5026.msAint.hmt:5.4069",
+    "comment": "πάλιν προς τὸν πόνον",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol2459",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA075VN_0577@0.864038319823139,0.332780082987552,0.0316875460574797,0.0185338865836791"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:75v.5.667"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAim.hmt:5.4043",
+    "comment": "ἔν τισι τό οἱ ούτις",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol2395",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA075VN_0577@0.41451731761238,0.29820193637621,0.0607958732498158,0.0154910096818811"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:75v.5.665"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAim.hmt:5.4044",
+    "comment": "συναπτεόν οἷον ἐπειγομένων αὐτῶν ἐπιβῆναι",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol2396",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA075VN_0577@0.407885040530582,0.314522821576763,0.0722181282240236,0.0434301521438451"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:75v.5.667"
+    ]
+  },
+  {
     "urn": "urn:cts:greekLit:tlg5026.msA.hmt:5.4001",
     "lemma": "βεβλήκει·",
     "dse": {
@@ -7,7 +40,6 @@
       "image_roi": "urn:cite2:hmt:vaimg.2017a:VA075VN_0577@0.19454679439941,0.236791147994467,0.223286661753869,0.0442600276625173"
     },
     "references": [
-      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:75v.5.661",
       "urn:cts:greekLit:tlg0012.tlg001.msA-folios:75v.5.662"
     ],
     "comment": "ὅτι ἀκαταλλήλως . ἔδει γὰρ εἰπεῖν μαιμώωσα ὀστέῳ ἐγχριμφθηναι ⁑"
@@ -20,7 +52,6 @@
       "image_roi": "urn:cite2:hmt:vaimg.2017a:VA075VN_0577@0.196757553426677,0.46804979253112,0.222549742078113,0.0896265560165975"
     },
     "references": [
-      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:75v.5.677",
       "urn:cts:greekLit:tlg0012.tlg001.msA-folios:75v.5.678"
     ],
     "comment": "παροξυτην· Ἅλιον προπαροξυτόνως εἴπομεν τὰ τοιαῦτα τριβράχεα ἐπι κυρίων παροξύνεσθαι καὶ ἐσημειούμεθα τὸ Ἅλιος ξένιος Κρόνιος . ἐπεκράτησε δὲ καὶ κατὰ την Ὁμηρικὴν ἀνάγνωσιν τὸ Ἅλιος προπαροξυνόμενον ⁑"

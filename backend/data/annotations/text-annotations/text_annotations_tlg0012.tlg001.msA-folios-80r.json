@@ -1,0 +1,24 @@
+[
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAext.hmt:5.6132",
+    "comment": "ὀΐω",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol2506",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA080RN_0081@0.83308769,0.33305671,0.02984525,0.01936376"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:80r.5.894"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAint.hmt:5.5030",
+    "comment": "περι πήγνυται",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol2465",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA080RN_0081@0.09801032,0.50954357,0.07037583,0.01272476"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:80r.5.903"
+    ]
+  }
+]

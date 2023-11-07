@@ -1,5 +1,71 @@
 [
   {
+    "urn": "urn:cts:greekLit:tlg5026.msAext.hmt:17.4",
+    "comment": "αφείλετο",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol5867",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA227RN_0398@0.774,0.2254,0.076,0.0248"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:227r.17.105"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAint.hmt:17.21",
+    "comment": "παρα Ἀριστοφ  τότε δ' αὔτὸς :",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol5889",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA227RN_0398@0.1,0.2359,0.074,0.0338"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:227r.17.178"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAint.hmt:17.22",
+    "comment": "βραχὺ διαστ  ἐπι τὸ μάλα τῆλε",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol5890",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA227RN_0398@0.12,0.4628,0.059,0.0331"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:227r.17.190"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAint.hmt:17.23",
+    "comment": "οτ  θηλυκ  ειπ  τὴν Ἴλιον",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol5891",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA227RN_0398@0.113,0.5222,0.065,0.021"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:227r.17.193"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAim.hmt:17.23",
+    "comment": "γρ  ἠέ περ ἀνδρός",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol5966",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA227RN_0398@0.534,0.1938,0.079,0.0248"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:227r.17.176"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAim.hmt:17.24",
+    "comment": "ἐν άλλῳ Πηλείωνος",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol5967",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA227RN_0398@0.557,0.4793,0.048,0.0203"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:227r.17.191"
+    ]
+  },
+  {
     "urn": "urn:cts:greekLit:tlg5026.msA.hmt:17.74",
     "lemma": "‡ ῥηϊδίως ὁτε δ' αὐτὸς ,",
     "dse": {
@@ -42,7 +108,9 @@
       "urn": "urn:cite2:hmt:va_dse.v1:schol6071",
       "image_roi": "urn:cite2:hmt:vaimg.2017a:VA227RN_0398@0.605,0.5623,0.218,0.0608"
     },
-    "references": [],
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:227r.17.190"
+    ],
     "comment": "τὸ ἑξῆς ἐστι θέων ἐκίχανεν ⁑ εταίρους ῶκα μάλα κραιπνοῖσι ποσὶ μετασπῶν  ~ τουτέστι μετελθὼν αὐτοὺς ἀπο τοῦ σπέσθαι καὶ ἔπεσθαι μετ αυτοὺς ακολουθησας ⁑"
   },
   {

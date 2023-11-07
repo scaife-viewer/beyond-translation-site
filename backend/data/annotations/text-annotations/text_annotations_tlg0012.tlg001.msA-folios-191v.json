@@ -1,5 +1,115 @@
 [
   {
+    "urn": "urn:cts:greekLit:tlg5026.msAext.hmt:15.2",
+    "comment": "Ποσειδ",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol5467",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA191VN_0693@0.147,0.5222,0.048,0.0233"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:191v.15.41"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAext.hmt:15.2a",
+    "comment": ">κειντ",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol5468",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA191VN_0693@0.134,0.6213,0.035,0.0233"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:191v.15.45"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAext.hmt:15.3",
+    "comment": "βοῶπις",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol5469",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA191VN_0693@0.15,0.6784,0.051,0.0203"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:191v.15.49"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAint.hmt:15.7",
+    "comment": "περιττεύει τὸ ἔπειτα ⁚",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol5498",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA191VN_0693@0.869,0.6672,0.053,0.027"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:191v.15.49"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAim.hmt:15.2",
+    "comment": "Ζηνοδ  οὐδε όλως τὴν κόλασιν τῆς Ήρας γράφει⁚",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol5584",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA191VN_0693@0.407,0.2554,0.071,0.0503"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:191v.15.27"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAim.hmt:15.3",
+    "comment": "δια τοῦ ἑτέρου λ αἱ Ἀριστάρχου .",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol5585",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA191VN_0693@0.414,0.3366,0.071,0.0255"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:191v.15.31"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAim.hmt:15.4",
+    "comment": "οὔτε παρα Ζηνόδοτον οὔτε παρ αριστοφ  ἢν και μήποτε περιττος ἐστι ⁑",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol5586",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA191VN_0693@0.412,0.3734,0.071,0.0616"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:191v.15.33"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAim.hmt:15.5",
+    "comment": "καὶ κείνω ἐκ πλήρους Ἀρισταρχος τὸ καὶ συνδ",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol5587",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA191VN_0693@0.431,0.6011,0.054,0.0436"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:191v.15.45"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAim.hmt:15.6",
+    "comment": "Αριστοφ  μετὰ τοῦ σ βοῶπις · καὶ ἔστιν εὐφραδέστερον⁚",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol5588",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA191VN_0693@0.432,0.6732,0.055,0.0466"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:191v.15.49"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAim.hmt:15.7",
+    "comment": "ἐν τοῖς εἰκαιοτέροις ἀθανάτοισι θεοῖσι .",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol5589",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA191VN_0693@0.649,0.7077,0.185,0.0218"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:191v.15.50"
+    ]
+  },
+  {
     "urn": "urn:cts:greekLit:tlg5026.msA.hmt:15.18",
     "lemma": "‡ πεπιθοῦσα θυέλλας⁚",
     "dse": {
