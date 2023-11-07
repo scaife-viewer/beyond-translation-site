@@ -13,6 +13,7 @@ from scaife_viewer.atlas.models import (
     AttributionOrganization,
     AttributionPerson,
     AttributionRecord,
+    Dictionary,
     GrammaticalEntry,
     GrammaticalEntryCollection,
     ImageAnnotation,
@@ -371,7 +372,7 @@ def add_translations_to_trees(reset=None):
     add_odyssey_english_translations()
 
 
-def add_glosses_to_trees(reset=None):
+def add_glosses_to_trees(reset=None, debug=False):
     # NOTE: Reset is a no-op
     collection_urn = "urn:cite2:beyond-translation:text_annotation_collection.atlas_v1:il_gregorycrane_gAGDT"
     # TODO: Figure out why this query doesn't work as expected against
@@ -406,9 +407,11 @@ def add_glosses_to_trees(reset=None):
                     elif word.get("value") in ["[0]", "[1]"]:
                         pass
                     elif word.get("ref"):
-                        print(f'{word["ref"]}@{word["value"]}')
+                        if debug:
+                            print(f'{word["ref"]}@{word["value"]}')
                     else:
-                        print(f'{word["value"]}')
+                        if debug:
+                            print(f'{word["value"]}')
                     # ~40 words unmapped with this naive pass
             data = annotation.data if annotation else {}
             word.update(
@@ -826,3 +829,22 @@ def update_balex_metadata(reset=True):
         )
         to_update.append(version)
     Node.objects.bulk_update(to_update, fields=["metadata"])
+
+
+def add_cgl_css(reset=True):
+    # NOTE: Reset is a no-op
+    cgl = Dictionary.objects.get(
+        urn="urn:cite2:scaife-viewer:dictionaries.v1:cambridge-greek-lexicon"
+    )
+    cgl.data["css"] = Path("data/raw/cambridge/lexicon.css").read_text()
+    cgl.save()
+
+
+def add_lexicon_thucydideum_css(reset=True):
+    lexicon_thucydideum = Dictionary.objects.get(
+        urn="urn:cite2:scaife-viewer:dictionaries.v1:lexicon-thucydideum"
+    )
+    lexicon_thucydideum.data["css"] = Path(
+        "data/raw/lexicon-thucydideum/style.css"
+    ).read_text()
+    lexicon_thucydideum.save()
