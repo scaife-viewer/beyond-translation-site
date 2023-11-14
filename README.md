@@ -86,3 +86,4 @@ To have a review app created for a pull request:
 ## Nav
 
 - Set `VUE_APP_ABOUT_URL` and `VUE_APP_ABOUT_TEXT` to add a link to an about page
+

@@ -1,5 +1,60 @@
 [
   {
+    "urn": "urn:cts:greekLit:tlg5026.msAext.hmt:7.1066",
+    "comment": "ἡβώμ'",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol2872",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA093VN_0596@0.1017,0.3676,0.025,0.0163"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:93v.7.133"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAint.hmt:7.1016",
+    "comment": "οτ  ἀντι τοῦ ἐγήρασεν τὸν παρατατικὸν ἔταξεν ⁑",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol2871",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA093VN_0596@0.85,0.645,0.05,0.0401"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:93v.7.148"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAim.hmt:7.1013",
+    "comment": "οτ  ἀντι τοῦ πρόμαχος κοινῶς·",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol2868",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA093VN_0596@0.4042,0.4346,0.0642,0.0207"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:93v.7.136"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAim.hmt:7.1014",
+    "comment": "ουτ  Ἀρισταρχ  αλλοι δὲ δια τοῦ τε τεύχεά τ' ἐξεναριξε·",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol2869",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA093VN_0596@0.4158,0.6205,0.0567,0.0457"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:93v.7.146"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAil.hmt:7.1015",
+    "comment": "γράφεται καὶ ἀναστὰς",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol2870",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA093VN_0596@0.8225,0.5661,0.0467,0.0081"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:93v.7.144"
+    ]
+  },
+  {
     "urn": "urn:cts:greekLit:tlg5026.msA.hmt:7.1001",
     "lemma": "ὅς ποτέ μ' εἰρόμενος",
     "dse": {

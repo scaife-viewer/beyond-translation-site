@@ -1,5 +1,38 @@
 [
   {
+    "urn": "urn:cts:greekLit:tlg5026.msAext.hmt:2.789",
+    "comment": "πάεϊς",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol1783",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA040VN_0542@0.12,0.2581,0.0293,0.0135"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:40v.2.819"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAim.hmt:2.787",
+    "comment": "ὅτι καὶ έτερος Ἄμφιος Περκώσιος Ελατου υἱός ⁑",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol1551",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA040VN_0542@0.426,0.4761,0.0803,0.0388"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:40v.2.830"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAil.hmt:2.790",
+    "comment": "τινὲς ἐκτείνουσι τὴν φυοην τοῦ Πράκτιον",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol1766",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA040VN_0542@0.7797,0.5483,0.1089,0.0111"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:40v.2.835"
+    ]
+  },
+  {
     "urn": "urn:cts:greekLit:tlg5026.msA.hmt:2.775",
     "lemma": "Δαρδανίων αὐτ' ῆρχεν·",
     "dse": {
@@ -79,7 +112,6 @@
       "image_roi": "urn:cite2:hmt:vaimg.2017a:VA040VN_0542@0.2173,0.7106,0.6623,0.0471"
     },
     "references": [
-      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:40v.2.837",
       "urn:cts:greekLit:tlg0012.tlg001.msA-folios:40v.2.838"
     ],
     "comment": "ὅτι ὁ Ἄσιος οῦτος ὁμώνυμός ἐστι τῷ Ἑκάβης ἀδελφῷ ἐσημειοῦτο δὲ ὁ Ἀρίσταρχος τὰς ὁμωνυμίας προς τὰ Πυλαιμενοῦς καὶ πρὸς τὴν ἐπανάληψιν ὅτι πλεονάζει ἐν Ἰ¨λιάδι ⁑"

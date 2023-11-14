@@ -1,5 +1,82 @@
 [
   {
+    "urn": "urn:cts:greekLit:tlg5026.msAint.hmt:4.542",
+    "comment": "οτ  Ζηνοδ  γραφει φαίδιμ  Οδ  ασυμφώνως δὲ τῇ ἐπιπλήξει φαίδιμ  ἂ νὺν λέγοιτο ⁑",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol2182",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA058RN_0059@0.11901253,0.31341632,0.06190125,0.04591978"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:58r.4.339"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAim.hmt:4.849",
+    "comment": "τὸν Μενεσθέα :",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol2222",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA058RN_0059@0.51529108,0.30124481,0.05213707,0.00982019"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:58r.4.338"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAim.hmt:4.850",
+    "comment": "λειπ  τὸ εστ  :",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol2223",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA058RN_0059@0.57056006,0.42448133,0.03039794,0.00968188"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:58r.4.345"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAim.hmt:4.851",
+    "comment": "δασυντέον τὸ μελιἡδε  ⁑",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol2224",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA058RN_0059@0.54292557,0.44937759,0.04882093,0.01784232"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:58r.4.346"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAim.hmt:4.852",
+    "comment": "προς τὸ σχημ  οτ  τῇ γενικῇ ἀντι τῆς αἰτιατικης ⁑",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol2225",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA058RN_0059@0.55342668,0.66984786,0.06282240,0.03554633"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:58r.4.357"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAil.hmt:4.853",
+    "comment": "τξ ἄνδρες ⁑",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol2251",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA058RN_0059@0.36514370,0.21147994,0.05084746,0.01493776"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:58r.4.334"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAil.hmt:4.1003",
+    "comment": "τὸν Οδ",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol2267",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA058RN_0059@0.545,0.3138,0.023,0.0135"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:58r.4.339"
+    ]
+  },
+  {
     "urn": "urn:cts:greekLit:tlg5026.msA.hmt:4.536",
     "lemma": "‡ ἔστασαν ὁπποτε πύργος·",
     "dse": {
@@ -19,7 +96,6 @@
       "image_roi": "urn:cite2:hmt:vaimg.2017a:VA058RN_0059@0.17557111,0.11991701,0.61403832,0.05892116"
     },
     "references": [
-      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:58r.4.334",
       "urn:cts:greekLit:tlg0012.tlg001.msA-folios:58r.4.335"
     ],
     "comment": "ὅτι ἡ διπλὴ προς τὸ σχῆμα δι ὅτι ἐλλείπει ἡ επὶ καὶ πτῶσις ενήλακται . ἔστι γὰρ ἀντι τοῦ ὡς ἐπι Τρώας ὀρμήσειεν ὅτι δὲ ἡ κατὰ Ἀρισταρχόν  ἔχει καὶ τὸ Ἀχαιῶν ἄμεινον ἀκούειν ἐπ Αχαιοὺς πιθανὸν γὰρ ἐπιμενειν τοὺς Ἕλληνας ἕως ἂν προ ἐπιχειρήσωσιν ἀυτοῖς οἱ βάρβαροι καὶ τρόπον τινὰ δεύτερον μετὰ Πάνδαρον παρασπονδίσωσιν · δι ὃ καὶ μήποτε ἄμεινον ἐν τῇ πολυστίχῳ φέρεται , ἕστασαν ὁππότε κέν τις ἐναντίον ἄλλος ἐπελθὼν Τρώων ὁρμήσειεν καὶ ἄρξειεν πολέμοιο ⁑"
@@ -56,7 +132,6 @@
       "image_roi": "urn:cite2:hmt:vaimg.2017a:VA058RN_0059@0.60482682,0.30912863,0.19380987,0.07939142"
     },
     "references": [
-      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:58r.4.345",
       "urn:cts:greekLit:tlg0012.tlg001.msA-folios:58r.4.346"
     ],
     "comment": "οὗτοι ἐν μεν τοῖς ὑπομνήμασιν . οὐκ αθετοῦνται ἐπαιτιῶνται δὲ αὐτοὺς οἱ ἡμέτεροι ὡς ἀπρεπῶς καὶ παρα τὰ πρόσωπα εἰς κρεάδιον ὀνειδίζοντος τοῦ Ἀγαμέμνονος ⁑"
@@ -81,8 +156,6 @@
       "image_roi": "urn:cite2:hmt:vaimg.2017a:VA058RN_0059@0.59616802,0.43167358,0.20633751,0.08409405"
     },
     "references": [
-      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:58r.4.351",
-      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:58r.4.352",
       "urn:cts:greekLit:tlg0012.tlg001.msA-folios:58r.4.353"
     ],
     "comment": "ἀμφίβολος ἡ ἀνάγνωσις ήτοι γὰρ εἰς τὸ μεθιέμεν διαστολη· στιγμὴ δὲ τελεία εὶς τὸ Ἄρηα ἢ εἰς τὸ μεθιεμεν τελεία στιγμὴ . ὑπο στιγμὴ δὲ εἰς τὸ Ἄρηα . ὃ καὶ βελτιον ἵνα λέγῃ τότε φανήσεσθαι ἀνδρείως , ὁππότ αν πόλεμος ᾖ ⁑"

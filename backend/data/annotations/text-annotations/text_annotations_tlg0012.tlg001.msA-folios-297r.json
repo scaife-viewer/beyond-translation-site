@@ -1,5 +1,82 @@
 [
   {
+    "urn": "urn:cts:greekLit:tlg5026.msAim.hmt:23.1006",
+    "comment": "πνέειν",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol7073",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA297RN_0467@0.642,0.2622,0.037,0.0143"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:297r.23.214"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAim.hmt:23.1007",
+    "comment": "τῷ πηεύματι ἔβαλλον",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol7074",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA297RN_0467@0.64,0.3178,0.069,0.0173"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:297r.23.217"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAim.hmt:23.1008",
+    "comment": "ἐν ἀλλῳ έχων",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol7075",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA297RN_0467@0.637,0.3464,0.063,0.0203"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:297r.23.219"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAil.hmt:23.1009",
+    "comment": "οξεῖα",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol7050",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA297RN_0467@0.332,0.2712,0.048,0.0143"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:297r.23.215"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAil.hmt:23.1010",
+    "comment": "μετα",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol7051",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA297RN_0467@0.315,0.5597,0.038,0.0128"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:297r.23.230"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAil.hmt:23.1011",
+    "comment": "ο πόντος",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol7052",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA297RN_0467@0.482,0.559,0.048,0.012"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:297r.23.230"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAil.hmt:23.1012",
+    "comment": "τῷ κυματί",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol7053",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA297RN_0467@0.562,0.559,0.066,0.0143"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:297r.23.230"
+    ]
+  },
+  {
     "urn": "urn:cts:greekLit:tlg5026.msA.hmt:23.1000",
     "lemma": "ψυχὴν κικλήσκων",
     "dse": {

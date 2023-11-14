@@ -1,5 +1,58 @@
 [
   {
+    "urn": "urn:cts:greekLit:tlg5026.msAext.hmt:15.17",
+    "comment": "ἐνέδη",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol5483",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA200RN_0371@0.815,0.544,0.037,0.0195"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:200r.15.469"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAint.hmt:15.38",
+    "comment": "οτ  ἐνήλλακται ἡ πτῶσις Τοῦκρον αντ  Τεύκρου ⁑",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol5529",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA200RN_0371@0.091,0.4155,0.079,0.0376"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:200r.15.462"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAim.hmt:15.54",
+    "comment": "Ζηνοδοτ  μάχης ἄλλοι δὲ μάχην καὶ Ἀριστοφ  δὲ μάχην ⁑",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol5636",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA200RN_0371@0.578,0.3621,0.064,0.0436"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:200r.15.459"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAim.hmt:15.55",
+    "comment": "ἐν αλλῳ ὦ πέπον",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol5637",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA200RN_0371@0.552,0.5071,0.04,0.0225"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:200r.15.467"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAil.hmt:15.26",
+    "comment": "προσφατον⁚",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol5573",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA200RN_0371@0.174,0.5597,0.056,0.018"
+    },
+    "references": []
+  },
+  {
     "urn": "urn:cts:greekLit:tlg5026.msA.hmt:15.133",
     "lemma": "ὅς οἱ ἐϋστρεφέα νευρὴν ,",
     "dse": {
@@ -31,7 +84,6 @@
       "image_roi": "urn:cite2:hmt:vaimg.2017a:VA200RN_0371@0.585,0.5147,0.217,0.0834"
     },
     "references": [
-      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:200r.15.469",
       "urn:cts:greekLit:tlg0012.tlg001.msA-folios:200r.15.470"
     ],
     "comment": "ἀμφότερα γράφεσθαι φησὶν ὁ Ἀρίσταρχος πρῴην καὶ πρώϊον . ταυτὸν δὲ ἐξ ἑκατέρου σημαίνεσθαι· εὕρομεν δὲ καὶ ἐΰστροφον γεγραμμένον καὶ ἔχει τινὰ ἐπιτα  ⁑"

@@ -1,5 +1,82 @@
 [
   {
+    "urn": "urn:cts:greekLit:tlg5026.msAint.hmt:5.6018",
+    "comment": "δασυντ  τὸ Αλιζόνων οὐ γὰρ ϊστοροῦνται λεγόμενοι·",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol2468",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA063RN_0064@0.11569639,0.30982019,0.06116433,0.03651452"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:63r.5.39"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAint.hmt:5.6019",
+    "comment": "πο  Λυδίας ἡ νῦν Σαρδ  ⁑",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol2469",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA063RN_0064@0.12011791,0.38008299,0.04753132,0.02351314"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:63r.5.44"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAim.hmt:5.6013",
+    "comment": "προς τὸ φυγεῖν δηλονὅτι ⁑",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol2422",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA063RN_0064@0.61201179,0.41825726,0.06263817,0.02683264"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:63r.5.46"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAim.hmt:5.6014",
+    "comment": "ὅτι σαφῶς τὸ βάλλειν ἀντὶ τυγχάνειν ⁑",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol2423",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA063RN_0064@0.60464259,0.53748271,0.07774503,0.02627939"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:63r.5.52"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAim.hmt:5.6015",
+    "comment": "ὅτι Ζηνοδοτος γράφει χραισμεν θανάτοιο πελωρα . ἀδιανόητον δὲ γίνεται τὸ λεγόμενον",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol2424",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA063RN_0064@0.59874724,0.55988935,0.08548268,0.04315353"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:63r.5.53"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAim.hmt:5.6016",
+    "comment": "ὅτι απο τῆς πληγῆς πέπτωκε φεύγων καὶ τετραμμενος ἐπι στόμα·",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol2425",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA063RN_0064@0.62527634,0.62932227,0.06411201,0.03900415"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:63r.5.58"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAim.hmt:5.6017",
+    "comment": "ἐν τῇ ετερᾳ τῶν Αρισταρχου δαίδαλα πολλὰ ·",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol2426",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA063RN_0064@0.62896094,0.67219917,0.05158438,0.02904564"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:63r.5.60"
+    ]
+  },
+  {
     "urn": "urn:cts:greekLit:tlg5026.msA.hmt:5.1014",
     "lemma": "‡ Ὀδίον μέγαν",
     "dse": {

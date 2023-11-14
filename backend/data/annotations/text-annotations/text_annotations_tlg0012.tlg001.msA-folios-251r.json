@@ -1,5 +1,27 @@
 [
   {
+    "urn": "urn:cts:greekLit:tlg5026.msAint.hmt:18.55",
+    "comment": "γρ  τεύχεα καλὰ φέρουσα πάρ Ἡφαίστοιο ἄνακτος ⁚",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol6211",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA251RN_0422@0.114,0.4185,0.092,0.0406"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:251r.18.617"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAim.hmt:18.75",
+    "comment": "παρὰ τὸ τρυφερὸν τῆς ὕλης ⁑",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol6327",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA251RN_0422@0.6,0.3449,0.09,0.0338"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:251r.18.613"
+    ]
+  },
+  {
     "urn": "urn:cts:greekLit:tlg5026.msA.hmt:18.217",
     "lemma": "ἡ δ' ΐριξ ·",
     "dse": {

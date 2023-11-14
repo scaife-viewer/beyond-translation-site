@@ -1,5 +1,16 @@
 [
   {
+    "urn": "urn:cts:greekLit:tlg5026.msAint.hmt:2.801",
+    "comment": "ὅτι Ζηνοδοτος γράφει ἐξ Ενέτης ⁑",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol1614",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA041RN_0042@0.0743,0.438,0.0477,0.0333"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:41r.2.852"
+    ]
+  },
+  {
     "urn": "urn:cts:greekLit:tlg5026.msA.hmt:2.791",
     "lemma": "υἱὸς Τροιζήνοιο ·",
     "dse": {
@@ -53,7 +64,10 @@
     "dse": {
       "urn": "urn:cite2:hmt:va_dse.v1:schol1480",
       "image_roi": "urn:cite2:hmt:vaimg.2017a:VA041RN_0042@0.5603,0.5755,0.1923,0.040"
-    }
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:41r.2.856"
+    ]
   },
   {
     "urn": "urn:cts:greekLit:tlg5026.msA.hmt:2.797",
@@ -75,7 +89,6 @@
       "image_roi": "urn:cite2:hmt:vaimg.2017a:VA041RN_0042@0.5517,0.6446,0.2067,0.0854"
     },
     "references": [
-      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:41r.2.860",
       "urn:cts:greekLit:tlg0012.tlg001.msA-folios:41r.2.861"
     ],
     "comment": "ἀθετοῦνται ἀμφότεροι ὅτι κατα τὴν περιποταμίαν μάχην οὐχ εὑρίσκεται επ' ονόματι πίπτων εἴωθεν δὲ ὁ ποιητὴς τοὺς τῶν ηγεμόνων θανάτους διαδήλως λέγειν ἐὰν δὲ μὴ ὁρισθῇ ὁ τόπος καὶ ὁ καιρὸς δύναται ὁ ετερος μένειν ⁑"

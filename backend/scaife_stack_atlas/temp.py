@@ -13,6 +13,7 @@ from scaife_viewer.atlas.models import (
     AttributionOrganization,
     AttributionPerson,
     AttributionRecord,
+    Dictionary,
     GrammaticalEntry,
     GrammaticalEntryCollection,
     ImageAnnotation,
@@ -590,7 +591,7 @@ def stub_scholia_roi_to_token(reset=True):
 
 
 # TODO: Consider this a candidate for upstream refactoring
-def _bulk_prepare_through_models(through_model, qs, lookup, from_field, to_field):
+def bulk_prepare_through_models(through_model, qs, lookup, from_field, to_field):
     logger.info("Preparing through objects for insert")
     to_create = []
     for urn, from_id in qs.values_list("urn", "pk"):
@@ -600,7 +601,8 @@ def _bulk_prepare_through_models(through_model, qs, lookup, from_field, to_field
     return to_create
 
 
-# FIXME: Refactor this to an on-disk form
+# FIXME: Refactor this to an on-disk form; will require further changes to our
+# data model and ingestion pipeline to fully support
 def stub_scholia_roi_text_annotations(reset=True):
     collection_urn = (
         "urn:cite2:beyond-translation:text_annotation_collection.atlas_v1:hmt_scholia"
@@ -634,9 +636,9 @@ def stub_scholia_roi_text_annotations(reset=True):
     for ia in image_annotations:
         image_annotations_by_urn[ia.urn] = ia
 
-    roi_to_create = []
-    thru_text_annotations_lu = {}
-    thru_text_parts_lu = {}
+    rois_to_create = {}
+    thru_text_annotations_lu = defaultdict(set)
+    thru_text_parts_lu = defaultdict(set)
     for ta in tas:
         dse_data = ta.data["dse"]
         image_annotation_urn, coordinates = dse_data["image_roi"].split("@")
@@ -661,15 +663,15 @@ def stub_scholia_roi_text_annotations(reset=True):
             urn=dse_urn,
         )
 
-        roi_to_create.append(roi)
-        thru_text_annotations_lu[dse_urn] = [ta.id]
-        thru_text_parts_lu[dse_urn] = ta.text_parts.all().values_list("id", flat=True)
+        rois_to_create.setdefault(dse_urn, roi)
+        thru_text_annotations_lu[dse_urn].add(ta.id)
+        thru_text_parts_lu[dse_urn].update(ta.text_parts.all().values_list("id", flat=True))
 
-    ImageROI.objects.bulk_create(roi_to_create, batch_size=500)
-    qs = ImageROI.objects.filter(urn__in=thru_text_parts_lu.keys())
+    ImageROI.objects.bulk_create(rois_to_create.values(), batch_size=500)
+    qs = ImageROI.objects.filter(urn__in=rois_to_create.keys())
 
     ImageROIThroughTextPartsModel = ImageROI.text_parts.through
-    prepared_objs = _bulk_prepare_through_models(
+    prepared_objs = bulk_prepare_through_models(
         ImageROIThroughTextPartsModel, qs, thru_text_parts_lu, "imageroi_id", "node_id"
     )
     relation_label = ImageROIThroughTextPartsModel._meta.verbose_name_plural
@@ -678,7 +680,7 @@ def stub_scholia_roi_text_annotations(reset=True):
     chunked_bulk_create(ImageROIThroughTextPartsModel, prepared_objs)
 
     ImageROIThroughTextAnnotationsModel = ImageROI.text_annotations.through
-    prepared_objs = _bulk_prepare_through_models(
+    prepared_objs = bulk_prepare_through_models(
         ImageROIThroughTextAnnotationsModel,
         qs,
         thru_text_annotations_lu,
@@ -827,3 +829,22 @@ def update_balex_metadata(reset=True):
         )
         to_update.append(version)
     Node.objects.bulk_update(to_update, fields=["metadata"])
+
+
+def add_cgl_css(reset=True):
+    # NOTE: Reset is a no-op
+    cgl = Dictionary.objects.get(
+        urn="urn:cite2:scaife-viewer:dictionaries.v1:cambridge-greek-lexicon"
+    )
+    cgl.data["css"] = Path("data/raw/cambridge/lexicon.css").read_text()
+    cgl.save()
+
+
+def add_lexicon_thucydideum_css(reset=True):
+    lexicon_thucydideum = Dictionary.objects.get(
+        urn="urn:cite2:scaife-viewer:dictionaries.v1:lexicon-thucydideum"
+    )
+    lexicon_thucydideum.data["css"] = Path(
+        "data/raw/lexicon-thucydideum/style.css"
+    ).read_text()
+    lexicon_thucydideum.save()

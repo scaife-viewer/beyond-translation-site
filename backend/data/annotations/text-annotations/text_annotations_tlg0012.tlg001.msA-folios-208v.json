@@ -1,5 +1,96 @@
 [
   {
+    "urn": "urn:cts:greekLit:tlg5026.msAext.hmt:16.208v1",
+    "comment": "ἐρωήν",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol7734",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA208VN_0710@0.1551,0.2632,0.03869,0.01051"
+    },
+    "references": []
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAint.hmt:16.208v1",
+    "comment": "ἐν τῇ Μασσαλιωτικῃ ἐρωήν .",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol7747",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA208VN_0710@0.8753,0.2574,0.06116,0.02185"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:208v.16.127"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAint.hmt:16.208v2",
+    "comment": "ὅτι ἀντι τοῦ ἀγειραιμι .",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol7748",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA208VN_0710@0.8819,0.2970,0.05103,0.02365"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:208v.16.129"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAint.hmt:16.208v3",
+    "comment": "καθ εκαστον βραχὺ διασταλτέον ⁑",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol7749",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA208VN_0710@0.9261,0.5166,0.03077,0.04869"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:208v.16.141"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAint.hmt:16.208v4",
+    "comment": "διχῶς καὶ τάμε καὶ πόρε ⁑",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol7750",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA208VN_0710@0.9062,0.5618,0.04477,0.01853"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:208v.16.143"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAint.hmt:16.208v5",
+    "comment": "ὅτι Πάτροκλος μὲν Αχιλλέως ἠνιοχος Πατροκλου δὲ Αὐτομεδων ⁑",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol7751",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA208VN_0710@0.8740,0.6129,0.07885,0.04136"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:208v.16.146"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAim.hmt:16.208v1",
+    "comment": "Ζηνοδοτος τουτον ἀθετησας τοὺς ἑξῆς τέσσαρας οὐκ έγραφεν ⁑",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol7800",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA208VN_0710@0.4471,0.5098,0.05343,0.04094"
+    },
+    "references": []
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAim.hmt:16.208v2",
+    "comment": "τὴν ἐκ μελίης",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol7801",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA208VN_0710@0.4475,0.5678,0.04422,0.01203"
+    },
+    "references": []
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAim.hmt:16.208v3",
+    "comment": "Ἀρισταρχος ἐκν κορυφῇς δια τοῦ ν",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol7802",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA208VN_0710@0.4482,0.5838,0.05085,0.02420"
+    },
+    "references": []
+  },
+  {
     "urn": "urn:cts:greekLit:tlg5026.msA.hmt:16.208v1",
     "lemma": "μὴ δὴ νῆας έλωσι καὶ οὐκέτι φυκτὰ πέλωνται",
     "dse": {
@@ -53,7 +144,10 @@
     "dse": {
       "urn": "urn:cite2:hmt:va_dse.v1:schol7849",
       "image_roi": "urn:cite2:hmt:vaimg.2017a:VA208VN_0710@0.2507,0.5618,0.5059,0.1916"
-    }
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:208v.16.140"
+    ]
   },
   {
     "urn": "urn:cts:greekLit:tlg5026.msA.hmt:16.208v6",
@@ -97,7 +191,10 @@
     "dse": {
       "urn": "urn:cite2:hmt:va_dse.v1:schol7853",
       "image_roi": "urn:cite2:hmt:vaimg.2017a:VA208VN_0710@0.4422,0.7775,0.3128,0.02310"
-    }
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:208v.16.150"
+    ]
   },
   {
     "urn": "urn:cts:greekLit:tlg5026.msA.hmt:16.208v10",

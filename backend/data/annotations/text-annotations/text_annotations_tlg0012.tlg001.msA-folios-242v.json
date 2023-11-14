@@ -1,5 +1,49 @@
 [
   {
+    "urn": "urn:cts:greekLit:tlg5026.msAint.hmt:18.17",
+    "comment": "κατ ένια καλὰ τεύχεα ἔχοντα ⁑",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol6173",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA242VN_0744@0.901,0.589,0.039,0.0526"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:242v.18.197"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAim.hmt:18.21",
+    "comment": "εν αλλῳ ἄνωγεν",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol6273",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA242VN_0744@0.408,0.2014,0.062,0.0188"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:242v.18.176"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAim.hmt:18.22",
+    "comment": "ταυτ  ἀπ αλλης ἀρχῆς ⁑",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol6274",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA242VN_0744@0.408,0.2795,0.064,0.0481"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:242v.18.180"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAim.hmt:18.23",
+    "comment": "ὅτι ὡς ορος τὸν Όλυμπον ἀγάννιφον λέγει",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol6275",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA242VN_0744@0.389,0.3847,0.089,0.024"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:242v.18.186"
+    ]
+  },
+  {
     "urn": "urn:cts:greekLit:tlg5026.msA.hmt:18.65",
     "lemma": "Ἶρι θεὰ , τίς γάρ σε·",
     "dse": {

@@ -1,5 +1,38 @@
 [
   {
+    "urn": "urn:cts:greekLit:tlg5026.msAint.hmt:18.6",
+    "comment": "αντ  τοῦ εἴδητε",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol6162",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA240RN_0411@0.14,0.2427,0.058,0.0195"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:240r.18.53"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAim.hmt:18.6",
+    "comment": "ἀριστοφ  ἐπι κήδεα",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol6258",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA240RN_0411@0.553,0.2374,0.084,0.0218"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:240r.18.53"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAim.hmt:18.7",
+    "comment": "γρ  εἰς ἀνέβησαν",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol6259",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA240RN_0411@0.58,0.5192,0.055,0.0248"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:240r.18.68"
+    ]
+  },
+  {
     "urn": "urn:cts:greekLit:tlg5026.msA.hmt:18.24",
     "lemma": "δυσαριτοτόκεια ⁚",
     "dse": {
@@ -67,7 +100,6 @@
       "image_roi": "urn:cite2:hmt:vaimg.2017a:VA240RN_0411@0.622,0.5282,0.187,0.0661"
     },
     "references": [
-      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:240r.18.63",
       "urn:cts:greekLit:tlg0012.tlg001.msA-folios:240r.18.64"
     ],
     "comment": "τοῦτο ὡς ἐν ποιήσει ἀκουστέον οὐ γὰρ πιθανὸν τὴν προειρηκυῖαν περι τῆς τοῦ Πατρόκλου τελευτῆς νῦν αὐτὸ τοῦτο αγνοοῦσαν φαίνεσθαι ⁑"
@@ -104,7 +136,6 @@
       "image_roi": "urn:cite2:hmt:vaimg.2017a:VA240RN_0411@0.176,0.728,0.632,0.0428"
     },
     "references": [
-      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:240r.18.68",
       "urn:cts:greekLit:tlg0012.tlg001.msA-folios:240r.18.69"
     ],
     "comment": "τὸ ἐπισχερῶ ἑκατέρωσε δύναται προσδίδοσθαι καὶ γὰρ τὰς Νηρεΐδας ἂν εἶναι τάξει πρέπον καὶ τὰς ναῦς εἰκὸς ἐφεξῆς τετάχθαι ὡς ἐν τῷ περι ναυστάθμου λέγεται ⁑"

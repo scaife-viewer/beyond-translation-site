@@ -1,5 +1,105 @@
 [
   {
+    "urn": "urn:cts:greekLit:tlg5026.msAint.hmt:12.H4",
+    "comment": "ουτ  Ἀρισταρχ  πᾶσας γὰρ ἐπώχατ  :",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol4809",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA161RN_0332@0.1084,0.4299,0.0622,0.0198"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:161r.12.340"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAint.hmt:12.H5",
+    "comment": "καὶ Ἀριστοφ  ἠθετ",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol4810",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA161RN_0332@0.0985,0.6193,0.0498,0.0144"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:161r.12.350"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAim.hmt:12.H10",
+    "comment": "ουτ  Ἀρισταρχ  μέγα έθνος ἄγοντε δυϊκῶς ⁑",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol5001",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA161RN_0332@0.5946,0.2382,0.0711,0.0301"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:161r.12.330"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAim.hmt:12.H11",
+    "comment": "οτ  αντ  νεωστὶ ⁑",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol5002",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA161RN_0332@0.5932,0.3638,0.0591,0.0103"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:161r.12.336"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAim.hmt:12.H13",
+    "comment": "γραγεται κατα τεῖχος :",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol5003",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA161RN_0332@0.3135,0.6732,0.0432,0.0096"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:161r.12.352"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAil.hmt:12.H34",
+    "comment": "η τινι",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol4952",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA161RN_0332@0.2724,0.1952,0.0218,0.0059"
+    },
+    "references": []
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAil.hmt:12.H35",
+    "comment": "προεβλέψατ",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol4953",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA161RN_0332@0.2211,0.2949,0.0504,0.01"
+    },
+    "references": []
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAil.hmt:12.H36",
+    "comment": "βλάβην",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol4954",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA161RN_0332@0.3671,0.3171,0.0277,0.0082"
+    },
+    "references": []
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAil.hmt:12.K1",
+    "comment": "βοήσαντι ἀκουσθῆναι :",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol4956",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA161RN_0332@0.428,0.3711,0.095,0.0165"
+    },
+    "references": []
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAil.hmt:12.H38",
+    "comment": "άγαν βίαιοι καὶ μεγάλην ορμὴν τοῖς έργοις ποιοῦντες :",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol4957",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA161RN_0332@0.1872,0.556,0.1962,0.015"
+    },
+    "references": []
+  },
+  {
     "urn": "urn:cts:greekLit:tlg5026.msA.hmt:12.H30",
     "lemma": "πάπτηνεν δ' ἀνα πύργον Ἀχαιῶν",
     "dse": {
@@ -7,7 +107,6 @@
       "image_roi": "urn:cite2:hmt:vaimg.2017a:VA161RN_0332@0.1896,0.1195,0.5872,0.0352"
     },
     "references": [
-      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:161r.12.333",
       "urn:cts:greekLit:tlg0012.tlg001.msA-folios:161r.12.334"
     ],
     "comment": "τὸ Ἀχαιῶν ἑκατέροις δύναται προσδίδοσθαι , βέλτιον δὲ τοῖς προτέροις , ἐπεὶ τὸ ἡγεμόνων ἐπιφέρεται , καὶ ἄλλως φησὶν ἑξῆς βῆ δὲ θέειν κατα τεῖχος Ἀχαιῶν ⁑"
@@ -90,7 +189,10 @@
     "dse": {
       "urn": "urn:cite2:hmt:va_dse.v1:schol5093",
       "image_roi": "urn:cite2:hmt:vaimg.2017a:VA161RN_0332@0.1655,0.7328,0.3153,0.0217"
-    }
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:161r.12.348"
+    ]
   },
   {
     "urn": "urn:cts:greekLit:tlg5026.msA.hmt:12.H40",

@@ -1,5 +1,36 @@
 [
   {
+    "urn": "urn:cts:greekLit:tlg5026.msAint.hmt:15.26",
+    "comment": "Ἀρισταρχ  ἐσσεύαντο δια τοῦ α καὶ ἅπασαι ⁑",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol5517",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA196RN_0367@0.091,0.5898,0.072,0.0413"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:196r.15.272"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAim.hmt:15.37",
+    "comment": "Ἀρισταρχος ϊξεσθαι καὶ οὐκ άχαρις ἡ γραφη",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol5619",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA196RN_0367@0.539,0.2074,0.119,0.0323"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:196r.15.252"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAil.hmt:15.18",
+    "comment": "απ έπνεον",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol5565",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA196RN_0367@0.452,0.2096,0.046,0.0143"
+    },
+    "references": []
+  },
+  {
     "urn": "urn:cts:greekLit:tlg5026.msA.hmt:15.78",
     "lemma": "ἥματι τῷ δ' όψεσθαι :",
     "dse": {
@@ -31,7 +62,6 @@
       "image_roi": "urn:cite2:hmt:vaimg.2017a:VA196RN_0367@0.575,0.4583,0.225,0.0473"
     },
     "references": [
-      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:196r.15.263",
       "urn:cts:greekLit:tlg0012.tlg001.msA-folios:196r.15.264"
     ],
     "comment": "τὸ επι φάτνη δύναται καὶ τοῖς ἠγουμένοις καὶ τοῖς ἑπομένοις συντάττεσθαι ἵν' ᾖ τὸν ἐπι φάτνῃ συνδ  ⁑"

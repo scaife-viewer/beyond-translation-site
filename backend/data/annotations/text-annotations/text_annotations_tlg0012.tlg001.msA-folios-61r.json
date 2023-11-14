@@ -1,5 +1,49 @@
 [
   {
+    "urn": "urn:cts:greekLit:tlg5026.msAint.hmt:4.734",
+    "comment": "ἑαυτὸν",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol2190",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA061RN_0062@0.14627856,0.44813278,0.02560796,0.00968188"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:61r.4.497"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAint.hmt:4.740",
+    "comment": "οτ  οὐ λέγει ὡς ἑν Ἀβύδω ἱπποτροφίων όντων τοῦ Πριάμου ⁑",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol2191",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA061RN_0062@0.12343405,0.50248963,0.05582167,0.06044260"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:61r.4.500"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAim.hmt:4.878",
+    "comment": "ἐν αλλω ακοντισε δουρὶ φαεινῳ ⁑",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol2238",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA061RN_0062@0.60961680,0.31466113,0.07129698,0.02683264"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:61r.4.490"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAil.hmt:4.879",
+    "comment": "ὑπομεῖναι",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol2257",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA061RN_0062@0.29697863,0.70650069,0.03463522,0.00774550"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:61r.4.511"
+    ]
+  },
+  {
     "urn": "urn:cts:greekLit:tlg5026.msA.hmt:4.733",
     "lemma": "ἀμφι ε παπτήνας .",
     "dse": {

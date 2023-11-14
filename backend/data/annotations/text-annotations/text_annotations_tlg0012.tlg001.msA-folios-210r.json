@@ -1,5 +1,74 @@
 [
   {
+    "urn": "urn:cts:greekLit:tlg5026.msAext.hmt:16.210r1",
+    "comment": "αποστροφη λόγου ἀπο τοῦ διηγηματικοῦ επι το μιμητικόν ⁑",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol7737",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA210RN_0381@0.8053,0.2079,0.1116,0.08852"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:210r.16.201"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAint.hmt:16.210r1",
+    "comment": "ταῦτα ἀφ ετέρας ἀρχῆς διασταλτέον δε ἐπι τὸ νηλεες ⁑",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol7758",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA210RN_0381@0.1325,0.2581,0.06780,0.05657"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:210r.16.205"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAint.hmt:16.210r2",
+    "comment": "στικτέον μᾶλλον γὰρ ἐμφαίνει ⁑",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol7759",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA210RN_0381@0.1236,0.5142,0.06780,0.05657"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:210r.16.217"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAim.hmt:16.210r1",
+    "comment": "Ἀρισταρχος ϊακῶς θαμὰ βαζετε ⁑",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol7805",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA210RN_0381@0.6310,0.3192,0.06024,0.04703"
+    },
+    "references": []
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAim.hmt:16.210r2",
+    "comment": "γράφεται θωρήσσοντο",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol7806",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA210RN_0381@0.6271,0.5297,0.07406,0.02310"
+    },
+    "references": []
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAim.hmt:16.210r3",
+    "comment": "Ζηνοδοτος καὶ Ἀριστοφανης θῆκ' ἐπι νηὸς ἰόντι ⁑",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol7807",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA210RN_0381@0.6209,0.6263,0.07222,0.04799"
+    },
+    "references": []
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAil.hmt:16.210r1",
+    "comment": "υπο παντ την της οργης χρόνην",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol7783",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA210RN_0381@0.2992,0.2196,0.1035,0.01452"
+    },
+    "references": []
+  },
+  {
     "urn": "urn:cts:greekLit:tlg5026.msA.hmt:16.210r1",
     "lemma": "πανθ' ὑπομηνιθμὸν :",
     "dse": {

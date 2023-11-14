@@ -1,5 +1,16 @@
 [
   {
+    "urn": "urn:cts:greekLit:tlg5026.msAim.hmt:24.37",
+    "comment": "τὸ ἐκ προς τὸ θεῶν τὰ ἐκ θεῶν κήδεα πέσσει ⁑",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol7308",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA323RN_0493@0.583,0.4234,0.048,0.0721"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:323r.24.617"
+    ]
+  },
+  {
     "urn": "urn:cts:greekLit:tlg5026.msA.hmt:24.92",
     "lemma": "ἓξ μὲν θυγατέρες ,",
     "dse": {
@@ -43,10 +54,6 @@
       "image_roi": "urn:cite2:hmt:vaimg.2017a:VA323RN_0493@0.1769,0.7266,0.6256,0.03430"
     },
     "references": [
-      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:323r.24.613",
-      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:323r.24.614",
-      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:323r.24.615",
-      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:323r.24.616",
       "urn:cts:greekLit:tlg0012.tlg001.msA-folios:323r.24.617"
     ],
     "comment": "ἀθετοῦνται στίχοι τέσσαρες ὅτι οὐκ ἀκλουθεῖ , τὸ ἠ δ' άρα σίτου μνήσατ’ . εἰ γὰρ ἀπελιθώθη , πῶς σιτία προηνέγκατο· καὶ ἡ παραμυθία γελοῖα· φάγε , ἐπεὶ καὶ ἡ Νιόβη ἔφαγε καὶ ἀπελιθώθη· ἔστι δὲ καὶ Ησιόδῳ  τῷ χαρακτῆρι καὶ μᾶλλον γε τὸ  ἀμφ' Ἀχελώϊον ἐρρώσαντο καὶ τρὶς κατα τὸ συνεχὲς τὸ  ἓν  , ὡς δὲ καὶ λίθος γενομένη  θεῶν ἐκ κήδεα πέσσει . προηθετοῦνται  δὲ καὶ παρα Ἀριστοφα  ⁑"

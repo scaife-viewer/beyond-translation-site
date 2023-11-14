@@ -1,5 +1,118 @@
 [
   {
+    "urn": "urn:cts:greekLit:tlg5026.msAext.hmt:15.8",
+    "comment": "ἔνθ' εἴη",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol5474",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA192VN_0694@0.16,0.3569,0.036,0.0188"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:192v.15.82"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAint.hmt:15.12",
+    "comment": "οτ  οὐδαμοῦ τὸν Αχιλλέα πτολίπορθον⁚",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol5503",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA192VN_0694@0.861,0.2517,0.049,0.0338"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:192v.15.77"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAint.hmt:15.13",
+    "comment": "ταυτ  ὁ Δίδυμος τῷ Ἀριστονικῳ λε  πε  τῆς γραφῆς τῆς δέπασσι ⁑",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol5504",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA192VN_0694@0.871,0.42,0.059,0.0511"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:192v.15.86"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAim.hmt:15.12",
+    "comment": "ουτ  Ἀρισταρχ  ἔνθ' εἴην μετα τοῦ η καὶ δια τῶν β η μενοινηῃσί τε ⁑",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol5594",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA192VN_0694@0.42,0.3494,0.072,0.0473"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:192v.15.82"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAim.hmt:15.13",
+    "comment": "οτ  πτῶσις ήλλακται καὶ πρόθεσις παρεῖται αντ  τοῦ παρα Θεμιδος ⁑",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol5595",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA192VN_0694@0.423,0.4508,0.056,0.0609"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:192v.15.87"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAim.hmt:15.14",
+    "comment": "ἐν άλλω βοῶπις πότνια Ήρῃ ⁑",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol5596",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA192VN_0694@0.431,0.5424,0.048,0.0323"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:192v.15.92"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAim.hmt:15.15",
+    "comment": "Ἀρίσταρχ  κείνου Ϊακῶς ⁑",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol5597",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA192VN_0694@0.43,0.5838,0.047,0.0391"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:192v.15.94"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAil.hmt:15.4",
+    "comment": "εδεξιοῦντο",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol5552",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA192VN_0694@0.725,0.4215,0.047,0.0158"
+    },
+    "references": []
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAil.hmt:15.5",
+    "comment": "τεταραγμένη",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol5553",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA192VN_0694@0.71,0.4981,0.054,0.0128"
+    },
+    "references": []
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAil.hmt:15.6",
+    "comment": "καρὸν σχήσειν",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol5554",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA192VN_0694@0.692,0.6491,0.062,0.0143"
+    },
+    "references": []
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAil.hmt:15.7",
+    "comment": "ἰλαρος",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol5555",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA192VN_0694@0.853,0.6672,0.028,0.0143"
+    },
+    "references": []
+  },
+  {
     "urn": "urn:cts:greekLit:tlg5026.msA.hmt:15.28",
     "lemma": "ὡς δ' ὅτ ἂν ἀΐξῃ νόος ἀνέρος⁚",
     "dse": {
@@ -65,7 +178,10 @@
     "dse": {
       "urn": "urn:cite2:hmt:va_dse.v1:schol5694",
       "image_roi": "urn:cite2:hmt:vaimg.2017a:VA192VN_0694@0.224,0.6634,0.206,0.0428"
-    }
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:192v.15.97"
+    ]
   },
   {
     "urn": "urn:cts:greekLit:tlg5026.msA.hmt:15.33",

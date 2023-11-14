@@ -1,5 +1,111 @@
 [
   {
+    "urn": "urn:cts:greekLit:tlg5026.msAext.hmt:15.21",
+    "comment": "αϊξας",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol5487",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA204VN_0706@0.163,0.5695,0.04,0.0263"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:204v.15.694"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAext.hmt:15.22",
+    "comment": "ῶσεν ὄπισθ",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol5488",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA204VN_0706@0.208,0.5627,0.054,0.0248"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:204v.15.694"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAint.hmt:15.52",
+    "comment": "ἱππεύηται",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol5543",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA204VN_0706@0.866,0.308,0.052,0.0218"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:204v.15.681"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAint.hmt:15.53",
+    "comment": "Ἀρίσταρχ  ὡσέν όπισθ  τ χωρὶς τοῦ ρ καὶ ἀντιος διὰ τοῦ ς",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol5544",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA204VN_0706@0.887,0.5394,0.072,0.0518"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:204v.15.694"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAim.hmt:15.71",
+    "comment": "γράφεται διώκῃ",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol5653",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA204VN_0706@0.44,0.3095,0.07,0.0308"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:204v.15.681"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAim.hmt:15.72",
+    "comment": "γράφεται βιβῶν",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol5654",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA204VN_0706@0.451,0.4087,0.06,0.0301"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:204v.15.686"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAim.hmt:15.73",
+    "comment": "γράφεται ἀΐξας",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol5655",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA204VN_0706@0.449,0.559,0.058,0.0323"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:204v.15.694"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAim.hmt:15.74",
+    "comment": "οτ  ὡς προς τινα διαλέγεται οὐκ έστι δὲ ἀλλ' ἔστι φαὶη  τίς ἂν  ⁚",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol5656",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA204VN_0706@0.45,0.6176,0.07,0.0518"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:204v.15.697"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAil.hmt:15.34",
+    "comment": "ἱππεύειν",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol5580",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA204VN_0706@0.666,0.2675,0.051,0.0195"
+    },
+    "references": []
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAil.hmt:15.35",
+    "comment": "μεταβαίνει",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol5581",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA204VN_0706@0.769,0.3614,0.054,0.0173"
+    },
+    "references": []
+  },
+  {
     "urn": "urn:cts:greekLit:tlg5026.msA.hmt:15.183",
     "lemma": "κολλητὸν βλήτροισι δύω καὶ εἰκοσί πηχυ ⁚",
     "dse": {

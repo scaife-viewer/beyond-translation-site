@@ -1,5 +1,38 @@
 [
   {
+    "urn": "urn:cts:greekLit:tlg5026.msAext.hmt:3.718",
+    "comment": "ἀΐδρει",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol2020",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA046RN_0047@0.78500368,0.55961272,0.03610906,0.01549101"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:46r.3.219"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAint.hmt:3.343",
+    "comment": "σημειωτέον δὲ ὅτι εκαστος τῶν ηγεμονων σκῆπτρον εῖχεν ΐδιον ὡς καὶ ᾿Αχιλλεὺς ἐν τῇ αλφα ὄμνυσι κατ αυτοῦ ⁑",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol1942",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA046RN_0047@0.07792926,0.52752420,0.06705969,0.08561549"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:46r.3.218"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAim.hmt:3.719",
+    "comment": "πιθανώτερον βαρυνειν τὸν η καὶ ἀντι τοῦ εἴ παραλαμβάνεται ⁑",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol1990",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA046RN_0047@0.54753132,0.47302905,0.06392778,0.03098202"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:46r.3.215"
+    ]
+  },
+  {
     "urn": "urn:cts:greekLit:tlg5026.msA.hmt:3.334",
     "lemma": "ἐπιτροχάδην",
     "dse": {

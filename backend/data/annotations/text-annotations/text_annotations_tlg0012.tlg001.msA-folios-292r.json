@@ -1,5 +1,127 @@
 [
   {
+    "urn": "urn:cts:greekLit:tlg5026.msAint.hmt:22.34",
+    "comment": "γραφεται ἢν περ γὰρ",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol6796",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA292RN_0462@0.1308,0.2415,0.05269,0.02158"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:292r.22.487"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAint.hmt:22.35",
+    "comment": "οτ  ἀπαξ αμφιθαλής ⁑",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol6797",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA292RN_0462@0.1034,0.4174,0.06006,0.02822"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:292r.22.496"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAim.hmt:22.44",
+    "comment": "ἐν αλλω αλλ ήτοι τούτῳ",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol6888",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA292RN_0462@0.5444,0.2678,0.06872,0.02089"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:292r.22.488"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAim.hmt:22.45",
+    "comment": "οτ  κυριως νῦν ἀφοριουντ",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol6889",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA292RN_0462@0.5687,0.2873,0.04643,0.01964"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:292r.22.489"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAim.hmt:22.46",
+    "comment": "αριστ  ουδετερως παρεία ⁑",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol6890",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA292RN_0462@0.5965,0.3249,0.02542,0.03444"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:292r.22.491"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAim.hmt:22.47",
+    "comment": "οτ  αντ  τοῦ πλήσσω ⁑",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol6891",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA292RN_0462@0.5818,0.4347,0.03206,0.04232"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:292r.22.497"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAim.hmt:22.48",
+    "comment": "οτ  αντ  τοῦ πάθοι αν προς τὸ ἰχθὺς ὥς κε φάγῃσι",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol6892",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA292RN_0462@0.6371,0.5841,0.1297,0.02573"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:292r.22.505"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAil.hmt:22.43",
+    "comment": "πάντων έρημον τῶν ηλικιωτῶν",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol6840",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA292RN_0462@0.3745,0.2994,0.09156,0.008575"
+    },
+    "references": []
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAil.hmt:22.44",
+    "comment": "κατεστύγηακε κάτω βλεπ  ⁑",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol6841",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA292RN_0462@0.2996,0.3173,0.1052,0.008852"
+    },
+    "references": []
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAil.hmt:22.45",
+    "comment": "ενδεὴς ὼν",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol6842",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA292RN_0462@0.2225,0.3350,0.05140,0.008437"
+    },
+    "references": []
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAil.hmt:22.46",
+    "comment": "εβρεξε",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol6843",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA292RN_0462@0.3382,0.3932,0.03003,0.008437"
+    },
+    "references": []
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAil.hmt:22.47",
+    "comment": "τὸν οὐρανίσκον",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol6844",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA292RN_0462@0.4099,0.3942,0.06522,0.009820"
+    },
+    "references": []
+  },
+  {
     "urn": "urn:cts:greekLit:tlg5026.msA.hmt:22.120",
     "lemma": "πάντα δ' ὑπεμνήμυκε :",
     "dse": {

@@ -1,5 +1,60 @@
 [
   {
+    "urn": "urn:cts:greekLit:tlg5026.msAext.hmt:5.6055",
+    "comment": "η",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol2501",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA065VN_0567@0.11606485,0.58091286,0.00700074,0.00774550"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:65v.5.178"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAim.hmt:5.6051",
+    "comment": "ὅτι Ζηνοδ  γράφει βουκόλου ἠὲ βοός παραλλήλως δὲ τὸ εἶδος τῷ γένει τέταχον·",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol2435",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA065VN_0567@0.37840825,0.25449516,0.07221813,0.03762102"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:65v.5.162"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAim.hmt:5.6053",
+    "comment": "ὅτι τὴν Τρωϊκὴν Λυκίαν λέγει·",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol2436",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA065VN_0567@0.41525424,0.46970954,0.06190125,0.01908714"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:65v.5.173"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAim.hmt:5.6054",
+    "comment": "Ἀρίσταρχος διχῶς καί μίν . καί μέν Τυδείδῃ μιν ἐγω·",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol2437",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA065VN_0567@0.42078113,0.62130014,0.06374355,0.02821577"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:65v.5.181"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAil.hmt:5.6056",
+    "comment": "νέας ἣ τελείας·",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol2525",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA065VN_0567@0.48268239,0.24979253,0.06300663,0.01051176"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:65v.5.162"
+    ]
+  },
+  {
     "urn": "urn:cts:greekLit:tlg5026.msA.hmt:5.1050",
     "lemma": "‡ἀεκοντας",
     "dse": {

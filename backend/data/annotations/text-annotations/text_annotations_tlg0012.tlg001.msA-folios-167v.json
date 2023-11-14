@@ -1,5 +1,47 @@
 [
   {
+    "urn": "urn:cts:greekLit:tlg5026.msAim.hmt:13.167v1",
+    "comment": "ἑναλλγεν αὶψ ἕπεσεν ⁑",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol8415",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA167VN_0669@0.4189,0.2313,0.06153,0.02324"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:167v.13.178"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAim.hmt:13.167v2",
+    "comment": "ουτα αριστα ἑνικῶσ αλλοι ὴ κορυφᾶις ⁑",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol8416",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA167VN_0669@0.4223,0.2549,0.05324,0.02061"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:167v.13.179"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAim.hmt:13.167v3",
+    "comment": "ἑν αλλω μετ έθνος ⁑",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol8417",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA167VN_0669@0.4289,0.5759,0.04864,0.03983"
+    },
+    "references": []
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAil.hmt:13.167v1",
+    "comment": "παραγινόμε ⁑",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol8418",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA167VN_0669@0.5341,0.3808,0.05158,0.01203"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:167v.13.186"
+    ]
+  },
+  {
     "urn": "urn:cts:greekLit:tlg5026.msA.hmt:13.167v1",
     "lemma": "Ἕκτορος λλ' οὔ πη χροὸς εἴσατο :",
     "dse": {
@@ -17,7 +59,10 @@
     "dse": {
       "urn": "urn:cite2:hmt:va_dse.v1:schol8226",
       "image_roi": "urn:cite2:hmt:vaimg.2017a:VA167VN_0669@0.182,0.3251,0.252,0.0458"
-    }
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:167v.13.191"
+    ]
   },
   {
     "urn": "urn:cts:greekLit:tlg5026.msA.hmt:13.167v3",

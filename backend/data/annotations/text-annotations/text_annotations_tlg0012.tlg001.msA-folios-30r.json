@@ -1,5 +1,93 @@
 [
   {
+    "urn": "urn:cts:greekLit:tlg5026.msAext.hmt:2.466",
+    "comment": "ειλέωσιν",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol1770",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA030RN_0031@0.772,0.3254,0.058,0.0235"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:30r.2.294"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAext.hmt:2.467",
+    "comment": "εἰ ἐτεὸν",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol1771",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA030RN_0031@0.77,0.4411,0.0367,0.019"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:30r.2.300"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAint.hmt:2.461",
+    "comment": "ὁμοίως τὸν η περισπαστέον ⁑",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol1596",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA030RN_0031@0.0993,0.2546,0.065,0.0313"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:30r.2.291"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAint.hmt:2.462",
+    "comment": "ἀπὸ ἧς τῆ γενικῇ δεῖ συντάττειν ⁑",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol1597",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA030RN_0031@0.0953,0.2989,0.064,0.0468"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:30r.2.292"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAim.hmt:2.459",
+    "comment": "προς τὸν πονον ὅτι ἀντὶ έργον οὐδέποτε γὰρ ούτως εἷπε τὴν αλγηδόνα ⁑",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol1526",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA030RN_0031@0.4957,0.2471,0.065,0.0566"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:30r.2.291"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAim.hmt:2.460",
+    "comment": "ὅτι δια τοῦ κ γραπτέον οὐ δια τοῦ χ και το ἠ ετεον δια τοῦ η Ἀρισταρχος ⁑",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol1527",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA030RN_0031@0.4967,0.432,0.0743,0.0483"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:30r.2.300"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAil.hmt:2.463",
+    "comment": "παρα",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol1756",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA030RN_0031@0.2753,0.2971,0.0247,0.009"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:30r.2.293"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAil.hmt:2.464",
+    "comment": "επι του λοιμοῦ",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol1757",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA030RN_0031@0.3037,0.4666,0.0563,0.0178"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:30r.2.302"
+    ]
+  },
+  {
     "urn": "urn:cts:greekLit:tlg5026.msA.hmt:2.443",
     "lemma": "ὥς τε γὰρ ἠ παῖδες νεαροί·",
     "dse": {
@@ -7,7 +95,6 @@
       "image_roi": "urn:cite2:hmt:vaimg.2017a:VA030RN_0031@0.1707,0.0909,0.6067,0.0451"
     },
     "references": [
-      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:30r.2.289",
       "urn:cts:greekLit:tlg0012.tlg001.msA-folios:30r.2.290"
     ],
     "comment": "ἄμφω παρέτεινε τὸ μεν τὸ νεαροὶ τὸ δὲ τῷ χεῖρε : οἱ μὲν γὰρ εὐθὺ κόρον τῆς ἀγορᾶς λαβόντες ΐενται οἴκαδε αἱ δὲ τὸν οἴκοι φυλάσσοντα μη κεκτημέναι κωμωδεῖ δὲ τὸ ἀσύνετον καὶ ἀγεννὲς ὡς οὐ δια τὴν ὑπερτελειαν τῶν πολεμίων δια δὲ τὸ ϊδίᾳ μαλακὸν αὐτῶν θελόντων τοῦτο ποιεῖν ⁑"
@@ -56,10 +143,6 @@
       "image_roi": "urn:cite2:hmt:vaimg.2017a:VA030RN_0031@0.554,0.5822,0.2203,0.1099"
     },
     "references": [
-      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:30r.2.305",
-      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:30r.2.306",
-      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:30r.2.307",
-      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:30r.2.308",
       "urn:cts:greekLit:tlg0012.tlg001.msA-folios:30r.2.309"
     ],
     "comment": "ἕως ἀγλαὸν ὕδωρ ὑποστικτέον καὶ τὸ ἔνθα ἵν ᾖ τοπικὸν δια τὴν πλατάνιστον χρονικὸν δια τὸ χθιζά τε καὶ πρωΐζ' περιέχεται δὲ καὶ τέλη ἔσσας ἐκατόμβας ὑποστίζειν ἵνα συνάπτηται καλῇ ὑπο πλατανίστῳ ἕως σμερδαλέος . δύναται δὲ καὶ τοῖς ἄνω συνάπτεσθαι τὸ χθιζα τε καὶ πρωῒζ ἵνα πάντα συνημμένα ἢ ἐκ τοῦ εὖ γὰρ δὴ τόδε ἴδμεν ⁑"

@@ -1,5 +1,27 @@
 [
   {
+    "urn": "urn:cts:greekLit:tlg5026.msAint.hmt:6.203",
+    "comment": "αντι πλέω πάντων τῶν ἒν Ἰλίῳ ⁑",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol2710",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA090RN_0262@0.09948416,0.47551867,0.04863670,0.02351314"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:90r.6.493"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAint.hmt:6.204",
+    "comment": "αντι ἐγοων συνεστα  ⁑",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol2711",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA090RN_0262@0.10961680,0.60899032,0.04771555,0.03692946"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:90r.6.500"
+    ]
+  },
+  {
     "urn": "urn:cts:greekLit:tlg5026.msA.hmt:6.141",
     "lemma": "ἔναρα βροτόεντα",
     "dse": {
@@ -55,9 +77,6 @@
       "image_roi": "urn:cite2:hmt:vaimg.2017a:VA090RN_0262@0.60924834,0.41092669,0.18957259,0.06639004"
     },
     "references": [
-      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:90r.6.490",
-      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:90r.6.491",
-      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:90r.6.492",
       "urn:cts:greekLit:tlg0012.tlg001.msA-folios:90r.6.493"
     ],
     "comment": "τέσσαρσι στίχοις ἑξῆς ἀστερίσκοι παράκεινται . οτι νῦν μὲν ορθῶς κεῖνται καὶ προ τῆς μνηστηροφονιας . ἐν δὲ τῇ Α ῥαψωδι  τῆς Οδ  οὐκέτι ⁑"

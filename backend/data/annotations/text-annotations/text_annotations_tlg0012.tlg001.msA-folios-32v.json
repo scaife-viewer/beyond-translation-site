@@ -1,5 +1,49 @@
 [
   {
+    "urn": "urn:cts:greekLit:tlg5026.msAint.hmt:2.541",
+    "comment": "μελαθρον",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol1600",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA032VN_0534@0.8477,0.2533,0.0313,0.0185"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:32v.2.415"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAim.hmt:2.539",
+    "comment": "Ἀρισταρχος Ϊακῶς πάσαντο ⁑",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol1534",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA032VN_0534@0.4407,0.5354,0.0543,0.0436"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:32v.2.427"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAim.hmt:2.540",
+    "comment": "ἀντὶ αναλεγώμεθα .",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol1535",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA032VN_0534@0.4403,0.634,0.055,0.03"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:32v.2.435"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAil.hmt:2.543",
+    "comment": "λ  ὑπὸ",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol1759",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA032VN_0534@0.661,0.2516,0.031,0.01"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:32v.2.415"
+    ]
+  },
+  {
     "urn": "urn:cts:greekLit:tlg5026.msA.hmt:2.530",
     "lemma": "ἀλλ ὅ γε δέκτο μὲν ϊρὰ πόνον δ' αλίαστον·",
     "dse": {
@@ -79,7 +123,6 @@
       "image_roi": "urn:cite2:hmt:vaimg.2017a:VA032VN_0534@0.233,0.7367,0.618,0.0493"
     },
     "references": [
-      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:32v.2.435",
       "urn:cts:greekLit:tlg0012.tlg001.msA-folios:32v.2.436"
     ],
     "comment": "στρατηγικὴ παραγγελία χρόνου μὴ φείδεσθαι οὔτε γὰρ παρελθόντα ἀνακαλεῖσθαι οὔτε αἰτήσαντες λαβεῖν αὐτὸν δυνάμεθα , ἐρωτηθεὶς γοῦν Ἀλέξανδρος πῶς τῆς Ἑλλάδος ἐκράτησεν μηδὲν ἀναβαλλόμενος εἶπεν ⁑"

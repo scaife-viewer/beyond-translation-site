@@ -1,5 +1,16 @@
 [
   {
+    "urn": "urn:cts:greekLit:tlg5026.msAim.hmt:4.819",
+    "comment": "Ἀρισταρχ  Ϊακως ἕλκεν καὶ αἱ πλείους ⁑",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol2212",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA055VN_0557@0.42833456,0.30885201,0.04734709,0.02807746"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:55v.4.213"
+    ]
+  },
+  {
     "urn": "urn:cts:greekLit:tlg5026.msA.hmt:4.368",
     "lemma": "‡ βλήμενος ην·",
     "dse": {
@@ -7,7 +18,6 @@
       "image_roi": "urn:cite2:hmt:vaimg.2017a:VA055VN_0557@0.20228445,0.11452282,0.58640383,0.03319502"
     },
     "references": [
-      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:55v.4.211",
       "urn:cts:greekLit:tlg0012.tlg001.msA-folios:55v.4.212"
     ],
     "comment": "ὑποστικτέον εἰς τὸ ἦν καὶ κυκλόσε ὧν ἡ δευτέρα ἀνυπόώνυμίακριτός ἐστι δια μέσου δὲ ταύτα ⁑"

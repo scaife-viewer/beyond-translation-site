@@ -1,5 +1,27 @@
 [
   {
+    "urn": "urn:cts:greekLit:tlg5026.msAint.hmt:6.170",
+    "comment": "o ου καθολου τὴν ἀχλὺν ἀφηρέθ  πρὸς τῆς θ ⁑",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol2681",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA083RN_0255@0.096,0.2192,0.07,0.0375"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:83r.6.128"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAil.hmt:6.285",
+    "comment": "συναπτέον όλοντον στιχον",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol2772",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA083RN_0255@0.2167,0.2065,0.09340,0.01286"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:83r.6.128"
+    ]
+  },
+  {
     "urn": "urn:cts:greekLit:tlg5026.msA.hmt:6.36",
     "lemma": "‡ εἰ δέ τις ἀθανάτων γε κατ' οὐρανὸν εἰλήλουθας",
     "dse": {

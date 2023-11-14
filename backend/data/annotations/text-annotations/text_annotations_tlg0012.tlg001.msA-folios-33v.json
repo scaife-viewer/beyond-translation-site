@@ -1,5 +1,60 @@
 [
   {
+    "urn": "urn:cts:greekLit:tlg5026.msAext.hmt:2.583",
+    "comment": "γεινεται ὤρη",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol1775",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA033VN_0535@0.1437,0.3224,0.055,0.0133"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:33v.2.468"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAext.hmt:2.584",
+    "comment": "ρομένησι",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol1776",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA033VN_0535@0.12,0.5675,0.0397,0.0163"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:33v.2.481"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAint.hmt:2.582",
+    "comment": "πλατέα μεγάλα ἡ ὅτι ἐν διάστήματι καὶ πλάτει νέμονται αἱ αῖγες ⁑",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol1606",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA033VN_0535@0.863,0.424,0.0453,0.0493"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:33v.2.474"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAim.hmt:2.580",
+    "comment": "κατ εξοχὴν τῶν ἄλλων ὡρῶν ⁑",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol1536",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA033VN_0535@0.4533,0.376,0.043,0.036"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:33v.2.471"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAim.hmt:2.581",
+    "comment": "τὸ ομοίος καὶ ἴσως καὶ τὸ ΐκελος δοτικῇ συντάσσεται ⁑",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol1537",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA033VN_0535@0.448,0.5034,0.055,0.0708"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:33v.2.478"
+    ]
+  },
+  {
     "urn": "urn:cts:greekLit:tlg5026.msA.hmt:2.568",
     "lemma": "‡κλαγγηδὸν προκαθιζόντων·",
     "dse": {
@@ -43,9 +98,6 @@
       "image_roi": "urn:cite2:hmt:vaimg.2017a:VA033VN_0535@0.2233,0.1735,0.6143,0.031"
     },
     "references": [
-      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:33v.2.469",
-      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:33v.2.470",
-      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:33v.2.471",
       "urn:cts:greekLit:tlg0012.tlg001.msA-folios:33v.2.472"
     ],
     "comment": "ἀπ άλλης ἀρχῆς τὴν παραβολὴν προοιστέον ἵνα ὑποστίζωμεν ἐπι τὸ δεύει τῆς ἀνταποδιδομένης τῷ ηΰτε λέξεως ἀνακολούθως ἐχούσης ὡς ἐν τῇ ὡς δ' ὅτ' ἐν ουνὠ οὐρανῷ ἄστρα τόσσα μεσηγὺ νεῶν ⁑"
@@ -82,7 +134,6 @@
       "image_roi": "urn:cite2:hmt:vaimg.2017a:VA033VN_0535@0.236,0.3627,0.2113,0.0743"
     },
     "references": [
-      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:33v.2.478",
       "urn:cts:greekLit:tlg0012.tlg001.msA-folios:33v.2.479"
     ],
     "comment": "γραφεις μὲν τὸ ἀληθὲς μεταδιώκουσι : τραγικοὶ δὲ τὸ σεμνότερον . κωμικοὶ δὲ τὸ έλασσον άπερ ἅπαντα παρὰ τῷ ποιητῇ ἐστιν ὡς ἐπὶ Θερσίτου : καὶ τῷ δ' ἔχεν Αὐτομέδων καὶ ἐπι Αγαμέμνονος νῦν καὶ ἱ¨κανὸν ἑνὶ θω  εἰκάζειν αὐτὸν : ὁ δε τρεῖς εἴκασεν ἑκάστου τὸ διαπρεπὲς ἐκλεξαμενος τοῦ βασιλέως μὲν τὸ ἠγεμονικὸν καὶ ἐποπτικον ἐννοσιγαίου δὲ τὸ ἰσχυρὸν οῖς τὰ βάρη κατέχομεν : Ἄρεως δὲ τὰ μάλιστα ἐν πολέμῳ φαινόμενα : τὸ ἀξιωματικόν : τὸ γεραρὸν τὸ πολεμικόν ⁑"
@@ -95,9 +146,6 @@
       "image_roi": "urn:cite2:hmt:vaimg.2017a:VA033VN_0535@0.2277,0.5309,0.2223,0.1204"
     },
     "references": [
-      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:33v.2.484",
-      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:33v.2.485",
-      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:33v.2.486",
       "urn:cts:greekLit:tlg0012.tlg001.msA-folios:33v.2.487"
     ],
     "comment": "ὡς επι ἐργώδη καὶ θαυμασίαν περιπετειαν τὰς Μουσας παρακαλεῖ ὡς τὸν ἀκροατὴν δια τὸ μέγεθος ὄρεξιν ἔχειν καὶ συγγινώσκειν τοῖς ἐνδεεστερον λεγομένοις εὐτελίζων δε τὴν ἰδίαν φυσιν τὴν ἀπο τῶν ἀκουόντων ἐπεσπάσατο εὔνοιαν : ὁ δε λόγος εσπετε νῦν μοι Μοῦσαι οἵτινες ἡγεμόνες ἀρχοὺς γὰρ νηῶν ἐρέω πληθὺν δ' οὐκ ὰν εγὼ μυθήσομαι εἰ δεκαπλασίων ἐμαυτοῦ γένωμαι ὑμῶν γάρ ἐστι τὸ ἔργον δια δε τοῦ εἰπεῖν φωνὴ δ' ἄρρηκτος δηλοῖ ὅτι σῶμα ἡ φωνη·"
@@ -110,9 +158,6 @@
       "image_roi": "urn:cite2:hmt:vaimg.2017a:VA033VN_0535@0.237,0.6456,0.5353,0.0949"
     },
     "references": [
-      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:33v.2.484",
-      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:33v.2.485",
-      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:33v.2.486",
       "urn:cts:greekLit:tlg0012.tlg001.msA-folios:33v.2.487"
     ],
     "comment": "τὸ ἑξῆς ἐστιν ἔσπετε οἵ τινες : τὰ δε λοιπὰ δια μέσου καὶ διασταλτέον μὲν επι τὸ ἔχουσαι ἀνυποκρίτως δὲ στίζεται ἐπι τὸ ἑστέ καὶ πάρεστε : καὶ πάντα : καὶ ἀκούομεν καὶ ἴδμεν . δύναται δὲ καὶ στίζεσθαι κατα τὸ τέλος ὁ πρῶτος στίχος καὶ ὁ δεύτερος ἵνα ἕκαστον ᾖ καθ εαυτὸ καὶ συνάπτηται : οὐδέ τι ἴδμεν οἵ τινες ἡγεμόνες περισσεύοντος τοῦ τί μορίου πρότερον γὰρ ἐπεῖχε τινὰ χώραν ⁑"
@@ -137,13 +182,6 @@
       "image_roi": "urn:cite2:hmt:vaimg.2017a:VA033VN_0535@0.2407,0.7202,0.6203,0.097"
     },
     "references": [
-      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:33v.2.486",
-      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:33v.2.487",
-      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:33v.2.488",
-      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:33v.2.489",
-      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:33v.2.490",
-      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:33v.2.491",
-      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:33v.2.492",
       "urn:cts:greekLit:tlg0012.tlg001.msA-folios:33v.2.493"
     ],
     "comment": "εἴ φησιν ἀγνοεῖν τοὺς ἡγεμόνας πῶς ὑποκατιών φησὶν ἀρχοὺς αὖ νηῶν ἐρέω : στικτέον οὖν εἰς τὸ ἴ¨δμεν καὶ τὸν λόγον οὕτως ἐκδεκτέον : δύο ὑποτίθεται ὦν τὸ μὲν μηδε όλως δύνασθαι δια τὸ πλῆθος εἰπεῖν : τὸ δε δύνασθαι μέν χρήζειν δὲ τῆς τῶν Μουσῶν συμμαχίας ἔστιν οὖν τὸ πᾶν ἔσπετε νῦν μοι Μοῦσαι οἵτινες ἡγεμόνες ἀρχοὺς αὖ νηῶν ἐρέω νῆὰς  τε προπάσας πληθὺν δ' οὐκ ὰν ἐγὼ μυθήσομαι εἰ μη αὖται αἱ Μούσαι δι εαυτῶν εἴποιεν : τὸ δὲ ὑμεῖς γὰρ θεαί ἐστε ἐμεσολάβησε τοῦ ἔσπετε νῦν μοι Μοῦσαι οἵτινες ἡγεμόνες ὥσπερ αἰτίαν ἐπαγαγὼν τοῦ προς τὰς Μουσας ἀπερεῖσαι τὸν λόγον ⁑"

@@ -1,5 +1,38 @@
 [
   {
+    "urn": "urn:cts:greekLit:tlg5026.msAim.hmt:5.4056",
+    "comment": "ὅτι ἀντι του πλήσσουσα τῷ παθητικῶ ⁑",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol2405",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA077VN_0580@0.373249815770081,0.253112033195021,0.0670596904937362,0.0323651452282158"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:77v.5.763"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAim.hmt:5.4057",
+    "comment": "οτι ἔνιοι γράφουσι τὴν δ' εῦτε προσέειπε πατηρ ἀνδρῶν τε θεῶν τε ⁑",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol2406",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA077VN_0580@0.377302873986735,0.285753803596127,0.0736919675755343,0.0484094052558783"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:77v.5.764"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAim.hmt:5.4058",
+    "comment": "ὅτι ενταυθα μονον μνημονεύει τ του Στεντορος ⁑",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol2407",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA077VN_0580@0.39719970523213,0.65283540802213,0.0449521002210759,0.0619640387275242"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:77v.5.785"
+    ]
+  },
+  {
     "urn": "urn:cts:greekLit:tlg5026.msA.hmt:5.4033",
     "lemma": "‡ὅσσον δ' ηεροειδὲς ἀνὴρ·",
     "dse": {
@@ -17,7 +50,10 @@
     "dse": {
       "urn": "urn:cite2:hmt:va_dse.v1:schol2373",
       "image_roi": "urn:cite2:hmt:vaimg.2017a:VA077VN_0580@0.173913043478261,0.44149377593361,0.223286661753869,0.198063623789765"
-    }
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:77v.5.774"
+    ]
   },
   {
     "urn": "urn:cts:greekLit:tlg5026.msA.hmt:5.4035",

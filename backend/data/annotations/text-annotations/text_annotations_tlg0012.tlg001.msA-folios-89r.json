@@ -1,5 +1,71 @@
 [
   {
+    "urn": "urn:cts:greekLit:tlg5026.msAext.hmt:6.298",
+    "comment": "οὐδεσμε",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol2783",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA089RN_0261@0.84635225,0.49460581,0.05011054,0.01369295"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:89r.6.445"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAint.hmt:6.201",
+    "comment": "Καλίστρατος δια τοῦ η ἀμβατῆ ⁑",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol2708",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA089RN_0261@0.11219602,0.29557400,0.04697863,0.03762102"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:89r.6.434"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAint.hmt:6.202",
+    "comment": "ἐν ενίοις ή νυ καὶ αὐτοὺς θυμος",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol2709",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA089RN_0261@0.11016949,0.38948824,0.05747973,0.02130014"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:89r.6.439"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAim.hmt:6.268",
+    "comment": "ουτως Ἀρισταρχος δια τοῦ η θήνις ⁑",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol2758",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA089RN_0261@0.61459101,0.26224066,0.05858511,0.02240664"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:89r.6.432"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAim.hmt:6.269",
+    "comment": "ουτως Ἀρισταρχος , ἀμβατός ⁑",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol2759",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA089RN_0261@0.61035372,0.29502075,0.04808401,0.01936376"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:89r.6.434"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAim.hmt:6.272",
+    "comment": "οτι θηλυκως την Ἴλιον ⁑",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol2760",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA089RN_0261@0.56024318,0.56860304,0.03610906,0.01687414"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:89r.6.448"
+    ]
+  },
+  {
     "urn": "urn:cts:greekLit:tlg5026.msA.hmt:6.130",
     "lemma": "αἱεὶ καὶ πρώτοισι",
     "dse": {

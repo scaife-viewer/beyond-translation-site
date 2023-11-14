@@ -1,5 +1,104 @@
 [
   {
+    "urn": "urn:cts:greekLit:tlg5026.msAil.hmt:10.4530",
+    "comment": "Λυδοι",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol4082",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA134VN_0636@0.722,0.302,0.064,0.0203"
+    },
+    "references": []
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAil.hmt:10.4531",
+    "comment": "ἐ",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol4083",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA134VN_0636@0.562,0.3253,0.061,0.0203"
+    },
+    "references": []
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAil.hmt:10.4533",
+    "comment": "προθυμεῖσθε",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol4084",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA134VN_0636@0.601,0.3418,0.076,0.0203"
+    },
+    "references": []
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAil.hmt:10.4534",
+    "comment": "νεωστι εληλύθότες",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol4085",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA134VN_0636@0.709,0.3606,0.105,0.0203"
+    },
+    "references": []
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAil.hmt:10.4535",
+    "comment": "ὁ τρόπος ὑπερβολῆ",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol4086",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA134VN_0636@0.525,0.4177,0.105,0.0165"
+    },
+    "references": []
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAil.hmt:10.4536",
+    "comment": "νῦν οὐ μεγάλα ἀλλα κατ  τὸ κάλλος τεράστια :",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol4087",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA134VN_0636@0.659,0.4568,0.167,0.0165"
+    },
+    "references": []
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAil.hmt:10.4537",
+    "comment": "ἀπενέγκατε :",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol4088",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA134VN_0636@0.693,0.5139,0.067,0.0165"
+    },
+    "references": []
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAil.hmt:10.4538",
+    "comment": "σφοδρῶ ⁑",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol4089",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA134VN_0636@0.746,0.5282,0.067,0.0165"
+    },
+    "references": []
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAil.hmt:10.4539",
+    "comment": "οτ  ἀπέλθητον :",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol4090",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA134VN_0636@0.614,0.55,0.075,0.0165"
+    },
+    "references": []
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAil.hmt:10.4540",
+    "comment": "ἐάσωμεν :",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol4091",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA134VN_0636@0.802,0.6431,0.071,0.0165"
+    },
+    "references": []
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAil.hmt:10.4541",
+    "comment": "ἐλεύσῃ παραγενήσῃ",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol4092",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA134VN_0636@0.641,0.6619,0.11,0.0165"
+    },
+    "references": []
+  },
+  {
     "urn": "urn:cts:greekLit:tlg5026.msA.hmt:10.4506",
     "lemma": "Παίονες :",
     "dse": {
@@ -125,7 +224,10 @@
     "dse": {
       "urn": "urn:cite2:hmt:va_dse.v1:schol4079",
       "image_roi": "urn:cite2:hmt:vaimg.2017a:VA134VN_0636@0.228,0.7153,0.666,0.0473"
-    }
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:134v.10.437"
+    ]
   },
   {
     "urn": "urn:cts:greekLit:tlg5026.msA.hmt:10.4517",

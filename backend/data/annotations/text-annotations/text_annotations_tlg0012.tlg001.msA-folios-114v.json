@@ -1,5 +1,214 @@
 [
   {
+    "urn": "urn:cts:greekLit:tlg5026.msAext.hmt:9.176",
+    "lemma": "πολύρρηνες",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:tlg5026_msAext_hmt_9_176",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA114VN_0617@0.1091,0.6134,0.06540,0.02835"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:114v.9.154"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAint.hmt:9.173",
+    "comment": "οτ  εδνα ἐδίδοσαν οἱ νυμφίοι ταῖς παρθένοις ⁑",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:tlg5026_msAint_hmt_9_173",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA114VN_0617@0.8549,0.4523,0.0511,0.0398"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:114v.9.146"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAint.hmt:9.174",
+    "comment": "Αρισταρχ  τιμήσονται ⁑",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:tlg5026_msAint_hmt_9_174",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA114VN_0617@0.8448,0.6191,0.041,0.0293"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:114v.9.155"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAint.hmt:9.175",
+    "comment": "δια τοῦ ἑτέρου ρ τὸ πολύρρηνες αἱ Αρισταρχ  ⁑",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:tlg5026_msAint_hmt_9_175",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA114VN_0617@0.8769,0.6026,0.044,0.0361"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:114v.9.154"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAim.hmt:9.168",
+    "comment": "οτ  ἀγαπητὸς μόνος ἐπι ταῖς θηλείαις :",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:tlg5026_msAim_hmt_9_168",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA114VN_0617@0.4234,0.4042,0.0581,0.0316"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:114v.9.143"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAim.hmt:9.169",
+    "comment": "οτ  οὐκ οἰδεν τὴν παρα τοῖς νεωτεροις σφαγὴν Ἰφιγενείας",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:tlg5026_msAim_hmt_9_169",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA114VN_0617@0.4193,0.4440,0.05766,0.03997"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:114v.9.145"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAim.hmt:9.170",
+    "comment": "οτ  οὐ λέγει ὅτι πρῶτος επι δέδωκα",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:tlg5026_msAim_hmt_9_170",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA114VN_0617@0.4234,0.4899,0.0691,0.0413"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:114v.9.148"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAim.hmt:9.171",
+    "comment": "οτ  ἀντι τοῦ νέονται ἕνιοι δε αντ  τοῦ ἔσχαται οὐκ εὖ ⁑",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:tlg5026_msAim_hmt_9_171",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA114VN_0617@0.4264,0.5898,0.0691,0.0511"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:114v.9.153"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAim.hmt:9.172",
+    "comment": "παρὰ Ζηνόδοτ  και Αριστοφα  καμφθήτω :",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:tlg5026_msAim_hmt_9_172",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA114VN_0617@0.4259,0.6939,0.06651,0.04924"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:114v.9.158"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAil.hmt:9.177",
+    "comment": "δαψιλῶς ϊκανῶς",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:tlg5026_msAil_hmt_9_177",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA114VN_0617@0.5475,0.2795,0.0831,0.012"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:114v.9.137"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAil.hmt:9.178",
+    "comment": "πληρωσατω σωρευσάσθω",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:tlg5026_msAil_hmt_9_178",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA114VN_0617@0.7508,0.2772,0.1031,0.012"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:114v.9.137"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAil.hmt:9.179",
+    "comment": "μεριζώμεθα",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:tlg5026_msAil_hmt_9_179",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA114VN_0617@0.6947,0.2983,0.0651,0.012"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:114v.9.138"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAil.hmt:9.180",
+    "comment": "τὰ λάφυρα",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:tlg5026_msAil_hmt_9_180",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA114VN_0617@0.7928,0.296,0.0651,0.012"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:114v.9.138"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAil.hmt:9.181",
+    "comment": "γόνιμον λιπαρον",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:tlg5026_msAil_hmt_9_181",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA114VN_0617@0.8208,0.3524,0.0651,0.0098"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:114v.9.141"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAil.hmt:9.182",
+    "comment": "εν πολλῆ ευωχία",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:tlg5026_msAil_hmt_9_182",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA114VN_0617@0.7576,0.3943,0.06890,0.01369"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:114v.9.143"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAil.hmt:9.183",
+    "comment": "γράφεται και νάεται",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:tlg5026_msAil_hmt_9_183",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA114VN_0617@0.6877,0.5823,0.0681,0.012"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:114v.9.153"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAil.hmt:9.184",
+    "comment": "δωρεαῖς :",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:tlg5026_msAil_hmt_9_184",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA114VN_0617@0.6156,0.6221,0.049,0.012"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:114v.9.155"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAil.hmt:9.185",
+    "comment": "δαμασθήτω ὑπειξάτω",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:tlg5026_msAil_hmt_9_185",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA114VN_0617@0.5295,0.6799,0.1081,0.012"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:114v.9.158"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAil.hmt:9.688",
+    "comment": "ι",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:tlg5026_msAil_hmt_9_688",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA114VN_0617@0.7397,0.2615,0.019,0.0113"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:114v.9.136"
+    ]
+  },
+  {
     "urn": "urn:cts:greekLit:tlg5026.msA.hmt:9.154",
     "lemma": "‡νῆα ἅλις , χρυσου :",
     "dse": {
@@ -101,7 +310,10 @@
     "dse": {
       "urn": "urn:cite2:hmt:va_dse.v1:tlg5026_msA_hmt_9_162",
       "image_roi": "urn:cite2:hmt:vaimg.2017a:VA114VN_0617@0.1857,0.3772,0.2393,0.05201"
-    }
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:114v.9.148"
+    ]
   },
   {
     "urn": "urn:cts:greekLit:tlg5026.msA.hmt:9.163",

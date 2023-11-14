@@ -1,5 +1,49 @@
 [
   {
+    "urn": "urn:cts:greekLit:tlg5026.msAint.hmt:16.217v1",
+    "comment": "ἡ υπο περιττή ⁑",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol7778",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA217VN_0719@0.8710,0.4842,0.04311,0.02047"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:217v.16.591"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAim.hmt:16.217v1",
+    "comment": "ὅτι ἀπεστροφε τὸν λόγον εκ τῶν περι τοῦ προς αυτόν ⁑",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol7837",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA217VN_0719@0.4320,0.3599,0.05601,0.05698"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:217v.16.584"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAim.hmt:16.217v2",
+    "comment": "ὅτι ἐν πο Φθίᾳ ἡ Ἑλλάς ⁑",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol7838",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA217VN_0719@0.4340,0.5718,0.04845,0.03389"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:217v.16.595"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAim.hmt:16.217v3",
+    "comment": "συναπτέον ἕως τοῦ ἀνηρ . τὸ γὰρ ως αἴτιον ⁑ ⁑",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol7839",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA217VN_0719@0.4252,0.6672,0.07185,0.04288"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:217v.16.600"
+    ]
+  },
+  {
     "urn": "urn:cts:greekLit:tlg5026.msA.hmt:16.217v1",
     "lemma": "καί ρ' ἔβαλε Σθενέλαον :",
     "dse": {

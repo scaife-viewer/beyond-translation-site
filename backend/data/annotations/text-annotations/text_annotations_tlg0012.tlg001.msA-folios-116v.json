@@ -1,5 +1,137 @@
 [
   {
+    "urn": "urn:cts:greekLit:tlg5026.msAext.hmt:9.288",
+    "comment": "φθεῖσθαι",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:tlg5026_msAext_hmt_9_288",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA116VN_0619@0.1091,0.4125,0.0701,0.0383"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:116v.9.246"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAint.hmt:9.286",
+    "comment": "αλλ εμπεσεῖσθε ταῖς ναυσι διώκοντες ἡμὰς :",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:tlg5026_msAint_hmt_9_286",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA116VN_0619@0.8482,0.2243,0.0598,0.0241"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:116v.9.235"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAint.hmt:9.287",
+    "comment": "σημειοῦνται τινὲς ἀντι τοῦ μαλερῶ πυρι ⁑",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:tlg5026_msAint_hmt_9_287",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA116VN_0619@0.8935,0.3519,0.0302,0.0436"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:116v.9.242"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAim.hmt:9.280",
+    "comment": "ὅτι ἐπι τῶν Τρώων ἐστίν ἐμπεσοῦνται ταῖς ναυσὶν ἐνσείσουσι :",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:tlg5026_msAim_hmt_9_280",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA116VN_0619@0.4318,0.211,0.048,0.0501"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:116v.9.235"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAim.hmt:9.281",
+    "comment": "βραχ  διασταλτ  ἐπι το ανερας .",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:tlg5026_msAim_hmt_9_281",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA116VN_0619@0.4251,0.2959,0.0546,0.0267"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:116v.9.239"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAim.hmt:9.282",
+    "comment": "Ἀριστ  ἐμπλήσειν ⁑",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:tlg5026_msAim_hmt_9_282",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA116VN_0619@0.4095,0.3477,0.08861,0.04066"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:116v.9.242"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAim.hmt:9.283",
+    "comment": "διασταλτέον βραχ  φρένας θεοί ⁑",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:tlg5026_msAim_hmt_9_283",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA116VN_0619@0.4187,0.3923,0.0596,0.0343"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:116v.9.244"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAim.hmt:9.284",
+    "comment": "σημειοῦνται τινες ὅτι τὴν όλην Πελοπόννησον : οὐκ οῖδεν ὁ ποιητ  Ἡσιοδ  δὲ ⁑",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:tlg5026_msAim_hmt_9_284",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA116VN_0619@0.4159,0.4276,0.0611,0.0559"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:116v.9.247"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAim.hmt:9.285",
+    "comment": "σημειοῦνται τινὲς οτ  παρεῖται τὸ τάδε λέγων ⁑",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:tlg5026_msAim_hmt_9_285",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA116VN_0619@0.4203,0.5804,0.0522,0.0562"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:116v.9.254"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAil.hmt:9.289",
+    "comment": "πεπωμένον",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:tlg5026_msAil_hmt_9_289",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA116VN_0619@0.7798,0.4084,0.0587,0.0131"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:116v.9.245"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAil.hmt:9.290",
+    "comment": "εἰ σπουδάζεις",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:tlg5026_msAil_hmt_9_290",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA116VN_0619@0.6063,0.444,0.052,0.0111"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:116v.9.247"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAil.hmt:9.291",
+    "comment": "εἰ προθυμεῖ",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:tlg5026_msAil_hmt_9_291",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA116VN_0619@0.661,0.4438,0.052,0.0111"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:116v.9.247"
+    ]
+  },
+  {
     "urn": "urn:cts:greekLit:tlg5026.msA.hmt:9.270",
     "lemma": "‡ἐνδέξια :",
     "dse": {

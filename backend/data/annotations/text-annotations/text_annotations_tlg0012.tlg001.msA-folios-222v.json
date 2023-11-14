@@ -1,5 +1,27 @@
 [
   {
+    "urn": "urn:cts:greekLit:tlg5026.msAim.hmt:16.222v_1",
+    "comment": "ουτ δια τοῦ ε σε προσέφη ⁑",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol8089",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA222VN_0724@0.4062,0.4311,0.06430,0.03029"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:222v.16.842"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAim.hmt:16.222v_2",
+    "comment": "ἐκ πλήρους τὸ δαμεντ Αρίσταρχος",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol8090",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA222VN_0724@0.3954,0.6609,0.07498,0.05311"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:222v.16.854"
+    ]
+  },
+  {
     "urn": "urn:cts:greekLit:tlg5026.msA.hmt:16.222v_1",
     "lemma": "ἀνδρῶν δ' Εὐφόρβως ~",
     "dse": {
@@ -17,7 +39,8 @@
     "dse": {
       "urn": "urn:cite2:hmt:va_dse.v1:schol8075",
       "image_roi": "urn:cite2:hmt:vaimg.2017a:VA222VN_0724@0.2364,0.7209,0.6190,0.06017"
-    }
+    },
+    "references": []
   },
   {
     "urn": "urn:cts:greekLit:tlg5026.msA.hmt:16.222v_3",

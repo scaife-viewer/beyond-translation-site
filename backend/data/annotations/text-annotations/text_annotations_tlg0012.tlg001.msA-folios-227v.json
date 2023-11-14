@@ -1,5 +1,94 @@
 [
   {
+    "urn": "urn:cts:greekLit:tlg5026.msAint.hmt:17.24",
+    "comment": "τεύχεσι δὲ λαμπoμε  Πηλείωνος ἰνδάλλετο πᾶσιν αἰτῷ",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol5892",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA227VN_0729@0.867,0.4576,0.069,0.0443"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:227v.17.214"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAint.hmt:17.25",
+    "comment": "καὶ ἕτερον παραδίδωσιν Ἔννομον υπ  Οδ  ἀνηρηον  ⁑",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol5893",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA227VN_0729@0.888,0.5319,0.048,0.0541"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:227v.17.218"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAim.hmt:17.25",
+    "comment": "Ἀρίσταρχ  εῖσιν ⁑",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol5968",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA227VN_0729@0.446,0.2382,0.045,0.0308"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:227v.17.202"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAim.hmt:17.26",
+    "comment": "ουτ  Ἀρισταρχ  κατ  δοτικήν ἄλλοι δὲ μεγαθύμου Πειλείωνος ⁑",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol5969",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA227VN_0729@0.443,0.4688,0.047,0.0639"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:227v.17.214"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAil.hmt:17.19",
+    "comment": "ἔδοξα~ ενόμισα :",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol5928",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA227VN_0729@0.653,0.2352,0.026,0.0128"
+    },
+    "references": []
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAil.hmt:17.20",
+    "comment": "εἰσι",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol5929",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA227VN_0729@0.542,0.3253,0.056,0.0135"
+    },
+    "references": []
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAil.hmt:17.21",
+    "comment": "ἀμοιβήν :",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol5931",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA227VN_0729@0.708,0.4388,0.181,0.0188"
+    },
+    "references": []
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAil.hmt:17.22",
+    "comment": "πολεμικὴ προθυμία :",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol5932",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA227VN_0729@0.521,0.4771,0.052,0.0165"
+    },
+    "references": []
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAil.hmt:17.23",
+    "comment": "εφαίνετ  κατ  τὸ εῖδος ὅμοιος τῶ Αχιλλεῖ ὁ Έκτωρ",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol5933",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA227VN_0729@0.697,0.6627,0.055,0.0158"
+    },
+    "references": []
+  },
+  {
     "urn": "urn:cts:greekLit:tlg5026.msA.hmt:17.82",
     "lemma": "‡ ἀ δειλ’~",
     "dse": {
@@ -77,7 +166,6 @@
       "image_roi": "urn:cite2:hmt:vaimg.2017a:VA227VN_0729@0.222,0.3696,0.228,0.0609"
     },
     "references": [
-      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:227v.17.207",
       "urn:cts:greekLit:tlg0012.tlg001.msA-folios:227v.17.208"
     ],
     "comment": "εἰ καὶ ἔμελλε τίς τῶν ἀκουόντων ὀργισθήσεσθαι καὶ ἀγανακτήσειν ἐπι τῷ τὸν Ἕκτορα χρῆσθαι τοῖς όπλοις μαθῶν δὲ ὅτι καὶ οὐκ ἐπι πολὺ φορέσει κἂν ἠλέησε τὸν Ἕκτορα ⁑"
@@ -90,7 +178,6 @@
       "image_roi": "urn:cite2:hmt:vaimg.2017a:VA227VN_0729@0.214,0.4267,0.237,0.0368"
     },
     "references": [
-      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:227v.17.207",
       "urn:cts:greekLit:tlg0012.tlg001.msA-folios:227v.17.208"
     ],
     "comment": "καὶ τοῦτο ἠθικον ὅτι οὐ φθάσει προς τοὺς οἰκείους καλλωπίζεσθαι τοῖς ὅπλοις . οὗπερ ἐπεθύμει ὁ Ἕκτωρ ⁑"
@@ -115,7 +202,6 @@
       "image_roi": "urn:cite2:hmt:vaimg.2017a:VA227VN_0729@0.204,0.5207,0.253,0.0706"
     },
     "references": [
-      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:227v.17.213",
       "urn:cts:greekLit:tlg0012.tlg001.msA-folios:227v.17.214"
     ],
     "comment": "αἱ κοιναὶ ἐκδόσεις ἔχουσι μεγαθύμου Πηλείωνος καὶ ἀκόλουθόν ἐστι συνάπτειν ὅλον τὸν τιχον ἡ δε Ἀριστάρχειος διόρθωσις κατα δοτικὴν ἔχει μεγαθύμῳ Πηλείωνι . ἢ ἀκόλουθόν ἐστι βραχὺ διαστέλλειν ἐπι τὸ λαμπόμενος ⁑"
@@ -176,7 +262,6 @@
       "image_roi": "urn:cite2:hmt:vaimg.2017a:VA227VN_0729@0.237,0.7596,0.648,0.0285"
     },
     "references": [
-      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:227v.17.223",
       "urn:cts:greekLit:tlg0012.tlg001.msA-folios:227v.17.224"
     ],
     "comment": "ἥτοι ὑποστικτέον Ἀχαιῶν , ἢ στικτέον τοῦ διστιχίου ἠ τοῖς ἑξῆς ἐπάνω προσδιδομένου ⁑"
@@ -189,7 +274,6 @@
       "image_roi": "urn:cite2:hmt:vaimg.2017a:VA227VN_0729@0.241,0.7761,0.655,0.0263"
     },
     "references": [
-      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:227v.17.225",
       "urn:cts:greekLit:tlg0012.tlg001.msA-folios:227v.17.226"
     ],
     "comment": "καταπονῶ ὑμῖν δηλονότι δωρεὰς καὶ τὰ ἐπιτήδεια παρέχειν ἀναγκάζω~ ἄλλως~ ὅρα τὸ αἰσχρόν~ κατατρύχεσθαι φησὶ τοὺς Τρώας εἰς τὴν τῶν σὺμμάχων  διας τροφὴν ⁑"

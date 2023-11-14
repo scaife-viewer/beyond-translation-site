@@ -1,5 +1,71 @@
 [
   {
+    "urn": "urn:cts:greekLit:tlg5026.msAim.hmt:4.812",
+    "comment": "ουτ  πῶ Αρισταρχ  ουχι ποῦ ως τινες",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol2207",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA055RN_0056@0.52560796,0.22448133,0.04532056,0.02143845"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:55r.4.184"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAim.hmt:4.813",
+    "comment": "στικτέον επι το τελος τοῦ στίχου τελεια ασύνδετ  γὰρ ὁ λόγος πρὸς τὰ ἑξῆς ⁑",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol2208",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA055RN_0056@0.51952837,0.31922545,0.05508475,0.03941909"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:55r.4.189"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAim.hmt:4.814",
+    "comment": "γράφεται ἀρχὸν Ἀχαιῶν :",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol2209",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA055RN_0056@0.54016212,0.43720609,0.06595431,0.01396957"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:55r.4.195"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAim.hmt:4.815",
+    "comment": "γράφεται αγορευεν",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol2210",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA055RN_0056@0.55176861,0.57690180,0.03113486,0.01147994"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:55r.4.203"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAim.hmt:4.816",
+    "comment": "ουτ  Αρισταρχος χω  τοῦ σιδη ⁑",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol2211",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA055RN_0056@0.52781872,0.62130014,0.03518791,0.02240664"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:55r.4.205"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAil.hmt:4.817",
+    "comment": "ψηλαφής οι ἐφάψυται ⁑",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol2245",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA055RN_0056@0.32240236,0.33042877,0.07627119,0.01147994"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:55r.4.190"
+    ]
+  },
+  {
     "urn": "urn:cts:greekLit:tlg5026.msA.hmt:4.335",
     "lemma": "‡ ζῶμά τε καὶ μίτρην·",
     "dse": {
@@ -29,7 +95,10 @@
     "dse": {
       "urn": "urn:cite2:hmt:va_dse.v1:schol2087",
       "image_roi": "urn:cite2:hmt:vaimg.2017a:VA055RN_0056@0.18017686,0.15767635,0.59248342,0.03236515"
-    }
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:55r.4.191"
+    ]
   },
   {
     "urn": "urn:cts:greekLit:tlg5026.msA.hmt:4.348",

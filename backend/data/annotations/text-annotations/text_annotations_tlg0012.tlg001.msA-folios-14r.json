@@ -1,5 +1,247 @@
 [
   {
+    "urn": "urn:cts:greekLit:tlg5026.msAext.hmt:1.135",
+    "comment": "ση  ὅτι τὸ κρήγυον απαξ :",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol766",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA014RN_0015@0.78445099,0.34190871,0.05895357,0.02461964"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:14r.1.106"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAint.hmt:1.141",
+    "comment": "ὅτι αμφοτεροι εις τὴν Ὀδύσσειαν μετάκεινται οὐκ ορθῶς",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol355",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA014RN_0015@0.12601326,0.26085754,0.05747973,0.03347165"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:14r.1.104"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAint.hmt:1.142",
+    "comment": "τὸ ως ὁπότε σημαντικόν ἐστι τοῦ όμως περισπαται",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol356",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA014RN_0015@0.11532793,0.52116183,0.06005895,0.02959889"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:14r.1.116"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAim.hmt:1.136",
+    "comment": "αἱ ἐν βάθει κείμεναι ἣ τεταραγμέναι δια τὴν οργήν ⁑",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol284",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA014RN_0015@0.48378777,0.27081604,0.09911570,0.01715076"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:14r.1.103"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAim.hmt:1.138",
+    "comment": "ὅτι ελλείπει ἡ περι πρόθεσις",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol285",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA014RN_0015@0.50994842,0.43208852,0.06742815,0.01770401"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:14r.1.111"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAim.hmt:1.139",
+    "comment": "στηκτέον ἐπι τὸ άμεινον ψυχροι γὰρ οἱ επι τὸ παλιν στίζοντες ⁑",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol286",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA014RN_0015@0.52837141,0.52586445,0.04568902,0.04370678"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:14r.1.116"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAil.hmt:1.357",
+    "comment": "προ πάντων",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol447",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA014RN_0015@0.28481945,0.30871369,0.05526898,0.00885201"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:14r.1.105"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAil.hmt:1.358",
+    "comment": "δεινὸν καὶ ορίλον ὑποβλεψάμενος",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol448",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA014RN_0015@0.36882830,0.31203320,0.09653648,0.01078838"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:14r.1.105"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAil.hmt:1.359",
+    "comment": "τὸ ἀγαθον",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol449",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA014RN_0015@0.43551953,0.33195021,0.04016212,0.00746888"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:14r.1.106"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAil.hmt:1.360",
+    "comment": "μαντευόμενος",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol450",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA014RN_0015@0.35593220,0.38893499,0.06226971,0.00802213"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:14r.1.109"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAil.hmt:1.361",
+    "comment": "αὑτοῖς τοῖς ἕλλησι",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol451",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA014RN_0015@0.29108327,0.40331950,0.06595431,0.01217151"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:14r.1.110"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAil.hmt:1.363",
+    "comment": "προκέκριξ προτιμῶ ⁑",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol452",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA014RN_0015@0.47605011,0.46583679,0.09985262,0.01327801"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:14r.1.113"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAil.hmt:1.364",
+    "comment": "τὸ σῶμα",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol453",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA014RN_0015@0.21002211,0.49820194,0.04310980,0.01051176"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:14r.1.115"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAil.hmt:1.365",
+    "comment": "ουδε τὴν εὐφυΐαν",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol454",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA014RN_0015@0.28887251,0.50013831,0.06521739,0.01134163"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:14r.1.115"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAil.hmt:1.366",
+    "comment": "όμως",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol455",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA014RN_0015@0.25018423,0.51784232,0.02321297,0.00829876"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:14r.1.116"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAil.hmt:1.367",
+    "comment": "τιμὴν",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol456",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA014RN_0015@0.28076640,0.55878285,0.02947679,0.00829876"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:14r.1.118"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAil.hmt:1.368",
+    "comment": "ευθέως",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol457",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA014RN_0015@0.33714075,0.55988935,0.03058217,0.00885201"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:14r.1.118"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAil.hmt:1.369",
+    "comment": "οὐδε γὰρ πρέπει",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol458",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA014RN_0015@0.47310243,0.58810512,0.05821665,0.01217151"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:14r.1.119"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAil.hmt:1.371",
+    "comment": "αποκοπη τοῦ ότι μου",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol459",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA014RN_0015@0.37361828,0.59861687,0.06963891,0.00857538"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:14r.1.120"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAil.hmt:1.372",
+    "comment": "ἀλλαχοῦ :",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol460",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA014RN_0015@0.51879145,0.60304288,0.03537214,0.00968188"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:14r.1.120"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAil.hmt:1.373",
+    "comment": "φιλοχριματῶτατε :",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol461",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA014RN_0015@0.36551216,0.63596127,0.08142962,0.01272476"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:14r.1.122"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAil.hmt:1.376",
+    "comment": "ταῦτα μεμέρισται :",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol462",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA014RN_0015@0.41672808,0.71286307,0.07479735,0.01023513"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:14r.1.125"
+    ]
+  },
+  {
     "urn": "urn:cts:greekLit:tlg5026.msA.hmt:1.116",
     "lemma": "φρένες αμφιμέλαιναι",
     "dse": {
@@ -29,7 +271,10 @@
     "dse": {
       "urn": "urn:cite2:hmt:va_dse.v1:schol55",
       "image_roi": "urn:cite2:hmt:vaimg.2017a:VA014RN_0015@0.18054532,0.15297372,0.61459101,0.01687414"
-    }
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:14r.1.106"
+    ]
   },
   {
     "urn": "urn:cts:greekLit:tlg5026.msA.hmt:1.119",

@@ -1,5 +1,86 @@
 [
   {
+    "urn": "urn:cts:greekLit:tlg5026.msAext.hmt:20.269r_1",
+    "comment": "κατ' οῦς",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol7504",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA269RN_0439@0.8382,0.5217,0.06080,0.02365"
+    },
+    "references": []
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAext.hmt:20.269r_2",
+    "comment": "τόν γε .",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol7505",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA269RN_0439@0.8220,0.6404,0.04956,0.01936"
+    },
+    "references": []
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAint.hmt:20.269r_1",
+    "comment": "οτ πάλιν ἀντιδιεστειλεν ⁑",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol7529",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA269RN_0439@0.1203,0.3059,0.08401,0.03416"
+    },
+    "references": []
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAint.hmt:20.269r_2",
+    "comment": "οὐ γάρ τις καὶ οὐ γαρ έτι",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol7530",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA269RN_0439@0.1330,0.3983,0.05343,0.02434"
+    },
+    "references": []
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAint.hmt:20.269r_3",
+    "comment": "αρισταρχ ἐνέπρησεν ⁑",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol7531",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA269RN_0439@0.1221,0.4718,0.07074,0.03416"
+    },
+    "references": []
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAim.hmt:20.269r_1",
+    "comment": "κατεσχε τοῦ φυγειν",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol7612",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA269RN_0439@0.5855,0.2209,0.09138,0.02213"
+    },
+    "references": []
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAim.hmt:20.269r_2",
+    "comment": "βραχ διασταλτ ἐπι τὸ ἐφορμηθεις ⁑",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol7613",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA269RN_0439@0.6197,0.2831,0.1004,0.03582"
+    },
+    "references": []
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAim.hmt:20.269r_3",
+    "comment": "γρ καὶ κατ οὗς ⁑",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol7614",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA269RN_0439@0.6116,0.5144,0.03150,0.02379"
+    },
+    "references": []
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAil.hmt:20.269r_1",
+    "comment": "αὐτοῦ",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol7557",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA269RN_0439@0.3014,0.3386,0.02966,0.01093"
+    },
+    "references": []
+  },
+  {
     "urn": "urn:cts:greekLit:tlg5026.msA.hmt:20.269r_1",
     "lemma": "Τρῶα δ' Ἀλαστορίδην ,",
     "dse": {

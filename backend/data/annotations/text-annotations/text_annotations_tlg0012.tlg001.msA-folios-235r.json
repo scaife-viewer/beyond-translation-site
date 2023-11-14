@@ -1,5 +1,27 @@
 [
   {
+    "urn": "urn:cts:greekLit:tlg5026.msAim.hmt:17.39",
+    "comment": "οτ  αντ  φυγῆς ~",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol5982",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA235RN_0406@0.573,0.5582,0.058,0.0323"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:235r.17.597"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAim.hmt:17.40",
+    "comment": "διὰ τοῦ ε αἱ Αρισταρχ  έλπετ",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol5983",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA235RN_0406@0.602,0.6747,0.042,0.0361"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:235r.17.603"
+    ]
+  },
+  {
     "urn": "urn:cts:greekLit:tlg5026.msA.hmt:17.114",
     "lemma": "Ἕκτορα δ' ἐγγύθεν :",
     "dse": {
@@ -29,7 +51,8 @@
     "dse": {
       "urn": "urn:cite2:hmt:va_dse.v1:schol6110",
       "image_roi": "urn:cite2:hmt:vaimg.2017a:VA235RN_0406@0.627,0.4177,0.194,0.0774"
-    }
+    },
+    "references": []
   },
   {
     "urn": "urn:cts:greekLit:tlg5026.msA.hmt:17.117",

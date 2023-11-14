@@ -1,5 +1,110 @@
 [
   {
+    "urn": "urn:cts:greekLit:tlg5026.msAim.hmt:10.83",
+    "comment": "ἀρισταρχ  παρὰ νηας :",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol3818",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA127RN_0299@0.5305,0.2765,0.0661,0.0158"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:127r.10.54"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAim.hmt:10.84",
+    "comment": "γράφεται αἴ κ' εθέλησι",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol3819",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA127RN_0299@0.5405,0.2975,0.0551,0.0158"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:127r.10.55"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAim.hmt:10.85",
+    "comment": "παρα τὸ ἐντὸς αὐτῶν εἶναι τὸν φοροῦντα ⁑",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol3820",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA127RN_0299@0.3824,0.6882,0.1091,0.0218"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:127r.10.75"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAil.hmt:10.86",
+    "comment": "υπνοῶ",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol3821",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA127RN_0299@0.3253,0.2036,0.049,0.0158"
+    },
+    "references": []
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAil.hmt:10.87",
+    "comment": "εἰργάσατο :",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol3822",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA127RN_0299@0.4885,0.2307,0.0651,0.0113"
+    },
+    "references": []
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAil.hmt:10.88",
+    "comment": "ἐὰν δύνατ  γέρων γὰρ ἦν :",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol3823",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA127RN_0299@0.4605,0.2893,0.1061,0.0113"
+    },
+    "references": []
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAil.hmt:10.89",
+    "comment": "τὸ τάγμα",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol3824",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA127RN_0299@0.3844,0.3043,0.0521,0.0113"
+    },
+    "references": []
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAil.hmt:10.90",
+    "comment": "αποτύχωμεν",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol3825",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA127RN_0299@0.3744,0.4771,0.0581,0.0158"
+    },
+    "references": []
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAil.hmt:10.91",
+    "comment": "ἔνθα ἂν πορευθῆς ⁑",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol3826",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA127RN_0299@0.2673,0.5116,0.1051,0.0143"
+    },
+    "references": []
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAil.hmt:10.93",
+    "comment": "μηδὲ ἐπαιρου τῇ διανοια δι ὑπεριφανιαν :",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol3827",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA127RN_0299@0.4064,0.5552,0.1932,0.015"
+    },
+    "references": []
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAil.hmt:10.94",
+    "comment": "τοῖς ἀεὶ ἀναφυομένοις πράγμασι ⁑",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol3828",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA127RN_0299@0.2242,0.5868,0.1642,0.015"
+    },
+    "references": []
+  },
+  {
     "urn": "urn:cts:greekLit:tlg5026.msA.hmt:10.68",
     "lemma": "‡ ἀλλ' ΐθι νῦν Αἴαντα :",
     "dse": {
@@ -19,7 +124,6 @@
       "image_roi": "urn:cite2:hmt:vaimg.2017a:VA127RN_0299@0.1642,0.1187,0.6336,0.0278"
     },
     "references": [
-      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:127r.10.51",
       "urn:cts:greekLit:tlg0012.tlg001.msA-folios:127r.10.52"
     ],
     "comment": "ἀθετοῦνται στίχοι Β ὅτι παλλιλογεῖ ταυτ  , δι αλλων γὰρ προείρηται ὅσσ' Έκτωρ ἔρεξε Διῒ φίλος υἷας Ἀχαιῶν . καὶ ὅτι ἐπι ταυτὸν φέρει δηθὰ καὶ δολιχον καὶ Ἀριστοφα  προηθέτει ⁑"

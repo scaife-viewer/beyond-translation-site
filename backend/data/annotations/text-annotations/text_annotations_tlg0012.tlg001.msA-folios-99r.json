@@ -1,5 +1,93 @@
 [
   {
+    "urn": "urn:cts:greekLit:tlg5026.msAext.hmt:7.3032",
+    "comment": "πυρκαϊῆς",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol2822",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA099RN_0271@0.8433,0.6406,0.0642,0.0351"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:99r.7.428"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAint.hmt:7.3012",
+    "comment": "Ἀρισαρχ  τεθνῃώτων ἄλλοι δὲ τεθνειώτων ⁑",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol2812",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA099RN_0271@0.104,0.2735,0.075,0.0646"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:99r.7.409"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAint.hmt:7.3013",
+    "comment": "οτ  θηλυκῶς τὴν Ί̈λιον",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol2813",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA099RN_0271@0.098,0.3599,0.077,0.0308"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:99r.7.413"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAint.hmt:7.3015",
+    "comment": "τὸ ἑξῆς εστ  απνίζοντες  διὸ ἀναστρεπτέον ⁑",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol2814",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA099RN_0271@0.101,0.583,0.072,0.0458"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:99r.7.425"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAint.hmt:7.3016",
+    "comment": "ἐν αλλω ἀλλα σιωπῇ",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol2815",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA099RN_0271@0.108,0.6206,0.069,0.0248"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:99r.7.427"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAint.hmt:7.3017",
+    "comment": "ουτ  Ἀρίσταρχ  πυρκαϊὰς κατ  γενικην ⁑",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol2816",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA099RN_0271@0.098,0.6431,0.083,0.0383"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:99r.7.428"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAil.hmt:7.3018",
+    "comment": "οτ  δια πὺρος εθαπτοντ  πάντες ⁑",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol2817",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA099RN_0271@0.2092,0.2937,0.1033,0.0131"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:99r.7.410"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAil.hmt:7.3019",
+    "comment": "αντ  τοῦ",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol2818",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA099RN_0271@0.3758,0.2899,0.0608,0.0257"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:99r.7.410"
+    ]
+  },
+  {
     "urn": "urn:cts:greekLit:tlg5026.msA.hmt:7.3053",
     "lemma": "πυρὸς μειλισσέμεν ὦκα·",
     "dse": {

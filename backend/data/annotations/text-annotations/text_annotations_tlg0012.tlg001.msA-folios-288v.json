@@ -1,5 +1,54 @@
 [
   {
+    "urn": "urn:cts:greekLit:tlg5026.msAint.hmt:22.25",
+    "comment": "αἱ πλείους δεῖναι δὲ",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol6787",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA288VN_0790@0.8585,0.3458,0.04237,0.04011"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:288v.22.315"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAim.hmt:22.31",
+    "comment": "τοῦ λαιμοῦ",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol6875",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA288VN_0790@0.4315,0.5242,0.04901,0.01300"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:288v.22.325"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAil.hmt:22.35",
+    "comment": "ἁπαλήν τρυφεράν",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol6832",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA288VN_0790@0.6441,0.2459,0.06780,0.01107"
+    },
+    "references": []
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAil.hmt:22.36",
+    "comment": "τὴν φάρυγγα·",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol6833",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA288VN_0790@0.6382,0.5671,0.05711,0.01355"
+    },
+    "references": []
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAil.hmt:22.37",
+    "comment": "ὑφορω",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol6834",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA288VN_0790@0.7307,0.6440,0.03095,0.01107"
+    },
+    "references": []
+  },
+  {
     "urn": "urn:cts:greekLit:tlg5026.msA.hmt:22.74",
     "lemma": "τοῦ δὲ καὶ ἄλλο τόσον·",
     "dse": {

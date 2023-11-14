@@ -1,5 +1,38 @@
 [
   {
+    "urn": "urn:cts:greekLit:tlg5026.msAim.hmt:6.250",
+    "comment": "οτι πάλιν δειρημένως εἴρηκεν ⁑",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol2743",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA086VN_0589@0.38006632,0.44702628,0.05490052,0.01798064"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:86v.6.317"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAim.hmt:6.251",
+    "comment": "οτι ὑφ ἓν ἐνδεκάπηχυ ἀναγνωστέον το γὰρ διπληάσιον δύο καὶ εἰκοσίπηχυ ⁑",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol2744",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA086VN_0589@0.38043478,0.48132780,0.06411201,0.06500692"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:86v.6.319"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAim.hmt:6.252",
+    "comment": "Ἀρισταρχος ὅν τινά που ⁑",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol2745",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA086VN_0589@0.39959469,0.69958506,0.04716286,0.01742739"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:86v.6.330"
+    ]
+  },
+  {
     "urn": "urn:cts:greekLit:tlg5026.msA.hmt:6.101",
     "lemma": "‡ ὡς ἔφατ' εὐχομενη",
     "dse": {

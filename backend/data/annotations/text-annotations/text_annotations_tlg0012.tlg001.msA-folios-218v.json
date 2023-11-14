@@ -1,5 +1,71 @@
 [
   {
+    "urn": "urn:cts:greekLit:tlg5026.msAint.hmt:16.218v1",
+    "comment": "ἔν τισιν ορωρεν",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol8107",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA218VN_0720@0.8963,0.3028,0.03132,0.02268"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:218v.16.633"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAint.hmt:16.218v2",
+    "comment": "Ἀριστοφάνης αϋτμη ⁑",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol8108",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA218VN_0720@0.8900,0.3234,0.04127,0.02517"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:218v.16.634"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAint.hmt:16.218v3",
+    "comment": "Ἀρισταρχος κατα δοτικὴν Σαρπηδόνι Δίω",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol8109",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA218VN_0720@0.8882,0.3942,0.03685,0.04219"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:218v.16.638"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAim.hmt:16.218v1",
+    "comment": "ουτως ορωρει Ἀρισταρχος",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol8104",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA218VN_0720@0.4597,0.2963,0.04919,0.03568"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:218v.16.633"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAim.hmt:16.218v2",
+    "comment": "ἀμεινον εῖχε φησὶ ὁ Αρισταρχος εἰ εγέγραπτο βοῶν εὐ ποιητάων έξω τοῦ τε συνδέσμου ⁑",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol8105",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA218VN_0720@0.4571,0.3617,0.05895,0.06210"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:218v.16.636"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAim.hmt:16.218v3",
+    "comment": "ἐκ πλήρους καὶ κεῖνον αἱ Ἀρισταρχου ⁑",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol8106",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA218VN_0720@0.4622,0.5802,0.05380,0.03859"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:218v.16.648"
+    ]
+  },
+  {
     "urn": "urn:cts:greekLit:tlg5026.msA.hmt:16.218v1",
     "lemma": "τῶν δ' ὥστε δρυτόμων ἀνδρῶν",
     "dse": {
@@ -17,7 +83,8 @@
     "dse": {
       "urn": "urn:cite2:hmt:va_dse.v1:schol7956",
       "image_roi": "urn:cite2:hmt:vaimg.2017a:VA218VN_0720@0.2601,0.3062,0.1984,0.09225"
-    }
+    },
+    "references": []
   },
   {
     "urn": "urn:cts:greekLit:tlg5026.msA.hmt:16.218v3",

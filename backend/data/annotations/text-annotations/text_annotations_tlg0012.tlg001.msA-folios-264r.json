@@ -1,5 +1,41 @@
 [
   {
+    "urn": "urn:cts:greekLit:tlg5026.msAext.hmt:20.264r_1",
+    "comment": "πολυπίδακου",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol7492",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA264RN_0434@0.8388,0.5053,0.06927,0.02019"
+    },
+    "references": []
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAext.hmt:20.264r_2",
+    "comment": "τρίς χίλ",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol7493",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA264RN_0434@0.8215,0.5639,0.03943,0.02019"
+    },
+    "references": []
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAint.hmt:20.264r_1",
+    "comment": "καὶ τὸ σήμερον ὀμοιως τοῖς προκειμεν",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol7517",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA264RN_0434@0.1338,0.3596,0.07167,0.04606"
+    },
+    "references": []
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAim.hmt:20.264r_1",
+    "comment": "οτ ἀπαρεμφατ αντ προστακτικ τοῦ δάηθι",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol7584",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA264RN_0434@0.6186,0.4131,0.07553,0.03402"
+    },
+    "references": []
+  },
+  {
     "urn": "urn:cts:greekLit:tlg5026.msA.hmt:20.264r_1",
     "lemma": "ὁψει δ' οὐτ άρ πω~",
     "dse": {

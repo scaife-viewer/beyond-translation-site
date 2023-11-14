@@ -1,5 +1,60 @@
 [
   {
+    "urn": "urn:cts:greekLit:tlg5026.msAint.hmt:6.185",
+    "comment": "οτι ἀπο μιᾶς πόλεως της Σιδῶνος τὴν Φοινικην σημαίνει ⁑",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol2694",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA086RN_0258@0.10998526,0.43651452,0.04863670,0.03360996"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:86r.6.291"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAint.hmt:6.186",
+    "comment": "βραχὺ διασταλτεον ἐπι τὸ Κισσηῒς",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol2695",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA086RN_0258@0.10832719,0.58796680,0.05011054,0.01715076"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:86r.6.299"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAim.hmt:6.247",
+    "comment": "Ζηνοδ  φίλον ῆτορ ⁑",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol2740",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA086RN_0258@0.59579956,0.31687414,0.06392778,0.01936376"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:86r.6.285"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAim.hmt:6.248",
+    "comment": "ἐν ταῖς Ἀριστάρχου φερε καὶ ἑτέρως ἡ δ' εἰς οῖκον ϊοῦσα παρίστατο φωριαμοῖσιν ⁑",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol2741",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA086RN_0258@0.56079587,0.36846473,0.10243183,0.03278008"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:86r.6.288"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAim.hmt:6.249",
+    "comment": "οτι πάλιν παρὰ γούνασιν ⁑",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol2742",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA086RN_0258@0.52579219,0.66002766,0.06005895,0.03098202"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:86r.6.303"
+    ]
+  },
+  {
     "urn": "urn:cts:greekLit:tlg5026.msA.hmt:6.95",
     "lemma": "‡ γαία χανοι",
     "dse": {

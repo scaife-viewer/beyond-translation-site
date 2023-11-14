@@ -1,5 +1,27 @@
 [
   {
+    "urn": "urn:cts:greekLit:tlg5026.msAim.hmt:3.683",
+    "comment": "στικτέον ἐπι τὸ βουλοίμην τὰ δὲ ἑξῆς συναπτέον ἕως τοῦ ἄλλων ⁑",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol1980",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA042VN_0544@0.43662491,0.53222683,0.05821665,0.03941909"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:42v.3.41"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAil.hmt:3.680",
+    "comment": "νύμφη",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol1952",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA042VN_0544@0.61366986,0.66334716,0.08585114,0.03291840"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:42v.3.49"
+    ]
+  },
+  {
     "urn": "urn:cts:greekLit:tlg5026.msA.hmt:3.60",
     "lemma": "χαμὰζε",
     "dse": {
@@ -77,7 +99,10 @@
     "dse": {
       "urn": "urn:cite2:hmt:va_dse.v1:schol1812",
       "image_roi": "urn:cite2:hmt:vaimg.2017a:VA042VN_0544@0.23028740,0.63402490,0.20965365,0.03402490"
-    }
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:42v.3.45"
+    ]
   },
   {
     "urn": "urn:cts:greekLit:tlg5026.msA.hmt:3.88",
@@ -111,12 +136,6 @@
       "image_roi": "urn:cite2:hmt:vaimg.2017a:VA042VN_0544@0.23194547,0.7355463,0.66322771,0.07081604"
     },
     "references": [
-      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:42v.3.46",
-      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:42v.3.47",
-      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:42v.3.48",
-      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:42v.3.49",
-      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:42v.3.50",
-      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:42v.3.51",
       "urn:cts:greekLit:tlg0012.tlg001.msA-folios:42v.3.52"
     ],
     "comment": "τινὲς κατὰ πεῦσιν καὶ θαυμασμὸν· τοιοῦτος ὢν δειλὸς συναγαγὼν πλῆθος διελθὼν πέλαγος γυναῖκα ἀνδρὸς πολεμικοῦ ήγαγες τῷ πρὶ  καὶ τοῖς ἄλλοις κακὸν μγ  εἶτα ἀπo ἄλλης ἀρχῆς οὐκ ἀν δὴμείνειας Μενέλαον ἠθικῶς μετὰ πεύσεως ἠ διαβεβαιωτικῶς . τινὲς δὲ τὸ πᾶν οὕτως τὸν ἤ ἀντὶ τοῦ εἴ εἰ τοιοὺτος ὢν ἐπηγάγου πλῆθος καὶ ἀπὸ ξένης γῆς γυναῖκα ἀνδρὸς πολεμικοῦ οὐκ ὰν ὑπομείναις τὸν ταύτης ἄνδρα ὃ καὶ προκρίνει Νικάνωρ ὡς μᾶλλον τὴν δικαιολογ  ἔχον ⁑"

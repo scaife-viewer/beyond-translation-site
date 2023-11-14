@@ -1,5 +1,60 @@
 [
   {
+    "urn": "urn:cts:greekLit:tlg5026.msAint.hmt:6.162",
+    "comment": "οτι ελλειπ  ἡ δια ἵν ᾖ δια πεδιου ⁑",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol2674",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA080VN_0583@0.83714075,0.22503458,0.03242447,0.02323651"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:80v.6.2"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAim.hmt:6.206",
+    "comment": "οτι αντι τοῦ ἐπαισε~",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol2713",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA080VN_0583@0.38854090,0.37261411,0.04366249,0.01908714"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:80v.6.9"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAim.hmt:6.207",
+    "comment": "αντι του εξένιζεν",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol2714",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA080VN_0583@0.39572587,0.48672199,0.04034635,0.01950207"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:80v.6.15"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAim.hmt:6.209",
+    "comment": "σκότιον ὡς λόγιον τὸ γὰρ κύριον προ τέλους ἔχει τὴν ὀξεῖαν ⁑",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol2715",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA080VN_0583@0.38577745,0.65062241,0.05140015,0.05643154"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:80v.6.24"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAil.hmt:6.A1",
+    "comment": "α",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol2786",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA080VN_0583@0.662,0.2292,0.028,0.015"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:80v.6.1"
+    ]
+  },
+  {
     "urn": "urn:cts:greekLit:tlg5026.msA.hmt:6.1",
     "lemma": "ἡ Τροία",
     "dse": {
@@ -55,7 +110,6 @@
       "image_roi": "urn:cite2:hmt:vaimg.2017a:VA080VN_0583@0.15641120,0.25518672,0.23323508,0.14813278"
     },
     "references": [
-      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:80v.6.5",
       "urn:cts:greekLit:tlg0012.tlg001.msA-folios:80v.6.6"
     ],
     "comment": "Τρώων ῥῆξε φάλαγγα τρισὶ μεταφοραῖς κέχρηται ἐπιφαίνων την ὁμοιότητα ὃ γὰρ δύναται προς ἀσφάλειαν π  τεῖχος . τοῦτο προς σριαν  στρατοῦ γενναιος ἀνήρ~ καὶ πάλιν~ ὃ δύναται ῥῆξις ἐσθῆτος την σκέπην ἀναιροῦσα . τοῦτο ἐδυνήθη . ὁ την φάλαγγα ῥήξας . καὶ πάλιν ὡς ὀνίνηισι φῶς τοὺς σκότῳ κατεχομένους~ οὕτως τοὺς νικωμένους ὑπο τῆς Ἄρεος ἀχλύος ἐπέλαμψεν ἡ Αἴαντος βοήθεια ⁑"

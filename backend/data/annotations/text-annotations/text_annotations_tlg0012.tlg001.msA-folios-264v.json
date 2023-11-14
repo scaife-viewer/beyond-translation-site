@@ -1,5 +1,86 @@
 [
   {
+    "urn": "urn:cts:greekLit:tlg5026.msAext.hmt:20.264v_1",
+    "comment": "κάρτιστος ἁπαντ",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol7494",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA264VN_0766@0.1435,0.5267,0.07332,0.01757"
+    },
+    "references": []
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAext.hmt:20.264v_2",
+    "comment": "ἑκατόνζυγοσ",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol7495",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA264VN_0766@0.1573,0.5909,0.05766,0.03057"
+    },
+    "references": []
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAim.hmt:20.264v_1",
+    "comment": "Ἀρισταρχ ἀλλ' ὅτι δὲ αλλοι δὲ ἀλλό τε δὴ δια τοῦ η ⁑",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol7585",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA264VN_0766@0.4374,0.2409,0.04937,0.06113"
+    },
+    "references": []
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAim.hmt:20.264v_2",
+    "comment": "κατ ένια τὸν μὲν ανηρειψα ⁑",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol7586",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA264VN_0766@0.4420,0.3640,0.04624,0.06404"
+    },
+    "references": []
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAim.hmt:20.264v_3",
+    "comment": "ἐν αλλῳ ὁ γάρ κ' όχ' ἄριστος ἁπάντων",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol7587",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA264VN_0766@0.4392,0.5326,0.05435,0.03416"
+    },
+    "references": []
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAim.hmt:20.264v_4",
+    "comment": "πολύστροφος εὐμετάθετος",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol7588",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA264VN_0766@0.4462,0.5924,0.04772,0.03237"
+    },
+    "references": []
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAim.hmt:20.264v_5",
+    "comment": "εν αλλω καὶ ονείδεα",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol7589",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA264VN_0766@0.4429,0.6838,0.05656,0.02697"
+    },
+    "references": []
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAil.hmt:20.264v_1",
+    "comment": "τοῦ εαυτοῦ",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol7542",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA264VN_0766@0.6470,0.3750,0.03574,0.009405"
+    },
+    "references": []
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAil.hmt:20.264v_2",
+    "comment": "μετάθεσις",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol7543",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA264VN_0766@0.7347,0.6350,0.05693,0.01037"
+    },
+    "references": []
+  },
+  {
     "urn": "urn:cts:greekLit:tlg5026.msA.hmt:20.264v_1",
     "lemma": "‡ ἄκρον ἐπ ανθερίκων :",
     "dse": {
@@ -45,7 +126,8 @@
     "dse": {
       "urn": "urn:cite2:hmt:va_dse.v1:schol7675",
       "image_roi": "urn:cite2:hmt:vaimg.2017a:VA264VN_0766@0.2360,0.4751,0.2108,0.06459"
-    }
+    },
+    "references": []
   },
   {
     "urn": "urn:cts:greekLit:tlg5026.msA.hmt:20.264v_6",

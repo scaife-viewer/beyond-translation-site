@@ -1,5 +1,49 @@
 [
   {
+    "urn": "urn:cts:greekLit:tlg5026.msAext.hmt:4.830",
+    "comment": "γίνεται",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol2258",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA056RN_0057@0.80821665,0.43056708,0.03518791,0.01991701"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:56r.4.245"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAint.hmt:4.1001",
+    "comment": "γνω",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol2266",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA056RN_0057@0.159,0.2327,0.035,0.0218"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:56r.4.235"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAint.hmt:4.410",
+    "comment": "Αρισταρχ  χω  τοῦ δε",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol2178",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA056RN_0057@0.14609433,0.28907331,0.04974208,0.01369295"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:56r.4.238"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAint.hmt:4.434",
+    "comment": "οτ  ϊδιως εἴρηκεν αντ  τοῦ ὡς ἐπι Κριτὰς ⁑",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol2179",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA056RN_0057@0.13061901,0.53748271,0.04863670,0.02517289"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:56r.4.251"
+    ]
+  },
+  {
     "urn": "urn:cts:greekLit:tlg5026.msA.hmt:4.405",
     "lemma": "‡ οὐ γὰρ ἐπὶ ψεύδεσσι ,",
     "dse": {

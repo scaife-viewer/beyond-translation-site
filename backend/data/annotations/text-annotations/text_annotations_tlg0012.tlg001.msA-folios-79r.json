@@ -1,5 +1,82 @@
 [
   {
+    "urn": "urn:cts:greekLit:tlg5026.msAext.hmt:5.5034",
+    "comment": "ὀλ",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol2497",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA079RN_0080@0.86145910,0.33969571,0.02542373,0.01715076"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:79r.5.847"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAext.hmt:5.5009",
+    "comment": "ολέιται",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol2498",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA079RN_0080@0.84266765,0.48852006,0.03297716,0.01452282"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:79r.5.852"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAext.hmt:5.5010",
+    "comment": "ὑπεκδιφρο",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol2499",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA079RN_0080@0.83087693,0.52890733,0.05103169,0.01507607"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:79r.5.854"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAint.hmt:5.5008",
+    "comment": "α ϛ β γ δ ε ζ εν αλλῷ ὁυτος εστι  μετα τέσσαρας στίχους κεῖται·",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol2464",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA079RN_0080@0.072,0.2742,0.103,0.1397"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:79r.5.842"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAim.hmt:5.5004",
+    "comment": "δια τοῦ δὲ αἱ Αρισταρχ  ἄνδρα δ' ἄριστον ⁑",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol2414",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA079RN_0080@0.60206338,0.22876902,0.08235077,0.02282158"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:79r.5.839"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAim.hmt:5.5006",
+    "comment": "oλέσσαι",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol2415",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA079RN_0080@0.55969049,0.49446750,0.04329403,0.01410788"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:79r.5.852"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAim.hmt:5.5007",
+    "comment": "βαρυτονητέον τὴν ὑπό παρέλκεται γάρ ⁑",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol2416",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA079RN_0080@0.59929993,0.68727524,0.05471629,0.03623790"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:79r.5.862"
+    ]
+  },
+  {
     "urn": "urn:cts:greekLit:tlg5026.msA.hmt:5.5001",
     "lemma": "ἤ τοι ὁ μὲν Περὶφάντα",
     "dse": {

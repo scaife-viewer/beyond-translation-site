@@ -1,5 +1,49 @@
 [
   {
+    "urn": "urn:cts:greekLit:tlg5026.msAext.hmt:16.221v_1",
+    "comment": "χαρίεν",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol8103",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA221VN_0723@0.1448,0.5599,0.06890,0.02780"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:221v.16.798"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAint.hmt:16.221v_1",
+    "comment": "ουτ παν δέ οι ἐν δέ τισι τῷ δέ οι ⁑",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol8099",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA221VN_0723@0.8532,0.5968,0.05085,0.02573"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:221v.16.801"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAim.hmt:16.221v_1",
+    "comment": "ἐντευθέν εστ ὁρᾶν τὴν προσπαθ τοῦ ποιητοῦ ὅτι τὴν αριστείαν τοῦ Ἕκτορος τῷ Ἀπόλλωνι περιτίθησι ⁑",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol8086",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA221VN_0723@0.4307,0.4537,0.06098,0.09281"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:221v.16.793"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAim.hmt:16.221v_2",
+    "comment": "οτ τὸ πᾶν αντ τοῦ όλον ⁑",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol8087",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA221VN_0723@0.4248,0.6089,0.05122,0.02835"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:221v.16.801"
+    ]
+  },
+  {
     "urn": "urn:cts:greekLit:tlg5026.msA.hmt:16.221v_1",
     "lemma": "δεινὸς ὁ μεν τὸν~",
     "dse": {
