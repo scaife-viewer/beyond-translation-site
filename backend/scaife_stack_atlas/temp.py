@@ -665,7 +665,9 @@ def stub_scholia_roi_text_annotations(reset=True):
 
         rois_to_create.setdefault(dse_urn, roi)
         thru_text_annotations_lu[dse_urn].add(ta.id)
-        thru_text_parts_lu[dse_urn].update(ta.text_parts.all().values_list("id", flat=True))
+        thru_text_parts_lu[dse_urn].update(
+            ta.text_parts.all().values_list("id", flat=True)
+        )
 
     ImageROI.objects.bulk_create(rois_to_create.values(), batch_size=500)
     qs = ImageROI.objects.filter(urn__in=rois_to_create.keys())
