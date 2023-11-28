@@ -1608,6 +1608,13 @@
     "@scaife-viewer/store" "^0.6.0"
     graphql-tag "^2.11.0"
 
+"@scaife-viewer/widget-embed@^0.6.0":
+  version "0.6.0"
+  resolved "https://registry.yarnpkg.com/@scaife-viewer/widget-embed/-/widget-embed-0.6.0.tgz#31ce701375d4179ce6e9b2ac0c06de58efc32423"
+  integrity sha512-QAvrvF3z/wUfl4v9fVUEjAVpy0kd39Fcahj33Xpm8lLpuGPKV0r0BYjjvizS/9Pu55oBWfWG4CihKaIVe9mNKg==
+  dependencies:
+    "@scaife-viewer/store" "^0.6.0"
+
 "@scaife-viewer/widget-grammatical-entries@^0.6.0":
   version "0.6.0"
   resolved "https://registry.yarnpkg.com/@scaife-viewer/widget-grammatical-entries/-/widget-grammatical-entries-0.6.0.tgz#a310418e801200156104b465852c28fb75fe4fdb"
