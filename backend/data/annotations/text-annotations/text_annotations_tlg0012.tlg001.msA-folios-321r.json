@@ -1,5 +1,36 @@
 [
   {
+    "urn": "urn:cts:greekLit:tlg5026.msAint.hmt:24.8",
+    "comment": "ουτ  Αριστ  κάκ’ άνσχεο ⁑",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol7222",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA321RN_0491@0.096,0.4505,0.065,0.0458"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:321r.24.518"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAim.hmt:24.28",
+    "comment": "οὐ γάρ τίς τ' άνυσις ἐν άλλω ⁑",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol7299",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA321RN_0491@0.54,0.5653,0.058,0.0353"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:321r.24.524"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAil.hmt:24.17",
+    "comment": "ἀνέσχου",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol7254",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA321RN_0491@0.416,0.4474,0.047,0.0105"
+    },
+    "references": []
+  },
+  {
     "urn": "urn:cts:greekLit:tlg5026.msA.hmt:24.66",
     "lemma": "πάτροκλον τῶν δὲ στοναχὴ ,",
     "dse": {
@@ -19,7 +50,6 @@
       "image_roi": "urn:cite2:hmt:vaimg.2017a:VA321RN_0491@0.6000,0.4216,0.1927,0.07275"
     },
     "references": [
-      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:321r.24.513",
       "urn:cts:greekLit:tlg0012.tlg001.msA-folios:321r.24.514"
     ],
     "comment": "ἀθετεῖται προείρηται γὰρ ϊκανῶς δια τοῦ αὐτὰρ ἐπεί ῥα γόοιο καὶ ἀκύρως τέθειται τὸ γυίων · οὐ γὰρ οὕτως λέγει πάντα τὰ μέλη ἀλλὰ μόνον τὰς χείρας καὶ τοὺς πόδας ⁑"

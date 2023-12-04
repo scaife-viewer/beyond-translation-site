@@ -1,5 +1,34 @@
 [
   {
+    "urn": "urn:cts:greekLit:tlg5026.msAim.hmt:13.A26",
+    "comment": "ἐν αλλῷ παρα νηυσίν ⁑",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol8156",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA179VN_0681@0.44,0.3666,0.064,0.0571"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:179v.13.832"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAil.hmt:13.A12",
+    "comment": "διαβαίνων :",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol8554",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA179VN_0681@0.8430,0.5909,0.04735,0.01231"
+    },
+    "references": []
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAil.hmt:13.A13",
+    "comment": "τί δη",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol8555",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA179VN_0681@0.7190,0.6109,0.02653,0.01051"
+    },
+    "references": []
+  },
+  {
     "urn": "urn:cts:greekLit:tlg5026.msA.hmt:13.A47",
     "lemma": "Φάλκην ρθαῖόν ε",
     "dse": {

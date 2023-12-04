@@ -1,5 +1,60 @@
 [
   {
+    "urn": "urn:cts:greekLit:tlg5026.msAint.hmt:24.7",
+    "comment": "οτ  ἀντιφράζει τὸν χόλον τῆ μήνιδϊ ⁑",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol7221",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA318VN_0820@0.854,0.5113,0.06,0.0308"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:318v.24.395"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAim.hmt:24.24",
+    "comment": "οτ  θηλυκως τὴν Ἴλιον ⁑",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol7295",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA318VN_0820@0.436,0.2883,0.048,0.0308"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:318v.24.383"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAim.hmt:24.25",
+    "comment": "οτ  αντ  ἐθέωμεθα",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol7296",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA318VN_0820@0.436,0.4925,0.051,0.0308"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:318v.24.394"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAim.hmt:24.26",
+    "comment": "γράφεται ἓξ δὲ τῷ",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol7297",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA318VN_0820@0.432,0.5901,0.057,0.0203"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:318v.24.399"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAim.hmt:24.27",
+    "comment": "ουτ  τῶν μετα ⁑",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol7298",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA318VN_0820@0.434,0.6096,0.058,0.0278"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:318v.24.400"
+    ]
+  },
+  {
     "urn": "urn:cts:greekLit:tlg5026.msA.hmt:24.62",
     "lemma": "ἠέ πῃ ἐκπέμπεις·",
     "dse": {

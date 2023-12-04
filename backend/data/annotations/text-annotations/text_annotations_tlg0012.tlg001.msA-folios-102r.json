@@ -1,5 +1,71 @@
 [
   {
+    "urn": "urn:cts:greekLit:tlg5026.msAext.hmt:8.1000",
+    "comment": "ἐν δ'",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol3225",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA102RN_0274@0.8554,0.3452,0.0523,0.0333"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:102r.8.70"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAint.hmt:8.74",
+    "comment": "ἐν ἑνίοις δια τοῦ ε εζεσθεν ⁑",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol3195",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA102RN_0274@0.1261,0.3764,0.0561,0.0376"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:102r.8.74"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAint.hmt:8.75",
+    "comment": "εν τισι τῶν ὑπομνημάτων ἐδάμνατο ⁑",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol3196",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA102RN_0274@0.1321,0.5207,0.0631,0.0376"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:102r.8.81"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAint.hmt:8.76",
+    "comment": "οτ  ὁ δέ αντ  τοῦ γρ  βέλος γὰρ ⁑",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol3197",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA102RN_0274@0.1231,0.5928,0.0601,0.0316"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:102r.8.85"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAint.hmt:8.77",
+    "comment": "οτ  τὸν παραιβάτην Ἕκτορα ἡνίοχον εἶπεν ⁑",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol3198",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA102RN_0274@0.1211,0.6777,0.0661,0.0376"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:102r.8.89"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAim.hmt:8.73",
+    "comment": "ὡς παρηγορίας ⁑",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol3141",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA102RN_0274@0.5836,0.6364,0.048,0.0203"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:102r.8.87"
+    ]
+  },
+  {
     "urn": "urn:cts:greekLit:tlg5026.msA.hmt:8.63",
     "lemma": "‡ ὄφρα μὲν ἡῶς ἦν· καὶ ἀέξετο ἱερὸν ῆμαρ , ⁑",
     "dse": {
@@ -67,7 +133,6 @@
       "image_roi": "urn:cite2:hmt:vaimg.2017a:VA102RN_0274@0.6211,0.2243,0.2212,0.1461"
     },
     "references": [
-      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:102r.8.73",
       "urn:cts:greekLit:tlg0012.tlg001.msA-folios:102r.8.74"
     ],
     "comment": "αθετοῦνται ὅτι ὑπὲρ εκάστου στρατεύματ  κῆρα ζυγοστατεῖ ὁ Ζεῦς οὐ πλείους ὡς ἐπι Ἀχιλλέως καὶ Ἕκτορος · ὁ δὲ διασκευαστὴς ἐξέλαβε πολλάς εἰ δέ τις δύο ὑπερ ἑκατέρου ἵστασθαι φήσει ῥυόμενος τὴν σύγχυσιν τοῦ δ  σχήματος ἄλογον πρὸς τι γὰρ δύο ἀλλ' οὐ μία ⁑"

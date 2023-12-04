@@ -1,5 +1,79 @@
 [
   {
+    "urn": "urn:cts:greekLit:tlg5026.msAint.hmt:11.10",
+    "comment": "ὁμόπατρον συγκοπον",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol4204",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA142VN_0644@0.86,0.3413,0.053,0.0255"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:142v.11.257"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAil.hmt:11.130",
+    "comment": "δριμεῖαι σφοδραί",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol4309",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA142VN_0644@0.507,0.5439,0.097,0.0165"
+    },
+    "references": []
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAil.hmt:11.131",
+    "comment": "προπέμπουσι",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol4310",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA142VN_0644@0.624,0.5829,0.073,0.015"
+    },
+    "references": []
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAil.hmt:11.133",
+    "comment": "θέαι τῶν τικτουσῶν εφοροι",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol4311",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA142VN_0644@0.853,0.5836,0.068,0.0173"
+    },
+    "references": []
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAil.hmt:11.134",
+    "comment": "ὑπεισῆλθον",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol4312",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA142VN_0644@0.669,0.6204,0.062,0.0165"
+    },
+    "references": []
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAil.hmt:11.135",
+    "comment": "ελυπεῖτο εβαρεῖτο :",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol4313",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA142VN_0644@0.83,0.6609,0.076,0.015"
+    },
+    "references": []
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAil.hmt:11.136",
+    "comment": "διαπορεύσιμον",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol4314",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA142VN_0644@0.61,0.6797,0.073,0.0143"
+    },
+    "references": []
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAil.hmt:11.137",
+    "comment": "παρακελευόμενος ⁑",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol4315",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA142VN_0644@0.784,0.6782,0.08,0.015"
+    },
+    "references": []
+  },
+  {
     "urn": "urn:cts:greekLit:tlg5026.msA.hmt:11.108",
     "lemma": "νύξε δέ μιν κατα χειρα μέσην ἀγκῶν ἔνερθεν ,",
     "dse": {

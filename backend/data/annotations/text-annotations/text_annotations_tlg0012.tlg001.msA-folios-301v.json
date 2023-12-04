@@ -1,5 +1,27 @@
 [
   {
+    "urn": "urn:cts:greekLit:tlg5026.msAil.hmt:23.1904",
+    "comment": "στερίσκονται",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol7054",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA301VN_0803@0.697,0.4591,0.076,0.0135"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:301v.23.445"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAil.hmt:23.1905",
+    "comment": "πυρρός",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol7055",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA301VN_0803@0.708,0.6311,0.054,0.0143"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:301v.23.454"
+    ]
+  },
+  {
     "urn": "urn:cts:greekLit:tlg5026.msA.hmt:23.1901",
     "lemma": "ἐπεὶ ού σ' ἔτυμόν γε φάμεν~",
     "dse": {

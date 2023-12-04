@@ -1,5 +1,121 @@
 [
   {
+    "urn": "urn:cts:greekLit:tlg5026.msAext.hmt:15.1",
+    "comment": "Ποσει",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol5466",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA191RN_0362@0.811,0.3561,0.036,0.0218"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:191r.15.8"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAint.hmt:15.1",
+    "comment": "πρὸς τὸ αἷμ' ἀπέμασσεν τοῦτ' ἄν τις σημειώσαιτο ⁑",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol5492",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA191RN_0362@0.106,0.4072,0.074,0.0473"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:191r.15.11"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAint.hmt:15.2",
+    "comment": "ουτ  δια τοῦ η ἐπαύρηαι",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol5493",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA191RN_0362@0.11,0.5192,0.074,0.0233"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:191r.15.17"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAint.hmt:15.3",
+    "comment": "δια τοῦ η , εὶχον μέμνῃ εῖχον πᾶσαι⁚",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol5494",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA191RN_0362@0.109,0.5394,0.074,0.0278"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:191r.15.18"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAint.hmt:15.4",
+    "comment": "ὅτι ὁ μακρὸς ὁ ολυμπ  ὡς όρος⁚",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol5495",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA191RN_0362@0.103,0.5943,0.074,0.0278"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:191r.15.21"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAint.hmt:15.5",
+    "comment": "ὅτι καὶ ταῖς αὐταῖς λέξεσι κέχρηται κατ ἀμφοτέρους τοὺς τόπους ⁑",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol5496",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA191RN_0362@0.11,0.6349,0.08,0.0586"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:191r.15.23"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAint.hmt:15.6",
+    "lemma": "εμε δ' ουδ' ὡς θυμὸν ,",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol5497",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA191RN_0362@0.162,0.6829,0.247,0.0316"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:191r.15.24"
+    ],
+    "comment": "συναπτέον ἕως τοῦ θείοιο ἐν σχήματ  γὰρ εἴρητ  ⁑"
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAim.hmt:15.1",
+    "comment": "αρισταρχ  θυμον αλλοι δὲ θυμός ἔστι δὲ ὁ τῆς Ἀρισταρχείας φράσεως χαρακτηρ· οἱ σ ωτειλήν αἷμ' ἀπολιχμήσονται·",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol5583",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA191RN_0362@0.517,0.6529,0.107,0.0601"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:191r.15.24"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAil.hmt:15.1",
+    "comment": "εξεστηκὼς τὴν ψυχὴν",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol5549",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA191RN_0362@0.539,0.3869,0.073,0.018"
+    },
+    "references": []
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAil.hmt:15.2",
+    "comment": "κακομήχανε",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol5550",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA191RN_0362@0.419,0.4598,0.09,0.018"
+    },
+    "references": []
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAil.hmt:15.3",
+    "comment": "ο δολος σου δη",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol5551",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA191RN_0362@0.278,0.4966,0.062,0.0135"
+    },
+    "references": []
+  },
+  {
     "urn": "urn:cts:greekLit:tlg5026.msA.hmt:15.1",
     "lemma": "‡ αὐτὰρ ἐπεὶ διά τε σκόλοπας καὶ τάφρον ἔβησαν ,",
     "dse": {

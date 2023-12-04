@@ -1,5 +1,60 @@
 [
   {
+    "urn": "urn:cts:greekLit:tlg5026.msAint.hmt:14.F1",
+    "comment": "οτ  έξωθεν ἀκουστέον τὸ ὡς ῑν' ἡ ὡς κώδειαν ⁑",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol5401",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA190RN_0361@0.09967,0.5718,0.06172,0.03416"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:190r.14.499"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAim.hmt:14.F7",
+    "comment": "ἐν αλλῳ ἔγχει εμῶ μί τοι τι ⁑",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol5351",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA190RN_0361@0.5741,0.2730,0.06872,0.03665"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:190r.14.483"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAil.hmt:14.F3",
+    "comment": "εκ δικία",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol5436",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA190RN_0361@0.5247,0.2703,0.04237,0.01632"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:190r.14.483"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAil.hmt:14.F4",
+    "comment": "περιουσίαν",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol5437",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA190RN_0361@0.4431,0.4237,0.05361,0.01674"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:190r.14.491"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAil.hmt:14.F5",
+    "comment": "αντ  τοῦ εἴπατε :",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol5438",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA190RN_0361@0.2028,0.6124,0.04348,0.01729"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:190r.14.501"
+    ]
+  },
+  {
     "urn": "urn:cts:greekLit:tlg5026.msA.hmt:14.F4",
     "lemma": "γνωτὸν ἐνι μεγάροις .",
     "dse": {
@@ -29,7 +84,10 @@
     "dse": {
       "urn": "urn:cite2:hmt:va_dse.v1:schol5287",
       "image_roi": "urn:cite2:hmt:vaimg.2017a:VA190RN_0361@0.1653,0.7008,0.6280,0.03845"
-    }
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:190r.14.500"
+    ]
   },
   {
     "urn": "urn:cts:greekLit:tlg5026.msA.hmt:14.F7",

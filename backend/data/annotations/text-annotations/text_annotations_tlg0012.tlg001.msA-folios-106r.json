@@ -1,5 +1,38 @@
 [
   {
+    "urn": "urn:cts:greekLit:tlg5026.msAint.hmt:8.201",
+    "comment": "τὸ Ἀμοπάονα ἐν ενὶ με  λόγου αναγνωστέον κύριον γὰρ ⁑",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol3210",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA106RN_0278@0.1331,0.3088,0.0631,0.0503"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:106r.8.276"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAint.hmt:8.203",
+    "comment": "αντ  προθύμως ἐνεργοῦντα ⁑",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol3211",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA106RN_0278@0.1181,0.6191,0.0701,0.0376"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:106r.8.293"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAim.hmt:8.200",
+    "comment": "οἱ πε  Ζηνόδοτ  καὶ Αριστοφα  ἵππω ⁚",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol3157",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA106RN_0278@0.5786,0.562,0.048,0.0301"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:106r.8.290"
+    ]
+  },
+  {
     "urn": "urn:cts:greekLit:tlg5026.msA.hmt:8.194",
     "lemma": "Πολυαιμονιδ  Ἀμοπάονα ~",
     "dse": {

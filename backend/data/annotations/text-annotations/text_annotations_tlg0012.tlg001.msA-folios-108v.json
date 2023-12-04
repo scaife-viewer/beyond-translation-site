@@ -1,5 +1,38 @@
 [
   {
+    "urn": "urn:cts:greekLit:tlg5026.msAim.hmt:8.266",
+    "comment": "Ἀρίσταρχ  όττι κεν εἴπω ⁑",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol3171",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA108VN_0611@0.4084,0.4049,0.0516,0.0315"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:108v.8.408"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAim.hmt:8.267",
+    "comment": "Ἀρίσταρχος δια τοῦ η ἠ τελέει περ ⁑",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol3172",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA108VN_0611@0.4192,0.5164,0.0524,0.043"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:108v.8.415"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAim.hmt:8.268",
+    "comment": "ουτ  σὺ διὰ τοῦ υ το δὲ ἀδεές δι ενὸς δ ὁ Αρισταρχ  ⁑",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol3173",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA108VN_0611@0.4184,0.6642,0.0524,0.0505"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:108v.8.423"
+    ]
+  },
+  {
     "urn": "urn:cts:greekLit:tlg5026.msA.hmt:8.258",
     "lemma": "‡ γυιώσωμεν σφῶϊν ὑφ ἅρμασιν ὠκέας ἵππους .",
     "dse": {
@@ -79,10 +112,6 @@
       "image_roi": "urn:cite2:hmt:vaimg.2017a:VA108VN_0611@0.2048,0.7266,0.6672,0.0886"
     },
     "references": [
-      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:108v.8.420",
-      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:108v.8.421",
-      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:108v.8.422",
-      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:108v.8.423",
       "urn:cts:greekLit:tlg0012.tlg001.msA-folios:108v.8.424"
     ],
     "comment": "ἀθετοῦνται στίχοι πέντε ὅτι ἐκ τῶν ἐπάνω μετάκεινται ἱκανὸν δὲ ἦν εἰπεῖν ὅτι οὐκ εᾷ ὁ Ζεύς καὶ ἀποσυνίσταται ἐπιεικὲς ὃν τὸ τῆς Ἴριδος πρόσωπον οὐ γὰρ ἂν εἶπεν κύον ἀδδεές ⁑"

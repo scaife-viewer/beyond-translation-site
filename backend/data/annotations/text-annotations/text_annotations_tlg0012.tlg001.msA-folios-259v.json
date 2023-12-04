@@ -1,5 +1,49 @@
 [
   {
+    "urn": "urn:cts:greekLit:tlg5026.msAext.hmt:19.hc_3",
+    "comment": "ἕωμεν",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol6549",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA259VN_0761@0.173,0.2186,0.046,0.0195"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:259v.19.402"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAext.hmt:19.hc_4",
+    "comment": "αὐτόθι",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol6550",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA259VN_0761@0.175,0.2344,0.039,0.0225"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:259v.19.403"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAim.hmt:19.hc_7",
+    "comment": "ἐν αλλ  · ὰψ λαῶν",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol6597",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA259VN_0761@0.423,0.2126,0.056,0.0376"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:259v.19.402"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAim.hmt:19.hc_8",
+    "comment": "γράφεται λίπετ' αὐτόθι ⁑",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol6598",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA259VN_0761@0.41,0.2404,0.071,0.0436"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:259v.19.403"
+    ]
+  },
+  {
     "urn": "urn:cts:greekLit:tlg5026.msA.hmt:19.hc_17",
     "lemma": "‡ ὰψ Δαναῶν ⁚",
     "dse": {

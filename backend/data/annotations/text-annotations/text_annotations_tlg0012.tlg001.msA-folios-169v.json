@@ -1,12 +1,69 @@
 [
   {
+    "urn": "urn:cts:greekLit:tlg5026.msAint.hmt:13.1",
+    "comment": "ουτ  δια τοῦ γε συνδ  αἱ Αρισταρχου",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol8449",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA169VN_0671@0.8815,0.3304,0.05177,0.01757"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:169v.13.287"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAint.hmt:13.2",
+    "comment": "οτ  διέσταλκε τὸ βαλεῖν καὶ τυψαι ⁑",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol8450",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA169VN_0671@0.8895,0.3568,0.04422,0.02490"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:169v.13.288"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAim.hmt:13.1",
+    "comment": "οτ  ἐλλείπει τὸ τίς ὄνοιτό τις :",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol8446",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA169VN_0671@0.4333,0.3375,0.05711,0.02199"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:169v.13.287"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAim.hmt:13.2",
+    "comment": "ουτ  Ἀρισταρχ  οὐκ ὰν δια τοῦ α αἱ δε κυναὶ οὐ κεν",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol8447",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA169VN_0671@0.4337,0.3762,0.06964,0.03140"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:169v.13.289"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAim.hmt:13.3",
+    "comment": "ουτ  μετα τῆς μετα προθ  μέτεισι ⁑",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol8448",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA169VN_0671@0.4550,0.5448,0.04993,0.03499"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:169v.13.298"
+    ]
+  },
+  {
     "urn": "urn:cts:greekLit:tlg5026.msA.hmt:13.1",
     "lemma": "‡ μετοκλάζει :",
     "dse": {
       "urn": "urn:cite2:hmt:va_dse.v1:schol8242",
       "image_roi": "urn:cite2:hmt:vaimg.2017a:VA169VN_0671@0.2456,0.1089,0.6426,0.02531"
     },
-    "references": [],
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:169v.13.281"
+    ],
     "comment": "μετακαθίζει ἐπ αμφοτέρους πόδας ὁ κλὰξ γάρ ἐστι τὸ ἐπι γόνυ ὅ ἐστιν ἐγκλίνει τὰ γόνατα . \t\t\t\t\t\t\t\t\t\t\t\t\t\tδια δειλίαν μετὰ καθίζον ⁑"
   },
   {

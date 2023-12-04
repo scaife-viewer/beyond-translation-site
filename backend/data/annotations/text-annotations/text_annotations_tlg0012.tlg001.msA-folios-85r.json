@@ -1,5 +1,104 @@
 [
   {
+    "urn": "urn:cts:greekLit:tlg5026.msAext.hmt:6.296",
+    "comment": "σίοι",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol2782",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA085RN_0257@0.84146037,0.52018021,0.02575644,0.01802140"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:85r.6.246"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAint.hmt:6.180",
+    "comment": "οτι τὰς Σκαιὰς ὀνοματικῶς Δαρδανιας λέγει ⁑",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol2690",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA085RN_0257@0.10574797,0.35988935,0.05876934,0.02475795"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:85r.6.237"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAint.hmt:6.181",
+    "comment": "ουτ  Ἀρίσταρχος παρ αιδοίῃσ' ⁑",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol2691",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA085RN_0257@0.10316875,0.60428769,0.05011054,0.02323651"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:85r.6.248"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAim.hmt:6.236",
+    "comment": "τέγεοι ὡς τέλεοι τεγος γὰρ ὡς τέγος καὶ τέγειος ὡς τέλειος ⁑",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol2730",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA085RN_0257@0.56429624,0.57026279,0.12011791,0.01770401"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:85r.6.248"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAim.hmt:6.237",
+    "comment": "ἐν ἄλλω παρα μντης  ἀλόχοισι ⁑",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol2731",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA085RN_0257@0.59193073,0.60705394,0.09579956,0.01507607"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:85r.6.248"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAim.hmt:6.238",
+    "comment": "οτι προς Λαοδίκην πορευομε  εἰς Ἀγαμέμνονα ⁑",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol2732",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA085RN_0257@0.58198231,0.64661134,0.08658806,0.01894882"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:85r.6.252"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAil.hmt:6.A14",
+    "comment": "α",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol2793",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA085RN_0257@0.462,0.4343,0.028,0.0105"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:85r.6.241"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAil.hmt:6.289",
+    "comment": "αντι ότε",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol2775",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA085RN_0257@0.27487104,0.35311203,0.02210759,0.00816044"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:85r.6.237"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAil.hmt:6.290",
+    "comment": "καὶ φῆγον",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol2776",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA085RN_0257@0.50055269,0.35449516,0.03610906,0.01134163"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:85r.6.237"
+    ]
+  },
+  {
     "urn": "urn:cts:greekLit:tlg5026.msA.hmt:6.79",
     "lemma": "‡ ἐννεαβοίων",
     "dse": {
@@ -65,7 +164,10 @@
     "dse": {
       "urn": "urn:cite2:hmt:va_dse.v1:schol2614",
       "image_roi": "urn:cite2:hmt:vaimg.2017a:VA085RN_0257@0.61348563,0.27828492,0.18975682,0.04674965"
-    }
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:85r.6.242"
+    ]
   },
   {
     "urn": "urn:cts:greekLit:tlg5026.msA.hmt:6.85",
@@ -73,7 +175,10 @@
     "dse": {
       "urn": "urn:cite2:hmt:va_dse.v1:schol2615",
       "image_roi": "urn:cite2:hmt:vaimg.2017a:VA085RN_0257@0.59506264,0.31562932,0.19380987,0.02130014"
-    }
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:85r.6.244"
+    ]
   },
   {
     "urn": "urn:cts:greekLit:tlg5026.msA.hmt:6.86",
@@ -81,7 +186,10 @@
     "dse": {
       "urn": "urn:cite2:hmt:va_dse.v1:schol2616",
       "image_roi": "urn:cite2:hmt:vaimg.2017a:VA085RN_0257@0.59579956,0.32337483,0.20633751,0.09737206"
-    }
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:85r.6.244"
+    ]
   },
   {
     "urn": "urn:cts:greekLit:tlg5026.msA.hmt:6.87",

@@ -1,5 +1,92 @@
 [
   {
+    "urn": "urn:cts:greekLit:tlg5026.msAim.hmt:12.D1",
+    "comment": "ἀντι τοῦ ἐρυκετωσαν",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol4997",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA156RN_0327@0.5706,0.2089,0.0601,0.0218"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:156r.12.76"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAim.hmt:12.D3",
+    "comment": "Ζηνόδοτος καὶ Ἀριστοφάνης πείραρ ενικω",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol4998",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA156RN_0327@0.5806,0.2682,0.0731,0.0293"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:156r.12.79"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAim.hmt:12.D5",
+    "comment": "γράφεται έκαστοι",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol4999",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA156RN_0327@0.5736,0.4102,0.0531,0.0173"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:156r.12.87"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAil.hmt:12.D1",
+    "comment": "πεζοὶ ὁπλίται",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol4937",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA156RN_0327@0.2533,0.2179,0.0811,0.0113"
+    },
+    "references": []
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAil.hmt:12.D3",
+    "comment": "αλυπ",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol4938",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA156RN_0327@0.5536,0.281,0.037,0.009"
+    },
+    "references": []
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAil.hmt:12.D4",
+    "comment": "παρασκευάσαντες τάξαντες",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol4939",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA156RN_0327@0.4975,0.3959,0.1161,0.0105"
+    },
+    "references": []
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAil.hmt:12.D5",
+    "comment": "εἰς ε τάξεις",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol4940",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA156RN_0327@0.2012,0.408,0.0821,0.0135"
+    },
+    "references": []
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAil.hmt:12.D6",
+    "comment": "Αλέξανδρος",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol4941",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA156RN_0327@0.3433,0.5252,0.0511,0.009"
+    },
+    "references": []
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAil.hmt:12.D7",
+    "comment": "διάπυροι οξεῖς",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol4942",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA156RN_0327@0.2112,0.5995,0.0591,0.0113"
+    },
+    "references": []
+  },
+  {
     "urn": "urn:cts:greekLit:tlg5026.msA.hmt:12.D1",
     "lemma": "αὐτοὶ δὲ πρυλέες συν τευχ  θωρηχθέντες",
     "dse": {

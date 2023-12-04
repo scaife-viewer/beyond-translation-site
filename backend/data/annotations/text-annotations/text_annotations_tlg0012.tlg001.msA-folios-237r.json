@@ -1,5 +1,85 @@
 [
   {
+    "urn": "urn:cts:greekLit:tlg5026.msAint.hmt:17.38",
+    "comment": "μείζων ἡ σιγὴ παντὸς λόγου γίνεται ⁑",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol5906",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA237RN_0408@0.143,0.5011,0.053,0.0526"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:237r.17.695"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAint.hmt:17.39",
+    "comment": "οτ  πάλιν ἀπεστρεφε τὸν λο  ⁑ ⁑",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol5907",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA237RN_0408@0.127,0.6311,0.06,0.0556"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:237r.17.702"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAim.hmt:17.49",
+    "comment": "οὐτ  Ἀρισταρχ  ΐδοιτο τὰ όσσε δηλονότι :",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol5992",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA237RN_0408@0.54,0.2314,0.066,0.0316"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:237r.17.681"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAim.hmt:17.50",
+    "comment": "κατεστύγνασεν ηνιάθη : ⁑",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol5993",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA237RN_0408@0.615,0.4869,0.076,0.0225"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:237r.17.694"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAil.hmt:17.31",
+    "comment": "ἐρχομένης",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol5942",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA237RN_0408@0.331,0.4974,0.035,0.015"
+    },
+    "references": []
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAil.hmt:17.32",
+    "comment": "ἄγαν κεκάκωνται",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol5943",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA237RN_0408@0.521,0.5124,0.052,0.015"
+    },
+    "references": []
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAil.hmt:17.33",
+    "comment": "αφωνία",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol6144",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA237RN_0408@0.326,0.497,0.04,0.0143"
+    },
+    "references": []
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAil.hmt:17.34",
+    "comment": "επεσχέθη",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol6143",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA237RN_0408@0.52,0.5158,0.054,0.0135"
+    },
+    "references": []
+  },
+  {
     "urn": "urn:cts:greekLit:tlg5026.msA.hmt:17.140",
     "lemma": "εἴ που Νεστορος υἱὸν",
     "dse": {
@@ -7,8 +87,6 @@
       "image_roi": "urn:cite2:hmt:vaimg.2017a:VA237RN_0408@0.617,0.2164,0.18,0.0811"
     },
     "references": [
-      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:237r.17.679",
-      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:237r.17.680",
       "urn:cts:greekLit:tlg0012.tlg001.msA-folios:237r.17.681"
     ],
     "comment": "ουτ  αἱ Ἀριστάρχειοι ΐδοιτό τις τὰ προκείμενα ὅσσε διὸ καὶ τὸ σημεῖον ἠ νοητέον ἀποστροφὴν λόγου προς τὸν Μενέλαον ἀπο τοῦ περι αυτοῦ λόγου ⁑"

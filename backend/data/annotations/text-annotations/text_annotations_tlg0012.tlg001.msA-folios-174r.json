@@ -1,5 +1,52 @@
 [
   {
+    "urn": "urn:cts:greekLit:tlg5026.msAint.hmt:13.14",
+    "comment": "αντ  τῷ δόρατι",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol8509",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA174RN_0345@0.1238,0.3142,0.05987,0.02172"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:174r.13.513"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAil.hmt:13.10",
+    "comment": "αγκῶνα",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol8510",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA174RN_0345@0.5396,0.2180,0.04477,0.01535"
+    },
+    "references": []
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAil.hmt:13.11",
+    "comment": "αντὶ ἡμυνετ",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol8511",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA174RN_0345@0.4141,0.3266,0.06080,0.01743"
+    },
+    "references": []
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAil.hmt:13.12",
+    "comment": "μεγαλοφώνως ⁑",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol8512",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA174RN_0345@0.3758,0.4585,0.06651,0.01632"
+    },
+    "references": []
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAil.hmt:13.13",
+    "comment": "περι κεφαλαιαν",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol8513",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA174RN_0345@0.4530,0.5740,0.07977,0.01660"
+    },
+    "references": []
+  },
+  {
     "urn": "urn:cts:greekLit:tlg5026.msA.hmt:13.61",
     "lemma": "‡ ἐσπάσατ' οὐδά τ' ἔτ' ἀλλα δυνήσατο :",
     "dse": {

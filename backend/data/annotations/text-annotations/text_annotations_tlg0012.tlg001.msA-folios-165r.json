@@ -1,5 +1,71 @@
 [
   {
+    "urn": "urn:cts:greekLit:tlg5026.msAext.hmt:13.165r1",
+    "comment": "Ποσειδάων",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol8394",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA165RN_0336@0.8235,0.4769,0.05748,0.02254"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:165r.13.65"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAint.hmt:13.165r1",
+    "comment": "ὅτι ἀντὶ κόπτων ἐν δὲ τῇ Χίᾳ καὶ Ἀντίμαχον κεκοπών",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol8391",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA165RN_0336@0.1140,0.3786,0.06430,0.04979"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:165r.13.60"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAim.hmt:13.165r1",
+    "comment": "διχῶς Ἀριστοφάνης καὶ κεκοφῶς καὶ κεκοπώς",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol8389",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA165RN_0336@0.5402,0.3762,0.1011,0.02725"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:165r.13.60"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAim.hmt:13.165r2",
+    "comment": "γράφεται καὶ ἴθματα Ζηνόδοτος δὲ καὶ Ἀριστοφάνης ϊχματα",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol8390",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA165RN_0336@0.5717,0.5881,0.04145,0.05740"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:165r.13.71"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAil.hmt:13.165r1",
+    "comment": "κεν",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol8392",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA165RN_0336@0.3622,0.3393,0.02063,0.008575"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:165r.13.58"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAil.hmt:13.165r2",
+    "comment": "σκήπτρω",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol8393",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA165RN_0336@0.3014,0.3550,0.04127,0.01300"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:165r.13.59"
+    ]
+  },
+  {
     "urn": "urn:cts:greekLit:tlg5026.msA.hmt:13.165r1",
     "lemma": "ἕξουσιν γὰρ",
     "dse": {

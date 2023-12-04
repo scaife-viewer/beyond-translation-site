@@ -1,5 +1,42 @@
 [
   {
+    "urn": "urn:cts:greekLit:tlg5026.msAim.hmt:16.B1",
+    "comment": "τοῦτο καθ εαυτὸ προενεκτέον μᾶλλον γαρ ἐμφαίνει τὸν σχεταιαζοντα",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol8016",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA206VN_0708@0.451,0.3343,0.068,0.0917"
+    },
+    "references": []
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAim.hmt:16.B2",
+    "lemma": "οἱ αστερίσκοι",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol8017",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA206VN_0708@0.459,0.5755,0.059,0.0691"
+    },
+    "references": [],
+    "comment": "ὅτι υπ νέστορος οὐκ ορθῶς λέγονται"
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAim.hmt:16.B3",
+    "comment": "ἀρισταρχος εἴ τίνα οἰδα δια τοῦ εῖ",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol8018",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA206VN_0708@0.462,0.6867,0.113,0.0361"
+    },
+    "references": []
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAil.hmt:16.B1",
+    "comment": "ϊκετένειν",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol8032",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA206VN_0708@0.858,0.6251,0.052,0.0158"
+    },
+    "references": []
+  },
+  {
     "urn": "urn:cts:greekLit:tlg5026.msA.hmt:16.B1",
     "lemma": "τοὺς μέν τ' ϊητροὶ",
     "dse": {
@@ -137,6 +174,9 @@
     "dse": {
       "urn": "urn:cite2:hmt:va_dse.v1:schol7982",
       "image_roi": "urn:cite2:hmt:vaimg.2017a:VA206VN_0708@0.255,0.8573,0.702,0.021"
-    }
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:206v.16.46"
+    ]
   }
 ]

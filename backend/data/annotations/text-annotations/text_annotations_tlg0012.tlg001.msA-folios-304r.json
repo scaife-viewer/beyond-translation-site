@@ -1,5 +1,38 @@
 [
   {
+    "urn": "urn:cts:greekLit:tlg5026.msAint.hmt:23.2407",
+    "comment": "γράφεται χερσὶ",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol7038",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA304RN_0474@0.143,0.3937,0.078,0.0353"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:304r.23.568"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAim.hmt:23.2408",
+    "comment": "προς τοὺς δημηγορουντας ὅτι σκημπτρα ελα",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol7097",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA304RN_0474@0.601,0.3929,0.097,0.0451"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:304r.23.568"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAim.hmt:23.2409",
+    "comment": "οἱ Αντιλόχου",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol7098",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA304RN_0474@0.618,0.4748,0.08,0.0225"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:304r.23.572"
+    ]
+  },
+  {
     "urn": "urn:cts:greekLit:tlg5026.msA.hmt:23.2401",
     "lemma": "Εὐμήλῳ ἐπιδοῦναι~",
     "dse": {
@@ -19,7 +52,6 @@
       "image_roi": "urn:cite2:hmt:vaimg.2017a:VA304RN_0474@0.214,0.1172,0.617,0.0413"
     },
     "references": [
-      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:304r.23.561",
       "urn:cts:greekLit:tlg0012.tlg001.msA-folios:304r.23.562"
     ],
     "comment": "εἰσὶν οἳ ἀνεστρεψαν τὴν περι , ὁ μέντοι Ἀσκαλωνίτης καὶ οἱ πλείους κατα παρολκὴν ἐξεδέξαντο κεῖσθαι δια τὸ ἀμφι δε δίνηται δι ὃ οὐκ αναστρέφουσιν"

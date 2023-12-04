@@ -1,5 +1,60 @@
 [
   {
+    "urn": "urn:cts:greekLit:tlg5026.msAext.hmt:5.4085",
+    "comment": "ἐκγονος ὁ υἱος· ἐγγονος ὁ υἱωνός",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol2496",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA078VN_0581@0.122697126013265,0.213554633471646,0.105379513633014,0.0282157676348548"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:78v.5.813"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAim.hmt:5.4064",
+    "comment": "τὸ ἀνα αντι τῆς κατα ⁑",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol2411",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA078VN_0581@0.379882092851879,0.420193637621024,0.050478997789241,0.0229598893499308"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:78v.5.824"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAim.hmt:5.4066",
+    "comment": "‡ προς τὸ στεῦτο οτι το κατα διάνοιαν διωρίζετο ἡ λέξις σημαίνει ⁑",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol2412",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA078VN_0581@0.37030213706706,0.587551867219917,0.0740604274134119,0.0254495159059474"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:78v.5.832"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAim.hmt:5.4067",
+    "comment": "ὅτι ἀντὶ ἐν τοῖς Τρωσιν εστ  μετα τῶν Τρώων·",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol2413",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA078VN_0581@0.377671333824613,0.612448132780083,0.0619012527634488,0.0295988934993084"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:78v.5.834"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAil.hmt:5.4087",
+    "comment": "προθύμως",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol2518",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA078VN_0581@0.725128960943257,0.643430152143845,0.0434782608695652,0.00912863070539419"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:78v.5.836"
+    ]
+  },
+  {
     "urn": "urn:cts:greekLit:tlg5026.msA.hmt:5.4041",
     "lemma": "ἀλλοπρoσαλον·",
     "dse": {

@@ -1,5 +1,100 @@
 [
   {
+    "urn": "urn:cts:greekLit:tlg5026.msAint.hmt:17.26",
+    "comment": "οὐ δεῖ ἀναστρέφειν ἐνταυθ  τὴν προθ",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol5894",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA228RN_0399@0.105,0.5056,0.072,0.0488"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:228r.17.242"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAim.hmt:17.27",
+    "comment": "δια τοῦ η Ἀρίσταρχ",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol5970",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA228RN_0399@0.585,0.2607,0.068,0.0203"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:228r.17.229"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAim.hmt:17.28",
+    "comment": "Ἀρισταρχ  κατ  δοτικὴν ήμισυ τῷ ἐνάρων ⁑",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol5971",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA228RN_0399@0.59,0.2983,0.071,0.0368"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:228r.17.231"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAim.hmt:17.29",
+    "comment": "ουτ  Αριστοφα  δια τοῦ ε γράφεται και δια τοῦ η ⁑",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol5972",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA228RN_0399@0.602,0.3554,0.049,0.027"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:228r.17.234"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAim.hmt:17.30",
+    "comment": "Ελληνικῶς καὶ ἐπιεικῶς ουδ  μέγαληγορεῖ  ὡς οἱ βάρβαροι ⁑",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol5973",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA228RN_0399@0.569,0.4455,0.049,0.0496"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:228r.17.245"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAim.hmt:17.31",
+    "comment": "ἔν τισι δια τοῦ α ἑκαστα",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol5974",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA228RN_0399@0.564,0.6627,0.063,0.0203"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:228r.17.250"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAim.hmt:17.32",
+    "comment": "παρα τὸ ἐκ δὲ Διὸς βασιλῆες ⁑",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol5975",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA228RN_0399@0.552,0.6799,0.076,0.0331"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:228r.17.251"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAil.hmt:17.24",
+    "comment": "Ζηνόδ  ότρυνεν ~",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol5934",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA228RN_0399@0.433,0.2547,0.018,0.012"
+    },
+    "references": []
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAil.hmt:17.25",
+    "comment": "καταδαπανῶ",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol5936",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA228RN_0399@0.193,0.4989,0.08,0.0128"
+    },
+    "references": []
+  },
+  {
     "urn": "urn:cts:greekLit:tlg5026.msA.hmt:17.98",
     "lemma": "‡ τῶ τις νῦν ἰθὺς",
     "dse": {

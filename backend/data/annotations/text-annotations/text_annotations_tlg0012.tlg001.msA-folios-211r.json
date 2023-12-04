@@ -1,5 +1,70 @@
 [
   {
+    "urn": "urn:cts:greekLit:tlg5026.msAext.hmt:16.211r1",
+    "comment": "ἔθοντες",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol7739",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA211RN_0382@0.8421,0.3650,0.03961,0.01646"
+    },
+    "references": []
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAint.hmt:16.211r1",
+    "comment": "ἠθετηκε καὶ Ἀριστοφάνης",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol7761",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA211RN_0382@0.1291,0.4054,0.05435,0.01535"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:211r.16.261"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAim.hmt:16.211r1",
+    "comment": "διχῶς γράφεται καὶ σόον καὶ σάον",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol7811",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA211RN_0382@0.6325,0.2174,0.04901,0.02213"
+    },
+    "references": []
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAim.hmt:16.211r2",
+    "comment": "ουτως ἀπέθηκε δια τοῦ α",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol7812",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA211RN_0382@0.6424,0.2592,0.05306,0.01618"
+    },
+    "references": []
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAim.hmt:16.211r3",
+    "comment": "Ἀρισταρχος έχοντες δια του ᾶς ἅπας ⁑",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol7813",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA211RN_0382@0.6221,0.3936,0.06190,0.02185"
+    },
+    "references": []
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAim.hmt:16.211r4",
+    "comment": "προπερισπᾶται προείρηται δέ ⁑",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol7814",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA211RN_0382@0.6264,0.4162,0.04532,0.01950"
+    },
+    "references": []
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAil.hmt:16.211r1",
+    "comment": "ἄριστοι εἰσὶ δῆλον :",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol7785",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA211RN_0382@0.4842,0.5978,0.07369,0.01176"
+    },
+    "references": []
+  },
+  {
     "urn": "urn:cts:greekLit:tlg5026.msA.hmt:16.211r1",
     "lemma": "εἰνοδίοις οὓς παῖδες",
     "dse": {

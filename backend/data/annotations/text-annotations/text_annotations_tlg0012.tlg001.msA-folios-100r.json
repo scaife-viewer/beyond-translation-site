@@ -1,5 +1,27 @@
 [
   {
+    "urn": "urn:cts:greekLit:tlg5026.msAint.hmt:7.3007",
+    "comment": "σημειοῦνται τινὲς αντι τοῦ εδύετο ⁑",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol2809",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA100RN_0272@0.103,0.3974,0.07,0.0293"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:100r.7.465"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAint.hmt:7.3008",
+    "comment": "Αρισταρχ  δια τοῦ ο ἀνδραπόδοισι ⁑",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol2810",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA100RN_0272@0.103,0.5845,0.065,0.0533"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:100r.7.475"
+    ]
+  },
+  {
     "urn": "urn:cts:greekLit:tlg5026.msA.hmt:7.3009",
     "lemma": "βουφόνεον δὲ·",
     "dse": {

@@ -1,5 +1,93 @@
 [
   {
+    "urn": "urn:cts:greekLit:tlg5026.msAint.hmt:7.3049",
+    "comment": "οτ  δισυλλάβως καὶ ἐν ἡρῳ Δημοδοκῳ ⁑",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol2837",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA099VN_0602@0.855,0.65,0.0525,0.0269"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:99v.7.453"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAim.hmt:7.3040",
+    "comment": "οτ  πολυάνδριον πῶς οὖν ὥς κ' ὀστέα παισὶν ἕκαστος οἵκαδ' ἄγη ⁑",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol2828",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA099VN_0602@0.385,0.3406,0.0783,0.0576"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:99v.7.436"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAim.hmt:7.3047",
+    "comment": "Αρίσταρχ  oσην ἄλλοι δὲ όσον ·",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol2835",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA099VN_0602@0.4,0.6393,0.0533,0.0263"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:99v.7.452"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAim.hmt:7.3048",
+    "comment": "Ἀρίσταρχος τὸ ἐγω ⁑",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol2836",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA099VN_0602@0.4017,0.6625,0.055,0.0313"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:99v.7.452"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAil.hmt:7.3038",
+    "comment": "βαθὺς όρθρος",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol2826",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA099VN_0602@0.7575,0.273,0.0642,0.0113"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:99v.7.433"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAil.hmt:7.3039",
+    "comment": "ἄριστος επιλεγμ",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol2827",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA099VN_0602@0.6767,0.2937,0.0675,0.0119"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:99v.7.434"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAil.hmt:7.3041",
+    "comment": "φυλακὴ οχύρωμα·",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol2829",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA099VN_0602@0.6517,0.35,0.0775,0.0119"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:99v.7.437"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAil.hmt:7.3043",
+    "comment": "εθαύμαζον",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol2831",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA099VN_0602@0.4925,0.4847,0.0533,0.0113"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:99v.7.444"
+    ]
+  },
+  {
     "urn": "urn:cts:greekLit:tlg5026.msA.hmt:7.3037",
     "lemma": "ἄκριτον ἐκ πεδίου·",
     "dse": {
@@ -19,25 +107,6 @@
       "image_roi": "urn:cite2:hmt:vaimg.2017a:VA099VN_0602@0.1958,0.4715,0.2067,0.0639"
     },
     "references": [
-      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:99v.7.443",
-      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:99v.7.444",
-      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:99v.7.445",
-      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:99v.7.446",
-      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:99v.7.447",
-      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:99v.7.448",
-      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:99v.7.449",
-      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:99v.7.450",
-      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:99v.7.451",
-      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:99v.7.452",
-      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:99v.7.453",
-      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:99v.7.454",
-      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:99v.7.455",
-      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:99v.7.456",
-      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:99v.7.457",
-      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:99v.7.458",
-      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:99v.7.459",
-      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:99v.7.460",
-      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:99v.7.461",
       "urn:cts:greekLit:tlg0012.tlg001.msA-folios:99v.7.462"
     ],
     "comment": "ἕως τοῦ ὡς οἱ μὲν τοι αῦτα πρὸς ἀλλήλους ἀγόρευον ἀθετοῦνται στίχοι KB . ὅτι περι τῆς ἀναιρέσεως τοῦ τείχους λέγει προ τῆς τειχομαχίας ὡς ἂν μὴ προειρηκὼς ἐνθάδε ⁑"

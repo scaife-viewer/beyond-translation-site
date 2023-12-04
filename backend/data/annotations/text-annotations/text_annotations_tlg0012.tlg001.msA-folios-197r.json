@@ -1,5 +1,120 @@
 [
   {
+    "urn": "urn:cts:greekLit:tlg5026.msAext.hmt:15.13",
+    "comment": "βιβῶν",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol5479",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA197RN_0368@0.836,0.3148,0.041,0.0255"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:197r.15.307"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAext.hmt:15.14",
+    "comment": "είμενος",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol5480",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA197RN_0368@0.819,0.3351,0.054,0.027"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:197r.15.308"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAint.hmt:15.27",
+    "comment": "Ζηνοδ  καὶ Αριστοφα  Αἴαντε δυϊκῶς ⁑",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol5518",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA197RN_0368@0.097,0.2164,0.088,0.0376"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:197r.15.301"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAint.hmt:15.28",
+    "comment": "διασταλτέον καθ ὲν ἔμφασις γὰρ μαλλον .",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol5519",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA197RN_0368@0.092,0.3614,0.087,0.0496"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:197r.15.309"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAint.hmt:15.29",
+    "comment": "Αρίσταρχ  προπερισπᾷ κατενῶπα ⁑",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol5520",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA197RN_0368@0.096,0.5289,0.076,0.0744"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:197r.15.320"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAim.hmt:15.42",
+    "comment": "προς το σχημα οτ  πληθυντικῶς ἀπήντηκεν ⁑",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol5624",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA197RN_0368@0.54,0.2863,0.118,0.0293"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:197r.15.305"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAim.hmt:15.43",
+    "comment": "Ἀρισταρχ  βιβῶν",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol5625",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA197RN_0368@0.582,0.3223,0.08,0.0293"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:197r.15.307"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAim.hmt:15.44",
+    "comment": "οτ  αντ  χροὸς ἐπαυρεῖν ἐπιτυχεῖν :",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol5626",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA197RN_0368@0.601,0.4899,0.107,0.0316"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:197r.15.316"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAil.hmt:15.20",
+    "comment": "ε",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol5567",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA197RN_0368@0.367,0.2089,0.013,0.0098"
+    },
+    "references": []
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAil.hmt:15.21",
+    "comment": "α",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol5568",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA197RN_0368@0.471,0.3614,0.009,0.009"
+    },
+    "references": []
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAil.hmt:15.22",
+    "comment": "ε",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol5569",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA197RN_0368@0.231,0.6634,0.013,0.0105"
+    },
+    "references": []
+  },
+  {
     "urn": "urn:cts:greekLit:tlg5026.msA.hmt:15.89",
     "lemma": "‡ Μέγην τ' ἀτάλαντον .",
     "dse": {
@@ -67,7 +182,6 @@
       "image_roi": "urn:cite2:hmt:vaimg.2017a:VA197RN_0368@0.605,0.5199,0.181,0.0706"
     },
     "references": [
-      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:197r.15.316",
       "urn:cts:greekLit:tlg0012.tlg001.msA-folios:197r.15.317"
     ],
     "comment": "ἐφιέμενα ἐπιθυμοῦντα τὸν ἐφ οὓς ἐβάλλετο ἐν τῇ δια μέσου γῆ ἐπήγνυτ  ἐστι δὲ λῶ λαίω ὡς κερῶ κεραίω . εἶτα λιλαίω ⁑"
@@ -80,7 +194,6 @@
       "image_roi": "urn:cite2:hmt:vaimg.2017a:VA197RN_0368@0.163,0.5785,0.625,0.16"
     },
     "references": [
-      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:197r.15.320",
       "urn:cts:greekLit:tlg0012.tlg001.msA-folios:197r.15.321"
     ],
     "comment": "Ἀρίσταρχος ὡς κατα δῶμα ἀπ ευθείας τῆς ὢψ ἥτις αἰτιατικὴν ἔχει τὴν ῶπα . ὁ δε Ἀλεξίων καὶ οἱ πλείους ὡς κατέναντα οἷς καὶ βέλτιον πείθεσθαι ἵνα ᾖ ἀπο τοῦ κατενώπια κατα συγκοπὴν κατένωπα ὡς μηρία μῆρα , σιτία σῖτα . ἔν ἐστι μέντοι βοηθῆσαι καὶ τῷ Ἀριστάρχῳ οὕτως ὡς ἔστιν εὑρώπη ἡ πρόσοψις ὡς εἴ τι κακὸν ῥέζουσαν ἐνωπῆ , παρ' ἥν ἐστιν αἰτιατικὴ ἐνωπήν . ὃν οὖν τρόπον τὴν ϊωκὴν ϊῶκα εἶπεν μεταπλάσας οὕτως καὶ τὴν ἐνωπὴν ἐνῶπα προπερισπωμένως . ὑποστιγμὴ δὲ κατα τὸ τελος τοῦ στίχου καὶ σεῖσαι τὸν δὲ  περιττεύοντος τοῖσι δὲ θυμόν ⁑"

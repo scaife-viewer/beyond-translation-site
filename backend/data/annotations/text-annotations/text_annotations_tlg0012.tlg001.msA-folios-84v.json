@@ -1,5 +1,93 @@
 [
   {
+    "urn": "urn:cts:greekLit:tlg5026.msAint.hmt:6.177",
+    "comment": "οτι περιττος ὁ καὶ συνδεσμ  ⁑",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol2687",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA084VN_0587@0.83640383,0.48506224,0.04568902,0.01396957"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:84v.6.218"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAint.hmt:6.178",
+    "comment": "τὸ δέπας",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol2688",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA084VN_0587@0.87140752,0.53167358,0.02266028,0.01009682"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:84v.6.221"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAint.hmt:6.179",
+    "comment": "αντι του φειδώμεθα ⁑",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol2689",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA084VN_0587@0.85372144,0.63139696,0.03352985,0.01535270"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:84v.6.226"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAim.hmt:6.231",
+    "comment": "ἀποκοπ  τοῦ ἔκτάν ἐπι προμαχ",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol2727",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA084VN_0587@0.39019897,0.24190871,0.05453206,0.02005533"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:84v.6.205"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAim.hmt:6.233",
+    "comment": "οὐτ  ἀλλήλων Ζηνοδοτειος δέ ες ἡ ἀλλήλους ⁑",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol2728",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA084VN_0587@0.40770081,0.64384509,0.05140015,0.02337483"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:84v.6.226"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAim.hmt:6.234",
+    "comment": "οἱον οὐκ επρίγει προς αλλήλους ἡμ ἀμφοτέρος μάχεσθαι ⁑",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol2729",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA084VN_0587@0.40696389,0.66721992,0.05526898,0.03609959"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:84v.6.229"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAil.hmt:6.A10",
+    "comment": "ι",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol2791",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA084VN_0587@0.806,0.5357,0.028,0.0105"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:84v.6.221"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAil.hmt:6.A11",
+    "comment": "πε",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol2792",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA084VN_0587@0.511,0.5763,0.028,0.0105"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:84v.6.223"
+    ]
+  },
+  {
     "urn": "urn:cts:greekLit:tlg5026.msA.hmt:6.72",
     "lemma": "‡ ἔντ' ἐφύρῃ ἐγένοντ",
     "dse": {

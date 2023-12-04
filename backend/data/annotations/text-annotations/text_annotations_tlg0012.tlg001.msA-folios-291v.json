@@ -1,5 +1,71 @@
 [
   {
+    "urn": "urn:cts:greekLit:tlg5026.msAint.hmt:22.31",
+    "comment": "παρα τοῖς νεωτέροις ἐκτείνετ  τὸ υ τοῦ κεκρυφαλ ον  ⁑",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol6793",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA291VN_0793@0.8672,0.3878,0.05380,0.04938"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:291v.22.469"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAint.hmt:22.32",
+    "comment": "γράφεται άλις ῆσαν ⁑",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol6794",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA291VN_0793@0.8755,0.4411,0.04422,0.03596"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:291v.22.473"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAint.hmt:22.33",
+    "comment": "οτ  αντ  τοῦ τυτθήν καὶ ὅτι τὸ ο αντ  τοῦ ὃς",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol6795",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA291VN_0793@0.8784,0.5813,0.04643,0.03914"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:291v.22.480"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAim.hmt:22.41",
+    "comment": "ἀρισταρχ  βάλε δέσματ  αἱ δε κοιναὶ χέε ⁑",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol6885",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA291VN_0793@0.4241,0.3615,0.05951,0.05159"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:291v.22.468"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAim.hmt:22.42",
+    "comment": "αἳ κοινότερα Πριαμου ενι οίκω",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol6886",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA291VN_0793@0.4206,0.5495,0.06319,0.04232"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:291v.22.478"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAim.hmt:22.43",
+    "comment": "ουτ  αινόμορον ⁑",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol6887",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA291VN_0793@0.4342,0.6102,0.04643,0.03001"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:291v.22.481"
+    ]
+  },
+  {
     "urn": "urn:cts:greekLit:tlg5026.msA.hmt:22.108",
     "lemma": "ἀμφι δέ μιν γαλόῳ τε·",
     "dse": {
@@ -43,7 +109,6 @@
       "image_roi": "urn:cite2:hmt:vaimg.2017a:VA291VN_0793@0.2220,0.4833,0.2207,0.05048"
     },
     "references": [
-      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:291v.22.469",
       "urn:cts:greekLit:tlg0012.tlg001.msA-folios:291v.22.470"
     ],
     "comment": "ἀρσενικῶς τὸ διάδημα πρὸς ἀνάδεσιν τῶν κομῶν ἃς περιστέλλοντες οἱ παλαιοὶ ὑπο τοῦτων παρήγοντο καὶ νῦν ἀμπυκίζειν τὸ τὰς ἐμπροσθίους τρίχας ἀναδείσθαι· καὶ χρυσάμπυκες ἵπποι δια τὸ δεῖσθαι στροφίῳ τὰς κορυφαίας τῶν τριχῶν παρα τὸ ἀμπέχειν· ἀναδέσμη δὲ λέγεται σειρὰ ἣν περι τοὺς κροτάφους ἀναδοῦνται· καλεῖται δὲ ὑπ' ενίων καλαυδάκη .  κρήδεμνον δὲ πάλιν τὸ μαφόριον , σχομένη κρήδεμνα ⁑"
@@ -128,18 +193,6 @@
       "image_roi": "urn:cite2:hmt:vaimg.2017a:VA291VN_0793@0.2450,0.7528,0.6680,0.03306"
     },
     "references": [
-      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:291v.22.487",
-      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:291v.22.488",
-      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:291v.22.489",
-      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:291v.22.490",
-      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:291v.22.491",
-      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:291v.22.492",
-      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:291v.22.493",
-      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:291v.22.494",
-      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:291v.22.495",
-      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:291v.22.496",
-      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:291v.22.497",
-      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:291v.22.498",
       "urn:cts:greekLit:tlg0012.tlg001.msA-folios:291v.22.499"
     ],
     "comment": "ἀπο τούτου ἕως τοῦ δακρυόεις δέ τ' ἄνεισι ἀθετοῦνται στίχοι δεκατρεῖς . ὅτι ἀδιάθετοι . τὸ γὰρ περιέρχεσθαι τὸν Ἄστυἄνακτα καὶ τὸν φίλον τοῦ πρσ  . τὸν μὲν χλαίνης ἐρύο  τὸν δὲ χιτῶνος ἵνα βρόγχον πίῃ Πριαμου περιόντος καὶ ἄλλων ἀδελφῶν Ἕκτορος καὶ αὐτῆς τῆς Ἀνδρομαχ  ἄτοπον· δια τί δὲ ἔμελλον ἀφαιρεῖσθαι τὰς ἀποτετμημένας ἀρούρας κατα τὸ βασιλικὸν γένος κληρονόμου τοῦ υἱοῦ Ἄστυἄνακτος ὄντος ὅλως δὲ οὐδ' ἔστιν ἴδιον τοῦ περι τὸν Ἄστυἄνακτα οἴκτου . ἀλλα κοινῶς ἐπὶ παντὸς ὀρφανοῦ ἁρμόζει τὰ λεγόμενα . βέλτιον οὖν οὕτως ἐπιβαλεῖν· οὔτε σὺ τούτῳ ἔσσεαι Ἕκτορ ὄνειαρ ἐπεὶ θάνες , οὔτε σοὶ ουτ οὗτος Ἀστυάναξ ὃς πρὶν μὲν ἑοῦ ⁑"

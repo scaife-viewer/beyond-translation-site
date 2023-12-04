@@ -1,5 +1,67 @@
 [
   {
+    "urn": "urn:cts:greekLit:tlg5026.msAint.hmt:8.284",
+    "comment": "οτ  τινὲς γράφουσι σὺν τῷ ν κακῶς",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol3214",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA109RN_0281@0.1251,0.275,0.0631,0.0278"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:109r.8.428"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAint.hmt:8.285",
+    "comment": "οτ  τὰ oχήματα αρματ  λέγουσι·",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol3215",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA109RN_0281@0.1251,0.4087,0.0551,0.0285"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:109r.8.435"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAim.hmt:8.281",
+    "comment": "ουτ  Αρισταρχ  βωμοῖσι ⁑",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol3174",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA109RN_0281@0.5906,0.5207,0.046,0.0368"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:109r.8.441"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAim.hmt:8.283",
+    "comment": "ἀντι τοῦ ἐκ παντὸς τρόπου οὐκ άν με τρέψειαν ⁑",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol3175",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA109RN_0281@0.2593,0.7145,0.2152,0.0263"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:109r.8.451"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAil.hmt:8.288",
+    "comment": "ήλαυνε :",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol3257",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA109RN_0281@0.3303,0.4823,0.043,0.0135"
+    },
+    "references": []
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAil.hmt:8.289",
+    "comment": "αντ τοῦ λιτόν",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol3258",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA109RN_0281@0.4685,0.5222,0.045,0.0158"
+    },
+    "references": []
+  },
+  {
     "urn": "urn:cts:greekLit:tlg5026.msA.hmt:8.269",
     "lemma": "‡ τῶν· αλλος μὲν ἀποφθείσθω ·",
     "dse": {
@@ -91,7 +153,6 @@
       "image_roi": "urn:cite2:hmt:vaimg.2017a:VA109RN_0281@0.1653,0.7832,0.6478,0.0351"
     },
     "references": [
-      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:109r.8.448",
       "urn:cts:greekLit:tlg0012.tlg001.msA-folios:109r.8.449"
     ],
     "comment": "τινὲς ἐν ερωτήσει καὶ περι τῆς προτέρας νοοῦσι μάχης οἷον οὐκ απήρκεσεν ὑμῖν ἐκεῖνα · οἱ δὲ ἐν αποφάσει καὶ περι τῆς νῦν κερτομικῶς~"
@@ -116,7 +177,6 @@
       "image_roi": "urn:cite2:hmt:vaimg.2017a:VA109RN_0281@0.1645,0.8261,0.6478,0.039"
     },
     "references": [
-      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:109r.8.450",
       "urn:cts:greekLit:tlg0012.tlg001.msA-folios:109r.8.451"
     ],
     "comment": "εἰ δε τοῦ πάντων μείζονος , θυ  δύναμις φησὶ τηλικαύτη ὑπάρχει ὡς μηδὲ ὑπὸ πάντων τῶν θεῶν δύνασθαι καταγωνισθῆναι ⁑"

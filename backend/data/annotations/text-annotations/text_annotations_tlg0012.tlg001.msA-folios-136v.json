@@ -1,5 +1,82 @@
 [
   {
+    "urn": "urn:cts:greekLit:tlg5026.msAext.hmt:10.4646",
+    "comment": "ἢ ἕτυμον ερέω",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol4161",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA136VN_0638@0.131,0.314,0.082,0.0391"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:136v.10.534"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAext.hmt:10.4647",
+    "comment": "γὰρ σφῶϊ",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol4162",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA136VN_0638@0.141,0.6574,0.051,0.0338"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:136v.10.552"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAint.hmt:10.4645",
+    "comment": "καθ εαυτὸν τὸν στιχ  προενεκτέον λειπ  δὲ τὸ εἰσὶ ⁑",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol4160",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA136VN_0638@0.822,0.5552,0.082,0.0391"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:136v.10.547"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAim.hmt:10.4640",
+    "comment": "τὸ εἰπεῖν τὴν άφηξιν Οδυσσέως καὶ Διομηδ",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol4156",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA136VN_0638@0.414,0.3261,0.076,0.0353"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:136v.10.534"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAim.hmt:10.4641",
+    "comment": "Ἀρίσταρχος δείδοικα μετα φρεσὶ :",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol4157",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA136VN_0638@0.416,0.4005,0.076,0.0353"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:136v.10.538"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAim.hmt:10.4643",
+    "comment": "βραχὺ διασταλτέον μετα τὸ λάβετον ἵνα τὸ ἑξῆς πευστικῶς λέγηται :",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol4158",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA136VN_0638@0.422,0.5289,0.076,0.0533"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:136v.10.545"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAim.hmt:10.4644",
+    "comment": "οὕτως σφῶε δια τοῦ ε καὶ πόρεν Ϊακως . ουτ  καὶ Ἀρίσταρχ  καὶ Ἡρωδιανος ⁑",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol4159",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA136VN_0638@0.426,0.5778,0.076,0.0533"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:136v.10.546"
+    ]
+  },
+  {
     "urn": "urn:cts:greekLit:tlg5026.msA.hmt:10.4633",
     "lemma": "Νέστωρ δὲ πρῶτος ,",
     "dse": {
@@ -29,7 +106,10 @@
     "dse": {
       "urn": "urn:cite2:hmt:va_dse.v1:schol4154",
       "image_roi": "urn:cite2:hmt:vaimg.2017a:VA136VN_0638@0.196,0.592,0.247,0.0458"
-    }
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:136v.10.545"
+    ]
   },
   {
     "urn": "urn:cts:greekLit:tlg5026.msA.hmt:10.4636",

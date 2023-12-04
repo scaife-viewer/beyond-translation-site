@@ -1,11 +1,23 @@
 [
   {
+    "urn": "urn:cts:greekLit:tlg5026.msAint.hmt:7.3004",
+    "comment": "οτ  οὐ προγεγάμηται ἑτέρω καθ Ὅμηρον ἡ Ἑλένη ⁑",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol2808",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA098VN_0601@0.8517,0.4415,0.0483,0.0407"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:98v.7.392"
+    ]
+  },
+  {
     "urn": "urn:cts:greekLit:tlg5026.msA.hmt:7.4004",
     "comment": "έν αλλων και ουος ὁ στιχ  Β δόρπον επει τ' ειλοντο κατα στρατὸν ἐν τελέεσσιν·",
     "dse": {
       "urn": "urn:cite2:hmt:va_dse.v1:schol2991",
       "image_roi": "urn:cite2:hmt:vaimg.2017a:VA098VN_0601@0.163,0.2297,0.255,0.0383"
-    }
+    },
+    "references": []
   },
   {
     "urn": "urn:cts:greekLit:tlg5026.msA.hmt:7.4005",
@@ -13,7 +25,10 @@
     "dse": {
       "urn": "urn:cite2:hmt:va_dse.v1:schol2992",
       "image_roi": "urn:cite2:hmt:vaimg.2017a:VA098VN_0601@0.154,0.3213,0.262,0.039"
-    }
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:98v.7.385"
+    ]
   },
   {
     "urn": "urn:cts:greekLit:tlg5026.msA.hmt:7.3000",
@@ -23,7 +38,6 @@
       "image_roi": "urn:cite2:hmt:vaimg.2017a:VA098VN_0601@0.1942,0.4058,0.2217,0.1465"
     },
     "references": [
-      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:98v.7.390",
       "urn:cts:greekLit:tlg0012.tlg001.msA-folios:98v.7.391"
     ],
     "comment": "ὅτι σαφῶς ὑπο τῶν Τρώων ἐμίσετο  Ἀλεξανδρος προς Ζηνόδοτον γράφοντα· ἀλλὰ μᾶλλον Τρῶες ἐλεήμονες τὸ ὡς πρὶν ὤφελ' ἀπολεσθαι , εἴτε καὶ τοῖς Ἕλλησιν εἰς επήκοον λέγει ὁ κήρυξ προς τὸ συγγνωμωνεῖν τοῖς ἄλλοις Τρωσὶν ὡς καὶ αὐτοῖς ὀργιζόμενοις· ἔιτε καθ ἑαυτὸν καὶ ἡρέμα ὡς Δημόκριτος ἀξιοῖ ἀπρεπές ἡγησάμενος τὸ φανερῶς λέγεσθαι ἀμφότερα προστικτεόν ὡς διαμέσου ἀναπεφωννημένου τὸ γὰρ ἑξῆς ἠγάγετο Τροιὴνδε  πάντ' ἐθελει δόμεναι ⁑"

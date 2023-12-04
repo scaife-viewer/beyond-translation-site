@@ -1,5 +1,65 @@
 [
   {
+    "urn": "urn:cts:greekLit:tlg5026.msAint.hmt:24.2",
+    "comment": "γράφεται μέγιστον",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol7216",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA316VN_0818@0.856,0.4505,0.052,0.0233"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:316v.24.293"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAim.hmt:24.12",
+    "comment": "ἐν ἄλλῳ εὸν άγγε  ⁑",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol7283",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA316VN_0818@0.425,0.4497,0.05,0.042"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:316v.24.292"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAim.hmt:24.13",
+    "comment": "γράφεται χαίρων ἐνι θυμῷ ⁑",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol7284",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA316VN_0818@0.416,0.5083,0.061,0.0428"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:316v.24.295"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAil.hmt:24.9",
+    "comment": "τεὸν",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol7246",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA316VN_0818@0.624,0.4459,0.031,0.0135"
+    },
+    "references": []
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAil.hmt:24.10",
+    "comment": "εντελλομε",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol7247",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA316VN_0818@0.72,0.5998,0.056,0.0143"
+    },
+    "references": []
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAil.hmt:24.11",
+    "comment": "καθαρόν",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol7248",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA316VN_0818@0.726,0.6584,0.049,0.0135"
+    },
+    "references": []
+  },
+  {
     "urn": "urn:cts:greekLit:tlg5026.msA.hmt:24.38",
     "lemma": "κῆρυξ καὶ Πρίαμος :",
     "dse": {
@@ -7,7 +67,6 @@
       "image_roi": "urn:cite2:hmt:vaimg.2017a:VA316VN_0818@0.224,0.1096,0.64,0.0353"
     },
     "references": [
-      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:316v.24.281",
       "urn:cts:greekLit:tlg0012.tlg001.msA-folios:316v.24.282"
     ],
     "comment": "ὅτι εἰ μὴ προσέθηκε τὸν στίχον οἱ θέλοντες συγχεῖσθαι τὰ δυϊκὰ παρ' Ὁμήρῳ Ἐρατοσθενης καὶ Κράτης ἔλεγον ἂν ἐπι τῶν ἐννέα Πριαμιδῶν τετάχθαι τὼ μὲν ζευγνύσθην ⁑"

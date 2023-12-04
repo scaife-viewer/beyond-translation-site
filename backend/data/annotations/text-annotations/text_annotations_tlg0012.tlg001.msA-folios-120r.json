@@ -1,5 +1,60 @@
 [
   {
+    "urn": "urn:cts:greekLit:tlg5026.msAext.hmt:9.406",
+    "comment": "σόῃ",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:tlg5026_msAext_hmt_9_406",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA120RN_0292@0.8699,0.4658,0.037,0.015"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:120r.9.424"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAint.hmt:9.404",
+    "comment": "οὐδε παρα Ζηνοδότω ἐφέρετο ⁑",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:tlg5026_msAint_hmt_9_404",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA120RN_0292@0.1121,0.3133,0.0631,0.0451"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:120r.9.416"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAint.hmt:9.405",
+    "comment": "μετα φρεσὶ βάλλεαι κατα νοῦν ἔχεις ⁑",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:tlg5026_msAint_hmt_9_405",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA120RN_0292@0.1121,0.6649,0.0701,0.0443"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:120r.9.434"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAim.hmt:9.403",
+    "comment": "οτ  θηλυκῶς τοῦ Ἴλιον ⁑",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:tlg5026_msAim_hmt_9_403",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA120RN_0292@0.5726,0.3764,0.03,0.0406"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:120r.9.419"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAil.hmt:9.407",
+    "comment": "αποφήνατε :",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:tlg5026_msAil_hmt_9_407",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA120RN_0292@0.3133,0.4365,0.0561,0.009"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:120r.9.422"
+    ]
+  },
+  {
     "urn": "urn:cts:greekLit:tlg5026.msA.hmt:9.397",
     "lemma": "ἔσσεται :",
     "dse": {

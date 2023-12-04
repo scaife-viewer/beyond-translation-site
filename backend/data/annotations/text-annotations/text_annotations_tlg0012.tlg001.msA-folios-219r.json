@@ -1,5 +1,49 @@
 [
   {
+    "urn": "urn:cts:greekLit:tlg5026.msAint.hmt:16.219r1",
+    "comment": "βασιλῆα ἴ+δον βεβλαμμένον τὸ ῆτορ νέκρον ⁑",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol7780",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA219RN_0390@0.1253,0.3220,0.07093,0.04523"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:219r.16.660"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAint.hmt:16.219r2",
+    "comment": "Ἀρισταρχος Σαρπηδόνι κατὰ δοτικήν ⁑",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol7781",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA219RN_0390@0.1319,0.4703,0.06798,0.03389"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:219r.16.668"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAint.hmt:16.219r3",
+    "comment": "γραφεται θήσουσι Λυκίης ⁑",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol7782",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA219RN_0390@0.1227,0.5657,0.06135,0.01978"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:219r.16.673"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAim.hmt:16.219r1",
+    "comment": "γραφέται δεδαϊγμένον ῆτορ ⁑",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol7841",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA219RN_0390@0.6264,0.3163,0.05637,0.03223"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:219r.16.660"
+    ]
+  },
+  {
     "urn": "urn:cts:greekLit:tlg5026.msA.hmt:16.219r1",
     "lemma": "καὶ τότ' Ἀπόλλωνα",
     "dse": {

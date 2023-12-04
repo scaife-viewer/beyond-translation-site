@@ -1,5 +1,80 @@
 [
   {
+    "urn": "urn:cts:greekLit:tlg5026.msAext.hmt:14.B1",
+    "comment": "φθισήνορα δεῦρ' ἀφικάν'",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol5440",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA181RN_0352@0.7944,0.5534,0.07609,0.03015"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:181r.14.43"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAint.hmt:14.B1",
+    "comment": "διχῶς αἱ Αρισταρχ  μακρόν καὶ πολλόν Ζενοδ  καὶ Ἀριστοφ  πολλόν ⁑",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol5355",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA181RN_0352@0.1022,0.4075,0.07848,0.05615"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:181r.14.36"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAint.hmt:14.B2",
+    "comment": "ἐν τη Ἀριστοφ  δείδια :",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol5356",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA181RN_0352@0.1142,0.5629,0.04882,0.02725"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:181r.14.44"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAint.hmt:14.B3",
+    "comment": "ἐν ἄλλως κεινός γε ⁑",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol5459",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA181RN_0352@0.107,0.6389,0.055,0.0263"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:181r.14.48"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAim.hmt:14.B4",
+    "comment": "οτ  συλληπτικῶς εἴρηκεν βεβλήατο επι τῶν ουτασμε  ⁑",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol5298",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA181RN_0352@0.5790,0.2544,0.1017,0.03790"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:181r.14.28"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAim.hmt:14.B5",
+    "comment": "Αριστοφ  ὅς ποτε δια τοῦ ο γράφει ⁑",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol5299",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA181RN_0352@0.5348,0.5873,0.05306,0.04896"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:181r.14.45"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAil.hmt:14.B4",
+    "comment": "εἰς φόβον ήγαγεν :",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol5405",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA181RN_0352@0.2699,0.4787,0.07111,0.01840"
+    },
+    "references": []
+  },
+  {
     "urn": "urn:cts:greekLit:tlg5026.msA.hmt:14.B16",
     "lemma": "τῶ ρα προκρόσσας ἔρυσαν·",
     "dse": {

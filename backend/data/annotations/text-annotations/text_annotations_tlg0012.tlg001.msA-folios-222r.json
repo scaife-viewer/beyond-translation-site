@@ -1,5 +1,47 @@
 [
   {
+    "urn": "urn:cts:greekLit:tlg5026.msAint.hmt:16.222r_1",
+    "comment": "τὸ σὺν όχεσφιν ἑκατέροις δύναται προσδιδοσθαι ⁑",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol8100",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA222RN_0393@0.1338,0.2971,0.06116,0.08935"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:222r.16.812"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAint.hmt:16.222r_2",
+    "comment": "οτ ουτ μὲν οὔτασεν , ὁδε Εὔφορβος βέβληκε ⁑",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol8101",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA222RN_0393@0.1170,0.6188,0.07461,0.06169"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:222r.16.828"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAim.hmt:16.222r_1",
+    "comment": "οτ ὁμολογον τῷ βεβλῆσθαι αυτόν ⁑",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol8088",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA222RN_0393@0.6207,0.4530,0.07406,0.04080"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:222r.16.819"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAil.hmt:16.222r_1",
+    "comment": "περι μικρᾶς  πηγῆς",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol8094",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA222RN_0393@0.2570,0.5578,0.07701,0.009820"
+    },
+    "references": []
+  },
+  {
     "urn": "urn:cts:greekLit:tlg5026.msA.hmt:16.222r_1",
     "lemma": "ὤμων μεσσηγυς :",
     "dse": {

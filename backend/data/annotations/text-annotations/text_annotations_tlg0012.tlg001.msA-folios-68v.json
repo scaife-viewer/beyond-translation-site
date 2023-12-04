@@ -1,5 +1,135 @@
 [
   {
+    "urn": "urn:cts:greekLit:tlg5026.msAext.hmt:5.2044",
+    "comment": "ἀμφι δ‘ εὸν",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol2488",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA068VN_0570@0.11422255,0.27828492,0.05637436,0.01452282"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:68v.5.314"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAint.hmt:5.2042",
+    "comment": "Ἀρίσταρχος ὄλοιτο ⁑",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol2456",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA068VN_0570@0.85593220,0.33236515,0.03039794,0.01742739"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:68v.5.317"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAint.hmt:5.2043",
+    "comment": "ὅτι ἰδίως συνθεσιάων ἀντι τοῦ ἐντολῶν ⁑",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol2457",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA068VN_0570@0.83695652,0.36597510,0.05103169,0.02282158"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:68v.5.319"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAim.hmt:5.2038",
+    "comment": "καὶ ὁ χρ  καὶ τὸ ῥῆμα ἐνήλλακται ἀντι τοῦ ἀπώλετο ἂν ⁑",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol2390",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA068VN_0570@0.41599116,0.21604426,0.06153279,0.04647303"
+    },
+    "references": []
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAim.hmt:5.2039",
+    "comment": "τι ὅ Ζηνόδοτος γρ  αινείω οὐκ εστι δὲ Αινείως ὡς Πετεως ⁑",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol2391",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA068VN_0570@0.41341194,0.43983402,0.05747973,0.03762102"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:68v.5.323"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAim.hmt:5.2041",
+    "comment": "ὅτι πολεμικὴ ἡ θεος",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol2392",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA068VN_0570@0.42962417,0.63485477,0.05766396,0.01037344"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:68v.5.333"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAil.hmt:5.2045",
+    "comment": "ἥ τις αὐτόν",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol2511",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA068VN_0570@0.56521739,0.25352697,0.02947679,0.00567082"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:68v.5.313"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAil.hmt:5.2047",
+    "comment": "περιεβάλετο ⁑",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol2512",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA068VN_0570@0.69454679,0.27109267,0.0504790,0.00788382"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:68v.5.314"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAil.hmt:5.2048",
+    "comment": "ἀντι τοῦ διπλῶ τῷ πέπλω ἑαυτὸν ἐσκέπασεν ⁑",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol2513",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA068VN_0570@0.69675755,0.29017981,0.13983051,0.00774550"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:68v.5.315"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAil.hmt:5.2049",
+    "comment": "ηρεμα ἐξέφερεν ⁑",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol2514",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA068VN_0570@0.69233604,0.34384509,0.06319086,0.00843707"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:68v.5.318"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAil.hmt:5.2050",
+    "comment": "κατέσχεν ⁑",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol2515",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA068VN_0570@0.69159912,0.39640387,0.02984525,0.00774550"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:68v.5.321"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAil.hmt:5.2051",
+    "comment": " χω ἔξω τῆς μάχης ⁑",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol2516",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA068VN_0570@0.52929256,0.41327801,0.06226971,0.00968188"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:68v.5.322"
+    ]
+  },
+  {
     "urn": "urn:cts:greekLit:tlg5026.msA.hmt:5.2030",
     "lemma": "ὃν περὶ πάσης",
     "dse": {
@@ -53,7 +183,10 @@
     "dse": {
       "urn": "urn:cite2:hmt:va_dse.v1:schol2348",
       "image_roi": "urn:cite2:hmt:vaimg.2017a:VA068VN_0570@0.22291820,0.70650069,0.67428150,0.05062241"
-    }
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:68v.5.333"
+    ]
   },
   {
     "urn": "urn:cts:greekLit:tlg5026.msA.hmt:5.2035",

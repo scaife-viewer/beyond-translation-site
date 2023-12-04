@@ -1,5 +1,71 @@
 [
   {
+    "urn": "urn:cts:greekLit:tlg5026.msAint.hmt:2.770",
+    "comment": "τὸν η περισπαστέον ἔστι γὰρ βεβαιωτικοί ⁑",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol1612",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA040RN_0041@0.0737,0.3234,0.0607,0.0373"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:40r.2.798"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAint.hmt:2.771",
+    "comment": "ὅτι περισσεύει ὁ δὲ σύνδ  ⁑",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol1613",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA040RN_0041@0.0693,0.403,0.0603,0.0293"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:40r.2.802"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAim.hmt:2.769",
+    "comment": "οὕτως αιπεῖα ὡς οξεῖα ·",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol1550",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA040RN_0041@0.498,0.5745,0.0477,0.015"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:40r.2.811"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAil.hmt:2.772",
+    "comment": "ἤδη μέν",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol1763",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA040RN_0041@0.1543,0.3196,0.0237,0.009"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:40r.2.798"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAil.hmt:2.773",
+    "comment": "προτι",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol1764",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA040RN_0041@0.422,0.383,0.0293,0.0115"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:40r.2.802"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAil.hmt:2.774",
+    "comment": "ὄνομα",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol1765",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA040RN_0041@0.4913,0.6303,0.0313,0.011"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:40r.2.814"
+    ]
+  },
+  {
     "urn": "urn:cts:greekLit:tlg5026.msA.hmt:2.759",
     "lemma": "ἡ μὲν δὴ μάλα πολλὰ :",
     "dse": {

@@ -1,5 +1,60 @@
 [
   {
+    "urn": "urn:cts:greekLit:tlg5026.msAint.hmt:2.561",
+    "comment": "δασύνειν δὲ καὶ παροξύνειν τὸ αθρ ἁθρόοι ἐνθάδε",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol1601",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA033RN_0034@0.0996,0.2215,0.0633,0.0444"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:33r.2.439"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAint.hmt:2.562",
+    "comment": "ἵ¨να μὴ απιστοῖτο τὸ τάχος , την θεον παρέλαβεν : καὶ ὡς ἄξια τῆς θεοῦ μελλόντων αυτῶν κατορθοῦν",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol1602",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA033RN_0034@0.0838,0.3567,0.0867,0.041"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:33r.2.446"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAint.hmt:2.563",
+    "comment": "ἀντὶ πολλοί : ἢ τῶ αριθμῷ , πίστιν πεπόρισται·",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol1603",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA033RN_0034@0.0813,0.3949,0.0854,0.0275"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:33r.2.448"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAint.hmt:2.564",
+    "comment": "πάντη τὰ φάη ἀΐσσουσα·",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol1604",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA033RN_0034@0.0996,0.4379,0.0596,0.0252"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:33r.2.450"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAint.hmt:2.565",
+    "comment": "φῶ το φαίνω : ἀναδιπλασιασμὸς πεφασσω : καὶ πλεονα  παιφασσω . οἱονεὶ φανερῶ : ὡς πταίνω παπταίνω : πάσσω πάλη . παιπάλη ·",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol1605",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA033RN_0034@0.0836,0.4572,0.0804,0.052"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:33r.2.450"
+    ]
+  },
+  {
     "urn": "urn:cts:greekLit:tlg5026.msA.hmt:2.546",
     "lemma": "μετὰ δὲ γλαυκῶπις Ἀθήνη ·",
     "dse": {
@@ -55,7 +110,6 @@
       "image_roi": "urn:cite2:hmt:vaimg.2017a:VA033RN_0034@0.5513,0.5698,0.2225,0.0507"
     },
     "references": [
-      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:33r.2.453",
       "urn:cts:greekLit:tlg0012.tlg001.msA-folios:33r.2.454"
     ],
     "comment": "ὅτι προ τῆς Ἀγαμέμνονος ἀριστείας οὐκ ὀρθῶς φέρονται . διαστολὴ δὲ βραχεῖα ἐπι τὸ γένετ' ἐπεὶ μέρος ἐστι περιόδου ⁑"
@@ -80,7 +134,6 @@
       "image_roi": "urn:cite2:hmt:vaimg.2017a:VA033RN_0034@0.1363,0.6977,0.65,0.0388"
     },
     "references": [
-      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:33r.2.455",
       "urn:cts:greekLit:tlg0012.tlg001.msA-folios:33r.2.456"
     ],
     "comment": "νῦν μάλιστα ἡ δύναμις τοῦ ποιητοῦ ὅτε καθ έκαστον πρᾶγμα διαφόρων εἰκόνων εὐπορεῖ πρώτη δὲ εἰκῶν ἡ ἀπο τῆς τῶν ὅπλων λαμπηδόνος μεγεθύνεται δὲ τῇ ἀσπέτῳ ὕλῃ καὶ τῷ όρει ἔνθα καταιγίδες εἰσὶ καὶ τῆς κορυφῆς δι'ὃ θαρρῶν ἐπάγει ἔκαθεν δέ τε φαίνεται αὐγή ⁑"
@@ -115,7 +168,10 @@
     "dse": {
       "urn": "urn:cite2:hmt:va_dse.v1:schol1334",
       "image_roi": "urn:cite2:hmt:vaimg.2017a:VA033RN_0034@0.1467,0.7422,0.6696,0.0332"
-    }
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:33r.2.461"
+    ]
   },
   {
     "urn": "urn:cts:greekLit:tlg5026.msA.hmt:2.557",
@@ -135,6 +191,9 @@
     "dse": {
       "urn": "urn:cite2:hmt:va_dse.v1:schol1336",
       "image_roi": "urn:cite2:hmt:vaimg.2017a:VA033RN_0034@0.1454,0.7844,0.6392,0.0573"
-    }
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:33r.2.461"
+    ]
   }
 ]

@@ -1,5 +1,82 @@
 [
   {
+    "urn": "urn:cts:greekLit:tlg5026.msAint.hmt:8.318",
+    "comment": "πλεονάζει τὸ λ ὁ πολυλιτάνευτος⁚",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol3219",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA110RN_0282@0.1201,0.4057,0.0691,0.0301"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:110r.8.488"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAint.hmt:8.319",
+    "comment": "οτ  Ζηνοδ  γρ  εφοπλιζεσθον συγχει δὲ τὸ δυικόν ⁑",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol3220",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA110RN_0282@0.1221,0.6799,0.0631,0.0398"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:110r.8.503"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAim.hmt:8.314",
+    "comment": "εἷς τω Τιτάνων",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol3181",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA110RN_0282@0.5736,0.2352,0.0681,0.0218"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:110r.8.479"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAim.hmt:8.2004",
+    "comment": "τοῦ ὑπερ ημᾶς οντος ηλίου⁚",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol3182",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA110RN_0282@0.5495,0.2547,0.0791,0.0218"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:110r.8.480"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAim.hmt:8.315",
+    "comment": "αμετοχ  ην και καθαρος",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol3183",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA110RN_0282@0.6096,0.4613,0.046,0.0263"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:110r.8.491"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAim.hmt:8.316",
+    "comment": "γρ  έπεα πτερόεντ' ἀγόρευε ⁚",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol3184",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA110RN_0282@0.5816,0.5552,0.0661,0.0248"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:110r.8.496"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAim.hmt:8.317",
+    "comment": "οτ  θηλυκῶς τὴν Ιλιον ⁑",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol3185",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA110RN_0282@0.5796,0.6236,0.0911,0.0188"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:110r.8.499"
+    ]
+  },
+  {
     "urn": "urn:cts:greekLit:tlg5026.msA.hmt:8.305",
     "lemma": "‡ γαίης καὶ πόντοιο~",
     "dse": {
@@ -7,7 +84,6 @@
       "image_roi": "urn:cite2:hmt:vaimg.2017a:VA110RN_0282@0.1837,0.1131,0.6323,0.0405"
     },
     "references": [
-      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:110r.8.478",
       "urn:cts:greekLit:tlg0012.tlg001.msA-folios:110r.8.479"
     ],
     "comment": "δείκνυσιν ὁ ποιητὴς ὅτι συναπολήγει γῆ καὶ θάλασσα ὡς ἂν τοῦ ὕδατος πεκεχυμένου  τῇ γῇ σφαιρικῶς καὶ καλύπτοντος αὐτὴν πλὴν τῶν ἀνεχουσῶν· ηπείρων εν αῖς κατοικοῦμεν ⁑"

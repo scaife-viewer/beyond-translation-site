@@ -1,5 +1,93 @@
 [
   {
+    "urn": "urn:cts:greekLit:tlg5026.msAint.hmt:7.411",
+    "comment": "Ἀρίσταρχος ἀνὰ δ ἄνσχεο ἀνάσχου δὲ ⁑",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol2977",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA093RN_0265@0.1126,0.3733,0.0707,0.0374"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:93r.7.110"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAint.hmt:7.412",
+    "comment": "οτ  τὸ ἐθέλω ἀεὶ ἀπο τοῦ ε άρχεται",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol2978",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA093RN_0265@0.1109,0.4058,0.073,0.0331"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:93r.7.111"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAint.hmt:7.413",
+    "comment": "οτ  τούτῳ γε τῷ Ἕκτορι γράφεται καὶ τοῦτόν γε",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol2979",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA093RN_0265@0.1154,0.4477,0.0647,0.0432"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:93r.7.113"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAint.hmt:7.414",
+    "comment": "γράφεται καὶ δια τοῦ γε ἀδειής γε",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol2980",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA093RN_0265@0.108,0.5109,0.0718,0.038"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:93r.7.117"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAint.hmt:7.415",
+    "comment": "γόνυ κάμψειν ἀντι τοῦ φυγεῖν ⁑",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol2981",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA093RN_0265@0.1074,0.5461,0.0678,0.0281"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:93r.7.118"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAim.hmt:7.408",
+    "comment": "γράφεται καὶ θανάτοιο τελευτη οἷον θανασιμον τέλος·",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol2960",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA093RN_0265@0.5667,0.258,0.0933,0.0376"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:93r.7.104"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAim.hmt:7.409",
+    "comment": "Ζηνόδ  χω  τοῦ ν ἀμείνω γράφει ⁑",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol2961",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA093RN_0265@0.5771,0.4691,0.036,0.0365"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:93r.7.114"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAim.hmt:7.410",
+    "comment": "οτ  πρόμον τὸν προμαχ  κοινῶς λέγει ⁑",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol2962",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA093RN_0265@0.5703,0.5134,0.0371,0.0462"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:93r.7.116"
+    ]
+  },
+  {
     "urn": "urn:cts:greekLit:tlg5026.msA.hmt:7.401",
     "lemma": "‡ νίκης πείρατ' ἔχοντα ⁑",
     "dse": {
@@ -55,7 +143,6 @@
       "image_roi": "urn:cite2:hmt:vaimg.2017a:VA093RN_0265@0.6063,0.4123,0.2017,0.0896"
     },
     "references": [
-      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:93r.7.117",
       "urn:cts:greekLit:tlg0012.tlg001.msA-folios:93r.7.118"
     ],
     "comment": "γράφεται καὶ δια τοῦ γε ἀδειής γε . ἀφ' ἑτέρας δὲ ἀρχῆς , ταῦτα δι ὅπερ ὑποστικτέον ἀκόρητος ὁ γὰρ λόγος εἰ καὶ πάνυ ἄφοβος καὶ ἀπλήρωτος πολέμου ἐστιν ἀγαπητῶς ὑπολαμβάνω αὐτὸν φεύξεσθεαι ⁑"

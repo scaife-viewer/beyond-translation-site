@@ -1,5 +1,38 @@
 [
   {
+    "urn": "urn:cts:greekLit:tlg5026.msAint.hmt:4.300",
+    "comment": "αντ  τοῦ απολειται πρὸς ὃ ἡ διπλη το Ιλς  θηλυκω  ⁑",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol2177",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA054VN_0556@0.80563744,0.31908714,0.05637436,0.02544952"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:54v.4.164"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAim.hmt:4.809",
+    "comment": "αντ  τοῦ ἐπισειη πρὸς ὃ ἡ διπλη·",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol2205",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA054VN_0556@0.40751658,0.38243430,0.05176861,0.01673582"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:54v.4.167"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAim.hmt:4.810",
+    "comment": "διχῶς Ἀρισταρχ  καὶ ἐλέγχιστον",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol2206",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA054VN_0556@0.42114959,0.45947441,0.05342668,0.01853389"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:54v.4.171"
+    ]
+  },
+  {
     "urn": "urn:cts:greekLit:tlg5026.msA.hmt:4.288",
     "lemma": "‡σπονδαί τ' ἄκρητοι·",
     "dse": {

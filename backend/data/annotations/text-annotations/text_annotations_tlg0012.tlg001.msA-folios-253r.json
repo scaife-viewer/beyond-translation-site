@@ -1,5 +1,82 @@
 [
   {
+    "urn": "urn:cts:greekLit:tlg5026.msAint.hmt:19.2015office9_1",
+    "comment": "ουτ  Ἀρίσταρχ  ἄλλοι δὲ ἀκουέμεν ⁚",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol6555",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA253RN_0424@0.143,0.2757,0.068,0.0263"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:253r.19.79"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAint.hmt:19.2015office9_2",
+    "comment": "Αρισταρχ  ἐπισταμένῳ περ εόντι ⁚",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol6556",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA253RN_0424@0.119,0.299,0.09,0.0263"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:253r.19.80"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAint.hmt:19.2015office9_3",
+    "comment": "κρίνατε δοκιμάσατ  ⁚",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol6557",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA253RN_0424@0.138,0.3727,0.079,0.0135"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:253r.19.84"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAint.hmt:19.2015office9_4",
+    "comment": "παρα Αριστοφα  καὶ τῇ Χίᾳ νεικίουσιν ⁑",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol6558",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA253RN_0424@0.144,0.4027,0.066,0.0338"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:253r.19.86"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAint.hmt:19.2015office9_5",
+    "comment": "ουτ  Ἀρισταρχ  , ἄλλοι δὲ τῆς μεν θ' ἁπαλοί",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol6559",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA253RN_0424@0.134,0.5252,0.077,0.0218"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:253r.19.92"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAint.hmt:19.2015office9_6",
+    "comment": "Ἀριστχ  Ζεὺς άσατο ⁑",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol6560",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA253RN_0424@0.156,0.5687,0.046,0.0421"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:253r.19.95"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAint.hmt:19.2015office9_7",
+    "comment": "οτ  τὸ εὐχόμενος σαφῶς εστ  αὐχώμενος παρὰ τὸ αὐχεῖν ⁑",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol6561",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA253RN_0424@0.123,0.6702,0.078,0.0488"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:253r.19.100"
+    ]
+  },
+  {
     "urn": "urn:cts:greekLit:tlg5026.msA.hmt:19.2015office9_1",
     "lemma": "τοῖσι δὲ καὶ μετέειπ  ἄναξ ἀνδρω  αγαμε  · ἀυτοθ  ἐξ έδρης , ὅ δ' ἐν μέσσοισι ἀναστάς .",
     "dse": {
@@ -55,7 +132,6 @@
       "image_roi": "urn:cite2:hmt:vaimg.2017a:VA253RN_0424@0.63,0.272,0.212,0.0661"
     },
     "references": [
-      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:253r.19.81",
       "urn:cts:greekLit:tlg0012.tlg001.msA-folios:253r.19.82"
     ],
     "comment": "ὁ Ἀρίσταρχος ἐλλείπειν φησὶ τὸ οὕτως χρώμενος τὸ γὰρ λεγόμενον τοιοῦτον εῖναι εν δὲ πολλῶν ανδρῶν ὁμίλῳ πῶς ἄν τις ουτ  χρώμενος ἢ εἴποι ἢ πῶς οἱ ἀκούοντες ἀκούσειαν ουτ  Δίδυμος τὸ ἀκούσαι παροξυτονητέον ἔστι γὰρ εὐκτικόν ⁑"
@@ -92,7 +168,6 @@
       "image_roi": "urn:cite2:hmt:vaimg.2017a:VA253RN_0424@0.624,0.4237,0.214,0.1668"
     },
     "references": [
-      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:253r.19.90",
       "urn:cts:greekLit:tlg0012.tlg001.msA-folios:253r.19.91"
     ],
     "comment": "ἔξω του ν αἱ Ἀρισταρχ  ἀλλα τί κε ῥέξαιμι γράφεται δὲ κατ ενια θεοὺς δια παντ  τελευτα δια τοὺς θεοὺς τέλος παντ  λαμβάνει . ἐν δε τίσι θεους δια παντ  τέτυκται · στικτεον δὲ ἐπι τὸ ῥέξαιμι · καλῶς δὲ εχει καὶ κατ  τὸ τελος τοῦ στίχου στίζειν ἵνα ουτ  μὲν ὁ λόγος καθολικὸς ᾖ θεὸς πάντων τὸ τέλος ἔχει· τὰ δὲ ἑξῆς ἀπ αλλης ἀρχῆς ἵνα λειπ  τὸ ἐστι ῥῆμα ὁ δε λόγος Διὸς θυγάτηρ ἐστιν Άτη ἐξ οῦ τὸ θεῖον καὶ τὸ ϊσχυρὸν παρίστησιν ὡς μὲν γὰρ ἀτριβὴ συνάπτει ψεῦδος εῖναι μοι δοκεῖ οὐ γὰρ πάντων ἡ Άτη τὸ τελος ἔχει ὥσπερ οὐδε τῶν ἀγαθῶν ⁑"

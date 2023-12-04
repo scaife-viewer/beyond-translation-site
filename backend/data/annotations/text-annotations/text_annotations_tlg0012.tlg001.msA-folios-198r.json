@@ -1,5 +1,27 @@
 [
   {
+    "urn": "urn:cts:greekLit:tlg5026.msAint.hmt:15.32",
+    "comment": "στικτεον ἐπι τὸ ἐριτιμον λειπ  δὲ τὸ ἦν ⁑",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol5523",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA198RN_0369@0.105,0.3997,0.073,0.0368"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:198r.15.361"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAint.hmt:15.33",
+    "comment": "βέλτιον μετα τὸ ἡπιέησιν υπστικτέον  ⁑",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol5524",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA198RN_0369@0.102,0.4403,0.074,0.0511"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:198r.15.363"
+    ]
+  },
+  {
     "urn": "urn:cts:greekLit:tlg5026.msA.hmt:15.104",
     "lemma": "‡ ἀλλα κύνες ἐρύουσι ,",
     "dse": {

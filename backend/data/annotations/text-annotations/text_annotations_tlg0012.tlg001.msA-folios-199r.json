@@ -1,5 +1,47 @@
 [
   {
+    "urn": "urn:cts:greekLit:tlg5026.msAint.hmt:15.36",
+    "comment": "οτ  ἅπαξ ἐνταυθ  σοφίαν ὼνομασεν τὴν τεκτονικὴν τέχνην ⁑",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol5527",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA199RN_0370@0.109,0.4125,0.065,0.0466"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:199r.15.412"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAint.hmt:15.37",
+    "comment": "Ἀρισταρχ  νῆα · ἀλλοι δὲ νῆας ⁚",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol5528",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA199RN_0370@0.097,0.5071,0.071,0.0331"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:199r.15.417"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAim.hmt:15.50",
+    "comment": "οτ  αγῶνι τῷ ἀθροίσματι τῶν νεῶν εστι τῷ νασταθμ  ⁑",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol5632",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA199RN_0370@0.577,0.3539,0.093,0.021"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:199r.15.428"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAil.hmt:15.24",
+    "comment": "ἐπῆλθεν",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol5571",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA199RN_0370@0.406,0.4711,0.044,0.0165"
+    },
+    "references": []
+  },
+  {
     "urn": "urn:cts:greekLit:tlg5026.msA.hmt:15.114",
     "lemma": "τίς δ' οἶδ'    σὺν δαίμονι θυμὸν ορίνω·",
     "dse": {
@@ -65,7 +107,10 @@
     "dse": {
       "urn": "urn:cite2:hmt:va_dse.v1:schol5781",
       "image_roi": "urn:cite2:hmt:vaimg.2017a:VA199RN_0370@0.598,0.5049,0.199,0.0308"
-    }
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:199r.15.412"
+    ]
   },
   {
     "urn": "urn:cts:greekLit:tlg5026.msA.hmt:15.120",

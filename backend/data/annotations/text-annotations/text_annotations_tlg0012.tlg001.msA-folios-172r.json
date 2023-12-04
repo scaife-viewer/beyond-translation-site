@@ -1,5 +1,47 @@
 [
   {
+    "urn": "urn:cts:greekLit:tlg5026.msAint.hmt:13.7",
+    "comment": "ὁ ϊόντ δια τοῦ ϊ αἱ Αρισταρχ",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol8484",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA172RN_0343@0.1197,0.3628,0.05932,0.02863"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:172r.12.415"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAint.hmt:13.8",
+    "comment": "οὑτ  δια τοῦ ε ἁι Αρισταρχ  στενάχοντε ~ οὐ δια τοῦ α ἐπι τοῦ νεκροῦ γέλοιον γὰρ ἀλλ' επι τῶν βασταξοντων ⁑",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol8485",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA172RN_0343@0.1061,0.4765,0.06780,0.08105"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:172r.13.423"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAim.hmt:13.20",
+    "comment": "εκ πλήρους αἱ ἀριστ  κανόνεσσι ⁑",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol8483",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA172RN_0343@0.6139,0.2206,0.06890,0.02254"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:172r.13.407"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAil.hmt:13.4",
+    "comment": "συνοδοιπόρον",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol8486",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA172RN_0343@0.5341,0.3824,0.05527,0.01535"
+    },
+    "references": []
+  },
+  {
     "urn": "urn:cts:greekLit:tlg5026.msA.hmt:13.36",
     "lemma": "‡τῆι ὑπο πᾶς ἑάλλη",
     "dse": {

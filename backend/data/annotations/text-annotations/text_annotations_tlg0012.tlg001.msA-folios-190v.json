@@ -1,5 +1,49 @@
 [
   {
+    "urn": "urn:cts:greekLit:tlg5026.msAim.hmt:14.F8",
+    "comment": "γράφεται τοὺς ἄρα πάντας ὑπὸ χλωρὸν ἀέος εῖλεν ⁑",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol5352",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA190VN_0692@0.43699337,0.25546335,0.05674282,0.05034578"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:190v.14.506"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAim.hmt:14.F9",
+    "comment": "γράφεται οὔτα κατὰ λαπάρην ⁑",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol5353",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA190VN_0692@0.44344141,0.46763485,0.04605748,0.03319502"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:190v.14.517"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAim.hmt:14.F10",
+    "comment": "ὅτι παρετυμολογεῖ τὴν ὠτειλὴν ἀπo τοῦ οὔτασε ⁑",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol5354",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA190VN_0692@0.44436256,0.49723375,0.04642594,0.04412172"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:190v.14.518"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAil.hmt:14.F6",
+    "comment": "Ζηνοδ  καὶ Ἀριστοφ  ἐν νυσί",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol5439",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA190VN_0692@0.59782609,0.22780083,0.08511422,0.01355463"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:190v.15.505"
+    ]
+  },
+  {
     "urn": "urn:cts:greekLit:tlg5026.msA.hmt:14.F9",
     "lemma": "ὅς τις δὴ πρῶτον .",
     "dse": {

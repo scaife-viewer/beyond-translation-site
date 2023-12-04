@@ -1,5 +1,82 @@
 [
   {
+    "urn": "urn:cts:greekLit:tlg5026.msAint.hmt:5.6040",
+    "comment": "αντι τοῦ μάχου",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol2471",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA064VN_0566@0.85851142,0.46666667,0.03868828,0.01410788"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:64v.5.124"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAim.hmt:5.6035",
+    "comment": "οὕτως ἔν τισιν Ἡρωδιανός ἡ δὲ γραφὴ τόνδε τέ μ' ἀνδρα ⁑",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol2427",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA064VN_0566@0.39830508,0.36293223,0.06190125,0.05504841"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:64v.5.118"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAim.hmt:5.6036",
+    "comment": "άπτεται γὰρ τῶν μειζόνων ἡ τῶν χειρόνων μεγαλαυχία·",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol2428",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA064VN_0566@0.31687546,0.38589212,0.07958732,0.02876902"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:64v.5.119"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAim.hmt:5.6037",
+    "comment": "ὅτι κατὰ τὴν ἡμετέραν χρῆσιν νῦν το ευχόμενος ⁑",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol2429",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA064VN_0566@0.39977892,0.41466113,0.06374355,0.05034578"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:64v.5.121"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAim.hmt:5.6038",
+    "comment": "Ζηνοδ  τὴν οὔτασαι ⁑",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol2430",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA064VN_0566@0.42336035,0.63098202,0.03979366,0.02130014"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:64v.5.132"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAim.hmt:5.6039",
+    "comment": "διχῶς Ἀριστ  καὶ οὕτως καὶ χω  τοῦ γε τὴν οὐταμεν ⁑",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol2431",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA064VN_0566@0.41820192,0.65200553,0.04642594,0.03928077"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:64v.5.132"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAil.hmt:5.6041",
+    "comment": "ὡς άρα φωνήσας",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol2524",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA064VN_0566@0.50773766,0.63762102,0.05969049,0.01327801"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:64v.5.133"
+    ]
+  },
+  {
     "urn": "urn:cts:greekLit:tlg5026.msA.hmt:5.1033",
     "lemma": "‡αἷμα δ' ἀνηκόντιζε δια στρεπτοῖο χιτῶνο·",
     "dse": {
@@ -79,7 +156,6 @@
       "image_roi": "urn:cite2:hmt:vaimg.2017a:VA064VN_0566@0.20338983,0.70262794,0.71407517,0.08962656"
     },
     "references": [
-      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:64v.5.131",
       "urn:cts:greekLit:tlg0012.tlg001.msA-folios:64v.5.132"
     ],
     "comment": "ἐὰν δέ , μόνην δὲ βούλεται τὴν Ἀφροδίτην , δια τὸ προεἰρηκέναι τὸν Δία τῷ δ’ αὖτε φιλομμειδὴς Ἀφροδίτη , αἰεὶ παρμέμβλωκε καὶ αυτοῦ κήρας ἀμύνει κατα χεῖρα τιτρώσκεται , ἡ Ἀφροδίτη , ὅτι χειρὶ λαβομένη παρῄνει τῇ Ἑλένῃ . καὶ ἄλλως ἠρέθισται ἀκούουσα· ἡ πρακτικὴ φρόνησις καταφρονεῖν τὸν Διομήδη ἡδονῶν παρασκευάζει ⁑"

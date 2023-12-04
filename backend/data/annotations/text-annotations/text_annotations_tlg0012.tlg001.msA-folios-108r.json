@@ -1,5 +1,38 @@
 [
   {
+    "urn": "urn:cts:greekLit:tlg5026.msAint.hmt:8.257",
+    "comment": "αντ  ἡμῶν",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol3213",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA108RN_0280@0.1311,0.2915,0.042,0.0165"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:108r.8.377"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAim.hmt:8.255",
+    "comment": "γρ  ΐδωμεν",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol3169",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA108RN_0280@0.6006,0.275,0.047,0.0195"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:108r.8.376"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAim.hmt:8.256",
+    "comment": "γρ  προφανεῖσα",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol3170",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA108RN_0280@0.5876,0.3103,0.0601,0.0233"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:108r.8.378"
+    ]
+  },
+  {
     "urn": "urn:cts:greekLit:tlg5026.msA.hmt:8.247",
     "lemma": "εἰ νῶϊ",
     "dse": {
@@ -31,8 +64,6 @@
       "image_roi": "urn:cite2:hmt:vaimg.2017a:VA108RN_0280@0.6146,0.4485,0.2223,0.1109"
     },
     "references": [
-      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:108r.8.385",
-      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:108r.8.386",
       "urn:cts:greekLit:tlg0012.tlg001.msA-folios:108r.8.387"
     ],
     "comment": "αθετοῦνται στίχοι τρεῖς ὅτι ἐν τῇ τοῦ Διομήδους ἀριστεία καλῶς ἐπεξείργασται πράττεται γὰρ τινὰ  · ἐνταῦθα δὲ πρὸς οὐδὲν ἀναλαμβάνει τὴν παντευχίαν· ἠθέτει δὲ καὶ Ἀριστοφάνης Ζηνόδοτος δὲ οὐδὲ ἔγραφεν ⁑"

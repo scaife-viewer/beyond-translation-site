@@ -1,5 +1,89 @@
 [
   {
+    "urn": "urn:cts:greekLit:tlg5026.msAint.hmt:13.1bis",
+    "comment": "οὑτ  Ἀριστόφ  ἄλλοι δὲ οἵ δ' έριδος :",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol8471",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA171RN_0342@0.1131,0.2185,0.07553,0.02614"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:171r.13.358"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAint.hmt:13.2bis",
+    "comment": "μεσαιπολιος Ϊδομενευς ⁑",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol8472",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA171RN_0342@0.1030,0.2880,0.07738,0.02199"
+    },
+    "references": []
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAint.hmt:13.3bis",
+    "comment": "ωμογέρων ὀδυσσεύς ⁑",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol8473",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA171RN_0342@0.1085,0.3089,0.06724,0.02158"
+    },
+    "references": []
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAint.hmt:13.4bis",
+    "comment": "γέρων Νέστωρ ⁑",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol8474",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA171RN_0342@0.1083,0.3277,0.06872,0.03084"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:171r.13.361"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAint.hmt:13.5bis",
+    "comment": "βραχὺ διασταλτέον ἐπι τὸ ἔργον~ ἐμφαίνει~",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol8475",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA171RN_0342@0.1133,0.3859,0.06982,0.03956"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:171r.13.366"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAim.hmt:13.13",
+    "comment": "ἐν αλλῳ Τρώεσσί ἐπάλμενος ⁑",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol8468",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA171RN_0342@0.6076,0.3057,0.04127,0.04039"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:171r.13.362"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAim.hmt:13.14",
+    "comment": "αριστοφ  κατ  κλέος ⁑",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol8469",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA171RN_0342@0.5965,0.3477,0.05122,0.03043"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:171r.13.364"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAim.hmt:13.15",
+    "comment": "ἀρίσταρχ  ανωσέμεν ⁑",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol8470",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA171RN_0342@0.6059,0.4046,0.04348,0.04149"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:171r.13.367"
+    ]
+  },
+  {
     "urn": "urn:cts:greekLit:tlg5026.msA.hmt:13.18",
     "lemma": "‡ τοίδ' ἔριδος κρατερῆς .",
     "dse": {

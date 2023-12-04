@@ -1,5 +1,69 @@
 [
   {
+    "urn": "urn:cts:greekLit:tlg5026.msAext.hmt:13.A3",
+    "comment": "κατα κύστιν",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol8536",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA176VN_0678@0.1511,0.5202,0.07167,0.02075"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:176v.13.651"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAint.hmt:13.A5",
+    "comment": "ὅτι θηλυκῶς τὴν ΐλιον ⁑",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol8534",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA176VN_0678@0.8876,0.6102,0.04956,0.02822"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:176v.13.657"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAim.hmt:13.A9",
+    "comment": "πρὸς τὴν περὶ τοῦ Πυλαιμένους ζήτησιν ⁑",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol8142",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA176VN_0678@0.385,0.3546,0.119,0.0413"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:176v.13.643"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAim.hmt:13.A10",
+    "comment": "ὅτι πτῶσις ἤλλακται χρόα ἀντὶ τοῦ χρῶτὸς ⁑",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol8143",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA176VN_0678@0.395,0.4636,0.119,0.0496"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:176v.13.649"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAim.hmt:13.A11",
+    "comment": "βραχ  διασταλέον προς το σαφές ⁑",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol8144",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA176VN_0678@0.413,0.5252,0.095,0.0631"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:176v.13.653"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAil.hmt:13.A4",
+    "comment": "τὰ ὑποφόνια ⁑",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol8535",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA176VN_0678@0.5125,0.6544,0.05730,0.01259"
+    },
+    "references": []
+  },
+  {
     "urn": "urn:cts:greekLit:tlg5026.msA.hmt:13.A18",
     "lemma": "τῶν πέρ τις καὶ μᾶλλον ἐέλδεται ἐξ ἔρον εἶναι ἢ πολέμου , Τρῶες ὲ μάχης ακόρητοι εασιν~",
     "dse": {
@@ -37,7 +101,10 @@
     "dse": {
       "urn": "urn:cite2:hmt:va_dse.v1:schol8333",
       "image_roi": "urn:cite2:hmt:vaimg.2017a:VA176VN_0678@0.2314,0.7631,0.7014,0.05588"
-    }
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:176v.13.658"
+    ]
   },
   {
     "urn": "urn:cts:greekLit:tlg5026.msA.hmt:13.A22",

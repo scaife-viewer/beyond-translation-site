@@ -1,5 +1,93 @@
 [
   {
+    "urn": "urn:cts:greekLit:tlg5026.msAint.hmt:8.219",
+    "comment": "πρὸς τὸ βάλε ἀντι τοῦ έπεσεν ⁑",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol3212",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA106VN_0609@0.8811,0.5276,0.0251,0.0442"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:106v.8.313"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAim.hmt:8.211",
+    "comment": "οτ  αντ  τοῦ πεῖσαι καὶ βαλεῖν ⁑",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol3158",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA106VN_0609@0.3826,0.2738,0.0629,0.0311"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:106v.8.296"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAim.hmt:8.213",
+    "comment": "Ἀρίσταρχος Αἱσύμνηθεν καὶ ἡ Ζηνοδοτ  καὶ ἡ Ἀριστοφα",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol3159",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA106VN_0609@0.3903,0.3697,0.0637,0.0498"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:106v.8.304"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAim.hmt:8.214",
+    "comment": "οτ  τὸ πλῆρες ἑτέρωσε ⁑",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol3160",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA106VN_0609@0.3957,0.4456,0.0543,0.0268"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:106v.8.308"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAim.hmt:8.215",
+    "comment": "διχῶς ἀλλ ὅ γε τοῦ μὲν άμαρτε καὶ ἀλλ ὁ γε καὶ τόθ' άμαρτε ⁑",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol3161",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA106VN_0609@0.398,0.5001,0.0637,0.0457"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:106v.8.311"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAim.hmt:8.216",
+    "comment": "βραχ  διασταλτ  μετα τὴν δὲ συλλαβην ⁑",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol3162",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA106VN_0609@0.3969,0.5413,0.0649,0.0354"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:106v.8.313"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAim.hmt:8.217",
+    "comment": "λειπ  ἡ περὶ πε  εταίρου",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol3163",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA106VN_0609@0.4063,0.6003,0.0517,0.0287"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:106v.8.317"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAim.hmt:8.218",
+    "comment": "οτ  ἐπι τοῦ Τρῶσαι ⁑",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol3164",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA106VN_0609@0.4151,0.6896,0.042,0.0294"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:106v.8.322"
+    ]
+  },
+  {
     "urn": "urn:cts:greekLit:tlg5026.msA.hmt:8.204",
     "lemma": "‡ κύνα~",
     "dse": {
@@ -19,8 +107,6 @@
       "image_roi": "urn:cite2:hmt:vaimg.2017a:VA106VN_0609@0.1777,0.3958,0.226,0.2532"
     },
     "references": [
-      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:106v.8.306",
-      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:106v.8.307",
       "urn:cts:greekLit:tlg0012.tlg001.msA-folios:106v.8.308"
     ],
     "comment": "ἤτοι τὸ ἑξῆς ἐστιν ἑτέρωσε δὲ κάρη βάλεν ὡς μήκων ἥτ' ἐνι κήπῳ καρπῷ βριθομένη ἐστί· λείπει γὰρ τὸ ῥῆμα τοῦτο καὶ οὐκ ἐστιν ἡ μετοχὴ ἀντὶ ῥήματος , ἔσται δὲ οὕτως δῖς ἡ ἀνταπόδοσις λεγομένη καὶ γὰρ ἑξῆς ἐπιφέρει ὣς ἑτέρωσ' ἤμυσε κάρη καὶ ἐν ἄλλοις δὲ εἴωθεν , κατα δὴ ταύτην τὴν ἐξήγησιν . ἐπι μὲν τὸ βάλε διαστελοῦμεν· ἐπὶ δὲ τὸ εἰἀρινῃσιν ὑποστίξωμεν . δύναται δὲ καὶ ὑποστίζεσθαι ἀμφότερα ἐν ὑποκρίσει ἵνα συ μία ἀνταπόδοσις ᾖ ἡ ἐπιφερομένη· ἔσται δὲ τὸ ἑξῆς ὡς δε μήκων ἑτέρωσε κάρη βάλε ὣς ἑτέρως ἤμυσε κάρη · ἠ περισσόν ἐστί τὸ η ἄρθρον . καὶ ὁ τέ συνδ  . ὁ δὲ λόγος ὡς δε μήκων ἑτέρωσε κάρη βάλε ὣς ἑτέρως ἤμυσε κάρη βάλλει καρπῷ βριθομένη ὡς ἑτέρως ἤμυσε . βέλτιον δὲ ὑποστίζειν ⁑"

@@ -1,5 +1,27 @@
 [
   {
+    "urn": "urn:cts:greekLit:tlg5026.msAext.hmt:13.166v1",
+    "comment": "ἀμφιγύοισιν",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol8409",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA166VN_0668@0.1186,0.6343,0.07111,0.02158"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:166v.13.147"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAil.hmt:13.166v1",
+    "comment": "ἐνερίσας ⁑",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol8408",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA166VN_0668@0.6378,0.5968,0.05011,0.01397"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:166v.13.146"
+    ]
+  },
+  {
     "urn": "urn:cts:greekLit:tlg5026.msA.hmt:13.166v1",
     "lemma": "‡ καρτεραί :",
     "dse": {

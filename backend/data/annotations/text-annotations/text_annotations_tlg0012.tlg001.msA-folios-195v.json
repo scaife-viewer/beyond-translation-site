@@ -1,5 +1,60 @@
 [
   {
+    "urn": "urn:cts:greekLit:tlg5026.msAint.hmt:15.24",
+    "comment": "οτ  τοῦ Διὸς ἡ αιγὶς ὁπλον Ἀπόλλωνι γοῦν δίδωσι",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol5515",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA195VN_0697@0.878,0.29,0.059,0.0443"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:195v.15.229"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAint.hmt:15.25",
+    "comment": "δια τοῦ τ τόφρ' ἄν Ἀχαιοὶ αἱ Αρισταρχ  ⁑",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol5516",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA195VN_0697@0.902,0.3539,0.041,0.0383"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:195v.15.232"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAim.hmt:15.34",
+    "comment": "καὶ παρα Ἀριστοφα  ἡθετοῦνται",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol5616",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA195VN_0697@0.431,0.3268,0.051,0.0331"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:195v.15.231"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAim.hmt:15.35",
+    "comment": "Ἀρισταρχ  τόφρ' ὰν Ἀχαιοὶ μετ  τοῦ τ ⁑",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol5617",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA195VN_0697@0.43,0.3554,0.055,0.0376"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:195v.15.232"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAim.hmt:15.36",
+    "comment": "ουτ  Ἀριστ  δια τοῦ ε εἰ ἀγείρετο παρατατικῶς . ἄλλοι δὲ ἐσ ἀγείρατο δια τοῦ α ⁑",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol5618",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA195VN_0697@0.436,0.5019,0.063,0.0518"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:195v.15.240"
+    ]
+  },
+  {
     "urn": "urn:cts:greekLit:tlg5026.msA.hmt:15.73",
     "lemma": "ἡδέ οι αὐτῷ",
     "dse": {

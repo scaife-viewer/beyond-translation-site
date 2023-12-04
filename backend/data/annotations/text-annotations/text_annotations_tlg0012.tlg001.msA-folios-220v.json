@@ -1,5 +1,45 @@
 [
   {
+    "urn": "urn:cts:greekLit:tlg5026.msAint.hmt:16.220v_1",
+    "comment": "ηὐλαβηθη αντί τοῦ οῦδε ὁλως ηυλαβηθη αυτόν ⁑",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol8096",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA220VN_0722@0.8561,0.3207,0.05619,0.03472"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:220v.16.737"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAim.hmt:16.220v_1",
+    "comment": "ἐν ἄλλω ἔπεχε",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol8081",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA220VN_0722@0.4270,0.2509,0.06006,0.01687"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:220v.16.732"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAil.hmt:16.220v_1",
+    "comment": "όστρεα",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol8092",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA220VN_0722@0.7988,0.5195,0.03021,0.007331"
+    },
+    "references": []
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAil.hmt:16.220v_2",
+    "comment": "ὡς ᾶλτο",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol8093",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA220VN_0722@0.7942,0.6490,0.03279,0.008160"
+    },
+    "references": []
+  },
+  {
     "urn": "urn:cts:greekLit:tlg5026.msA.hmt:16.220v_1",
     "lemma": "‡πολλοὺς ἂν κορέσειεν ἀνὴρ",
     "dse": {

@@ -1,5 +1,135 @@
 [
   {
+    "urn": "urn:cts:greekLit:tlg5026.msAext.hmt:11.3",
+    "comment": "τό πλ'",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol4187",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA138VN_0640@0.104,0.4887,0.052,0.018"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:138v.11.63"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAint.hmt:11.6",
+    "comment": "ουτ  αριστ  κεφαλὰς ενθαδ :",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol4200",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA138VN_0640@0.887,0.3176,0.034,0.0248"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:138v.11.55"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAim.hmt:11.4",
+    "lemma": "φθαν δὲ :",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol4505",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA138VN_0640@0.542,0.2117,0.37,0.0345"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:138v.11.51"
+    ],
+    "comment": "προς τὸ δοκοῦν μάχεσθαι εἰ γὰρ μεγάλως ἔφθασαν πῶς οἱ ἱππεῖς με το εκιον αὐτῶν : λέγει δὲ φθαν δὲ μέγα χρονικῶς ἀντι τοῦ πολλῶ χρόνῳ προέλαβον ὀλίγον δὲ μετεκίαθον τοπικῶς οἷον ὀλίγῳ τόπῳ διεστῶτες μετ αυτοὺς έκιον ⁑"
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAim.hmt:11.6",
+    "comment": "ἕως τοῦ αιθερος στικτέον καὶ τοῖς ἄνω συναπτέον αὐτο : ⁑",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol4506",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA138VN_0640@0.425,0.3086,0.047,0.045"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:138v.11.54"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAim.hmt:11.7",
+    "comment": "ὅτι κοινον τὸ ἐπι τούτων τὸ ἐθορήσσοντο ⁑",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol4507",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA138VN_0640@0.429,0.3498,0.049,0.03"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:138v.11.56"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAim.hmt:11.8",
+    "comment": "ουτ  Ἀρίσταρχ  : ἡ ὑσμίνη τὰς κεφαλὰς ἴ̈σας εἶχεν ἰσοκεφαων ἢν αὐτοῖς ἡ μάχη ἄλλοι δὲ ϊσας δ' ὑσμίνῃ κεφαλὰς ἔχον ⁑",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol4508",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA138VN_0640@0.431,0.6396,0.05,0.0833"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:138v.11.72"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAil.hmt:11.30",
+    "comment": "ἔσχατος",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol4241",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA138VN_0640@0.62,0.5086,0.042,0.0143"
+    },
+    "references": []
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAil.hmt:11.31",
+    "comment": "αστραπή",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol4242",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA138VN_0640@0.633,0.5263,0.04,0.0143"
+    },
+    "references": []
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAil.hmt:11.33",
+    "comment": "συνεχ πυκνα :",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol4243",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA138VN_0640@0.827,0.5769,0.047,0.0158"
+    },
+    "references": []
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAil.hmt:11.34",
+    "comment": "διέκοπτον",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol4244",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA138VN_0640@0.52,0.6186,0.037,0.0105"
+    },
+    "references": []
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAil.hmt:11.35",
+    "comment": "εξίσουτω αὐτοῖς ἡ μαχ",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol4245",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA138VN_0640@0.606,0.6366,0.071,0.0098"
+    },
+    "references": []
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAil.hmt:11.36",
+    "comment": "εμμανῶς ώρμων",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol4246",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA138VN_0640@0.504,0.6539,0.062,0.0113"
+    },
+    "references": []
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAil.hmt:11.2001",
+    "comment": "α",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol4247",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA138VN_0640@0.6396,0.6574,0.013,0.0105"
+    },
+    "references": []
+  },
+  {
     "urn": "urn:cts:greekLit:tlg5026.msA.hmt:11.31",
     "lemma": "πολλὰς ἰφθίμους :",
     "dse": {

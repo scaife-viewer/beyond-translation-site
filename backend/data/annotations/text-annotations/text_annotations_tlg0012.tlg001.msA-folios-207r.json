@@ -1,5 +1,105 @@
 [
   {
+    "urn": "urn:cts:greekLit:tlg5026.msAint.hmt:16.C1",
+    "comment": "οτ  τὸ εάσωμεν  αντ τοῦ ἐάσωμεν",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol8041",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA207RN_0378@0.1305,0.3746,0.0597,0.02345"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:207r.16.60"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAint.hmt:16.C2",
+    "comment": "οτ τὸ ἔφην γε αντ τοῦ διενοήθ",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol8042",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA207RN_0378@0.1179,0.4011,0.0625,0.0266"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:207r.16.61"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAint.hmt:16.C3",
+    "comment": "βέλτιον τοῖς πρώτοις τὸ ἐνὶ φρεσὶ συντάττειν :",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol8043",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA207RN_0378@0.1176,0.4322,0.0787,0.0325"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:207r.16.61"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAint.hmt:16.C4",
+    "comment": "βραχὺ διασταλτ μετα τὸ κεκλίαται πρὸς τὸ σαφέστερον ⁑",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol8044",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA207RN_0378@0.1365,0.5361,0.0549,0.0461"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:207r.16.68"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAint.hmt:16.C5",
+    "comment": "οτ έοικεν ἀκηκοότι τὰ εἰρημένα υπ Διομήδους μετα τὴν πρεσβείαν ⁑",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol8045",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA207RN_0378@0.1194,0.6491,0.0732,0.0425"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:207r.16.74"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAim.hmt:16.C1",
+    "comment": "οτ αντ τοῦ ατιμητου μετανάστου ὡς τὸ επειμ' ἀφελεσθέ γε δόντες αντι τοῦ ἐμου ⁑",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol8021",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA207RN_0378@0.5927,0.3531,0.0581,0.0527"
+    },
+    "references": []
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAim.hmt:16.C2",
+    "comment": "πρὸς τὸ μηνιθμὼν παραλλήλως τέταχε τῷ χόλῳ ⁑",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol8022",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA207RN_0378@0.5988,0.429,0.0433,0.0452"
+    },
+    "references": []
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAim.hmt:16.C3",
+    "comment": "οτ αντ τεθαρσηκυῖα",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol8023",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA207RN_0378@0.6209,0.5752,0.0942,0.0116"
+    },
+    "references": []
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAim.hmt:16.C4",
+    "comment": "ουτ ἐναύλους διὰ τοῦ ν",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol8024",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA207RN_0378@0.6297,0.5974,0.0942,0.0116"
+    },
+    "references": []
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAim.hmt:16.C5",
+    "comment": "τὸ εξῆς ἐστιν ἀπαμῦναι διὸ οὐκ ἀναστρεπτέον τὴν πρόθεσιν ⁑",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol8025",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA207RN_0378@0.608,0.6699,0.0804,0.0427"
+    },
+    "references": []
+  },
+  {
     "urn": "urn:cts:greekLit:tlg5026.msA.hmt:16.C1",
     "lemma": "‡ ὁππότε δὴ τῶν  ὁμοῖων  :",
     "dse": {
@@ -37,7 +137,10 @@
     "dse": {
       "urn": "urn:cite2:hmt:va_dse.v1:schol7993",
       "image_roi": "urn:cite2:hmt:vaimg.2017a:VA207RN_0378@0.196,0.139,0.631,0.1352"
-    }
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:207r.16.57"
+    ]
   },
   {
     "urn": "urn:cts:greekLit:tlg5026.msA.hmt:16.C5",
@@ -45,7 +148,10 @@
     "dse": {
       "urn": "urn:cite2:hmt:va_dse.v1:schol7994",
       "image_roi": "urn:cite2:hmt:vaimg.2017a:VA207RN_0378@0.638,0.2705,0.197,0.0977"
-    }
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:207r.16.57"
+    ]
   },
   {
     "urn": "urn:cts:greekLit:tlg5026.msA.hmt:16.C6",

@@ -1,5 +1,104 @@
 [
   {
+    "urn": "urn:cts:greekLit:tlg5026.msAext.hmt:13.168v1",
+    "comment": "Ποσειδάων",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol8439",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA168VN_0670@0.1489,0.2386,0.05398,0.02061"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:168v.13.231"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAext.hmt:13.168v2",
+    "comment": "γνω ἐπισταίμεσθα",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol8440",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA168VN_0670@0.1443,0.3562,0.07351,0.03804"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:168v.13.238"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAext.hmt:13.168v3",
+    "comment": "εὔτυκτον",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol8441",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA168VN_0670@0.1605,0.4050,0.05048,0.02393"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:168v.13.240"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAint.hmt:13.168v1",
+    "comment": "Ζηνοδ καὶ Αριστοφα δουρικλυτός ⁑",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol8438",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA168VN_0670@0.9000,0.5264,0.03537,0.03956"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:168v.13.246"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAim.hmt:13.168v1",
+    "comment": "Ζηνοδ συμφερτος δὲ βίη ⁑",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol8433",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA168VN_0670@0.4451,0.3589,0.04772,0.03900"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:168v.13.237"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAim.hmt:13.168v2",
+    "comment": "Ζηνοδ καὶ Ἀριστοφανής ἐνιστήθεσσι ⁑",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol8434",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA168VN_0670@0.4444,0.5098,0.05490,0.03306"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:168v.13.245"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAim.hmt:13.168v3",
+    "comment": "αντ ἄγγελος ουτ ἀγγελίας ⁑",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol8435",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA168VN_0670@0.4377,0.6447,0.05066,0.02420"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:168v.13.252"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAil.hmt:13.168v1",
+    "comment": "αντ τοῦ ἐκπλήθους",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol8436",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA168VN_0670@0.5111,0.3524,0.07977,0.01383"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:168v.13.237"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAil.hmt:13.168v2",
+    "comment": "λείπει χάριν",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol8437",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA168VN_0670@0.6179,0.6362,0.03869,0.01314"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:168v.13.252"
+    ]
+  },
+  {
     "urn": "urn:cts:greekLit:tlg5026.msA.hmt:13.168v1",
     "lemma": "μελπηθρα",
     "dse": {

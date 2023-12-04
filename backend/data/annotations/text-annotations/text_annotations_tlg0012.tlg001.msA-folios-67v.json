@@ -1,5 +1,49 @@
 [
   {
+    "urn": "urn:cts:greekLit:tlg5026.msAint.hmt:5.6118",
+    "comment": "ὁ τρόπος περιφρασις",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol2486",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA067VN_0569@0.81687546,0.34661134,0.06484893,0.01466113"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:67v.5.267"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAint.hmt:5.6119",
+    "comment": "οὕτως Ἀρισταρχος μήστωρε δικ  ἐπι γράφει τῶν ἵππων·",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol2487",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA067VN_0569@0.87472366,0.43706777,0.03610906,0.02213001"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:67v.5.272"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAim.hmt:5.6116",
+    "comment": "δια τὴν αὐτὴν αιτίαν ⁑",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol2449",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA067VN_0569@0.44178335,0.28713693,0.04458364,0.02295989"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:67v.5.264"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAim.hmt:5.6117",
+    "comment": "ἀντὶ τοῦ ει",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol2450",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA067VN_0569@0.46204864,0.54384509,0.03426676,0.01466113"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:67v.5.278"
+    ]
+  },
+  {
     "urn": "urn:cts:greekLit:tlg5026.msA.hmt:5.1077",
     "lemma": "‡ Αἰνεία ¨ὁ δ' ἐπαΐξαι",
     "dse": {

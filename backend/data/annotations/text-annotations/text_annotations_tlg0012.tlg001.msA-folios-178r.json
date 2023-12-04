@@ -1,5 +1,69 @@
 [
   {
+    "urn": "urn:cts:greekLit:tlg5026.msAint.hmt:13.A8",
+    "comment": "ὅτι ἐλλειπει ἡ πρὸς προς ἔκτορα ⁑",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol8545",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA178RN_0349@0.1115,0.4552,0.07590,0.02711"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:178r.13.725"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAint.hmt:13.A9",
+    "comment": "τουτ  ἀφ ετέρας ἀρχῆς ἀναγωστέον λέγει δὲ ἐν ὑποκρίσει ἐρωτῶν ⁑",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol8546",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA178RN_0349@0.1201,0.4959,0.08051,0.04274"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:178r.13.727"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAim.hmt:13.A15",
+    "comment": "ουτ  Ἀριστ  χω  τοῦ ν σφι , Ἀριστοφα  δὲ σὺν τῷ ν",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol8148",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA178RN_0349@0.583,0.2096,0.064,0.0376"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:178r.13.713"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAim.hmt:13.A16",
+    "comment": "ὅτι θηλυκ  τ  Ϊλιὸν ⁑",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol8149",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA178RN_0349@0.584,0.4275,0.054,0.018"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:178r.13.724"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAim.hmt:13.A20",
+    "comment": "κατ  κράτο",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol8150",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA178RN_0349@0.59,0.5868,0.035,0.0263"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:178r.13.772"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAil.hmt:13.A10",
+    "comment": "συμβούλοις",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol8547",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA178RN_0349@0.4335,0.4679,0.04864,0.01604"
+    },
+    "references": []
+  },
+  {
     "urn": "urn:cts:greekLit:tlg5026.msA.hmt:13.A34",
     "lemma": "οὐδ ὰρ Ὀϊλιάδῃ μεγαλήτορι",
     "dse": {

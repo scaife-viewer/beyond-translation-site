@@ -1,5 +1,74 @@
 [
   {
+    "urn": "urn:cts:greekLit:tlg5026.msAint.hmt:22.9",
+    "comment": "ουτ  διὰ τ  τ εἴποτέ τοι",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol6771",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA284RN_0454@0.142,0.1982,0.058,0.0435"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:284r.22.83"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAim.hmt:22.12",
+    "comment": "ουτ  Αρισταρχ  ἄλλοι δὲ ἰων ⁑",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol6856",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA284RN_0454@0.618,0.238,0.057,0.0293"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:284r.22.85"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAim.hmt:22.13",
+    "comment": "γράφεται φίλον θάλος· ⁑",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol6857",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA284RN_0454@0.629,0.2793,0.057,0.0293"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:284r.22.87"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAil.hmt:22.13",
+    "comment": "τὸν λήθην ἐμποιοῦντα τοῖς παισὶ τῶν κακῶν ἁπαντα",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol6810",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA284RN_0454@0.369,0.1914,0.097,0.0173"
+    },
+    "references": []
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAil.hmt:22.14",
+    "comment": "ἐν όρει διατρίβων",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol6811",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA284RN_0454@0.454,0.3889,0.087,0.0158"
+    },
+    "references": []
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAil.hmt:22.15",
+    "comment": "ὡρμησεν",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol6812",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA284RN_0454@0.466,0.5563,0.045,0.015"
+    },
+    "references": []
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAil.hmt:22.16",
+    "comment": "φρενοβλαβίαις",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol6813",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA284RN_0454@0.444,0.5923,0.088,0.0165"
+    },
+    "references": []
+  },
+  {
     "urn": "urn:cts:greekLit:tlg5026.msA.hmt:22.24",
     "lemma": "αὐτὴν εἴποτέ τοι·",
     "dse": {
@@ -7,7 +76,6 @@
       "image_roi": "urn:cite2:hmt:vaimg.2017a:VA284RN_0454@0.199,0.0833,0.602,0.036"
     },
     "references": [
-      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:284r.22.83",
       "urn:cts:greekLit:tlg0012.tlg001.msA-folios:284r.22.84"
     ],
     "comment": "ἤτοι συναπτέον μέχρι τοῦ ἐπέσχον εἶτα ἀπ' άλλης ἀρχῆς , τῶν μνῆσει  φίλε τέκνον· ῆ στικτέον αὐτή . εἶτ' ἀπ' άλλης ἀρχῆς . εἴποτέ τοι λάθη κηδέα ἔστι δὲ ὑποστιγμὴ μετα τὸ ἐπέσχον ⁑"

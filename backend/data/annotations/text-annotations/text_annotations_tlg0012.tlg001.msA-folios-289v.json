@@ -1,5 +1,36 @@
 [
   {
+    "urn": "urn:cts:greekLit:tlg5026.msAext.hmt:22.3",
+    "comment": "ἔρδεσκεν",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol6761",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA289VN_0791@0.1175,0.6076,0.05840,0.03264"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:289v.22.380"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAim.hmt:22.35",
+    "comment": "γράφεται ἔρδεσκεν ⁑",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol6879",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA289VN_0791@0.3926,0.6141,0.06964,0.03831"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:289v.22.380"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAil.hmt:22.40",
+    "comment": "εθαύμασαν",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol6837",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA289VN_0791@0.5671,0.4263,0.05066,0.009820"
+    },
+    "references": []
+  },
+  {
     "urn": "urn:cts:greekLit:tlg5026.msA.hmt:22.88",
     "lemma": "ὦ φίλοι Ἀργείων ἡγήτορες ,",
     "dse": {
@@ -19,11 +50,6 @@
       "image_roi": "urn:cite2:hmt:vaimg.2017a:VA289VN_0791@0.1870,0.3172,0.2432,0.04509"
     },
     "references": [
-      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:289v.22.379",
-      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:289v.22.380",
-      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:289v.22.381",
-      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:289v.22.382",
-      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:289v.22.383",
       "urn:cts:greekLit:tlg0012.tlg001.msA-folios:289v.22.384"
     ],
     "comment": "ὅτι τὴν αιτίαν προτέταχεν  ἐπειδὴ τόνδ' ἄνδρα θεοὶ  ἔδει δὲ οὕτως εἰ δ' ἄγετ' ἀμφι πο  συν τευχεσι πειρηθῶμεν //ὄφρα// κ' ἔτι γνῶμεν Τρώων νόον , ἠ καταλείψουσι πόλιν ἄκρην τοῦδε πεσόντος , ἢ ἐμένειν μεμάασιν , ἐπειδὴ τόνδ' ἄνδρα θεοὶ δαμάσασθαι ἔδωκαν . ὁ δε Διονύσιος διστάζει μὴ προς τὴν ἀπόλειψιν τοῦ χρόνου παρασκευάζει γὰρ τὸ ἐπειδὴ νῆάς τε καὶ Ἑλλήσποντον ἴ̈κοντο· καὶ ἐπιτὸν ὃς βέβλητο τὰ γὰρ τοιαῦτα ἐσημειοῦντο πρὸς κρίσιν ποιημάτων . ὅτι σπανίως Ὅμηρος κακομέτρους ποιεῖ  ⁑"

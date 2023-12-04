@@ -1,5 +1,38 @@
 [
   {
+    "urn": "urn:cts:greekLit:tlg5026.msAim.hmt:3.777",
+    "comment": "Αρισταρχος παύεσθ",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol2015",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA050VN_0552@0.44086220,0.36721992,0.03445099,0.02683264"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:50v.3.434"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAim.hmt:3.778",
+    "comment": "επι τὸ εγὼ βραχ  διασταλτ  κοινὸν γὰρ ἀπο τοῦ ἐνίκησε το νικήσω ⁑",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol2016",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA050VN_0552@0.43680914,0.48340249,0.05379514,0.04052559"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:50v.3.440"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAim.hmt:3.779",
+    "comment": "ὁ μὲν ᾿Απίων κυρίως ϊμᾶσι γὰρ ἐνιτείνοντο αἱ κλιναι ὁ δὲ ᾿ Ιλιόδωρος τοῖς εὐ τετραμμένοις ᾿ Απολλώνιος δὲ ὁ τοῦ Χάριδος δια τὸ κατὰ τὴν ἁρμογὴν τετρεῖσθ  ⁑",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol2017",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA050VN_0552@0.44030951,0.60926694,0.05840088,0.09405256"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:50v.3.448"
+    ]
+  },
+  {
     "urn": "urn:cts:greekLit:tlg5026.msA.hmt:3.650",
     "lemma": "νήσω δ' ἐν Κραναεῖ",
     "dse": {

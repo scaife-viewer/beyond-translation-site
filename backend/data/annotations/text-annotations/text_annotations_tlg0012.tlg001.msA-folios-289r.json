@@ -1,5 +1,67 @@
 [
   {
+    "urn": "urn:cts:greekLit:tlg5026.msAint.hmt:22.26",
+    "comment": "ἐν αλλῷ τὸν δ' απαμειβομε",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol6788",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA289RN_0459@0.1431,0.3748,0.06614,0.04661"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:289r.22.344"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAim.hmt:22.32",
+    "comment": "οἱ περι Ἀντίμαχον ἐπι τὸ γνωριμώτερον ἐλκήσουσι κακῶς ⁑",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol6876",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA289RN_0459@0.5866,0.2065,0.1046,0.06584"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:289r.22.336"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAim.hmt:22.33",
+    "comment": "προθυμία με αναπείση ⁑",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol6877",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA289RN_0459@0.5800,0.4105,0.07277,0.04329"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:289r.22.346"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAim.hmt:22.34",
+    "comment": "οτ  αντ  όλον",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol6878",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA289RN_0459@0.5980,0.5613,0.03850,0.03887"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:289r.22.354"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAil.hmt:22.38",
+    "comment": "αντ  τοῦ ζυγοστατῆσαι",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol6835",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA289RN_0459@0.4753,0.5072,0.08235,0.01549"
+    },
+    "references": []
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAil.hmt:22.39",
+    "comment": "μή πως τῆς ἐκ θεῶν σοι βλάβης αίτιος καταστῶ ⁑",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol6836",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA289RN_0459@0.3475,0.6393,0.1776,0.01480"
+    },
+    "references": []
+  },
+  {
     "urn": "urn:cts:greekLit:tlg5026.msA.hmt:22.79",
     "lemma": "κρεᾰ ἔδμεναι",
     "dse": {
@@ -43,10 +105,6 @@
       "image_roi": "urn:cite2:hmt:vaimg.2017a:VA289RN_0459@0.6365,0.4581,0.1791,0.03914"
     },
     "references": [
-      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:289r.22.348",
-      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:289r.22.349",
-      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:289r.22.350",
-      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:289r.22.351",
       "urn:cts:greekLit:tlg0012.tlg001.msA-folios:289r.22.352"
     ],
     "comment": "ἤτοι ἀπο τούτων ἀρκτέον ἵνα ὑποστίζωμεν ἄγοντες , καὶ ἀλλὰ , τῆς ἀνταποδόσεως οὔσης οὐδ' ὡς σέ γε πότνια μηρ  . ἢ τοῖς ἄνω προσαπτέον ὡς οὐκ έσθ' ὃς σης γε κύνας  οὐδ' εἰ κεν δὲ κάκιςτε καὶ τὰ ἑξῆς , ἔσται δὲ ἀπ άλλης ἀρχῆς οὐδ' ὡς σέ γε πότνια μήτηρ ⁑"
