@@ -1,6 +1,6 @@
 {
-  "urn": "urn:cts:angLit:anon.beowulf:",
-  "group_urn": "urn:cts:angLit:anon:",
+  "urn": "urn:cts:angLit:beowulf-poet.beowulf:",
+  "group_urn": "urn:cts:angLit:beowulf-poet:",
   "node_kind": "work",
   "lang": "ang",
   "title": [
@@ -11,11 +11,11 @@
   ],
   "versions": [
     {
-      "urn": "urn:cts:angLit:anon.beowulf.perseus-ang1:",
+      "urn": "urn:cts:angLit:beowulf-poet.beowulf.perseus-ang1:",
       "node_kind": "version",
       "version_kind": "edition",
       "lang": "ang",
-      "first_passage_urn": "urn:cts:angLit:anon.beowulf.perseus-ang1:1-52",
+      "first_passage_urn": "urn:cts:angLit:beowulf-poet.beowulf.perseus-ang1:1-52",
       "citation_scheme": ["line"],
       "label": [
         {
