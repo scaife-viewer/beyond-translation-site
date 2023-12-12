@@ -11,162 +11,42 @@
   ],
   "versions": [
     {
-      "urn": "urn:cts:greekLit:tlg0059.tlg003.perseus-grc2-8612:",
+      "urn": "urn:cts:greekLit:tlg0059.tlg003.perseus-grc2b1:",
       "node_kind": "version",
       "version_kind": "edition",
       "lang": "grc",
-      "first_passage_urn": "urn:cts:greekLit:tlg0059.tlg003.perseus-grc2-8612:43",
-      "citation_scheme": ["section", "sentence"],
+      "first_passage_urn": "urn:cts:greekLit:tlg0059.tlg003.perseus-grc2b1:1",
+      "citation_scheme": ["sentence"],
       "label": [
         {
           "lang": "eng",
-          "value": "Crito (Greek alignment, Shamsian)"
+          "value": "Crito (Greek sentences)"
         }
       ],
       "description": [
         {
           "lang": "eng",
-          "value": "Plato, creator. Platonis Opera Tomvs I Tetralogia I-II, Burnet, John, 1863-1928, editor. Oxford University Press. 1900-06."
+          "value": "Greek sentences from Pedalion Treebank"
         }
       ]
     },
     {
-      "urn": "urn:cts:greekLit:tlg0059.tlg003.perseus-eng2-8612:",
+      "urn": "urn:cts:greekLit:tlg0059.tlg003.perseus-far1:",
       "node_kind": "version",
-      "version_kind": "edition",
-      "lang": "grc",
-      "first_passage_urn": "urn:cts:greekLit:tlg0059.tlg003.perseus-eng2-8612:43",
-      "citation_scheme": ["section", "sentence"],
-      "label": [
-        {
-          "lang": "eng",
-          "value": "Crito (English alignment, Shamsian)"
-        }
-      ],
-      "description": [
-        {
-          "lang": "eng",
-          "value": "Plato in Twelve Volumes, Vol. 1 translated by Harold North Fowler; Introduction by W.R.M. Lamb. Cambridge, MA, Harvard University Press; London, William Heinemann Ltd. 1914."
-        }
-      ]
-    },
-    {
-      "urn": "urn:cts:greekLit:tlg0059.tlg003.perseus-grc2-10185:",
-      "node_kind": "version",
-      "version_kind": "edition",
-      "lang": "grc",
-      "first_passage_urn": "urn:cts:greekLit:tlg0059.tlg003.perseus-grc2-10185:43a.1",
-      "citation_scheme": ["section", "sentence"],
-      "label": [
-        {
-          "lang": "eng",
-          "value": "Crito (Greek alignment, Tr1)"
-        }
-      ],
-      "description": [
-        {
-          "lang": "eng",
-          "value": "Plato, creator. Platonis Opera Tomvs I Tetralogia I-II, Burnet, John, 1863-1928, editor. Oxford University Press. 1900-06."
-        }
-      ]
-    },
-    {
-      "urn": "urn:cts:greekLit:tlg0059.tlg003.tr1-far1-10185:",
-      "node_kind": "version",
-      "version_kind": "edition",
+      "version_kind": "translation",
       "lang": "far",
-      "first_passage_urn": "urn:cts:greekLit:tlg0059.tlg003.tr1-far1-10185:43a.1",
-      "citation_scheme": ["section", "sentence"],
+      "first_passage_urn": "urn:cts:greekLit:tlg0059.tlg003.perseus-far1:1",
+      "citation_scheme": ["sentence"],
       "label": [
         {
           "lang": "eng",
-          "value": "Crito (Farsi translation alignment, Tr1)"
+          "value": "Crito (Persian sentences)"
         }
       ],
       "description": [
         {
           "lang": "eng",
-          "value": "Translated and Aligned by Ugarit User"
-        }
-      ]
-    },
-    {
-      "urn": "urn:cts:greekLit:tlg0059.tlg003.perseus-grc2-10186:",
-      "node_kind": "version",
-      "version_kind": "edition",
-      "lang": "grc",
-      "first_passage_urn": "urn:cts:greekLit:tlg0059.tlg003.perseus-grc2-10186:43a.1",
-      "citation_scheme": ["section", "sentence"],
-      "label": [
-        {
-          "lang": "eng",
-          "value": "Crito (Greek alignment, Tr2)"
-        }
-      ],
-      "description": [
-        {
-          "lang": "eng",
-          "value": "Plato, creator. Platonis Opera Tomvs I Tetralogia I-II, Burnet, John, 1863-1928, editor. Oxford University Press. 1900-06."
-        }
-      ]
-    },
-    {
-      "urn": "urn:cts:greekLit:tlg0059.tlg003.tr2-far1-10186:",
-      "node_kind": "version",
-      "version_kind": "edition",
-      "lang": "far",
-      "first_passage_urn": "urn:cts:greekLit:tlg0059.tlg003.tr2-far1-10186:43a.1",
-      "citation_scheme": ["section", "sentence"],
-      "label": [
-        {
-          "lang": "eng",
-          "value": "Crito (Farsi translation alignment, Tr2)"
-        }
-      ],
-      "description": [
-        {
-          "lang": "eng",
-          "value": "Translated and Aligned by Ugarit User"
-        }
-      ]
-    },
-    {
-      "urn": "urn:cts:greekLit:tlg0059.tlg003.perseus-grc2-10187:",
-      "node_kind": "version",
-      "version_kind": "edition",
-      "lang": "grc",
-      "first_passage_urn": "urn:cts:greekLit:tlg0059.tlg003.perseus-grc2-10187:43a.1",
-      "citation_scheme": ["section", "sentence"],
-      "label": [
-        {
-          "lang": "eng",
-          "value": "Crito (Greek alignment, Tr3)"
-        }
-      ],
-      "description": [
-        {
-          "lang": "eng",
-          "value": "Plato, creator. Platonis Opera Tomvs I Tetralogia I-II, Burnet, John, 1863-1928, editor. Oxford University Press. 1900-06."
-        }
-      ]
-    },
-    {
-      "urn": "urn:cts:greekLit:tlg0059.tlg003.tr3-far1-10187:",
-      "node_kind": "version",
-      "version_kind": "edition",
-      "lang": "far",
-      "first_passage_urn": "urn:cts:greekLit:tlg0059.tlg003.tr3-far1-10187:43a.1",
-      "citation_scheme": ["section", "sentence"],
-      "label": [
-        {
-          "lang": "eng",
-          "value": "Crito (Farsi translation alignment, Tr3)"
-        }
-      ],
-      "description": [
-        {
-          "lang": "eng",
-          "value": "Translated and Aligned by Ugarit User"
+          "value": "Translated and Aligned by Farnoosh Shamsian"
         }
       ]
     }
