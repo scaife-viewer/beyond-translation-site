@@ -1,0 +1,8 @@
+label: Glaux Token Annotations
+urn: urn:cite2:beyond-translation:token_annotation_collection.atlas_v1:glaux-thucydides
+metadata:
+  attributions:
+  - name:  Toon Van Hal et al.
+    role: Annotator
+# TODO: refactor to bind to multiple files
+values: tlg0003.tlg001.perseus-grc2.csv
