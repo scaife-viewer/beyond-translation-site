@@ -1,5 +1,137 @@
 [
   {
+    "urn": "urn:cts:greekLit:tlg5026.msAext.hmt:5.6065",
+    "comment": "ἐνῖ ποιητ",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol2502",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA066RN_0067@0.81134856,0.46611342,0.04826824,0.01327801"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:66r.5.198"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAext.hmt:5.6066",
+    "comment": "ἰ",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol2503",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA066RN_0067@0.88614591,0.46085754,0.00884304,0.01438451"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:66r.5.198"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAint.hmt:5.6060",
+    "comment": "ὅτι περιφραστικῶς πάλιν κύτους ⁑",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol2477",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA066RN_0067@0.09579956,0.27939142,0.05158438,0.02019364"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:66r.5.189"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAint.hmt:5.6061",
+    "comment": "ὅτι δύο ἵπποις ὀχρῶντο",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol2478",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA066RN_0067@0.10316875,0.40359613,0.04347826,0.02213001"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:66r.5.195"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAint.hmt:5.6063",
+    "comment": "Ἀρισταρχ  ἄδην ἄλλοι δὲ ἄδδην διὰ β δδ ‡",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol2479",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA066RN_0067@0.09948416,0.55435685,0.05784819,0.03125864"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:66r.5.203"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAint.hmt:5.6064",
+    "comment": "στικτέον μετα το βαλών ⁑",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol2480",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA066RN_0067@0.09469418,0.65062241,0.05158438,0.01991701"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:66r.5.208"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAim.hmt:5.6057",
+    "comment": "καὶ προηκάμην φησίν καὶ έτρωσα τὸν ῶμον ⁑",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol2438",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA066RN_0067@0.55821665,0.26721992,0.04347826,0.04508990"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:66r.5.188"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAim.hmt:5.6059",
+    "comment": "ὅτι θηλυκῶς τὴν Ϊλιον ⁑",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol2439",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA066RN_0067@0.56927045,0.69128631,0.03758290,0.01410788"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:66r.5.210"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAil.hmt:5.6067",
+    "comment": "ἐπιτυχόν",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol2526",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA066RN_0067@0.43146647,0.24647303,0.03684598,0.01023513"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:66r.5.187"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAil.hmt:5.6068",
+    "comment": "εμβεβηκότα ουτως Ἀρισταρχος ⁑",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol2527",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA066RN_0067@0.49042004,0.47607192,0.09248342,0.01106501"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:66r.5.199"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAil.hmt:5.6069",
+    "comment": "συστρεφομενων πολεμούτων",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol2528",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA066RN_0067@0.24944731,0.55297372,0.10243183,0.00995851"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:66r.5.203"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAil.hmt:5.6071",
+    "comment": "ῥυῆναι ἐποίησα",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol2529",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA066RN_0067@0.30029477,0.64923928,0.05084746,0.01078838"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:66r.5.208"
+    ]
+  },
+  {
     "urn": "urn:cts:greekLit:tlg5026.msA.hmt:5.1054",
     "lemma": "‡ὃς τούτου βέλος ὠκὺ ,",
     "dse": {

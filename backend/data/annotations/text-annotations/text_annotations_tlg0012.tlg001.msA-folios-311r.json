@@ -1,5 +1,83 @@
 [
   {
+    "urn": "urn:cts:greekLit:tlg5026.msAint.hmt:24.A1",
+    "comment": "εν αλλω ἕνεκ' αρχης ⁑",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol7209",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA311RN_0481@0.13,0.6321,0.094,0.0173"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:311r.24.28"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAim.hmt:24.A1",
+    "comment": "οτ  περισσος ὁ δὲ ⁑",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol7263",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA311RN_0481@0.62,0.3874,0.028,0.0278"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:311r.24.15"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAim.hmt:24.A2",
+    "comment": "εν αλλω καλυψε",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol7264",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA311RN_0481@0.616,0.4737,0.035,0.018"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:311r.24.20"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAil.hmt:24.A1",
+    "comment": "κατειργάσατο ⁑",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol7231",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA311RN_0481@0.321,0.2312,0.08,0.0165"
+    },
+    "references": []
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAil.hmt:24.A2",
+    "comment": "διαπερων",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol7232",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA311RN_0481@0.565,0.256,0.054,0.0143"
+    },
+    "references": []
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAil.hmt:24.A3",
+    "comment": "ανεστρέφατο ⁑",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol7233",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA311RN_0481@0.239,0.3213,0.076,0.0128"
+    },
+    "references": []
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAil.hmt:24.A4",
+    "comment": "στένων",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol7234",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA311RN_0481@0.33,0.3236,0.041,0.0128"
+    },
+    "references": []
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAil.hmt:24.A5",
+    "comment": "ι",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol7235",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA311RN_0481@0.361,0.5953,0.006,0.0068"
+    },
+    "references": []
+  },
+  {
     "urn": "urn:cts:greekLit:tlg5026.msA.hmt:24.A2",
     "lemma": "πατρόκλου ποθέων :",
     "dse": {
@@ -7,10 +85,6 @@
       "image_roi": "urn:cite2:hmt:vaimg.2017a:VA311RN_0481@0.216,0.0811,0.61,0.0751"
     },
     "references": [
-      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:311r.24.6",
-      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:311r.24.7",
-      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:311r.24.8",
-      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:311r.24.9",
       "urn:cts:greekLit:tlg0012.tlg001.msA-folios:311r.24.10"
     ],
     "comment": "ἕως τῶν μιμνησκόμενος άθετοῦνται στιχ  δ ὅτι εὐτελής ἔισι ἀρθεντων δὲ αὐτων καὶ ἐμφαντικώτερον δηλουτ  ἡ τοῦ ἀχι  λύπη . ἀλλ  εστρέφετ' ἔνθα καὶ ἔνθα ἄλλοτ' ἐπι πλευράς καὶ τοῖς αὐτοῖς καταγίνεται ἀνδροτητ ἀνδροτῆτα καὶ μενος οὐδὲν γὰρ διαφε  καὶ οὐδεποτ  ἀνδροτητ ἀνδροτητ` εἴρηκε τήν ἀνδρείαν ἀλλ' ἡνορέαν . εἴχε καὶ τὸ δυσεξείληπτον τῶν μιμνησκόμενος καὶ γὰρ ἄνω εἴρηκεν ἑταίρου μεμνημένος προηθετοῦντο δὲ καὶ παρα αριστοφαι  ταυτ  δὲ ἤτοι συναπτέον τοῖς ἄνω ἵν' ἦι κοινὸν τὸ ποθέων ἡ ἀφ  ετερας ἀρχῆς ἀναγνωστεον ἵνα ὑποστείζωμεν ἐπι τὸ κύματα πείρων ⁑"
@@ -21,7 +95,10 @@
     "dse": {
       "urn": "urn:cite2:hmt:va_dse.v1:schol7325",
       "image_roi": "urn:cite2:hmt:vaimg.2017a:VA311RN_0481@0.218,0.1411,0.597,0.024"
-    }
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:311r.24.6"
+    ]
   },
   {
     "urn": "urn:cts:greekLit:tlg5026.msA.hmt:24.A4",
@@ -91,7 +168,6 @@
       "image_roi": "urn:cite2:hmt:vaimg.2017a:VA311RN_0481@0.202,0.6922,0.62,0.0345"
     },
     "references": [
-      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:311r.24.19",
       "urn:cts:greekLit:tlg0012.tlg001.msA-folios:311r.24.20"
     ],
     "comment": "ἀθετοῦνται· ἀρκεῖ γαρ τὸ προειρῆσθαι πᾶσαν ἀεικειην ἄπεχε χροῒ  φῶτ' ἐλεαίρων· τὸ δε πῶς μηκέτ' ἐπεκδιδάσκει ὅτι ἀπεμφαίνων ἐστιν ἀνιερον γὰρ καὶ ἀκάθαρτον τὴν τοῦ Διὸς αἰγίδα νεκροῦ περίβλημα γίνεσθαι· πῶς δὲ καὶ κατείληπτο τῇ αἰγίδι ἐλκόμενος ἵνα μὴ ἀποστραφῇ ἠ πῶς ἔλαβε τὴν αἰγίδα παρα Διὸς οὐ γὰρ συγκαταποθεῖται τῇ ἀπολυτρώσει τοῦ νεκροῦ ἀλλ' ὕστερον· ὁ δὲ Ἀπόλλων οὐκ εῖχεν ἐξουσίαν τῆς αἰγίδος· εἰ δε ταυτ  ἐγέγραπτο . οὐκ ὰν ἄλλας αἴτιας  εἰσεφερε τοῦ καταδρύπτεσθαι λέγει μέντοι ροδόεντι χρῖεν ἐλαίω ἀμβροσίω ἵνα μή μιν ἀποδρύφοι ἑλκυστάζων . καὶ περι τοῦ Ἀπόλλωνος ὃν τροπον πᾶσαν ἀεικείην ἄπεχε χροῒ λέγει· τῷ δ' ἐπι κυάνεον νέφος ἤγαγε Φοῖβος Ἀπόλλων ἵνα διαμένῃ ἔνικμος καὶ περινίζεται τὴν ἀπο τοῦ φόνου ἀκαθαρσίαν . ὡς φησὶν ὁ Ερμῆς τῷ Πριάμῳ θειοιο κεν αὐτὸς επελθῶν επελθών οἶον ἐερσήεις κεῖται περὶ δ' αἷμα νένιπται ⁑"

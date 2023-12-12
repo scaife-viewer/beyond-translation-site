@@ -1,5 +1,89 @@
 [
   {
+    "urn": "urn:cts:greekLit:tlg5026.msAim.hmt:12.E1",
+    "lemma": "‡τυκτῇσι βοεσσι",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol4981",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA156VN_0658@0.4404,0.2908,0.0641,0.1007"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:156v.12.105"
+    ],
+    "comment": "ταῖς εἰργασμέναις βύρσαις λέγει δὲ ταῖς ἀσπίσι· οὐδέποτε δὲ βοῦν ἁπλῶς λέγει τὴν ἀσπίδα , ἀλλα μετά τινος ἐξ οὑ γνωρίζεται οἷον βῶν ἀζαλέην ⁑"
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAil.hmt:12.E1",
+    "comment": "έδοξαν ἐφάνησαν :",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol4873",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA156VN_0658@0.6049,0.2559,0.089,0.0131"
+    },
+    "references": []
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAil.hmt:12.E3",
+    "comment": "προσῆλθεν",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol4874",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA156VN_0658@0.6848,0.4289,0.0504,0.0113"
+    },
+    "references": []
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAil.hmt:12.E4",
+    "comment": "διαφυγών",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol4875",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA156VN_0658@0.8903,0.4427,0.045,0.0133"
+    },
+    "references": []
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAil.hmt:12.E5",
+    "comment": "χαλεπη",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol4876",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA156VN_0658@0.7491,0.5039,0.0374,0.0111"
+    },
+    "references": []
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAil.hmt:12.E6",
+    "comment": "ώρμησεν",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol4877",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA156VN_0658@0.5426,0.5432,0.0455,0.0152"
+    },
+    "references": []
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAil.hmt:12.E7",
+    "comment": "ἐπορεύοντο :",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol4878",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA156VN_0658@0.6279,0.5602,0.0584,0.0139"
+    },
+    "references": []
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAil.hmt:12.E8",
+    "comment": "μοχλόν",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol4879",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA156VN_0658@0.8874,0.5992,0.0341,0.0108"
+    },
+    "references": []
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAil.hmt:12.E9",
+    "comment": "ἐπενθείας",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol4880",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA156VN_0658@0.5612,0.6542,0.0515,0.0145"
+    },
+    "references": []
+  },
+  {
     "urn": "urn:cts:greekLit:tlg5026.msA.hmt:12.E1",
     "lemma": "‡ οἱ δὲ ἐπεὶ ἀλλήλους ἄραρον :",
     "dse": {

@@ -1,5 +1,38 @@
 [
   {
+    "urn": "urn:cts:greekLit:tlg5026.msAint.hmt:24.C1",
+    "comment": "ὅσον ἐπι τῇ ἐμῇ κρίσει ⁑",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol7212",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA312RN_0482@0.141,0.4392,0.073,0.0278"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:312r.24.68"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAint.hmt:24.C2",
+    "comment": "τὸ εῖ αντ  ειθε διὸ οὐδε ὑποστικτέον ⁑",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol7213",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA312RN_0482@0.132,0.5556,0.076,0.0435"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:312r.24.74"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAint.hmt:24.C3",
+    "comment": "οτ  τὴν Σαμοθράκην ουτ  εἶπεν",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol7214",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA312RN_0482@0.134,0.6359,0.073,0.03"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:312r.24.78"
+    ]
+  },
+  {
     "urn": "urn:cts:greekLit:tlg5026.msA.hmt:24.C1",
     "lemma": "Ἕκτωρ μὲν θνητός τε·",
     "dse": {

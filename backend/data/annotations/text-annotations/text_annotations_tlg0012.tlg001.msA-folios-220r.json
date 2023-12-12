@@ -1,5 +1,58 @@
 [
   {
+    "urn": "urn:cts:greekLit:tlg5026.msAint.hmt:16.220r_1",
+    "comment": "οτ Ὅμηρος ἑτέραν τὴν Φρυγίαν τῆς Τροίας οῖδεν ⁑",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol8095",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA220RN_0391@0.1115,0.4461,0.07296,0.04495"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:220r.16.719"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAim.hmt:16.220r_1",
+    "comment": "γρ προσέφη εκάεργος Απο",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol8078",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA220RN_0391@0.6144,0.2021,0.05932,0.02780"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:220r.16.706"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAim.hmt:16.220r_2",
+    "comment": "Ἀρισταρχ ου νύπω αῖσα",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol8079",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA220RN_0391@0.5951,0.2272,0.1139,0.02089"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:220r.16.707"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAim.hmt:16.220r_3",
+    "comment": "ουτ εἰσάμενος ἐπιφέρει γοῦν τῷ μιν ἐεισέμενος",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol8080",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA220RN_0391@0.5490,0.3918,0.08456,0.04606"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:220r.16.716"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAil.hmt:16.220r_1",
+    "comment": "ἀμφέβαλλεν ἐδίσταζεν ⁑",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol8091",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA220RN_0391@0.2203,0.3254,0.1011,0.009959"
+    },
+    "references": []
+  },
+  {
     "urn": "urn:cts:greekLit:tlg5026.msA.hmt:16.220r_1",
     "lemma": "‡ ὡς φάτο , Πάτροκλος δ' ἀνεχάζετο πολλὸν οπίσσω :",
     "dse": {

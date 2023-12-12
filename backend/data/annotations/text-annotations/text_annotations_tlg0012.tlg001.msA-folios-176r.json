@@ -1,5 +1,60 @@
 [
   {
+    "urn": "urn:cts:greekLit:tlg5026.msAint.hmt:13.A3",
+    "comment": "οὕτως δια τοῦ σ ὁ πέσον ⁑",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol8532",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA176RN_0347@0.1251,0.3177,0.06706,0.03914"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:176r.13.617"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAint.hmt:13.A4",
+    "comment": "τουτ ~ ἀπ άλλης ἀρχῆς ἀναγνωστεον λειπει γὰρ τὸ εἴστέ ἢ τὸ εσμέν",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol8533",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA176RN_0347@0.1166,0.4089,0.07093,0.04053"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:176r.13.622"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAim.hmt:13.A6",
+    "comment": "ουτωσ Αρισταρχος αλλοι δὲ αφικεσθον , Αριστοφανης δὲ αφικεσθην . ⁑",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol8139",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA176RN_0347@0.567,0.2231,0.094,0.0466"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:176r.13.613"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAim.hmt:13.A7",
+    "comment": "λειπει ἐχούσης τὸ πληρες ευβ",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol8140",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA176RN_0347@0.565,0.426,0.06,0.0308"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:176r.13.623"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAim.hmt:13.A8",
+    "comment": "ἐν αλλῳ και κτήμαθ' ἄμ' αὐτῇ . ⁑",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol8141",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA176RN_0347@0.557,0.4808,0.068,0.0376"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:176r.13.626"
+    ]
+  },
+  {
     "urn": "urn:cts:greekLit:tlg5026.msA.hmt:13.A11",
     "lemma": "χαμαὶ πέσον",
     "dse": {
@@ -41,7 +96,10 @@
     "dse": {
       "urn": "urn:cite2:hmt:va_dse.v1:schol8324",
       "image_roi": "urn:cite2:hmt:vaimg.2017a:VA176RN_0347@0.6085,0.3761,0.1875,0.08838"
-    }
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:176r.13.623"
+    ]
   },
   {
     "urn": "urn:cts:greekLit:tlg5026.msA.hmt:13.A14bis",
@@ -49,7 +107,10 @@
     "dse": {
       "urn": "urn:cite2:hmt:va_dse.v1:schol8325",
       "image_roi": "urn:cite2:hmt:vaimg.2017a:VA176RN_0347@0.6072,0.4580,0.1923,0.02835"
-    }
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:176r.13.624"
+    ]
   },
   {
     "urn": "urn:cts:greekLit:tlg5026.msA.hmt:13.A15",

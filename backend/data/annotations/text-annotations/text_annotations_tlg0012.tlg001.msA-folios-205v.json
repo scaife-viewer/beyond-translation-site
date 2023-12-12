@@ -1,5 +1,91 @@
 [
   {
+    "urn": "urn:cts:greekLit:tlg5026.msAext.hmt:15.24",
+    "comment": "ου μὲν τι ,",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol5490",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA205VN_0707@0.121,0.4185,0.05,0.0293"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:205v.15.737"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAext.hmt:15.25",
+    "comment": "οτρυνοντος",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol5491",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA205VN_0707@0.139,0.5552,0.075,0.0255"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:205v.15.744"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAint.hmt:15.57",
+    "comment": "τὸ ἑξῆς ἀνεχατίζετο τυτθόν θρῆνυν ἐφεπταπόδην , ουτ  οὖν διορθοτ  ⁑",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol5548",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA205VN_0707@0.895,0.2397,0.067,0.0706"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:205v.15.729"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAim.hmt:15.76",
+    "comment": "ου μέν τις χω  τοῦ σ Ἀριστ  ⁑",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol5658",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA205VN_0707@0.442,0.4275,0.062,0.0308"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:205v.15.737"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAim.hmt:15.77",
+    "comment": "ἐν ἄλλῳ Τρώων ὁμάδω ⁑",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol5659",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA205VN_0707@0.438,0.4651,0.069,0.0293"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:205v.15.739"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAim.hmt:15.78",
+    "comment": "ουτ  Ἀρισταρχ  σὺν τῷ ϊ μειλιχίῃ ⁑",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol5660",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA205VN_0707@0.443,0.5011,0.067,0.0511"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:205v.15.741"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAim.hmt:15.79",
+    "comment": "το κήλειν θέλγειν εστ  καὶ τέρπειν ⁑",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol5661",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA205VN_0707@0.447,0.5582,0.059,0.0488"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:205v.15.744"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAil.hmt:15.36",
+    "comment": "αντ  τοῦ ἑτέραν αλκήν ·",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol5582",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA205VN_0707@0.714,0.4358,0.084,0.0188"
+    },
+    "references": []
+  },
+  {
     "urn": "urn:cts:greekLit:tlg5026.msA.hmt:15.195",
     "lemma": "‡ θρῆνυν⁚",
     "dse": {

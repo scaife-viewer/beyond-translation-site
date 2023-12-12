@@ -1,5 +1,76 @@
 [
   {
+    "urn": "urn:cts:greekLit:tlg5026.msAint.hmt:18.1",
+    "comment": "ἀντι υπ  τῶν χειρῶν τῶν Τρώων ⁑",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol6157",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA239RN_0410@0.136,0.3967,0.067,0.0383"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:239r.18.11"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAint.hmt:18.2",
+    "comment": "τάλλας ἢ τλήμων ἐνταῦθα ⁑",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol6158",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA239RN_0410@0.132,0.4358,0.068,0.027"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:239r.18.13"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAint.hmt:18.3",
+    "comment": "οτ  τὴν ἀπο πυρὸς τέφραν κόνιν λέγει διὸ καὶ αἰθαλόεσσαν αὐτὴν λέγει ⁑",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol6159",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA239RN_0410@0.115,0.6243,0.071,0.0556"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:239r.18.23"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAim.hmt:18.1",
+    "comment": "οτ  λειπ  ἡ διὰ δια πεδίου",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol6253",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA239RN_0410@0.596,0.3246,0.038,0.0255"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:239r.18.7"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAim.hmt:18.2",
+    "comment": "Αρσιτ  αψ ἐπι νηας ϊμεν ⁑",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol6254",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA239RN_0410@0.599,0.4538,0.034,0.0233"
+    },
+    "references": []
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAil.hmt:18.1",
+    "comment": "οτ  ὥσπερ",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol6215",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA239RN_0410@0.208,0.1983,0.032,0.0098"
+    },
+    "references": []
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAil.hmt:18.2",
+    "comment": "θείω καλῷ",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol6216",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA239RN_0410@0.22,0.6582,0.058,0.0098"
+    },
+    "references": []
+  },
+  {
     "urn": "urn:cts:greekLit:tlg5026.msA.hmt:18.1",
     "lemma": "ὣς οι μὲν μάρναντο δέμας πυρὸς αἰθομένοιο·",
     "dse": {
@@ -91,7 +162,6 @@
       "image_roi": "urn:cite2:hmt:vaimg.2017a:VA239RN_0410@0.598,0.3426,0.244,0.2374"
     },
     "references": [
-      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:239r.18.10",
       "urn:cts:greekLit:tlg0012.tlg001.msA-folios:239r.18.11"
     ],
     "comment": "χερσὶν ὑπο Τρώων ἐν τῇ Ριανοῦ οὐκ ῆσαν οἱ β ἴσως ἐπεὶ οὐκ ῆν Μυρμιδόνων ὁ Πατροκλος Λοκρὸς γὰρ ἢν ἐξ Οποῦντος , δεῖν δέ φησιν ὁ Ἀρίσταρχ  ουτ  αὐτ  παραδέχεσθαι , τὸν μετ αυτὸν ἄριστον τῶν Μυρμιδόνων· καὶ κατά τινας δὲ τῶν μεθ Ὅμηρον Ἄκτωρ ὁ πηρ  τοῦ Μενοιτίου λέγεται λαβεῖν Αἴγιναν ἐκ ταύτης δὲ γενέσθαι Μενοίτιον καὶ οἰκῆσαι ἐν Ὀποῦντι οὕτως οὖν γίνεται τὸ ἀνέκαθεν Μυρμιδὼν ὁ Πάτροκλος · δύναται δὲ καὶ ἑτέρως Μυρμιδὼν ὁ Πάτροκλος λέγεσθαι διὰ τὸ μετα τὸν Ἀχιλλε  ἡγήσασθαι τῶν Μυρμιδόνων . πῶς δὲ φασί τουτ  πεπυσμένος παρα τῆς μρς  ἔπεμπε τὸν Πάτροκλον εἰς τὸν πόλεμον ὅτι φαίη τίς ἄν οὔτε τούνομα σαφῶς εῖπεν οὔτε τὸν χρόνον παρά τε τὸν καιρὸν λήθη γίνεται τῶν τοιούτων ὅταν δὲ αποβῆ μιμνήσκονται ⁑"
@@ -102,7 +172,10 @@
     "dse": {
       "urn": "urn:cite2:hmt:va_dse.v1:schol6336",
       "image_roi": "urn:cite2:hmt:vaimg.2017a:VA239RN_0410@0.624,0.5627,0.196,0.0834"
-    }
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:239r.18.10"
+    ]
   },
   {
     "urn": "urn:cts:greekLit:tlg5026.msA.hmt:18.10",

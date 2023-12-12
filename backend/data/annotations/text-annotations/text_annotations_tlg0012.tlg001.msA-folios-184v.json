@@ -1,5 +1,104 @@
 [
   {
+    "urn": "urn:cts:greekLit:tlg5026.msAext.hmt:14.C3",
+    "comment": "ἑῷ",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol5446",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA184VN_0686@0.16746500,0.61037344,0.03371408,0.02157676"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:184v.14.223"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAint.hmt:14.C5",
+    "comment": "οτ  παραλλήλως δηρὸν καὶ χρον  ⁑",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol5378",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA184VN_0686@0.86956522,0.28879668,0.04089904,0.01991701"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:184v.14.206"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAint.hmt:14.C6",
+    "comment": "οτ  όρος ὁ Όλυμπ  τὸ γὰρ ρίον ἰδίως ἐπόρους τάσσεται ⁑",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol5379",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA184VN_0686@0.84248342,0.65311203,0.10169492,0.03485477"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:184v.14.225"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAim.hmt:14.C4",
+    "comment": "δια τοῦ α ῥείας ἁι Ἀρισταρχ  ουτ  καὶ Ἀριστοφ  ⁑",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol5318",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA184VN_0686@0.43183493,0.22780083,0.07295505,0.05435685"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:184v.14.203"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAim.hmt:14.C5",
+    "comment": "ἔν τισι τῶν ὑπομνηματ  ἡδ' ὁ ἀριστύς :",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol5319",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA184VN_0686@0.45283714,0.47842324,0.05637436,0.02987552"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:184v.14.216"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAim.hmt:14.C6",
+    "comment": "οτ  πτῶσις ἐνηλλακται αντ  ἀυτῆς ταῖς χερσιν ⁑",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol5320",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA184VN_0686@0.45781135,0.52074689,0.04863670,0.04107884"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:184v.14.218"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAim.hmt:14.C7",
+    "comment": "Ἀρισταρχ  μέσῳ ἄλλοι δὲ , ἑῷ`",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol5321",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA184VN_0686@0.45062638,0.60995851,0.04476787,0.03734440"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:184v.14.223"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAim.hmt:14.C8",
+    "comment": "ἐν αλλῳ ἐσσυτ' ἐφ ἱπποπόλων ⁑",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol5322",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA184VN_0686@0.45283714,0.68340249,0.05250553,0.03112033"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:184v.14.227"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAil.hmt:14.C5",
+    "comment": "τῆς ρέας",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol5418",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA184VN_0686@0.60759027,0.21867220,0.04587325,0.01701245"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:184v.14.203"
+    ]
+  },
+  {
     "urn": "urn:cts:greekLit:tlg5026.msA.hmt:14.C8",
     "lemma": "‡ τοὺς εἰμ' ὀψομένη",
     "dse": {
@@ -7,8 +106,6 @@
       "image_roi": "urn:cite2:hmt:vaimg.2017a:VA184VN_0686@0.25700074,0.11701245,0.46260133,0.01991701"
     },
     "references": [
-      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:184v.14.205",
-      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:184v.14.206",
       "urn:cts:greekLit:tlg0012.tlg001.msA-folios:184v.14.207"
     ],
     "comment": "ὅτι νῦν καλῶς λέγονται ἐν δὲ τοῖς κάτω πρὸς τὸν Δία οὐκέτι ⁑"
@@ -69,7 +166,6 @@
       "image_roi": "urn:cite2:hmt:vaimg.2017a:VA184VN_0686@0.24152542,0.54564315,0.21886514,0.05062241"
     },
     "references": [
-      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:184v.14.216",
       "urn:cts:greekLit:tlg0012.tlg001.msA-folios:184v.14.217"
     ],
     "comment": "συναπτέον ἀμφότερα τὰ ὀνόματα τὴν παραλογιστικην ὁμιλίαν δι αμφοτερων δηλοῖ ⁑"
@@ -128,6 +224,9 @@
     "dse": {
       "urn": "urn:cite2:hmt:va_dse.v1:schol5210",
       "image_roi": "urn:cite2:hmt:vaimg.2017a:VA184VN_0686@0.24723655,0.76431535,0.69141489,0.05726141"
-    }
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:184v.14.226"
+    ]
   }
 ]

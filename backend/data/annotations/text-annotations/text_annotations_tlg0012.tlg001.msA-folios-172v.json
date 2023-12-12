@@ -1,5 +1,102 @@
 [
   {
+    "urn": "urn:cts:greekLit:tlg5026.msAext.hmt:13.5",
+    "comment": "Ποσειδά",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol8495",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA172VN_0674@0.1555,0.2531,0.05140,0.02019"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:172v.13.435"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAint.hmt:13.9",
+    "comment": "οὑτ  δια τοῦ ο Αρισταρχ  Ζηνοδ  δια τοῦ α ⁑",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol8493",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA172VN_0674@0.9158,0.4776,0.03814,0.04965"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:172v.13.447"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAim.hmt:13.21",
+    "comment": "οτ  σαφῶς τὸν θώρακα χιτῶνα χαλκὸν :",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol8487",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA172VN_0674@0.4390,0.3459,0.05693,0.03458"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:172v.13.439"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAim.hmt:13.22",
+    "comment": "ἀντι τοῦ ώρμα ὁ σίδηρος πρόσω χωρῆσαι :",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol8488",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA172VN_0674@0.4458,0.4339,0.05232,0.03237"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:172v.13.444"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAim.hmt:13.23",
+    "comment": "ουτ  ἀρίσταρχ  δή τι εΐσκομεν χωρὶς τοῦ ς ⁑",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol8489",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA172VN_0674@0.4427,0.4783,0.05435,0.03237"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:172v.13.446"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAim.hmt:13.24",
+    "comment": "γράφεται καὶ ἐναντίος",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol8490",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA172VN_0674@0.4480,0.5198,0.05545,0.01936"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:172v.13.448"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAim.hmt:13.25",
+    "comment": "αριστ  χω  τοῦ ς ἴδη ⁑",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol8491",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA172VN_0674@0.4473,0.5418,0.05140,0.02531"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:172v.13.449"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAim.hmt:13.26",
+    "comment": "ἀρίσταρχ  , ἤ τινα αλλοι δὲ εἴ τινα ⁑",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol8492",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA172VN_0674@0.4571,0.6723,0.04937,0.03956"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:172v.13.456"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAil.hmt:13.5",
+    "comment": "σχηζόμενος",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol8494",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA172VN_0674@0.4853,0.3970,0.04071,0.01314"
+    },
+    "references": []
+  },
+  {
     "urn": "urn:cts:greekLit:tlg5026.msA.hmt:13.42",
     "lemma": "‡αὖον ἄϋσεν :",
     "dse": {

@@ -1,5 +1,138 @@
 [
   {
+    "urn": "urn:cts:greekLit:tlg5026.msAext.hmt:17.1",
+    "comment": "ἢ δ’αλκῆς ἠ δὲ",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol5864",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA224RN_0395@0.803,0.5154,0.08,0.0278"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:224r.17.42"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAext.hmt:17.2",
+    "comment": "χαλκὸς",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol5865",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA224RN_0395@0.808,0.5635,0.059,0.021"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:224r.17.44"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAint.hmt:17.4",
+    "comment": "πιστὸν τὸ παίδευμ  καὶ πολλῆς ὠφελείας πεεκτικον  ⁑",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol5872",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA224RN_0395@0.1117,0.3071,0.0643,0.03"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:224r.17.32"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAint.hmt:17.5",
+    "comment": "όμοιον τὸ , , καὶ δόμος ἡμιτελης :",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol5873",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA224RN_0395@0.112,0.402,0.079,0.0195"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:224r.17.36"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAint.hmt:17.6",
+    "lemma": "ἀρητόν",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol5874",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA224RN_0395@0.11,0.4207,0.075,0.0473"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:224r.17.37"
+    ],
+    "comment": "τὰ εἰς τὸς ῥηματικὰ παραληγόμενα τὸ η ὑπὲρ β συλλα  ὀξύνεσθ  θέλει ⁑"
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAint.hmt:17.7",
+    "comment": "ὅτι δειλοισιν ειπ  αντ  τοῦ δειλαίοις",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol5875",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA224RN_0395@0.1153,0.4662,0.0669,0.0201"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:224r.17.38"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAint.hmt:17.8",
+    "comment": "ουτ  Ἀριστ  χαλκός αλλοι δὲ χαλκόι :",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol5876",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA224RN_0395@0.116,0.559,0.071,0.0301"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:224r.17.44"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAim.hmt:17.4",
+    "comment": "δια τοῦ τε οὐδέ τε Ἀρισταρχος ⁑",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol5947",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA224RN_0395@0.5709,0.237,0.0313,0.0421"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:224r.17.27"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAim.hmt:17.5",
+    "comment": "πεσπαστ  τὸν η βεβαιωτικὸς",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol5948",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA224RN_0395@0.5466,0.4448,0.0579,0.0227"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:224r.17.38"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAim.hmt:17.6",
+    "comment": "ἡ μηρ  εστ  αυτοῦ Φρόντις ὡς Θέτις ⁑",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol5949",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA224RN_0395@0.5403,0.4819,0.0579,0.031"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:224r.17.40"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAim.hmt:17.7",
+    "comment": "Ἀρισταρχ  αμφότερα δια τοῦ δ ἠδ' αλκῆς ἠδὲ φόβοιο ⁑",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol5950",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA224RN_0395@0.4979,0.5209,0.1006,0.0196"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:224r.17.42"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAim.hmt:17.8",
+    "comment": "παραμυθία μεγίστην εἰσφέρει τοῖς λυπουμένοις ὑπερ τοῦ Πατρόκλου ⁑",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol5951",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA224RN_0395@0.2053,0.6903,0.2866,0.0154"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:224r.17.50"
+    ]
+  },
+  {
     "urn": "urn:cts:greekLit:tlg5026.msA.hmt:17.11",
     "lemma": "‡ ὥς θην καὶ σὸν ἐγω :",
     "dse": {
@@ -65,7 +198,10 @@
     "dse": {
       "urn": "urn:cite2:hmt:va_dse.v1:schol6010",
       "image_roi": "urn:cite2:hmt:vaimg.2017a:VA224RN_0395@0.6013,0.2542,0.207,0.082"
-    }
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:224r.17.37"
+    ]
   },
   {
     "urn": "urn:cts:greekLit:tlg5026.msA.hmt:17.17",
@@ -75,8 +211,6 @@
       "image_roi": "urn:cite2:hmt:vaimg.2017a:VA224RN_0395@0.596,0.3341,0.214,0.0608"
     },
     "references": [
-      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:224r.17.38",
-      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:224r.17.39",
       "urn:cts:greekLit:tlg0012.tlg001.msA-folios:224r.17.40"
     ],
     "comment": "καταπαύσαιμι δ ὰν τοῦ θρήνου τοὺς ἀθλιους γονέας τοῦ Υπερήνορος εἰ ανέλω σε καὶ καρατομήσας δώσω τὴν κεφαλήν σου καὶ τὰ όπλα αὐτοῖς"
@@ -113,7 +247,6 @@
       "image_roi": "urn:cite2:hmt:vaimg.2017a:VA224RN_0395@0.596,0.6006,0.207,0.0601"
     },
     "references": [
-      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:224r.17.41",
       "urn:cts:greekLit:tlg0012.tlg001.msA-folios:224r.17.42"
     ],
     "comment": "δια μέσου τὸ οὐδ έτ’ ἀδήριτος~ τὸ δὲ ἑξῆς ἀπείρητος πόνος ἔσται ἤτ ἀλκῆς ήτε φόβοιο οἷον πειρασόμεθα ἤτοι ἀνδρείας ἢ φυγῆς , οὕτως Νικάνωρ ⁑"
@@ -126,8 +259,6 @@
       "image_roi": "urn:cite2:hmt:vaimg.2017a:VA224RN_0395@0.601,0.6456,0.196,0.0736"
     },
     "references": [
-      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:224r.17.47",
-      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:224r.17.48",
       "urn:cts:greekLit:tlg0012.tlg001.msA-folios:224r.17.49"
     ],
     "comment": "οὐ λέγει τὸ στόμα τῆς κοιλίας καθάπερ ἡμεῖς , ἀλλα τὸν βρόγχον οἷον τὰ ἔσχατα μέρη τοῦ λαιμοῦ ἐπιφέρει γ οὖν ἀντικρὺ δ' ἀπαλοῖο  δι αὐχένος . θέμεθλα δὲ ἡ θέσις ⁑"

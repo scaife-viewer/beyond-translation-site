@@ -1,5 +1,65 @@
 [
   {
+    "urn": "urn:cts:greekLit:tlg5026.msAint.hmt:22.14",
+    "comment": "ὅτι πρόθεσις ήλλακται καὶ πτῶσις αντ  παρ αυταῖς ⁑",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol6776",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA285RN_0455@0.142,0.5646,0.065,0.0368"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:285r.22.153"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAim.hmt:22.18",
+    "comment": "ὅτι αντι τοῦ φυγών",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol6862",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA285RN_0455@0.632,0.265,0.045,0.0285"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:285r.22.137"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAim.hmt:22.19",
+    "comment": "ὅτι καὶ νῦν σαφῶς αντ  τοῦ ἔμπροσθ  φεύγει ⁑",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol6863",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA285RN_0455@0.628,0.3461,0.068,0.0323"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:285r.22.141"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAil.hmt:22.21",
+    "comment": "θερμῶ",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol6818",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA285RN_0455@0.386,0.485,0.036,0.0113"
+    },
+    "references": []
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAil.hmt:22.22",
+    "comment": "αντ  ψυχρὰ",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol6819",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA285RN_0455@0.453,0.5225,0.05,0.012"
+    },
+    "references": []
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAil.hmt:22.23",
+    "comment": "εν οῖς πλύνουσι",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol6820",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA285RN_0455@0.387,0.5601,0.071,0.0105"
+    },
+    "references": []
+  },
+  {
     "urn": "urn:cts:greekLit:tlg5026.msA.hmt:22.39",
     "lemma": "ὡς ἂρ ὅ γ' ἐμμεμαῶς .",
     "dse": {

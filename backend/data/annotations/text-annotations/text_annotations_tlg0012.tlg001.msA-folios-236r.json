@@ -1,5 +1,80 @@
 [
   {
+    "urn": "urn:cts:greekLit:tlg5026.msAint.hmt:17.31",
+    "comment": "τὸ ἔμπης ἀντι τοῦ ὁμοίως τέτακται ⁑",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol5899",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA236RN_0407@0.125,0.2517,0.067,0.0533"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:236r.17.632"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAint.hmt:17.32",
+    "comment": "ἐν ἄλλῳ ἠέρι γὰρ κεκάλυπτ",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol5900",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA236RN_0407@0.11,0.4756,0.072,0.0323"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:236r.17.644"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAim.hmt:17.43",
+    "comment": "ἐν ἄλλῳ ἀμύνοι :",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol5986",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA236RN_0407@0.571,0.2224,0.071,0.0233"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:236r.17.630"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAim.hmt:17.44",
+    "comment": "διχω  καὶ ἀφείη :",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol5987",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA236RN_0407@0.591,0.2434,0.058,0.0188"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:236r.17.631"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAim.hmt:17.45",
+    "comment": "ουτ  Ἀρισταρχ  ἄλλοι δὲ οἵ που νῦν ⁑",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol5988",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA236RN_0407@0.587,0.3509,0.069,0.0323"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:236r.17.637"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAim.hmt:17.46",
+    "comment": "ἐν ἄλλῳ ὁρᾶσθαι",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol5989",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA236RN_0407@0.564,0.5259,0.031,0.0248"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:236r.17.646"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAil.hmt:17.29",
+    "comment": "εκουσίως ἀυτὸς παραγίνεσθ",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol5940",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA236RN_0407@0.398,0.3501,0.094,0.0158"
+    },
+    "references": []
+  },
+  {
     "urn": "urn:cts:greekLit:tlg5026.msA.hmt:17.128",
     "lemma": "σχήσεσθ' , ἀλλ ἐν νηυσὶ",
     "dse": {
@@ -43,8 +118,6 @@
       "image_roi": "urn:cite2:hmt:vaimg.2017a:VA236RN_0407@0.599,0.5913,0.215,0.0563"
     },
     "references": [
-      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:236r.17.645",
-      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:236r.17.646",
       "urn:cts:greekLit:tlg0012.tlg001.msA-folios:236r.17.647"
     ],
     "comment": "μεγαλοφρόνως οὐ σωτηρίαν αἰτεῖται , ἀλλα φῶς προσ τῶν ὀφθαλμῶν χρείαν . ἵνα δρῶντές τι καὶ πάθωσιν ⁑"

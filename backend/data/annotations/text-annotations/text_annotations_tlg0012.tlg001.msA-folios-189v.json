@@ -1,5 +1,93 @@
 [
   {
+    "urn": "urn:cts:greekLit:tlg5026.msAim.hmt:14.F1",
+    "comment": "ουτ  κόμισε χω  του ν ⁑",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol5345",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA189VN_0691@0.43736183,0.25698479,0.05047900,0.03070539"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:189v.14.456"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAim.hmt:14.F2",
+    "comment": "η κεφαλη προέλαβε τὰ κάτω πίπτοντα ⁑",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol5346",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA189VN_0691@0.44067797,0.48160443,0.05195284,0.01964039"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:189v.14.468"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAim.hmt:14.F3",
+    "comment": "Ζηνοδ  ἀμύμονα Πουλυδάμαντα",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol5347",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA189VN_0691@0.44067797,0.50207469,0.05895357,0.01825726"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:189v.14.469"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAim.hmt:14.F4",
+    "comment": "ΐσως λ  δε τὸ δοκεῖ σοι⋅",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol5348",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA189VN_0691@0.44325718,0.55878285,0.04384672,0.02268326"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:189v.14.472"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAim.hmt:14.F5",
+    "comment": "Αριστοφα  αὐτῷ γάρ ρα φυὴν ἄγχιστα ἔοικεν ⁑",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol5349",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA189VN_0691@0.44030951,0.59280775,0.05453206,0.03374827"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:189v.14.474"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAim.hmt:14.F6",
+    "comment": "πρὸς τὸ ὃς Χρύσην ἀμφιβέβηκας οτ  εστ  ὑπερμαχεῖς",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol5350",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA189VN_0691@0.43478261,0.65449516,0.05932203,0.04011065"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:189v.14.477"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAil.hmt:14.F1",
+    "comment": "ἐν ἄλλω έοικεν",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol5434",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA189VN_0691@0.62453943,0.62821577,0.08658806,0.01161826"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:189v.14.474"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAil.hmt:14.F2",
+    "comment": "ονομα κύριον ὑιὸς Ἀλεγήνορος",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol5435",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA189VN_0691@0.85151069,0.59640387,0.04642594,0.01272476"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:189v.14.476"
+    ]
+  },
+  {
     "urn": "urn:cts:greekLit:tlg5026.msA.hmt:14.F1",
     "lemma": "λὶκριφὶς ἀΐξας⋅",
     "dse": {

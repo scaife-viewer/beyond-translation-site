@@ -1,5 +1,93 @@
 [
   {
+    "urn": "urn:cts:greekLit:tlg5026.msAim.hmt:5.6003",
+    "comment": "ἀντι τοῦ ἐπ αλληλοις",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol2417",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA062VN_0564@0.41451732,0.33582296,0.05232130,0.01244813"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:62v.5.14"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAim.hmt:5.6004",
+    "comment": "ἀντὶ τοῦ οὐκ επέτυχεν ⁑",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol2418",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA062VN_0564@0.41562270,0.39170124,0.04789978,0.02213001"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:62v.5.17"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAim.hmt:5.6005",
+    "comment": "προς τὴν περίβασιν ὅτι κατα μεταφορὰν τὸ ὑπερμαχῆσαι καὶ τὸ ὃς Χρυσην ἀμφιβέβηκας τοιοῦτόν εστι",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol2419",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA062VN_0564@0.41267502,0.45587828,0.06374355,0.04204703"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:62v.5.21"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAim.hmt:5.6006",
+    "comment": "προς τὸ σχημα εδει γὰρ τῶν υἱῶν Δαρητος τὸν μὲν αλευόμενον τὸν δὲ κτάμενον ⁑",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol2420",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA062VN_0564@0.41746500,0.59004149,0.06042741,0.07219917"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:62v.5.28"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAim.hmt:5.6007",
+    "comment": "παλιλογία ⁑",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol2421",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA062VN_0564@0.42815033,0.65892116,0.04347826,0.01908714"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:62v.5.31"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAil.hmt:5.6008",
+    "comment": "ψιλοῦται",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol2521",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA062VN_0564@0.61274871,0.49156293,0.03426676,0.01023513"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:62v.5.23"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAil.hmt:5.6009",
+    "comment": "Ἀιωλικός",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol2522",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA062VN_0564@0.86624908,0.50456432,0.02947679,0.01189488"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:62v.5.24"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAil.hmt:5.6010",
+    "comment": "ἀντὶ πάντων",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol2523",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA062VN_0564@0.48084009,0.60802213,0.04789978,0.01051176"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:62v.5.29"
+    ]
+  },
+  {
     "urn": "urn:cts:greekLit:tlg5026.msA.hmt:5.1006",
     "lemma": "‡ Δάρης ὡς Χάρης",
     "dse": {

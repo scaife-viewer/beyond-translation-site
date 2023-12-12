@@ -1,5 +1,71 @@
 [
   {
+    "urn": "urn:cts:greekLit:tlg5026.msAint.hmt:7.2038",
+    "comment": "οτ  οἱ ἀρχαῖοι ἔκαιον τα σωματ  ·",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol2972",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA097VN_0600@0.8742,0.345,0.0342,0.0332"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:97v.7.333"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAint.hmt:7.2039",
+    "comment": "γράφεται ἦρχ' αγορεύειν ⁑",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol2973",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA097VN_0600@0.835,0.6111,0.0583,0.02"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:97v.7.347"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAim.hmt:7.2035",
+    "comment": "τὸ σε παρέλκει ⁑",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol2938",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA097VN_0600@0.4033,0.3181,0.0558,0.0238"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:97v.7.331"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAim.hmt:7.2036",
+    "comment": "Αριστ  δία τ  τ τύμβον τ' ἀμφι",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol2939",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA097VN_0600@0.4167,0.4126,0.0442,0.0363"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:97v.7.336"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAil.hmt:7.2040",
+    "comment": "ποιήσομεν",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol2983",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA097VN_0600@0.7175,0.4045,0.0492,0.0081"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:97v.7.336"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAil.hmt:7.2042",
+    "comment": "μέγαν·",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol2985",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA097VN_0600@0.5242,0.4277,0.0308,0.0094"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:97v.7.337"
+    ]
+  },
+  {
     "urn": "urn:cts:greekLit:tlg5026.msA.hmt:7.2030",
     "lemma": "απο προ νέων·",
     "dse": {
@@ -19,7 +85,6 @@
       "image_roi": "urn:cite2:hmt:vaimg.2017a:VA097VN_0600@0.1942,0.5673,0.2392,0.134"
     },
     "references": [
-      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:97v.7.336",
       "urn:cts:greekLit:tlg0012.tlg001.msA-folios:97v.7.337"
     ],
     "comment": "διασταλτέον ἐπι τὸ χεύομεν · τὸ δὲ ἐξαγαγόντες . ἤτοι ὕλην πρὸς τὴν τειχοποιΐαν ἡ ἀντι τοῦ προελθόντες πολὺ εἰς τὸ πεδίον · ἵνα ἡ μὲν εξ προθ  ἀντι τοῦ ἔξω ἐπιρρήματος κέηται τὸ δὲ ἀγαγόντες ἐν ἴ̈σῳ τῶ πορευθέντες περιλαμβάνουσι γὰρ τῷ ναυστάθμῳ καὶ τοῦ πεδίου μέρος τὸ δεύτερον ἄμεινον ⁑"
@@ -44,10 +109,6 @@
       "image_roi": "urn:cite2:hmt:vaimg.2017a:VA097VN_0600@0.2025,0.7176,0.6817,0.0495"
     },
     "references": [
-      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:97v.7.346",
-      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:97v.7.347",
-      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:97v.7.348",
-      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:97v.7.349",
       "urn:cts:greekLit:tlg0012.tlg001.msA-folios:97v.7.350"
     ],
     "comment": "βραχὺ διασταλτέον κατ αμφότερα μᾶλλον γὰρ οὕτως ἐμφαίνει . τὸ τρηχυῖα · τεταραγμένη . ἢ δια τὰ προλεχθέντα . ἢ δια το πολύκλητοι δ' έσαν . ἢ δια τὸ διχογνωμωνεῖν περι Ἑλένης ὡς Ἀντήνωρ καὶ Ἀντίμαχος δηλοῖ ὡς οὐχ οἱ βασιλεῖς συνήγαγον αὐτοὺς . ἀλλ' ἀγανακτοῦντες ῆκον εἰς τὰ βασίλεια ⁑"

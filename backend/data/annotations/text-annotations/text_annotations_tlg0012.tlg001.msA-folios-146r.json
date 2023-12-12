@@ -1,5 +1,56 @@
 [
   {
+    "urn": "urn:cts:greekLit:tlg5026.msAext.hmt:11.10",
+    "comment": "βέλος",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol4192",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA146RN_0318@0.852,0.4516,0.042,0.0165"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:146r.11.439"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAint.hmt:11.17",
+    "comment": "γράφεται Ἱππασιδήϊν",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol4210",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA146RN_0318@0.108,0.3023,0.056,0.0218"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:146r.11.431"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAim.hmt:11.51",
+    "comment": "ἐκ τριῶν μερῶν τοῦ λο  ὁλος ὁ στίχος",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol4534",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA146RN_0318@0.516,0.2183,0.078,0.0248"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:146r.11.427"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAil.hmt:11.204",
+    "comment": "α",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol4369",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA146RN_0318@0.507,0.2018,0.012,0.0098"
+    },
+    "references": []
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAil.hmt:11.205",
+    "comment": "πολλαχῶς κακῶς νομισθ",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol4370",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA146RN_0318@0.284,0.2738,0.095,0.015"
+    },
+    "references": []
+  },
+  {
     "urn": "urn:cts:greekLit:tlg5026.msA.hmt:11.165",
     "lemma": "‡ ὦ Ὀδυσεῦ πολύαινε :",
     "dse": {

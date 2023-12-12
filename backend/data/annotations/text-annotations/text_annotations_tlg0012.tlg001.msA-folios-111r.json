@@ -1,5 +1,47 @@
 [
   {
+    "urn": "urn:cts:greekLit:tlg5026.msAext.hmt:8.353",
+    "comment": "αἲ γαρ εῖ",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol3229",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA111RN_0283@0.8829,0.417,0.037,0.0248"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:111r.8.538"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAint.hmt:8.351",
+    "comment": "τελ",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol3224",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA111RN_0283@0.1441,0.5417,0.023,0.0158"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:111r.8.545"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAim.hmt:8.349",
+    "comment": "γρ  γεφύρη ⁑",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol3190",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA111RN_0283@0.5966,0.6243,0.037,0.0331"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:111r.8.553"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAil.hmt:8.354",
+    "comment": "α",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol3260",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA111RN_0283@0.4755,0.3539,0.016,0.0105"
+    },
+    "references": []
+  },
+  {
     "urn": "urn:cts:greekLit:tlg5026.msA.hmt:8.339",
     "lemma": "‡ εἴσομαι~",
     "dse": {
@@ -19,8 +61,6 @@
       "image_roi": "urn:cite2:hmt:vaimg.2017a:VA111RN_0283@0.1948,0.1436,0.6401,0.0774"
     },
     "references": [
-      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:111r.8.535",
-      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:111r.8.536",
       "urn:cts:greekLit:tlg0012.tlg001.msA-folios:111r.8.537"
     ],
     "comment": "ὅτι ἡ τούτους δεῖ τοὺς τρεῖς στίχους μένειν οἷς τὸ ἀντίσιγμα παράκειται , ἢ τοὺς ἑξῆς τρεῖς οἷς αἱ στιγμαὶ παράκεινται ἢ τοὺς ἑξῆς τρεῖς · εἰς γὰρ τὴν αὐτὴν γεγραμμένοι εἰσὶ διάνοιαν· ἐγκρίνει δὲ μᾶλλον ὁ Ἀρίσταρχος τοὺς δευτέρους δια τὸ καυχηματικωτέρους εἶναι τοὺς λόγους ὁ δε Ζηνόδοτος τοὺς πρώτους τρεῖς οὐδὲ ἔγραφεν τὰ αὐτὰ δὲ λέγει περι τῶν στίχων τούτων ὁ Δίδυμος ἃ καὶ ὁ Ἀριστόνικος · δι ὃ οὐκ εγράψαμεν τὰ Διδύμου ⁑"
@@ -33,7 +73,6 @@
       "image_roi": "urn:cite2:hmt:vaimg.2017a:VA111RN_0283@0.6182,0.4189,0.217,0.0368"
     },
     "references": [
-      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:111r.8.538",
       "urn:cts:greekLit:tlg0012.tlg001.msA-folios:111r.8.539"
     ],
     "comment": "οὕτως δια τοῦ εἶ τὸ εἲ γὰρ ἐγὼν ὥς καὶ τὸ ἀγήρως δια τοῦ ω ⁑"

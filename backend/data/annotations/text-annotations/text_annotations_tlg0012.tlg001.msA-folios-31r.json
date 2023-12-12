@@ -1,5 +1,71 @@
 [
   {
+    "urn": "urn:cts:greekLit:tlg5026.msAext.hmt:2.503",
+    "comment": "ἐπωκυποροισιν",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol1773",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA031RN_0032@0.7975,0.4671,0.0771,0.0219"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:31r.2.351"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAint.hmt:2.500",
+    "comment": "ἕν ἐστι τὸ τοῦσδε διὸ προπερισπαστέον : ⁑",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol1598",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA031RN_0032@0.1121,0.3783,0.0717,0.061"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:31r.2.346"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAint.hmt:2.501",
+    "comment": "τὸ σχημα ἀποστροφη ⁑",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol1599",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA031RN_0032@0.1142,0.6239,0.0675,0.0513"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:31r.2.360"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAim.hmt:2.498",
+    "comment": "ὅτι βουλεύωσιν αἱ Αριστάρχου ·",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol1530",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA031RN_0032@0.5296,0.3773,0.0529,0.0372"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:31r.2.347"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAim.hmt:2.499",
+    "comment": "διασταλτεον επι τὸ Κρονίω ν επι δε τὸ φεροντες ὑποστιγμη ⁑",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol1531",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA031RN_0032@0.5292,0.444,0.0575,0.0788"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:31r.2.352"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAil.hmt:2.502",
+    "comment": "ἀντὶ Τρῶος",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol1758",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA031RN_0032@0.3008,0.5307,0.0508,0.0144"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:31r.2.355"
+    ]
+  },
+  {
     "urn": "urn:cts:greekLit:tlg5026.msA.hmt:2.483",
     "lemma": "‡ πῃ δὴ συνθεσίαι τε :",
     "dse": {

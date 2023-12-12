@@ -31,7 +31,6 @@
       "image_roi": "urn:cite2:hmt:vaimg.2017a:VA270VN_0772@0.221,0.2958,0.225,0.039"
     },
     "references": [
-      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:270v.21.36",
       "urn:cts:greekLit:tlg0012.tlg001.msA-folios:270v.21.37"
     ],
     "comment": "ὅτι ἀλῳήν  τὴν δενδροφόρον γῆν νῦν λέγει ἐπιφέρει γὰρ ὁ δ' ἐρινεὸν ⁑"
@@ -66,7 +65,10 @@
     "dse": {
       "urn": "urn:cite2:hmt:va_dse.v1:schol6748",
       "image_roi": "urn:cite2:hmt:vaimg.2017a:VA270VN_0772@0.223,0.5841,0.248,0.0405"
-    }
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:270v.21.38"
+    ]
   },
   {
     "urn": "urn:cts:greekLit:tlg5026.msA.hmt:21.17",
@@ -76,7 +78,6 @@
       "image_roi": "urn:cite2:hmt:vaimg.2017a:VA270VN_0772@0.228,0.6216,0.223,0.0473"
     },
     "references": [
-      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:270v.21.42",
       "urn:cts:greekLit:tlg0012.tlg001.msA-folios:270v.21.43"
     ],
     "comment": "τὸ ἑξῆς ἐστιν ἐλύσατο Ί̈μβριος Ἠετίων δια μέσου δὲ τὸ πολλὰ δ' ἔδωκεν · ⁑"
@@ -89,10 +90,6 @@
       "image_roi": "urn:cite2:hmt:vaimg.2017a:VA270VN_0772@0.229,0.6652,0.223,0.0413"
     },
     "references": [
-      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:270v.21.49",
-      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:270v.21.50",
-      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:270v.21.51",
-      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:270v.21.52",
       "urn:cts:greekLit:tlg0012.tlg001.msA-folios:270v.21.53"
     ],
     "comment": "τὸ ἑξῆς ἐστι τὸν δ' ὡς οὖν ἐνόησεν ὀχθήσας δ' ἄρα εῖπεν· τὰ δὲ λοιπὰ δια μέσου διορθωτέον ⁑"

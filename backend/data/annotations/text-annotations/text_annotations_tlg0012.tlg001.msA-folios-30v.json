@@ -1,5 +1,38 @@
 [
   {
+    "urn": "urn:cts:greekLit:tlg5026.msAext.hmt:2.482",
+    "comment": "μὲν",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol1772",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA030VN_0532@0.1523,0.4343,0.0257,0.012"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:30v.2.324"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAim.hmt:2.480",
+    "comment": "οὕτως Ηρωδιανὸς δια τοῦ θ Αρισταρχος δια τοῦ τ ·",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol1528",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA030VN_0532@0.4443,0.5457,0.046,0.0333"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:30v.2.330"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAim.hmt:2.481",
+    "comment": "διασταλτέον ἐπι τὸ πώποι μαλλον γὰρ ἐμφαίνει καθ εαυτὸ λεγόμενον‡",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol1529",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA030VN_0532@0.4493,0.6713,0.2287,0.03"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:30v.2.337"
+    ]
+  },
+  {
     "urn": "urn:cts:greekLit:tlg5026.msA.hmt:2.468",
     "lemma": "‡ἔνθ' ὅ γε τοὺς ἐλεεινὰ·",
     "dse": {
@@ -103,8 +136,6 @@
       "image_roi": "urn:cite2:hmt:vaimg.2017a:VA030VN_0532@0.24,0.623,0.2133,0.0906"
     },
     "references": [
-      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:30v.2.333",
-      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:30v.2.334",
       "urn:cts:greekLit:tlg0012.tlg001.msA-folios:30v.2.335"
     ],
     "comment": "επι τὸ ΐαχον διαστολὴ καὶ επι τὸ Αχαιῶν ὑποστιγμῆ . δια μέσου δὲ τὸ ἀμφι δὲ νῆες καὶ τὰ εξής ἕως Ἀχαιῶν : καὶ τὸ εξῆς ἐστιν ΐαχον μῦθον ἐπαινήσαντες . ἐὰν δὲ στίζωμεν γίνεται σολοικισμὸς ἀϋσάντων ὑπ Αχαιῶν μῦθον ἐπαινήσαντες ⁑"

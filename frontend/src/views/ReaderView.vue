@@ -24,8 +24,11 @@
   import PassageAncestorsWidget from '@scaife-viewer/widget-passage-ancestors';
   import PassageSiblingsWidget from '@scaife-viewer/widget-passage-siblings';
   import PassageChildrenWidget from '@scaife-viewer/widget-passage-children';
+  import TOCWidget from '@scaife-viewer/widget-toc';
   import LibraryWidget from '@scaife-viewer/widget-library';
   import NamedEntitiesWidget from '@scaife-viewer/widget-named-entities';
+  // eslint-disable-next-line max-len
+  import GrammaticalEntriesWidget from '@scaife-viewer/widget-grammatical-entries';
   // eslint-disable-next-line max-len
   import PassageLemmaTraversalWidget from '@scaife-viewer/widget-passage-lemma-traversal';
   // eslint-disable-next-line max-len
@@ -36,6 +39,7 @@
   import AudioWidget from '@scaife-viewer/widget-audio';
   import WordListWidget from '@scaife-viewer/widget-word-list';
   import NewAlexandriaWidget from '@scaife-viewer/widget-new-alexandria';
+  import EmbedWidget from '@scaife-viewer/widget-embed';
 
   // import EHNewAlexandriaWidget from '../widgets/EHNewAlexandriaWidget.vue';
 
@@ -68,7 +72,7 @@
           PassageAncestorsWidget,
           PassageSiblingsWidget,
           PassageChildrenWidget,
-          // TOCWidget,
+          TOCWidget,
         ];
       },
       rightWidgets() {
@@ -78,6 +82,7 @@
           TextWidthWidget,
           AudioWidget,
           DisplayModeWidget,
+          GrammaticalEntriesWidget,
           NamedEntitiesWidget,
           PassageLemmaTraversalWidget,
           DictionaryEntriesWidget,
@@ -87,6 +92,7 @@
           NewAlexandriaWidget,
           WordListWidget,
           ScholiaWidget,
+          EmbedWidget,
           // EHNewAlexandriaWidget,
         ];
       },

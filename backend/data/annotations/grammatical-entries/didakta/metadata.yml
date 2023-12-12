@@ -1,0 +1,11 @@
+label: Didakta Grammar
+urn: urn:cite2:beyond-tranlsation:grammatical_entry_collection.atlas_v1:didakta_shamsian
+metadata:
+  attributions:
+  - name: Farnoosh Shamsian
+    role: Author
+# TODO: Handle jsonl vs csv vs JSON vs inline
+entries:
+- entries.jsonl
+tokens:
+- tokens.csv

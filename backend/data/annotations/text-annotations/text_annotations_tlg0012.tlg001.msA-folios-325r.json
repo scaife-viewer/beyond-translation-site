@@ -1,5 +1,60 @@
 [
   {
+    "urn": "urn:cts:greekLit:tlg5026.msAint.hmt:24.15",
+    "comment": "ἐν αλλ  οἱ μὲν δὴ θρήνεον :",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol7229",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA325RN_0495@0.139,0.5098,0.059,0.0263"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:325r.24.722"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAint.hmt:24.16",
+    "comment": "ἐν αλλω τοῖσιν ⁑",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol7230",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA325RN_0495@0.137,0.5323,0.06,0.0315"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:325r.24.723"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAim.hmt:24.42",
+    "comment": "γράφεται πόλιν δέ",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol7313",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA325RN_0495@0.608,0.4197,0.056,0.027"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:325r.24.717"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAim.hmt:24.43",
+    "comment": "Ζηνόδοτ  νεον ώλεο :",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol7314",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA325RN_0495@0.602,0.5706,0.102,0.0278"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:325r.24.725"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAim.hmt:24.44",
+    "comment": "ἐν ἄλλω· πάϊς δ' έτι ⁑",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol7315",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA325RN_0495@0.606,0.5968,0.097,0.0248"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:325r.24.726"
+    ]
+  },
+  {
     "urn": "urn:cts:greekLit:tlg5026.msA.hmt:24.108",
     "lemma": "ή τις Ἀχαιῶν ῥίψει χειρὸς ἑλὼν :",
     "dse": {

@@ -1,5 +1,16 @@
 [
   {
+    "urn": "urn:cts:greekLit:tlg5026.msAext.hmt:6.294",
+    "comment": "ἀμφατέρων",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol2780",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA082VN_0585@0.08621960,0.55449516,0.04605748,0.02130014"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:82v.6.120"
+    ]
+  },
+  {
     "urn": "urn:cts:greekLit:tlg5026.msA.hmt:6.30",
     "lemma": "Τρωσὶν ἀλεξήσοντα",
     "dse": {
@@ -29,7 +40,10 @@
     "dse": {
       "urn": "urn:cite2:hmt:va_dse.v1:schol2569",
       "image_roi": "urn:cite2:hmt:vaimg.2017a:VA082VN_0585@0.16083272,0.46237898,0.21260133,0.03734440"
-    }
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:82v.6.119"
+    ]
   },
   {
     "urn": "urn:cts:greekLit:tlg5026.msA.hmt:6.34",

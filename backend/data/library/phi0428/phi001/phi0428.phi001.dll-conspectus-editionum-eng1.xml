@@ -1,0 +1,696 @@
+<?xml version="1.1" encoding="UTF-8"?>
+<?xml-model href="https://digitallatin.github.io/guidelines/critical-editions.rng"
+type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://digitallatin.github.io/guidelines/critical-editions.rng"
+type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Bellum Alexandrinum</title>
+            <editor xml:id="damon" ref="http://viaf.org/viaf/116523553">Cynthia Damon, et al.</editor>
+            <sponsor>Society for Classical Studies</sponsor>
+            <respStmt>
+               <resp>TEI XML encoding:</resp>
+               <name xml:id="huskey" ref="https://orcid.org/0000-0002-8192-9385">Samuel J. Huskey</name>
+            </respStmt>
+            <respStmt>
+               <resp>Programming for automatic generation of TEI XML:</resp>
+               <name>Virgina K. Felkner</name>
+            </respStmt>
+            <respStmt>
+               <resp>Coauthor of content related to section 2.5:</resp>
+               <name sameAs="#DSimons">Dallas Simons</name>
+            </respStmt>
+            <respStmt>
+               <resp>Consultant on TEI XML encoding.</resp>
+               <name ref="https://orcid.org/0000-0003-0060-9396">Hugh Cayless</name>
+            </respStmt>
+            <respStmt>
+               <resp>Coauthor of content related to sections 12.1–2 and 13.5:</resp>
+               <name sameAs="#Vozar">Tom Vozar</name>
+            </respStmt>
+            <respStmt>
+               <resp>Coauthor of content related to section 26.1–2:</resp>
+               <name sameAs="#Persyn">Marcie Persyn</name>
+            </respStmt>
+            <respStmt>
+               <resp>Coauthor of content related to sections 35.3 and 36.4–5:</resp>
+               <name sameAs="#Kovalchuk">Maria Kovalchuk</name>
+            </respStmt>
+            <respStmt>
+               <resp>Coauthor of content related to sections 47.2, 49.1, and 49.2–3:</resp>
+               <name sameAs="#Warnock">Tim Warnock</name>
+            </respStmt>
+            <respStmt>
+               <resp>Coauthor of content related to section 60.2:</resp>
+               <name sameAs="#Reinhardt">Isabella Reinhardt</name>
+            </respStmt>
+            <respStmt>
+               <resp>Coauthor of content related to sections 63.5 and 66.3–4:</resp>
+               <name sameAs="#Credo">Brian Credo</name>
+            </respStmt>
+            <respStmt>
+               <resp>Coauthor of content related to sections 67.1 and 68.1:</resp>
+               <name sameAs="#Bensch-Schaus">Amelia Bensch-Schaus</name>
+            </respStmt>
+            <respStmt>
+               <resp>Coauthor of content related to sections 72.2–3 and 74.4:</resp>
+               <name sameAs="#Hanson">Wes Hanson</name>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.1">First Public Beta Edition</edition>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>The Digital Latin Library</publisher>
+            <address>
+               <street>650 Parrington Oval</street>
+               <addrLine>Carnegie Building 101</addrLine>
+               <settlement>Norman</settlement>
+               <name>OK</name>
+               <postCode>73071</postCode>
+               <country>USA</country>
+            </address>
+            <authority>The University of Oklahoma</authority>
+            <pubPlace>Norman, OK</pubPlace>
+            <date>2022</date>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by-sa/4.0/legalcode">Creative
+                  Commons Attribution-ShareAlike 4.0 International Licence (CC BY-SA 4.0)</licence>
+            </availability>
+         </publicationStmt>
+         <seriesStmt>
+            <title level="s">Library of Digital Latin Texts</title>
+            <respStmt>
+               <resp>Edited by</resp>
+               <name ref="#huskey">Samuel J. Huskey</name>
+            </respStmt>
+            <biblScope unit="volume">1</biblScope>
+            <idno type="DOI"/>
+         </seriesStmt>
+         <sourceDesc>
+            <p>Born digital.</p>
+         </sourceDesc>
+      </fileDesc>
+     <encodingDesc>
+       <listPrefixDef>
+         <prefixDef ident="dc" matchPattern="([a-zA-Z]+)" replacementPattern="http://purl.org/dc/terms/$1"/>
+       </listPrefixDef>
+       <refsDecl>
+         <!-- There's a citeStructure for each section of the document we want to a) appear in the ToC,
+             b) be output as a separate file.
+
+             @match selects the document section(s) to be used in resolving citations.
+             @use indicates the the string that will be used in citations. -->
+         <citeStructure match="//front/div[@xml:id='preface']" use="head">
+           <!-- Defines the identifier to use for this structure -->
+           <citeData property="dc:identifier" use="@xml:id"/>
+           <!-- Defines the title to be used for this structure (e.g. in a ToC) -->
+           <citeData property="dc:title" use="head"/>
+           <!-- Specifies a function for this structure, in this case, it should be used as an entry in the ToC. -->
+           <citeData property="function" use="'toc-entry'"/>
+           <citeStructure match="./div[@type='section']" use="head" delim=", ">
+             <citeData property="dc:title" use="head"/>
+             <citeData property="dc:identifier" use="@xml:id"/>
+             <citeData property="function" use="'toc-entry'"/>
+             <!-- This structure should be split out into a separate document. -->
+             <citeData property="function" use="'split'"/>
+             <!-- When it is split out, the bibliography should go along with it -->
+             <citeData property="dc:requires" use="//front/div[@type='bibliography']"/>
+           </citeStructure>
+         </citeStructure>
+         <citeStructure match="//front/div[@xml:id='bibliography']" use="head">
+           <citeData property="dc:identifier" use="@xml:id"/>
+           <citeData property="dc:title" use="head"/>
+           <citeData property="function" use="'toc-entry'"/>
+           <citeStructure match="./div[@type='section']" use="head" delim=", ">
+             <citeData property="dc:identifier" use="@xml:id"/>
+             <citeData property="dc:title" use="head"/>
+             <citeData property="function" use="'toc-entry'"/>
+             <citeData property="function" use="'split'"/>
+           </citeStructure>
+         </citeStructure>
+         <citeStructure match="//front/div[@xml:id='conspectus-editionum']" use="head" delim=", ">
+           <citeData property="dc:identifier" use="@xml:id"/>
+           <citeData property="dc:title" use="head"/>
+           <citeData property="function" use="'toc-entry'"/>
+           <citeData property="function" use="'split'"/>
+         </citeStructure>
+         <!-- The @unit attribute marks a citeStructure as a citable unit and makes e.g., 4.100 resolvable to poem 4, line 100. -->
+         <citeStructure match="//div[@type='edition']" use="head">
+           <citeData property="dc:title" use="head"/>
+           <citeData property="function" use="'toc-entry'"/>
+           <citeStructure match="p" use="@n" unit="chapter" delim=' '>
+             <citeData property="dc:title" use="@n"/>
+             <citeData property="dc:identifier" use="@n"/>
+             <citeData property="function" use="'toc-entry'"/>
+             <citeData property="function" use="'split'"/>
+             <citeData property="dc:requires" use="//front/div[@xml:id='bibliography']"/>
+             <citeStructure match=".//seg" use="@n" delim="." unit="part"/>
+           </citeStructure>
+         </citeStructure>
+          <citeStructure match="//back/div[@type='commentary'][@xml:id='appendix-critica']" use="head">
+             <citeData property="dc:identifier" use="@xml:id"/>
+             <citeData property="dc:title" use="head"/>
+             <citeData property="function" use="'toc-entry'"/>
+             <citeData property="function" use="'split'"/>
+          </citeStructure>
+         <citeStructure match="//back/div[@type='commentary'][@xml:id='commentary']" use="head">
+           <citeData property="dc:identifier" use="@xml:id"/>
+           <citeData property="dc:title" use="head"/>
+           <citeData property="function" use="'toc-entry'"/>
+            <citeStructure match="./div[@type='section']" use="head" delim=' '>
+               <citeData property="dc:identifier" use="@xml:id"/>
+               <citeData property="dc:title" use="head"/>
+               <citeData property="function" use="'toc-entry'"/>
+               <citeData property="function" use="'split'"/>
+            </citeStructure>
+         </citeStructure>
+       </refsDecl>
+     </encodingDesc>
+      <revisionDesc>
+         <listChange>
+            <change who="#huskey" when="2022-11-04">Adding revisionDesc to begin tracking changes after public beta release.</change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <front xml:id="front">
+        <titlePage xml:id="titlepage">
+          <docTitle>
+            <titlePart><title>Bellum Alexandrinum</title></titlePart>
+          </docTitle>
+          <byline>Cynthia Damon, et al.</byline>
+        </titlePage>
+         <!-- Begin conspectus editionum -->
+         <div type="section" xml:id="conspectus-editionum">
+            <head>Conspectus Editionum</head>
+            <table>
+               <row>
+                  <cell n="1"><hi rend="italic">BAlex</hi></cell>
+                  <cell n="2">Budé</cell>
+                  <cell n="3">LDLT</cell>
+               </row>
+               <row>
+                  <cell n="1">1.5</cell>
+                  <cell n="2">spectans</cell>
+                  <cell n="3">expectans</cell>
+               </row>
+               <row>
+                  <cell n="1">2.1</cell>
+                  <cell n="2">adduxerant</cell>
+                  <cell n="3">⟨armatorum⟩ adduxerant</cell>
+               </row>
+               <row>
+                  <cell n="1">7.2</cell>
+                  <cell n="2">[casum]</cell>
+                  <cell n="3">casum</cell>
+               </row>
+               <row>
+                  <cell n="1">7.2</cell>
+                  <cell n="2">†ut ... essent ... absumeretur†</cell>
+                  <cell n="3">ut ... esse ... absumeretur</cell>
+               </row>
+               <row>
+                  <cell n="1">8.2</cell>
+                  <cell n="2">Paraetonio</cell>
+                  <cell n="3">Paratonio</cell>
+               </row>
+               <row>
+                  <cell n="1">10.2</cell>
+                  <cell n="2">accessisset</cell>
+                  <cell n="3">accessissent</cell>
+               </row>
+               <row>
+                  <cell n="1">10.2</cell>
+                  <cell n="2">exposuisset</cell>
+                  <cell n="3">exposuissent</cell>
+               </row>
+               <row>
+                  <cell n="1">11.2</cell>
+                  <cell n="2">⟨hostium⟩</cell>
+                  <cell n="3">⟨suorum⟩</cell>
+               </row>
+               <row>
+                  <cell n="1">12.1</cell>
+                  <cell n="2">quibus *** et </cell>
+                  <cell n="3">quibus et ***</cell>
+               </row>
+               <row>
+                  <cell n="1">12.3</cell>
+                  <cell n="2">amiserant</cell>
+                  <cell n="3">miserant</cell>
+               </row>
+               <row>
+                  <cell n="1">12.4</cell>
+                  <cell n="2">Caesari</cell>
+                  <cell n="3">Caesaris</cell>
+               </row>
+               <row>
+                  <cell n="1">13.5</cell>
+                  <cell n="2">⟨Syrias***, Ci⟩licias</cell>
+                  <cell n="3">Lycias</cell>
+               </row>
+               <row>
+                  <cell n="1">13.5</cell>
+                  <cell n="2">†et†</cell>
+                  <cell n="3">et</cell>
+               </row>
+               <row>
+                  <cell n="1">14.1</cell>
+                  <cell n="2">Rhodias</cell>
+                  <cell n="3">Rhodios</cell>
+               </row>
+               <row>
+                  <cell n="1">14.1</cell>
+                  <cell n="2">Ponticas</cell>
+                  <cell n="3">Ponticos</cell>
+               </row>
+               <row>
+                  <cell n="1">14.1</cell>
+                  <cell n="2">has</cell>
+                  <cell n="3">hos</cell>
+               </row>
+               <row>
+                  <cell n="1">15.3</cell>
+                  <cell n="2">⟨cunctationem⟩ </cell>
+                  <cell n="3">⟨moram⟩</cell>
+               </row>
+               <row>
+                  <cell n="1">15.5</cell>
+                  <cell n="2">, IIII</cell>
+                  <cell n="3">IIII, </cell>
+               </row>
+               <row>
+                  <cell n="1">15.8</cell>
+                  <cell n="2">qui</cell>
+                  <cell n="3">⟨nisi⟩ qui</cell>
+               </row>
+               <row>
+                  <cell n="1">16.1</cell>
+                  <cell n="2">[uictis] </cell>
+                  <cell n="3">uictis</cell>
+               </row>
+               <row>
+                  <cell n="1">16.3</cell>
+                  <cell n="2">⟨rerum⟩</cell>
+                  <cell n="3">⟨exercitus⟩</cell>
+               </row>
+               <row>
+                  <cell n="1">17.2</cell>
+                  <cell n="2">et illa et urbem </cell>
+                  <cell n="3">⟨et hanc⟩ et illam [urbem]</cell>
+               </row>
+               <row>
+                  <cell n="1">17.3</cell>
+                  <cell n="2">quos</cell>
+                  <cell n="3">quosque</cell>
+               </row>
+               <row>
+                  <cell n="1">17.3</cell>
+                  <cell n="2">et alteram insulae partem distinendae </cell>
+                  <cell n="3">in alteram insulae partem *** distinendae</cell>
+               </row>
+               <row>
+                  <cell n="1">17.3</cell>
+                  <cell n="2">praemiis[que]</cell>
+                  <cell n="3">praemiis </cell>
+               </row>
+               <row>
+                  <cell n="1">19.2</cell>
+                  <cell n="2">fortiorem</cell>
+                  <cell n="3">certiorem</cell>
+               </row>
+               <row>
+                  <cell n="1">20.4</cell>
+                  <cell n="2">perturbantes</cell>
+                  <cell n="3">perturbatos</cell>
+               </row>
+               <row>
+                  <cell n="1">22.2</cell>
+                  <cell n="2">*** comprehendi multum operibus *** et </cell>
+                  <cell n="3">*** comprehendi †multum† operibus et </cell>
+               </row>
+               <row>
+                  <cell n="1">24.2</cell>
+                  <cell n="2">parceret</cell>
+                  <cell n="3">parceret [et]</cell>
+               </row>
+               <row>
+                  <cell n="1">25.1</cell>
+                  <cell n="2">Caesari</cell>
+                  <cell n="3">Caesaris</cell>
+               </row>
+               <row>
+                  <cell n="1">26.2</cell>
+                  <cell n="2">Pelusium aduenit</cell>
+                  <cell n="3">—Pelusium adducit</cell>
+               </row>
+               <row>
+                  <cell n="1">26.2</cell>
+                  <cell n="2">[multiplici praesidio] </cell>
+                  <cell n="3">multiplici praesidio</cell>
+               </row>
+               <row>
+                  <cell n="1">27.5</cell>
+                  <cell n="2">[constantiaque] </cell>
+                  <cell n="3">constantiaque</cell>
+               </row>
+               <row>
+                  <cell n="1">27.7</cell>
+                  <cell n="2">adiunctis</cell>
+                  <cell n="3">adiuncti</cell>
+               </row>
+               <row>
+                  <cell n="1">31.3</cell>
+                  <cell n="2">partibus ***,</cell>
+                  <cell n="3">partibus,</cell>
+               </row>
+               <row>
+                  <cell n="1">32.1</cell>
+                  <cell n="2">magna</cell>
+                  <cell n="3">magnae</cell>
+               </row>
+               <row>
+                  <cell n="1">33.4</cell>
+                  <cell n="2">[itinere terrestri]</cell>
+                  <cell n="3">itinere terrestri</cell>
+               </row>
+               <row>
+                  <cell n="1">35.1</cell>
+                  <cell n="2">opportunitates ⟨cognouerat⟩ </cell>
+                  <cell n="3">⟨constat⟩ opportunitates</cell>
+               </row>
+               <row>
+                  <cell n="1">36.3</cell>
+                  <cell n="2">castra</cell>
+                  <cell n="3">[ex] castra</cell>
+               </row>
+               <row>
+                  <cell n="1">36.5</cell>
+                  <cell n="2">si[ue] amicus [siue inimicus]</cell>
+                  <cell n="3">siue amicus siue inimicus</cell>
+               </row>
+               <row>
+                  <cell n="1">36.5</cell>
+                  <cell n="2">si</cell>
+                  <cell n="3">sin</cell>
+               </row>
+               <row>
+                  <cell n="1">37.3</cell>
+                  <cell n="2">contulit</cell>
+                  <cell n="3">contulit [rex]</cell>
+               </row>
+               <row>
+                  <cell n="1">40.2</cell>
+                  <cell n="2">circumire acies secunda</cell>
+                  <cell n="3">circumire ac transcendere</cell>
+               </row>
+               <row>
+                  <cell n="1">40.2</cell>
+                  <cell n="2">⟨ab⟩ aperto</cell>
+                  <cell n="3">aperto</cell>
+               </row>
+               <row>
+                  <cell n="1">42.2</cell>
+                  <cell n="2">exercitum alendum</cell>
+                  <cell n="3">exercitus alendos</cell>
+               </row>
+               <row>
+                  <cell n="1">42.3</cell>
+                  <cell n="2">Iadestinorum</cell>
+                  <cell n="3">Iadertinorum</cell>
+               </row>
+               <row>
+                  <cell n="1">44.4</cell>
+                  <cell n="2">His adiunctis</cell>
+                  <cell n="3">Has adiunxit</cell>
+               </row>
+               <row>
+                  <cell n="1">45.2</cell>
+                  <cell n="2">distensis</cell>
+                  <cell n="3">distentis</cell>
+               </row>
+               <row>
+                  <cell n="1">48.3</cell>
+                  <cell n="2">minuebant</cell>
+                  <cell n="3">minuebat</cell>
+               </row>
+               <row>
+                  <cell n="1">49.1</cell>
+                  <cell n="2">antea</cell>
+                  <cell n="3">in ea</cell>
+               </row>
+               <row>
+                  <cell n="1">49.2</cell>
+                  <cell n="2">simultatium causa</cell>
+                  <cell n="3">simul et causae</cell>
+               </row>
+               <row>
+                  <cell n="1">51.2</cell>
+                  <cell n="2">uoluptate</cell>
+                  <cell n="3">uoluntate</cell>
+               </row>
+               <row>
+                  <cell n="1">51.3</cell>
+                  <cell n="2">discriberentur</cell>
+                  <cell n="3">describerentur</cell>
+               </row>
+               <row>
+                  <cell n="1">52.4</cell>
+                  <cell n="2">Ad</cell>
+                  <cell n="3">At</cell>
+               </row>
+               <row>
+                  <cell n="1">53.4</cell>
+                  <cell n="2">⟨L.⟩ Laterensis</cell>
+                  <cell n="3">Laterensis</cell>
+               </row>
+               <row>
+                  <cell n="1">54.3</cell>
+                  <cell n="2">iudicaretur</cell>
+                  <cell n="3">indicaretur</cell>
+               </row>
+               <row>
+                  <cell n="1">55.1</cell>
+                  <cell n="2">legiones</cell>
+                  <cell n="3">legionem quintam</cell>
+               </row>
+               <row>
+                  <cell n="1">55.1</cell>
+                  <cell n="2">V cohortibus</cell>
+                  <cell n="3">cohortibus</cell>
+               </row>
+               <row>
+                  <cell n="1">55.5</cell>
+                  <cell n="2">Squillo</cell>
+                  <cell n="3">Q. Sestio</cell>
+               </row>
+               <row>
+                  <cell n="1">56.2</cell>
+                  <cell n="2">⟨superiorum⟩ temporum</cell>
+                  <cell n="3">temporum</cell>
+               </row>
+               <row>
+                  <cell n="1">56.2</cell>
+                  <cell n="2">animi</cell>
+                  <cell n="3">animus</cell>
+               </row>
+               <row>
+                  <cell n="1">57.1</cell>
+                  <cell n="2">Ilipam</cell>
+                  <cell n="3">Leptim</cell>
+               </row>
+               <row>
+                  <cell n="1">57.2</cell>
+                  <cell n="2">Naeuam</cell>
+                  <cell n="3">†noctu†</cell>
+               </row>
+               <row>
+                  <cell n="1">57.3</cell>
+                  <cell n="2">T. Thorium</cell>
+                  <cell n="3">†in† Torium</cell>
+               </row>
+               <row>
+                  <cell n="1">58.1</cell>
+                  <cell n="2">Thorius</cell>
+                  <cell n="3">Torius</cell>
+               </row>
+               <row>
+                  <cell n="1">59.1</cell>
+                  <cell n="2">deterserunt</cell>
+                  <cell n="3">detraxerunt</cell>
+               </row>
+               <row>
+                  <cell n="1">60.1</cell>
+                  <cell n="2">educerentur ⟨orant⟩</cell>
+                  <cell n="3">educerentur</cell>
+               </row>
+               <row>
+                  <cell n="1">60.2</cell>
+                  <cell n="2">esse ***</cell>
+                  <cell n="3">esset</cell>
+               </row>
+               <row>
+                  <cell n="1">60.3</cell>
+                  <cell n="2">uideret</cell>
+                  <cell n="3">animaduerteret</cell>
+               </row>
+               <row>
+                  <cell n="1">60.4</cell>
+                  <cell n="2">infirmem</cell>
+                  <cell n="3">infirmum</cell>
+               </row>
+               <row>
+                  <cell n="1">60.5</cell>
+                  <cell n="2">educunt</cell>
+                  <cell n="3">educit</cell>
+               </row>
+               <row>
+                  <cell n="1">61.4</cell>
+                  <cell n="2">deductus</cell>
+                  <cell n="3">adductus</cell>
+               </row>
+               <row>
+                  <cell n="1">61.6</cell>
+                  <cell n="2">magno sibi usu</cell>
+                  <cell n="3">sibi usui</cell>
+               </row>
+               <row>
+                  <cell n="1">62.1</cell>
+                  <cell n="2">complures[que]</cell>
+                  <cell n="3">complures</cell>
+               </row>
+               <row>
+                  <cell n="1">62.1</cell>
+                  <cell n="2">auxiliarias</cell>
+                  <cell n="3">auxiliares</cell>
+               </row>
+               <row>
+                  <cell n="1">62.2</cell>
+                  <cell n="2">Marcellum fouebant</cell>
+                  <cell n="3">Marcello fauebant</cell>
+               </row>
+               <row>
+                  <cell n="1">64.2</cell>
+                  <cell n="2">uenit</cell>
+                  <cell n="3">⟨uenit⟩</cell>
+               </row>
+               <row>
+                  <cell n="1">64.3</cell>
+                  <cell n="2">in </cell>
+                  <cell n="3">⟨in⟩</cell>
+               </row>
+               <row>
+                  <cell n="1">64.3</cell>
+                  <cell n="2">in derectum</cell>
+                  <cell n="3">derectam</cell>
+               </row>
+               <row>
+                  <cell n="1">65.1</cell>
+                  <cell n="2">re</cell>
+                  <cell n="3">rei</cell>
+               </row>
+               <row>
+                  <cell n="1">65.2</cell>
+                  <cell n="2">hae</cell>
+                  <cell n="3">eae</cell>
+               </row>
+               <row>
+                  <cell n="1">66.1</cell>
+                  <cell n="2">legioni</cell>
+                  <cell n="3">legionibus</cell>
+               </row>
+               <row>
+                  <cell n="1">66.1</cell>
+                  <cell n="2">praeficit</cell>
+                  <cell n="3">praefecit</cell>
+               </row>
+               <row>
+                  <cell n="1">66.5</cell>
+                  <cell n="2">coeptum</cell>
+                  <cell n="3">inceptum</cell>
+               </row>
+               <row>
+                  <cell n="1">67.1</cell>
+                  <cell n="2">⟨in⟩ Caesaris</cell>
+                  <cell n="3">Caesaris </cell>
+               </row>
+               <row>
+                  <cell n="1">67.1</cell>
+                  <cell n="2">habuisset</cell>
+                  <cell n="3">habuisset ⟨et coactus⟩</cell>
+               </row>
+               <row>
+                  <cell n="1">67.1</cell>
+                  <cell n="2">imperiisque ⟨aduersariorum coactus⟩</cell>
+                  <cell n="3">imperiisque</cell>
+               </row>
+               <row>
+                  <cell n="1">68.1</cell>
+                  <cell n="2">defectionem</cell>
+                  <cell n="3">defensionem</cell>
+               </row>
+               <row>
+                  <cell n="1">68.2</cell>
+                  <cell n="2">armatura</cell>
+                  <cell n="3">natura</cell>
+               </row>
+               <row>
+                  <cell n="1">70.4</cell>
+                  <cell n="2">quin</cell>
+                  <cell n="3">quamquam</cell>
+               </row>
+               <row>
+                  <cell n="1">70.8</cell>
+                  <cell n="2">⟨Id⟩ si</cell>
+                  <cell n="3">si</cell>
+               </row>
+               <row>
+                  <cell n="1">72.2</cell>
+                  <cell n="2">†superioribus … oppido† superioribus … oppido</cell>
+                  <cell n="3"/>
+               </row>
+               <row>
+                  <cell n="1">73.3</cell>
+                  <cell n="2">iussit</cell>
+                  <cell n="3">tum iussit</cell>
+               </row>
+               <row>
+                  <cell n="1">74.3</cell>
+                  <cell n="2">contemptu</cell>
+                  <cell n="3">contemptione</cell>
+               </row>
+               <row>
+                  <cell n="1">74.4</cell>
+                  <cell n="2">praeruptam</cell>
+                  <cell n="3">procliuem</cell>
+               </row>
+               <row>
+                  <cell n="1">75.1</cell>
+                  <cell n="2">opere</cell>
+                  <cell n="3">operibus</cell>
+               </row>
+               <row>
+                  <cell n="1">75.3</cell>
+                  <cell n="2">eis </cell>
+                  <cell n="3">iis ⟨in⟩</cell>
+               </row>
+               <row>
+                  <cell n="1">78.2</cell>
+                  <cell n="2">quod ⟨regnum⟩</cell>
+                  <cell n="3">quod</cell>
+               </row>
+               <row>
+                  <cell n="1"/>
+               </row>
+            </table>
+         </div>
+         <!-- End conspectus editionum -->
+      </front>
+      <body>
+         <div type="textpart"></div>
+      </body>
+   </text>
+</TEI>

@@ -1,5 +1,60 @@
 [
   {
+    "urn": "urn:cts:greekLit:tlg5026.msAext.hmt:3.735",
+    "comment": "μάρτυροί εστε",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol2022",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA047VN_0549@0.11443458,0.28736964,0.05712080,0.01332561"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:47v.3.280"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAext.hmt:3.736",
+    "comment": "εἰ μεν κεν",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol2023",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA047VN_0549@0.11945195,0.30257822,0.04284060,0.01260139"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:47v.3.281"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAim.hmt:3.733",
+    "comment": "οὕτως διὰ τοῦ η τὸ μαχήσομαι ᾿Αρισταρχος ⁑",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol1992",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA047VN_0549@0.42609031,0.48334299,0.05480509,0.04113557"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:47v.3.290"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAim.hmt:3.734",
+    "comment": "᾿Αρισταρχος ἀφυσσόμε  δια τοῦ ο · ἄλλοι δὲ διὰ τοῦ α ⁑",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol1993",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA047VN_0549@0.43824778,0.57575319,0.03994597,0.04099073"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:47v.3.295"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAil.hmt:3.737",
+    "comment": "ἀν τλήσ",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol1969",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA047VN_0549@0.66634504,0.57329085,0.11076804,0.02723059"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:47v.3.295"
+    ]
+  },
+  {
     "urn": "urn:cts:greekLit:tlg5026.msA.hmt:3.416",
     "lemma": "Ἠέλιος θ'",
     "dse": {

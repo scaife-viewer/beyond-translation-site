@@ -1,5 +1,111 @@
 [
   {
+    "urn": "urn:cts:greekLit:tlg5026.msAext.hmt:16.A1",
+    "comment": "ἠὲ αυ'",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol8052",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA206RN_0377@0.824,0.5109,0.046,0.0301"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:206r.16.17"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAint.hmt:16.A1",
+    "comment": "οτ  ἑανὸς καὶ πέπλος τὸ ἔνδυμα ⁑",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol8035",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA206RN_0377@0.1,0.3606,0.089,0.0376"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:206r.16.9"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAint.hmt:16.A2",
+    "comment": "πάντες περιεσπάσθησαν οἱ συν κατ λόγον τῶν ερωτηματικῶν ⁑",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol8036",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA206RN_0377@0.123,0.4117,0.068,0.0676"
+    },
+    "references": []
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAint.hmt:16.A3",
+    "comment": "δια τοῦ η τεθνῃώτων αἱ Ἀρισταρχ",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol8037",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA206RN_0377@0.105,0.5004,0.079,0.0353"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:206r.16.16"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAint.hmt:16.A4",
+    "comment": "πρὸς τὴν τοῦ λόγου αποστροφήν ⁑",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol8038",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA206RN_0377@0.111,0.5755,0.065,0.0413"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:206r.16.20"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAint.hmt:16.A5",
+    "comment": "ὡς ἱ+στάμεἱ+στάμενοι προ προείρητ δὲ :",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol8039",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA206RN_0377@0.1,0.6454,0.086,0.0255"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:206r.16.24"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAint.hmt:16.A6",
+    "comment": "Ἀριστοφ έξω τοῦ άρθρου βέβλητ μὲν Τυδείδης ⁑",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol8040",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA206RN_0377@0.12,0.6679,0.068,0.0451"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:206r.16.25"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAim.hmt:16.A1",
+    "comment": "Ζηνοδ δακρυόσσα δέ μιν προσδέρκεται .",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol8019",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA206RN_0377@0.603,0.3802,0.088,0.0308"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:206r.16.10"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAim.hmt:16.A2",
+    "comment": "οτ ἐλλειπ ἡ περί περὶ Ἀργείων ⁑",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol8020",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA206RN_0377@0.555,0.5101,0.065,0.0413"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:206r.16.17"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAil.hmt:16.A1",
+    "comment": "αντ σημαίνεις",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol8033",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA206RN_0377@0.393,0.4147,0.082,0.0165"
+    },
+    "references": []
+  },
+  {
     "urn": "urn:cts:greekLit:tlg5026.msA.hmt:16.A1",
     "lemma": "ὥς οι μὲν περι νηὸς ἐϋσσέλμοιο",
     "dse": {

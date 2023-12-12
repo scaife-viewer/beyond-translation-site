@@ -1,5 +1,49 @@
 [
   {
+    "urn": "urn:cts:greekLit:tlg5026.msAext.hmt:7.1065",
+    "comment": " οσ' ἐίσην",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol2908",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA095VN_0598@0.11,0.6731,0.04,0.0238"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:95v.7.250"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAim.hmt:7.1062",
+    "comment": "ουτ  Ἀρισταρχ  βῶν ·   αντ  τοῦ ασπίδ ἀσπίδα",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol2905",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA095VN_0598@0.4117,0.4389,0.0492,0.0338"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:95v.7.238"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAim.hmt:7.1063",
+    "comment": "γράφεται καὶ επαΐξειν",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol2906",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA095VN_0598@0.3892,0.4765,0.0725,0.02"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:95v.7.240"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAim.hmt:7.1064",
+    "comment": "Ἀρίσταρχ  σὺν τῷ ν δηΐων πληθυντικῶς ⁑",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol2907",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA095VN_0598@0.4025,0.4972,0.0533,0.0839"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:95v.7.241"
+    ]
+  },
+  {
     "urn": "urn:cts:greekLit:tlg5026.msA.hmt:7.1057",
     "lemma": "‡ ῥηξήνορα·",
     "dse": {

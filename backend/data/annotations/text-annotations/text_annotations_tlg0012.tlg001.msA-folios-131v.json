@@ -1,5 +1,63 @@
 [
   {
+    "urn": "urn:cts:greekLit:tlg5026.msAext.hmt:10.2547",
+    "comment": "παρίσταο",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol3966",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA131VN_0634@0.104,0.4831,0.049,0.0263"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:131v.10.291"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAim.hmt:10.2546",
+    "comment": "ουτ  ἀρισταρχ  ἄλλοι δὲ παρίστασο :",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol3965",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA131VN_0634@0.424,0.4936,0.054,0.0406"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:131v.10.291"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAil.hmt:10.2548",
+    "comment": "ευ",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol3967",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA131VN_0634@0.555,0.2502,0.023,0.009"
+    },
+    "references": []
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAil.hmt:10.2553",
+    "comment": "ποτ  Βοιωτίας",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol3968",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA131VN_0634@0.595,0.4192,0.062,0.009"
+    },
+    "references": []
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAil.hmt:10.2554",
+    "comment": "τοῖς Θηβαίοις",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol3969",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA131VN_0634@0.779,0.438,0.07,0.0113"
+    },
+    "references": []
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAil.hmt:10.2555",
+    "comment": "ε",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol3970",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA131VN_0634@0.535,0.4576,0.011,0.0083"
+    },
+    "references": []
+  },
+  {
     "urn": "urn:cts:greekLit:tlg5026.msA.hmt:10.2536",
     "lemma": "‡ χαῖρε δὲ τῷ ὄρνιθι δ' Ὀδυσεὺς :",
     "dse": {

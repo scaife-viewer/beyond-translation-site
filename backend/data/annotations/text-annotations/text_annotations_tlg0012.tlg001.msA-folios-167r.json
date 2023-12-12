@@ -1,5 +1,60 @@
 [
   {
+    "urn": "urn:cts:greekLit:tlg5026.msAint.hmt:13.167r1",
+    "comment": "τὸ εξῆσ καὶ βαλε κατ' ασπίδα ουτως οὖν διὀρθωτέον ⁑",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol8411",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA167RN_0338@0.1253,0.3770,0.06006,0.03223"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:167r.13.160"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAint.hmt:13.167r2",
+    "comment": "οτι νῦν χώσατο αντι τοῦ συνεχυθη ⁑",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol8412",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA167RN_0338@0.1205,0.4693,0.06724,0.02116"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:167r.13.165"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAint.hmt:13.167r3",
+    "comment": "οτι λέγουσι αἱ προθέσεισ περι νίκουσ καὶ περι έγχουσ ⁑",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol8413",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA167RN_0338@0.1179,0.4963,0.06245,0.03472"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:167r.13.161"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAim.hmt:13.167r1",
+    "comment": "Ζηνοδοτος ξυνεηξι ⁑",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol8410",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA167RN_0338@0.5917,0.5089,0.05932,0.01521"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:167r.13.116"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAil.hmt:13.167r1",
+    "comment": "έςτοχάζετο ⁑",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol8414",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA167RN_0338@0.4038,0.3611,0.05269,0.01272"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:167r.13.109"
+    ]
+  },
+  {
     "urn": "urn:cts:greekLit:tlg5026.msA.hmt:13.167r1",
     "lemma": "πυργηδόν",
     "dse": {

@@ -1,5 +1,60 @@
 [
   {
+    "urn": "urn:cts:greekLit:tlg5026.msAext.hmt:2.734",
+    "comment": "μαχθιζοντα",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol1780",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA038VN_0540@0.123,0.3322,0.0667,0.0173"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:38v.2.723"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAim.hmt:2.730",
+    "comment": "οὕτως ὀξυτόνως ἐπιθετικῶς γὰρ τέτακται Ὀλόσσόνα δὲ οὕτως παροξυτόνως φησὶν ἐν τῇ καθόλου ⁑",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol1542",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA038VN_0540@0.4007,0.633,0.0877,0.0503"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:38v.2.739"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAim.hmt:2.731",
+    "comment": "οὕτως ἁσσπάρτην ἵν ῇ ἰδιον ⁑",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol1543",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA038VN_0540@0.416,0.6824,0.0623,0.0175"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:38v.2.741"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAil.hmt:2.732",
+    "comment": "ως Μεθώνην",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol1761",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA038VN_0540@0.5693,0.626,0.058,0.011"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:38v.2.739"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAil.hmt:2.733",
+    "comment": "ὅτι αντι τοῦ κλυτὴ κλυτος εἶπεν ⁑",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol1762",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA038VN_0540@0.669,0.6991,0.1287,0.0143"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:38v.2.742"
+    ]
+  },
+  {
     "urn": "urn:cts:greekLit:tlg5026.msA.hmt:2.715",
     "lemma": "‡τὸν δε Φιλοκτήτης ἦρχεν·",
     "dse": {
@@ -29,7 +84,10 @@
     "dse": {
       "urn": "urn:cite2:hmt:va_dse.v1:schol1442",
       "image_roi": "urn:cite2:hmt:vaimg.2017a:VA038VN_0540@0.2083,0.1514,0.619,0.0401"
-    }
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:38v.2.722"
+    ]
   },
   {
     "urn": "urn:cts:greekLit:tlg5026.msA.hmt:2.718",

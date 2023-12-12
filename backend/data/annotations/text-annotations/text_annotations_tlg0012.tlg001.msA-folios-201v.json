@@ -1,5 +1,74 @@
 [
   {
+    "urn": "urn:cts:greekLit:tlg5026.msAim.hmt:15.60",
+    "comment": "ἐν αλλῳ ηγάγετ' ἐξ Εφύρης ⁑",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol5642",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA201VN_0703@0.452,0.3028,0.053,0.0526"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:201v.15.531"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAim.hmt:15.61",
+    "comment": "γράφεται ἐν ἄλλῳ ἠλθ' ἐπαμύντωρ",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol5643",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA201VN_0703@0.459,0.4771,0.056,0.0361"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:201v.15.540"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAim.hmt:15.62",
+    "comment": "το λαθὼν τάχα ἂν δύναιτο καὶ τοῖς ἑξῆς συντάτεττεσθαι",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol5644",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA201VN_0703@0.458,0.5079,0.056,0.0481"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:201v.15.541"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAil.hmt:15.27a",
+    "comment": "τοῦ Μέγητος",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol5863",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA201VN_0703@0.885,0.2605,0.047,0.0195"
+    },
+    "references": []
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAil.hmt:15.28",
+    "comment": "ὁ Μέγης",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol5575",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA201VN_0703@0.576,0.453,0.033,0.0165"
+    },
+    "references": []
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAil.hmt:15.29",
+    "comment": "ἐπῆλθον",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol5576",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA201VN_0703@0.6,0.5485,0.053,0.018"
+    },
+    "references": []
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAil.hmt:15.30",
+    "comment": "τὸ όφρα αντ  τοῦ τέως",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol5577",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA201VN_0703@0.77,0.6003,0.075,0.0188"
+    },
+    "references": []
+  },
+  {
     "urn": "urn:cts:greekLit:tlg5026.msA.hmt:15.150",
     "lemma": "τόν ρ' εφόρει γυάλοισιν",
     "dse": {

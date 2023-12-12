@@ -1,5 +1,103 @@
 [
   {
+    "urn": "urn:cts:greekLit:tlg5026.msAint.hmt:10.3009",
+    "comment": "ἐν αλλω οἱ κεν άριστοι έωσιν",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol3977",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA132RN_0304@0.113,0.2953,0.059,0.0203"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:132r.10.306"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAint.hmt:10.3010",
+    "comment": "άρσην δῆλον ότι",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol3978",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA132RN_0304@0.116,0.5064,0.059,0.0203"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:132r.10.317"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAint.hmt:10.3011",
+    "comment": "οῦτος ἀνάσχεο δια τοῦ ο αἱ αρισταρχ",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol3979",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA132RN_0304@0.106,0.583,0.059,0.0255"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:132r.10.321"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAint.hmt:10.3013",
+    "comment": "ὅτι ἀντι τοῦ εοίκασι καὶ ούτως ἀεὶ κεχρηται τῇ λέξει ⁑",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol3980",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA132RN_0304@0.103,0.6799,0.059,0.0579"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:132r.10.326"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAil.hmt:10.3014",
+    "comment": "αὐτάρκης",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol3981",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA132RN_0304@0.455,0.263,0.05,0.0083"
+    },
+    "references": []
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAil.hmt:10.3015",
+    "comment": "και αυτὸς ἑαυτῶ",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol3982",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA132RN_0304@0.341,0.3133,0.05,0.0113"
+    },
+    "references": []
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAil.hmt:10.3016",
+    "comment": "προσφυγὴν σκέπτονται ⁑",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol3983",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA132RN_0304@0.193,0.3899,0.094,0.0113"
+    },
+    "references": []
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAil.hmt:10.3017",
+    "comment": "κάμνοντες",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol3984",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA132RN_0304@0.193,0.3899,0.094,0.0113"
+    },
+    "references": []
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAil.hmt:10.3018",
+    "comment": "οὐκ απο δοκήσεως καὶ εικασμοῦ",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol3985",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA132RN_0304@0.528,0.6416,0.085,0.0143"
+    },
+    "references": []
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAil.hmt:10.3019",
+    "comment": "αντ  εοίκιασι",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol3986",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA132RN_0304@0.424,0.6732,0.063,0.0173"
+    },
+    "references": []
+  },
+  {
     "urn": "urn:cts:greekLit:tlg5026.msA.hmt:10.3001",
     "lemma": "‡ ἐριαύχενας :",
     "dse": {

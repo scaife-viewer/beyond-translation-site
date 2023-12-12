@@ -1,5 +1,27 @@
 [
   {
+    "urn": "urn:cts:greekLit:tlg5026.msAext.hmt:3.684",
+    "comment": "ὡς τοι",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol2019",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA043RN_0044@0.79366249,0.46597510,0.04513633,0.01217151"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:43r.3.63"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAil.hmt:3.681",
+    "comment": "αντι τοῦ ὁταν συνελθης εἰς μαχην .",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol1953",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA043RN_0044@0.46075903,0.30871369,0.09727340,0.01991701"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:43r.3.55"
+    ]
+  },
+  {
     "urn": "urn:cts:greekLit:tlg5026.msA.hmt:3.108",
     "lemma": "κίθαρις",
     "dse": {
@@ -17,7 +39,10 @@
     "dse": {
       "urn": "urn:cite2:hmt:va_dse.v1:schol1819",
       "image_roi": "urn:cite2:hmt:vaimg.2017a:VA043RN_0044@0.13448784,0.14688797,0.61127487,0.03402490"
-    }
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:43r.3.57"
+    ]
   },
   {
     "urn": "urn:cts:greekLit:tlg5026.msA.hmt:3.116",
@@ -27,11 +52,6 @@
       "image_roi": "urn:cite2:hmt:vaimg.2017a:VA043RN_0044@0.12896094,0.16680498,0.62011791,0.03319502"
     },
     "references": [
-      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:43r.3.59",
-      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:43r.3.60",
-      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:43r.3.61",
-      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:43r.3.62",
-      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:43r.3.63",
       "urn:cts:greekLit:tlg0012.tlg001.msA-folios:43r.3.64"
     ],
     "comment": "μετὰ τὴν κλητικὴν στικτέον κατὰ δὲ τὸ τέλος τοῦστίχου στικτέον ἐν ὑποκρίσει· ὅλη δὲ ἡ ὁμοίωσις διὰ μέσου τὸ γὰρ ἑξῆς ἐπεί με κατ' αῖσαν ἐνείκεσας ⁑"
@@ -54,7 +74,10 @@
     "dse": {
       "urn": "urn:cite2:hmt:va_dse.v1:schol1822",
       "image_roi": "urn:cite2:hmt:vaimg.2017a:VA043RN_0044@0.55232130,0.32254495,0.20449521,0.03734440"
-    }
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:43r.3.59"
+    ]
   },
   {
     "urn": "urn:cts:greekLit:tlg5026.msA.hmt:3.678",

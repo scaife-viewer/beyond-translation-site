@@ -1,5 +1,115 @@
 [
   {
+    "urn": "urn:cts:greekLit:tlg5026.msAext.hmt:5.6131",
+    "comment": "πάνσεσθαι",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol2505",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA068RN_0069@0.85187915,0.25006916,0.04605748,0.01742739"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:68r.5.288"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAint.hmt:5.4011",
+    "comment": "ουτως Ἀρισταρχος εξελυθη· αλλοι δὲ ἐξεσύθη ⁑",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol2451",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA068RN_0069@0.10869565,0.35062241,0.05047900,0.02904564"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:68r.5.293"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAint.hmt:5.4012",
+    "comment": "συναπτεον όλον τὸν  στι ⁑",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol2452",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA068RN_0069@0.10537951,0.42019364,0.05453206,0.01272476"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:68r.5.297"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAint.hmt:5.4013",
+    "comment": "οτι αντι τοῦ αὐτοῦ ⁑",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol2453",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA068RN_0069@0.10390567,0.44204703,0.04495210,0.01051176"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:68r.5.298"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAint.hmt:5.4014",
+    "comment": "οτι πάλιν ἀντι τοῦ αὐτοῦ ⁑",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol2454",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA068RN_0069@0.10372144,0.47966805,0.04863670,0.00982019"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:68r.5.300"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAint.hmt:5.4015",
+    "comment": "οτι εστη ἀντι τοῦ ἔμεινεν ἐπι τὰ γόνατα πεσῶν",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol2455",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA068RN_0069@0.11035372,0.65615491,0.05011054,0.02074689"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:68r.5.309"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAil.hmt:5.2016",
+    "comment": "τοῦ αίματος κυρέσαι τὸ καρτερικὸν καὶ πολεμιςτήρον δόρυ",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol2507",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA068RN_0069@0.22347089,0.26154910,0.18644068,0.01313970"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:68r.5.289"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAil.hmt:5.2017",
+    "comment": "κατωτάτην",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol2508",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA068RN_0069@0.41083272,0.32392808,0.04421518,0.00802213"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:68r.5.292"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAil.hmt:5.2018",
+    "comment": "ποικίλα",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol2509",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA068RN_0069@0.19454679,0.37676349,0.02818718,0.00663900"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:68r.5.295"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAil.hmt:5.2019",
+    "comment": "πάνυλάμποντα ⁑",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol2510",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA068RN_0069@0.29624171,0.37786999,0.05121592,0.00816044"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:68r.5.295"
+    ]
+  },
+  {
     "urn": "urn:cts:greekLit:tlg5026.msA.hmt:5.2000",
     "lemma": "‡αἵματος ᾶσαι",
     "dse": {
@@ -43,7 +153,6 @@
       "image_roi": "urn:cite2:hmt:vaimg.2017a:VA068RN_0069@0.16912307,0.16265560,0.65954311,0.11313970"
     },
     "references": [
-      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:68r.5.290",
       "urn:cts:greekLit:tlg0012.tlg001.msA-folios:68r.5.291"
     ],
     "comment": "ζητεῖται , πῶς Διομήδους μὲν ἀκοντίσαντος πειζου Πανδάάρου δὲ ἀπ υ ἅρματος οὕτως ἐκ τοῦῦ κοιλοτέρου φέρομενον τὸ δόρυ κατωφερῆ πεποίηκε τὴν τρῶσιν ἔστι δὲ λέγειν ὅτι πρῶτον μὲν Ἀθηνᾶ ἦν ἡ κατευθύνουσα αὐτὸ ὴ ἦν δυνατον τοῦτο ποιῆσαι· ἐπει δὴ ὅτι προς ἐπινεύσας ὁ Πάνδαρος ἕνεκα τοῦ θεάσασθαι εἰ καιρίως τέτρωται ὁ Διομήδης  ἐβλήθη δια τῆς ῥηνος τὴν γλῶσσαν· οἱ δὲ ὅτι ἐν ἀνομάλοις τόποις μαχαμενων εἰκος τὰ μὲν ἅρματα ἐν χθαμαλωτέροις τόποις τρέχειν· τοὺς δὲ πεζοὺς ἀπο μετεώρου μάχεσθαι ώστε καὶ τὸν Διομηδη ἀφ ὕψους βεβληκεναι ⁑"
@@ -54,7 +163,10 @@
     "dse": {
       "urn": "urn:cite2:hmt:va_dse.v1:schol2338",
       "image_roi": "urn:cite2:hmt:vaimg.2017a:VA068RN_0069@0.60574797,0.26860304,0.21075903,0.02683264"
-    }
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:68r.5.291"
+    ]
   },
   {
     "urn": "urn:cts:greekLit:tlg5026.msA.hmt:5.2005",
@@ -112,7 +224,6 @@
       "image_roi": "urn:cite2:hmt:vaimg.2017a:VA068RN_0069@0.15401621,0.76320885,0.63854090,0.04647303"
     },
     "references": [
-      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:68r.5.305",
       "urn:cts:greekLit:tlg0012.tlg001.msA-folios:68r.5.306"
     ],
     "comment": "κοτύλη , τὸ κοίλον τοῦ ὀστέου ἔνθα ἡ κεφαλῃ τοῦ μηροῦ ἐνστρέφεται· ἰσχίον· τὸ ὑπο τὴν οσφῦν ὀστέον εἰς ὃ ἕγκειται τὸ ϊερὸν ὀστέον ὅπερ καὶ γλοῦτος καλεῖται καὶ κοτυλη παρα τὴν κοιλότητα ⁑"

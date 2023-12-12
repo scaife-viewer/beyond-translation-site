@@ -1,5 +1,56 @@
 [
   {
+    "urn": "urn:cts:greekLit:tlg5026.msAim.hmt:14.D3",
+    "comment": "ἔξω τοῦ τ αἱ Αρισταρχ  ουτ  καὶ Ζηνοδ  καὶ Ἀριστοφάνης ⁑",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol5339",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA188VN_0690@0.89941046,0.77648686,0.08253500,0.05643154"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:188v.14.400"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAim.hmt:14.D4",
+    "comment": "γράφεται υπ  ριπῆς",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol5340",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA188VN_0690@0.89240973,0.84426003,0.09174650,0.04011065"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:188v.14.414"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAim.hmt:14.D6",
+    "comment": "ἐν ἄλλω περίβησαν ἅπαντες ⁑",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol5342",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA188VN_0690@0.89941046,0.17980636,0.10464259,0.07441217"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:188v.14.424"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAil.hmt:14.D4",
+    "comment": "ὅπου δή",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol5430",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA188VN_0690@0.03058217,0.43540802,0.05600590,0.02544952"
+    },
+    "references": []
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAil.hmt:14.D5",
+    "comment": "ὁ Ἕκτωρ",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol5431",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA188VN_0690@0.81024318,0.80387275,0.04458364,0.02849239"
+    },
+    "references": []
+  },
+  {
     "urn": "urn:cts:greekLit:tlg5026.msA.hmt:14.D8",
     "lemma": "‡ ἤτοι ὁ μὲν σάκεος·",
     "dse": {

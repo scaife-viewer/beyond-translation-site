@@ -1,5 +1,83 @@
 [
   {
+    "urn": "urn:cts:greekLit:tlg5026.msAext.hmt:10.4615",
+    "comment": "ριζε",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol4145",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA136RN_0308@0.839,0.2081,0.04,0.0248"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:136r.10.503"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAext.hmt:10.4616",
+    "comment": "ουδ' αλαοσκοπιην",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol4146",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA136RN_0308@0.818,0.441,0.076,0.0248"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:136r.10.515"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAim.hmt:10.4614",
+    "comment": "ουτ  Ἀρίσταρχος ἄλλοι δὲ ἐπεβήσατο ⁑",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol4144",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA136RN_0308@0.599,0.3982,0.073,0.0308"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:136r.10.513"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAil.hmt:10.4617",
+    "comment": "δεινότατον κάκιστον νῦν τὸ βέλτιον",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol4147",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA136RN_0308@0.413,0.1916,0.159,0.0195"
+    },
+    "references": []
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAil.hmt:10.4618",
+    "comment": "ὑποστροφῆς",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol4148",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA136RN_0308@0.207,0.3058,0.062,0.0195"
+    },
+    "references": []
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAil.hmt:10.4619",
+    "comment": "νῦν ήκουσε",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol4149",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA136RN_0308@0.291,0.3666,0.062,0.0195"
+    },
+    "references": []
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAil.hmt:10.4630",
+    "comment": "κατάσκοπον",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol4150",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA136RN_0308@0.377,0.6349,0.073,0.015"
+    },
+    "references": []
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAil.hmt:10.4631",
+    "comment": "κατέσχε :",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol4151",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA136RN_0308@0.341,0.6544,0.083,0.015"
+    },
+    "references": []
+  },
+  {
     "urn": "urn:cts:greekLit:tlg5026.msA.hmt:10.4605",
     "lemma": "‡ ἢ ὅ γε δίφρον ἑλω  : ἦ  ἐκφέρει ὑψοσ' ἢ ἔτι τῶν πλεόνων :",
     "dse": {

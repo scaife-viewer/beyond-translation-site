@@ -1,5 +1,82 @@
 [
   {
+    "urn": "urn:cts:greekLit:tlg5026.msAext.hmt:4.886",
+    "comment": "μεθιέντας",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol2263",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA061VN_0563@0.14240973,0.32406639,0.04753132,0.01341632"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:61v.4.516"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAint.hmt:4.774",
+    "comment": "οτ  τὸ βάλε ἐκ βολῆς ετρωσε ⁑",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol2192",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA061VN_0563@0.86477524,0.51244813,0.02763449,0.01811895"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:61v.4.527"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAim.hmt:4.881",
+    "comment": "Ἀρισταρχ  μοῖρα πέδησε Ϊα  ⁑",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol2239",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA061VN_0563@0.41083272,0.33360996,0.05895357,0.02655602"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:61v.4.517"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAim.hmt:4.882",
+    "comment": "οτ  μεταφορικῶς τὸν ἀνένδοτον καὶ σκληρὸν αναιδ  λέγει ⁑",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol2240",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA061VN_0563@0.39904200,0.41134163,0.06226971,0.04287690"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:61v.4.521"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAim.hmt:4.883",
+    "comment": "βραχεῖα διαστ  μετα τὸ ρημ  ⁑",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol2241",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA061VN_0563@0.40272660,0.45228216,0.05858511,0.02793914"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:61v.4.523"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAim.hmt:4.884",
+    "comment": "Ἀρισταρχ  δια τοῦ α ἀπεσσύμενον ἀπιόντα τὸν Πείρωια ἐν δὲ τῇ ἑτέρᾳ ἑπεσσύμε  ἵνα ἐπι τοῦ Θόαντος λέγηται ἄτοπος δὲ τέλεον ἡ φερομένη ἐπεσσύμενον ⁑",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol2242",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA061VN_0563@0.40493736,0.52392808,0.06300663,0.09322268"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:61v.4.527"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAim.hmt:4.885",
+    "comment": "συναπτέον ἕως τοῦ ἡγεμόνες ⁑",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol2243",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA061VN_0563@0.42704495,0.69488243,0.04126750,0.03264177"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:61v.4.538"
+    ]
+  },
+  {
     "urn": "urn:cts:greekLit:tlg5026.msA.hmt:4.758",
     "lemma": "‡ Τριτογένεια ·",
     "dse": {

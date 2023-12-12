@@ -1,5 +1,159 @@
 [
   {
+    "urn": "urn:cts:greekLit:tlg5026.msAext.hmt:13.168r1",
+    "comment": "κατ' ιγνύην",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol8431",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA168RN_0339@0.8128,0.3304,0.06927,0.02393"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:168r.13.212"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAext.hmt:13.168r2",
+    "comment": "ὅθι μεθιέντα",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol8432",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA168RN_0339@0.8137,0.6575,0.07590,0.02586"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:168r.13.229"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAint.hmt:13.168r1",
+    "comment": "οτ ἐπιστάμεθ αντ τοῦ δυνάμεθ .",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol8426",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA168RN_0339@0.1083,0.5487,0.06043,0.02351"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:168r.13.223"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAint.hmt:13.168r2",
+    "comment": "ἔν τισι τῶν αντιγράφων δια τοῦ δε \t\t\t\t\t\t\t\t ουδ .",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol8427",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA168RN_0339@0.1166,0.5707,0.06595,0.03555"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:168r.13.224"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAint.hmt:13.168r3",
+    "comment": "οτ ἀντι τοῦ έοικε τὸ μέλλει",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol8428",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA168RN_0339@0.1113,0.6084,0.05803,0.02061"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:168r.13.226"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAim.hmt:13.168r1",
+    "comment": "οτ  πτῶσις ήλλακται αντ  τοῦ Ἔκτορος",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol8419",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA168RN_0339@0.5980,0.2075,0.06522,0.01881"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:168r.13.205"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAim.hmt:13.168r2",
+    "comment": "οτ  ένεικαν εἴρηκεν ὡς βασταζομεν  ἀυτ  δια τὸ τραῦμα ⁑",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol8420",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA168RN_0339@0.5862,0.3560,0.06798,0.02739"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:168r.13.213"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAim.hmt:13.168r3",
+    "comment": "οτ  πτωσις ηλλακτ  αντ  τοῦ ὅς πασς  Πλευρων  ⁑",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol8421",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA168RN_0339@0.5678,0.4368,0.07056,0.01923"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:168r.13.217"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAim.hmt:13.168r4",
+    "comment": "Αρισταρχ  μετα τοῦ γ νὺν γ' αίτιος ⁑",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol8422",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA168RN_0339@0.5798,0.5311,0.07240,0.02213"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:168r.13.222"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAim.hmt:13.168r5",
+    "comment": "ουτ  δια τοῦ ν ἀνδύετ  αἱ Αριστ",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol8423",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA168RN_0339@0.5962,0.5830,0.07848,0.02296"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:168r.13.225"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAim.hmt:13.168r6",
+    "comment": "γράφεται καὶ ενθα' δ' Ἀχαιοὺς",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol8424",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA168RN_0339@0.5954,0.6191,0.07001,0.01992"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:168r.13.227"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAim.hmt:13.168r7",
+    "comment": "γράφεται καὶ ὅθι μεθιέντα Ζηνοδότ δὲ ότις μεθίῃσι πόνοιο ⁑",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol8425",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA168RN_0339@0.5648,0.6620,0.08235,0.03154"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:168r.13.229"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAil.hmt:13.168r1",
+    "comment": "τοῦ Ἀμφιμάχου",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol8429",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA168RN_0339@0.2036,0.2412,0.06522,0.01674"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:168r.13.207"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAil.hmt:13.168r2",
+    "comment": "τοῦ Μαχάονος",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol8430",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA168RN_0339@0.3556,0.3195,0.04569,0.01342"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:168r.13.211"
+    ]
+  },
+  {
     "urn": "urn:cts:greekLit:tlg5026.msA.hmt:13.168r1",
     "lemma": "ἤλθε ατ' ἰγνύην~",
     "dse": {

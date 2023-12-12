@@ -9,13 +9,16 @@ import {
   DISPLAY_MODE_METRICAL,
   DISPLAY_MODE_DICTIONARY_ENTRIES,
   DISPLAY_MODE_COMMENTARIES,
+  DISPLAY_MODE_GRAMMATICAL_ENTRIES,
   DISPLAY_MODE_NAMED_ENTITIES,
   DISPLAY_MODE_SYNTAX_TREES,
   DISPLAY_MODE_DEFAULT,
+  DISPLAY_MODE_FALLBACK,
 } from '@scaife-viewer/store';
 import { SkeletonPlugin } from '@scaife-viewer/skeleton';
 
 import { DefaultModeReader } from '@scaife-viewer/widget-reader';
+import FallbackModeReader from '@scaife-viewer/reader-tei-fallback-mode';
 
 import AlignmentsModeReader from '@scaife-viewer/reader-alignments-mode';
 import ImageModeReader, {
@@ -30,6 +33,8 @@ import NamedEntitiesModeReader, {
 import MetricalModeReader from '@scaife-viewer/reader-metrical-mode';
 import InterlinearModeReader from '@scaife-viewer/reader-interlinear-mode';
 import SyntaxTreesModeReader from '@scaife-viewer/reader-syntax-trees-mode';
+// eslint-disable-next-line max-len
+import GrammaticalEntriesModeReader from '@scaife-viewer/reader-grammatical-entries-mode';
 
 import { iconMap as commonIconMap } from '@scaife-viewer/common';
 import { iconMap as audioIconMap } from '@scaife-viewer/widget-audio';
@@ -56,6 +61,9 @@ Vue.use(SkeletonPlugin, {
     ...imageModeReaderIconMap,
   },
   config: {
+    endpoints: {
+      tocEndpoint: process.env.VUE_APP_TOC_ENDPOINT || '',
+    },
     entityMap: {
       accessToken:
         // eslint-disable-next-line max-len
@@ -71,15 +79,19 @@ Vue.use(SkeletonPlugin, {
     //   'urn:cite2:beyond-translation:text_annotation_collection.atlas_v1:hmt_scholia',
     readerComponents: {
       [DISPLAY_MODE_DEFAULT]: DefaultModeReader,
+      [DISPLAY_MODE_FALLBACK]: FallbackModeReader,
       [DISPLAY_MODE_INTERLINEAR]: InterlinearModeReader,
       [DISPLAY_MODE_FOLIO]: ImageModeReader,
       [DISPLAY_MODE_METRICAL]: MetricalModeReader,
+      [DISPLAY_MODE_GRAMMATICAL_ENTRIES]: GrammaticalEntriesModeReader,
       [DISPLAY_MODE_DICTIONARY_ENTRIES]: DictionaryEntriesModeReader,
       [DISPLAY_MODE_NAMED_ENTITIES]: NamedEntitiesModeReader,
       [DISPLAY_MODE_COMMENTARIES]: CommentariesModeReader,
       [DISPLAY_MODE_ALIGNMENTS]: AlignmentsModeReader,
       [DISPLAY_MODE_SYNTAX_TREES]: SyntaxTreesModeReader,
     },
+    commentaryWidgetLabel: 'Textual Notes',
+    commentariesDisplayModeLabel: 'Textual Notes',
     pageTitle: title => (title ? `${siteLabel} | ${title}` : `${siteLabel}`),
   },
 });

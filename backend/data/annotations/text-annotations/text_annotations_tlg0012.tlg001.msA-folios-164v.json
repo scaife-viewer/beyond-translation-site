@@ -1,5 +1,115 @@
 [
   {
+    "urn": "urn:cts:greekLit:tlg5026.msAext.hmt:13.164v1",
+    "comment": "Κευθμὼν",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol8385",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA164VN_0666@0.1369,0.2515,0.05508,0.02144"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:164v.13.27"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAext.hmt:13.164v2",
+    "comment": "Ποσειδάων",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol8386",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA164VN_0666@0.1310,0.3781,0.05177,0.02725"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:164v.13.34"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAext.hmt:13.164v3",
+    "comment": "Ποσειδάων",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol8387",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA164VN_0666@0.1253,0.5450,0.05306,0.02241"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:164v.13.43"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAext.hmt:13.164v4",
+    "comment": "εισάμενος ὁμοιωθείς ὁρμήσας φανείς .",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol8388",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA164VN_0666@0.1162,0.6556,0.06595,0.05173"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:164v.13.45"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAint.hmt:13.164v1",
+    "comment": "στικτεον έπι τὸ ἄνακτα .",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol8383",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA164VN_0666@0.8970,0.2555,0.03648,0.04011"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:164v.13.28"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAint.hmt:13.164v2",
+    "comment": "γραφεται αρίστους",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol8384",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA164VN_0666@0.8497,0.5440,0.05029,0.01743"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:164v.13.42"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAim.hmt:13.164v1",
+    "comment": "εν αλλῳ ὑπαυτῶ",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol8379",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA164VN_0666@0.4193,0.2422,0.05914,0.01618"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:164v.13.27"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAim.hmt:13.164v2",
+    "comment": "Αρίσ  ἡ γνοίησαν ἄλλοι δέ ἡ γνοίησεν ⁑",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol8380",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA164VN_0666@0.4188,0.2602,0.05987,0.02780"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:164v.13.28"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAim.hmt:13.164v3",
+    "comment": "ὄτι χω  τοῦ ι γραπτέον τὸ γηθοσύνη εσ  γαρ αρ  γηθόσυνοςψ",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol8381",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA164VN_0666@0.4193,0.2869,0.05785,0.03361"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:164v.13.29"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAim.hmt:13.164v4",
+    "comment": "στικτέον κατα το τελος του στιχου ⁑",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol8382",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA164VN_0666@0.4103,0.6869,0.06227,0.04716"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:164v.13.50"
+    ]
+  },
+  {
     "urn": "urn:cts:greekLit:tlg5026.msA.hmt:13.164v1",
     "lemma": "‡ ἄταλλε",
     "dse": {

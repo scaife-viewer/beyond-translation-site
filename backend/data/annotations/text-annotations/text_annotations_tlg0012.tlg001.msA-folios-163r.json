@@ -1,5 +1,123 @@
 [
   {
+    "urn": "urn:cts:greekLit:tlg5026.msAext.hmt:12.F1",
+    "comment": "εστη και",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol4789",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA163RN_0334@0.8447,0.5429,0.0381,0.0248"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:163r.12.446"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAint.hmt:12.F1",
+    "comment": "ἀπο τοῦ “ράζω”",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol4795",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA163RN_0334@0.1092,0.2526,0.0591,0.0195"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:163r.12.431"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAint.hmt:12.F3",
+    "comment": "ἔν τισιν μετα τοῦ ν ἀνεικέα · ἐξω νείκους ,",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol4796",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA163RN_0334@0.1142,0.3391,0.0701,0.0376"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:163r.12.435"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAint.hmt:12.F4",
+    "comment": "Αρισταρχ  εστηκει χω  τοῦ ϊ",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol4797",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA163RN_0334@0.0992,0.5361,0.0812,0.0376"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:163r.12.446"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAint.hmt:12.F5",
+    "comment": "ουτ  δια τοῦ ε φέρει",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol4798",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA163RN_0334@0.0952,0.6323,0.0812,0.0286"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:163r.12.451"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAil.hmt:12.F13",
+    "comment": "ερραμένοι εἰσὶ",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol4825",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA163RN_0334@0.2075,0.2537,0.0607,0.0147"
+    },
+    "references": []
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAil.hmt:12.F14",
+    "comment": "φυγὴν",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol4826",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA163RN_0334@0.4193,0.2739,0.029,0.0139"
+    },
+    "references": []
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAil.hmt:12.F15",
+    "comment": "η απο τῶν ἔργων τῶν ἰδίων χειρῶν ζῶσα :",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol4827",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA163RN_0334@0.4018,0.2933,0.1421,0.0131"
+    },
+    "references": []
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAil.hmt:12.F16",
+    "comment": "ἐνβάλλετε",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol4828",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA163RN_0334@0.3839,0.4444,0.0491,0.0131"
+    },
+    "references": []
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAil.hmt:12.F17",
+    "comment": "υπτροχων  κλιμάκων",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol4829",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA163RN_0334@0.2027,0.4979,0.084,0.0163"
+    },
+    "references": []
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAil.hmt:12.F18",
+    "comment": "κατ  τὸ ἔσχατον μέρος παχὺς",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol4830",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA163RN_0334@0.3649,0.5391,0.1025,0.0155"
+    },
+    "references": []
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAil.hmt:12.F19",
+    "comment": "αποκινήσειαν τοῦ εδάφους",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol4831",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA163RN_0334@0.49,0.5787,0.1067,0.0155"
+    },
+    "references": []
+  },
+  {
     "urn": "urn:cts:greekLit:tlg5026.msA.hmt:12.F5",
     "lemma": "‡ ἡμὲν ὅτῳ στρεφθέντι·",
     "dse": {
@@ -31,7 +149,6 @@
       "image_roi": "urn:cite2:hmt:vaimg.2017a:VA163RN_0334@0.17,0.1295,0.6033,0.0304"
     },
     "references": [
-      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:163r.12.434",
       "urn:cts:greekLit:tlg0012.tlg001.msA-folios:163r.12.435"
     ],
     "comment": "τάχα τὸ ἑξῆς ἐστιν ἀμφὶς ἰ̈σάζουσα ἀμφοτέρωθεν ἰσοῦσα οἱ γὰρ ἱστάντες ἑκατέρωθεν ἀφορῶσιν"
@@ -92,7 +209,6 @@
       "image_roi": "urn:cite2:hmt:vaimg.2017a:VA163RN_0334@0.6135,0.6026,0.1968,0.0665"
     },
     "references": [
-      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:163r.12.446",
       "urn:cts:greekLit:tlg0012.tlg001.msA-folios:163r.12.447"
     ],
     "comment": "βραχὺ διασταλτέον ἐπι τὸ πρόσθε συναφὴν δὲ θετέον ὑπ αμφοτέρας τὰς λέξεις ἓν γὰρ τὸ σημαινόμενον κατ  τὸ ἔσχατον παχὺς , κατα δὲ τὸ ἕτερον ὀξύς ⁑"

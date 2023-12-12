@@ -1,5 +1,182 @@
 [
   {
+    "urn": "urn:cts:greekLit:tlg5026.msAim.hmt:11.66",
+    "comment": "Αρισταρχος δια τοῦ ν : αντίον :",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol4543",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA148VN_0650@0.449,0.2543,0.052,0.036"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:148v.11.553"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAim.hmt:11.67",
+    "comment": "Ἀρισταρχ  πολυηγενεες τ' επίκουροι :",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol4544",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA148VN_0650@0.447,0.4584,0.064,0.0375"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:148v.11.564"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAim.hmt:11.68",
+    "comment": "βραχὺ διασταλτέον ἐπι το μεσσηγυ",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol4545",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA148VN_0650@0.458,0.6347,0.057,0.036"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:148v.11.573"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAil.hmt:11.247",
+    "comment": "ἐπ ευθείας ορμᾶ",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol4396",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA148VN_0650@0.507,0.2198,0.071,0.0165"
+    },
+    "references": []
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAil.hmt:11.248",
+    "comment": "ἀνύει",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol4397",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA148VN_0650@0.67,0.2213,0.036,0.0158"
+    },
+    "references": []
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAil.hmt:11.249",
+    "comment": "δόρατα",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol4398",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA148VN_0650@0.848,0.2258,0.039,0.015"
+    },
+    "references": []
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAil.hmt:11.250",
+    "comment": "λαμπάδες παρα τὸ δέω το δεσμεύω :",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol4399",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA148VN_0650@0.644,0.2656,0.14,0.0165"
+    },
+    "references": []
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAil.hmt:11.251",
+    "comment": "καίτοι προθύμουμε  ⁑",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol4400",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA148VN_0650@0.824,0.2678,0.076,0.0143"
+    },
+    "references": []
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAil.hmt:11.253",
+    "comment": "ἐχωρίσθη",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol4401",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA148VN_0650@0.62,0.2843,0.043,0.0143"
+    },
+    "references": []
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAil.hmt:11.254",
+    "comment": "λελυπημένω",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol4402",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA148VN_0650@0.77,0.2881,0.068,0.0105"
+    },
+    "references": []
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAil.hmt:11.255",
+    "comment": "ὁ εστερημε  τοῦ θεῖν ὅ εστ  τρέχ  αργος βραδὺς",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol4403",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA148VN_0650@0.483,0.3578,0.163,0.0195"
+    },
+    "references": []
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAil.hmt:11.256",
+    "comment": "ξύλα",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol4404",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA148VN_0650@0.788,0.3616,0.027,0.015"
+    },
+    "references": []
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAil.hmt:11.257",
+    "comment": "κόπτει τρώγει",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol4405",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA148VN_0650@0.522,0.3751,0.066,0.0203"
+    },
+    "references": []
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAil.hmt:11.258",
+    "comment": "αντ  τοῦ μόλις δυσχερῶς :",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol4406",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA148VN_0650@0.516,0.4171,0.088,0.0173"
+    },
+    "references": []
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAil.hmt:11.259",
+    "comment": "ὡς τροφῆς",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol4407",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA148VN_0650@0.874,0.4164,0.048,0.0165"
+    },
+    "references": []
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAil.hmt:11.260",
+    "comment": "ἐτρέπετ",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol4408",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA148VN_0650@0.791,0.5281,0.047,0.0165"
+    },
+    "references": []
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAil.hmt:11.261",
+    "comment": "εῖργεν ἐκώλυεν :",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol4409",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA148VN_0650@0.62,0.5469,0.071,0.0173"
+    },
+    "references": []
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAil.hmt:11.263",
+    "comment": "εφάψασθαι :",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol4410",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA148VN_0650@0.899,0.6249,0.051,0.018"
+    },
+    "references": []
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAil.hmt:11.264",
+    "comment": "κορεσθῆναι ⁑",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol4411",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA148VN_0650@0.841,0.6437,0.083,0.0158"
+    },
+    "references": []
+  },
+  {
     "urn": "urn:cts:greekLit:tlg5026.msA.hmt:11.207",
     "lemma": "‡ νωθὴς ᾧ δὴ",
     "dse": {

@@ -1,5 +1,60 @@
 [
   {
+    "urn": "urn:cts:greekLit:tlg5026.msAint.hmt:22.28",
+    "comment": "ουτ  Αριστ    ἐμαίχοιτ   ⁑",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol6790",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA290VN_0792@0.8408,0.2416,0.03850,0.02116"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:290v.22.411"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAint.hmt:22.29",
+    "comment": "γράφεται γέροντες ⁑",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol6791",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA290VN_0792@0.8696,0.5669,0.02948,0.03721"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:290v.22.429"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAim.hmt:22.38",
+    "comment": "οτ  θηλυκῶς ἡ Ί̈λιος",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol6882",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA290VN_0792@0.3919,0.2087,0.06964,0.06127"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:290v.22.411"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAim.hmt:22.39",
+    "comment": "Ἀρισταρχ  πληθυντικῶς  κηδομενοί περ",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol6883",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA290VN_0792@0.3909,0.3109,0.06853,0.07261"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:290v.22.416"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAim.hmt:22.40",
+    "comment": "Ἀρισταρχ  δια τοῦ η   βήομαι · βηώσομαι",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol6884",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA290VN_0792@0.4114,0.6021,0.05619,0.06279"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:290v.22.431"
+    ]
+  },
+  {
     "urn": "urn:cts:greekLit:tlg5026.msA.hmt:22.96",
     "lemma": "δυσάμμορος·",
     "dse": {

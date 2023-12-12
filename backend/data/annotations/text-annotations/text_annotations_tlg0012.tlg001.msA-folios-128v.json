@@ -1,5 +1,81 @@
 [
   {
+    "urn": "urn:cts:greekLit:tlg5026.msAext.hmt:10.1513",
+    "comment": "κατ  νηας",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol3872",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA128VN_0631@0.134,0.4989,0.042,0.0376"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:128v.10.118"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAim.hmt:10.1511",
+    "comment": "αρισταρχ  χω  τοῦ υ ἀλλέπε ὄφρα ⁑",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol3871",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA128VN_0631@0.439,0.6078,0.057,0.0383"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:128v.10.146"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAil.hmt:10.1514",
+    "comment": "εκεῖ",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol3873",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA128VN_0631@0.63,0.2442,0.037,0.0105"
+    },
+    "references": []
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAil.hmt:10.1515",
+    "comment": "εἶπον",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol3874",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA128VN_0631@0.761,0.2404,0.037,0.0105"
+    },
+    "references": []
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAil.hmt:10.1516",
+    "comment": "περόνι ἀναλάβετο·",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol3875",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA128VN_0631@0.699,0.3516,0.104,0.012"
+    },
+    "references": []
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAil.hmt:10.1517",
+    "comment": "πυρράν",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol3876",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA128VN_0631@0.816,0.3524,0.044,0.012"
+    },
+    "references": []
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAil.hmt:10.1518",
+    "comment": "εκτεταμένην",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol3877",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA128VN_0631@0.593,0.3696,0.066,0.015"
+    },
+    "references": []
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAil.hmt:10.1519",
+    "comment": "απαλὴ",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol3878",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA128VN_0631@0.675,0.3666,0.066,0.015"
+    },
+    "references": []
+  },
+  {
     "urn": "urn:cts:greekLit:tlg5026.msA.hmt:10.1500",
     "lemma": "‡ ἐν φυλάκεσσ'ἵνα γάρ σφιν",
     "dse": {
@@ -53,6 +129,9 @@
     "dse": {
       "urn": "urn:cite2:hmt:va_dse.v1:schol3870",
       "image_roi": "urn:cite2:hmt:vaimg.2017a:VA128VN_0631@0.2152,0.5147,0.2392,0.0398"
-    }
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:128v.10.140"
+    ]
   }
 ]

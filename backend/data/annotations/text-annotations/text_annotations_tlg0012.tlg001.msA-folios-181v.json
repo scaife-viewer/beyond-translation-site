@@ -1,5 +1,82 @@
 [
   {
+    "urn": "urn:cts:greekLit:tlg5026.msAint.hmt:14.E1",
+    "comment": "ἡ παρα περιττή",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol5358",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA181VN_0683@0.83990420,0.28934993,0.06963891,0.01466113"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:181v.14.54"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAint.hmt:14.E2",
+    "comment": "Ἀριστοφ  χωρὶς τοῦ σ γνοίη ⁑",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol5359",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA181VN_0683@0.88025055,0.36348548,0.04679440,0.03513140"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:181v.14.58"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAint.hmt:14.E3",
+    "comment": "ἄλλοι· νόος γ' έρξει",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol5360",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA181VN_0683@0.85740604,0.44716459,0.06816507,0.01687414"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:181v.14.62"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAint.hmt:14.E4",
+    "comment": "οτ  πάλιν συλληπτικῶς οὐ γὰρ πάντες ἐβέβλητο :",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol5361",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA181VN_0683@0.86477524,0.46666667,0.06448047,0.03416321"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:181v.14.63"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAint.hmt:14.E5",
+    "comment": "νωνύμνους απλεσθαι  απ Άργεος ἔνθαδ' Αχαιοὺς",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol5362",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA181VN_0683@0.87877671,0.57579530,0.06116433,0.03319502"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:181v.14.69"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAim.hmt:14.E1",
+    "comment": "οτ  αντ  έοικεν",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol5460",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA181VN_0683@0.435,0.5856,0.041,0.0143"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:181v.14.69"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAil.hmt:14.E1",
+    "comment": "ειλκυσμε  εἰσὶ",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol5406",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA181VN_0683@0.67888725,0.67316736,0.05379514,0.00802213"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:181v.14.75"
+    ]
+  },
+  {
     "urn": "urn:cts:greekLit:tlg5026.msA.hmt:14.E1",
     "lemma": "νωλεμὲς",
     "dse": {

@@ -1,5 +1,63 @@
 [
   {
+    "urn": "urn:cts:greekLit:tlg5026.msAim.hmt:11.59",
+    "comment": "τὸν ἄνδρα δῆλονοτι",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol4537",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA147RN_0319@0.512,0.1883,0.08,0.0165"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:147r.11.476"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAim.hmt:11.60",
+    "comment": "τὴν χαλεπὴν ημεραν τοῦτέστι τὸν θάνατον :",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol4538",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA147RN_0319@0.508,0.3488,0.095,0.03"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:147r.11.484"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAil.hmt:11.215",
+    "comment": "ἔφυξε",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol4377",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA147RN_0319@0.417,0.1883,0.036,0.018"
+    },
+    "references": []
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAil.hmt:11.216",
+    "comment": "θερμον",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol4378",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA147RN_0319@0.328,0.2153,0.044,0.0135"
+    },
+    "references": []
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAil.hmt:11.217",
+    "comment": "ϊσχύει",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol4379",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA147RN_0319@0.478,0.2123,0.042,0.0135"
+    },
+    "references": []
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAil.hmt:11.219",
+    "comment": "συνδένδρω τόπῳ",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol4380",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA147RN_0319@0.184,0.2761,0.082,0.012"
+    },
+    "references": []
+  },
+  {
     "urn": "urn:cts:greekLit:tlg5026.msA.hmt:11.181",
     "lemma": "ἐν νέμεϊ σκιερῷ .",
     "dse": {
@@ -17,7 +75,10 @@
     "dse": {
       "urn": "urn:cite2:hmt:va_dse.v1:schol4696",
       "image_roi": "urn:cite2:hmt:vaimg.2017a:VA147RN_0319@0.583,0.3616,0.207,0.0818"
-    }
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:147r.11.480"
+    ]
   },
   {
     "urn": "urn:cts:greekLit:tlg5026.msA.hmt:11.184",

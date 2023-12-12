@@ -1,5 +1,71 @@
 [
   {
+    "urn": "urn:cts:greekLit:tlg5026.msAint.hmt:3.250",
+    "comment": "ὅτι Ζηνόδοτος γ  δενδρει",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol1936",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA045RN_0046@0.12675018,0.21065007,0.13006632,0.03319502"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:45r.3.152"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAint.hmt:3.259",
+    "comment": "‡ ἑν εστι διο προπερισπαστέον το τοιῇδε ⁑",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol1937",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA045RN_0046@0.11090641,0.32130014,0.05803242,0.02586445"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:45r.3.157"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAint.hmt:3.260",
+    "comment": "‡ αινῶς ἀθανατησι ὡς αἰνῶς γὰρ κεφαλήν τε καὶ ὄμματ  ⁑",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol1938",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA045RN_0046@0.10611643,0.34730290,0.04771555,0.02420470"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:45r.3.158"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAint.hmt:3.262",
+    "comment": "περισπαστέον τὸ ως ἀντὶ γὰρ τοῦ ὅμως ⁑",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol1939",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA045RN_0046@0.09764186,0.37261411,0.05840088,0.01549101"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:45r.3.159"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAint.hmt:3.268",
+    "comment": "ὅτι χωρὶς  τοῦ ς γραφειν ὁμηρικώτερον ⁑ ⁑ ⁑",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol1940",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA045RN_0046@0.10335298,0.43817427,0.04163596,0.03706777"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:45r.3.163"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAint.hmt:3.287",
+    "comment": "δια του κέ συνδεσμου συνειλειπται τά κε γράφετ  δὲ καὶ τά γε",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol1941",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA045RN_0046@0.08492999,0.67316736,0.04679440,0.06362379"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:45r.3.176"
+    ]
+  },
+  {
     "urn": "urn:cts:greekLit:tlg5026.msA.hmt:3.254",
     "lemma": "ῆκα πρὸς ἀλλήλους",
     "dse": {
@@ -19,8 +85,6 @@
       "image_roi": "urn:cite2:hmt:vaimg.2017a:VA045RN_0046@0.54734709,0.20871369,0.21278556,0.10663900"
     },
     "references": [
-      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:45r.3.156",
-      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:45r.3.157",
       "urn:cts:greekLit:tlg0012.tlg001.msA-folios:45r.3.158"
     ],
     "comment": "ἡ στιγμὴ κατα τὸ τέλος τοῦ ἑξῆς στίχου ἐπὶ τὸ πάσχειν εἷτα ἀφ ετέρας ἀρχῆς αἰνῶς ἀθανάτησι τοῦ αἰνῶς ἐν ϊσῳ κειμένου τῷ λίαν ὡς κακῆ αἰνῶς γὰρ κεφαλήν τε καὶ ὄμματα καλά τινὲς δὲ τῶν καθ' ημᾶς τοῖς ἄνω προστιθέασι τὸ αἰνῶς τρίγωνον δὲ ἐπίγραμμα πρῶτος ῞ Ομηρος γέγραφεν τὸ οὐ νέμεσις Τρῶας ἀφ οἵου γὰρ στίχου τῶν τριῶν ἀρξώμεθα ἀδιάφορον ⁑ ⁑ ⁑"

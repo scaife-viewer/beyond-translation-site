@@ -1,5 +1,60 @@
 [
   {
+    "urn": "urn:cts:greekLit:tlg5026.msAint.hmt:23.1605",
+    "comment": "γράφεται οιδ'ἄμαι",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol7034",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA300RN_0470@0.1421,0.2652,0.0591,0.024"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:300r.23.362"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAint.hmt:23.1606",
+    "comment": "αἱ πλείους ἀφ' ἁλὸς καὶ μή ποτε λόγον ἔχει",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol7035",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA300RN_0470@0.1111,0.4929,0.0791,0.0443"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:300r.23.374"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAim.hmt:23.1607",
+    "comment": "ὅτι λειπ ἡ διὰ δια πεδίου",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol7076",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA300RN_0470@0.5626,0.3103,0.1111,0.0173"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:300r.23.364"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAim.hmt:23.1608",
+    "comment": "ὅτι ελλειπ ἡ διὰ δια πεδίου",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol7077",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA300RN_0470@0.5395,0.4568,0.1201,0.0218"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:300r.23.372"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAim.hmt:23.1609",
+    "comment": "δρόμους πθ Ἀρισταρχος",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol7078",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA300RN_0470@0.5976,0.2374,0.0971,0.0225"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:300r.23.361"
+    ]
+  },
+  {
     "urn": "urn:cts:greekLit:tlg5026.msA.hmt:23.1601",
     "lemma": "ὡς μεμνέωιτο δρόμου~",
     "dse": {

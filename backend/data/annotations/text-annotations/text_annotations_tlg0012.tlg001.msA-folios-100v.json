@@ -1,5 +1,60 @@
 [
   {
+    "urn": "urn:cts:greekLit:tlg5026.msAim.hmt:7.3052",
+    "comment": "Αρισταρχ  πιεμεναι πρὶν λείψω ⁑",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol2839",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA100VN_0603@0.393,0.2442,0.063,0.0338"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:100v.7.481"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAim.hmt:8.7",
+    "comment": "καὶ ὅτι ἀντι τοῦ άκρᾳ · καὶ ὅτὶ λειπ  ἡ ἐπί καὶ ὅτι τὰ ἐπίθετα ὡς επι ὄρους ⁑",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol3133",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA100VN_0603@0.402,0.4936,0.0643,0.0451"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:100v.8.3"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAim.hmt:8.8",
+    "comment": "Ἀρίσταρχ  θεῶν",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol3134",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA100VN_0603@0.4097,0.5512,0.0567,0.0173"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:100v.8.7"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAim.hmt:8.10",
+    "comment": "ἐν τῆ Ἀριστοφάνους ἀπάτερθε Ζηνοδ  μετόπισθε ⁑",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol3135",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA100VN_0603@0.41,0.6033,0.064,0.0388"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:100v.8.10"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAim.hmt:8.11",
+    "comment": "τὸ οὐ κατα κόσμον βέλτιον τοῖς ἑξῆς συνάπτειν συλλαβῶν γρ  αὐτὸν ⁑",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol3136",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA100VN_0603@0.405,0.6428,0.0727,0.0453"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:100v.8.12"
+    ]
+  },
+  {
     "urn": "urn:cts:greekLit:tlg5026.msA.hmt:7.3050",
     "lemma": "‡ κοίμησαντ ὰρ ἔπειτα·",
     "dse": {
@@ -17,7 +72,10 @@
     "dse": {
       "urn": "urn:cite2:hmt:va_dse.v1:schol2994",
       "image_roi": "urn:cite2:hmt:vaimg.2017a:VA100VN_0603@0.1775,0.3376,0.233,0.0612"
-    }
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:100v.8"
+    ]
   },
   {
     "urn": "urn:cts:greekLit:tlg5026.msA.hmt:8.3",

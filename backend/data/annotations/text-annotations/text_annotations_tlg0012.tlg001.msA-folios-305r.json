@@ -1,5 +1,49 @@
 [
   {
+    "urn": "urn:cts:greekLit:tlg5026.msAext.hmt:23.2608",
+    "comment": "οπάζει",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol7025",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA305RN_0475@0.855,0.4703,0.057,0.0383"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:305r.23.623"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAim.hmt:23.2606",
+    "comment": "γράφεται καὶ ὀπάζει καὶ ἱκάνει καὶ ἐπεισι",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol7102",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA305RN_0475@0.592,0.4651,0.053,0.0458"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:305r.23.623"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAim.hmt:23.2607",
+    "comment": "Ἀριστάρχος ἐσδύσεαι",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol7103",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA305RN_0475@0.558,0.7303,0.058,0.0301"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:305r.23.622"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAil.hmt:23.2609",
+    "comment": "τόπος",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol7060",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA305RN_0475@0.24,0.6176,0.041,0.0143"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:305r.23.631"
+    ]
+  },
+  {
     "urn": "urn:cts:greekLit:tlg5026.msA.hmt:23.2601",
     "lemma": "ἁμφίθετος φιάλη~",
     "dse": {

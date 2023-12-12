@@ -1,5 +1,71 @@
 [
   {
+    "urn": "urn:cts:greekLit:tlg5026.msAint.hmt:2.440",
+    "comment": "ὅτι αντὶ πλήσσων τὸ παθητ παθητικὸν παρειληφεν ⁑",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol1595",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA029VN_0531@0.806,0.2145,0.077,0.0373"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:29v.2.264"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAim.hmt:2.437",
+    "comment": "ὅτι τὸ μεν πάλιν εἰς τοῦπίσω τὸ δὲ αῦτις χρονικὸν ἐξ υστέρου",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol1523",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA029VN_0531@0.429,0.4666,0.0633,0.0481"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:29v.2.276"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAim.hmt:2.438",
+    "comment": "οὕτως Ἀρισταρχος πτολίπορθος ἄλλοι δὲ δια τοῦ ε οὐκ ορθῶς",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol1524",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA029VN_0531@0.4337,0.5139,0.068,0.0378"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:29v.2.278"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAim.hmt:2.439",
+    "comment": "προς τὴν ἐναλλαγὴν τοῦ χρόνου ὅτι ἀντι εκτελέσουσιν ⁑",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol1525",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA029VN_0531@0.4463,0.6598,0.1133,0.0416"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:29v.2.286"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAil.hmt:2.441",
+    "comment": "οξύνεται μετοχη γάρ εστι",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol1754",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA029VN_0531@0.652,0.3194,0.1017,0.0135"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:29v.2.269"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAil.hmt:2.442",
+    "comment": "δια τὸ θέλειν ὑποστρέψαι",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol1755",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA029VN_0531@0.5823,0.3424,0.0937,0.0115"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:29v.2.270"
+    ]
+  },
+  {
     "urn": "urn:cts:greekLit:tlg5026.msA.hmt:2.430",
     "lemma": "ἦ δυμυρί·",
     "dse": {

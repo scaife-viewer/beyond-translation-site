@@ -1,5 +1,100 @@
 [
   {
+    "urn": "urn:cts:greekLit:tlg5026.msAext.hmt:16.213r1",
+    "comment": "Αἴας",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol7741",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA213RN_0384@0.8793,0.3347,0.01824,0.05795"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:213r.16.358"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAint.hmt:16.213r1",
+    "comment": "βραχὺ διασταλτἐον Δαναοὶ διὰ τὸ ἀπεμφαινον ⁑",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol7766",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA213RN_0384@0.1424,0.2019,0.05840,0.03126"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:213r.16.351"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAint.hmt:16.213r2",
+    "comment": "οὕτως ὡς σφοδρὸν προεἰρηται ⁑",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol7767",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA213RN_0384@0.1177,0.6039,0.05803,0.03181"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:213r.16.372"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAim.hmt:16.213r1",
+    "comment": "ἐν αλλωι ἄνδρας ἀριστους",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol7817",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA213RN_0384@0.6166,0.2089,0.04919,0.01964"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:213r.16.351"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAim.hmt:16.213r2",
+    "comment": "ουτως αἵ θηλυκῶς αἱ ὀϊες",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol7818",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA213RN_0384@0.6094,0.2390,0.06116,0.02351"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:213r.16.353"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAim.hmt:16.213r3",
+    "comment": "ουτω διὰ τοῦ ε διετμαγεν",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol7819",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA213RN_0384@0.6091,0.2632,0.05730,0.01217"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:213r.16.354"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAim.hmt:16.213r4",
+    "comment": "ὁ κονιορτ",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol7820",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA213RN_0384@0.6116,0.6465,0.03113,0.01162"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:213r.16.374"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAil.hmt:16.213r1",
+    "comment": "καὶ τουτο δια τοῦ ε",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol7787",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA213RN_0384@0.4644,0.6401,0.05085,0.009129"
+    },
+    "references": []
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAil.hmt:16.213r2",
+    "comment": "υπο τὰ νέφη~ ἠ ὑπο τῶν ἀνέμων ⁑",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol7788",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA213RN_0384@0.2878,0.6761,0.1675,0.01355"
+    },
+    "references": []
+  },
+  {
     "urn": "urn:cts:greekLit:tlg5026.msA.hmt:16.213r1",
     "lemma": "ὡς δε λύκοι ἄρνεσιν ἐπεχραον",
     "dse": {

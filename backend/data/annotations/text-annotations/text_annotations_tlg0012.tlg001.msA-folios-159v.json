@@ -1,5 +1,99 @@
 [
   {
+    "urn": "urn:cts:greekLit:tlg5026.msAext.hmt:12.H1",
+    "comment": "ἔρειπον",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol4793",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA159VN_0661@0.1514,0.3156,0.0315,0.0208"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:159v.12.258"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAim.hmt:12.H8",
+    "comment": "γράφεται καὶ ἀκούων",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol4992",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA159VN_0661@0.4525,0.6003,0.0511,0.0233"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:159v.12.273"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAil.hmt:12.H15",
+    "comment": "ἡπατα ἔβλαπτεν",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol4907",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA159VN_0661@0.5187,0.2574,0.0507,0.0095"
+    },
+    "references": []
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAil.hmt:12.H16",
+    "comment": "πείραν ἐποιοῦντο :",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol4908",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA159VN_0661@0.7674,0.2959,0.0667,0.0076"
+    },
+    "references": []
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAil.hmt:12.H17",
+    "comment": "προμαχῶνας ἢ κλίμακας :",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol4909",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA159VN_0661@0.5151,0.3155,0.0795,0.0095"
+    },
+    "references": []
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAil.hmt:12.H18",
+    "comment": "ἔστρεψαν",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol4910",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA159VN_0661@0.8022,0.3151,0.0352,0.0107"
+    },
+    "references": []
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAil.hmt:12.H19",
+    "comment": "προμαχ",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol4911",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA159VN_0661@0.8882,0.3143,0.0251,0.0107"
+    },
+    "references": []
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAil.hmt:12.H30",
+    "comment": "τρεπέσθω",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol4912",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA159VN_0661@0.5334,0.5989,0.0397,0.0072"
+    },
+    "references": []
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAil.hmt:12.H31",
+    "comment": "τοῦ ἐγκελευομένου τοῦ ἀπειλοῦντος",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol4913",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA159VN_0661@0.7294,0.5977,0.1149,0.0076"
+    },
+    "references": []
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAil.hmt:12.H33",
+    "comment": "διῶξαι",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol4914",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA159VN_0661@0.8946,0.6553,0.0258,0.0089"
+    },
+    "references": []
+  },
+  {
     "urn": "urn:cts:greekLit:tlg5026.msA.hmt:12.H17",
     "lemma": "‡ ῶρσεν κ' απ' Ιδαίων ὀρέων :",
     "dse": {

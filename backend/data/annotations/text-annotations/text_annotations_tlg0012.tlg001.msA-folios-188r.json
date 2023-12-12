@@ -1,5 +1,135 @@
 [
   {
+    "urn": "urn:cts:greekLit:tlg5026.msAext.hmt:14.D1",
+    "comment": "Ποσειδ",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol5452",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA188RN_0359@0.7793,0.2990,0.05914,0.02019"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:188r.14.384"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAext.hmt:14.D2",
+    "comment": "ί̈κελον",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol5453",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA188RN_0359@0.7828,0.3389,0.05859,0.02227"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:188r.14.386"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAext.hmt:14.D3",
+    "comment": "Ποσειδα",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol5454",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA188RN_0359@0.7804,0.4180,0.05987,0.02420"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:188r.14.390"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAext.hmt:14.D4",
+    "comment": "ποτι δρυσὶν",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol5455",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA188RN_0359@0.7752,0.5538,0.08548,0.03112"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:188r.14.398"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAint.hmt:14.D1",
+    "comment": "ουτ  Ἀρισταρχ  δοσκον",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol5392",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA188RN_0359@0.1039,0.2651,0.06780,0.02918"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:188r.14.382"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAint.hmt:14.D2",
+    "comment": "ουτ  δια τοῦ α γραπτέον τάνυσσαν ⁑",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol5393",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA188RN_0359@0.08825,0.4006,0.07498,0.03610"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:188r.14.389"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAint.hmt:14.D3",
+    "comment": "οτ  προς τὸ δεύτερον πρότερον ἀπήντησεν ⁑",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol5394",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA188RN_0359@0.09285,0.4429,0.07406,0.02503"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:188r.14.391"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAint.hmt:14.D4",
+    "comment": "ἔν τισι τῶν ὑπομνημάτων ώρορε καὶ ἔστιν ὅμοιον τῷ ώρορ' ἐπαΐξας ⁑",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol5395",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA188RN_0359@0.09304,0.5559,0.07203,0.04357"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:188r.14.397"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAint.hmt:14.D5",
+    "comment": "οτ  ἡ πρόθεσις παρεῖται καὶ πτῶσις ἤλλακται , αντ  ἐπ Αἴαντα ⁑",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol5396",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA188RN_0359@0.07682,0.6473,0.08125,0.03485"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:188r.14.402"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAim.hmt:14.D1",
+    "comment": "οτ  συλληπτικῶς εἴρηκεν οὐτασμένων τινῶν καὶ βεβλημε  ⁑",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol5337",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA188RN_0359@0.5599,0.5708,0.02137,0.03887"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:188r.14.379"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAim.hmt:14.D2",
+    "comment": "ουτ  δια τοῦ ν τοσσον γε ⁑",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol5338",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA188RN_0359@0.5077,0.6059,0.06651,0.03624"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:188r.14.398"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAil.hmt:14.Z2",
+    "comment": "α",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol5461",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA188RN_0359@0.256,0.2905,0.014,0.0098"
+    },
+    "references": []
+  },
+  {
     "urn": "urn:cts:greekLit:tlg5026.msA.hmt:14.D1",
     "lemma": "ἐσθλὰ μὲν ἐσθλὸς",
     "dse": {
@@ -7,8 +137,7 @@
       "image_roi": "urn:cite2:hmt:vaimg.2017a:VA188RN_0359@0.5763,0.2401,0.2041,0.06362"
     },
     "references": [
-      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:188r.14.382",
-      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:188r.14.400"
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:188r.14.382"
     ],
     "comment": "ὅτι οὗτος ὁ στίχος τοὺς προκειμένους ἀναίρει· βελτίονα μὲν γὰρ τῇ κατασκευῇ· ἐν δέχεται \t\t\t\t\t\t\t\tἀναλαμβάνειν μείζονα δὲ οὔ· ἔνια δὲ τῶν ὑπομημάτων δῶκεν ἀντι τοῦ δόσκεν καὶ ἐστιν \t\t\t\t\t\t\t\tεὐφραδέστερον ⁑"
   },
@@ -30,7 +159,10 @@
     "dse": {
       "urn": "urn:cite2:hmt:va_dse.v1:schol5264",
       "image_roi": "urn:cite2:hmt:vaimg.2017a:VA188RN_0359@0.5728,0.5505,0.1997,0.07925"
-    }
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:188r.14.387"
+    ]
   },
   {
     "urn": "urn:cts:greekLit:tlg5026.msA.hmt:14.D4",

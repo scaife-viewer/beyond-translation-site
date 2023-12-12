@@ -1,5 +1,82 @@
 [
   {
+    "urn": "urn:cts:greekLit:tlg5026.msAint.hmt:4.673",
+    "comment": "οτ  πρὸς τὸ δεύτερον πρωτ  ἀπηντηκεν ἡ γὰρ εὐχωλὴ τω  ὀλλύντω  ⁑",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol2186",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA060RN_0061@0.12085483,0.52378976,0.06705969,0.03347165"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:60r.4.451"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAint.hmt:4.678",
+    "comment": "τὸ ἄγγος εἰς ὃ μιγνυνται οἱ ποταμοί ⁑",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol2187",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA060RN_0061@0.12380251,0.56417704,0.06705969,0.02378976"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:60r.4.453"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAint.hmt:4.684",
+    "comment": "οτ  τὴν μετ  δέους φυγην φόβον εἰρηκεν ⁑",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol2188",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA060RN_0061@0.11993368,0.62641770,0.05287399,0.03402490"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:60r.4.456"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAint.hmt:4.690",
+    "comment": "οτ  ἀδηλον ποτερον κύριον ὁ Θαλυσιάδης ἥ ὁ Ἐχεπωλος ⁑",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol2189",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA060RN_0061@0.11956522,0.66307054,0.06798084,0.02641770"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:60r.4.458"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAim.hmt:4.872",
+    "comment": "μηκώμεναι",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol2233",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA060RN_0061@0.60611643,0.22130014,0.04384672,0.01009682"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:60r.4.435"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAim.hmt:4.873",
+    "comment": "Ἀρισταρχ  ιαχη τε πόνος τε οὐ γὰρ γέγονε πω φυγη ⁑",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol2234",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA060RN_0061@0.58069270,0.62019364,0.04624171,0.02600277"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:60r.4.456"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAim.hmt:4.874",
+    "comment": "συναπτέον κόρυς τὴν εσθλον ἵν ῆ τὰ ἑξης",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol2235",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA060RN_0061@0.59948416,0.65131397,0.03721444,0.01991701"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:60r.4.457"
+    ]
+  },
+  {
     "urn": "urn:cts:greekLit:tlg5026.msA.hmt:4.656",
     "lemma": "ὦρσε δὲ τοὺς μὲν Ἄρης ·",
     "dse": {
@@ -7,7 +84,6 @@
       "image_roi": "urn:cite2:hmt:vaimg.2017a:VA060RN_0061@0.18754606,0.10968188,0.60685335,0.03609959"
     },
     "references": [
-      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:60r.4.439",
       "urn:cts:greekLit:tlg0012.tlg001.msA-folios:60r.4.440"
     ],
     "comment": "αἱ διπλαὶ ὅτι δια μέσου τῶν Τρωϊκῶν θεῶν τέταχε τὴν Ἀθηνᾶν καὶ ὅτι Δεῖμος καὶ Φόβος Ἄρεος υἱοί· πλανηθεὶς δὲ Ἀντίμαχος ἵππων Ἄρεος ὀνόματα ἀποδέδωκεν Δειμός τ' ἠδὲ Φόβος πόδας αἰνέτω υἷε θυέλλης ⁑"

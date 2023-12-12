@@ -1,0 +1,719 @@
+@charset "UTF-8";
+/* Controls */
+div#controls { position: fixed; top: 6rem; right: 1rem; font-size: 80%; height: 94vh; width: max-content; }
+
+@media (min-width: 992px) { div#controls { top: 7rem; } }
+
+@media (min-width: 992px) { div#controls { width: 18%; } }
+
+div#controls h2 { font-size: 120%; margin: 0; }
+
+div#controls ul { list-style-type: none; margin: 0; padding: 0; }
+
+div#navigation { border: thin solid gray; overflow-x: auto; overflow-y: auto; padding: 0.5em; position: absolute; top: 8rem; bottom: 5rem; }
+
+div#navigation li { margin-left: 1em; }
+
+div#navigation ul.inline { display: flex; flex-wrap: wrap; }
+
+div#navigation a { color: black; }
+
+div#navigation a.selected { font-weight: bold; }
+
+div#editing li { display: inline; font-size: 200%; }
+
+div#editing button { font-size: 100%; margin: 2px 2px 0 0; height: 1.5em; }
+
+div#editing button svg { vertical-align: unset; }
+
+div#citesearch input { width: 6em; }
+
+/* Apparatus */
+div.apparatus tei-app { display: inline; font-size: smaller; }
+
+div.apparatus tei-app.app-copy { display: none; }
+
+div.apparatus tei-app span.source { font-weight: normal; font-style: italic; }
+
+div.apparatus tei-app > span.lem { font-weight: bold; }
+
+div.apparatus tei-app > span.lem:before { content: "\a"; white-space: pre; }
+
+span.note { display: none; }
+
+span.pnum { font-weight: bold; }
+
+div.apparatus span.note { display: inline; }
+
+div.apparatus tei-app > tei-lem { font-weight: bold; display: inline; }
+
+div.apparatus tei-app tei-rdg { display: inline; }
+
+div.apparatus tei-app tei-rdg.hidden { display: none; }
+
+div.apparatus tei-app tei-rdg:before { content: " "; }
+
+div.apparatus tei-rdgGrp { display: inline; }
+
+div.apparatus tei-app tei-wit { display: inline; font-style: italic; }
+
+div.apparatus tei-app > tei-note { display: inline; font-style: italic; }
+
+/*TODO: figure out what to do with source lists.*/
+tei-div[type="sources"] { display: none; }
+
+tei-div button.app { border: thin solid white; background-color: white; font-size: 120%; width: 25px; height: 20px; padding: 0px; }
+
+tei-div button.app:hover { border: thin solid silver; }
+
+tei-div button.note:hover { border: thin solid white; }
+
+button:focus { outline: none; }
+
+tei-div span.apps { display: inline; position: absolute; right: 1em; }
+
+tei-p span.apps { display: inline; position: absolute; right: -20%; top: 0px; width: 80px; }
+
+/* Apparatus tooltips */
+div.apparatus span.lineref { display: none; }
+
+.ui-tooltip { width: 60rem; }
+
+.ui-tooltip-content div.apparatus span.source { font-style: italic; font-weight: normal; }
+
+.ui-tooltip-content div.apparatus > span.lem { display: none; }
+
+.ui-tooltip-content div.apparatus > span.lineref { display: inline; }
+
+.ui-tooltip-content div.apparatus tei-lem { display: inline; }
+
+.ui-tooltip-content div.apparatus tei-rdg { display: inline; }
+
+.ui-tooltip-content div.apparatus tei-rdg.hidden { display: none; }
+
+.ui-tooltip-content div.apparatus tei-rdg:before { content: " "; }
+
+.ui-tooltip-content div.apparatus tei-rdgGrp { display: inline; }
+
+.ui-tooltip-content div.apparatus tei-wit { display: inline; font-style: italic; margin-right: 0.3em; }
+
+.ui-tooltip-content div.apparatus tei-witdetail { display: none; }
+
+.ui-tooltip-content div.apparatus tei-note { display: inline; font-style: italic; margin-right: 0.3em; }
+
+.ui-tooltip-content span.note { display: inline; }
+
+.ui-tooltip-content span.separator { display: none; }
+
+/* lists in tooltips */
+.ui-tooltip-content tei-listwit { display: inline; margin: 0; }
+
+.ui-tooltip-content tei-listbibl { display: inline; margin: 0; }
+
+.ui-tooltip-content tei-head { font-size: 1em; font-weight: bold; margin-left: 0.3em; }
+
+.ui-tooltip-content tei-witness { display: inline; }
+
+.ui-tooltip-content tei-witdetail { display: none; }
+
+.ui-tooltip-content tei-bibl { display: inline; }
+
+.highlight { background: #00ffab; }
+
+.highlight tei-lem:empty:before { content: " – "; }
+
+/* Apparatus dialogs */
+.ui-dialog-titlebar { padding: 0; }
+
+.ui-dialog-content tei-lem { display: inline; }
+
+.ui-dialog-content tei-lem:hover { cursor: pointer; text-decoration: underline; }
+
+.ui-dialog-content tei-rdg { display: inline; }
+
+.ui-dialog-content tei-rdg.hidden { display: none; }
+
+.ui-dialog-content tei-rdg:hover { cursor: pointer; text-decoration: underline; }
+
+.ui-dialog-content tei-rdgGrp { display: inline; }
+
+.ui-dialog-content tei-wit { display: inline; font-style: italic; margin-right: 0.3em; }
+
+.ui-dialog-content tei-witdetail { display: none; }
+
+.ui-dialog-content span.lem { display: none; }
+
+.ui-dialog-content tei-note[data-id]:hover { cursor: pointer; text-decoration: underline; }
+
+.ui-dialog-content span[data-id]:hover { cursor: pointer; text-decoration: underline; }
+
+.ui-dialog-content tei-note { display: inline; font-style: italic; margin-right: 0.3em; }
+
+.ui-dialog-content span.source { font-weight: normal; }
+
+/* Choice elements */
+tei-choice tei-abbr + tei-expan:before, tei-choice tei-expan + tei-abbr:before, tei-choice tei-sic + tei-corr:before, tei-choice tei-corr + tei-sic:before, tei-choice tei-orig + tei-reg:before, tei-choice tei-reg + tei-orig:before { content: " ("; }
+
+tei-choice tei-abbr + tei-expan:after, tei-choice tei-expan + tei-abbr:after, tei-choice tei-sic + tei-corr:after, tei-choice tei-corr + tei-sic:after, tei-choice tei-orig + tei-reg:after, tei-choice tei-reg + tei-orig:after { content: ")"; }
+
+/* A */
+tei-ab { display: block; margin-top: 1em; margin-bottom: 1em; }
+
+tei-accmat { display: block; }
+
+tei-accmat:before { content: "accompanying materials: "; }
+
+tei-acquisition { display: block; margin-top: 0; margin-bottom: 0; }
+
+tei-acquisition:before { font-weight: bold; content: "acquisition"; }
+
+tei-activity { display: block; }
+
+tei-activity:before { content: "activity: "; }
+
+/* add */
+/* Could add other [place=] variations */
+tei-add[place="above"] { vertical-align: super; }
+
+tei-add[place="inline"]:before { content: "«"; }
+
+tei-add[place="inline"]:after { content: "»"; }
+
+tei-add[place="inRas"]:before { content: "«"; }
+
+tei-add[place="inRas"]:after { content: "»"; }
+
+tei-add[place="below"] { vertical-align: sub; }
+
+tei-additional { display: block; }
+
+tei-additions { display: block; }
+
+tei-additions:before { content: "Significant additions within the document: "; }
+
+tei-addrline { display: block; }
+
+tei-address[data-tei-rend~="block"], addresss[data-tei-rendition~="#block"] { display: block; }
+
+tei-admininfo { display: block; }
+
+tei-app { display: inline; }
+
+tei-app tei-note { display: none; }
+
+tei-appnfo { display: block; }
+
+tei-appinfo:before { content: "Application information: "; }
+
+tei-application { display: block; }
+
+tei-application:after { content: " " attr(version); }
+
+tei-argument { display: block; }
+
+tei-att { font-family: Courier, monospace; }
+
+tei-att:before { content: "@"; }
+
+tei-titleStmt > tei-author { display: block; margin-bottom: 1em; }
+
+tei-publicationstmt > tei-availability { font-size: 80%; }
+
+tei-publicationstmt > tei-availability:before { font-weight: bold; content: "Availability: "; }
+
+tei-publicationstmt > tei-availability[data-tei-status]:before { font-weight: bold; content: "Availability (" attr(status) "): "; }
+
+/* B */
+tei-back { display: block; }
+
+tei-bibl[data-tei-rend~="block"], bibl[data-tei-rendition~="#block"] { display: block; padding-left: 2em; text-indent: -2em; }
+
+tei-biblfull { display: block; }
+
+tei-binding { display: block; }
+
+tei-binding:before { content: "Binding: \a"; white-space: pre-wrap; }
+
+tei-binding[data-tei-contemporary]:before { content: "Binding: \a" "Contemporary: " attr(contemporary) "\a"; white-space: pre-wrap; }
+
+tei-bindingdesc { display: block; }
+
+tei-bindngdesc:before { content: "Binding Description: \A"; }
+
+tei-birth { display: block; }
+
+tei-birth:before { content: "Birth: "; }
+
+tei-byline { display: block; }
+
+/* c */
+tei-crefpattern { display: none; }
+
+tei-caption { display: block; margin-top: 1em; margin-bottom: 1em; }
+
+tei-case[data-tei-value]:before { font-weight: bold; content: attr(value) " "; }
+
+tei-castGroup { display: block; margin-top: 1em; margin-bottom: 1em; }
+
+tei-castItem { display: list-item; }
+
+tei-castList { display: block; list-style-type: none; margin-top: 1em; margin-bottom: 1em; margin-left: 2em; }
+
+tei-cb { display: block; margin-top: 1em; margin-bottom: 1em; }
+
+tei-cb:before { content: "[column break]"; }
+
+tei-climate { display: block; margin-top: 1em; margin-bottom: 1em; }
+
+tei-climate:before { font-weight: bold; content: "Climate: "; }
+
+tei-code { font-family: Courier, monospace; }
+
+tei-collation { display: block; margin-top: 1em; margin-bottom: 1em; }
+
+tei-condition { display: block; margin-top: 1em; margin-bottom: 1em; }
+
+tei-constitution { display: block; margin-top: 1em; margin-bottom: 1em; }
+
+tei-constitution:before { font-weight: bold; content: "Constitution: "; }
+
+tei-constitution[data-tei-type] { display: block; margin-top: 1em; margin-bottom: 1em; }
+
+tei-constitution[data-tei-type]:before { font-weight: bold; content: "Constitution (" attr(type) "): "; }
+
+tei-constitution[data-tei-type="frags"] { display: block; margin-top: 1em; margin-bottom: 1em; }
+
+tei-constitution[data-tei-type="frags"]:before { font-weight: bold; content: "Constitution (fragments): "; }
+
+tei-custevent { display: list-item; }
+
+tei-custodialhist { display: block; margin-top: 1em; margin-bottom: 1em; }
+
+/* d */
+tei-date[data-tei-when]:empty:before { content: attr(when); }
+
+tei-doctitle { font-size: 3em; }
+
+tei-doctitle tei-title { font-style: italic; }
+
+/* e */
+tei-editionstmt { display: block; }
+
+tei-egxml { display: block; font-size: 80%; margin-left: 1em; padding-left: 1em; border-left: 1px solid #aaaaaa; margin-top: 0.75em; margin-bottom: 0.75em; padding-top: 0.75em; padding-bottom: 0.75em; font-family: monospace; white-space: pre; }
+
+tei-encodingdesc { display: none; }
+
+tei-epigraph { display: block; margin-top: 1em; margin-bottom: 1em; }
+
+tei-explicit { font-style: italic; }
+
+tei-fileDesc > extent { display: none; }
+
+/* f */
+tei-figure { display: block; text-align: center; margin-left: auto; margin-right: auto; }
+
+/* g */
+tei-gap[unit="lines"] { display: block; margin-left: 3em; }
+
+tei-gi { font-family: Courier, monospace; }
+
+tei-gi:before { content: "<"; }
+
+tei-gi:after { content: ">"; }
+
+/* h */
+tei-head { display: block; font-family: Arvo, sans-serif; font-weight: normal; }
+
+div > tei-head { font-size: 180%; }
+
+tei-div.textpart { display: none; }
+
+tei-div > tei-head { font-size: 170%; }
+
+tei-div > tei-div > tei-head { font-size: 155%; }
+
+tei-div > tei-div > tei-div > tei-head { font-size: 140%; }
+
+tei-div > tei-div > tei-div > tei-div > tei-head, list > tei-head { font-size: 130%; }
+
+tei-div > tei-div > tei-div > tei-div > tei-div > tei-head { font-size: 120%; }
+
+tei-div > tei-div > tei-div > tei-div > tei-div > tei-div tei-head { font-size: 110%; }
+
+tei-figure > tei-head { display: block; margin: 1.5em auto 1.5em auto; padding: 0.5em 1.5em 1.5em 1.5em; border: 1px solid black; border-radius: 15px; width: 325px; position: relative; border: 1px solid #aaaaaa; background: #fafafa; /* reset text-indent for note with <l> ancestors. */ text-indent: 0; font-size: 85%; text-align: justify; -webkit-box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.25); -moz-box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.25); box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.25); width: 85%; font-family: Georgia, Serif; font-size: 13pt; }
+
+tei-foreign { font-style: italic; }
+
+tei-hi[rend="bold"] { font-weight: bold; }
+
+tei-hi[rend="caps"] { font-weight: bold; }
+
+tei-hi[rend="italic"] { font-style: italic; }
+
+tei-hi[rend="normal"] { font-style: normal; text-decoration: none; font-weight: normal; }
+
+tei-hi[rend="super"] { font-size: 60%; vertical-align: super; }
+
+tei-hi[rend="superscript"] { font-size: 60%; vertical-align: super; }
+
+/* i */
+tei-ident { font-family: Courier, monospace; }
+
+tei-incipit { font-style: italic; }
+
+tei-item { display: list-item; margin-left: 1em; }
+
+tei-cell item { margin-left: 1em; }
+
+/* j */
+/* k */
+/* l */
+tei-l { display: block; margin-left: 4em; }
+
+tei-l[data-num]:before { bottom: -.3em; content: attr(data-num); display: block; float: left; font-size: .8em; margin-left: -4em; position: relative; text-align: right; width: 3em; }
+
+tei-l tei-label { display: block; float: left; margin-left: -7em; text-align: right; width: 4em; font-weight: bold; }
+
+tei-lb:after { content: "\a"; white-space: pre; }
+
+tei-lg { display: block; margin-top: 1em; margin-bottom: 1em; }
+
+tei-lg tei-label { position: absolute; left: 4em; font-weight: bold; }
+
+tei-list { display: block; margin-top: 1em; margin-bottom: 1em; list-style-type: none; }
+
+div#tei tei-div tei-list { display: block; margin-top: 1em; margin-bottom: 1em; list-style-type: none; width: 80%; }
+
+tei-item > tei-list { margin-top: 0; }
+
+tei-sourceDesc tei-list { list-style-type: none; }
+
+tei-sourceDesc > tei-list > tei-head { font-size: 140%; font-weight: bold; }
+
+tei-sourceDesc tei-list > tei-item { display: list-item; }
+
+/* Match only lists that are descendants of
+tei-text. Otherwise they show up in the header. */
+tei-text tei-list[type="simple"] { list-style-type: none; }
+
+tei-text tei-list[type="bulleted"] { list-style-type: disc; }
+
+tei-text tei-list[type="ordered"] { list-style-type: none; counter-reset: items 0; }
+
+tei-text tei-list[type="ordered"] > tei-item { display: list-item; margin-left: 0; }
+
+tei-item > tei-list[type="ordered"] { margin-left: 1em; }
+
+tei-text tei-list[type="ordered"] > item:before { counter-increment: items 1; content: counter(items, decimal) ". "; }
+
+tei-text tei-list[type="gloss"] { list-style-type: none; }
+
+tei-list[type="gloss"] > tei-label { display: block; margin-top: 0.25em; margin-bottom: 0.25em; font-weight: bold; }
+
+tei-list[type="gloss"] > tei-item { margin-left: 2em; }
+
+tei-item > tei-list[type="ordered"] { margin-left: 1em; }
+
+tei-listapp { display: block; margin: 1em; padding: 1em; }
+
+/* sourceDesc lists */
+tei-listbibl { display: block; list-style-type: none; margin-left: 0.5 em; margin-top: 0.5em; margin-bottom: 1em; width: 80%; }
+
+tei-listbibl > tei-head { font-weight: bold; }
+
+tei-listbibl > tei-bibl { display: list-item; margin-bottom: 1em; text-indent: -3em; padding-left: 3em; }
+
+tei-listbibl > tei-listbibl > tei-head { font-weight: bold; }
+
+tei-listbibl > tei-listbibl > tei-bibl { display: list-item; margin-left: 2em; }
+
+tei-bibl > tei-abbr { font-weight: bold; }
+
+tei-listwit { display: block; list-style-type: none; margin-left: 0.5em; }
+
+tei-listwit > tei-head { font-size: 120%; font-weight: bold; }
+
+tei-listwit > tei-witness { display: list-item; margin-left: 1em; }
+
+tei-locus { display: none; }
+
+/* m */
+tei-milestone { display: none; margin-left: auto; margin-right: auto; text-align: center; }
+
+tei-msdesc { display: block; }
+
+tei-musicnotation { font-weight: bold; }
+
+tei-musicnotation:before { font-weight: bold; content: "Musical Notation: "; }
+
+/* n */
+tei-node { display: none; }
+
+tei-notesstmt { display: none; }
+
+/* o */
+tei-origplace { font-weight: bold; }
+
+tei-origplace:before { font-weight: bold; content: "Place of Origin: "; }
+
+/* p */
+tei-p { display: block; margin-top: 1em; margin-bottom: 1em; text-align: justify; }
+
+tei-text tei-p { position: relative; }
+
+*[data-tei-rendition~="#center"] p { text-align: center; }
+
+tei-availability > p:first-child { margin-top: 0em; }
+
+tei-performance { display: block; margin-top: 1em; margin-bottom: 1em; }
+
+tei-listperson { width: 80%; display: block; }
+
+tei-person { display: block; margin-top: 1em; margin-bottom: 1em; text-indent: -3em; padding-left: 3em; }
+
+tei-person > tei-persname > tei-abbr { font-weight: bold; }
+
+tei-persongrp { display: block; margin-top: 1em; margin-bottom: 1em; }
+
+tei-postscript { display: block; margin-top: 2em; }
+
+tei-principal { font-weight: bold; }
+
+tei-principal:before { font-weight: bold; content: "Principal: "; }
+
+tei-profileDesc { display: none; }
+
+tei-publicationstmt > * { display: none; }
+
+tei-publicationstmt { display: block; margin-top: 1em; margin-bottom: 1em; }
+
+tei-publicationstmt > date { display: none; }
+
+tei-publicationstmt > publisher { display: none; }
+
+/* q */
+tei-q { quotes: "“" "”" "‘" "’" "“" "”" "‘" "’" "“" "”" "‘" "’" "“" "”"; }
+
+tei-q:before { content: ""; }
+
+tei-q:after { content: ""; }
+
+tei-q[data-tei-next]:after { content: "" !important; }
+
+tei-q[data-tei-prev]:before { content: "" !important; }
+
+tei-quote { font-style: italic; }
+
+tei-quote[rend="blockquote"] { display: block; margin: 1em; text-align: justify; }
+
+/* r */
+tei-app tei-rdg { display: none; }
+
+tei-re { display: block; margin-top: 0; margin-bottom: 0; }
+
+tei-recordhist { display: block; margin-top: 1em; margin-bottom: 1em; }
+
+tei-ref { color: black; text-decoration: underline; text-decoration-style: dotted; }
+
+tei-ref a { color: black; text-decoration: underline; text-decoration-style: dotted; }
+
+tei-remarks { font-weight: bold; }
+
+tei-remarks:before { font-weight: bold; content: "remarks: "; }
+
+tei-respStmt { display: block; margin-top: 0; margin-bottom: 0; }
+
+tei-revisiondesc { display: none; }
+
+/* s */
+tei-s { text-decoration: none; }
+
+tei-salute { display: block; margin-top: 1em; margin-bottom: 1em; }
+
+tei-samplingdecl { display: block; margin-top: 0; margin-bottom: 0; }
+
+tei-scriptnote { display: block; margin-top: 1em; margin-bottom: 1em; }
+
+tei-seal { display: block; margin-top: 0; margin-bottom: 0; }
+
+tei-seal:before { font-weight: bold; content: "Seal: "; }
+
+tei-sealdesc { display: block; margin-top: 1em; margin-bottom: 1em; }
+
+tei-secfol:before { font-weight: bold; content: "Second Folio: "; }
+
+tei-secl > *:first-child:before { content: "\a["; white-space: pre; }
+
+tei-secl > *:last-child:after { content: "]\a\a"; white-space: pre; }
+
+tei-seg { /* Empty Set Rule */ outline: 0px solid transparent; }
+
+tei-sense { display: block; margin-top: 0; margin-bottom: 0; }
+
+tei-seriesStmt { display: none; }
+
+tei-setting { display: block; margin-top: 0; margin-bottom: 0; }
+
+tei-signed { display: block; margin-top: 2em; }
+
+tei-socalled { quotes: "“" "”" "‘" "’" "“" "”" "‘" "’" "“" "”" "‘" "’" "“" "”"; }
+
+tei-socalled:before { content: open-quote; }
+
+tei-socalled:after { content: close-quote; }
+
+tei-socalled[data-tei-next]:after { content: "" !important; }
+
+tei-socalled[data-tei-prev]:before { content: "" !important; }
+
+tei-sound { font-style: italic; }
+
+tei-source { display: block; margin-top: 0; margin-bottom: 0; }
+
+tei-sourcedesc { display: none; }
+
+tei-space:before { font-weight: bold; content: ""; }
+
+tei-span[data-tei-data-n]:before { content: attr(data-n); }
+
+tei-tei tei-egxml tei-span { display: inline; }
+
+tei-speaker { display: block; font-weight: bold; height: 24px; margin-right: 0; }
+
+tei-sponsor { display: block; margin-top: 0; margin-bottom: 0; }
+
+tei-sponsor:before { font-weight: bold; content: "Sponsor:"; }
+
+tei-stage { display: block; margin-top: 1em; margin-bottom: 1em; font-style: italic; }
+
+tei-stamp { display: block; margin-top: 1em; margin-bottom: 1em; }
+
+tei-stamp:before { font-weight: bold; content: "Stamped: "; }
+
+/* t */
+tei-tei { display: block; }
+
+/* Tables */
+table { border-collapse: collapse; display: table; margin-top: 2em; margin-bottom: 2em; font-size: 12pt; }
+
+tr { display: table-row; }
+
+tr[role="label"] { font-weight: bold; }
+
+td { padding: 1em 1.5em 1em 1em; border: thin solid gray; }
+
+/* for cell or row with @role = label */
+td[role="label"] { font-weight: bold; }
+
+caption { font-weight: bold; }
+
+tei-table > tei-head { display: table-caption; }
+
+:host(tei-table) > tei-head { display: table-caption; }
+
+tei-teiHeader { display: none; margin-top: 2em; margin-bottom: 2em; }
+
+tei-tei > tei-text { display: block; line-height: 1.5; margin-top: auto; margin-right: auto; margin-bottom: auto; margin-left: 1rem; max-width: 50vw; }
+
+@media (min-width: 992px) { tei-tei > tei-text { margin-left: auto; } }
+
+tei-textclass { display: none; }
+
+tei-textdesc { display: none; }
+
+/* title */
+tei-tei tei-title { display: inline; }
+
+tei-title[level="m"] { font-style: italic; }
+
+tei-titleStmt > tei-title { display: block; font-family: Arvo, sans-serif; font-weight: normal; font-weight: bold !important; font-size: 150%; }
+
+tei-typeDesc { display: none; }
+
+/* u */
+tei-u:before { content: "-"; }
+
+/* v */
+tei-view { font-style: italic; }
+
+/* w */
+tei-wit { display: none; }
+
+tei-witness > tei-abbr { font-weight: bold; }
+
+tei-witness > tei-title { font-weight: bold; }
+
+tei-witdetail { display: none; }
+
+/* x */
+/* z */
+/* styles for html shell and html elements in TEI (e.g.,<a> and <img>) */
+html > body { margin: 0; padding: 0; }
+
+html { margin: 0; padding: 0; font-family: "Lucida Grande", "Cardo", "Arial Unicode MS", "Galilee Unicode Gk", "New Athena Unicode", "Athena Unicode", "Palatino Linotype", "Titus Cyberbit Basic", "Vusillus Old Face", "Alphabetum", "Galatia SIL", "Code 2000", "GentiumAlt", "Gentium", "Minion Pro", "GeorgiaGreek", "Vusillus Old Face Italic", "Everson Mono", "Aristarcoj", "Porson", "Legendum", "Aisa Unicode", "Hindsight Unicode", "Caslon", "Verdana", "Tahoma"; font-size: 12pt; background-color: white; color: #292929; }
+
+div#tei { margin-top: 1rem; position: relative; width: 70vw; }
+
+@media (min-width: 768px) { div#tei { width: auto; } }
+
+div#tei a { text-decoration: underline; }
+
+div#tei a:link, div#tei a:visited, div#teia:active { color: black; text-decoration: underline; }
+
+div#prevNext { width: 70vw; text-align: center; font-size: larger; margin-top: 1rem; }
+
+@media (min-width: 768px) { div#prevNext { width: auto; } }
+
+div#prevNext a { color: black; text-decoration: underline; text-decoration-style: dotted; }
+
+#footer { margin-top: 1em; border-top: 1px solid #292929; padding-top: 0.5em; font-size: 12pt; }
+
+.hidden { display: none; }
+
+div.notes { max-width: 70vw; }
+
+@media (min-width: 992px) { div.notes { width: auto; } }
+
+ol.notes { list-style: none; margin: auto; max-width: 50vw; }
+
+ol.notes > li > a { display: block; float: left; font-family: Courier, monospace; margin-left: -4em; text-align: right; width: 3em; }
+
+ol.notes tei-p { text-align: left; }
+
+ol.notes a { color: black; }
+
+/* xml-serialization */
+.eg-element { color: #0165c8; }
+
+.eg-comment { color: gray; }
+
+.eg-att, .eg-nsdecl { color: #f58650; }
+
+.eg-attvalue, .eg-ns { color: #993300; }
+
+.eg-text { color: #292929; }
+
+@media (min-width: 576px) { label { margin-left: 0.25rem; } }
+
+/* -----
+SVG Icons - svgicons.sparkk.fr
+----- */
+.svg-icon { width: 1em; height: 1em; }
+
+.svg-icon path, .svg-icon polygon, .svg-icon rect { fill: #005cb9; }
+
+.svg-icon circle { stroke: #005cb9; stroke-width: 1; }
+
+/* -----
+START SV customizations
+----- */
+tei-note {
+    display: none;
+}
+
+tei-titlepage {
+    display: none;
+}
+/* -----
+END SV customizations
+----- */

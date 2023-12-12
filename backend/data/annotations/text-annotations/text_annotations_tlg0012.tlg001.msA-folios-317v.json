@@ -1,5 +1,78 @@
 [
   {
+    "urn": "urn:cts:greekLit:tlg5026.msAint.hmt:24.3",
+    "comment": "οτ  ἴδῃ καὶ νοήσῃ παραλλήλως ταυτόν εστ  ⁑",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol7217",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA317VN_0819@0.849,0.3664,0.066,0.0405"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:317v.24.337"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAint.hmt:24.4",
+    "comment": "Ἀρισταρχ  ἐσυμνητῆρι τουτεστ  βασιλικῷ ⁑",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol7218",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA317VN_0819@0.838,0.548,0.076,0.033"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:317v.24.347"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAim.hmt:24.19",
+    "comment": "ἐν τῃ Χίᾳ καταβάντε ⁑",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol7290",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA317VN_0819@0.429,0.2778,0.06,0.0405"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:317v.24.331"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAim.hmt:24.20",
+    "comment": "ουτ  Ἀρίσταρχ  δια τοῦ ε . αἱ δε κοιναὶ δια τοῦ η ἐθέλη ⁑",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol7291",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA317VN_0819@0.425,0.5015,0.066,0.0458"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:317v.24.344"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAim.hmt:24.21",
+    "comment": "ἐν αλλῳ αῖψα δ' ὰρ ἐς Τροίην ⁑",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol7292",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA317VN_0819@0.428,0.5398,0.053,0.048"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:317v.24.346"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAil.hmt:24.15",
+    "comment": "φίλον γενέσθαι καὶ ἑταῖρον",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol7252",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA317VN_0819@0.548,0.3273,0.122,0.0113"
+    },
+    "references": []
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAil.hmt:24.16",
+    "comment": "ουτ  δια τοῦ ο φερον",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol7253",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA317VN_0819@0.732,0.4392,0.08,0.0098"
+    },
+    "references": []
+  },
+  {
     "urn": "urn:cts:greekLit:tlg5026.msA.hmt:24.51",
     "lemma": "‡ παῖδες καὶ γαμβροὶ·",
     "dse": {
@@ -7,7 +80,6 @@
       "image_roi": "urn:cite2:hmt:vaimg.2017a:VA317VN_0819@0.2205,0.1154,0.6218,0.02974"
     },
     "references": [
-      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:317v.24.331",
       "urn:cts:greekLit:tlg0012.tlg001.msA-folios:317v.24.332"
     ],
     "comment": "προς τὴν συναλιφὴν ὅτι ἐν δύο στίχοις , τὸ γὰρ πλῆρες ἐστι Ζῆνα ἐς πεδίον φανέντε ⁑"
@@ -78,7 +150,10 @@
     "dse": {
       "urn": "urn:cite2:hmt:va_dse.v1:schol7425",
       "image_roi": "urn:cite2:hmt:vaimg.2017a:VA317VN_0819@0.2277,0.6012,0.2091,0.07469"
-    }
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:317v.24.348"
+    ]
   },
   {
     "urn": "urn:cts:greekLit:tlg5026.msA.hmt:24.58",

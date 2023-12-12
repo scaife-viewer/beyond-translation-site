@@ -1,5 +1,78 @@
 [
   {
+    "urn": "urn:cts:greekLit:tlg5026.msAint.hmt:18.4",
+    "comment": "περιπαθῶς ἀναπεφώνητ  τὸ ὄνομα τοῦ Πατρόκλου ⁑",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol6160",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA239VN_0741@0.871,0.2562,0.048,0.0323"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:239v.18.28"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAint.hmt:18.5",
+    "comment": "τοῦτ  δια μεσου τὸ γὰρ ἑξῆς χειρας εχ  Αχ  · δείδιε γὰρ ⁑",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol6161",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA239VN_0741@0.888,0.3501,0.036,0.0481"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:239v.18.33"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAim.hmt:18.3",
+    "comment": "ἃς ἐκ λαφυραγωγίας εκτήσατ  ⁑",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol6255",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA239VN_0741@0.426,0.266,0.071,0.0293"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:239v.18.28"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAim.hmt:18.4",
+    "comment": "Ἀριστχ  ἀπαμησειε ⁑",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol6256",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA239VN_0741@0.437,0.3817,0.052,0.0331"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:239v.18.34"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAim.hmt:18.5",
+    "comment": "Αρισταρχ  χώ  τοῦ θ Άλεια παρα τὴν άλα ⁑",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol6257",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA239VN_0741@0.434,0.4643,0.062,0.0278"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:239v.18.40"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAil.hmt:18.3",
+    "comment": "ουτ  Ζηνοδ  ⁑",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol6217",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA239VN_0741@0.728,0.3719,0.058,0.0135"
+    },
+    "references": []
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAil.hmt:18.4",
+    "comment": "λαμπρον",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol6218",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA239VN_0741@0.611,0.6724,0.041,0.0105"
+    },
+    "references": []
+  },
+  {
     "urn": "urn:cts:greekLit:tlg5026.msA.hmt:18.18",
     "lemma": "‡ μέγας μεγαλώστι  ·",
     "dse": {
@@ -43,16 +116,6 @@
       "image_roi": "urn:cite2:hmt:vaimg.2017a:VA239VN_0741@0.227,0.4523,0.22,0.1683"
     },
     "references": [
-      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:239v.18.39",
-      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:239v.18.40",
-      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:239v.18.41",
-      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:239v.18.42",
-      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:239v.18.43",
-      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:239v.18.44",
-      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:239v.18.45",
-      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:239v.18.46",
-      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:239v.18.47",
-      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:239v.18.48",
       "urn:cts:greekLit:tlg0012.tlg001.msA-folios:239v.18.49"
     ],
     "comment": "ὁ τῶν Νηρεΐδων χορὸς προηθέτηται καὶ παρα Ζηνοδότῳ ὡς Ἡσιόδιον ἔχων χαρακτῆρα Ὅμηρος γὰρ κατ  τὸ κοινὸν Μούσας λέγει καὶ Εἰλειθυίας , ἀλλ' οὐκ ονόματα· γελοῖον τὲ ἐξ ονόματος προθέμενον εἰπεῖν πασας ὥσπερ ἀποκαμόντα εἰπεῖν· ἄλλαι δ' αἳ κατα βένθος ἁλὸς Νηρηϊδες ἦσαν . ὁ δὲ Καλλίστρατος , οὐδε ἐν τῇ Ἀργολικῇ φησιν αὐτοὺς φέρεσθαι τό τε ἔνθα οὔτε χρόνον σημαίνει οὔτε τόπον δίακόπτεταί  τὲ ἡ λύπη τῷ καταλόγῳ ⁑"
@@ -65,13 +128,6 @@
       "image_roi": "urn:cite2:hmt:vaimg.2017a:VA239VN_0741@0.237,0.6161,0.204,0.0894"
     },
     "references": [
-      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:239v.18.39",
-      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:239v.18.40",
-      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:239v.18.41",
-      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:239v.18.42",
-      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:239v.18.43",
-      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:239v.18.44",
-      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:239v.18.45",
       "urn:cts:greekLit:tlg0012.tlg001.msA-folios:239v.18.46"
     ],
     "comment": "ἐνθάδε ἐβάρυνεν ὁ Ἀρίσταρχος τὸ Γλαύκη . εἰς ἀποφυγὴν τοῦ ἐπιθετικοῦ τοῦ γλαυκὴ· δέ σ' ἔτικτε θάλασσα · ἐπι δε τοῦ Νημερτής τε καὶ Ἀψευδής . οὐκ εποιήσατο μεταβολὴν τόνου ἔφαμεν δὲ ἤδη περι τῶν τοιούτων ⁑"

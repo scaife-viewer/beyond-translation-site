@@ -1,5 +1,80 @@
 [
   {
+    "urn": "urn:cts:greekLit:tlg5026.msAint.hmt:19.2015office4_1",
+    "comment": "τουτ  δια μέσου τὸ γὰρ ἑξῆς ἀεικίσσωει δε νεκρόν κατ  δὲ χρόα ⁑",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol6551",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA252RN_0423@0.126,0.1998,0.071,0.0699"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:252r.19.27"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAint.hmt:19.2015office4_2",
+    "comment": "παρα Αριστοφ  καὶ Ριανῶ ερίηρας",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol6552",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA252RN_0423@0.1171,0.494,0.077,0.0257"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:252r.19.41"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAint.hmt:19.2015office4_3",
+    "comment": "νεῶν αγῶνα τὸ ἄθροισμα τοῦ ναστάθμου ⁑",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol6553",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA252RN_0423@0.1265,0.5173,0.0614,0.0412"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:252r.19.42"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAim.hmt:19.2015office4_1",
+    "comment": "ουτ  Αρισταρχ  δια τοῦ η σαπήῃ",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol6580",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA252RN_0423@0.581,0.2307,0.041,0.0331"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:252r.19.27"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAim.hmt:19.2015office4_2",
+    "comment": "παρα Αριστοφάνους ἀλαλκέμεν ⁚",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol6581",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA252RN_0423@0.569,0.287,0.041,0.0331"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:252r.19.30"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAim.hmt:19.2015office4_3",
+    "comment": "ἐν ἄλλῳ ποδαρκης δῖος Αχι  ⁚",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol6582",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA252RN_0423@0.572,0.4823,0.041,0.0331"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:252r.19.40"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAil.hmt:19.2015office4_1",
+    "comment": "ο μυελός",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol6573",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA252RN_0423@0.253,0.2239,0.033,0.0083"
+    },
+    "references": []
+  },
+  {
     "urn": "urn:cts:greekLit:tlg5026.msA.hmt:19.2015office4_1",
     "lemma": "εὐλὰς ἐγγείνωνται",
     "dse": {

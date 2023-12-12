@@ -1,5 +1,60 @@
 [
   {
+    "urn": "urn:cts:greekLit:tlg5026.msAext.hmt:6.295",
+    "comment": "δόλον",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol2781",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA084RN_0256@0.81871776,0.37372061,0.03831982,0.01355463"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:84r.6.187"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAint.hmt:6.175",
+    "comment": "ουτ  Ἀρισταρχος ἄλλοι δὲ δια τοῦ ε ἐπερχομένω ⁑",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol2685",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA084RN_0256@0.09874724,0.35822960,0.05858511,0.02517289"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:84r.6.187"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAint.hmt:6.176",
+    "comment": "προς τὸ πάλιν οτι οὐ χρονικῶς ⁑",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol2686",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA084RN_0256@0.09727340,0.39391425,0.06079587,0.03015214"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:84r.6.189"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAim.hmt:6.230",
+    "comment": "γραφεται ὄφρα νέμοιτο ⁑",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol2726",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA084RN_0256@0.53610906,0.50899032,0.04126750,0.01632089"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:84r.6.195"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAil.hmt:6.288",
+    "comment": "τεράστιον",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol2774",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA084RN_0256@0.42630803,0.21327801,0.04237288,0.01189488"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:84r.6.180"
+    ]
+  },
+  {
     "urn": "urn:cts:greekLit:tlg5026.msA.hmt:6.64",
     "lemma": "‡ καὶ τὴν μὲν κατ έπεφνε·",
     "dse": {

@@ -1,5 +1,93 @@
 [
   {
+    "urn": "urn:cts:greekLit:tlg5026.msAint.hmt:6.195",
+    "comment": "τὸ ποθὴν ὡς κριθην ⁑",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol2703",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA087VN_0590@0.83714075,0.33540802,0.03500368,0.01715076"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:87v.6.362"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAint.hmt:6.196",
+    "comment": "ἐκ παραλλήλου τὸ αὐτο ⁑",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol2704",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA087VN_0590@0.83787767,0.54370678,0.03684598,0.01576763"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:87v.6.373"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAim.hmt:6.254",
+    "comment": "οτι ὁ με αντι γὰρ οὐ γάρ με πείσεις ⁑",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol2747",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA087VN_0590@0.37269713,0.30912863,0.05084746,0.03181189"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:87v.6.360"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAim.hmt:6.256",
+    "comment": "οἰκέτας",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol2748",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA087VN_0590@0.39001474,0.42863071,0.03131909,0.01549101"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:87v.6.366"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAim.hmt:6.257",
+    "comment": "τὸ τέλειον οὐ γάρ τε οῖδα ⁑",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol2749",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA087VN_0590@0.38522476,0.44688797,0.05268976,0.02295989"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:87v.6.367"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAim.hmt:6.258",
+    "comment": "οτι αντι     ⁑",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol2750",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA087VN_0590@0.37896094,0.50248963,0.04679440,0.01576763"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:87v.6.370"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAim.hmt:6.259",
+    "comment": "Ἀρισταρχος χω  του ϊ ἐφεστήκει",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol2751",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA087VN_0590@0.38448784,0.56002766,0.05563744,0.02655602"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:87v.6.373"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAil.hmt:6.A19",
+    "comment": "ι",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol2798",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA087VN_0590@0.497,0.3449,0.016,0.0105"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:87v.6.362"
+    ]
+  },
+  {
     "urn": "urn:cts:greekLit:tlg5026.msA.hmt:6.113",
     "lemma": "‡ οἷσιν ἐπὶ Ζεὺς θῆκε",
     "dse": {
