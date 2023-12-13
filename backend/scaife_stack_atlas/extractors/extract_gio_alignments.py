@@ -166,6 +166,7 @@ def extract_english_tokens():
                     space_after="false" if skip_space_after(sentence, pos_0) else "",
                     position=pos_1,
                     ve_ref=ve_ref,
+                    idx=idx,
                 )
             )
             idx += 1
@@ -205,6 +206,7 @@ def extract_greek_tokens():
                     space_after="false" if skip_space_after(sentence, pos_0) else "",
                     position=pos_1,
                     ve_ref=ve_ref,
+                    idx=idx,
                 )
             )
             idx += 1
