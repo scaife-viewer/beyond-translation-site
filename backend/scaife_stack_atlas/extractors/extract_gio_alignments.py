@@ -3,12 +3,19 @@ from pathlib import Path
 
 import conllu
 
+from scaife_stack_atlas.extractors.prepare_persian_alignments import (
+    write_alignment_annotation,
+)
+
 
 GIO_DATA_DIR = Path(
     "/Users/jwegner/Data/development/repos/gregorycrane/gio-perseus-work-summer-2023"
 )
 # TODO: Djangoify
 BASE_DATA_DIR = Path("data")
+
+GREEK_VERSION = "urn:cts:greekLit:tlg2022.tlg007.gio-grc1:"
+ENGLISH_VERSION = "urn:cts:greekLit:tlg2022.tlg007.gio-eng1:"
 
 textgroup = {}
 work = {}
@@ -214,12 +221,48 @@ def extract_greek_tokens():
     return alignment_to_ve_ref_lookup
 
 
+def extract_alignments(lookups):
+    input_path = GIO_DATA_DIR / "Gregory_Oration-27_Aligned_Corrected.csv"
+    alignment_records = []
+    with input_path.open() as f:
+        for pos, row in enumerate(csv.reader(f)):
+            greek_idx = [pos]
+            _, english = row[0], [col for col in row[1:] if col]
+            english = [e for e in english]
+            if english == ["0"]:
+                english_idx = []
+            else:
+                english = [e.split(" ")[0].split("(")[1].split(",")[0] for e in english]
+                english_idx = [int(e) for e in english]
+            greek_ve_refs = [lookups["greek"][gidx] for gidx in greek_idx]
+            english_ve_refs = [lookups["english"][eidx] for eidx in english_idx]
+            greek_relation = [f"{GREEK_VERSION}{ve_ref}" for ve_ref in greek_ve_refs]
+            english_relation = [f"{ENGLISH_VERSION}{ve_ref}" for ve_ref in english_ve_refs]
+            alignment_records.append([greek_relation, english_relation])
+    return alignment_records
+
+    # From scaife_stack_atlas/extractors/prepare_persian_alignments.py
+
+
 def main():
     extract_english()
     extract_greek()
 
-    extract_english_tokens()
-    extract_greek_tokens()
+    lookups = {
+        "english": extract_english_tokens(),
+        "greek": extract_greek_tokens(),
+    }
+    alignment_records = extract_alignments(lookups)
+
+    versions = [
+        GREEK_VERSION,
+        ENGLISH_VERSION,
+    ]
+    title = "Gregory of Nyssa Greek / English Word Alignment"
+    alignment_urn = (
+        f"urn:cite2:scaife-viewer:alignment.v1:gio-gregory-nyssa-word-alignment"
+    )
+    write_alignment_annotation(title, alignment_urn, versions, alignment_records)
 
 
 if __name__ == "__main__":
@@ -229,5 +272,5 @@ if __name__ == "__main__":
 # - [ ] populate library metadata
 # - [x] extract flat text files
 # - [x] create token files
-# - [ ] write alignment files
+# - [x] write alignment files
 # - [ ] attribution records
