@@ -143,6 +143,33 @@ def set_text_annotation_collection(reset=False):
     tas.update(collection=collection)
 
 
+def set_dahpne_text_annotation_collection(reset=False):
+    collection_urn = (
+        "urn:cite2:beyond-translation:text_annotation_collection.atlas_v1:il_daphne"
+    )
+    if reset:
+        TextAnnotation.objects.filter(collection__urn=collection_urn).update(
+            collection=None
+        )
+        TextAnnotationCollection.objects.filter(urn=collection_urn).delete()
+
+    # FIXME: Mimic bellum-boano directory format
+    tas = TextAnnotation.objects.filter(
+        urn__istartswith="urn:cite2:scaife-viewer:syntaxTree.v1:syntaxTree-daphne-"
+    )
+    collection = TextAnnotationCollection.objects.create(
+        label="gregorycrane/Daphne",
+        data={
+            "source": {
+                "title": "gregorycrane/Daphne",
+                "url": "https://github.com/gregorycrane/Daphne",
+            }
+        },
+        urn=collection_urn,
+    )
+    tas.update(collection=collection)
+
+
 def set_gorman_attributions(reset=False):
     person, created = AttributionPerson.objects.get_or_create(name="Vanessa Gorman")
     if not created or reset:

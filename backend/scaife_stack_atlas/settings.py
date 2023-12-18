@@ -203,6 +203,7 @@ SV_ATLAS_INGESTION_PIPELINE = [
     # TODO: Backport to scaife_viewer.atlas
     "scaife_stack_atlas.temp.process_alignments",
     "scaife_stack_atlas.temp.set_text_annotation_collection",
+    "scaife_stack_atlas.temp.set_dahpne_text_annotation_collection",
     "scaife_stack_atlas.temp.set_gorman_attributions",
     "scaife_stack_atlas.temp.create_gorman_collection",
     "scaife_stack_atlas.temp.set_glaux_attributions",
