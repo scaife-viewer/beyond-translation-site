@@ -1397,346 +1397,381 @@
   resolved "https://registry.yarnpkg.com/@panzoom/panzoom/-/panzoom-4.4.3.tgz#439ef0c3eba1cba0ad9b661fda5961aa2e2eec64"
   integrity sha512-fTAr7/bc9ukvWKxxqdoAuIhKhvu6TwuNiGcA0N3lrSj5OZGlISGLXcSZZyN7kgqH/6icYS7b18UT/Iq/W2rTOA==
 
-"@scaife-viewer/common@^0.0.7", "@scaife-viewer/common@^0.4.0", "@scaife-viewer/common@https://gitpkg.vercel.app/scaife-viewer/frontend/packages/common?f619127c4e70a4f44822d27c2fb136ab48a40edc":
-  version "0.4.0"
-  resolved "https://gitpkg.vercel.app/scaife-viewer/frontend/packages/common?f619127c4e70a4f44822d27c2fb136ab48a40edc#2cf12515179aa602cf47265360eb942ae2920385"
+"@scaife-viewer/common@^0.6.0":
+  version "0.6.0"
+  resolved "https://registry.yarnpkg.com/@scaife-viewer/common/-/common-0.6.0.tgz#48c986a361a7e394ef0b90c216b2a7f4a60537ee"
+  integrity sha512-npTzR8ced54pgIo+apxAunpAp/HiNohDVln2tGBwHdWdVeOJtTYbg4JOYknfWng3V0ZS5V/PiYpjGyMhUSBUwA==
   dependencies:
     "@fortawesome/fontawesome-svg-core" "^1.2.28"
     "@fortawesome/free-solid-svg-icons" "^5.14.0"
     "@fortawesome/vue-fontawesome" "^0.1.8"
-    "@scaife-viewer/store" "^0.5.0-beta.1"
+    "@scaife-viewer/store" "^0.6.0"
     lodash.debounce "^4.0.8"
 
-"@scaife-viewer/entity-map@^0.5.0-beta.2":
-  version "0.5.0-beta.2"
-  resolved "https://registry.yarnpkg.com/@scaife-viewer/entity-map/-/entity-map-0.5.0-beta.2.tgz#e5e20029e1763c34d985b2e4d21389b09672e2d2"
-  integrity sha512-G5ux1n0zbO8LC3tKASv7RNnc963W1/mpAroICPqkA/8xCyzzPYYz7iP8pvjEueSe9pWdG1YbigeYuajng+yyoQ==
+"@scaife-viewer/entity-map@^0.6.0":
+  version "0.6.0"
+  resolved "https://registry.yarnpkg.com/@scaife-viewer/entity-map/-/entity-map-0.6.0.tgz#87986e4efa15e30f7b8c7ae219db2f1070d08089"
+  integrity sha512-xJQJ1KTmNS60FgznwvDrPae75zfQQifOf6QAFqx+BODoUVRCwDcHN30hkoVxaYS/wi8JjrinV4ZuSebG+0CAzg==
   dependencies:
     mapbox-gl "^1.11.0"
     vue-mapbox "^0.4.1"
 
-"@scaife-viewer/reader-alignments-mode@https://gitpkg.vercel.app/scaife-viewer/frontend/packages/reader-alignments-mode?f619127c4e70a4f44822d27c2fb136ab48a40edc":
-  version "0.5.0-beta.1"
-  resolved "https://gitpkg.vercel.app/scaife-viewer/frontend/packages/reader-alignments-mode?f619127c4e70a4f44822d27c2fb136ab48a40edc#6d8e1b0ef435349aac4c9103a948f076d6da94a6"
+"@scaife-viewer/reader-alignments-mode@^0.6.0":
+  version "0.6.0"
+  resolved "https://registry.yarnpkg.com/@scaife-viewer/reader-alignments-mode/-/reader-alignments-mode-0.6.0.tgz#596da255c2bb80cea8e5705057c4152f4afa230a"
+  integrity sha512-5/w6AeAOCTiwQzWz4YXdW9CoWz2xehgSuU/wi/teM0T3P0SXfBPAQ6fSLOY0iZznzHzgzY5VH2XWwQr5OjOa0w==
   dependencies:
-    "@scaife-viewer/common" "^0.4.0"
-    "@scaife-viewer/store" "^0.5.0-beta.1"
-    "@scaife-viewer/widget-attributions" "^0.5.0-beta.1"
+    "@scaife-viewer/common" "^0.6.0"
+    "@scaife-viewer/store" "^0.6.0"
+    "@scaife-viewer/widget-attributions" "^0.6.0"
     graphql-tag "^2.10.3"
 
-"@scaife-viewer/reader-commentaries-mode@https://gitpkg.vercel.app/scaife-viewer/frontend/packages/reader-commentaries-mode?f619127c4e70a4f44822d27c2fb136ab48a40edc":
-  version "0.5.0-beta.2"
-  resolved "https://gitpkg.vercel.app/scaife-viewer/frontend/packages/reader-commentaries-mode?f619127c4e70a4f44822d27c2fb136ab48a40edc#329622ae9399c06e0b1d697d314488cc5b2a3382"
+"@scaife-viewer/reader-commentaries-mode@^0.6.0":
+  version "0.6.0"
+  resolved "https://registry.yarnpkg.com/@scaife-viewer/reader-commentaries-mode/-/reader-commentaries-mode-0.6.0.tgz#a3645b1ae0136f86477e6b4e47366cc452d285e3"
+  integrity sha512-27riPHcbjXUhN3cFu+BAOQza3ZADs3Qcvw7IG1Dj2flgtntUVqBL9vzXX3o8jo1N3cXLEycjVedZAwa6vJGerg==
   dependencies:
-    "@scaife-viewer/common" "^0.4.0"
-    "@scaife-viewer/store" "^0.5.0-beta.1"
-    "@scaife-viewer/widget-reader" "^0.5.0-beta.1"
-    graphql-tag "^2.10.3"
-    vue-apollo "^3.0.4"
-
-"@scaife-viewer/reader-dictionary-entries-mode@https://gitpkg.vercel.app/scaife-viewer/frontend/packages/reader-dictionary-entries-mode?f619127c4e70a4f44822d27c2fb136ab48a40edc":
-  version "0.5.0-beta.2"
-  resolved "https://gitpkg.vercel.app/scaife-viewer/frontend/packages/reader-dictionary-entries-mode?f619127c4e70a4f44822d27c2fb136ab48a40edc#35823a17b8fbe68ff91950e4b43de49f1e8acd7d"
-  dependencies:
-    "@scaife-viewer/common" "^0.4.0"
-    "@scaife-viewer/store" "^0.5.0-beta.1"
-    "@scaife-viewer/widget-reader" "^0.5.0-beta.1"
+    "@scaife-viewer/common" "^0.6.0"
+    "@scaife-viewer/store" "^0.6.0"
+    "@scaife-viewer/widget-reader" "^0.6.0"
     graphql-tag "^2.10.3"
     vue-apollo "^3.0.4"
 
-"@scaife-viewer/reader-grammatical-entries-mode@https://gitpkg.vercel.app/scaife-viewer/frontend/packages/reader-grammatical-entries-mode?f619127c4e70a4f44822d27c2fb136ab48a40edc":
-  version "0.5.0-beta.2"
-  resolved "https://gitpkg.vercel.app/scaife-viewer/frontend/packages/reader-grammatical-entries-mode?f619127c4e70a4f44822d27c2fb136ab48a40edc#d44c23cd1dc49cca99698ff7bef98044f25e113e"
+"@scaife-viewer/reader-dictionary-entries-mode@^0.6.0":
+  version "0.6.0"
+  resolved "https://registry.yarnpkg.com/@scaife-viewer/reader-dictionary-entries-mode/-/reader-dictionary-entries-mode-0.6.0.tgz#7d903b57b89a537eb2ed8a09720c2afe9b325629"
+  integrity sha512-9xn3XKIOAjMJKd54KuYmYmdVCJZkAmydZ1t+00ViWmZyCsN2j0CFTfZ9gEr+bEEP4uu+NpY888L8T0z+EfzeGg==
   dependencies:
-    "@scaife-viewer/common" "^0.4.0"
-    "@scaife-viewer/store" "^0.5.0-beta.1"
-    "@scaife-viewer/widget-reader" "^0.5.0-beta.1"
+    "@scaife-viewer/common" "^0.6.0"
+    "@scaife-viewer/store" "^0.6.0"
+    "@scaife-viewer/widget-reader" "^0.6.0"
     graphql-tag "^2.10.3"
     vue-apollo "^3.0.4"
 
-"@scaife-viewer/reader-image-mode@https://gitpkg.vercel.app/scaife-viewer/frontend/packages/reader-image-mode?f619127c4e70a4f44822d27c2fb136ab48a40edc":
-  version "0.5.0-beta.1"
-  resolved "https://gitpkg.vercel.app/scaife-viewer/frontend/packages/reader-image-mode?f619127c4e70a4f44822d27c2fb136ab48a40edc#dc70972ff59f4abcf99bd7ba63f91c955eb2e3ab"
+"@scaife-viewer/reader-grammatical-entries-mode@^0.6.0":
+  version "0.6.0"
+  resolved "https://registry.yarnpkg.com/@scaife-viewer/reader-grammatical-entries-mode/-/reader-grammatical-entries-mode-0.6.0.tgz#6b649cc090e426a26ec4e2ac2757dcfdd65c9499"
+  integrity sha512-wZRZVI+Nzdsph7+kOu31BjaRkqCx8o/lCUxDwmbULy8yKAzlJeELofmqqOOCikSgKrPNO8/zL+1k7+HWxVVDHQ==
+  dependencies:
+    "@scaife-viewer/common" "^0.6.0"
+    "@scaife-viewer/store" "^0.6.0"
+    "@scaife-viewer/widget-reader" "^0.6.0"
+    graphql-tag "^2.10.3"
+    vue-apollo "^3.0.4"
+
+"@scaife-viewer/reader-image-mode@^0.6.0":
+  version "0.6.0"
+  resolved "https://registry.yarnpkg.com/@scaife-viewer/reader-image-mode/-/reader-image-mode-0.6.0.tgz#2363511723b03fa9fe538465357d3a77d59c7c47"
+  integrity sha512-K8NgE5wkb7U4m30s1D6xcYRpdEHPebpFa9KhI6ABQE0cx9SjWdJjqHmnxpOTVEu9khtCojX8F/cvGcdEmOsjkw==
   dependencies:
     "@fortawesome/free-solid-svg-icons" "^5.14.0"
-    "@scaife-viewer/common" "^0.4.0"
-    "@scaife-viewer/store" "^0.5.0-beta.1"
-    "@scaife-viewer/widget-reader" "^0.5.0-beta.1"
+    "@scaife-viewer/common" "^0.6.0"
+    "@scaife-viewer/store" "^0.6.0"
+    "@scaife-viewer/widget-reader" "^0.6.0"
     graphql-tag "^2.10.3"
     openseadragon "^2.4.2"
     vue-apollo "^3.0.4"
 
-"@scaife-viewer/reader-interlinear-mode@https://gitpkg.vercel.app/scaife-viewer/frontend/packages/reader-interlinear-mode?f619127c4e70a4f44822d27c2fb136ab48a40edc":
-  version "0.5.0-beta.1"
-  resolved "https://gitpkg.vercel.app/scaife-viewer/frontend/packages/reader-interlinear-mode?f619127c4e70a4f44822d27c2fb136ab48a40edc#3e4d9064b970ba612de3ff9cae85ffe65d178353"
+"@scaife-viewer/reader-interlinear-mode@^0.6.0":
+  version "0.6.0"
+  resolved "https://registry.yarnpkg.com/@scaife-viewer/reader-interlinear-mode/-/reader-interlinear-mode-0.6.0.tgz#f3c70b32b38308d5109dc0de50a6a66d352b021d"
+  integrity sha512-HzWoVlUGwJZdoURmvEh9ac8CBG9FrBVuf09YPq9NxwXvRgVolQ/r4/V0gEZUYm42wO/y7nB2agnt0tDUNXk8Tw==
   dependencies:
-    "@scaife-viewer/common" "^0.4.0"
-    "@scaife-viewer/store" "^0.5.0-beta.1"
-    "@scaife-viewer/widget-reader" "^0.5.0-beta.1"
+    "@scaife-viewer/common" "^0.6.0"
+    "@scaife-viewer/store" "^0.6.0"
+    "@scaife-viewer/widget-reader" "^0.6.0"
     graphql-tag "^2.10.3"
     vue-apollo "^3.0.4"
 
-"@scaife-viewer/reader-metrical-mode@https://gitpkg.vercel.app/scaife-viewer/frontend/packages/reader-metrical-mode?f619127c4e70a4f44822d27c2fb136ab48a40edc":
-  version "0.5.0-beta.1"
-  resolved "https://gitpkg.vercel.app/scaife-viewer/frontend/packages/reader-metrical-mode?f619127c4e70a4f44822d27c2fb136ab48a40edc#783ca53022655c9c56666c5a955ca4afd2d2fc4a"
+"@scaife-viewer/reader-metrical-mode@^0.6.0":
+  version "0.6.0"
+  resolved "https://registry.yarnpkg.com/@scaife-viewer/reader-metrical-mode/-/reader-metrical-mode-0.6.0.tgz#6de2c86c735a2bb96f2b1ac49b22e62ec5102339"
+  integrity sha512-3FMGf5dFrEkBRdVwoiEdCjnoM7F70MviVGOVLCNWcLKS5QpSebXmkt8Vb4UXgcSwgqNZPftRk5aB08sVvLy64A==
   dependencies:
-    "@scaife-viewer/common" "^0.4.0"
-    "@scaife-viewer/store" "^0.5.0-beta.1"
-    "@scaife-viewer/widget-reader" "^0.5.0-beta.1"
+    "@scaife-viewer/common" "^0.6.0"
+    "@scaife-viewer/store" "^0.6.0"
+    "@scaife-viewer/widget-reader" "^0.6.0"
     graphql-tag "^2.10.3"
     vue-apollo "^3.0.4"
 
-"@scaife-viewer/reader-named-entities-mode@https://gitpkg.vercel.app/scaife-viewer/frontend/packages/reader-named-entities-mode?f619127c4e70a4f44822d27c2fb136ab48a40edc":
-  version "0.5.0-beta.2"
-  resolved "https://gitpkg.vercel.app/scaife-viewer/frontend/packages/reader-named-entities-mode?f619127c4e70a4f44822d27c2fb136ab48a40edc#de0745a5e54bb96e9c5fbbfe0acb875ace16be13"
+"@scaife-viewer/reader-named-entities-mode@^0.6.0":
+  version "0.6.0"
+  resolved "https://registry.yarnpkg.com/@scaife-viewer/reader-named-entities-mode/-/reader-named-entities-mode-0.6.0.tgz#c874f1264673375a1dbc9234c97e4202d6070972"
+  integrity sha512-vHrWy6bReDN6p6kSgOb1XY+xt2VQlDfIk3T13Yf8cT6jMWlDor/nvcyD0YcwqHbKh5b5ZdAei5Bn5rlRNL7bKg==
   dependencies:
     "@fortawesome/free-solid-svg-icons" "^5.14.0"
-    "@scaife-viewer/common" "^0.4.0"
-    "@scaife-viewer/entity-map" "^0.5.0-beta.2"
-    "@scaife-viewer/store" "^0.5.0-beta.1"
-    "@scaife-viewer/widget-reader" "^0.5.0-beta.1"
+    "@scaife-viewer/common" "^0.6.0"
+    "@scaife-viewer/entity-map" "^0.6.0"
+    "@scaife-viewer/store" "^0.6.0"
+    "@scaife-viewer/widget-reader" "^0.6.0"
     graphql-tag "^2.10.3"
     vue-apollo "^3.0.4"
 
-"@scaife-viewer/reader-syntax-trees-mode@https://gitpkg.vercel.app/scaife-viewer/frontend/packages/reader-syntax-trees-mode?5a97c5406e4efbdd600f33dd1d8743fcc32e8ef8":
-  version "0.5.0-beta.1"
-  resolved "https://gitpkg.vercel.app/scaife-viewer/frontend/packages/reader-syntax-trees-mode?5a97c5406e4efbdd600f33dd1d8743fcc32e8ef8#ff8e4821b78f708502e1fed9d5241208c0ce5f90"
+"@scaife-viewer/reader-syntax-trees-mode@^0.6.0":
+  version "0.6.0"
+  resolved "https://registry.yarnpkg.com/@scaife-viewer/reader-syntax-trees-mode/-/reader-syntax-trees-mode-0.6.0.tgz#6a5124c4eaa7ac2ee13b5c0acc941ca41e1764e6"
+  integrity sha512-fC+teXT338chOBfMPj0PntZ4iTl8LVvLGeuHIEKeQMN3heTewvl5LyeeUI+JPNjM+JBvBChW5YrNY5gbBdQkYw==
   dependencies:
-    "@scaife-viewer/common" "^0.4.0"
-    "@scaife-viewer/store" "^0.5.0-beta.1"
-    "@scaife-viewer/vue-treant" "^0.5.0-beta.1"
-    "@scaife-viewer/widget-attributions" "^0.5.0-beta.1"
+    "@scaife-viewer/common" "^0.6.0"
+    "@scaife-viewer/store" "^0.6.0"
+    "@scaife-viewer/vue-treant" "^0.6.0"
+    "@scaife-viewer/widget-attributions" "^0.6.0"
     graphql-tag "^2.10.3"
     vue-apollo "^3.0.4"
 
-"@scaife-viewer/reader-tei-fallback-mode@https://gitpkg.vercel.app/scaife-viewer/frontend/packages/reader-tei-fallback-mode?f619127c4e70a4f44822d27c2fb136ab48a40edc":
-  version "0.5.0-beta.1"
-  resolved "https://gitpkg.vercel.app/scaife-viewer/frontend/packages/reader-tei-fallback-mode?f619127c4e70a4f44822d27c2fb136ab48a40edc#ac53f6e73fc922a7d356ba49b742aeb1c8e9ad2b"
+"@scaife-viewer/reader-tei-fallback-mode@^0.6.0":
+  version "0.6.0"
+  resolved "https://registry.yarnpkg.com/@scaife-viewer/reader-tei-fallback-mode/-/reader-tei-fallback-mode-0.6.0.tgz#42f4ea9bfa7e9c54348f5cb2736b97760e88329b"
+  integrity sha512-PgGB1LbcQ5ESkRc0DJjooTKrW4+0+SUk/lQWz7IU9jN136gXB6IAnkJl7AKfoMz+bo3YFmD5XwdZBjEOoFIxEw==
   dependencies:
-    "@scaife-viewer/common" "^0.4.0"
-    "@scaife-viewer/store" "^0.5.0-beta.1"
-    "@scaife-viewer/widget-reader" "^0.5.0-beta.1"
+    "@scaife-viewer/common" "^0.6.0"
+    "@scaife-viewer/store" "^0.6.0"
+    "@scaife-viewer/widget-reader" "^0.6.0"
     CETEIcean "^1.7.1"
     graphql-tag "^2.10.3"
     sass.js "^0.11.1"
     vue-apollo "^3.0.4"
 
-"@scaife-viewer/skeleton@https://gitpkg.vercel.app/scaife-viewer/frontend/packages/skeleton?f619127c4e70a4f44822d27c2fb136ab48a40edc":
-  version "0.5.0-beta.1"
-  resolved "https://gitpkg.vercel.app/scaife-viewer/frontend/packages/skeleton?f619127c4e70a4f44822d27c2fb136ab48a40edc#991df699ec127d941ed4a2d8f89646cfa541cb72"
+"@scaife-viewer/skeleton@^0.6.0":
+  version "0.6.0"
+  resolved "https://registry.yarnpkg.com/@scaife-viewer/skeleton/-/skeleton-0.6.0.tgz#6746881b0d0eeffe53d7aa08119c2505027cf71d"
+  integrity sha512-AW8WCLQLan8zMiwv0E5P3J8c9OhqU+E9RlqU4cCKZTXMW7aKnolUYFfdH/+r5KYVaRMYqnU3uvcNdOCLqn2HIA==
   dependencies:
     "@fortawesome/free-solid-svg-icons" "^5.14.0"
-    "@scaife-viewer/common" "^0.4.0"
-    "@scaife-viewer/store" "^0.5.0-beta.1"
+    "@scaife-viewer/common" "^0.6.0"
+    "@scaife-viewer/store" "^0.6.0"
     portal-vue "^2.1.7"
 
-"@scaife-viewer/store@^0.0.10", "@scaife-viewer/store@^0.4.0", "@scaife-viewer/store@^0.5.0-beta.1", "@scaife-viewer/store@https://gitpkg.vercel.app/scaife-viewer/frontend/packages/store?f619127c4e70a4f44822d27c2fb136ab48a40edc":
-  version "0.5.0-beta.1"
-  resolved "https://gitpkg.vercel.app/scaife-viewer/frontend/packages/store?f619127c4e70a4f44822d27c2fb136ab48a40edc#51701f2729d91c7c2cc9efd6850b9689294fa217"
+"@scaife-viewer/store@^0.6.0":
+  version "0.6.0"
+  resolved "https://registry.yarnpkg.com/@scaife-viewer/store/-/store-0.6.0.tgz#ee939e07c8492d4fd26878dfc4aa745891500bbd"
+  integrity sha512-Jcu+P46n0hWVKyWd674X4hXNIoPh7EacJzgIrfMlTXJnEPZLqKHkO5qyeF3eukihcCazoqTumHZY2EPp8NeA4g==
   dependencies:
-    "@scaife-viewer/common" "^0.4.0"
+    "@scaife-viewer/common" "^0.6.0"
     graphql-tag "^2.10.3"
 
-"@scaife-viewer/vue-treant@^0.5.0-beta.1", "@scaife-viewer/vue-treant@https://gitpkg.vercel.app/scaife-viewer/frontend/packages/vue-treant?658523eb8c6169d0b4d1c1612b9ca81ee0889b53":
-  version "0.5.0-beta.1"
-  resolved "https://gitpkg.vercel.app/scaife-viewer/frontend/packages/vue-treant?658523eb8c6169d0b4d1c1612b9ca81ee0889b53#5d38b7087eb3834ecdd40f729147a03bf7659dc1"
+"@scaife-viewer/vue-treant@^0.6.0":
+  version "0.6.0"
+  resolved "https://registry.yarnpkg.com/@scaife-viewer/vue-treant/-/vue-treant-0.6.0.tgz#ee9dc6b2d3df3d16537e80fa5c8022d1ec918a57"
+  integrity sha512-Tg72xvAvifSxf4LnOgz1uQtXEq/njOZVzWK3nSp4cpNcDrkEC1FTvnjLWL8aI/GDPGqgLe8xDOPNfj8sRF0c4g==
   dependencies:
     "@panzoom/panzoom" "^4.4.3"
     raphael "^2.3.0"
     vue-slider-component "^3.2.15"
 
-"@scaife-viewer/widget-attributions@^0.5.0-beta.1":
-  version "0.5.0-beta.1"
-  resolved "https://registry.yarnpkg.com/@scaife-viewer/widget-attributions/-/widget-attributions-0.5.0-beta.1.tgz#0d5722693805a9af2d079f4afc196267894b4738"
-  integrity sha512-tEm6rJbkcqtgEj6l2V6Nq0O29wMXv55ZSxEJ6weXmLdtVkp7Fccbq4cHqHb2Cl+Hpofw5AGySx2PV+9Y9NZ/nQ==
+"@scaife-viewer/widget-attributions@^0.6.0":
+  version "0.6.0"
+  resolved "https://registry.yarnpkg.com/@scaife-viewer/widget-attributions/-/widget-attributions-0.6.0.tgz#d2cea763509ecf2713f50b558658cd8ad48c8796"
+  integrity sha512-lAooxIlskRc+sYFiiCCVUV63Tn2cVlcNg/NjREl51wdzu9uIxE0bdF7pxY44TsDgZAf3QSVTKDqkhG3TzIib5w==
   dependencies:
-    "@scaife-viewer/store" "^0.5.0-beta.1"
+    "@scaife-viewer/store" "^0.6.0"
     graphql-tag "^2.11.0"
 
-"@scaife-viewer/widget-audio@^0.0.11":
-  version "0.0.11"
-  resolved "https://registry.yarnpkg.com/@scaife-viewer/widget-audio/-/widget-audio-0.0.11.tgz#9fc4a9126276583a439c65f6dc7c7e2d9f6ae314"
-  integrity sha512-98MYwgK7x99+DH/nsha6b36gqW5O9MSy5Hi1Ssd5SZNburEKL7pDHlfhxL6lnTA14Ayr2/685eIL5VT2mx3GQg==
+"@scaife-viewer/widget-audio@^0.6.0":
+  version "0.6.0"
+  resolved "https://registry.yarnpkg.com/@scaife-viewer/widget-audio/-/widget-audio-0.6.0.tgz#85fc77afaf89afe711fe44dcacc2919cebacf40b"
+  integrity sha512-Yug98ZX81mNQIRIxOvQr2yNDFB+OnkYDW0Eymh/1X+WR1cGcGOfg4oVeKhkEX//LjEdKtwUGx+ZdzbZNO6VD4Q==
   dependencies:
     "@fortawesome/free-solid-svg-icons" "^5.14.0"
-    "@scaife-viewer/common" "^0.0.7"
-    "@scaife-viewer/store" "^0.0.10"
+    "@scaife-viewer/common" "^0.6.0"
+    "@scaife-viewer/store" "^0.6.0"
     graphql-tag "^2.10.3"
 
-"@scaife-viewer/widget-commentary@https://gitpkg.vercel.app/scaife-viewer/frontend/packages/widget-commentary?f619127c4e70a4f44822d27c2fb136ab48a40edc":
-  version "0.5.0-beta.1"
-  resolved "https://gitpkg.vercel.app/scaife-viewer/frontend/packages/widget-commentary?f619127c4e70a4f44822d27c2fb136ab48a40edc#06c75b466df672e3fa5a194f9598e17b193e9ead"
+"@scaife-viewer/widget-commentary@^0.6.0":
+  version "0.6.0"
+  resolved "https://registry.yarnpkg.com/@scaife-viewer/widget-commentary/-/widget-commentary-0.6.0.tgz#cc6d9b814ab5d486d5af70b4e719eb41354140a4"
+  integrity sha512-P7NvdAiCJ9i7uczdae3HtVLtgZ73Yi972RpA50/J3AjSlOX9H6DG6IrgeVDEVR7Ht2eAiBPdKZvwUIDRffffig==
   dependencies:
-    "@scaife-viewer/common" "^0.4.0"
-    "@scaife-viewer/store" "^0.5.0-beta.1"
+    "@scaife-viewer/common" "^0.6.0"
+    "@scaife-viewer/store" "^0.6.0"
     graphql-tag "^2.12.6"
 
-"@scaife-viewer/widget-dictionary-entries@https://gitpkg.vercel.app/scaife-viewer/frontend/packages/widget-dictionary-entries?b61b772cea7d58a94aafa92e455cdd150399c9ad":
-  version "0.5.0-beta.1"
-  resolved "https://gitpkg.vercel.app/scaife-viewer/frontend/packages/widget-dictionary-entries?b61b772cea7d58a94aafa92e455cdd150399c9ad#f428558303e214c34f37b799c41a505ed4c8e11a"
+"@scaife-viewer/widget-dictionary-entries@^0.6.0":
+  version "0.6.0"
+  resolved "https://registry.yarnpkg.com/@scaife-viewer/widget-dictionary-entries/-/widget-dictionary-entries-0.6.0.tgz#3c49399aa622fe67445a2ad955d93664332cb1ec"
+  integrity sha512-HsANxevuVXvr0pPFVi9QD3HjqZLCTWGsbfXe3Eb/tnv9JrcIY8XVnpMYtiWrPHc5M9/d7imjGIFJnEbijmNMYQ==
   dependencies:
     "@fortawesome/free-solid-svg-icons" "^5.15.2"
-    "@scaife-viewer/common" "^0.4.0"
-    "@scaife-viewer/store" "^0.5.0-beta.1"
+    "@scaife-viewer/common" "^0.6.0"
+    "@scaife-viewer/store" "^0.6.0"
+    CETEIcean "^1.8.0"
     graphql-tag "^2.10.3"
     portal-vue "^2.1.7"
+    sass.js "^0.11.1"
 
-"@scaife-viewer/widget-display-mode@https://gitpkg.vercel.app/scaife-viewer/frontend/packages/widget-display-mode?f619127c4e70a4f44822d27c2fb136ab48a40edc":
-  version "0.5.0-beta.1"
-  resolved "https://gitpkg.vercel.app/scaife-viewer/frontend/packages/widget-display-mode?f619127c4e70a4f44822d27c2fb136ab48a40edc#a0f44270eb11ae909487774cbb0c0f125af18681"
+"@scaife-viewer/widget-display-mode@^0.6.0":
+  version "0.6.0"
+  resolved "https://registry.yarnpkg.com/@scaife-viewer/widget-display-mode/-/widget-display-mode-0.6.0.tgz#d6072a7d7f29d557a563a62936ff21aa068c55ea"
+  integrity sha512-VJFPXoB/cB5LRCJNukULuukL7gI4OQux+m84KDPmNXAUknjfAMamy/0gmHZDWbtdGoU4bj4O9J06WX1Tepd8bw==
   dependencies:
-    "@scaife-viewer/common" "^0.4.0"
-    "@scaife-viewer/store" "^0.5.0-beta.1"
+    "@scaife-viewer/common" "^0.6.0"
+    "@scaife-viewer/store" "^0.6.0"
     graphql-tag "^2.11.0"
 
-"@scaife-viewer/widget-grammatical-entries@https://gitpkg.vercel.app/pletcher/scaife-viewer-frontend/packages/widget-grammatical-entries?24759462e54b1d55dc4f1385cf282bb33169c902":
-  version "0.5.0-beta.2"
-  resolved "https://gitpkg.vercel.app/pletcher/scaife-viewer-frontend/packages/widget-grammatical-entries?24759462e54b1d55dc4f1385cf282bb33169c902#64415ad95d888252bbaa3c7e3290be18eed3fe75"
+"@scaife-viewer/widget-embed@^0.6.0":
+  version "0.6.0"
+  resolved "https://registry.yarnpkg.com/@scaife-viewer/widget-embed/-/widget-embed-0.6.0.tgz#31ce701375d4179ce6e9b2ac0c06de58efc32423"
+  integrity sha512-QAvrvF3z/wUfl4v9fVUEjAVpy0kd39Fcahj33Xpm8lLpuGPKV0r0BYjjvizS/9Pu55oBWfWG4CihKaIVe9mNKg==
   dependencies:
-    "@scaife-viewer/common" "^0.4.0"
-    "@scaife-viewer/store" "^0.5.0-beta.1"
+    "@scaife-viewer/store" "^0.6.0"
+
+"@scaife-viewer/widget-grammatical-entries@^0.6.0":
+  version "0.6.0"
+  resolved "https://registry.yarnpkg.com/@scaife-viewer/widget-grammatical-entries/-/widget-grammatical-entries-0.6.0.tgz#a310418e801200156104b465852c28fb75fe4fdb"
+  integrity sha512-IkceDKbT9TDeiMt3PL1cPF/WKMxYVDuHIoIQb4l10daOeAVE9mx1hQaAteWul0bt15p0ZMU35lavn5CiPGBG1A==
+  dependencies:
+    "@scaife-viewer/common" "^0.6.0"
+    "@scaife-viewer/store" "^0.6.0"
     graphql-tag "^2.10.3"
 
-"@scaife-viewer/widget-library@^0.0.10":
-  version "0.0.10"
-  resolved "https://registry.yarnpkg.com/@scaife-viewer/widget-library/-/widget-library-0.0.10.tgz#a8d5bc1c0c6a3c55e082ebf0c4645f52247a868f"
-  integrity sha512-FV+g65c6BeAMy8YbotsUgCaKo6N8r51eZ8dOoKF4YCGZC8tqmNMi4AK2hGIrAXiUfAc0IRLqgWUvvygLYAou0g==
+"@scaife-viewer/widget-library@^0.6.0":
+  version "0.6.0"
+  resolved "https://registry.yarnpkg.com/@scaife-viewer/widget-library/-/widget-library-0.6.0.tgz#22ff88d0dfb8d06669c8f2fe7ffef7334e52b321"
+  integrity sha512-0GMY8RALcOxV9oKQo+e8tQkPFPn/sDOTG0/QRAHDdu4/oSNkuSZFJWyD+qhnTwjB5gs5UxyLif1N7T+rnH8rRA==
   dependencies:
-    "@scaife-viewer/common" "^0.0.7"
-    "@scaife-viewer/store" "^0.0.10"
+    "@scaife-viewer/common" "^0.6.0"
+    "@scaife-viewer/store" "^0.6.0"
     graphql-tag "^2.10.3"
 
-"@scaife-viewer/widget-metadata@https://gitpkg.vercel.app/scaife-viewer/frontend/packages/widget-metadata?5bfe5d2e9b3cba2c7dbc49490abc6bcb0a48487a":
-  version "0.5.0-beta.1"
-  resolved "https://gitpkg.vercel.app/scaife-viewer/frontend/packages/widget-metadata?5bfe5d2e9b3cba2c7dbc49490abc6bcb0a48487a#3042a1cf7fe8128ed586cb1eaa46432838266340"
+"@scaife-viewer/widget-metadata@^0.6.0":
+  version "0.6.0"
+  resolved "https://registry.yarnpkg.com/@scaife-viewer/widget-metadata/-/widget-metadata-0.6.0.tgz#bfa0d4e9b900c1be4596fd9294c65080967fade7"
+  integrity sha512-luHyZTs1kqGPZGIddBbHD6UOJZk6/xS0aQ7hjb1Pt1uKszWEOtOvKN9AYoGsWW3k9ErbDWH5IqcbypUW+TP9bw==
   dependencies:
-    "@scaife-viewer/store" "^0.5.0-beta.1"
+    "@scaife-viewer/store" "^0.6.0"
 
-"@scaife-viewer/widget-morphology@https://gitpkg.vercel.app/scaife-viewer/frontend/packages/widget-morphology?b4b377065e0428299c65bc2bc03b5caca7999332":
-  version "0.5.0-beta.2"
-  resolved "https://gitpkg.vercel.app/scaife-viewer/frontend/packages/widget-morphology?b4b377065e0428299c65bc2bc03b5caca7999332#4e42442e2a9f3d567405e25bdb8a1497e90a815a"
+"@scaife-viewer/widget-morphology@^0.6.0":
+  version "0.6.0"
+  resolved "https://registry.yarnpkg.com/@scaife-viewer/widget-morphology/-/widget-morphology-0.6.0.tgz#7424fadea95c68dbdd3dc69b0986ceec40ea6266"
+  integrity sha512-ZteBCZNUCgIEiwCLB3rb9G2M/vP342OqscCf7aq9a89VpmcNcdrxeOpGOD98t1ujAK4gA0PJ1fQarh7rBnQSgg==
   dependencies:
-    "@scaife-viewer/common" "^0.4.0"
-    "@scaife-viewer/store" "^0.5.0-beta.1"
+    "@scaife-viewer/common" "^0.6.0"
+    "@scaife-viewer/store" "^0.6.0"
 
-"@scaife-viewer/widget-named-entities@^0.5.0-beta.2":
-  version "0.5.0-beta.2"
-  resolved "https://registry.yarnpkg.com/@scaife-viewer/widget-named-entities/-/widget-named-entities-0.5.0-beta.2.tgz#091141dd0c3a8d40a43807c07a0ed78ececf5b9f"
-  integrity sha512-CWIbHVHyW3I8Me5vqBETFMaeXwntG+uwlvEBoF3b3rr0Hu1TWe36Ef5U0YDn/WBgfGWfH1jhGwrMrt6I61qXmg==
+"@scaife-viewer/widget-named-entities@^0.6.0":
+  version "0.6.0"
+  resolved "https://registry.yarnpkg.com/@scaife-viewer/widget-named-entities/-/widget-named-entities-0.6.0.tgz#a6d235a5540bb9a55fe3307d072f3d7a568e3443"
+  integrity sha512-3XEeZUAT6M09xr2ovZmEMrEo0/hxssXWAo0DCYnqk4QzAvKk/FRycFAKnalDO6EyVEd1mpYnGtixvGq/w8UMyQ==
   dependencies:
     "@fortawesome/free-solid-svg-icons" "^5.14.0"
-    "@scaife-viewer/common" "^0.4.0"
-    "@scaife-viewer/entity-map" "^0.5.0-beta.2"
-    "@scaife-viewer/store" "^0.5.0-beta.1"
+    "@scaife-viewer/common" "^0.6.0"
+    "@scaife-viewer/entity-map" "^0.6.0"
+    "@scaife-viewer/store" "^0.6.0"
     graphql-tag "^2.10.3"
 
-"@scaife-viewer/widget-new-alexandria@https://gitpkg.vercel.app/scaife-viewer/frontend/packages/widget-new-alexandria?b48935fa4737773a8d1b8460c75660ba26f3e0c9":
-  version "0.4.0"
-  resolved "https://gitpkg.vercel.app/scaife-viewer/frontend/packages/widget-new-alexandria?b48935fa4737773a8d1b8460c75660ba26f3e0c9#af78d566be6398df091c1bcf427bbadd75678667"
+"@scaife-viewer/widget-new-alexandria@^0.6.0":
+  version "0.6.0"
+  resolved "https://registry.yarnpkg.com/@scaife-viewer/widget-new-alexandria/-/widget-new-alexandria-0.6.0.tgz#904bd28d52e3b2cd4beaf6b64b2f32f5aed2534c"
+  integrity sha512-wHimWmN1SG8fR2DSgmnJMjZfEKe9vp2dD0LeBquQ9hCxTC2YnViprc5J3itDOxJxhENaHxphr1CJ5Zr+gWr7xw==
   dependencies:
-    "@scaife-viewer/store" "^0.4.0"
+    "@scaife-viewer/store" "^0.6.0"
     graphql-tag "^2.10.3"
     query-string "^6.11.0"
 
-"@scaife-viewer/widget-passage-ancestors@^0.0.11":
-  version "0.0.11"
-  resolved "https://registry.yarnpkg.com/@scaife-viewer/widget-passage-ancestors/-/widget-passage-ancestors-0.0.11.tgz#9d541fd2db98666297d1d49028ea98a6fdbee7cd"
-  integrity sha512-lAb7+w/asqydUof8AQourks0WgfNHYnMosTHN9iO5Wo5Z4SlO+ttlCcxFKV+BEdvt4ORtTX3uX1Zo85N4J7g5Q==
+"@scaife-viewer/widget-passage-ancestors@^0.6.0":
+  version "0.6.0"
+  resolved "https://registry.yarnpkg.com/@scaife-viewer/widget-passage-ancestors/-/widget-passage-ancestors-0.6.0.tgz#9a0dfae6891204b7bf02430a62f621cdc5530671"
+  integrity sha512-VXCTAplMAY2s5qzs1ns7lU6onz25UJw10vW4nVRDYk/gRhPT4b21t/SatD7ML40OP7sM/kH8sy0szvmiTJjqIQ==
   dependencies:
-    "@scaife-viewer/common" "^0.0.7"
-    "@scaife-viewer/store" "^0.0.10"
+    "@scaife-viewer/common" "^0.6.0"
+    "@scaife-viewer/store" "^0.6.0"
     graphql-tag "^2.10.3"
 
-"@scaife-viewer/widget-passage-children@^0.0.11":
-  version "0.0.11"
-  resolved "https://registry.yarnpkg.com/@scaife-viewer/widget-passage-children/-/widget-passage-children-0.0.11.tgz#d10bdd790137f3e90ca2459b7e8a9e6bf33d9766"
-  integrity sha512-F38WW4iWXh2GK446AdiVXiipn0o5uPQGrdG9CNw49UxdyTdXxz2eqa2DSA2ZZxGZ/nhDhu0yt3y6QkAudbpSiA==
+"@scaife-viewer/widget-passage-children@^0.6.0":
+  version "0.6.0"
+  resolved "https://registry.yarnpkg.com/@scaife-viewer/widget-passage-children/-/widget-passage-children-0.6.0.tgz#5126e422f79d9b495355b6cd53b18a5353ced928"
+  integrity sha512-H6MVA6VrorSTxLG0dlx5DNcJpD77JKMEA+kjrGNfq9mvRbCZ+hea3JS42yQg9d+1F/Au2b/ud2SZ+CohggWycg==
   dependencies:
-    "@scaife-viewer/common" "^0.0.7"
-    "@scaife-viewer/store" "^0.0.10"
+    "@scaife-viewer/common" "^0.6.0"
+    "@scaife-viewer/store" "^0.6.0"
     graphql-tag "^2.10.3"
 
-"@scaife-viewer/widget-passage-lemma-traversal@https://gitpkg.vercel.app/scaife-viewer/frontend/packages/widget-passage-lemma-traversal?f619127c4e70a4f44822d27c2fb136ab48a40edc":
-  version "0.5.0-beta.2"
-  resolved "https://gitpkg.vercel.app/scaife-viewer/frontend/packages/widget-passage-lemma-traversal?f619127c4e70a4f44822d27c2fb136ab48a40edc#4e7a9386fa14dc7279a8dd0ef1ab6b62a50f6cf0"
+"@scaife-viewer/widget-passage-lemma-traversal@^0.6.0":
+  version "0.6.0"
+  resolved "https://registry.yarnpkg.com/@scaife-viewer/widget-passage-lemma-traversal/-/widget-passage-lemma-traversal-0.6.0.tgz#3f866f23804e20671afb7eaaa319fb70dfc76182"
+  integrity sha512-efZoZt8ataySsWeZ/BeW7f1fiZhntUBsr1BtTUmykc3QRxssv8N+XpDbWgtkA0HinXiXHPtaenrzhBfhDWiq4Q==
   dependencies:
-    "@scaife-viewer/common" "^0.4.0"
-    "@scaife-viewer/store" "^0.5.0-beta.1"
+    "@scaife-viewer/common" "^0.6.0"
+    "@scaife-viewer/store" "^0.6.0"
     graphql-tag "^2.10.3"
 
-"@scaife-viewer/widget-passage-reference@^0.0.14":
-  version "0.0.14"
-  resolved "https://registry.yarnpkg.com/@scaife-viewer/widget-passage-reference/-/widget-passage-reference-0.0.14.tgz#3d7bf2aef8e8b5cedbdd78106edc0881f282dfce"
-  integrity sha512-kKYUNLDrmr2Gq/Xj6INbOddIdHqsykD2SKatqOTAAJq64/wY5maM1kBe5A/qNJZ5bySsE5RX+P/isvyqI6TgLA==
+"@scaife-viewer/widget-passage-reference@^0.6.0":
+  version "0.6.0"
+  resolved "https://registry.yarnpkg.com/@scaife-viewer/widget-passage-reference/-/widget-passage-reference-0.6.0.tgz#633010f9fdd205b1686a5081bf6933273e52f2e3"
+  integrity sha512-mgw9kC/976qG6LtiVkFIURbwMnVeBP/OLKe+7U92xpJD9ZZtbNfc/jSE0LkKoBjUOA6Wyl/TdGucfMbPnKysyg==
   dependencies:
-    "@scaife-viewer/common" "^0.0.7"
-    "@scaife-viewer/store" "^0.0.10"
+    "@scaife-viewer/common" "^0.6.0"
+    "@scaife-viewer/store" "^0.6.0"
     graphql-tag "^2.10.3"
 
-"@scaife-viewer/widget-passage-siblings@^0.0.11":
-  version "0.0.11"
-  resolved "https://registry.yarnpkg.com/@scaife-viewer/widget-passage-siblings/-/widget-passage-siblings-0.0.11.tgz#017fdfb47e837296ef6eb7de983feebc6745cd72"
-  integrity sha512-8arQU5YRdzzcdM4Y45Iyx4Fr0SI+1NVJY6ZcVauFLagQohmNpX5sMj4hhUpKJw8glLuazvgzBwtI7fsrQhJl0g==
+"@scaife-viewer/widget-passage-siblings@^0.6.0":
+  version "0.6.0"
+  resolved "https://registry.yarnpkg.com/@scaife-viewer/widget-passage-siblings/-/widget-passage-siblings-0.6.0.tgz#adc27873dfc66e019f65cf55db009a31b8a73278"
+  integrity sha512-QerNuSmJIV/4Khun0AnsWgByWUVhEjdR9S1dJQaehxL0yrqpmYb2aJJNHEPf/zRgjs43GJwWv5SwzvFiUJj2gA==
   dependencies:
-    "@scaife-viewer/common" "^0.0.7"
-    "@scaife-viewer/store" "^0.0.10"
+    "@scaife-viewer/common" "^0.6.0"
+    "@scaife-viewer/store" "^0.6.0"
     graphql-tag "^2.10.3"
 
-"@scaife-viewer/widget-reader@^0.5.0-beta.1", "@scaife-viewer/widget-reader@https://gitpkg.vercel.app/scaife-viewer/frontend/packages/widget-reader?f619127c4e70a4f44822d27c2fb136ab48a40edc":
-  version "0.5.0-beta.1"
-  resolved "https://gitpkg.vercel.app/scaife-viewer/frontend/packages/widget-reader?f619127c4e70a4f44822d27c2fb136ab48a40edc#1f60b7cf2a556709573440feca9fac0e328e042a"
+"@scaife-viewer/widget-reader@^0.6.0":
+  version "0.6.0"
+  resolved "https://registry.yarnpkg.com/@scaife-viewer/widget-reader/-/widget-reader-0.6.0.tgz#3aeaf4b5431de66568e6f43b33ab761f04c22455"
+  integrity sha512-/XY/EA0CFU0XyHq5hgVZN3SIIHIG7bTP/8xWRalC63cRmQ4uVaYslshEtfBhCKNrGTd8Gv17DOh86/UHZbzBAA==
   dependencies:
-    "@scaife-viewer/common" "^0.4.0"
-    "@scaife-viewer/store" "^0.5.0-beta.1"
+    "@scaife-viewer/common" "^0.6.0"
+    "@scaife-viewer/store" "^0.6.0"
     graphql "^15.0.0"
     graphql-tag "^2.10.3"
     vue-apollo "^3.0.4"
 
-"@scaife-viewer/widget-scholia@https://gitpkg.vercel.app/scaife-viewer/frontend/packages/widget-scholia?f619127c4e70a4f44822d27c2fb136ab48a40edc":
-  version "0.5.0-beta.1"
-  resolved "https://gitpkg.vercel.app/scaife-viewer/frontend/packages/widget-scholia?f619127c4e70a4f44822d27c2fb136ab48a40edc#a30c8fab8b18f6b6d55c4fcd6766368e29361d2d"
+"@scaife-viewer/widget-scholia@^0.6.0":
+  version "0.6.0"
+  resolved "https://registry.yarnpkg.com/@scaife-viewer/widget-scholia/-/widget-scholia-0.6.0.tgz#a6a02b73bbda47cd5ee046c02cd615c7d33c9ed3"
+  integrity sha512-EQGdP4Wssff+uZlVNuNArsVtzEnQv5u7oVfc0ojsn9x+6Vk+51zmot4Xe06mYJjK7GnZIkSL+OJ9tF8qlpORCg==
   dependencies:
-    "@scaife-viewer/common" "^0.4.0"
-    "@scaife-viewer/store" "^0.5.0-beta.1"
+    "@scaife-viewer/common" "^0.6.0"
+    "@scaife-viewer/store" "^0.6.0"
     graphql-tag "^2.10.3"
 
-"@scaife-viewer/widget-text-size@^0.0.11":
-  version "0.0.11"
-  resolved "https://registry.yarnpkg.com/@scaife-viewer/widget-text-size/-/widget-text-size-0.0.11.tgz#4dee94b46950f9852df135f5ee51109df37b1d1d"
-  integrity sha512-hR/834Ze/zSLBgfMiDdu0Av92AbjXucyQa5xz5rcqCYxij/fxbJ4Toy1/rgtUMcmX64U9QbQ63BE9l8js4vRow==
+"@scaife-viewer/widget-text-size@^0.6.0":
+  version "0.6.0"
+  resolved "https://registry.yarnpkg.com/@scaife-viewer/widget-text-size/-/widget-text-size-0.6.0.tgz#aecef23bb83c3e8723a1fe2cedeef0f7a8c7bbe7"
+  integrity sha512-9rD4I/pjVSHRE62n2iStNP/stN1BEtYn5ddu+I/abazdiFLwciIb/vnO6CURCF0WHylJCwEAndripFAiDVshkg==
   dependencies:
-    "@scaife-viewer/store" "^0.0.10"
+    "@scaife-viewer/store" "^0.6.0"
 
-"@scaife-viewer/widget-text-width@^0.0.11":
-  version "0.0.11"
-  resolved "https://registry.yarnpkg.com/@scaife-viewer/widget-text-width/-/widget-text-width-0.0.11.tgz#fee19ef0ee8b3e668ca71bd9cc91179d670aa2f7"
-  integrity sha512-t2sjOP+FfkynTDomNHZHH6rvt6Nu0bcD17N8JatPzv/CY5FWrstSH9aotc1YtEYjRZ2TS4Row2qX2WOzYVm69w==
+"@scaife-viewer/widget-text-width@^0.6.0":
+  version "0.6.0"
+  resolved "https://registry.yarnpkg.com/@scaife-viewer/widget-text-width/-/widget-text-width-0.6.0.tgz#39710d6116b33add71a1a5cb1155c77989df62e6"
+  integrity sha512-mEssZl1Rt2/RW+Fr8AYw23juVPpwBfvRb04ag/RHmBDlkMIBa0RXo21zPUVzcFKzs9OZS6C3bGOZ0/4hlBEgxw==
   dependencies:
-    "@scaife-viewer/store" "^0.0.10"
+    "@scaife-viewer/store" "^0.6.0"
 
-"@scaife-viewer/widget-toc@https://gitpkg.vercel.app/scaife-viewer/frontend/packages/widget-toc?f619127c4e70a4f44822d27c2fb136ab48a40edc":
-  version "0.5.0-beta.1"
-  resolved "https://gitpkg.vercel.app/scaife-viewer/frontend/packages/widget-toc?f619127c4e70a4f44822d27c2fb136ab48a40edc#e943f17e07be4af3fa021c99b0efbb06df53b5a9"
+"@scaife-viewer/widget-toc@^0.6.0":
+  version "0.6.0"
+  resolved "https://registry.yarnpkg.com/@scaife-viewer/widget-toc/-/widget-toc-0.6.0.tgz#491e35717c1ebf0eee000c6f017de51300a6c301"
+  integrity sha512-um7i5//uf76MaAZMeMKiVP2XWPEqQnIRViuoKMzYZ7TxYJxTXngjHYiARgD16wWjYfIhVuT4y038X0441lQE0Q==
   dependencies:
     "@fortawesome/free-solid-svg-icons" "^6.4.2"
-    "@scaife-viewer/common" "^0.4.0"
-    "@scaife-viewer/store" "^0.5.0-beta.1"
+    "@scaife-viewer/common" "^0.6.0"
+    "@scaife-viewer/store" "^0.6.0"
 
-"@scaife-viewer/widget-token-annotations@https://gitpkg.vercel.app/scaife-viewer/frontend/packages/widget-token-annotations?f619127c4e70a4f44822d27c2fb136ab48a40edc":
-  version "0.5.0-beta.1"
-  resolved "https://gitpkg.vercel.app/scaife-viewer/frontend/packages/widget-token-annotations?f619127c4e70a4f44822d27c2fb136ab48a40edc#150ae13bc6577c65e650b166e54083ab59d43b66"
+"@scaife-viewer/widget-token-annotations@^0.6.0":
+  version "0.6.0"
+  resolved "https://registry.yarnpkg.com/@scaife-viewer/widget-token-annotations/-/widget-token-annotations-0.6.0.tgz#e741c18806a6b2e24140e911c50f636973ee48a4"
+  integrity sha512-8NcVFpHYrC/0opvHw01LZtiCx8Vu6Pz/VuOKKmqd3R61u8Xbjx/eUrk/j+VklV7mIsMYrij3FdAnY6Gg8zpL5g==
   dependencies:
-    "@scaife-viewer/common" "^0.4.0"
-    "@scaife-viewer/store" "^0.5.0-beta.1"
+    "@scaife-viewer/common" "^0.6.0"
+    "@scaife-viewer/store" "^0.6.0"
     graphql-tag "^2.10.3"
 
-"@scaife-viewer/widget-word-list@^0.0.11":
-  version "0.0.11"
-  resolved "https://registry.yarnpkg.com/@scaife-viewer/widget-word-list/-/widget-word-list-0.0.11.tgz#ae9041327b5cd86be6b8c6d0905564626686abd3"
-  integrity sha512-xfUYE5U7DXT+7h+jvz1KHfZc3eEa8svn75aputRdFcavnbQO1ddY6BZo4PDd9OVmyvE7rcH8ApSEJcIIGPttjQ==
+"@scaife-viewer/widget-word-list@^0.6.0":
+  version "0.6.0"
+  resolved "https://registry.yarnpkg.com/@scaife-viewer/widget-word-list/-/widget-word-list-0.6.0.tgz#807ebabb2b67661110e311f8f5e242709dbcbb18"
+  integrity sha512-e9QbmKsk+X1bXvZSrVRNn1HIZNjnHHB5L/64J2QBZntUx90TmrmT33KSRVPJp1yLvdGSGkMvL+tTvaW5Lxy+wg==
   dependencies:
-    "@scaife-viewer/common" "^0.0.7"
-    "@scaife-viewer/store" "^0.0.10"
+    "@scaife-viewer/common" "^0.6.0"
+    "@scaife-viewer/store" "^0.6.0"
     graphql-tag "^2.10.3"
 
 "@sinonjs/commons@^1.7.0":
@@ -2595,6 +2630,11 @@ CETEIcean@^1.7.1:
   version "1.7.3"
   resolved "https://registry.yarnpkg.com/CETEIcean/-/CETEIcean-1.7.3.tgz#2395d9514f012f1de6db7fd36741491f622f773d"
   integrity sha512-juLTEbnBBN4d100yhuSKbwmPjEIr6nHnlQlW0dKlqr0hpGphu9rMZu+6vIde5KlTtMwptpKBQv3xdmgSnDaIbA==
+
+CETEIcean@^1.8.0:
+  version "1.8.0"
+  resolved "https://registry.yarnpkg.com/CETEIcean/-/CETEIcean-1.8.0.tgz#da5d1db0beed10fbcdfb2d9c4677183f1f0a8e2e"
+  integrity sha512-x0kEFFKpO21hkemPt5w8/IezQEL3suUfEeYpLbw98Y/0WH5wlbDKEpmpQLR02/2dTL2kFE+sHUCmeAVDD816YA==
 
 abab@^2.0.0, abab@^2.0.3:
   version "2.0.5"
