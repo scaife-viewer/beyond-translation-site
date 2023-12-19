@@ -239,7 +239,9 @@ def extract_alignments(lookups):
             greek_ve_refs = [lookups["greek"][gidx] for gidx in greek_idx]
             english_ve_refs = [lookups["english"][eidx] for eidx in english_idx]
             greek_relation = [f"{GREEK_VERSION}{ve_ref}" for ve_ref in greek_ve_refs]
-            english_relation = [f"{ENGLISH_VERSION}{ve_ref}" for ve_ref in english_ve_refs]
+            english_relation = [
+                f"{ENGLISH_VERSION}{ve_ref}" for ve_ref in english_ve_refs
+            ]
             alignment_records.append([greek_relation, english_relation])
     return alignment_records
 
