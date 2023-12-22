@@ -1507,15 +1507,15 @@
     graphql-tag "^2.10.3"
     vue-apollo "^3.0.4"
 
-"@scaife-viewer/reader-syntax-trees-mode@^0.6.0":
-  version "0.6.0"
-  resolved "https://registry.yarnpkg.com/@scaife-viewer/reader-syntax-trees-mode/-/reader-syntax-trees-mode-0.6.0.tgz#6a5124c4eaa7ac2ee13b5c0acc941ca41e1764e6"
-  integrity sha512-fC+teXT338chOBfMPj0PntZ4iTl8LVvLGeuHIEKeQMN3heTewvl5LyeeUI+JPNjM+JBvBChW5YrNY5gbBdQkYw==
+"@scaife-viewer/reader-syntax-trees-mode@^0.6.1":
+  version "0.6.1"
+  resolved "https://registry.yarnpkg.com/@scaife-viewer/reader-syntax-trees-mode/-/reader-syntax-trees-mode-0.6.1.tgz#a891ec4690a1f4a4afd235888e966d51fb9ef6f8"
+  integrity sha512-PbYeIZip37/8jhC2o4kmfOfyFd5FANPwJVARlOydF0givjjMgH/Mp+JhMzm/G/JqxVIpQWfHvTpNjESqxkBD+Q==
   dependencies:
     "@scaife-viewer/common" "^0.6.0"
     "@scaife-viewer/store" "^0.6.0"
-    "@scaife-viewer/vue-treant" "^0.6.0"
-    "@scaife-viewer/widget-attributions" "^0.6.0"
+    "@scaife-viewer/vue-treant" "^0.6.1"
+    "@scaife-viewer/widget-attributions" "^0.6.1"
     graphql-tag "^2.10.3"
     vue-apollo "^3.0.4"
 
@@ -1550,10 +1550,10 @@
     "@scaife-viewer/common" "^0.6.0"
     graphql-tag "^2.10.3"
 
-"@scaife-viewer/vue-treant@^0.6.0":
-  version "0.6.0"
-  resolved "https://registry.yarnpkg.com/@scaife-viewer/vue-treant/-/vue-treant-0.6.0.tgz#ee9dc6b2d3df3d16537e80fa5c8022d1ec918a57"
-  integrity sha512-Tg72xvAvifSxf4LnOgz1uQtXEq/njOZVzWK3nSp4cpNcDrkEC1FTvnjLWL8aI/GDPGqgLe8xDOPNfj8sRF0c4g==
+"@scaife-viewer/vue-treant@^0.6.1":
+  version "0.6.1"
+  resolved "https://registry.yarnpkg.com/@scaife-viewer/vue-treant/-/vue-treant-0.6.1.tgz#cc77e4f11cad4928062d8f0d7371754fd5735ac4"
+  integrity sha512-olk1TB+Vq13aAOuxVa0gs692GGKA/2YtI7RagB6YPNMS+/hmwBxsZvWHlBOnZUGlH2Ffq9Abbh3psNOFKKxdDg==
   dependencies:
     "@panzoom/panzoom" "^4.4.3"
     raphael "^2.3.0"
@@ -1563,6 +1563,14 @@
   version "0.6.0"
   resolved "https://registry.yarnpkg.com/@scaife-viewer/widget-attributions/-/widget-attributions-0.6.0.tgz#d2cea763509ecf2713f50b558658cd8ad48c8796"
   integrity sha512-lAooxIlskRc+sYFiiCCVUV63Tn2cVlcNg/NjREl51wdzu9uIxE0bdF7pxY44TsDgZAf3QSVTKDqkhG3TzIib5w==
+  dependencies:
+    "@scaife-viewer/store" "^0.6.0"
+    graphql-tag "^2.11.0"
+
+"@scaife-viewer/widget-attributions@^0.6.1":
+  version "0.6.1"
+  resolved "https://registry.yarnpkg.com/@scaife-viewer/widget-attributions/-/widget-attributions-0.6.1.tgz#86c19dfda99f97951d551d290d2bf7afa4ab3193"
+  integrity sha512-OzLyVYLR30Cas9cXFoW/znm95LbY7FAtWHxRh3uD0c7DRvJQFPIa1AE8yR59fACcbsAEzNBzJVbLCpxmH2gPoA==
   dependencies:
     "@scaife-viewer/store" "^0.6.0"
     graphql-tag "^2.11.0"
