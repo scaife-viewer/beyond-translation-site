@@ -12,6 +12,6 @@ more_itertools==8.12.0
 pandas==1.5.2
 requests>=2.0.6
 thefuzz==0.19.0
-scaife-viewer-atlas @https://github.com/scaife-viewer/backend/archive/2993ddb46a2557957f16e8c1269972e9b52f1e95.zip#subdirectory=atlas
+scaife-viewer-atlas @https://github.com/scaife-viewer/backend/archive/c8eace0e2941d26512983d26a94feb563dba9b5b.zip#subdirectory=atlas
 PyICU>=2.9,<3
 whitenoise==4.1.4
