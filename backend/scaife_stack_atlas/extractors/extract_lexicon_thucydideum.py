@@ -120,7 +120,7 @@ def blob_entries():
     entry_paths = []
     while chunk:
         entries_path = Path(DICTIONARY_PATH, f"entries-{str(counter).zfill(3)}.jsonl")
-        print(counter)
+        print(f"Processing chunk {counter}")
         with entries_path.open("w") as f:
             writer = jsonlines.Writer(f)
             for entry in chunk:
