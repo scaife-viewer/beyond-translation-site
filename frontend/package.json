@@ -17,7 +17,7 @@
     "@fortawesome/free-solid-svg-icons": "^5.15.1",
     "@fortawesome/vue-fontawesome": "^2.0.0",
     "@scaife-viewer/common": "^0.6.0",
-    "@scaife-viewer/reader-alignments-mode": "^0.6.0",
+    "@scaife-viewer/reader-alignments-mode": "https://gitpkg.vercel.app/scaife-viewer/frontend/packages/reader-alignments-mode?c305747dcf14be98f0c5667f91a5f0944d46c5e2",
     "@scaife-viewer/reader-commentaries-mode": "^0.6.0",
     "@scaife-viewer/reader-dictionary-entries-mode": "^0.6.0",
     "@scaife-viewer/reader-grammatical-entries-mode": "^0.6.0",
