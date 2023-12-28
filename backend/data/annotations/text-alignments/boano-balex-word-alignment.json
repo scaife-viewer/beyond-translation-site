@@ -1,0 +1,149 @@
+{
+  "urn": "urn:cite2:scaife-viewer:alignment.v1:boano-balex-word-alignment",
+  "label": "De Bello Alexandrino Latin / English Word Alignment",
+  "format": "atlas-standoff-annotation",
+  "versions": [
+    "urn:cts:latinLit:phi0428.phi001.dll-ed-lat1:",
+    "urn:cts:latinLit:phi0428.phi001.dll-tr-eng1:"
+  ],
+  "records": [
+    {
+      "urn": "urn:cite2:scaife-viewer:alignment-record.v1:boano-balex-word-alignment_0",
+      "relations": [
+        [
+          "urn:cts:latinLit:phi0428.phi001.dll-ed-lat1:1.1.t1"
+        ],
+        [
+          "urn:cts:latinLit:phi0428.phi001.dll-tr-eng1:1.1.t4",
+          "urn:cts:latinLit:phi0428.phi001.dll-tr-eng1:1.1.t2",
+          "urn:cts:latinLit:phi0428.phi001.dll-tr-eng1:1.1.t7"
+        ]
+      ]
+    },
+    {
+      "urn": "urn:cite2:scaife-viewer:alignment-record.v1:boano-balex-word-alignment_1",
+      "relations": [
+        [
+          "urn:cts:latinLit:phi0428.phi001.dll-ed-lat1:1.1.t2"
+        ],
+        [
+          "urn:cts:latinLit:phi0428.phi001.dll-tr-eng1:1.1.t6"
+        ]
+      ]
+    },
+    {
+      "urn": "urn:cite2:scaife-viewer:alignment-record.v1:boano-balex-word-alignment_2",
+      "relations": [
+        [
+          "urn:cts:latinLit:phi0428.phi001.dll-ed-lat1:1.1.t3"
+        ],
+        [
+          "urn:cts:latinLit:phi0428.phi001.dll-tr-eng1:1.1.t1",
+          "urn:cts:latinLit:phi0428.phi001.dll-tr-eng1:1.1.t2",
+          "urn:cts:latinLit:phi0428.phi001.dll-tr-eng1:1.1.t3"
+        ]
+      ]
+    },
+    {
+      "urn": "urn:cite2:scaife-viewer:alignment-record.v1:boano-balex-word-alignment_3",
+      "relations": [
+        [
+          "urn:cts:latinLit:phi0428.phi001.dll-ed-lat1:1.1.t4"
+        ],
+        [
+          "urn:cts:latinLit:phi0428.phi001.dll-tr-eng1:1.1.t8"
+        ]
+      ]
+    },
+    {
+      "urn": "urn:cite2:scaife-viewer:alignment-record.v1:boano-balex-word-alignment_4",
+      "relations": [
+        [
+          "urn:cts:latinLit:phi0428.phi001.dll-ed-lat1:1.1.t5"
+        ],
+        [
+          "urn:cts:latinLit:phi0428.phi001.dll-tr-eng1:1.1.t13",
+          "urn:cts:latinLit:phi0428.phi001.dll-tr-eng1:1.1.t14"
+        ]
+      ]
+    },
+    {
+      "urn": "urn:cite2:scaife-viewer:alignment-record.v1:boano-balex-word-alignment_5",
+      "relations": [
+        [
+          "urn:cts:latinLit:phi0428.phi001.dll-ed-lat1:1.1.t6"
+        ],
+        [
+          "urn:cts:latinLit:phi0428.phi001.dll-tr-eng1:1.1.t15"
+        ]
+      ]
+    },
+    {
+      "urn": "urn:cite2:scaife-viewer:alignment-record.v1:boano-balex-word-alignment_6",
+      "relations": [
+        [
+          "urn:cts:latinLit:phi0428.phi001.dll-ed-lat1:1.1.t7"
+        ],
+        [
+          "urn:cts:latinLit:phi0428.phi001.dll-tr-eng1:1.1.t13"
+        ]
+      ]
+    },
+    {
+      "urn": "urn:cite2:scaife-viewer:alignment-record.v1:boano-balex-word-alignment_7",
+      "relations": [
+        [
+          "urn:cts:latinLit:phi0428.phi001.dll-ed-lat1:1.1.t8"
+        ],
+        [
+          "urn:cts:latinLit:phi0428.phi001.dll-tr-eng1:1.1.t17"
+        ]
+      ]
+    },
+    {
+      "urn": "urn:cite2:scaife-viewer:alignment-record.v1:boano-balex-word-alignment_8",
+      "relations": [
+        [
+          "urn:cts:latinLit:phi0428.phi001.dll-ed-lat1:1.1.t9"
+        ],
+        [
+          "urn:cts:latinLit:phi0428.phi001.dll-tr-eng1:1.1.t15",
+          "urn:cts:latinLit:phi0428.phi001.dll-tr-eng1:1.1.t19"
+        ]
+      ]
+    },
+    {
+      "urn": "urn:cite2:scaife-viewer:alignment-record.v1:boano-balex-word-alignment_9",
+      "relations": [
+        [
+          "urn:cts:latinLit:phi0428.phi001.dll-ed-lat1:1.1.t10"
+        ],
+        [
+          "urn:cts:latinLit:phi0428.phi001.dll-tr-eng1:1.1.t11"
+        ]
+      ]
+    },
+    {
+      "urn": "urn:cite2:scaife-viewer:alignment-record.v1:boano-balex-word-alignment_10",
+      "relations": [
+        [
+          "urn:cts:latinLit:phi0428.phi001.dll-ed-lat1:1.1.t11"
+        ],
+        [
+          "urn:cts:latinLit:phi0428.phi001.dll-tr-eng1:1.1.t12"
+        ]
+      ]
+    },
+    {
+      "urn": "urn:cite2:scaife-viewer:alignment-record.v1:boano-balex-word-alignment_11",
+      "relations": [
+        [
+          "urn:cts:latinLit:phi0428.phi001.dll-ed-lat1:1.1.t12"
+        ],
+        [
+          "urn:cts:latinLit:phi0428.phi001.dll-tr-eng1:1.1.t9"
+        ]
+      ]
+    }
+  ]
+}
