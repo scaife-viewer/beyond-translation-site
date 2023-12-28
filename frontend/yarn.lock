@@ -1506,15 +1506,14 @@
     graphql-tag "^2.10.3"
     vue-apollo "^3.0.4"
 
-"@scaife-viewer/reader-syntax-trees-mode@^0.6.0":
-  version "0.6.0"
-  resolved "https://registry.yarnpkg.com/@scaife-viewer/reader-syntax-trees-mode/-/reader-syntax-trees-mode-0.6.0.tgz#6a5124c4eaa7ac2ee13b5c0acc941ca41e1764e6"
-  integrity sha512-fC+teXT338chOBfMPj0PntZ4iTl8LVvLGeuHIEKeQMN3heTewvl5LyeeUI+JPNjM+JBvBChW5YrNY5gbBdQkYw==
+"@scaife-viewer/reader-syntax-trees-mode@https://gitpkg.vercel.app/scaife-viewer/frontend/packages/reader-syntax-trees-mode?4c685249e4d7bb80c507b3779d04ed84fe6384ad":
+  version "0.6.1"
+  resolved "https://gitpkg.vercel.app/scaife-viewer/frontend/packages/reader-syntax-trees-mode?4c685249e4d7bb80c507b3779d04ed84fe6384ad#8da4970925f5ec97c5d227d55332fe973cb81868"
   dependencies:
     "@scaife-viewer/common" "^0.6.0"
     "@scaife-viewer/store" "^0.6.0"
-    "@scaife-viewer/vue-treant" "^0.6.0"
-    "@scaife-viewer/widget-attributions" "^0.6.0"
+    "@scaife-viewer/vue-treant" "^0.6.1"
+    "@scaife-viewer/widget-attributions" "^0.6.1"
     graphql-tag "^2.10.3"
     vue-apollo "^3.0.4"
 
@@ -1549,10 +1548,10 @@
     "@scaife-viewer/common" "^0.6.0"
     graphql-tag "^2.10.3"
 
-"@scaife-viewer/vue-treant@^0.6.0":
-  version "0.6.0"
-  resolved "https://registry.yarnpkg.com/@scaife-viewer/vue-treant/-/vue-treant-0.6.0.tgz#ee9dc6b2d3df3d16537e80fa5c8022d1ec918a57"
-  integrity sha512-Tg72xvAvifSxf4LnOgz1uQtXEq/njOZVzWK3nSp4cpNcDrkEC1FTvnjLWL8aI/GDPGqgLe8xDOPNfj8sRF0c4g==
+"@scaife-viewer/vue-treant@^0.6.1":
+  version "0.6.1"
+  resolved "https://registry.yarnpkg.com/@scaife-viewer/vue-treant/-/vue-treant-0.6.1.tgz#cc77e4f11cad4928062d8f0d7371754fd5735ac4"
+  integrity sha512-olk1TB+Vq13aAOuxVa0gs692GGKA/2YtI7RagB6YPNMS+/hmwBxsZvWHlBOnZUGlH2Ffq9Abbh3psNOFKKxdDg==
   dependencies:
     "@panzoom/panzoom" "^4.4.3"
     raphael "^2.3.0"
@@ -1562,6 +1561,14 @@
   version "0.6.0"
   resolved "https://registry.yarnpkg.com/@scaife-viewer/widget-attributions/-/widget-attributions-0.6.0.tgz#d2cea763509ecf2713f50b558658cd8ad48c8796"
   integrity sha512-lAooxIlskRc+sYFiiCCVUV63Tn2cVlcNg/NjREl51wdzu9uIxE0bdF7pxY44TsDgZAf3QSVTKDqkhG3TzIib5w==
+  dependencies:
+    "@scaife-viewer/store" "^0.6.0"
+    graphql-tag "^2.11.0"
+
+"@scaife-viewer/widget-attributions@^0.6.1":
+  version "0.6.1"
+  resolved "https://registry.yarnpkg.com/@scaife-viewer/widget-attributions/-/widget-attributions-0.6.1.tgz#86c19dfda99f97951d551d290d2bf7afa4ab3193"
+  integrity sha512-OzLyVYLR30Cas9cXFoW/znm95LbY7FAtWHxRh3uD0c7DRvJQFPIa1AE8yR59fACcbsAEzNBzJVbLCpxmH2gPoA==
   dependencies:
     "@scaife-viewer/store" "^0.6.0"
     graphql-tag "^2.11.0"
@@ -1716,6 +1723,16 @@
   version "0.6.0"
   resolved "https://registry.yarnpkg.com/@scaife-viewer/widget-reader/-/widget-reader-0.6.0.tgz#3aeaf4b5431de66568e6f43b33ab761f04c22455"
   integrity sha512-/XY/EA0CFU0XyHq5hgVZN3SIIHIG7bTP/8xWRalC63cRmQ4uVaYslshEtfBhCKNrGTd8Gv17DOh86/UHZbzBAA==
+  dependencies:
+    "@scaife-viewer/common" "^0.6.0"
+    "@scaife-viewer/store" "^0.6.0"
+    graphql "^15.0.0"
+    graphql-tag "^2.10.3"
+    vue-apollo "^3.0.4"
+
+"@scaife-viewer/widget-reader@https://gitpkg.vercel.app/scaife-viewer/frontend/packages/widget-reader?4c685249e4d7bb80c507b3779d04ed84fe6384ad":
+  version "0.6.0"
+  resolved "https://gitpkg.vercel.app/scaife-viewer/frontend/packages/widget-reader?4c685249e4d7bb80c507b3779d04ed84fe6384ad#e74340b0360c5e71c7fdc6d1aeef3d17ca60e854"
   dependencies:
     "@scaife-viewer/common" "^0.6.0"
     "@scaife-viewer/store" "^0.6.0"
