@@ -4,6 +4,7 @@ from functools import lru_cache
 from pathlib import Path
 
 import jsonlines
+from betacode.conv import beta_to_uni
 from lxml import etree
 from more_itertools import peekable
 
@@ -61,6 +62,11 @@ def convert_to_urns(root):
             element.attrib["urn"] = urn
 
 
+def extract_headword(entry):
+    betacode_headword = entry.attrib["n"].split("lsj-")[1]
+    return beta_to_uni(betacode_headword)
+
+
 def extract_entries():
     counters = dict(
         sense=0,
@@ -76,10 +82,18 @@ def extract_entries():
     for entry in entries:
         counters["entry"] += 1
         key = counters["entry"]
-        headword = " ".join(
+        headword_text = " ".join(
             entry.xpath("./tei:head/tei:foreign/text()", namespaces=TEI_NS)
         )
-        display = f"<b>{headword}</b>"
+
+        try:
+            headword = extract_headword(entry)
+        except KeyError:
+            # NOTE: Some entries don't have a `n` attribute,
+            # so we fall back to the text value
+            headword = headword_text
+
+        display = f"<b>{headword_text}</b>"
         clean_xml_namespaces(entry)
         convert_to_urns(entry)
         transformer = XSLTransformer(entry)
