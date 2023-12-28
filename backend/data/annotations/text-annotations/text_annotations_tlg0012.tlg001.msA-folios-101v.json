@@ -1,5 +1,94 @@
 [
   {
+    "urn": "urn:cts:greekLit:tlg5026.msAint.hmt:8.55",
+    "comment": "Αρισταρχ  διὰ τ  ο οπλίζοντο ⁑",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol3193",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA101VN_0604@0.8663,0.5087,0.0294,0.0446"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:101v.8.55"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAint.hmt:8.56",
+    "comment": "γράφεται ἵκανον ~",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol3194",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA101VN_0604@0.8357,0.6014,0.0426,0.0193"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:101v.8.60"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAim.hmt:8.51",
+    "comment": "οὐκ απρόθυμοι ⁑",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol3139",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA101VN_0604@0.4054,0.3253,0.0591,0.0337"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:101v.8.45"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAim.hmt:8.53",
+    "comment": "ὡς Λητοῖ ἡ γὰρ εὐθεια χρειὼ ἐμείω γένηται ⁑",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol3140",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA101VN_0604@0.418,0.5456,0.0471,0.0517"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:101v.8.57"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAil.hmt:8.57",
+    "comment": "ὑπεζεύγνοιεν τῷ ἅρματι ἡτοίμαζε ⁑",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol3237",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA101VN_0604@0.6306,0.2409,0.1491,0.0206"
+    },
+    "references": []
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAil.hmt:8.58",
+    "comment": "ταχεῖς",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol3238",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA101VN_0604@0.4969,0.2656,0.0289,0.0167"
+    },
+    "references": []
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAil.hmt:8.59",
+    "comment": "θρη̈ξίν",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol3239",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA101VN_0604@0.7083,0.2682,0.0326,0.0172"
+    },
+    "references": []
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAil.hmt:8.60",
+    "comment": "περὶ δ",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol3240",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA101VN_0604@0.6297,0.4179,0.0351,0.0146"
+    },
+    "references": []
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAil.hmt:8.61",
+    "comment": "υπερ",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol3241",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA101VN_0604@0.6451,0.5475,0.022,0.0146"
+    },
+    "references": []
+  },
+  {
     "urn": "urn:cts:greekLit:tlg5026.msA.hmt:8.41",
     "lemma": "‡ χρυσὸν δ' αὐτὸς ἔδυνε",
     "dse": {
@@ -19,7 +108,6 @@
       "image_roi": "urn:cite2:hmt:vaimg.2017a:VA101VN_0604@0.1851,0.1852,0.6817,0.0474"
     },
     "references": [
-      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:101v.8.47",
       "urn:cts:greekLit:tlg0012.tlg001.msA-folios:101v.8.48"
     ],
     "comment": "προς τὴν ἰδιότητα τῆς φράσεως ἀντὶ τοῦ τῆς Ἴδης εἰς Γάργαρον ἦλθεν· προτάξας γὰρ τὸ γενικὸν τὸ εἰδικὸν ἐπήνεγκεν· μέρη γὰρ τῆς Ἴδης , ἄλλα τε καὶ τὸ Γάργαρον ⁑"

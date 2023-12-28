@@ -1,5 +1,71 @@
 [
   {
+    "urn": "urn:cts:greekLit:tlg5026.msAint.hmt:23.206",
+    "comment": "ουτ Ἀρίσταρχ σὺν τῷ σ ἐπ ανδροφόνουσ",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol7026",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA293RN_0463@0.115,0.3341,0.068,0.0511"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:293r.23.18"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAint.hmt:23.207",
+    "comment": "γράφεται λύοντο δὲ μώνυχασ ἵππουσ",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol7027",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA293RN_0463@0.106,0.5008,0.07,0.0518"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:293r.23.27"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAint.hmt:23.208",
+    "comment": "ση οτ τῇ εἰς ἐπὶ ἐμψύχων ώφειλεν γὰρ τὴν προσ",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol7028",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA293RN_0463@0.094,0.6727,0.085,0.0586"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:293r.23.36"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAim.hmt:23.250",
+    "comment": "γράφεται ἕκαστοι",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol7061",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA293RN_0463@0.552,0.4955,0.049,0.0293"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:293r.23.26"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAil.hmt:23.212",
+    "comment": "νῦν ἀδάμαστοι",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol7040",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA293RN_0463@0.339,0.5683,0.08,0.0098"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:293r.23.30"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAil.hmt:23.213",
+    "comment": "ἐστέναζον ἐμυκῶντο",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol7041",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA293RN_0463@0.439,0.5721,0.11,0.0105"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:293r.23.30"
+    ]
+  },
+  {
     "urn": "urn:cts:greekLit:tlg5026.msA.hmt:23.200",
     "lemma": "δεύοντο ψάμαθοι~",
     "dse": {

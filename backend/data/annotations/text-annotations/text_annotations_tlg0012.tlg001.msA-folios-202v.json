@@ -1,5 +1,49 @@
 [
   {
+    "urn": "urn:cts:greekLit:tlg5026.msAint.hmt:15.43",
+    "comment": "ϊκετειαν ·",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol5534",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA202VN_0704@0.9,0.6228,0.037,0.0203"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:202v.15.598"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAint.hmt:15.44",
+    "comment": "βραχὺ διασταλτ  κατ  τὸ τέλος πρὸς τὸ σαφέστερον ⁑",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol5535",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA202VN_0704@0.897,0.6401,0.05,0.0669"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:202v.15.599"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAim.hmt:15.66",
+    "comment": "προς τὴν ἀποστροφήν ⁑",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol5648",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA202VN_0704@0.431,0.3216,0.065,0.0413"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:202v.15.582"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAim.hmt:15.67",
+    "comment": "Αριστοφανης τοῦ μέλλας Ϊακῶς ⁑",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol5649",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA202VN_0704@0.438,0.6799,0.077,0.0428"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:202v.15.601"
+    ]
+  },
+  {
     "urn": "urn:cts:greekLit:tlg5026.msA.hmt:15.159",
     "lemma": "ὅς τε κύνα κτείνας ἠ βουκόλον ἀμφι βόεσσι⁚",
     "dse": {

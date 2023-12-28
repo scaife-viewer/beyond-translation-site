@@ -1,5 +1,65 @@
 [
   {
+    "urn": "urn:cts:greekLit:tlg5026.msAim.hmt:14.B1",
+    "comment": "ἐν τη Ζηνοδ  πορφυρει δια τῆς ει ⁑",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol5295",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA180VN_0682@0.46094326,0.52614108,0.05637436,0.03941909"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:180v.14.16"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAim.hmt:14.B2",
+    "comment": "ουτ  οὐδ' ἄρα τε δια τοῦ τε αἱ Ἀρισταρχ  ⁑",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol5296",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA180VN_0682@0.47918202,0.56390041,0.04310980,0.05228216"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:180v.14.18"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAim.hmt:14.B3",
+    "comment": "οτ  ἔναχρ σημ  βούλετ  δὲ νῦν ἀντι τοῦ ἐλελήκει ⁑",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol5297",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA180VN_0682@0.46868091,0.68174274,0.11606485,0.04149378"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:180v.14.25"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAil.hmt:14.B1",
+    "comment": "απρεπες",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol5402",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA180VN_0682@0.90364775,0.46597510,0.03316139,0.00871369"
+    },
+    "references": []
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAil.hmt:14.B2",
+    "comment": "προσημαῖνον",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol5403",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA180VN_0682@0.54495210,0.53900415,0.06963891,0.01120332"
+    },
+    "references": []
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAil.hmt:14.B3",
+    "comment": "πολεμόν μενος ⁑",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol5404",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA180VN_0682@0.76215917,0.59668050,0.06742815,0.01037344"
+    },
+    "references": []
+  },
+  {
     "urn": "urn:cts:greekLit:tlg5026.msA.hmt:14.B1",
     "lemma": "‡ Νέστορα δ' οὐκ έλαθεν ἰαχῆ :",
     "dse": {

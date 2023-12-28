@@ -1,5 +1,27 @@
 [
   {
+    "urn": "urn:cts:greekLit:tlg5026.msAim.hmt:8.230",
+    "comment": "γρ  πεποιθῶς",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol3165",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA107RN_0279@0.5746,0.5214,0.0501,0.0218"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:107r.8.339"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAim.hmt:8.231",
+    "comment": "σημειοῦνται τινὲς ὅτι ὑγιῶς διέσταλκε ⁑",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol3166",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA107RN_0279@0.5676,0.544,0.0551,0.0391"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:107r.8.340"
+    ]
+  },
+  {
     "urn": "urn:cts:greekLit:tlg5026.msA.hmt:8.9003",
     "lemma": "ἰσχια τε γλουτούς τε~",
     "dse": {

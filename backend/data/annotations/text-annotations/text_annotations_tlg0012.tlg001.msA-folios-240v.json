@@ -1,5 +1,133 @@
 [
   {
+    "urn": "urn:cts:greekLit:tlg5026.msAext.hmt:18.1",
+    "comment": "ὡς ὄφελες",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol6145",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA240VN_0742@0.154,0.414,0.063,0.0225"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:240v.18.86"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAext.hmt:18.2",
+    "comment": "Μενοιτιάδεα απ",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol6146",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA240VN_0742@0.15,0.5455,0.081,0.0233"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:240v.18.93"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAint.hmt:18.7",
+    "comment": "άκαιρον τὸ εἰδύᾳ λέγειν ⁑",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol6163",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA240VN_0742@0.896,0.3734,0.051,0.0255"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:240v.18.85"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAint.hmt:18.8",
+    "comment": "οτ  τὰ έλωρα οὐ βρώματ  ἀλλα ελκύσματ  ⁑",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol6164",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA240VN_0742@0.906,0.5357,0.037,0.0368"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:240v.18.93"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAim.hmt:18.8",
+    "comment": "στικτέον ἐπι τὸ κεφαλῇ μᾶλλον γὰρ ἐμφαίνει ⁑",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol6260",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA240VN_0742@0.428,0.3426,0.066,0.0518"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:240v.18.82"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAim.hmt:18.9",
+    "comment": "ταῦτα ἀπ αλλης ἀρχῆς ἀναγνωστέον⁚",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol6261",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA240VN_0742@0.433,0.4147,0.057,0.0368"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:240v.18.86"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAim.hmt:18.10",
+    "comment": "ὅτι παλιν συνοίκει τῷ Πηλεῖ ἡ Θέτις",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol6262",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA240VN_0742@0.444,0.4929,0.044,0.0406"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:240v.18.90"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAim.hmt:18.11",
+    "comment": "εν αλλῳ τὸν δ' ἠμείβετ' ἔπειτα ⁑",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol6263",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA240VN_0742@0.436,0.568,0.056,0.0398"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:240v.18.94"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAim.hmt:18.12",
+    "comment": "στικτέον ἐπι τὸ αμῦναι ⁚",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol6264",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA240VN_0742@0.448,0.6551,0.113,0.0105"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:240v.18.99"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAim.hmt:18.13",
+    "comment": "Αρισταρχ  δια τοῦ ω Ἄρεω ⁚",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol6265",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA240VN_0742@0.439,0.6814,0.049,0.0218"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:240v.18.100"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAil.hmt:18.5",
+    "comment": "ἐπιθυμία⁚",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol6219",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA240VN_0742@0.671,0.2975,0.048,0.0113"
+    },
+    "references": []
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAil.hmt:18.6",
+    "comment": "εω",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol6220",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA240VN_0742@0.728,0.6724,0.018,0.0068"
+    },
+    "references": []
+  },
+  {
     "urn": "urn:cts:greekLit:tlg5026.msA.hmt:18.33",
     "lemma": "‡ ἀλήμεναι , υἱας Αχαιῶν ⁚",
     "dse": {
@@ -43,10 +171,6 @@
       "image_roi": "urn:cite2:hmt:vaimg.2017a:VA240VN_0742@0.237,0.453,0.214,0.0902"
     },
     "references": [
-      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:240v.18.85",
-      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:240v.18.86",
-      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:240v.18.87",
-      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:240v.18.88",
       "urn:cts:greekLit:tlg0012.tlg001.msA-folios:240v.18.89"
     ],
     "comment": "δια τοῦ ἵνα σύνδεσμον ὑποστιγμῇ ἐπι τὸ ἀποφθιμένοιο ἵνα ὁ λόγος ᾖ τοιοῦτος , νῦν δ' ἵνα και σὺ πενθήσῃς τὸν υἱὸν ἀπολέσασα τοῦτον οὐχ ὑποδέξη ὑποστρέψαντα οἴκαδε ἠ παντελῶς παραιρεθήσεται ἡ ὑποστιγμὴ κοινοῦ νοουμένου ἄνοθεν τοῦ ἀνέρος ἔμβαλον εὐνῇ ⁑"

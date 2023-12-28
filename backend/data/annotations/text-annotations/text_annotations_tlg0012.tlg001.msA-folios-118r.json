@@ -1,5 +1,181 @@
 [
   {
+    "urn": "urn:cts:greekLit:tlg5026.msAext.hmt:9.330",
+    "comment": "δηΐοι",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:tlg5026_msAext_hmt_9_330",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA118RN_0290@0.8797,0.351,0.021,0.0141"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:118r.9.317"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAext.hmt:9.331",
+    "comment": "ζει",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:tlg5026_msAext_hmt_9_331",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA118RN_0290@0.8919,0.3696,0.026,0.0218"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:118r.9.318"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAext.hmt:9.332",
+    "comment": "περικεῖται",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:tlg5026_msAext_hmt_9_332",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA118RN_0290@0.1166,0.6317,0.06853,0.03817"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:118r.9.321"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAint.hmt:9.321",
+    "comment": "Ἀρίσταρχος  ἧ περ δὴ φρονίων :",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:tlg5026_msAint_hmt_9_321",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA118RN_0290@0.1249,0.2053,0.05987,0.03389"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:118r.9.310"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAint.hmt:9.322",
+    "comment": "ἔν ἀλλω ὡς καί τετελεσμ  ἔσται :",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:tlg5026_msAint_hmt_9_322",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA118RN_0290@0.1279,0.2914,0.06061,0.02573"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:118r.9.314"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAint.hmt:9.323",
+    "comment": "Ἀρισταρχ  ἐπ ανδράσι ⁑",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:tlg5026_msAint_hmt_9_323",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA118RN_0290@0.1288,0.3466,0.06061,0.02697"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:118r.9.317"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAint.hmt:9.324",
+    "comment": "ἐν δὲ τῇ αυτῃ τιμη καὶ ὁ δεῖλον καὶ ὁ ανδρεῖος :",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:tlg5026_msAint_hmt_9_324",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA118RN_0290@0.1290,0.3900,0.06061,0.03375"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:118r.9.319"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAint.hmt:9.325",
+    "comment": "ουτ  Ἀρίσταρχ  πολεμίζειν κατα τὸ ἀπαρεμφατ  :",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:tlg5026_msAint_hmt_9_325",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA118RN_0290@0.1087,0.4398,0.08511,0.04219"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:118r.9.322"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAint.hmt:9.326",
+    "comment": "Αριστ  κακῶς δ' ἀρα οι :",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:tlg5026_msAint_hmt_9_326",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA118RN_0290@0.1186,0.4806,0.06780,0.03444"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:118r.9.324"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAint.hmt:9.327",
+    "comment": "ἐν αίματι ἣ ἒν . μόχθω :",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:tlg5026_msAint_hmt_9_327",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA118RN_0290@0.1183,0.5152,0.07277,0.02628"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:118r.9.326"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAint.hmt:9.328",
+    "comment": "οτ  ἄοροι οτ  όαροι αἱ τῶν ανδρῶν καὶ γυναικῶν ὁμιλίαι νῦν δὲ λε  τῶν γυναικῶν ⁑",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:tlg5026_msAint_hmt_9_328",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA118RN_0290@0.1146,0.5404,0.07277,0.06957"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:118r.9.328"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAint.hmt:9.329",
+    "comment": "δὲ λαμβάνων ὀλίγα διένειμε καὶ ἐδίδου ⁑",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:tlg5026_msAint_hmt_9_329",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA118RN_0290@0.1166,0.6317,0.06853,0.03817"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:118r.9.332"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAim.hmt:9.319",
+    "comment": "γράφεται παρημενοι",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:tlg5026_msAim_hmt_9_319",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA118RN_0290@0.5779,0.2264,0.05730,0.01826"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:118r.9.311"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAim.hmt:9.320",
+    "comment": "Ἀρίσταρχος ἐπ ανδράσι :",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:tlg5026_msAim_hmt_9_320",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA118RN_0290@0.5748,0.3404,0.1096,0.02102"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:118r.9.317"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAil.hmt:9.333",
+    "comment": "τελειώσῳ :",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:tlg5026_msAil_hmt_9_333",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA118RN_0290@0.3003,0.1983,0.0571,0.0173"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:118r.9.310"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAil.hmt:9.334",
+    "comment": "περισσὸν τι εστι",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:tlg5026_msAil_hmt_9_334",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA118RN_0290@0.3263,0.4162,0.0681,0.0173"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:118r.9.321"
+    ]
+  },
+  {
     "urn": "urn:cts:greekLit:tlg5026.msA.hmt:9.311",
     "lemma": "Ἀΐδαο πύλησιν :",
     "dse": {
@@ -53,7 +229,10 @@
     "dse": {
       "urn": "urn:cite2:hmt:va_dse.v1:tlg5026_msA_hmt_9_316",
       "image_roi": "urn:cite2:hmt:vaimg.2017a:VA118RN_0290@0.6046,0.571,0.2072,0.0789"
-    }
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:118r.9.324"
+    ]
   },
   {
     "urn": "urn:cts:greekLit:tlg5026.msA.hmt:9.317",

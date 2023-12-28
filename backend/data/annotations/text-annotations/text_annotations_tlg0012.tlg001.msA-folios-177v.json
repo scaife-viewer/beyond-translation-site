@@ -1,5 +1,67 @@
 [
   {
+    "urn": "urn:cts:greekLit:tlg5026.msAint.hmt:13.A7",
+    "comment": "ὅτι σὺν τῷ ο ὀΐλεύς ~",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol8542",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA177VN_0679@0.8909,0.4235,0.04403,0.03140"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:177v.13.697"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAim.hmt:13.A12",
+    "comment": "ουτ  Μέγης έξω τοῦ τε οὐ γαρ εστί Φυλείδης",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol8145",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA177VN_0679@0.424,0.3351,0.076,0.0391"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:177v.13.692"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAim.hmt:13.A13",
+    "comment": "Ζηνόδοτος χόζετ' απ' Αίαντο",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol8146",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA177VN_0679@0.438,0.5237,0.069,0.0353"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:177v.13.702"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAim.hmt:13.A14",
+    "comment": "χω  τοῦ ν ἀνεκηκίει καὶ δια τοῦ ΐ . ⁑",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol8147",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA177VN_0679@0.438,0.58,0.061,0.0541"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:177v.13.705"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAil.hmt:13.A8",
+    "comment": "ηρωτριασμενη γη",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol8543",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA177VN_0679@0.6017,0.5297,0.06780,0.01757"
+    },
+    "references": []
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAil.hmt:13.A9",
+    "comment": "μέλαιναι",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol8544",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA177VN_0679@0.7150,0.5310,0.05969,0.01895"
+    },
+    "references": []
+  },
+  {
     "urn": "urn:cts:greekLit:tlg5026.msA.hmt:13.A29",
     "lemma": "σπουδῇ ἐπαΐσσοντα",
     "dse": {

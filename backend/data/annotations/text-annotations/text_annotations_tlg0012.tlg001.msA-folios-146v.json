@@ -1,5 +1,81 @@
 [
   {
+    "urn": "urn:cts:greekLit:tlg5026.msAim.hmt:11.53",
+    "comment": "Ἀρισταρχ  αὐτὰρ ἔμ' εί κε θάνω",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol4535",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA146VN_0648@0.443,0.2963,0.058,0.0218"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:146v.11.455"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAim.hmt:11.54",
+    "comment": "Ἀρισταχος ἕλκε",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol4536",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA146VN_0648@0.434,0.3443,0.055,0.0203"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:146v.11.457"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAil.hmt:11.206",
+    "comment": "προέλαβεν ἔφασεν :",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol4371",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA146VN_0648@0.519,0.2168,0.087,0.0158"
+    },
+    "references": []
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAil.hmt:11.207",
+    "comment": "τοὺς ὀφθαλμοὺς κατ  λήψονται καμμύσουσι",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol4372",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA146VN_0648@0.522,0.2581,0.195,0.0173"
+    },
+    "references": []
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAil.hmt:11.208",
+    "comment": "θάψουσι",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol4373",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA146VN_0648@0.719,0.2993,0.045,0.012"
+    },
+    "references": []
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAil.hmt:11.209",
+    "comment": "ανηκόντισσεν :",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol4374",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA146VN_0648@0.715,0.3548,0.062,0.015"
+    },
+    "references": []
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAil.hmt:11.211",
+    "comment": "τὸ εξῆς αφικετό με :",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol4375",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA146VN_0648@0.516,0.5064,0.086,0.015"
+    },
+    "references": []
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAil.hmt:11.213",
+    "comment": "φόνιοι η πυρρός",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol4376",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA146VN_0648@0.742,0.6587,0.055,0.0135"
+    },
+    "references": []
+  },
+  {
     "urn": "urn:cts:greekLit:tlg5026.msA.hmt:11.174",
     "lemma": "ἐρύουσι",
     "dse": {

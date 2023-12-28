@@ -1,5 +1,71 @@
 [
   {
+    "urn": "urn:cts:greekLit:tlg5026.msAint.hmt:17.10",
+    "comment": "ὅτι παρητυμολόγησεν τὸ ὄνομα",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol5878",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA225RN_0396@0.109,0.3929,0.086,0.0278"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:225r.17.86"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAint.hmt:17.11",
+    "comment": "μετα τὸ κεκλιγώ  βραχ  διασταλτ  μαλλον γὰρ ἐμφαίνει ⁑",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol5879",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA225RN_0396@0.11,0.4252,0.074,0.0586"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:225r.17.88"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAint.hmt:17.12",
+    "comment": "τὸ εξῆς ἐστι κατλίπω  διὸ ἀναστρεπτέον τὴν πρόθ  ⁑",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol5880",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA225RN_0396@0.113,0.4853,0.081,0.0413"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:225r.17.91"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAint.hmt:17.13",
+    "comment": "αντ  τοῦ νεμεσήσητ  μέμψηται",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol5881",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA225RN_0396@0.115,0.5312,0.074,0.0308"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:225r.17.93"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAint.hmt:17.14",
+    "comment": "προσληπτέον τὸ εὐλαβοῦμαι ⁑",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol5882",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA225RN_0396@0.115,0.568,0.077,0.0436"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:225r.17.94"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAim.hmt:17.12",
+    "comment": "Αρισταρχ  δια τοῦ η πεστηῳσι",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol5955",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA225RN_0396@0.583,0.5718,0.044,0.024"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:225r.17.95"
+    ]
+  },
+  {
     "urn": "urn:cts:greekLit:tlg5026.msA.hmt:17.36",
     "lemma": "‡ Πατρόκλῳ περιβὰς ,",
     "dse": {
@@ -31,8 +97,6 @@
       "image_roi": "urn:cite2:hmt:vaimg.2017a:VA225RN_0396@0.6236,0.5451,0.1849,0.1273"
     },
     "references": [
-      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:225r.17.93",
-      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:225r.17.94",
       "urn:cts:greekLit:tlg0012.tlg001.msA-folios:225r.17.95"
     ],
     "comment": "ὑποστικτέον ἐπι τὸ αἰδεσθεις , στικτέον δὲ , ἐπι τὸ πολὺ , ὁ γὰρ λόγος ἐλλιπής ἐστι λείποντος τοῦ εὐλαβοῦμαι ἠ τινὸς τοιούτου ὡς καὶ ἐν τοῖς προκειμένοις μή τις μοι Δαναῶν ἔστι γὰρ τὸ πλῆρες εὐλαβοῦμαι μή με τῶν Ἑλλήνων μέμψηταί τις τὸν αὐτὸν τρόπον καὶ ἐνθαδε , ἐὰν δὲ μόνος ὦν Ἔκτορι καὶ Τρωσὶ μάχωμαι αἰδεσθεὶς . εὐλαβοῦμαι  μή πως με περιστήωσ' ἕνα πολλοὶ ὄντες ⁑"
@@ -57,7 +121,6 @@
       "image_roi": "urn:cite2:hmt:vaimg.2017a:VA225RN_0396@0.173,0.7021,0.6022,0.0277"
     },
     "references": [
-      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:225r.17.98",
       "urn:cts:greekLit:tlg0012.tlg001.msA-folios:225r.17.99"
     ],
     "comment": "ὅτε ἀνηρ βούλεται ἀνδρὶ μάχεσθαι ὃν θεὸς τιμᾷ , πρὸς θν  μάχεται"
@@ -70,7 +133,6 @@
       "image_roi": "urn:cite2:hmt:vaimg.2017a:VA225RN_0396@0.184,0.7192,0.615,0.0571"
     },
     "references": [
-      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:225r.17.98",
       "urn:cts:greekLit:tlg0012.tlg001.msA-folios:225r.17.99"
     ],
     "comment": "πῶς ἅμα πρὸς δαίμονα καὶ ἅμα φωτὶ μάχεσθαι , ἀλλα τὸ προς δαίμονα τοιοῦτόν ἐστιν ὡς λέγογεν πρὸς κῦμα ἐναντιούμενος δαίμονι ~ ὁ γὰρ φωτὶ μαχόμενος τῷ ὑπὸ θεῶν τιμωμένῳ ἢ ὑπὸ θεῶν ἀγαπωμένῳ αὐτῷ τῷ θω  μάχεται τῷ εκείνων στέργοντι~ ὁ Πίνδαρος . ἴσον μὲν θν θεὸν , ἅνδρα τε φίλον ὑποτρέσαι ἐκέλευσεν ἐπ ἴσης τῶν τε θεῶν καὶ τῶν φίλων θω  ἄνδρα θεοφιλῇ μη θαύμαζε γάρ φησιν ὁ Πλάτων ἠ ϊέρακες μὲν καὶ ἴβεις ἔχουσι τοὺς ὑπερασπίζοντας θεοὺς ἀνδρὸς δὲ ἀγαθοῦ οὐκ ἄν τις ὑπερασπίσαι~"
@@ -83,7 +145,6 @@
       "image_roi": "urn:cite2:hmt:vaimg.2017a:VA225RN_0396@0.184,0.762,0.615,0.0285"
     },
     "references": [
-      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:225r.17.98",
       "urn:cts:greekLit:tlg0012.tlg001.msA-folios:225r.17.99"
     ],
     "comment": "οὐκ ἄρα τῷ πολέμῳ οὐδε τοῖς Τρωσὶν ὑποχωρεῖ αλλα τοῖς θεοῖς ἐναντιοῦσθαι οὐ βούλεται~ τὸ δε τῆς διανοίας οὕτως : τῷ φωτὶ ὅν κε θεὸς τιμᾷ πρὸς δαίμονά ἐστι μάχεσθαι ⁑"
@@ -96,7 +157,6 @@
       "image_roi": "urn:cite2:hmt:vaimg.2017a:VA225RN_0396@0.177,0.7785,0.6184,0.0379"
     },
     "references": [
-      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:225r.17.98",
       "urn:cts:greekLit:tlg0012.tlg001.msA-folios:225r.17.99"
     ],
     "comment": "ἡ ὑποστιγμὴ μετα τὸ τιμᾷ ὸ δὲ λόγος . ὁπότ ἄν τις βούληται παρα θυ  γνώμην ἀνδρὶ μάχεσθαι , ὁφείλει ταχέως αὐτῷ κακὸν ἐπέρχεσθαι~ τὸ γὰρ προς δαίμονα ἀντι τοῦ παρὰ  θυ  γνώμην ὡς καὶ πρὸς δαίμονά εἴ πως ἐρησθ ἐρυσαίμεθα"

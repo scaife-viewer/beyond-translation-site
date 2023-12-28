@@ -1,5 +1,54 @@
 [
   {
+    "urn": "urn:cts:greekLit:tlg5026.msAext.hmt:13.A4",
+    "comment": "φθεῖσαι",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol8541",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA177RN_0348@0.8143,0.3185,0.04753,0.02351"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:177r.13.667"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAint.hmt:13.A6",
+    "comment": "νῦν τὴν μέμψιν",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol8537",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA177RN_0348@0.1216,0.3527,0.05361,0.02974"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:177r.13.669"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAil.hmt:13.A5",
+    "comment": "τῇ οικεία δυνάμει",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol8538",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA177RN_0348@0.4672,0.5188,0.08843,0.01757"
+    },
+    "references": []
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAil.hmt:13.A6",
+    "comment": "αντὶ τοῦ όπου",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol8539",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA177RN_0348@0.2983,0.5364,0.03814,0.01729"
+    },
+    "references": []
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAil.hmt:13.A7",
+    "comment": "αθηναῖοι ⁑",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol8540",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA177RN_0348@0.3952,0.6498,0.04974,0.01549"
+    },
+    "references": []
+  },
+  {
     "urn": "urn:cts:greekLit:tlg5026.msA.hmt:13.A23",
     "lemma": "ἦν δέ τις Εὐχήνωρ ολυΐδου άντιος ὑιὸς .",
     "dse": {

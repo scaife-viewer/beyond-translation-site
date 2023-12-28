@@ -1,5 +1,34 @@
 [
   {
+    "urn": "urn:cts:greekLit:tlg5026.msAim.hmt:11.61",
+    "comment": "γράφεται μάστιξεν δ' ελάαν",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol4539",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA147VN_0649@0.42,0.5626,0.072,0.0435"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:147v.11.519"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAil.hmt:11.230",
+    "comment": "αντ  τοῦ πολλῶν ἄλλων τοῦ σώζεσθαι ἄξιος ⁑",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol4381",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA147VN_0649@0.667,0.4704,0.187,0.0143"
+    },
+    "references": []
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAil.hmt:11.231",
+    "comment": "εκεῖσε γὰρ",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol4382",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA147VN_0649@0.706,0.5814,0.067,0.015"
+    },
+    "references": []
+  },
+  {
     "urn": "urn:cts:greekLit:tlg5026.msA.hmt:11.194",
     "lemma": "παῦσεν ἀριστεύοντα :",
     "dse": {

@@ -1,5 +1,82 @@
 [
   {
+    "urn": "urn:cts:greekLit:tlg5026.msAext.hmt:3.752",
+    "comment": "ἐαν τατο",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol2026",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA048VN_0550@0.12951363,0.25919779,0.04458364,0.01493776"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:48v.3.328"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAint.hmt:3.504",
+    "comment": "οι μὲν παρα το κίειν ἐν πλεονασμῶ οἱ δὲ παρα τὴν σκιαν ⁑",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol1947",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA048VN_0550@0.81650700,0.57579530,0.08179808,0.01659751"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:48v.3.346"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAim.hmt:3.747",
+    "comment": "απο κοινου τὲ ὠμοισιν βάλετε αναγκαίως δια τοὺς τελαμωνας ⁑",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol1998",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA048VN_0550@0.41709654,0.38091286,0.04882093,0.03734440"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:48v.3.334"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAim.hmt:3.748",
+    "comment": "βραχυ διασταλτεον επι τὸ χαλκεον κοινὸν γὰρ τὸ αμφ ώμοισι βάλετο καὶ ἐπι τοῦ σακους ⁑",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol1999",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA048VN_0550@0.41562270,0.41811895,0.05047900,0.07109267"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:48v.3.335"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAim.hmt:3.749",
+    "comment": "ἐν άλλω εἴλετο δ‘άλκιμον ἔγχος ἀκαχμένον ὀξέϊ χαλκῷ ⁑",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol2000",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA048VN_0550@0.42925571,0.49308437,0.05582167,0.03706777"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:48v.3.338"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAim.hmt:3.750",
+    "comment": "βραχὺ διασταλτέον ἐπι τὸ ἐγκείας ⁑",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol2001",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA048VN_0550@0.42704495,0.58381743,0.05305822,0.03969571"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:48v.3.345"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAim.hmt:3.751",
+    "comment": "οὕτως ᾿Αρίσταρχος ἄλλοι δὲ δια τοῦ ν χαλκον ⁑",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol2002",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA048VN_0550@0.43165070,0.63485477,0.05821665,0.03084371"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:48v.3.348"
+    ]
+  },
+  {
     "urn": "urn:cts:greekLit:tlg5026.msA.hmt:3.483",
     "lemma": "‡ ἵπποι ἀερσίποδες",
     "dse": {
@@ -19,10 +96,6 @@
       "image_roi": "urn:cite2:hmt:vaimg.2017a:VA048VN_0550@0.20449521,0.35297372,0.21223287,0.08132780"
     },
     "references": [
-      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:48v.3.334",
-      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:48v.3.335",
-      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:48v.3.336",
-      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:48v.3.337",
       "urn:cts:greekLit:tlg0012.tlg001.msA-folios:48v.3.338"
     ],
     "comment": "ὅτι Ζηνόδοτος ἀμφοτέρους ἠθέτηκεν· καὶ μετα τὸν οἷο κασιγνήτοιο ὑποτάσσει κρατὶ δ' ἐπ' ἰφθίμῳ κυνέην εὔτυκτον ἔθηκεν ἵππουριν δεινὸν δὲ λόφος καθ ὕπερθεν ἔνευεν· εἵλετο δ' ἄλκιμον ἔγχος ⁑"
@@ -35,10 +108,6 @@
       "image_roi": "urn:cite2:hmt:vaimg.2017a:VA048VN_0550@0.20486367,0.43513140,0.22844510,0.07053942"
     },
     "references": [
-      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:48v.3.334",
-      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:48v.3.335",
-      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:48v.3.336",
-      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:48v.3.337",
       "urn:cts:greekLit:tlg0012.tlg001.msA-folios:48v.3.338"
     ],
     "comment": "βάλετ' ἀσπίδα τερσανόὲσσαν · ὥστε ἐναντίως τῷ Ὁμηρικῷ ὁπλισμῷ ἔχειν προ τῆς ἀσπίδος γὰρ φανήσεται ἀναλαμβάνων τὴν περικεφαλαίαν καὶ ξίφος μη εχων ⁑"
@@ -73,6 +142,9 @@
     "dse": {
       "urn": "urn:cite2:hmt:va_dse.v1:schol1901",
       "image_roi": "urn:cite2:hmt:vaimg.2017a:VA048VN_0550@0.21370671,0.68077455,0.21186441,0.07413555"
-    }
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:48v.3.348"
+    ]
   }
 ]

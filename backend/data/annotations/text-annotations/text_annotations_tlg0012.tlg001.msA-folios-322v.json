@@ -1,5 +1,49 @@
 [
   {
+    "urn": "urn:cts:greekLit:tlg5026.msAint.hmt:24.11",
+    "comment": "ὁ Αχιλλεύς",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol7225",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA322VN_0824@0.878,0.247,0.052,0.0315"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:322v.24.581"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAint.hmt:24.12",
+    "comment": "γράφεται ὡς ἐκέλευσας ⁑",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol7226",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA322VN_0824@0.858,0.5803,0.055,0.0323"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:322v.24.599"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAim.hmt:24.35",
+    "comment": "οτ  ἔδ ει χϊτωνα . ειτ  φάρος ⁑",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol7306",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA322VN_0824@0.426,0.3851,0.05,0.0405"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:322v.24.588"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAim.hmt:24.36",
+    "comment": "γράφεται καὶ ὑεῖς διχῶς οὖν ⁑",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol7307",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA322VN_0824@0.409,0.6749,0.061,0.033"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:322v.24.605"
+    ]
+  },
+  {
     "urn": "urn:cts:greekLit:tlg5026.msA.hmt:24.88",
     "lemma": "ᾕρεον ἑκτορέης·",
     "dse": {

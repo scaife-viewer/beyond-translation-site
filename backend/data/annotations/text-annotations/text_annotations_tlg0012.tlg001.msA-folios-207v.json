@@ -1,5 +1,124 @@
 [
   {
+    "urn": "urn:cts:greekLit:tlg5026.msAext.hmt:16.1000",
+    "comment": "τρωπᾶσθαι",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol8053",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA207VN_0709@0.1590,0.5856,0.06430,0.02559"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:207v.16.95"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAext.hmt:16.1001",
+    "comment": "τοῦσ δε δ' ἐᾶν",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol8054",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA207VN_0709@0.1640,0.6082,0.06724,0.02393"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:207v.16.96"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAext.hmt:16.1002",
+    "comment": "λύοιμεν",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol8055",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA207VN_0709@0.1535,0.6914,0.0361,0.0149"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:207v.16.100"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAint.hmt:16.1000",
+    "comment": "τὸ αυ πεσπαστ δύο γάρ ἐστιν αῦ καὶ τοὶ :",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol8046",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA207VN_0709@0.9067,0.4427,0.0461,0.0296"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:207v.16.87"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAint.hmt:16.1001",
+    "comment": "οτ Ζηνοδ προς τὸ Ί+λιον αιπὺ διεσθ",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol8047",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA207VN_0709@0.9096,0.5345,0.045,0.0396"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:207v.16.92"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAint.hmt:16.1002",
+    "comment": "ἡμεῖς δὲ ἐκφύγωμεν ⁑",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol8048",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA207VN_0709@0.9022,0.6684,0.045,0.0318"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:207v.16.99"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAim.hmt:16.1000",
+    "comment": "ἔν τισι τῶν υπομνημάτ  ἔπος ἔκλυον :",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol8026",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA207VN_0709@0.4442,0.228,0.0549,0.0332"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:207v.16.76"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAim.hmt:16.1001",
+    "comment": "βραχ διασταλτέον κατέχουσι ⁑",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol8027",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA207VN_0709@0.4534,0.2922,0.0453,0.0401"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:207v.16.79"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAim.hmt:16.1002",
+    "comment": "τὸ οι αρθ  εστ ἐγκλιτικὸν δὶο ἐν τῆ συντάξει ἐγκλιτεόν ⁑",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol8028",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA207VN_0709@0.4549,0.399,0.0494,0.0625"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:207v.16.85"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAim.hmt:16.1003",
+    "comment": "παροξυτονητέον ἐστὶ γράφεται μεσος β αο",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol8029",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA207VN_0709@0.4612,0.4651,0.0405,0.0313"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:207v.16.88"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAil.hmt:16.C1000",
+    "comment": "ουτ",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol8034",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA207VN_0709@0.7766,0.4021,0.0179,0.009"
+    },
+    "references": []
+  },
+  {
     "urn": "urn:cts:greekLit:tlg5026.msA.hmt:16.1000",
     "lemma": "ἔμπεσ' ἐπικρατέως",
     "dse": {

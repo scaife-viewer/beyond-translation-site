@@ -1,5 +1,115 @@
 [
   {
+    "urn": "urn:cts:greekLit:tlg5026.msAext.hmt:15.9",
+    "comment": "Ποσειδά",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol5475",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA194RN_0365@0.816,0.3584,0.055,0.024"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:194r.15.158"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAint.hmt:15.16",
+    "comment": "οτ  τὸ ἐναντίον ὑπακοῦσαι δεῖ ἀλλ απεδέξατ  ⁑",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol5507",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA194RN_0365@0.109,0.3095,0.06,0.0285"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:194r.15.155"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAint.hmt:15.17",
+    "comment": "οτ  οὐκ έστιν ἐπίθετον τὸ ταχεῖα , ἀλλ' ἀντι τοῦ ταχέως ⁑",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol5508",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA194RN_0365@0.103,0.3501,0.065,0.0443"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:194r.15.158"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAint.hmt:15.18",
+    "comment": "οτ  αφ εαυτοῦ ὁ Ζεὺς τὴν θαλασσαν δῖαν εἴρηκεν ⁑",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol5509",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA194RN_0365@0.103,0.4087,0.061,0.0346"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:194r.15.161"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAint.hmt:15.19",
+    "comment": "οτ  Ζηνοδ  γράφει ἐξ Ιδεων ἁρμόζει δὲ μᾶλλον κατ Ιδέων . κατάβασιν γὰρ δηλοῖ ⁑",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol5510",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA194RN_0365@0.09,0.5567,0.081,0.0496"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:194r.15.169"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAim.hmt:15.21",
+    "comment": "βέλτιον τῷ ήμενον τουτ  προσδίδοσθ  ⁑",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol5603",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA194RN_0365@0.581,0.2269,0.08,0.0263"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:194r.15.152"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAim.hmt:15.22",
+    "comment": "βραχ  διασταλτέον προς τὸ σαφεστερον ⁑",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol5604",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA194RN_0365@0.562,0.2772,0.074,0.0293"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:194r.15.154"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAim.hmt:15.23",
+    "comment": "γράφεται καὶ ἔρχεσθ' ἠ μετα φύλα ⁑",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol5605",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA194RN_0365@0.532,0.4065,0.06,0.0316"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:194r.15.161"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAim.hmt:15.24",
+    "comment": "οτ  διεσταλκε νιφάδα καὶ χάλαζαν ⁑",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol5606",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA194RN_0365@0.535,0.592,0.057,0.027"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:194r.15.170"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAil.hmt:15.16",
+    "comment": "ι",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol5563",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA194RN_0365@0.332,0.4275,0.014,0.0105"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:194r.15.162"
+    ]
+  },
+  {
     "urn": "urn:cts:greekLit:tlg5026.msA.hmt:15.46",
     "lemma": "‡ ήμενον ἀμφι δέ μιν θυόεν νέφος ,",
     "dse": {

@@ -39,6 +39,7 @@
   import AudioWidget from '@scaife-viewer/widget-audio';
   import WordListWidget from '@scaife-viewer/widget-word-list';
   import NewAlexandriaWidget from '@scaife-viewer/widget-new-alexandria';
+  import EmbedWidget from '@scaife-viewer/widget-embed';
 
   // import EHNewAlexandriaWidget from '../widgets/EHNewAlexandriaWidget.vue';
 
@@ -91,6 +92,7 @@
           NewAlexandriaWidget,
           WordListWidget,
           ScholiaWidget,
+          EmbedWidget,
           // EHNewAlexandriaWidget,
         ];
       },

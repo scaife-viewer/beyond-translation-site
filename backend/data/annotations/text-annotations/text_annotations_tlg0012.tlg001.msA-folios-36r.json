@@ -1,5 +1,27 @@
 [
   {
+    "urn": "urn:cts:greekLit:tlg5026.msAint.hmt:2.661",
+    "comment": "ὡς Εὔμηλον ΐδιον γὰρ ⁑",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol1607",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA036RN_0037@0.1037,0.5084,0.0607,0.0333"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:36r.2.608"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAil.hmt:2.662",
+    "comment": "τοῦ Αιγυπτίου",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol1760",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA036RN_0037@0.1873,0.4288,0.051,0.0148"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:36r.2.604"
+    ]
+  },
+  {
     "urn": "urn:cts:greekLit:tlg5026.msA.hmt:2.649",
     "lemma": "‡ἀντόμεναι Θάμυριν ·",
     "dse": {
@@ -67,12 +89,6 @@
       "image_roi": "urn:cite2:hmt:vaimg.2017a:VA036RN_0037@0.5753,0.362,0.203,0.0961"
     },
     "references": [
-      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:36r.2.603",
-      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:36r.2.604",
-      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:36r.2.605",
-      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:36r.2.606",
-      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:36r.2.607",
-      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:36r.2.608",
       "urn:cts:greekLit:tlg0012.tlg001.msA-folios:36r.2.609"
     ],
     "comment": "Ἀρκαδία ἀπο Ἀρκάδος τοῦ Διὸς οὗ Ἀμφιδάμας οὗ Ἀλεός . οὗ Ἀγκαῖος , οὗ Ἀγαπήνωρ Κυλλήνη ὄρος ὑφηλὸν τῆς Ἀρκαδίας καὶ πό  οῦσα παρ' αυτῷ ὁμώνυμος ἐν ᾧ ὄρει δοκεῖ Ἑρμῆς γεγενῆσθαι ἐκ Μαίας τῆς Ἄτλαντος θυγατρὸς καὶ Διὸς ὅθεν Κυλλήνιον τὸν θεὸν φασίν ⁑"
@@ -109,8 +125,6 @@
       "image_roi": "urn:cite2:hmt:vaimg.2017a:VA036RN_0037@0.563,0.5577,0.214,0.0393"
     },
     "references": [
-      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:36r.2.612",
-      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:36r.2.613",
       "urn:cts:greekLit:tlg0012.tlg001.msA-folios:36r.2.614"
     ],
     "comment": "ἐπεὶ μεσογείους ὄντας εἰς Ἴ¨λιον ἐπήγαγεν λύει τὸ ζήτημα πόθεν εἶχον ναῦς ⁑"
@@ -123,8 +137,6 @@
       "image_roi": "urn:cite2:hmt:vaimg.2017a:VA036RN_0037@0.568,0.5935,0.2113,0.0543"
     },
     "references": [
-      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:36r.2.615",
-      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:36r.2.616",
       "urn:cts:greekLit:tlg0012.tlg001.msA-folios:36r.2.617"
     ],
     "comment": "Βουπρασιον πό  ἡ δὲ χῶρα Ἧλις . ὁρίοις δὲ αὐτὴν περιγράφει μὴ θέλων πάλιν λεπτολογεῖν τὰ κατα μερος ⁑"

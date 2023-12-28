@@ -1,5 +1,135 @@
 [
   {
+    "urn": "urn:cts:greekLit:tlg5026.msAim.hmt:11.13",
+    "comment": "εν αλλω ὅν ποτ' Ἀχιλλεύς ⁑",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol4512",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA139VN_0641@0.418,0.3121,0.057,0.0413"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:139v.11.104"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAim.hmt:11.15",
+    "comment": "Ζηνοδ  γράφει κακόφρονος εὐτελῶς ⁑",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol4513",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA139VN_0641@0.4228,0.6639,0.0571,0.0361"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:139v.11.122"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAil.hmt:11.51",
+    "comment": "παραβάτης ην :",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol4254",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA139VN_0641@0.5952,0.303,0.0681,0.0143"
+    },
+    "references": []
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAil.hmt:11.53",
+    "comment": "ἐν τοῖς τραχέσι τόποις",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol4255",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA139VN_0641@0.554,0.3218,0.093,0.015"
+    },
+    "references": []
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAil.hmt:11.54",
+    "comment": "εδησεν·",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol4256",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA139VN_0641@0.652,0.3233,0.031,0.0113"
+    },
+    "references": []
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAil.hmt:11.55",
+    "comment": "ἀπαλοῖς :",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol4257",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA139VN_0641@0.7054,0.3241,0.0491,0.012"
+    },
+    "references": []
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAil.hmt:11.56",
+    "comment": "φυτῶ τινὶ ὃ ἡμεῖς κύτινον καλοῦμεν",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol4258",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA139VN_0641@0.779,0.3233,0.123,0.0188"
+    },
+    "references": []
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAil.hmt:11.57",
+    "comment": "λυτρα δεξάμε ἀπέδωκεν :",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol4259",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA139VN_0641@0.806,0.3398,0.092,0.0165"
+    },
+    "references": []
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAil.hmt:11.58",
+    "comment": "επληξε",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol4260",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA139VN_0641@0.6743,0.4008,0.0371,0.0098"
+    },
+    "references": []
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAil.hmt:11.59",
+    "comment": "σπεύδων",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol4261",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA139VN_0641@0.5271,0.4218,0.0441,0.0083"
+    },
+    "references": []
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAil.hmt:11.61",
+    "comment": "γνωρίζων",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol4262",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA139VN_0641@0.492,0.4421,0.0531,0.012"
+    },
+    "references": []
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAil.hmt:11.63",
+    "comment": "δρυμῶνας",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol4263",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA139VN_0641@0.7315,0.5677,0.0491,0.0113"
+    },
+    "references": []
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAil.hmt:11.64",
+    "comment": "υπμένοντ  τὴν μάχην πολεμικήν :",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol4264",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA139VN_0641@0.8216,0.6346,0.1012,0.0188"
+    },
+    "references": []
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAil.hmt:11.65",
+    "comment": "λ ἡ παρα",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol4265",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA139VN_0641@0.5862,0.6857,0.0441,0.0105"
+    },
+    "references": []
+  },
+  {
     "urn": "urn:cts:greekLit:tlg5026.msA.hmt:11.50",
     "lemma": "αὐτὰρ ὃ βή ρ' ῀Ϊσον τε :",
     "dse": {

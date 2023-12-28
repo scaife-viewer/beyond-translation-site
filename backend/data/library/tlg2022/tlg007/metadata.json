@@ -1,0 +1,58 @@
+{
+  "urn": "urn:cts:greekLit:tlg2022.tlg007:",
+  "group_urn": "urn:cts:greekLit:tlg2022:",
+  "node_kind": "work",
+  "lang": "grc",
+  "title": [
+    {
+      "lang": "eng",
+      "value": "Adversus Eunomianos (Orat. 27)"
+    }
+  ],
+  "versions": [
+    {
+      "urn": "urn:cts:greekLit:tlg2022.tlg007.gio-grc1:",
+      "node_kind": "version",
+      "version_kind": "edition",
+      "lang": "grc",
+      "first_passage_urn": "urn:cts:greekLit:tlg2022.tlg007.gio-grc1:1-5",
+      "citation_scheme": [
+        "sentence"
+      ],
+      "label": [
+        {
+          "lang": "grc",
+          "value": "Adversus Eunomianos (Orat. 27)"
+        }
+      ],
+      "description": [
+        {
+          "lang": "eng",
+          "value": "Gregorius Nazianzenus, The Five Theological Orations, Mason, Cambridge,\n    1899"
+        }
+      ]
+    },
+    {
+      "urn": "urn:cts:greekLit:tlg2022.tlg007.gio-eng1:",
+      "node_kind": "version",
+      "version_kind": "translation",
+      "lang": "eng",
+      "first_passage_urn": "urn:cts:greekLit:tlg2022.tlg007.gio-eng1:1-5",
+      "citation_scheme": [
+        "sentence"
+      ],
+      "label": [
+        {
+          "lang": "grc",
+          "value": "A Preliminary Discourse Against the Eunomians"
+        }
+      ],
+      "description": [
+        {
+          "lang": "eng",
+          "value": "NICENE AND POST-NICENE FATHERS, Schaff, Philip (1819-1893), WM. B. EERDMANS PUBLISHING COMPANY, Grand Rapids, MI,\n    1819-1893"
+        }
+      ]
+    }
+  ]
+}

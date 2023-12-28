@@ -1,5 +1,60 @@
 [
   {
+    "urn": "urn:cts:greekLit:tlg5026.msAext.hmt:16.216r1",
+    "comment": "Αἰολικὸν κοίμησον απο του κοίμισον ⁑",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol7746",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA216RN_0387@0.8032,0.6231,0.08401,0.03527"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:216r.16.524"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAint.hmt:16.216r1",
+    "comment": "ὡς λεγοντι ουτως καὶ Ἀρίσταρχος",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol7773",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA216RN_0387@0.1133,0.3109,0.07719,0.03582"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:216r.16.508"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAint.hmt:16.216r2",
+    "comment": "ουτως διὰ τοῦ η αἱ Ἀριστάρχου κατα τεθνηωτι ⁑",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol7774",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA216RN_0387@0.1140,0.6530,0.07775,0.02642"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:216r.16.526"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAim.hmt:16.216r1",
+    "comment": "δια τοῦ ε λιπεν ἐπειδὴ τὰ ἅρματα τῶν ἀνάκτων ἐλειφθεν ἐλειφθησαν ἡρημώθησαν~ Ζηνόδοτος δε δια τοῦ ο λίπον ~",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol7833",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA216RN_0387@0.6126,0.2892,0.08217,0.08451"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:216r.16.507"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAim.hmt:16.216r2",
+    "comment": "Ἀρισταρχος ὁ δ' οῦ παιδός ⁑",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol7834",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA216RN_0387@0.5958,0.5719,0.03943,0.03112"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:216r.16.522"
+    ]
+  },
+  {
     "urn": "urn:cts:greekLit:tlg5026.msA.hmt:16.216r1",
     "lemma": "‡ τέλος θανάτοιο κάλυψεν ὀφθαλμοὺς ῥινασθ'~",
     "dse": {

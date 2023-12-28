@@ -1,5 +1,82 @@
 [
   {
+    "urn": "urn:cts:greekLit:tlg5026.msAext.hmt:9.396",
+    "comment": "γήμαντα",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:tlg5026_msAext_hmt_9_396",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA119VN_0622@0.1170,0.4791,0.07646,0.03140"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:119v.9.399"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAint.hmt:9.395",
+    "comment": "ενίους φησὶν ὁ Ἀρίσταρχος γράφειν εμῆς ψυχῆς οὐκ εῦ ⁑",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:tlg5026_msAint_hmt_9_395",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA119VN_0622@0.8487,0.5165,0.06227,0.03900"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:119v.9.401"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAim.hmt:9.390",
+    "comment": "Ἀρισταρχ  γυναῖκα γε μάσσεται :",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:tlg5026_msAim_hmt_9_390",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA119VN_0622@0.4504,0.3981,0.05269,0.03389"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:119v.9.394"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAim.hmt:9.391",
+    "comment": "Αριστ  ἐθέλωμαι ⁑",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:tlg5026_msAim_hmt_9_391",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA119VN_0622@0.4555,0.4448,0.0631,0.0466"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:119v.9.397"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAim.hmt:9.392",
+    "comment": "οὕτως Ἀρισταρχ  κατ  δοτικήν αλλοι δὲ γήμαντα :",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:tlg5026_msAim_hmt_9_392",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA119VN_0622@0.4512,0.4885,0.05932,0.03154"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:119v.9.367"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAim.hmt:9.393",
+    "comment": "γράφεται Ζηνοδ  νήου Ἀπολλω",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:tlg5026_msAim_hmt_9_393",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA119VN_0622@0.4455,0.6028,0.06393,0.03154"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:119v.9.399"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAim.hmt:9.394",
+    "comment": "αντ  τοῦ οὐδε κτικὴ",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:tlg5026_msAim_hmt_9_394",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA119VN_0622@0.4521,0.6808,0.06227,0.01936"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:119v.9.409"
+    ]
+  },
+  {
     "urn": "urn:cts:greekLit:tlg5026.msA.hmt:9.375",
     "lemma": "‡ οὐδ εἴ μοι τόσσα δοίη :",
     "dse": {
@@ -65,7 +142,10 @@
     "dse": {
       "urn": "urn:cite2:hmt:va_dse.v1:tlg5026_msA_hmt_9_380",
       "image_roi": "urn:cite2:hmt:vaimg.2017a:VA119VN_0622@0.2162,0.4005,0.2352,0.0639"
-    }
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:119v.9.395"
+    ]
   },
   {
     "urn": "urn:cts:greekLit:tlg5026.msA.hmt:9.381",

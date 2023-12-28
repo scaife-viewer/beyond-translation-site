@@ -1,5 +1,99 @@
 [
   {
+    "urn": "urn:cts:greekLit:tlg5026.msAext.hmt:11.6",
+    "comment": "ὅ τε οἱ Ζεὺς κῦδος \t\t\t\t\t\tἔδωκεν",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol4190",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA143RN_0315@0.794,0.6849,0.085,0.0398"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:143r.11.300"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAint.hmt:11.11",
+    "comment": "Ἀρίσταρχος ὑπέρτεροι :",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol4205",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA143RN_0315@0.091,0.4771,0.057,0.0338"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:143r.11.290"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAil.hmt:11.138",
+    "comment": "ἐμάστιξεν",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol4316",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA143RN_0315@0.39,0.2903,0.054,0.0143"
+    },
+    "references": []
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAil.hmt:11.139",
+    "comment": "ἐπι τὰς κοίλας",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol4317",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA143RN_0315@0.264,0.3016,0.056,0.0158"
+    },
+    "references": []
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAil.hmt:11.140",
+    "comment": "ί̈δρουν",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol4318",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA143RN_0315@0.195,0.3211,0.039,0.0113"
+    },
+    "references": []
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAil.hmt:11.141",
+    "comment": "εκονιορτοῦντο",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol4319",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA143RN_0315@0.376,0.3263,0.072,0.0135"
+    },
+    "references": []
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAil.hmt:11.143",
+    "comment": "αγρίω χοίρω",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol4320",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA143RN_0315@0.271,0.5364,0.049,0.0135"
+    },
+    "references": []
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAil.hmt:11.144",
+    "comment": "ὑπερβάλλοντι τῷ πνοὴ",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol4321",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA143RN_0315@0.355,0.6174,0.103,0.0173"
+    },
+    "references": []
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAil.hmt:11.145",
+    "comment": "κατ  πνευμ",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol4322",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA143RN_0315@0.258,0.6309,0.067,0.0188"
+    },
+    "references": []
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAil.hmt:11.146",
+    "comment": "μέλανα δια τὸ βάθος",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol4323",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA143RN_0315@0.343,0.6369,0.104,0.015"
+    },
+    "references": []
+  },
+  {
     "urn": "urn:cts:greekLit:tlg5026.msA.hmt:11.118",
     "lemma": "ἀνέρες ἔστε φίλοι",
     "dse": {

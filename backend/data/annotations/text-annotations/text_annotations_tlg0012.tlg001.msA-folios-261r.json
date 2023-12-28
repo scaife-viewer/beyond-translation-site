@@ -1,5 +1,77 @@
 [
   {
+    "urn": "urn:cts:greekLit:tlg5026.msAext.hmt:20.11_2",
+    "comment": "πε σεισμοῦ",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol7483",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA261RN_0431@0.8443,0.3541,0.05895,0.02006"
+    },
+    "references": []
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAext.hmt:20.11_3",
+    "comment": "πόλις",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol7484",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA261RN_0431@0.8513,0.3841,0.03371,0.01010"
+    },
+    "references": []
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAext.hmt:20.11_4",
+    "comment": "ποσειδα",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol7485",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA261RN_0431@0.8349,0.4414,0.04164,0.01037"
+    },
+    "references": []
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAext.hmt:20.11_5",
+    "comment": "ποσειδα",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol7486",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA261RN_0431@0.8244,0.5091,0.04901,0.01438"
+    },
+    "references": []
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAint.hmt:20.11_1",
+    "comment": "ἐν αλλω , ἐκ θρόνόυ ῶρτο ουτ καὶ ἡ Μασσαλιωτ ⁑",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol7512",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA261RN_0431@0.1428,0.4104,0.05453,0.04454"
+    },
+    "references": []
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAint.hmt:20.11_2",
+    "comment": "οτ διαφορουμε τῆς ὀνομασίας νῦν δὲ ἔστησε ⁑",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol7513",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA261RN_0431@0.1231,0.6390,0.06393,0.03693"
+    },
+    "references": []
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAim.hmt:20.11_1",
+    "comment": "Ἀρισταρχ Ϊακῶς αὐτὰρ νέρθε ⁑",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol7567",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA261RN_0431@0.5781,0.3119,0.03906,0.03873"
+    },
+    "references": []
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAim.hmt:20.11_2",
+    "comment": "ουτ Ἀρισταρχ πολυπίδακος ~ ἄλλοι δε πολυπιδακου ⁑",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol7568",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA261RN_0431@0.5757,0.3523,0.04993,0.04025"
+    },
+    "references": []
+  },
+  {
     "urn": "urn:cts:greekLit:tlg5026.msA.hmt:20.11_1",
     "lemma": "ἄλλοτε πὰρ Σιμόεντι",
     "dse": {

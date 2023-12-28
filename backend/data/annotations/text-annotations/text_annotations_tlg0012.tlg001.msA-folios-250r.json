@@ -1,5 +1,133 @@
 [
   {
+    "urn": "urn:cts:greekLit:tlg5026.msAext.hmt:18.8",
+    "comment": "πὸλλ' ἐπαλ",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol6152",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA250RN_0421@0.836,0.299,0.089,0.0353"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:250r.18.560"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAext.hmt:18.9",
+    "comment": "ὁμαρτῃ",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol6153",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA250RN_0421@0.824,0.5131,0.051,0.0218"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:250r.18.571"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAint.hmt:18.49",
+    "comment": "ἕξω τοῦ ϊ τὸ εστήκει αἱ Ἀρισταρχ  ⁑",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol6205",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA250RN_0421@0.133,0.2554,0.069,0.0473"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:250r.18.557"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAint.hmt:18.50",
+    "comment": "Ἀρίσταρχ  ταλάροισι καὶ πλεκτοῖσι ⁑",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol6206",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA250RN_0421@0.128,0.4643,0.062,0.0488"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:250r.18.568"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAint.hmt:18.51",
+    "comment": "ἐν ἄλλῳ ραδαλὸν",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol6207",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA250RN_0421@0.121,0.6063,0.064,0.0255"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:250r.18.576"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAim.hmt:18.64",
+    "comment": "Ἀρισταρχ  εστήκει ⁑",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol6316",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA250RN_0421@0.594,0.2449,0.045,0.0436"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:250r.18.557"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAim.hmt:18.65",
+    "comment": "Ζηνοδ  ἀργυρέοισιν ⁑",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol6317",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA250RN_0421@0.609,0.3629,0.089,0.0278"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:250r.18.563"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAim.hmt:18.66",
+    "comment": "ἐς αυτήν παρα Ζηνοδ  καὶ ἔχει λογον ἡ γραφη ⁑",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol6318",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA250RN_0421@0.599,0.3989,0.104,0.0323"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:250r.18.565"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAim.hmt:18.67",
+    "comment": "οἱ φέροντες τοὺς βότρυας",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol6319",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA250RN_0421@0.609,0.438,0.103,0.0218"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:250r.18.567"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAim.hmt:18.68",
+    "comment": "δύο πρωτησι ἐν τῇ ἑτερα τῶν Ἀρισταρχ  ⁚",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol6320",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA250RN_0421@0.568,0.6642,0.068,0.0428"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:250r.18.579"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAil.hmt:18.34",
+    "comment": "συριγμῶ",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol6248",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA250RN_0421@0.315,0.5274,0.044,0.0158"
+    },
+    "references": []
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAil.hmt:18.35",
+    "comment": "καλαμῶνα⁚",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol6249",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA250RN_0421@0.571,0.6018,0.054,0.0158"
+    },
+    "references": []
+  },
+  {
     "urn": "urn:cts:greekLit:tlg5026.msA.hmt:18.199",
     "lemma": "βασιλεὺς δ' ἐν τοῖσι σιωπῇ⁚",
     "dse": {
@@ -53,7 +181,10 @@
     "dse": {
       "urn": "urn:cite2:hmt:va_dse.v1:schol6530",
       "image_roi": "urn:cite2:hmt:vaimg.2017a:VA250RN_0421@0.598,0.5612,0.227,0.0789"
-    }
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:250r.18.570"
+    ]
   },
   {
     "urn": "urn:cts:greekLit:tlg5026.msA.hmt:18.204",

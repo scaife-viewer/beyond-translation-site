@@ -1,5 +1,91 @@
 [
   {
+    "urn": "urn:cts:greekLit:tlg5026.msAint.hmt:8.188",
+    "comment": "ἐν αλλ  θηκατο νεβρόν .",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol3207",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA105VN_0608@0.8574,0.2761,0.0363,0.0311"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:105v.8.249"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAint.hmt:8.189",
+    "comment": "τάφρου εξήλασαν δηλονότι ⁑",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol3208",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA105VN_0608@0.8651,0.4962,0.0363,0.0341"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:105v.8.261"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAint.hmt:8.190",
+    "comment": "εἰς τουπίσω τεινόμενα εῖδος δὲ τοξίας ⁑",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol3209",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA105VN_0608@0.8749,0.5941,0.0371,0.0487"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:105v.8.266"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAim.hmt:8.184",
+    "comment": "φύγαδε ὡς οίκαδε",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol3153",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA105VN_0608@0.3749,0.445,0.07,0.0174"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:105v.8.257"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAim.hmt:8.185",
+    "comment": "ἐν αλλω ὑπερώησαν δέ οι ἵπποι ~",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol3154",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA105VN_0608@0.3971,0.4982,0.0583,0.0219"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:105v.8.260"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAim.hmt:8.186",
+    "comment": "γρ  στῆ δ ἄρ ὑπ Αίαντ  ⁑",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol3155",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA105VN_0608@0.4091,0.6584,0.0597,0.0292"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:105v.8.266"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAim.hmt:8.187",
+    "comment": "Ἀρισταρχ  βεβληκοι ⁚",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol3156",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA105VN_0608@0.4003,0.6926,0.0717,0.0215"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:105v.8.270"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAil.hmt:8.193",
+    "comment": "ε",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol3256",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA105VN_0608@0.786,0.4355,0.0091,0.0075"
+    },
+    "references": []
+  },
+  {
     "urn": "urn:cts:greekLit:tlg5026.msA.hmt:8.179",
     "lemma": "‡ αὐτίκα δ' αἱετὸν ῆκε τελειότατον~",
     "dse": {
@@ -43,7 +129,6 @@
       "image_roi": "urn:cite2:hmt:vaimg.2017a:VA105VN_0608@0.1977,0.675,0.2037,0.0508"
     },
     "references": [
-      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:105v.8.269",
       "urn:cts:greekLit:tlg0012.tlg001.msA-folios:105v.8.270"
     ],
     "comment": "βραχὺ διασταλτέον ἐπι τὸ παπτηνας . ὑποστικτέον δὲ ἐν ὑποκρίσει βεβλήκει ⁑"

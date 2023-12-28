@@ -1,5 +1,93 @@
 [
   {
+    "urn": "urn:cts:greekLit:tlg5026.msAext.hmt:23.2016",
+    "comment": "κατα θ’ αρματα",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol7021",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA302RN_0472@0.136,0.6409,0.07,0.0376"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:302r.23.467"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAint.hmt:23.2014",
+    "comment": "αἱ Ἀριστάρχου παπταίνεται",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol7036",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA302RN_0472@0.162,0.3366,0.066,0.027"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:302r.23.464"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAint.hmt:23.2015",
+    "comment": "ὅτι ἐπὶ πότου ἀντὶ τοῦ πρῶται",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol7037",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA302RN_0472@0.136,0.6409,0.07,0.0376"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:302r.23.440"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAim.hmt:23.2011",
+    "comment": "οὕτως διὰ τὸ ν νῦν δ’οὔ πηι Ἀριστοφάνης",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol7079",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA302RN_0472@0.606,0.3208,0.093,0.0353"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:302r.23.463"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAim.hmt:23.2012",
+    "comment": "γράφεται κατὰ θ’άρματα",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol7080",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA302RN_0472@0.606,0.3989,0.087,0.0308"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:302r.23.467"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAim.hmt:23.2013",
+    "comment": "ὅτι δια πολλοῦ πεδίου",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol7081",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA302RN_0472@0.584,0.5507,0.048,0.0391"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:302r.23.475"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAil.hmt:23.2016",
+    "comment": "εξώρμησαν ἴσοι",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol7056",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA302RN_0472@0.267,0.4087,0.104,0.0188"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:302r.23.468"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAil.hmt:23.2017",
+    "comment": "πολυλογεῖς ῆ προγλωσσεύη",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol7057",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA302RN_0472@0.374,0.5237,0.148,0.0188"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:302r.23.474"
+    ]
+  },
+  {
     "urn": "urn:cts:greekLit:tlg5026.msA.hmt:23.2001",
     "lemma": "ἄλλοι μοι δοκέουσι παροίτεροι",
     "dse": {
@@ -89,7 +177,10 @@
     "dse": {
       "urn": "urn:cite2:hmt:va_dse.v1:schol7159",
       "image_roi": "urn:cite2:hmt:vaimg.2017a:VA302RN_0472@0.183,0.7145,0.646,0.0391"
-    }
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:302r.23.479"
+    ]
   },
   {
     "urn": "urn:cts:greekLit:tlg5026.msA.hmt:23.2009",

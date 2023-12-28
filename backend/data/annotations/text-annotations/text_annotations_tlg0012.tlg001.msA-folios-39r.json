@@ -1,5 +1,82 @@
 [
   {
+    "urn": "urn:cts:greekLit:tlg5026.msAext.hmt:2.751",
+    "comment": "τις γὰρ",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol1781",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA039RN_0040@0.7963,0.5911,0.0371,0.02"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:39r.2.761"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAext.hmt:2.752",
+    "comment": "πιερίη",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol1782",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA039RN_0040@0.7825,0.6805,0.0479,0.0135"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:39r.2.766"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAint.hmt:2.749",
+    "comment": "χωρὶς τοῦ ν τὸ ῆρχε δια τὸ ἐπιφέρεσθαι δύο σύμφω  ⁑",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol1611",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA039RN_0040@0.0721,0.4747,0.065,0.0598"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:39r.2.756"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAim.hmt:2.745",
+    "comment": "Ἱ¨ακῶς τὸ vέμοντο Ἀρίσταρχος ⁑",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol1544",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA039RN_0040@0.5375,0.388,0.0625,0.0394"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:39r.2.751"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAim.hmt:2.746",
+    "comment": "εἰς αὐτὸν γὰρ ομνυουσιν οἱ ἐπιχώριοι ⁑",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol1545",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA039RN_0040@0.5475,0.4612,0.0504,0.0413"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:39r.2.755"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAim.hmt:2.747",
+    "comment": "ὅτι προς τὸ δευτερον πρότερον ἀπήντηκεν·",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol1546",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA039RN_0040@0.4967,0.5964,0.0592,0.0379"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:39r.2.763"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAim.hmt:2.748",
+    "comment": "διαβητη ⁑",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol1547",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA039RN_0040@0.5271,0.6564,0.0196,0.0407"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:39r.2.765"
+    ]
+  },
+  {
     "urn": "urn:cts:greekLit:tlg5026.msA.hmt:2.735",
     "lemma": "‡ καὶ Αἰθῑ'κεσσι πέλασσεν·",
     "dse": {
@@ -53,7 +130,10 @@
     "dse": {
       "urn": "urn:cite2:hmt:va_dse.v1:schol1449",
       "image_roi": "urn:cite2:hmt:vaimg.2017a:VA039RN_0040@0.554,0.5362,0.2123,0.031"
-    }
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:39r.2.755"
+    ]
   },
   {
     "urn": "urn:cts:greekLit:tlg5026.msA.hmt:2.740",

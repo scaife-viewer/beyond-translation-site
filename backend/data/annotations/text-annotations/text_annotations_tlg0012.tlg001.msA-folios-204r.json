@@ -1,5 +1,38 @@
 [
   {
+    "urn": "urn:cts:greekLit:tlg5026.msAint.hmt:15.50",
+    "comment": "γράφεται πρώτων καὶ προτέρων καὶ πρωτέων ,",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol5541",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA204RN_0375@0.118,0.2772,0.063,0.0526"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:204r.15.656"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAint.hmt:15.51",
+    "comment": "αναστρεπτεον τὴν προθεσιν ⁑",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol5542",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA204RN_0375@0.1,0.4598,0.071,0.0368"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:204r.15.665"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAim.hmt:15.70",
+    "comment": "οτ  όμοιον τῷ δαιτην δαινυμένους ⁑",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol5652",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA204RN_0375@0.558,0.6153,0.045,0.0541"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:204r.15.673"
+    ]
+  },
+  {
     "urn": "urn:cts:greekLit:tlg5026.msA.hmt:15.176",
     "lemma": "εἰσωποὶ δ' ἐγένοντο νεῶν ⁚",
     "dse": {

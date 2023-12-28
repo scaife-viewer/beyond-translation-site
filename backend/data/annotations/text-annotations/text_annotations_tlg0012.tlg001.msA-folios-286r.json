@@ -1,5 +1,80 @@
 [
   {
+    "urn": "urn:cts:greekLit:tlg5026.msAint.hmt:22.15",
+    "comment": "ὅτι αντ  δι' αγκέων καὶ βησσῶν",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol6777",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA286RN_0456@0.1437,0.3194,0.07498,0.03444"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:286r.22.190"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAint.hmt:22.16",
+    "comment": "ὅτι ἃς άνω Σκαιὰς νῦν Δαρδανίους ⁑",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol6778",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA286RN_0456@0.1376,0.3968,0.08198,0.05588"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:286r.22.194"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAint.hmt:22.17",
+    "comment": "ουτ  δια τοῦ ε πέτετο ⁑",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol6779",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA286RN_0456@0.1417,0.4672,0.06595,0.03057"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:286r.22.198"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAint.hmt:22.18",
+    "comment": "ἐν ἄλλω ὡς ὁ τὸν ⁑",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol6780",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA286RN_0456@0.1396,0.5230,0.05803,0.03112"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:286r.22.201"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAint.hmt:22.19",
+    "comment": "αρισταρχ  υπεξέφερεν",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol6781",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA286RN_0456@0.1430,0.5501,0.06374,0.01729"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:286r.22.202"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAim.hmt:22.23",
+    "comment": "ὑποχώρει ἐνδίδου ⁑",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol6867",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA286RN_0456@0.5884,0.4474,0.03887,0.01217"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:286r.22.184"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAil.hmt:22.27",
+    "comment": "προλαβών",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol6824",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA286RN_0456@0.5884,0.4474,0.03887,0.01217"
+    },
+    "references": []
+  },
+  {
     "urn": "urn:cts:greekLit:tlg5026.msA.hmt:22.49",
     "lemma": "σημειῶδες",
     "dse": {
@@ -31,8 +106,6 @@
       "image_roi": "urn:cite2:hmt:vaimg.2017a:VA286RN_0456@0.6116,0.4055,0.2467,0.07538"
     },
     "references": [
-      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:286r.22.199",
-      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:286r.22.200",
       "urn:cts:greekLit:tlg0012.tlg001.msA-folios:286r.22.201"
     ],
     "comment": "ἀθετοῦνται στιχ  τρεῖς , ὅτι καὶ τῇ κατασκευῇ καὶ τῷ νοήματι εὐτελεῖς . καὶ γὰρ ἀπραξίαν δρόμου καὶ τὸ ἀπαράβατον σημαίνουσιν ἐναντίως τῷ ὡς δέ τ' ἀεθλοφόροι περι τέρματα μώνυχες ἵπποι ⁑"
@@ -57,9 +130,6 @@
       "image_roi": "urn:cite2:hmt:vaimg.2017a:VA286RN_0456@0.1986,0.6122,0.6310,0.1140"
     },
     "references": [
-      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:286r.22.204",
-      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:286r.22.205",
-      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:286r.22.206",
       "urn:cts:greekLit:tlg0012.tlg001.msA-folios:286r.22.207"
     ],
     "comment": "ἤτοι στικτέον εἰς τὸ  γοῦνα καὶ ἀφ ετέρας ἀρχῆς  ἄλλοισιν δ' ἀνένευεν ἵν' ᾗ τῶν προτέρων ὁ λόγος τοιοῦτος εὐθέως δ ἂν ἀπώλετο ὁ Ἕκτωρ εἰ μὴ Ἀπόλλων αὐτῷ ἐβοήθησε τὸ πανύστατον· ἠ παντα συναπτέον ἕως τοῦ ὁ δὲ δεύτερος ἔλθοι  ἵν ᾗ ὁ λόγος . ἀνῄρητο δ' ἂν Ἕκτωρ ἤδη· εἰ μὴ Ἀπόλλων αὐτῷ ἐβοήθησεν τάχος ἐμπνεύσας· Ἀχιλλεὺς δὲ τοὺς περιεστῶτας τῶν Ἑλλήνων ἐκώλυεν ἀνανεύων βαλεῖν τὸν Ἕκτορα ⁑"

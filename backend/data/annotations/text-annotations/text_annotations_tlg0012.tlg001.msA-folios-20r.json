@@ -1,5 +1,203 @@
 [
   {
+    "urn": "urn:cts:greekLit:tlg5026.msAint.hmt:1.1076",
+    "comment": "ὅτι μακρὸν τὸν Ὄλυμπον ὡς όρος τὸν δὲ οὐνον  ευρύν ⁑",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol380",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA020RN_0021@0.10280029,0.19446750,0.06226971,0.04674965"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:20r.1.402"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAint.hmt:1.1078",
+    "comment": "ὅτι τινὲς γράφουσι μετα δαίμονας ἄλλους διὸ ἀθετειται :",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol381",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA020RN_0021@0.11938099,0.63872752,0.04716286,0.03872752"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:20r.1.424"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAim.hmt:1.1072",
+    "comment": "οὕτως δια τοῦ ν βίην Ἀρισταρχος ⁑",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol319",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA020RN_0021@0.52247605,0.25421853,0.05747973,0.02517289"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:20r.1.404"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAim.hmt:1.1074",
+    "comment": "ὅτι όρος ὁ Όλυμπος ⁑",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol320",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA020RN_0021@0.54716286,0.55573997,0.03058217,0.02434302"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:20r.1.420"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAil.hmt:1.1079",
+    "comment": "ἑαν πῶς",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol641",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA020RN_0021@0.22181282,0.31894882,0.02726603,0.01244813"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:20r.1.408"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAil.hmt:1.1080",
+    "comment": "τοὺς δὲ Ἕλληνας :",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol642",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA020RN_0021@0.19196758,0.33914246,0.06005895,0.01023513"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:20r.1.409"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAil.hmt:1.1081",
+    "comment": "τὰς ναῦς απο μέρους",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol643",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA020RN_0021@0.30397937,0.34024896,0.07258659,0.01078838"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:20r.1.409"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAil.hmt:1.1082",
+    "comment": "συνελάσαι",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol644",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA020RN_0021@0.48931466,0.34495159,0.04532056,0.00912863"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:20r.1.409"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAil.hmt:1.1083",
+    "comment": "ἵνα πάντες ἀπολαύσωυσι τῆς αβουλιας τοῦ βασιλε  τοῦ τεστ  ἵνα ἀπωλωνται δι αυτου :",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol645",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA020RN_0021@0.32056006,0.36320885,0.26344878,0.01134163"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:20r.1.410"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAil.hmt:1.1084",
+    "comment": "τὴν ἰδίαν αβουλιαν καὶ βλάβην ⁑",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol646",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA020RN_0021@0.20707443,0.39612725,0.10095800,0.00885201"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:20r.1.412"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAil.hmt:1.1085",
+    "comment": "ἄλυπος",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol647",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA020RN_0021@0.40567428,0.45836791,0.02726603,0.00857538"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:20r.1.415"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAil.hmt:1.1087",
+    "comment": "μοῖρα",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol648",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA020RN_0021@0.33861459,0.47717842,0.02063375,0.00802213"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:20r.1.416"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAil.hmt:1.1088",
+    "comment": "ἐπ ολίγου",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol649",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA020RN_0021@0.39204127,0.47690180,0.02910833,0.00691563"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:20r.1.416"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAil.hmt:1.1089",
+    "comment": "και οῦκ επι πο  χρόνον",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol650",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA020RN_0021@0.45910096,0.47607192,0.07037583,0.00912863"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:20r.1.416"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAil.hmt:1.1090",
+    "comment": "ταχύθάνατος",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol651",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA020RN_0021@0.31098010,0.49488243,0.04384672,0.00829876"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:20r.1.417"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAil.hmt:1.1091",
+    "comment": "ἄθλιος ταλαίπρωροι",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol652",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA020RN_0021@0.39462049,0.49571231,0.07184967,0.00885201"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:20r.1.417"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAil.hmt:1.1092",
+    "comment": "διὸ δή σε",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol653",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA020RN_0021@0.25681651,0.51258645,0.03095063,0.00746888"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:20r.1.418"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAil.hmt:1.1094",
+    "comment": "προς τὸ τοῦ Διός :",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol654",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA020RN_0021@0.33750921,0.66500692,0.06558585,0.00802213"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:20r.1.426"
+    ]
+  },
+  {
     "urn": "urn:cts:greekLit:tlg5026.msA.hmt:1.1059",
     "lemma": "‡ὃν Βριάρεων καλέουσι",
     "dse": {
@@ -19,7 +217,6 @@
       "image_roi": "urn:cite2:hmt:vaimg.2017a:VA020RN_0021@0.19123066,0.13775934,0.59469418,0.02406639"
     },
     "references": [
-      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:20r.1.404",
       "urn:cts:greekLit:tlg0012.tlg001.msA-folios:20r.1.405"
     ],
     "comment": "ὅτι ἐντευθεν επι τοῦ Ἄρεῳς λεγεται οὐκ ορθῶς πὰρ δὲ Διῒ Κρονίωνι καθέζετο κύδεϊ γαίων · Ὅμηρος δὲ ὡς Στωϊκὸς Ποσειδῶνος αὐτὸν εἶναι φησίν ἢ ὅτι φησὶ παύροι δέ τε πατρὸς ἀρείους ⁑"
@@ -68,7 +265,6 @@
       "image_roi": "urn:cite2:hmt:vaimg.2017a:VA020RN_0021@0.57111275,0.43568465,0.21370671,0.02517289"
     },
     "references": [
-      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:20r.1.421",
       "urn:cts:greekLit:tlg0012.tlg001.msA-folios:20r.1.422"
     ],
     "comment": "τὸ νῦν ἀντὶ τοῦ δη διὸ καὶ Τυραννίων ἠξίου ὀξύνειν οὐκ εῦ·"
@@ -93,7 +289,6 @@
       "image_roi": "urn:cite2:hmt:vaimg.2017a:VA020RN_0021@0.57000737,0.49515906,0.21518055,0.17510373"
     },
     "references": [
-      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:20r.1.423",
       "urn:cts:greekLit:tlg0012.tlg001.msA-folios:20r.1.424"
     ],
     "comment": "λέξις Ἀρισταρχου εκ τοῦ Α τῆς Ἰλιάδος ὑπομνήματος· τὸ μὲν μετ αμύμονας ἐπ αμυμονας ὅ ἐστι πρὸς ἀμώμους ἀγαθούς· τὸ δὲ κατα δαῖτα ἀντι τοῦ ἐπι δαῖτα οὕτως γὰρ νῦν Ὅμηρος τέθεικεν . ἔνιοι δὲ ποιοῦσι μετα δαῖτα ὅπως ᾖ αὐτοῖς αὐτόθεν τὸ μετα ἐπι χρῶνται δὲ καὶ πλείονες ἄλλοι τῶν ποιητῶν τῇ κατὰ ἀντι τῆς ἐπι Σοφοκλῆς ἐγὼ κατα αυτὸν ὡς ὁρᾶς ἐξέρχομαι · οὕτως δὲ εὕρομεν καὶ ἐν τῇ Μασσαλιωτικῆ καὶ Σινωπικῇ καὶ Κυπρίᾳ καὶ Ἀντιμαχίῳ · καὶ Ἀριστοφανείῳ · Καλλίστρατος δὲ ἐν τῷ Πρὸς τὰς ἀθετήσεις ὁμοίως καὶ ὁ Σιδώνιος καὶ ὁ Ἰ¨ξίων ἐν τῷ ς Προς τὰς ἐξηγήσεις , καὶ τὸ θεοὶ δὲ πάντες ἔπονται δια τοῦ αι ·"

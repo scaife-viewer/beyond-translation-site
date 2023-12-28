@@ -1,5 +1,56 @@
 [
   {
+    "urn": "urn:cts:greekLit:tlg5026.msAim.hmt:19.2015office3_1",
+    "comment": "οτ  αντ  εάσωμεν·",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol6577",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA251VN_0753@0.4415,0.3684,0.0568,0.0102"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:251v.19.8"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAim.hmt:19.2015office3_2",
+    "comment": "σημειοῦνται τινες ὅτι Δωρικὸν τὸ τύνη ⁑",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol6578",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA251VN_0753@0.4419,0.4117,0.0562,0.0437"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:251v.19.10"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAim.hmt:19.2015office3_3",
+    "comment": "ουτ  Ἀρισταρχ  ἄλλοι δὲ ἐξεφαἄνθη ⁑",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol6579",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA251VN_0753@0.4331,0.5323,0.0649,0.0648"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:251v.19.17"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAil.hmt:19.2015office3_1",
+    "comment": "εμπαθῶς ⁚",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol6571",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA251VN_0753@0.61,0.3032,0.0642,0.0089"
+    },
+    "references": []
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAil.hmt:19.2015office3_2",
+    "comment": "οις",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol6572",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA251VN_0753@0.6871,0.5276,0.0181,0.0067"
+    },
+    "references": []
+  },
+  {
     "urn": "urn:cts:greekLit:tlg5026.msA.hmt:19.2015office3_1",
     "lemma": "εὗρε δὲ Πατρόκλῳ πεκειμε",
     "dse": {

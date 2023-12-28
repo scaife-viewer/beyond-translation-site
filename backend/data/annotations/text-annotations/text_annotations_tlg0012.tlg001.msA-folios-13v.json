@@ -1,5 +1,214 @@
 [
   {
+    "urn": "urn:cts:greekLit:tlg5026.msAil.hmt:1.100",
+    "comment": "Αιολίς",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol435",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA013VN_0515@0.54384672,0.21189488,0.02726603,0.00885201"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:13v.1.76"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAil.hmt:1.143",
+    "comment": "Αιολικον",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol436",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA013VN_0515@0.77376566,0.21189488,0.03352985,0.01051176"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:13v.1.76"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAil.hmt:1.144",
+    "comment": "ορκικον ἐπίρρημα",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol437",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA013VN_0515@0.49852616,0.23734440,0.06779661,0.00885201"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:13v.1.77"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAil.hmt:1.145",
+    "comment": "προθύμως",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol438",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA013VN_0515@0.58806190,0.23679115,0.03279293,0.00829876"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:13v.1.77"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAil.hmt:1.149",
+    "comment": "ὄμνυμι γάρ σοι",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol439",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA013VN_0515@0.50773766,0.40885201,0.05747973,0.01023513"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:13v.1.86"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAil.hmt:1.150",
+    "comment": "ᾥτινι σὺ ὦ κάχαν ⁑",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol440",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA013VN_0515@0.72807664,0.40525588,0.07258659,0.00774550"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:13v.1.86"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAil.hmt:1.151",
+    "comment": "ὁρῶντος ἢ ὁρωμένου",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol441",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA013VN_0515@0.72733972,0.44370678,0.07958732,0.01106501"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:13v.1.88"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAil.hmt:1.153",
+    "comment": "ὑπερβολη ⁑",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol442",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA013VN_0515@0.71039057,0.48298755,0.04753132,0.01134163"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:13v.1.90"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAil.hmt:1.154",
+    "comment": "κατα πολύ",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol443",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA013VN_0515@0.54937362,0.50262794,0.04053058,0.00802213"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:13v.1.91"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAil.hmt:1.155",
+    "comment": "οὐκ απελύτρωσε",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol444",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA013VN_0515@0.55674282,0.58035961,0.05969049,0.00885201"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:13v.1.95"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAil.hmt:1.156",
+    "comment": "παύσει",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol445",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA013VN_0515@0.81024318,0.61327801,0.02063375,0.00691563"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:13v.1.97"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAil.hmt:1.157",
+    "comment": "παράλιψις",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol446",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA013VN_0515@0.67022845,0.65366528,0.04053058,0.00995851"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:13v.1.99"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAint.hmt:1.113",
+    "comment": "Ἀχαιῶν οὐκ ενι στρατῷ αι Αριστάρχου ὁμοιως ἡ Σωσιγένους καὶ Ἀριστοφάνους · καὶ ἡ Ζηνοδότου ⁑",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol352",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA013VN_0515@0.82608696,0.50650069,0.05526898,0.04204703"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:13v.1.91"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAint.hmt:1.114",
+    "comment": "βραχὺ διασταλτεον ἐπι τὸ εκατομβης καὶ αρητῆρος . κοινὸν δὲ τὸ ἕνεκα ουτε ευχωλῆς ουτε ἑκατόμβης ἕνεκα· ἀλλ αρητηρος ἕνεκα μεμφεται ⁑",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol353",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA013VN_0515@0.81798084,0.55850622,0.06558585,0.05449516"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:13v.1.94"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAint.hmt:1.115",
+    "comment": "Δαναοῖσιν ἀεικέα λοιγὸν απώσει οὕτως αι Αριστάρχου ⁑",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol354",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA013VN_0515@0.83087693,0.61991701,0.05379514,0.02295989"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:13v.1.97"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAim.hmt:1.109",
+    "comment": "ὅτι Ζηνόδοτος χωρὶς γράφει τὰ δε τοιαυτα ἐν σύγκριτα εχει ἐπι της ευ  τὸ ν ⁑",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol280",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA013VN_0515@0.40899042,0.29460581,0.06558585,0.05421853"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:13v.1.80"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAim.hmt:1.110",
+    "comment": "ὅτι Ζηνόδοτος γράφει φράσον · μᾶλλον δὲ τὸ φράσαι ἀρμόζει ⁑",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol281",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA013VN_0515@0.41525424,0.35546335,0.05969049,0.03845090"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:13v.1.83"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAim.hmt:1.111",
+    "comment": "διασταλτέον ἐπι το μα  ⁑",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol282",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA013VN_0515@0.41672808,0.39446750,0.05895357,0.02378976"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:13v.1.85"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAim.hmt:1.112",
+    "comment": "ὅτι ελλείπει τὸ περι καὶ περισσον τὸ ἐπιμέμφεται κατεκερμάτισεν δὲ τὸν Αγαμέμνονος λόγον εἰς διαβολήν ⁑",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol283",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA013VN_0515@0.41672808,0.54744122,0.06116433,0.05200553"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:13v.1.95"
+    ]
+  },
+  {
     "urn": "urn:cts:greekLit:tlg5026.msA.hmt:1.93",
     "lemma": "ἠ μέν μοι πρόφρων",
     "dse": {
@@ -7,7 +216,6 @@
       "image_roi": "urn:cite2:hmt:vaimg.2017a:VA013VN_0515@0.20449521,0.10843707,0.62380251,0.02793914"
     },
     "references": [
-      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:13v.1.77",
       "urn:cts:greekLit:tlg0012.tlg001.msA-folios:13v.1.78"
     ],
     "comment": "ἐπι μὲν τοῦ προτέρου βαρεῖαν παραληπτέον κατα τὴν ἄρχουσαν κεῖται γὰρ ἀντι τοῦ ἠμὴν ὅπερ ἐστιν ορκικὸν επίρρη  ὅπερ ὁ ποιητὴς ἀεὶ δια τοῦ ε προφερεται· ἡμὲν τοὺς ἵππους τὲ καὶ ἄρματα ἠμὲν εμοὶ δώσειν τὸ δὲ ἡ γᾶρ ὀΐομαι περισπωμένη τάσει ἀναγνωστέον διαβεβαιωτικὸς γὰρ ὁ συνδ  ⁑"
@@ -42,7 +250,10 @@
     "dse": {
       "urn": "urn:cite2:hmt:va_dse.v1:schol45",
       "image_roi": "urn:cite2:hmt:vaimg.2017a:VA013VN_0515@0.21702284,0.16459198,0.61680177,0.03015214"
-    }
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:13v.1.85"
+    ]
   },
   {
     "urn": "urn:cts:greekLit:tlg5026.msA.hmt:1.98",

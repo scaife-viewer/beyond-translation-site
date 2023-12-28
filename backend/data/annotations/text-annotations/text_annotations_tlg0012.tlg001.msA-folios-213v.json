@@ -1,5 +1,99 @@
 [
   {
+    "urn": "urn:cts:greekLit:tlg5026.msAext.hmt:16.213v1",
+    "comment": "ἀνεκυμ",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol7742",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA213VN_0715@0.1277,0.2779,0.05564,0.02282"
+    },
+    "references": []
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAext.hmt:16.213v2",
+    "comment": "περὶ αδικίας κριτῶν",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol7743",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA213VN_0715@0.1314,0.4447,0.05361,0.02517"
+    },
+    "references": []
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAint.hmt:16.213v1",
+    "comment": "ὅτι ἀντὶ τοῦ δίκας ⁑",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol7768",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA213VN_0715@0.8653,0.4176,0.04219,0.01093"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:213v.16.387"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAint.hmt:16.213v2",
+    "comment": "ὅτι ὡς περι ἄλλου ἑπήνεγκε ὁ δὲ Θέστορα τοῦ λόγου οντος περὶ τοῦ αυτοῦ ⁑",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol7769",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA213VN_0715@0.8510,0.6707,0.06503,0.04799"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:213v.16.401"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAim.hmt:16.213v1",
+    "comment": "ἐν αλλῳ ἄψορρον προτι άστυ ελιχθέντων ὑπ Ἀχαιῶν ⁑",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol7821",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA213VN_0715@0.4184,0.2228,0.05398,0.03333"
+    },
+    "references": []
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAim.hmt:16.213v2",
+    "comment": "ουτως Ἀρισταρχος ἄλλοι δὲ ἀνεκυμβαλίαζον",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol7822",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA213VN_0715@0.4184,0.2870,0.05232,0.03582"
+    },
+    "references": []
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAim.hmt:16.213v3",
+    "comment": "αἱ αποκλίσεις τῶν ὀρῶν ⁑",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol7823",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA213VN_0715@0.4234,0.4772,0.04937,0.02337"
+    },
+    "references": []
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAim.hmt:16.213v4",
+    "comment": "ἐν αλλῷ βάλε ποιμενα λαῶν",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol7824",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA213VN_0715@0.4217,0.6502,0.05269,0.02213"
+    },
+    "references": []
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAim.hmt:16.213v5",
+    "comment": "ότι ὡς περι αλλον επήνεγκεν ὁ δε Θέστορα τοῦ λόγου ὄντος περι τοῦ αὐτοῦ ⁑",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol7825",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA213VN_0715@0.4320,0.6881,0.08917,0.03389"
+    },
+    "references": []
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAil.hmt:16.213v1",
+    "comment": "ἐπι κεφαλήν ⁑",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol7789",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA213VN_0715@0.5748,0.5065,0.05232,0.006777"
+    },
+    "references": []
+  },
+  {
     "urn": "urn:cts:greekLit:tlg5026.msA.hmt:16.213v1",
     "lemma": "πρηνέες ἐξ οχέων~",
     "dse": {

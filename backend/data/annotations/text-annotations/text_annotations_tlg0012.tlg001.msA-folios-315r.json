@@ -1,5 +1,54 @@
 [
   {
+    "urn": "urn:cts:greekLit:tlg5026.msAext.hmt:24.3",
+    "comment": "ἔδρακον",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol7199",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA315RN_0485@0.837,0.5368,0.053,0.027"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:315r.24.223"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAim.hmt:24.7",
+    "comment": "κατέχοιμι εἰς τ  ἐσθίειν ⁑",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol7278",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA315RN_0485@0.602,0.3288,0.035,0.0405"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:315r.24.212"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAil.hmt:24.5",
+    "comment": "αντ  τοῦ οὕτως",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol7242",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA315RN_0485@0.443,0.2695,0.049,0.0113"
+    },
+    "references": []
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAil.hmt:24.6",
+    "comment": "ουτ  χωρὶς τοῦ ς",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol7243",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA315RN_0485@0.268,0.3821,0.076,0.0143"
+    },
+    "references": []
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAil.hmt:24.7",
+    "comment": "αποφυγῆς",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol7244",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA315RN_0485@0.529,0.4054,0.065,0.0113"
+    },
+    "references": []
+  },
+  {
     "urn": "urn:cts:greekLit:tlg5026.msA.hmt:24.8",
     "lemma": "υἱέας ἐξενάριξε :",
     "dse": {
@@ -115,7 +164,6 @@
       "image_roi": "urn:cite2:hmt:vaimg.2017a:VA315RN_0485@0.629,0.5968,0.174,0.0458"
     },
     "references": [
-      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:315r.24.223",
       "urn:cts:greekLit:tlg0012.tlg001.msA-folios:315r.24.224"
     ],
     "comment": "βραχὺ διασταλτ  μετα τὸν δέ τὸ γαρ ἑξῆς νῦν δέ  εἰμι ⁑"
@@ -128,7 +176,6 @@
       "image_roi": "urn:cite2:hmt:vaimg.2017a:VA315RN_0485@0.623,0.6239,0.179,0.0796"
     },
     "references": [
-      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:315r.24.224",
       "urn:cts:greekLit:tlg0012.tlg001.msA-folios:315r.24.225"
     ],
     "comment": "ἡ ὑποστιγμὴ ἀμφίβολος ἤτοι γὰρ μετα τὸ αῖσα ἵνα λειπ  τὸ ἐστιν ἠ μετα τὸ χαλκοχιτώνων ἵνα κοινῇ τὸ τεθνάμεναι καὶ κατ  τῶν ἑξῆς ⁑"
@@ -163,6 +210,9 @@
     "dse": {
       "urn": "urn:cite2:hmt:va_dse.v1:schol7389",
       "image_roi": "urn:cite2:hmt:vaimg.2017a:VA315RN_0485@0.184,0.7875,0.628,0.0443"
-    }
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:315r.24.231"
+    ]
   }
 ]

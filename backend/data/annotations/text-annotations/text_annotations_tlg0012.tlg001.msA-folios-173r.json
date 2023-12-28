@@ -1,5 +1,96 @@
 [
   {
+    "urn": "urn:cts:greekLit:tlg5026.msAext.hmt:13.6",
+    "comment": "βοῇ θοόν~",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol8504",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA173RN_0344@0.8182,0.5923,0.06817,0.01909"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:173r.13.477"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAint.hmt:13.10",
+    "comment": "Ἀριστ  τῳ ἐπὶ θυμῷ",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol8497",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA173RN_0344@0.1297,0.2582,0.06098,0.02683"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:173r.13.460"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAint.hmt:13.11",
+    "comment": "οτ  αντ  τοῦ ἐπαμύνωμεν :",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol8498",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA173RN_0344@0.1209,0.3534,0.06430,0.02448"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:173r.13.465"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAint.hmt:13.12",
+    "comment": "οτ  σαφῶς φόβος αντ  φυγῆ",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol8499",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA173RN_0344@0.1131,0.4355,0.06651,0.02863"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:173r.13.470"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAim.hmt:13.27",
+    "comment": "ουτ  σχεδὸν ἅπασαι~ ἐπαμύνωμεν ⁑",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol8496",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA173RN_0344@0.6162,0.3653,0.06282,0.04592"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:173r.13.465"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAil.hmt:13.6",
+    "comment": "ωργίζετο",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol8500",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA173RN_0344@0.4860,0.2578,0.04514,0.01674"
+    },
+    "references": []
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAil.hmt:13.7",
+    "comment": "ἐρήμω",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol8501",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA173RN_0344@0.2937,0.4985,0.03850,0.01328"
+    },
+    "references": []
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAil.hmt:13.8",
+    "comment": "διωξαι ⁑",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol8502",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA173RN_0344@0.2883,0.5369,0.03924,0.01397"
+    },
+    "references": []
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAil.hmt:13.9",
+    "comment": "καί μοι",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol8503",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA173RN_0344@0.3007,0.6491,0.03685,0.01189"
+    },
+    "references": []
+  },
+  {
     "urn": "urn:cts:greekLit:tlg5026.msA.hmt:13.49",
     "lemma": "βῆναι~ ἐπ Αἰνείαν :",
     "dse": {

@@ -1,5 +1,71 @@
 [
   {
+    "urn": "urn:cts:greekLit:tlg5026.msAext.hmt:15.10",
+    "comment": "Ποσειδά",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol5476",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA195RN_0366@0.809,0.2968,0.058,0.0225"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:195r.15.205"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAext.hmt:15.11",
+    "comment": "ενερτεροι",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol5477",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA195RN_0366@0.804,0.6807,0.067,0.024"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:195r.15.225"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAint.hmt:15.22",
+    "comment": "Ιωνικὴ γενικὴ παθοῦσα εἰ γὰρ ὑγιὴς ἔσται Ἐρμεὶέω ὡς Ἀτρείδεω·",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol5513",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA195RN_0366@0.106,0.4673,0.056,0.0533"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:195r.15.214"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAint.hmt:15.23",
+    "comment": "οτ  ἀφ εαυτοῦ ὁ Ζεὺς θάλασσαν δῖαν καλεῖ ⁑",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol5514",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA195RN_0366@0.094,0.6304,0.076,0.0421"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:195r.15.223"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAim.hmt:15.32",
+    "comment": "Ζηνoδ  δια τοῦ π εἴπῃ ⁑",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol5614",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA195RN_0366@0.591,0.3313,0.07,0.0301"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:195r.15.207"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAim.hmt:15.33",
+    "comment": "Ἀρισταρχ  νῦν μέν γε αλλοι δὲ νυν μέν κε",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol5615",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA195RN_0366@0.594,0.4095,0.078,0.0278"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:195r.15.211"
+    ]
+  },
+  {
     "urn": "urn:cts:greekLit:tlg5026.msA.hmt:15.67",
     "lemma": "‡ οἶσθ' ὡς πρεσβυτέροισιν·",
     "dse": {

@@ -1,5 +1,38 @@
 [
   {
+    "urn": "urn:cts:greekLit:tlg5026.msAint.hmt:5.3008",
+    "comment": "οτι τὰ δόρατα ήϊξαν ⁑",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol2458",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA075RN_0076@0.11495947,0.61549101,0.04310980,0.02392808"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:75r.5.657"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAim.hmt:5.3006",
+    "comment": "οτι τὸ οἷον ἐπι θαυμασμοῦ τινὲς δὲ ἀλλοῖον παρα τοὺς νῦν Ζηνοδ  δὲ καὶ και ἀμέτρως γράφει Ἡρακλείην ⁑",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol2393",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA075RN_0076@0.57258659,0.24177040,0.11422255,0.06639004"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:75r.5.638"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAim.hmt:5.3007",
+    "comment": "ὅτι θηλυκως την Ἴλιον ·",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol2394",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA075RN_0076@0.60869565,0.44716459,0.05766396,0.01134163"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:75r.5.648"
+    ]
+  },
+  {
     "urn": "urn:cts:greekLit:tlg5026.msA.hmt:5.3001",
     "lemma": "‡ἀλλ' οἶον τινὰ·",
     "dse": {

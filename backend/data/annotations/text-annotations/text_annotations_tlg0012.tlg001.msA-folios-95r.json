@@ -1,5 +1,71 @@
 [
   {
+    "urn": "urn:cts:greekLit:tlg5026.msAext.hmt:7.1056",
+    "comment": "τύχιο",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol2899",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA095RN_0267@0.8658,0.5861,0.0317,0.0157"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:95r.7.220"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAint.hmt:7.1053",
+    "comment": "πεφραστιχῶς  ἔριδεῖ ⁑",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol2896",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA095RN_0267@0.1225,0.377,0.0575,0.0313"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:95r.7.210"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAint.hmt:7.1054",
+    "comment": "ουτ  Ἀρισταρχ  βιβάς ⁑",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol2897",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA095RN_0267@0.1275,0.4383,0.0592,0.0401"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:95r.7.213"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAint.hmt:7.1055",
+    "comment": "ος οἱ",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol2898",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA095RN_0267@0.1,0.6143,0.03,0.0138"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:95r.7.222"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAim.hmt:7.1051",
+    "comment": "ἀντι τοῦ προσώπω",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol2894",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA095RN_0267@0.6292,0.4233,0.08,0.0169"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:95r.7.212"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAim.hmt:7.1052",
+    "comment": "Ἀρίσταρχος τὸν δὲ καὶ Ἀργεῖοι μὲν ἐγήθεον ⁑",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol2895",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA095RN_0267@0.6117,0.4577,0.0825,0.0451"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:95r.7.214"
+    ]
+  },
+  {
     "urn": "urn:cts:greekLit:tlg5026.msA.hmt:7.1049",
     "lemma": "‡ Ζεῦ πάτερ Ἴ̈δηθεν·",
     "dse": {

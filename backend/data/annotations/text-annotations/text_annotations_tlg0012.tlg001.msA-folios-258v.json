@@ -1,5 +1,27 @@
 [
   {
+    "urn": "urn:cts:greekLit:tlg5026.msAim.hmt:19.hc_3",
+    "comment": "ἐν άλλῳ αὐτῇ δ' αῦ ⁑",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol6593",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA258VN_0760@0.427,0.2915,0.061,0.0346"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:258v.19.355"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAim.hmt:19.hc_4",
+    "comment": "Αρισταρχ  τό τε καίεται ⁑",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol6594",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA258VN_0760@0.41,0.6762,0.081,0.0338"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:258v.19.376"
+    ]
+  },
+  {
     "urn": "urn:cts:greekLit:tlg5026.msA.hmt:19.hc_6",
     "lemma": "ὡς δ' ὅτε ταρφειαι·",
     "dse": {

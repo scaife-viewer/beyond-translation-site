@@ -1,5 +1,80 @@
 [
   {
+    "urn": "urn:cts:greekLit:tlg5026.msAext.hmt:15.19",
+    "comment": "έρκεϊ χαλ κ · έρκει χαλκειῳ",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol5485",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA202RN_0373@0.739,0.4876,0.121,0.0293"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:202r.15.567"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAint.hmt:15.41",
+    "comment": "οτ  θηλυκῶς τὴν Ἴλιον",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol5532",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA202RN_0373@0.113,0.3156,0.07,0.0263"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:202r.15.558"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAint.hmt:15.42",
+    "comment": "ὁ σύνδ  αντ  τοῦ εἴθε διοπερ οὐδὲ ὑποστιγμήν ⁑",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol5533",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA202RN_0373@0.091,0.5718,0.088,0.0376"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:202r.15.571"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAim.hmt:15.63",
+    "comment": "τὴν ψι συλλαβὴν ἐκτατέον διὰ  μέτρον ⁑",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol5645",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA202RN_0373@0.572,0.2389,0.081,0.0308"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:202r.15.554"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAim.hmt:15.64",
+    "comment": "Ἀρίσταρχος χωρὶς τοῦ δε αλλοι δε μετ  τοῦ δε αἰδομένω  δ' ἀνδρῶν ⁑",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol5646",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA202RN_0373@0.589,0.4192,0.096,0.0458"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:202r.15.563"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAim.hmt:15.65",
+    "comment": "οτ  το βαλεῖν προέμενον ἔστιν επιτυχεῖν ⁑",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol5647",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA202RN_0373@0.605,0.5702,0.082,0.0376"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:202r.15.571"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAil.hmt:15.31",
+    "comment": "ἀναιρεῖσθαι",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol5578",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA202RN_0373@0.433,0.3133,0.06,0.018"
+    },
+    "references": []
+  },
+  {
     "urn": "urn:cts:greekLit:tlg5026.msA.hmt:15.157",
     "lemma": "οὐχ ὁράας οῖον Δόλοπος περι τεῦχε ,",
     "dse": {

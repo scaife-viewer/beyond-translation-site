@@ -1,5 +1,125 @@
 [
   {
+    "urn": "urn:cts:greekLit:tlg5026.msAext.hmt:11.4",
+    "comment": "οῖσιν",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol4188",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA139RN_0311@0.8577,0.2414,0.0421,0.0173"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:139r.11.76"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAext.hmt:11.5",
+    "comment": "πῖπτε",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol4189",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA139RN_0311@0.8557,0.4075,0.0411,0.0218"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:139r.11.85"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAint.hmt:11.7",
+    "comment": "γράφεται οῖσιν",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol4201",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA139RN_0311@0.1242,0.2188,0.0551,0.0263"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:139r.11.76"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAim.hmt:11.9",
+    "comment": "τὰς οἰκείας",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol4509",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA139RN_0311@0.5691,0.497,0.0601,0.0173"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:139r.11.90"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAim.hmt:11.10",
+    "comment": "γράφεται εκ δ' Ἀγαμέμνων :",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol4510",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA139RN_0311@0.5942,0.5143,0.0591,0.0233"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:139r.11.91"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAim.hmt:11.11",
+    "comment": "Αρισταρχ  Βιάνωρα",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol4511",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA139RN_0311@0.6062,0.5361,0.0882,0.0165"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:139r.11.92"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAil.hmt:11.40",
+    "comment": "λαμπηδόνα",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol4248",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA139RN_0311@0.296,0.3536,0.059,0.015"
+    },
+    "references": []
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAil.hmt:11.43",
+    "comment": "κελεύοντες :",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol4249",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA139RN_0311@0.216,0.5053,0.059,0.0143"
+    },
+    "references": []
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAil.hmt:11.45",
+    "comment": "τὸ μεταξὺ τῶν ώτων τὸ μεσόφρυον",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol4250",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA139RN_0311@0.399,0.5856,0.133,0.0135"
+    },
+    "references": []
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAil.hmt:11.47",
+    "comment": "αντέσχε",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol4251",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA139RN_0311@0.42,0.6044,0.057,0.0143"
+    },
+    "references": []
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAil.hmt:11.49",
+    "comment": "ἐνεπέφυρτο ⁑",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol4252",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA139RN_0311@0.336,0.6426,0.082,0.0135"
+    },
+    "references": []
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAil.hmt:11.50",
+    "comment": "ἀφίλατο ⁑",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol4253",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA139RN_0311@0.474,0.6824,0.046,0.015"
+    },
+    "references": []
+  },
+  {
     "urn": "urn:cts:greekLit:tlg5026.msA.hmt:11.41",
     "lemma": "τῶν ἄλλων ἀπάνευθε ,",
     "dse": {

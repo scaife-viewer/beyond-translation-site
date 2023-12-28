@@ -1,5 +1,27 @@
 [
   {
+    "urn": "urn:cts:greekLit:tlg5026.msAim.hmt:2.418",
+    "comment": "ὅτι τὴν ἀπόφασιν δια τοῦ κ οὐ δια τοῦ χ ⁑",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol1521",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA029RN_0030@0.5153,0.1977,0.0473,0.0451"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:29r.2.238"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAim.hmt:2.419",
+    "comment": "ὅτι ἔθελε κατὰ συναλιφην ⁑",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol1522",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA029RN_0030@0.516,0.373,0.045,0.0413"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:29r.2.247"
+    ]
+  },
+  {
     "urn": "urn:cts:greekLit:tlg5026.msA.hmt:2.408",
     "lemma": "‡ὃς καὶ νῦν Ἀχιλῆα",
     "dse": {

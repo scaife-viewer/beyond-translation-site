@@ -1,5 +1,76 @@
 [
   {
+    "urn": "urn:cts:greekLit:tlg5026.msAint.hmt:16.217r1",
+    "comment": "οτι ἐλλείπει ἡ περι καὶ οτι τὸ χωόμενος ἀντι τοῦ συγχεόμενος ⁑",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol7776",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA217RN_0388@0.1188,0.2169,0.07627,0.03610"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:217r.16.553"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAint.hmt:16.217r2",
+    "comment": "ἐν τῇ Ριανοῦ ἀλλὰ μιν αεὶκισσάμεθ' ἑλόντες ⁑",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol7777",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA217RN_0388@0.1188,0.3297,0.05287,0.05118"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:217r.16.559"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAim.hmt:16.217r1",
+    "comment": "τὸ ἀμύνεσθαι ἐν αλλῶ μενος ἔστω",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol8113",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA217RN_0388@0.5276,0.2754,0.09746,0.02296"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:217r.16.556"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAim.hmt:16.217r2",
+    "comment": "λειπει φασὶν αἱ Αρισταρχου τό ευ αν έχοι ⁑",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol8114",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA217RN_0388@0.5831,0.3335,0.05785,0.03264"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:217r.16.559"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAil.hmt:16.217r1",
+    "comment": "βελτίονος",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol8110",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA217RN_0388@0.5520,0.2938,0.05103,0.01425"
+    },
+    "references": []
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAil.hmt:16.217r2",
+    "comment": "ἀορασίαν",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol8111",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA217RN_0388@0.5862,0.4809,0.04550,0.01743"
+    },
+    "references": []
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAil.hmt:16.217r3",
+    "comment": "πο Βοιοτίας",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol8112",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA217RN_0388@0.2867,0.5734,0.05269,0.01383"
+    },
+    "references": []
+  },
+  {
     "urn": "urn:cts:greekLit:tlg5026.msA.hmt:16.217r1",
     "lemma": "οἷοί περ πάρος ῆτε μετ' ἀνδράσι .",
     "dse": {

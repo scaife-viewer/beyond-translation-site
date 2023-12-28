@@ -1,5 +1,91 @@
 [
   {
+    "urn": "urn:cts:greekLit:tlg5026.msAint.hmt:17.33",
+    "comment": "τῆς ἐπ αγρῶ ἐπαύλεως ⁑",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol5901",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA236VN_0738@0.861,0.2735,0.082,0.0248"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:236v.17.657"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAint.hmt:17.34",
+    "comment": "οτ  ὁ και περισσος ἡ ὑφ εν κε κάμησι",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol5902",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA236VN_0738@0.884,0.2938,0.053,0.0436"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:236v.17.658"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAint.hmt:17.35",
+    "comment": "βεβλημε  διά λυπην",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol5903",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA236VN_0738@0.852,0.411,0.074,0.021"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:236v.17.664"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAint.hmt:17.36",
+    "comment": "προσηνείας ἀπεινὴς δὲ ἐναντίος",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol5904",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA236VN_0738@0.826,0.5207,0.093,0.0225"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:236v.17.670"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAint.hmt:17.37",
+    "comment": "οὐκ Αχιλλεὶ μόνω ⁑ ⁑",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol5905",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA236VN_0738@0.898,0.5387,0.038,0.0323"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:236v.17.671"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAim.hmt:17.47",
+    "comment": "τὸ λίπος τῆς πιμελῆς εκ παρεπομένου δὲ το ζῆν : ⁑",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol5990",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA236VN_0738@0.452,0.3163,0.055,0.0473"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:236v.17.659"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAim.hmt:17.48",
+    "comment": "ἐν ἄλλῳ τετιημένος ῆτορ : ⁑",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol5991",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA236VN_0738@0.444,0.4072,0.061,0.0391"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:236v.17.664"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAil.hmt:17.30",
+    "comment": "προενέσησαν προενέβαλον",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol5941",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA236VN_0738@0.576,0.5199,0.045,0.009"
+    },
+    "references": []
+  },
+  {
     "urn": "urn:cts:greekLit:tlg5026.msA.hmt:17.136",
     "lemma": "βῆ δ’ ϊέναι ὡς τίς τε λέων",
     "dse": {
@@ -7,13 +93,6 @@
       "image_roi": "urn:cite2:hmt:vaimg.2017a:VA236VN_0738@0.223,0.275,0.234,0.0736"
     },
     "references": [
-      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:236v.17.657",
-      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:236v.17.658",
-      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:236v.17.659",
-      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:236v.17.660",
-      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:236v.17.661",
-      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:236v.17.662",
-      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:236v.17.663",
       "urn:cts:greekLit:tlg0012.tlg001.msA-folios:236v.17.664"
     ],
     "comment": "πολλαὶ αἱ εἰκόνες κατα τοῦ ἥρωος πρῶτον γὰρ αὐτὸν εἴκασε δια τὴν φιλοστοργίαν βοΐ νῦν δὲ λέοντι ἀκούσιον ποιουμένῳ ἀποχώρησιν~ καὶ ἑξῆς δια τὴν οξυδορκίαν αετῷ παρέβαλεν αὐτόν ⁑"
@@ -24,7 +103,10 @@
     "dse": {
       "urn": "urn:cite2:hmt:va_dse.v1:schol6131",
       "image_roi": "urn:cite2:hmt:vaimg.2017a:VA236VN_0738@0.219,0.3426,0.238,0.0458"
-    }
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:236v.17.660"
+    ]
   },
   {
     "urn": "urn:cts:greekLit:tlg5026.msA.hmt:17.138",

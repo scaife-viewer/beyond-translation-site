@@ -1,5 +1,137 @@
 [
   {
+    "urn": "urn:cts:greekLit:tlg5026.msAext.hmt:15.4",
+    "comment": "Ποσειδα",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol5470",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA192RN_0363@0.816,0.2246,0.053,0.0248"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:192r.15.51"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAext.hmt:15.5",
+    "comment": "Ποσειδα",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol5471",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA192RN_0363@0.819,0.3381,0.061,0.0233"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:192r.15.57"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAext.hmt:15.6",
+    "comment": "ὀλέσαντ'",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol5472",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA192RN_0363@0.804,0.5071,0.07,0.024"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:192r.15.66"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAext.hmt:15.7",
+    "comment": "το Ϊλιον ουδτ",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol5473",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA192RN_0363@0.811,0.5898,0.079,0.0338"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:192r.15.71"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAint.hmt:15.8",
+    "comment": "ουτ  δια τοῦ γε ἐτεόν γε καὶ Ἀριστοφ  ⁑",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol5499",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA192RN_0363@0.113,0.2524,0.072,0.0361"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:192r.15.53"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAint.hmt:15.9",
+    "comment": "και παρὰ Ἀριστοφ  ἠθετοῦντ  ⁑",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol5500",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA192RN_0363@0.123,0.3043,0.072,0.0361"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:192r.15.77"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAint.hmt:15.10",
+    "comment": "οτ  ψεῦδος",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol5501",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA192RN_0363@0.116,0.4508,0.075,0.0248"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:192r.15.64"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAint.hmt:15.11",
+    "comment": "οτ  νῦν μόνως οὐδετέρως εἴρηται Ἴλιον ⁑",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol5502",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA192RN_0363@0.106,0.5838,0.075,0.0503"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:192r.15.71"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAim.hmt:15.8",
+    "comment": "εν αλλῳ κέλευσον",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol5590",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA192RN_0363@0.553,0.2765,0.055,0.0218"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:192r.15.54"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAim.hmt:15.9",
+    "comment": "οτ  οὐχ Ὁμηρικῶς ἡ παλίωξις ⁑",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol5591",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA192RN_0363@0.585,0.5582,0.097,0.0361"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:192r.15.69"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAim.hmt:15.10",
+    "comment": "Ἀρισταρχ  Ί̈λιον ἐκπέρσωσιν",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol5592",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA192RN_0363@0.574,0.6003,0.117,0.0203"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:192r.15.71"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAim.hmt:15.11",
+    "comment": "ουτ  Ἀρισταρχ  χω  τοῦ σ παύω",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol5593",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA192RN_0363@0.574,0.6198,0.117,0.0203"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:192r.15.72"
+    ]
+  },
+  {
     "urn": "urn:cts:greekLit:tlg5026.msA.hmt:15.25",
     "lemma": "αῖψα μεταστέψειε νόον·",
     "dse": {

@@ -1,5 +1,82 @@
 [
   {
+    "urn": "urn:cts:greekLit:tlg5026.msAext.hmt:13.3",
+    "comment": "κατα κρατερὴν",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol8481",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA171VN_0673@0.1301,0.2548,0.06632,0.01853"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:171v.13.383"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAext.hmt:13.4",
+    "comment": "ἦλθ' ἐπαμύντ",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol8482",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA171VN_0673@0.1330,0.2704,0.05527,0.01964"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:171v.13.384"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAint.hmt:13.6",
+    "comment": "γράφεται κατα κρατερὴν",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol8480",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA171VN_0673@0.9094,0.2389,0.03869,0.02531"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:171v.13.383"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAim.hmt:13.16",
+    "comment": "ουτ  ἀρισταρχ  έλκε ⁑",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol8476",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA171VN_0673@0.4274,0.2505,0.07388,0.02600"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:171v.13.383"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAim.hmt:13.17",
+    "comment": "ἀρισταρχ  ῆλθ' ἐπαμύντωρ ⁑",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol8477",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA171VN_0673@0.4243,0.2723,0.07517,0.02946"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:171v.13.384"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAim.hmt:13.18",
+    "comment": "ἀριστ  χω  τοῦ γ αὐτὰρ ὁ ασθμαίνων ⁑",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol8478",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA171VN_0673@0.4436,0.5550,0.06982,0.02586"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:171v.13.399"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAim.hmt:13.19",
+    "comment": "οτ  παρειτ  ἡ προθ  πε  Ασίου ⁑",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol8479",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA171VN_0673@0.4469,0.6369,0.06190,0.02337"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:171v.13.403"
+    ]
+  },
+  {
     "urn": "urn:cts:greekLit:tlg5026.msA.hmt:13.29",
     "lemma": "αμφιγάμω ἐπεὶ οὔ τοι",
     "dse": {

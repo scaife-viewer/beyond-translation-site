@@ -1,5 +1,65 @@
 [
   {
+    "urn": "urn:cts:greekLit:tlg5026.msAim.hmt:22.20",
+    "comment": "ἀντικατήλλασσον τῷ δρόμῳ ⁑",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol6864",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA285VN_0787@0.434,0.2147,0.063,0.045"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:285v.22.159"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAim.hmt:22.21",
+    "comment": "ὅτι ἐλλειπ  ἡ περὶ περι Έκτορος ⁑",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol6865",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA285VN_0787@0.402,0.4189,0.083,0.0541"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:285v.22.170"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAim.hmt:22.22",
+    "comment": "ὅτι ὑπερθετικως αντ  τοῦ ακροπο  ⁑",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol6866",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA285VN_0787@0.397,0.4617,0.1,0.0405"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:285v.22.172"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAil.hmt:22.24",
+    "comment": "οὐ θυμα οῦ βύρσαν",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol6821",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA285VN_0787@0.765,0.2087,0.102,0.0233"
+    },
+    "references": []
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAil.hmt:22.25",
+    "comment": "τάς καμπτήρας",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol6822",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA285VN_0787@0.745,0.2785,0.065,0.0165"
+    },
+    "references": []
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAil.hmt:22.26",
+    "comment": "τρέχωσι",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol6823",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA285VN_0787@0.629,0.2965,0.047,0.0165"
+    },
+    "references": []
+  },
+  {
     "urn": "urn:cts:greekLit:tlg5026.msA.hmt:22.45",
     "lemma": "ἀλλα περὶ ψυχῆς·",
     "dse": {

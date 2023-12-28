@@ -1,5 +1,47 @@
 [
   {
+    "urn": "urn:cts:greekLit:tlg5026.msAim.hmt:22.25",
+    "comment": "ὅτι αντ  ῥέξε",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol6869",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA287VN_0789@0.4182,0.2355,0.06172,0.01770"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:287v.22.259"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAim.hmt:22.26",
+    "comment": "ὅτι τὰ όρκια έσονται οὐκ έσσεται ⁑",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol6870",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA287VN_0789@0.4322,0.3762,0.04624,0.04385"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:287v.22.266"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAim.hmt:22.27",
+    "comment": "ἐν αλλῶ μείλινον ἔγχος ⁑",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol6871",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA287VN_0789@0.4261,0.5412,0.05398,0.04163"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:287v.22.275"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAil.hmt:22.33",
+    "comment": "αλιτήριε",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol6830",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA287VN_0789@0.6059,0.2674,0.03574,0.008575"
+    },
+    "references": []
+  },
+  {
     "urn": "urn:cts:greekLit:tlg5026.msA.hmt:22.64",
     "lemma": "δῴῃ καμμονίην :",
     "dse": {
@@ -31,8 +73,6 @@
       "image_roi": "urn:cite2:hmt:vaimg.2017a:VA287VN_0789@0.2301,0.3687,0.2074,0.06943"
     },
     "references": [
-      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:287v.22.262",
-      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:287v.22.263",
       "urn:cts:greekLit:tlg0012.tlg001.msA-folios:287v.22.264"
     ],
     "comment": "αἱ ὑποστιγμαὶ  πιστὰ   ἔχουσιν ,   ἀλλήλοισιν . ἡ γὰρ ἀνταπόδοσις ὡς οὐκ έστ' ἐμὲ καὶ σέ ⁑"

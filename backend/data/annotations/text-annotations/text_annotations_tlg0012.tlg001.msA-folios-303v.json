@@ -1,5 +1,82 @@
 [
   {
+    "urn": "urn:cts:greekLit:tlg5026.msAext.hmt:23.2310",
+    "comment": "ὤφελεν",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol7024",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA303VN_0805@0.141,0.5019,0.047,0.0188"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:303v.23.546"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAim.hmt:23.2304",
+    "comment": "εν αλλῳ ηδὲ κέλευον~",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol7092",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA303VN_0805@0.425,0.3696,0.076,0.0263"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:303v.23.539"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAim.hmt:23.2305",
+    "comment": "ἐν αλλῳ ἐπήνησαν γὰρ οἱ ἄλλοι",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol7093",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA303VN_0805@0.426,0.3944,0.076,0.0316"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:303v.23.540"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAim.hmt:23.2306",
+    "comment": "σημειοῦνται τινὲς ὅτι ἄντι μηνίσω",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol7094",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA303VN_0805@0.403,0.4485,0.094,0.0278"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:303v.23.543"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAim.hmt:23.2307",
+    "comment": "ὄτι ἄντι τοῦ έοικας",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol7095",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA303VN_0805@0.399,0.4711,0.094,0.0195"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:303v.23.544"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAim.hmt:23.2308",
+    "comment": "οὕτως διὰ τοῦ σ φίλος πᾶσαι εῖχον",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol7096",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA303VN_0805@0.419,0.5402,0.083,0.0376"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:303v.23.548"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAil.hmt:23.2309",
+    "comment": "ἔσχατος",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol7059",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA303VN_0805@0.507,0.299,0.054,0.0225"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:303v.23.536"
+    ]
+  },
+  {
     "urn": "urn:cts:greekLit:tlg5026.msA.hmt:23.2301",
     "lemma": "ἕλκων άρματα καλα~",
     "dse": {

@@ -1,5 +1,60 @@
 [
   {
+    "urn": "urn:cts:greekLit:tlg5026.msAext.hmt:7.2018",
+    "comment": "γὰρ σφῶϊ",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol2988",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA096VN_0599@0.1075,0.2786,0.0442,0.0238"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:96v.7.280"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAext.hmt:7.2017",
+    "comment": "πέρι θμοβ",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol2987",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA096VN_0599@0.1025,0.6807,0.06,0.0388"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:96v.7.301"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAim.hmt:7.2014",
+    "comment": "ἐν άλλω οὗτοι γαρ ·",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol2935",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA096VN_0599@0.4058,0.377,0.055,0.0288"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:96v.7.285"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAim.hmt:7.2015",
+    "comment": "εν αλλω νῦν μὲν παύσωμεν πόλεμον καὶ δηϊοτῆτα ⁑",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol2936",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA096VN_0599@0.4133,0.4678,0.0467,0.0576"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:96v.7.290"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAim.hmt:7.2016",
+    "comment": "οτ  ἀπο τοῦ λο  τοῦ κηρυκος μετενήνεκται ⁑",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol2937",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA096VN_0599@0.4133,0.5304,0.0475,0.0388"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:96v.7.293"
+    ]
+  },
+  {
     "urn": "urn:cts:greekLit:tlg5026.msA.hmt:7.2009",
     "lemma": "νύξ δ' ἤδη τελέθει·",
     "dse": {
@@ -31,7 +86,6 @@
       "image_roi": "urn:cite2:hmt:vaimg.2017a:VA096VN_0599@0.1892,0.4308,0.225,0.1209"
     },
     "references": [
-      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:96v.7.289",
       "urn:cts:greekLit:tlg0012.tlg001.msA-folios:96v.7.290"
     ],
     "comment": "Ἀρίσταρχος ὡς καλήν  καὶ ἐπεκράτησεν οὕτώς ἡ παράδοσις ὑποστικτέον πινυτὴν , ἵνα περισσὸς ὁ σύνδεσμος ᾖ . ἠ ὑποστικτέον καὶ κατα τὸ τελος τοῦ στίχου ἵνα γενηται ἀνταπόδοσις , αὕτη , νῦν μὲν παυσώμεσθα ⁑"

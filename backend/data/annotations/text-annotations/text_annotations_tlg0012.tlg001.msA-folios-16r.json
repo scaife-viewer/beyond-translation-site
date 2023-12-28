@@ -1,5 +1,214 @@
 [
   {
+    "urn": "urn:cts:greekLit:tlg5026.msAint.hmt:1.616",
+    "comment": "τὸ μιν Ϊώνων",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol367",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA016RN_0017@0.14738394,0.19695712,0.03647752,0.00912863"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:16r.1.201"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAint.hmt:1.618",
+    "comment": "τὸ δὲ β με  λόγου εισίν :",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol368",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA016RN_0017@0.13448784,0.40525588,0.03979366,0.02019364"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:16r.1.212"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAint.hmt:1.619",
+    "comment": "λέγεται χολην οὐκ έχειν ἐν τῶ ήπατι περικειμενην τὴν ελαφον ⁑",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol369",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA016RN_0017@0.10611643,0.65892116,0.06816507,0.07551867"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:16r.1.225"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAim.hmt:1.612",
+    "comment": "ὅτι χωρὶς τοῦ σ τὸ ἰδῇ οὕτως καὶ ἡ Αριστάρχου :",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol296",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA016RN_0017@0.48452469,0.23596127,0.08032424,0.02240664"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:16r.1.203"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAim.hmt:1.613",
+    "comment": "ὅτι ὀρθονητεον ΐνα ᾐ διασταλτικη :",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol297",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA016RN_0017@0.52652911,0.44757953,0.05084746,0.02517289"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:16r.1.214"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAim.hmt:1.614",
+    "comment": "πρὸς τὸ σχῆμα ὅτι οὐ κλύουσιν εἶπεν ἠ ακούσονται ⁑",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol298",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA016RN_0017@0.51731761,0.52752420,0.06374355,0.03679115"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:16r.1.218"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAim.hmt:1.615",
+    "comment": "βραχὺ διασταλτέον ἐπι τὸ Διος ⁑",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol299",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA016RN_0017@0.52100221,0.60470263,0.05526898,0.02655602"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:16r.1.222"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAil.hmt:1.630",
+    "comment": "παύου",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol505",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA016RN_0017@0.39277819,0.44398340,0.02910833,0.00774550"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:16r.1.214"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAil.hmt:1.631",
+    "comment": "πρέπει",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol506",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA016RN_0017@0.19970523,0.47883817,0.03021371,0.00802213"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:16r.1.216"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAil.hmt:1.632",
+    "comment": "ὑμέτερον",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol507",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA016RN_0017@0.29697863,0.47883817,0.02984525,0.01189488"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:16r.1.216"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAil.hmt:1.633",
+    "comment": "φυλάξαι",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol508",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA016RN_0017@0.46352248,0.48132780,0.03574060,0.01078838"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:16r.1.216"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAil.hmt:1.634",
+    "comment": "πλέον ἐπακουουσιν",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol509",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA016RN_0017@0.39609433,0.51977870,0.09064112,0.01051176"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:16r.1.218"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAil.hmt:1.635",
+    "comment": "λαβῇ ἐπέσχεν",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol510",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA016RN_0017@0.32571850,0.53775934,0.08327192,0.01078838"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:16r.1.219"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAil.hmt:1.636",
+    "comment": "πάλιν εἰς τὸ πίσω",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol511",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA016RN_0017@0.20044215,0.55352697,0.05711127,0.01106501"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:16r.1.220"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAil.hmt:1.638",
+    "comment": "ὅτι ἀντὶ επι",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol512",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA016RN_0017@0.35151069,0.59668050,0.03831982,0.01051176"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:16r.1.222"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAil.hmt:1.640",
+    "comment": "χαλεποῖς σκληροῖς",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol513",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA016RN_0017@0.36882830,0.61659751,0.07737657,0.01106501"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:16r.1.223"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAil.hmt:1.641",
+    "comment": "μέθυσε",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol514",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA016RN_0017@0.21370671,0.65338866,0.03389831,0.00802213"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:16r.1.225"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAil.hmt:1.642",
+    "comment": "ἀναιδέστατε",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol515",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA016RN_0017@0.28334562,0.65228216,0.05563744,0.01106501"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:16r.1.225"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAil.hmt:1.643",
+    "comment": "μετάθεσις :",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol516",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA016RN_0017@0.43957259,0.65560166,0.04458364,0.00829876"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:16r.1.225"
+    ]
+  },
+  {
     "urn": "urn:cts:greekLit:tlg5026.msA.hmt:1.594",
     "lemma": "αἰγιόχοιο",
     "dse": {
@@ -43,8 +252,6 @@
       "image_roi": "urn:cite2:hmt:vaimg.2017a:VA016RN_0017@0.18644068,0.12226833,0.61569639,0.02904564"
     },
     "references": [
-      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:16r.1.207",
-      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:16r.1.208",
       "urn:cts:greekLit:tlg0012.tlg001.msA-folios:16r.1.209"
     ],
     "comment": "ὅτι αμφοτέρους Ζηνοδοτος ἠθέτηκεν οἰκείως δὲ μᾶλλον κεῖνται εἰς προτροπὴν τοῦ Ἀχιλλεως · τὸ σφρίγγον δὲ τοῦ θυμοῦ μαλακοῖς ϊᾶται λόγοις ὄμως ἐκδειματοῖ καὶ τὸν ἐχθρὸν θεοφιλῆ εἶναι λέγουσα οὐ πᾶς δὲ ὁ φιλῶν κήδεται ὡς λύκος ἄρνα ⁑"
@@ -79,7 +286,10 @@
     "dse": {
       "urn": "urn:cite2:hmt:va_dse.v1:schol104",
       "image_roi": "urn:cite2:hmt:vaimg.2017a:VA016RN_0017@0.57479735,0.25006916,0.21702284,0.13112033"
-    }
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:16r.1.218"
+    ]
   },
   {
     "urn": "urn:cts:greekLit:tlg5026.msA.hmt:1.602",
@@ -101,7 +311,6 @@
       "image_roi": "urn:cite2:hmt:vaimg.2017a:VA016RN_0017@0.57369197,0.51424620,0.21112749,0.03734440"
     },
     "references": [
-      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:16r.1.219",
       "urn:cts:greekLit:tlg0012.tlg001.msA-folios:16r.1.220"
     ],
     "comment": "ὅτι Ζηνοδοτος μεταγράφει , ὡς εἰπὼν πάλιν ὦσε μέγα ξίφος οὐδ' ἀπίθησε καὶ τοὺς δύο ένα ἐποίησεν ⁑"
@@ -174,14 +383,6 @@
       "image_roi": "urn:cite2:hmt:vaimg.2017a:VA016RN_0017@0.15217391,0.82074689,0.63264554,0.04453665"
     },
     "references": [
-      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:16r.1.225",
-      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:16r.1.226",
-      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:16r.1.227",
-      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:16r.1.228",
-      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:16r.1.229",
-      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:16r.1.230",
-      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:16r.1.231",
-      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:16r.1.232",
       "urn:cts:greekLit:tlg0012.tlg001.msA-folios:16r.1.233"
     ],
     "comment": "ὅτι Ζηνοδοτος τοῦτον τὸν τόπον ἠθέτηκεν ἕως τοῦ ναὶ μα τὸδε σσκῆπτρον καθ εκαστην δὲ λοιδωριαν βραχὺ διασταλτέον ἐπὶ δὲ τὸ τέλος στικτεον· προσαγορευτικῆ γὰρ ἡ περίοδος· ἡ δ ἑξῆς περιοδικὴ ῥηματικὴ δι ὃ ἀπ' ἄλλης ἀρχῆς , ουτ' ἔποτ' ἐς πόλεμον οὔτε λόχον"

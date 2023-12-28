@@ -1,5 +1,71 @@
 [
   {
+    "urn": "urn:cts:greekLit:tlg5026.msAext.hmt:4.865",
+    "comment": "ἀμείνω·",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol2261",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA059RN_0060@0.79900516,0.51673582,0.04753132,0.01106501"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:59r.4.400"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAint.hmt:4.602",
+    "comment": "ουτ  Μαίων βαρυτόνως εἰς ἀποφυγην τοῦ εθνικου ⁑",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol2184",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA059RN_0060@0.13669860,0.38962656,0.06226971,0.04591978"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:59r.4.394"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAim.hmt:4.861",
+    "comment": "γράφεται Λυκοφοντης",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol2228",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA059RN_0060@0.60814296,0.40788382,0.04808401,0.01369295"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:59r.4.395"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAim.hmt:4.862",
+    "comment": "συν τῷ ν ἀμείνων Ἀρισταρχος ἵνα καθ εαυτὸ λέγηται ἐκπληκτικῶς ελλειπ  δὲ τὸ ἐστιν ρημα ⁑",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol2229",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA059RN_0060@0.61809138,0.50110650,0.07682388,0.06403873"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:59r.4.400"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAim.hmt:4.863",
+    "comment": "τὸ πλῆρες εστ  μὴ ψεύδεο ἀρκεῖ οὖν ἡ οξεῖα ⁑",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol2230",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA059RN_0060@0.62472366,0.57939142,0.05950626,0.04246196"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:59r.4.404"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAil.hmt:4.864",
+    "comment": "ὁ Σθένελος",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol2254",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA059RN_0060@0.35722181,0.55463347,0.03905674,0.01051176"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:59r.4.403"
+    ]
+  },
+  {
     "urn": "urn:cts:greekLit:tlg5026.msA.hmt:4.858",
     "lemma": "ἀγορῄ δέ τ' ἀμείνω·",
     "dse": {
@@ -17,7 +83,10 @@
     "dse": {
       "urn": "urn:cite2:hmt:va_dse.v1:schol2133",
       "image_roi": "urn:cite2:hmt:vaimg.2017a:VA059RN_0060@0.67299189,0.24066390,0.12546057,0.01369295"
-    }
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:59r.4.405"
+    ]
   },
   {
     "urn": "urn:cts:greekLit:tlg5026.msA.hmt:4.616",

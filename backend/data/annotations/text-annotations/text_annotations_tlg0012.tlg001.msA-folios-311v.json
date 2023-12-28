@@ -1,5 +1,126 @@
 [
   {
+    "urn": "urn:cts:greekLit:tlg5026.msAext.hmt:24.B1",
+    "comment": "γρ  ἥ οἱ κεχαρισμένα δῶρ' ὀνόμηνεν",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol7192",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA311VN_0813@0.147,0.2312,0.141,0.0188"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:311v.24.30"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAext.hmt:24.B2",
+    "comment": "ου νύ ποθ' ύμιν",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol7193",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA311VN_0813@0.128,0.2913,0.069,0.0158"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:311v.24.33"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAext.hmt:24.B3",
+    "comment": "πε  αἰδοῦς ·",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol7194",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA311VN_0813@0.127,0.497,0.067,0.0188"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:311v.24.44"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAext.hmt:24.B4",
+    "comment": "ἠὲ κασιγνη  ἠὲ",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol7195",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA311VN_0813@0.134,0.5495,0.07,0.0233"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:311v.24.47"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAext.hmt:24.B5",
+    "comment": "καὶ οδυρόμενος",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol7196",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA311VN_0813@0.139,0.5728,0.047,0.018"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:311v.24.48"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAint.hmt:24.B1",
+    "comment": "γρ  οὐ νύ ποθ' ὕμιν·",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol7210",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA311VN_0813@0.843,0.2965,0.046,0.0225"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:311v.24.33"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAint.hmt:24.B2",
+    "comment": "οτ  αντ  θυμου μενος ⁑",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol7211",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA311VN_0813@0.849,0.6854,0.045,0.0248"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:311v.24.54"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAim.hmt:24.B1",
+    "comment": "ουτ  δια του α ἡ παραλήγουσα κτερίσαιεν . ⁑",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol7265",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA311VN_0813@0.406,0.3874,0.068,0.0465"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:311v.24.38"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAim.hmt:24.B2",
+    "comment": "αντ  του έοικεν",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol7266",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA311VN_0813@0.425,0.5405,0.033,0.0315"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:311v.24.46"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAim.hmt:24.B3",
+    "comment": "Ἀρισταρχ  νεμεσσηθεῶμεν δια του θε ⁑",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol7267",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA311VN_0813@0.422,0.6719,0.052,0.0413"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:311v.24.53"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAil.hmt:24.B1",
+    "comment": "πεισθείς .",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol7236",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA311VN_0813@0.505,0.4752,0.043,0.0105"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:311v.24.43"
+    ]
+  },
+  {
     "urn": "urn:cts:greekLit:tlg5026.msA.hmt:24.B1",
     "lemma": "‡ τὴν δ' ᾔνησ , ὴ όι , πόρε :",
     "dse": {

@@ -1,5 +1,93 @@
 [
   {
+    "urn": "urn:cts:greekLit:tlg5026.msAext.hmt:7.318",
+    "comment": "ἀνήνασθαι",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol2989",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA092VN_0595@0.109,0.5642,0.055,0.0353"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:92v.7.93"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAext.hmt:7.319",
+    "comment": " ε στεναχιζετο",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol2990",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA092VN_0595@0.108,0.6033,0.071,0.0316"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:92v.7.95"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAint.hmt:7.315",
+    "comment": "οτ  θηλυκῶς τὴν Ἴλιον ⁑",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol2975",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA092VN_0595@0.832,0.3479,0.056,0.0361"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:92v.7.82"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAint.hmt:7.316",
+    "comment": "οτ  ὁ μέν αντ  τοῦ δε ὅ εστιν αντ  τοῦ δή ·",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol2976",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA092VN_0595@0.853,0.4711,0.047,0.0368"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:92v.7.89"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAim.hmt:7.311",
+    "comment": "οτ  αντ  τοῦ λαχεῖν ποιήσωσιν ἀναδιπλασιασμος λελαχωσι ⁑",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol2951",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA092VN_0595@0.397,0.3148,0.06,0.0766"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:92v.7.80"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAim.hmt:7.312",
+    "comment": "Αρισταρχ  δια τοῦ η κατατεθνῃῶτος ·",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol2952",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA092VN_0595@0.405,0.4891,0.062,0.0481"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:92v.7.89"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAim.hmt:7.313",
+    "comment": "ἔν τίσιν , νείκε ὀνειδίζων",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol2953",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA092VN_0595@0.416,0.6003,0.063,0.0391"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:92v.7.95"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAim.hmt:7.314",
+    "comment": "ἐκ δεινοῦ δεινά ἠ καὶ τῶν δεὶνῶν δεινότερα· τῶν δεινοτάτων . δεινή ἔστιν ἡ λώβη ⁑",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol2954",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA092VN_0595@0.413,0.6364,0.067,0.0781"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:92v.7.97"
+    ]
+  },
+  {
     "urn": "urn:cts:greekLit:tlg5026.msA.hmt:7.301",
     "lemma": "‡ ὧδε δὲ μυθέομαι·",
     "dse": {
@@ -31,7 +119,6 @@
       "image_roi": "urn:cite2:hmt:vaimg.2017a:VA092VN_0595@0.196,0.1415,0.6539,0.0443"
     },
     "references": [
-      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:92v.7.85",
       "urn:cts:greekLit:tlg0012.tlg001.msA-folios:92v.7.86"
     ],
     "comment": "διαστολαι Ἀχαιοί Ἑλλησπόντῳ καὶ κοινὸν κατα πάντων τὸ ὄφρα ἵνα ταρχύσωσι καὶ χέωσι καὶ εἴπῃ ποτε τις"
@@ -54,7 +141,10 @@
     "dse": {
       "urn": "urn:cite2:hmt:va_dse.v1:schol2947",
       "image_roi": "urn:cite2:hmt:vaimg.2017a:VA092VN_0595@0.183,0.1751,0.696,0.5838"
-    }
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:92v.7.86"
+    ]
   },
   {
     "urn": "urn:cts:greekLit:tlg5026.msA.hmt:7.307",

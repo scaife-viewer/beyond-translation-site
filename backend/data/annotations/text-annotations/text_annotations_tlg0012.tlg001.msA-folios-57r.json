@@ -1,5 +1,93 @@
 [
   {
+    "urn": "urn:cts:greekLit:tlg5026.msAext.hmt:4.840",
+    "comment": "κρατῆσας ἐπιβη μαχεται μῆ εξελαῦνειν σπουδαζειν οἱ δὲ ουτ  ὅς τις δ' αν φησὶ ἀποπεσῃ τοῦ ἰδιου αρματ",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol2259",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA057RN_0058@0.80747973,0.62005533,0.05361091,0.04771784"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:57r.4.307"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAext.hmt:4.841",
+    "comment": "πόλιας",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol2260",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA057RN_0058@0.78850405,0.68907331,0.05342668,0.01396957"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:57r.4.308"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAint.hmt:4.479",
+    "comment": "διασταλτέον ἐπι τὸ ὄχεσφι κοινὸν γὰρ τὸ στῆσε ⁑",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol2180",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA057RN_0058@0.12601326,0.45477178,0.06890199,0.03001383"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:57r.4.298"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAint.hmt:4.486",
+    "comment": "οτ  ἀπέστρεφε τὸν λόγον δια τω  ἑξῆς σχηματίσας ὡς ἂν αὐτὸς ὁ Νεστωρ εἴποι ⁑",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol2181",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA057RN_0058@0.12251290,0.55670816,0.06669123,0.05504841"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:57r.4.303"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAim.hmt:4.836",
+    "comment": "Ηρωδιανος δια τοῦ ε πολεας ⁑",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol2216",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA057RN_0058@0.61366986,0.68298755,0.03039794,0.01950207"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:57r.4.308"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAil.hmt:4.837",
+    "comment": "πέσοι",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol2248",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA057RN_0058@0.32792926,0.31078838,0.02560796,0.00788382"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:57r.4.289"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAil.hmt:4.838",
+    "comment": "γὰρ",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol2249",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA057RN_0058@0.50534267,0.53955740,0.01639646,0.00912863"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:57r.4.301"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAil.hmt:4.839",
+    "comment": "οἱ πάλαι",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol2250",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA057RN_0058@0.28684598,0.67012448,0.02726603,0.00774550"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:57r.4.308"
+    ]
+  },
+  {
     "urn": "urn:cts:greekLit:tlg5026.msA.hmt:4.469",
     "lemma": "ἡγήτορε·",
     "dse": {
@@ -43,8 +131,6 @@
       "image_roi": "urn:cite2:hmt:vaimg.2017a:VA057RN_0058@0.61790715,0.46514523,0.18975682,0.11092669"
     },
     "references": [
-      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:57r.4.297",
-      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:57r.4.298",
       "urn:cts:greekLit:tlg0012.tlg001.msA-folios:57r.4.299"
     ],
     "comment": "πρώτους εἰκὸς εἰρῆσθαι τοὺς ἐπι τοῦ δεξιοῦ κέρως ἑστώτας , ὅπιθεν δὲ τοὺς ἐπι τοῦ ἀριστεροῦ ὡς εἰκὸς μεταξὺ τετάχθαι τοὺς δειλούς· οὕτω γὰρ λόγον ἕξει τὸ ὄφρα καὶ οὐκ εθέλων τις ἀναγκαίῃ πολεμίζειν · ἐπὶ γὰρ μετώπου τάσσει τὴν φάλαγγα οὐ κατα βάθους , μεταξὺ δὲ δύο ἀνδρείων ἔνα κακὸν ἔβαλλεν ⁑"

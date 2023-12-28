@@ -1,5 +1,38 @@
 [
   {
+    "urn": "urn:cts:greekLit:tlg5026.msAint.hmt:2.703",
+    "comment": "Ἰακῶς τὸ ἐνέμοντο : Αρισταρχος ⁑",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol1609",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA037VN_0539@0.863,0.4936,0.0437,0.0466"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:37v.2.682"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAim.hmt:2.700",
+    "comment": "ἀθετειται ἡ δε αιτία προείρηται ⁑",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol1540",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA037VN_0539@0.429,0.2566,0.0433,0.0693"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:37v.2.669"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAim.hmt:2.701",
+    "comment": "ὅτι ελλείπει ἡ περὶ πρόθ",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol1541",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA037VN_0539@0.4393,0.6285,0.0483,0.0283"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:37v.2.689"
+    ]
+  },
+  {
     "urn": "urn:cts:greekLit:tlg5026.msA.hmt:2.688",
     "lemma": "‡τριχθὰ δὲ ᾤκηθεν",
     "dse": {
@@ -55,8 +88,6 @@
       "image_roi": "urn:cite2:hmt:vaimg.2017a:VA037VN_0539@0.191,0.2363,0.2417,0.0676"
     },
     "references": [
-      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:37v.2.673",
-      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:37v.2.674",
       "urn:cts:greekLit:tlg0012.tlg001.msA-folios:37v.2.675"
     ],
     "comment": "τρισὶ στίχοις παράκεινται διπλαὶ περιεστηγμέναι ὅτι ἐκ τῶν τριῶν τοὺς δύο ἡθέτηκε Ζηνόδοτος τὸν δὲ μέσον οὐδὲ ἔγραφεν τοῦ Ὁμήρου φιλοτιμουμένου ἐν πᾶσι τὸν Ἀχιλλέα προτεροῦντας στῆσαι ⁑"
@@ -93,10 +124,6 @@
       "image_roi": "urn:cite2:hmt:vaimg.2017a:VA037VN_0539@0.2083,0.419,0.235,0.1549"
     },
     "references": [
-      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:37v.2.681",
-      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:37v.2.682",
-      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:37v.2.683",
-      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:37v.2.684",
       "urn:cts:greekLit:tlg0012.tlg001.msA-folios:37v.2.685"
     ],
     "comment": "μακρόθεν ὑπακούεται τὸ ἕσπετε ἠ τὸ ἐρέω καὶ τὰ τοιαῦτα τοῖς αιτήμασιν ὑποπίπτει : στικτέον δὲ ἐπι τὸ ἔναιον ἵν' ᾗ τὸ ἐπιφερόμενον οἵ τ' Ἄλόν τε καὶ Ἀλόπην ἐνεμοντο τὸ γὰρ οἱ κατ επανάληψιν περισσεύει δύναται δὲ καὶ ὑποστίζεσθαι ἕκαστος στίχος ἕως τοῦ Ἀχαιοὶ κατα τέλος ἡ δε συνήθεια συνάπτουσα τὰ τοιαῦτα τοῖς ἐπάνω οὐ κατορθοῖ οὐ γὰρ μόνοι τὸ Πελασγικὸν Ἄργος κατοικοῦσιν οἱ ὑπ' Αχιλλεῖ τεταγμένοι τὸ δὲ τοὺς ἀντωνυμία ἐστι διὃ περισπασταῖον τὸ νῦν καὶ τὸ αὖ ⁑"
