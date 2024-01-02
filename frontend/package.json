@@ -18,7 +18,7 @@
     "@fortawesome/vue-fontawesome": "^2.0.0",
     "@scaife-viewer/common": "^0.6.0",
     "@scaife-viewer/reader-alignments-mode": "^0.6.0",
-    "@scaife-viewer/reader-commentaries-mode": "^0.6.0",
+    "@scaife-viewer/reader-commentaries-mode": "https://gitpkg.vercel.app/scaife-viewer/frontend/packages/reader-commentaries-mode?3187f7c29f6ae202f971cd0d0c471f38886161df",
     "@scaife-viewer/reader-dictionary-entries-mode": "^0.6.0",
     "@scaife-viewer/reader-grammatical-entries-mode": "^0.6.0",
     "@scaife-viewer/reader-image-mode": "^0.6.0",
@@ -28,9 +28,10 @@
     "@scaife-viewer/reader-syntax-trees-mode": "^0.6.0",
     "@scaife-viewer/reader-tei-fallback-mode": "^0.6.0",
     "@scaife-viewer/skeleton": "^0.6.0",
-    "@scaife-viewer/store": "^0.6.0",
+    "@scaife-viewer/store": "https://gitpkg.vercel.app/scaife-viewer/frontend/packages/store?3187f7c29f6ae202f971cd0d0c471f38886161df",
     "@scaife-viewer/widget-audio": "^0.6.0",
-    "@scaife-viewer/widget-commentary": "^0.6.0",
+    "@scaife-viewer/widget-commentary": "https://gitpkg.vercel.app/scaife-viewer/frontend/packages/widget-commentary?3187f7c29f6ae202f971cd0d0c471f38886161df",
+    "@scaife-viewer/widget-textual-notes": "https://gitpkg.vercel.app/scaife-viewer/frontend/packages/widget-textual-notes?3187f7c29f6ae202f971cd0d0c471f38886161df",
     "@scaife-viewer/widget-dictionary-entries": "^0.6.0",
     "@scaife-viewer/widget-display-mode": "^0.6.0",
     "@scaife-viewer/widget-embed": "^0.6.0",
@@ -45,7 +46,7 @@
     "@scaife-viewer/widget-passage-lemma-traversal": "^0.6.0",
     "@scaife-viewer/widget-passage-reference": "^0.6.0",
     "@scaife-viewer/widget-passage-siblings": "^0.6.0",
-    "@scaife-viewer/widget-reader": "^0.6.0",
+    "@scaife-viewer/widget-reader": "https://gitpkg.vercel.app/scaife-viewer/frontend/packages/widget-reader?3187f7c29f6ae202f971cd0d0c471f38886161df",
     "@scaife-viewer/widget-scholia": "^0.6.0",
     "@scaife-viewer/widget-text-size": "^0.6.0",
     "@scaife-viewer/widget-text-width": "^0.6.0",
@@ -97,5 +98,9 @@
   "browserslist": [
     "> 1%",
     "last 2 versions"
-  ]
+  ],
+  "resolutions": {
+    "@scaife-viewer/widget-reader": "https://gitpkg.vercel.app/scaife-viewer/frontend/packages/widget-reader?3187f7c29f6ae202f971cd0d0c471f38886161df",
+    "@scaife-viewer/store": "https://gitpkg.vercel.app/scaife-viewer/frontend/packages/store?3187f7c29f6ae202f971cd0d0c471f38886161df"
+  }
 }

@@ -1426,10 +1426,9 @@
     "@scaife-viewer/widget-attributions" "^0.6.0"
     graphql-tag "^2.10.3"
 
-"@scaife-viewer/reader-commentaries-mode@^0.6.0":
+"@scaife-viewer/reader-commentaries-mode@https://gitpkg.vercel.app/scaife-viewer/frontend/packages/reader-commentaries-mode?3187f7c29f6ae202f971cd0d0c471f38886161df":
   version "0.6.0"
-  resolved "https://registry.yarnpkg.com/@scaife-viewer/reader-commentaries-mode/-/reader-commentaries-mode-0.6.0.tgz#a3645b1ae0136f86477e6b4e47366cc452d285e3"
-  integrity sha512-27riPHcbjXUhN3cFu+BAOQza3ZADs3Qcvw7IG1Dj2flgtntUVqBL9vzXX3o8jo1N3cXLEycjVedZAwa6vJGerg==
+  resolved "https://gitpkg.vercel.app/scaife-viewer/frontend/packages/reader-commentaries-mode?3187f7c29f6ae202f971cd0d0c471f38886161df#abbb6e06b5be7e6db1bf7eaeb540652006e184a9"
   dependencies:
     "@scaife-viewer/common" "^0.6.0"
     "@scaife-viewer/store" "^0.6.0"
@@ -1542,10 +1541,9 @@
     "@scaife-viewer/store" "^0.6.0"
     portal-vue "^2.1.7"
 
-"@scaife-viewer/store@^0.6.0":
+"@scaife-viewer/store@^0.6.0", "@scaife-viewer/store@https://gitpkg.vercel.app/scaife-viewer/frontend/packages/store?3187f7c29f6ae202f971cd0d0c471f38886161df":
   version "0.6.0"
-  resolved "https://registry.yarnpkg.com/@scaife-viewer/store/-/store-0.6.0.tgz#ee939e07c8492d4fd26878dfc4aa745891500bbd"
-  integrity sha512-Jcu+P46n0hWVKyWd674X4hXNIoPh7EacJzgIrfMlTXJnEPZLqKHkO5qyeF3eukihcCazoqTumHZY2EPp8NeA4g==
+  resolved "https://gitpkg.vercel.app/scaife-viewer/frontend/packages/store?3187f7c29f6ae202f971cd0d0c471f38886161df#2d2d929195a7101893b2517a8576f014d6c11e0e"
   dependencies:
     "@scaife-viewer/common" "^0.6.0"
     graphql-tag "^2.10.3"
@@ -1577,10 +1575,9 @@
     "@scaife-viewer/store" "^0.6.0"
     graphql-tag "^2.10.3"
 
-"@scaife-viewer/widget-commentary@^0.6.0":
+"@scaife-viewer/widget-commentary@^0.6.0", "@scaife-viewer/widget-commentary@https://gitpkg.vercel.app/scaife-viewer/frontend/packages/widget-commentary?3187f7c29f6ae202f971cd0d0c471f38886161df":
   version "0.6.0"
-  resolved "https://registry.yarnpkg.com/@scaife-viewer/widget-commentary/-/widget-commentary-0.6.0.tgz#cc6d9b814ab5d486d5af70b4e719eb41354140a4"
-  integrity sha512-P7NvdAiCJ9i7uczdae3HtVLtgZ73Yi972RpA50/J3AjSlOX9H6DG6IrgeVDEVR7Ht2eAiBPdKZvwUIDRffffig==
+  resolved "https://gitpkg.vercel.app/scaife-viewer/frontend/packages/widget-commentary?3187f7c29f6ae202f971cd0d0c471f38886161df#59e5325e3b48eab11fc62a7064eee0a90b364936"
   dependencies:
     "@scaife-viewer/common" "^0.6.0"
     "@scaife-viewer/store" "^0.6.0"
@@ -1713,10 +1710,9 @@
     "@scaife-viewer/store" "^0.6.0"
     graphql-tag "^2.10.3"
 
-"@scaife-viewer/widget-reader@^0.6.0":
+"@scaife-viewer/widget-reader@^0.6.0", "@scaife-viewer/widget-reader@https://gitpkg.vercel.app/scaife-viewer/frontend/packages/widget-reader?3187f7c29f6ae202f971cd0d0c471f38886161df":
   version "0.6.0"
-  resolved "https://registry.yarnpkg.com/@scaife-viewer/widget-reader/-/widget-reader-0.6.0.tgz#3aeaf4b5431de66568e6f43b33ab761f04c22455"
-  integrity sha512-/XY/EA0CFU0XyHq5hgVZN3SIIHIG7bTP/8xWRalC63cRmQ4uVaYslshEtfBhCKNrGTd8Gv17DOh86/UHZbzBAA==
+  resolved "https://gitpkg.vercel.app/scaife-viewer/frontend/packages/widget-reader?3187f7c29f6ae202f971cd0d0c471f38886161df#1dd468b54bbb149a3284b5a25d4ace7f8ded8396"
   dependencies:
     "@scaife-viewer/common" "^0.6.0"
     "@scaife-viewer/store" "^0.6.0"
@@ -1746,6 +1742,15 @@
   integrity sha512-mEssZl1Rt2/RW+Fr8AYw23juVPpwBfvRb04ag/RHmBDlkMIBa0RXo21zPUVzcFKzs9OZS6C3bGOZ0/4hlBEgxw==
   dependencies:
     "@scaife-viewer/store" "^0.6.0"
+
+"@scaife-viewer/widget-textual-notes@https://gitpkg.vercel.app/scaife-viewer/frontend/packages/widget-textual-notes?3187f7c29f6ae202f971cd0d0c471f38886161df":
+  version "0.6.0"
+  resolved "https://gitpkg.vercel.app/scaife-viewer/frontend/packages/widget-textual-notes?3187f7c29f6ae202f971cd0d0c471f38886161df#99a4fe11bb756ce09f16b042a5b4b1707c2bb059"
+  dependencies:
+    "@scaife-viewer/common" "^0.6.0"
+    "@scaife-viewer/store" "^0.6.0"
+    "@scaife-viewer/widget-commentary" "^0.6.0"
+    graphql-tag "^2.12.6"
 
 "@scaife-viewer/widget-toc@^0.6.0":
   version "0.6.0"

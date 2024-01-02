@@ -9,6 +9,7 @@ import {
   DISPLAY_MODE_METRICAL,
   DISPLAY_MODE_DICTIONARY_ENTRIES,
   DISPLAY_MODE_COMMENTARIES,
+  DISPLAY_MODE_TEXTUAL_NOTES,
   DISPLAY_MODE_GRAMMATICAL_ENTRIES,
   DISPLAY_MODE_NAMED_ENTITIES,
   DISPLAY_MODE_SYNTAX_TREES,
@@ -87,11 +88,17 @@ Vue.use(SkeletonPlugin, {
       [DISPLAY_MODE_DICTIONARY_ENTRIES]: DictionaryEntriesModeReader,
       [DISPLAY_MODE_NAMED_ENTITIES]: NamedEntitiesModeReader,
       [DISPLAY_MODE_COMMENTARIES]: CommentariesModeReader,
+      [DISPLAY_MODE_TEXTUAL_NOTES]: CommentariesModeReader,
       [DISPLAY_MODE_ALIGNMENTS]: AlignmentsModeReader,
       [DISPLAY_MODE_SYNTAX_TREES]: SyntaxTreesModeReader,
     },
-    commentaryWidgetLabel: 'Textual Notes',
-    commentariesDisplayModeLabel: 'Textual Notes',
+    commentariesDisplayModeLabel: rootGetters => {
+      // FIXME: Hack for Thucydides
+      const passage = rootGetters['scaife/passage'];
+      return passage && passage.textGroup === 'tlg0003'
+        ? 'Commentaries'
+        : 'Textual Notes';
+    },
     pageTitle: title => (title ? `${siteLabel} | ${title}` : `${siteLabel}`),
   },
 });
