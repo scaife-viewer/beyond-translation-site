@@ -1,0 +1,16 @@
+label: orcid.org/0000-0001-5231-7171
+urn: urn:cite2:beyond-translation:text_annotation_collection.atlas_v1:amedsaid1831-hilleary
+source:
+  title: orcid.org/0000-0001-5231-7171
+  url: https://orcid.org/0000-0001-5231-7171
+metadata:
+  # TODO: refactor with attributions
+  attributions:
+    - name: Joseph Hilleary
+      role: Annotator
+      organization:
+        name: "Tufts University"
+values: ../data/annotations/syntax-trees/amedsaid1831.dw042.perseus-eng1.json
+fields:
+  gloss: false
+  morph: true

@@ -118,6 +118,101 @@ def process_alignments(reset=False):
     print(f"Alignments created: {created_count}")
 
 
+def load_boano_metadata(reset=False):
+    path = (
+        Path(settings.SV_ATLAS_DATA_DIR)
+        / "annotations/syntax-trees/bellum-boano/metadata.yml"
+    )
+    data = yaml.safe_load(path.read_text())
+    collection_urn = data["urn"]
+
+    # TODO: Reset is a no-op
+    collection_urn = (
+        "urn:cite2:beyond-translation:text_annotation_collection.atlas_v1:bellum_boano"
+    )
+    if reset:
+        TextAnnotation.objects.filter(collection__urn=collection_urn).update(
+            collection=None
+        )
+        TextAnnotationCollection.objects.filter(urn=collection_urn).delete()
+
+    tas = TextAnnotation.objects.filter(
+        urn__istartswith="urn:cite2:scaife-viewer:syntaxTree.v1:syntaxTree-phi0428-phi001-dll-ed-lat1"
+    )
+    collection = TextAnnotationCollection.objects.create(
+        label="orcid.org/0009-0003-2791-1365",
+        data={
+            "source": data["source"],
+            "fields": data["fields"],
+        },
+        urn=collection_urn,
+    )
+    tas.update(collection=collection)
+
+    attribution_records = []
+    for record in data.get("metadata", {}).get("attributions", []):
+        person, _ = AttributionPerson.objects.get_or_create(name=record["name"])
+        organization_data = record.get("organization")
+        if organization_data:
+            organization, _ = AttributionOrganization.objects.get_or_create(
+                name=organization_data["name"]
+            )
+        attribution_records.append(
+            AttributionRecord(
+                person=person,
+                organization=organization,
+                role="Annotator",
+                data=dict(references=[list(tas.values_list("urn"))]),
+            )
+        )
+    AttributionRecord.objects.bulk_create(attribution_records)
+
+
+def load_hilleary_metadata(reset=False):
+    path = (
+        Path(settings.SV_ATLAS_DATA_DIR)
+        / "annotations/syntax-trees/amedsaid1831-hilleary/metadata.yml"
+    )
+    data = yaml.safe_load(path.read_text())
+    collection_urn = data["urn"]
+    if reset:
+        TextAnnotation.objects.filter(collection__urn=collection_urn).update(
+            collection=None
+        )
+        TextAnnotationCollection.objects.filter(urn=collection_urn).delete()
+
+    tas = TextAnnotation.objects.filter(
+        urn__istartswith="urn:cite2:scaife-viewer:syntaxTree.v1:syntaxTree-amedsaid1831-dw042-perseus-eng1"
+    )
+    collection = TextAnnotationCollection.objects.create(
+        label=data["label"],
+        data={
+            "source": data["source"],
+            "fields": data["fields"],
+        },
+        urn=collection_urn,
+    )
+    tas.update(collection=collection)
+
+    attribution_records = []
+    for record in data.get("metadata", {}).get("attributions", []):
+        person, _ = AttributionPerson.objects.get_or_create(name=record["name"])
+        organization_data = record.get("organization")
+        if organization_data:
+            organization, _ = AttributionOrganization.objects.get_or_create(
+                name=organization_data["name"]
+            )
+        attribution_records.append(
+            AttributionRecord(
+                person=person,
+                organization=organization,
+                role="Annotator",
+                data=dict(references=[list(tas.values_list("urn"))]),
+            )
+        )
+    AttributionRecord.objects.bulk_create(attribution_records)
+
+
 def set_text_annotation_collection(reset=False):
     # TODO: Reset is a no-op
     collection_urn = "urn:cite2:beyond-translation:text_annotation_collection.atlas_v1:il_gregorycrane_gAGDT"

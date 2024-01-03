@@ -12,6 +12,8 @@ OVERRIDES = {
     / "gio_grc_tokens.csv",
     "urn:cts:greekLit:tlg2022.tlg007.gio-eng1:": OVERRIDES_DATA_PATH
     / "gio_eng_tokens.csv",
+    "urn:cts:arabicLit:amedsaid1831.dw042.perseus-ara1:": OVERRIDES_DATA_PATH
+    / "amedsaid1831.dw042.perseus-ara1.csv",
 }
 
 

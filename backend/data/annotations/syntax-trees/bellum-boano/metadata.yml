@@ -1,0 +1,18 @@
+label: orcid.org/0009-0003-2791-1365
+urn: urn:cite2:beyond-translation:text_annotation_collection.atlas_v1:bellum_boano
+source:
+  title: orcid.org/0009-0003-2791-1365
+  url: https://orcid.org/0009-0003-2791-1365
+metadata:
+  # TODO: refactor with attributions
+  attributions:
+    - name: Valeria Irene Boano
+      role: Annotator
+      organization:
+        name: "Università Cattolica del Sacro Cuore: Milan, Lombardy, IT"
+# TODO: formalize this declaration
+fields:
+  gloss: false
+  morph: true
+# TODO: refactor so that values are local to this directory
+values: ../data/annotations/syntax-trees/bellum-boano/phi0428.phi001.dll-ed-lat1.json

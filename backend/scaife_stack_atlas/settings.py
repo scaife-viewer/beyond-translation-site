@@ -216,6 +216,8 @@ SV_ATLAS_INGESTION_PIPELINE = [
     "scaife_stack_atlas.temp.add_anabasis_glosses_to_trees",
     "scaife_stack_atlas.temp.ingest_balex_extras",
     "scaife_stack_atlas.temp.update_balex_metadata",
+    "scaife_stack_atlas.temp.load_boano_metadata",
+    "scaife_stack_atlas.temp.load_hilleary_metadata",
     "scaife_stack_atlas.temp.add_cgl_css",
 ]
 DB_DATA_PATH = os.environ.get("DB_DATA_PATH", PROJECT_ROOT)
