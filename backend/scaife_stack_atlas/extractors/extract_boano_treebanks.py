@@ -25,6 +25,7 @@ def main():
 
     for r in tqdm.tqdm(data):
         needle = r.metadata["text"]
+        # NOTE: This may require manual corrections
         result = process.extractOne(needle, ref_to_text)
         if result:
             r.metadata["references"] = "|".join([f"{VERSION_URN}{result[-1]}"])
