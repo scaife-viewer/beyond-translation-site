@@ -1,0 +1,515 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+        <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta http-equiv="content-type" content="text/html; charset=utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="keywords" content="Alignment, Translation, Dynamic lexicon, translation pairs, alignment editor, translation alignment editor, ancient languages, ancient greek, lexicon, ugarit">
+    <meta name="description" content="Ugarit is a Translation alignment editor enables users to align their texts manually at sentence and word levels">
+    <meta name="author" content="Tariq Yousef. tariq@informatik.uni-leipzig.de">
+    <title> UGARIT - Translation Alignment Editor ::: Alexander von Humboldt Lehrstuhl für Digital Humanities - Univerity Of Leipzig</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+    <script src="js/html2canvas.min.js"></script>
+    <script src="js/embed.js"></script>
+    <link href="css/style.css" rel="stylesheet">
+
+</head>
+<body>
+    <div class="mainContainer">
+        <!-- Wrapper Class for Responsive Footer -->
+        <div class="wrapper left" style=" margin:auto">
+            <!-- navbar -->
+            
+<!-- navbar -->
+<nav class="navbar navbar-default" style="border-radius: 5px 5px 0px 0px">
+  <div class="container-fluid">
+    <div>
+      <ul class="nav navbar-nav">
+          <li><a class="navbar-brand" style="padding-top: 10px" href="index.php"><img src="images/logo.png" width="120"></a></li>
+          <li><a href="index.php"><i class="glyphicon glyphicon-home"></i>  Home</a></li>
+          <!--<li><a href="tvtest.php"><i class="fa fa-th-list"></i>  Test your Translation Vocabulary<span style="color: red; font-size: 10px">(<b>New</b>)</span></a> </li> -->
+                    <li><a href="bib.php">Bibliography</a></li>
+          <li><a href="guidelines.php">Alignment Guidelines</a></li>
+          <li><a href="howto.php">How To</a></li>
+          <li><a href="about.php">About</a></li>
+
+
+          
+
+       <!--
+        <li><a href="#" ><i class="glyphicon glyphicon-tag"></i> Entities</a></li>       
+        -->
+        <li><a href="#" > </a></li>
+        <li><a href="#" > </a></li> 
+        <li><a href="#" > </a></li>                 
+  
+      </ul>
+                <ul class="nav navbar-nav navbar-right">
+            <li ><a href="signup.php"><i class="glyphicon glyphicon-user" aria-hidden="true"></i> New Account</a></li>
+            <li ><a href="login.php"><i class="fa fa-sign-in" aria-hidden="true"></i> Log in</a></li>
+            </ul>
+
+            </div>
+
+  </div>
+</nav>    
+
+            <div class="row" style=" margin:auto; width: 98%">
+                <div class="col-md-12"  style="margin: 4px">
+                    <button type="button" class="btn btn-default" data-toggle="modal" data-target="#embedModal" onclick="buildEmbedLink()">
+                        Embed
+                    </button>
+                    <button type="button" class="btn btn-default" data-toggle="modal" data-target="#translationPairsModal">
+                        Show Translation Pairs
+                    </button>
+                    <button type="button" class="btn btn-default" data-toggle="modal" data-target="#translationPairsStatModal" onclick="drawTranslationPairsBarChart()">
+                        Alignment Statistics
+                    </button>
+                    <button type="button" class="hidden btn btn-default" data-toggle="modal" data-target="#alignmentGeometryModal">
+                        Alignment Geometry
+                    </button>
+                </div>
+                <div class="col-md-12" >
+                    <div class='ParallelSentence' style='border: 1px solid #EEE; border-radius: 5px; padding:10px;margin:5px;'><span id='Block38591'    class="fa fa-minus-square" aria-hidden="true"></span><span id='Block38591_2'  class="fa fa-plus-square" aria-hidden="true" style='display: none'></span><h4> <i class="fa fa-file-text-o" aria-hidden="true"></i> <a href='text.php?id=38591'>381</a></h4><h5><a href='userProfile.php?userid=143818'>Valeria Irene Boano</a> / <a href='userProfile.php?userid=143818&tgid=14779'>De Bello Alexandrino</a></h5>        <div class='row'><ul class='userinfo'><li><i class="fa fa-calendar" aria-hidden="true"></i>  Created on 2023-07-31 16:54:26</li><li><i class="fa fa-calendar" aria-hidden="true"></i> Modified on 2023-12-21 17:43:12</li><li> <i class="fa fa-user" aria-hidden="true"></i> Aligned by <a href='userProfile.php?userid=143818'><b>Valeria Irene Boano</b></a></li></ul></div><div class='alignmentBlock' id='alignmentBlock38591' style='display: block'><div class='row'>
+                    <div class='col-md-6' style=' direction: ltr;'><span class="badge" style='background-color:#ff944d;'>Latin</span>  </div>
+                    <div class='col-md-6' style=' direction: ltr;'><span class="badge" style='background-color:#993333;'>English</span>  </div>
+                </div><div class='row'>
+                    <div class='col-md-6 userinfo'></div>
+                    <div class='col-md-6 userinfo'></div>
+                  </div>
+                  <div class='row'>
+                    <div class='col-md-6'  style='direction: ltr; ' id='styledText_38591_1'><a href='wordinfo.php?w=Ex&lang=LAT' style='text-decoration: none' ><span id='token_1_38591_1-1' class='aligned' 
+                  data-ref='sen_38591_sen_1' >Ex</span></a> <a href='wordinfo.php?w=contione&lang=LAT' style='text-decoration: none' ><span id='token_1_38591_1-2' class='aligned' 
+                  data-ref='sen_38591_sen_2' >contione</span></a> <a href='wordinfo.php?w=se&lang=LAT' style='text-decoration: none' ><span id='token_1_38591_1-3' class='aligned' 
+                  data-ref='sen_38591_sen_3' >se</span></a> <a href='wordinfo.php?w=Cordubam&lang=LAT' style='text-decoration: none' ><span id='token_1_38591_1-4' class='aligned' 
+                  data-ref='sen_38591_sen_4' >Cordubam</span></a> <a href='wordinfo.php?w=recepit&lang=LAT' style='text-decoration: none' ><span id='token_1_38591_1-5' class='aligned' 
+                  data-ref='sen_38591_sen_3' >recepit</span></a> <a href='wordinfo.php?w=eoque&lang=LAT' style='text-decoration: none' ><span id='token_1_38591_1-6' class='aligned' 
+                  data-ref='sen_38591_sen_6' >eoque</span></a> <a href='wordinfo.php?w=ipso&lang=LAT' style='text-decoration: none' ><span id='token_1_38591_1-7' class='aligned' 
+                  data-ref='sen_38591_sen_6' >ipso</span></a> <a href='wordinfo.php?w=die&lang=LAT' style='text-decoration: none' ><span id='token_1_38591_1-8' class='aligned' 
+                  data-ref='sen_38591_sen_5' >die</span></a> <a href='wordinfo.php?w=tempore&lang=LAT' style='text-decoration: none' ><span id='token_1_38591_1-9' class='aligned' 
+                  data-ref='sen_38591_sen_7' >tempore</span></a> <a href='wordinfo.php?w=postmeridiano&lang=LAT' style='text-decoration: none' ><span id='token_1_38591_1-10' class='aligned' 
+                  data-ref='sen_38591_sen_7' >postmeridiano</span></a> <a href='wordinfo.php?w=cum&lang=LAT' style='text-decoration: none' ><span id='token_1_38591_1-11' class='aligned' 
+                  data-ref='sen_38591_sen_8' >cum</span></a> <a href='wordinfo.php?w=in&lang=LAT' style='text-decoration: none' ><span id='token_1_38591_1-12' class='aligned' 
+                  data-ref='sen_38591_sen_10' >in</span></a> <a href='wordinfo.php?w=basilicam&lang=LAT' style='text-decoration: none' ><span id='token_1_38591_1-13' class='aligned' 
+                  data-ref='sen_38591_sen_11' >basilicam</span></a> <a href='wordinfo.php?w=iret&lang=LAT' style='text-decoration: none' ><span id='token_1_38591_1-14' class='aligned' 
+                  data-ref='sen_38591_sen_9' >iret</span></a> <a href='wordinfo.php?w=quidam&lang=LAT' style='text-decoration: none' ><span id='token_1_38591_1-15' class='aligned' 
+                  data-ref='sen_38591_sen_12' >quidam</span></a> <a href='wordinfo.php?w=Minucius&lang=LAT' style='text-decoration: none' ><span id='token_1_38591_1-16' class='aligned' 
+                  data-ref='sen_38591_sen_13' >Minucius</span></a> <a href='wordinfo.php?w=Silo&lang=LAT' style='text-decoration: none' ><span id='token_1_38591_1-17' class='aligned' 
+                  data-ref='sen_38591_sen_14' >Silo</span></a> <a href='wordinfo.php?w=,&lang=LAT' style='text-decoration: none' ><span id='token_1_38591_1-18' class='notAligned' 
+                  data-ref='notAligned' >,</span></a> <a href='wordinfo.php?w=cliens&lang=LAT' style='text-decoration: none' ><span id='token_1_38591_1-19' class='aligned' 
+                  data-ref='sen_38591_sen_15' >cliens</span></a> <a href='wordinfo.php?w=L.&lang=LAT' style='text-decoration: none' ><span id='token_1_38591_1-20' class='aligned' 
+                  data-ref='sen_38591_sen_16' >L.</span></a> <a href='wordinfo.php?w=Racili&lang=LAT' style='text-decoration: none' ><span id='token_1_38591_1-21' class='aligned' 
+                  data-ref='sen_38591_sen_17' >Racili</span></a> <a href='wordinfo.php?w=,&lang=LAT' style='text-decoration: none' ><span id='token_1_38591_1-22' class='notAligned' 
+                  data-ref='notAligned' >,</span></a> <a href='wordinfo.php?w=libellum&lang=LAT' style='text-decoration: none' ><span id='token_1_38591_1-23' class='aligned' 
+                  data-ref='sen_38591_sen_20' >libellum</span></a> <a href='wordinfo.php?w=quasi&lang=LAT' style='text-decoration: none' ><span id='token_1_38591_1-24' class='aligned' 
+                  data-ref='sen_38591_sen_21' >quasi</span></a> <a href='wordinfo.php?w=aliquid&lang=LAT' style='text-decoration: none' ><span id='token_1_38591_1-25' class='aligned' 
+                  data-ref='sen_38591_sen_23' >aliquid</span></a> <a href='wordinfo.php?w=ab&lang=LAT' style='text-decoration: none' ><span id='token_1_38591_1-26' class='aligned' 
+                  data-ref='sen_38591_sen_24' >ab</span></a> <a href='wordinfo.php?w=eo&lang=LAT' style='text-decoration: none' ><span id='token_1_38591_1-27' class='aligned' 
+                  data-ref='sen_38591_sen_25' >eo</span></a> <a href='wordinfo.php?w=postularet&lang=LAT' style='text-decoration: none' ><span id='token_1_38591_1-28' class='aligned' 
+                  data-ref='sen_38591_sen_22' >postularet</span></a> <a href='wordinfo.php?w=ut&lang=LAT' style='text-decoration: none' ><span id='token_1_38591_1-29' class='aligned' 
+                  data-ref='sen_38591_sen_26' >ut</span></a> <a href='wordinfo.php?w=miles&lang=LAT' style='text-decoration: none' ><span id='token_1_38591_1-30' class='aligned' 
+                  data-ref='sen_38591_sen_27' >miles</span></a> <a href='wordinfo.php?w=ei&lang=LAT' style='text-decoration: none' ><span id='token_1_38591_1-31' class='aligned' 
+                  data-ref='sen_38591_sen_19' >ei</span></a> <a href='wordinfo.php?w=tradit&lang=LAT' style='text-decoration: none' ><span id='token_1_38591_1-32' class='aligned' 
+                  data-ref='sen_38591_sen_18' >tradit</span></a> <a href='wordinfo.php?w=,&lang=LAT' style='text-decoration: none' ><span id='token_1_38591_1-33' class='notAligned' 
+                  data-ref='notAligned' >,</span></a> <a href='wordinfo.php?w=deinde&lang=LAT' style='text-decoration: none' ><span id='token_1_38591_1-34' class='aligned' 
+                  data-ref='sen_38591_sen_28' >deinde</span></a> <a href='wordinfo.php?w=,&lang=LAT' style='text-decoration: none' ><span id='token_1_38591_1-35' class='notAligned' 
+                  data-ref='notAligned' >,</span></a> <a href='wordinfo.php?w=post&lang=LAT' style='text-decoration: none' ><span id='token_1_38591_1-36' class='aligned' 
+                  data-ref='sen_38591_sen_29' >post</span></a> <a href='wordinfo.php?w=Racilium&lang=LAT' style='text-decoration: none' ><span id='token_1_38591_1-37' class='aligned' 
+                  data-ref='sen_38591_sen_30' >Racilium</span></a> <a href='wordinfo.php?w=—&lang=LAT' style='text-decoration: none' ><span id='token_1_38591_1-38' class='notAligned' 
+                  data-ref='notAligned' >—</span></a> <a href='wordinfo.php?w=nam&lang=LAT' style='text-decoration: none' ><span id='token_1_38591_1-39' class='aligned' 
+                  data-ref='sen_38591_sen_31' >nam</span></a> <a href='wordinfo.php?w=is&lang=LAT' style='text-decoration: none' ><span id='token_1_38591_1-40' class='aligned' 
+                  data-ref='sen_38591_sen_32' >is</span></a> <a href='wordinfo.php?w=latus&lang=LAT' style='text-decoration: none' ><span id='token_1_38591_1-41' class='aligned' 
+                  data-ref='sen_38591_sen_34' >latus</span></a> <a href='wordinfo.php?w=Cassi&lang=LAT' style='text-decoration: none' ><span id='token_1_38591_1-42' class='aligned' 
+                  data-ref='sen_38591_sen_35' >Cassi</span></a> <a href='wordinfo.php?w=tegebat&lang=LAT' style='text-decoration: none' ><span id='token_1_38591_1-43' class='aligned' 
+                  data-ref='sen_38591_sen_33' >tegebat</span></a> <a href='wordinfo.php?w=—&lang=LAT' style='text-decoration: none' ><span id='token_1_38591_1-44' class='notAligned' 
+                  data-ref='notAligned' >—</span></a> <a href='wordinfo.php?w=quasi&lang=LAT' style='text-decoration: none' ><span id='token_1_38591_1-45' class='aligned' 
+                  data-ref='sen_38591_sen_36' >quasi</span></a> <a href='wordinfo.php?w=responsum&lang=LAT' style='text-decoration: none' ><span id='token_1_38591_1-46' class='aligned' 
+                  data-ref='sen_38591_sen_38' >responsum</span></a> <a href='wordinfo.php?w=peteret&lang=LAT' style='text-decoration: none' ><span id='token_1_38591_1-47' class='aligned' 
+                  data-ref='sen_38591_sen_37' >peteret</span></a> <a href='wordinfo.php?w=celeriter&lang=LAT' style='text-decoration: none' ><span id='token_1_38591_1-48' class='aligned' 
+                  data-ref='sen_38591_sen_41' >celeriter</span></a> <a href='wordinfo.php?w=dato&lang=LAT' style='text-decoration: none' ><span id='token_1_38591_1-49' class='aligned' 
+                  data-ref='sen_38591_sen_42' >dato</span></a> <a href='wordinfo.php?w=loco&lang=LAT' style='text-decoration: none' ><span id='token_1_38591_1-50' class='aligned' 
+                  data-ref='sen_38591_sen_39' >loco</span></a> <a href='wordinfo.php?w=cum&lang=LAT' style='text-decoration: none' ><span id='token_1_38591_1-51' class='aligned' 
+                  data-ref='sen_38591_sen_50' >cum</span></a> <a href='wordinfo.php?w=se&lang=LAT' style='text-decoration: none' ><span id='token_1_38591_1-52' class='aligned' 
+                  data-ref='sen_38591_sen_52' >se</span></a> <a href='wordinfo.php?w=insinuasset&lang=LAT' style='text-decoration: none' ><span id='token_1_38591_1-53' class='aligned' 
+                  data-ref='sen_38591_sen_51' >insinuasset</span></a> <a href='wordinfo.php?w=,&lang=LAT' style='text-decoration: none' ><span id='token_1_38591_1-54' class='notAligned' 
+                  data-ref='notAligned' >,</span></a> <a href='wordinfo.php?w=sinistra&lang=LAT' style='text-decoration: none' ><span id='token_1_38591_1-55' class='aligned' 
+                  data-ref='sen_38591_sen_43' >sinistra</span></a> <a href='wordinfo.php?w=corripit&lang=LAT' style='text-decoration: none' ><span id='token_1_38591_1-56' class='aligned' 
+                  data-ref='sen_38591_sen_48' >corripit</span></a> <a href='wordinfo.php?w=auersum&lang=LAT' style='text-decoration: none' ><span id='token_1_38591_1-57' class='aligned' 
+                  data-ref='sen_38591_sen_49' >auersum</span></a> <a href='wordinfo.php?w=dextraque&lang=LAT' style='text-decoration: none' ><span id='token_1_38591_1-58' class='aligned' 
+                  data-ref='sen_38591_sen_44' >dextraque</span></a> <a href='wordinfo.php?w=bis&lang=LAT' style='text-decoration: none' ><span id='token_1_38591_1-59' class='aligned' 
+                  data-ref='sen_38591_sen_45' >bis</span></a> <a href='wordinfo.php?w=ferit&lang=LAT' style='text-decoration: none' ><span id='token_1_38591_1-60' class='aligned' 
+                  data-ref='sen_38591_sen_47' >ferit</span></a> <a href='wordinfo.php?w=pugione&lang=LAT' style='text-decoration: none' ><span id='token_1_38591_1-61' class='aligned' 
+                  data-ref='sen_38591_sen_46' >pugione</span></a> <a href='wordinfo.php?w=.&lang=LAT' style='text-decoration: none' ><span id='token_1_38591_1-62' class='notAligned' 
+                  data-ref='notAligned' >.</span></a> </div>
+                    <div class='col-md-6' style='direction: ltr;  ' id='styledText_38591_2'><a href='wordinfo.php?w=After&lang=ENG' style='text-decoration: none' >
+                <span id='token_2_38591_2-1' class='aligned'  data-ref='sen_38591_sen_1' >After</span> </a><a href='wordinfo.php?w=the&lang=ENG' style='text-decoration: none' >
+                <span id='token_2_38591_2-2' class='aligned'  data-ref='sen_38591_sen_2' >the</span> </a><a href='wordinfo.php?w=assembly&lang=ENG' style='text-decoration: none' >
+                <span id='token_2_38591_2-3' class='aligned'  data-ref='sen_38591_sen_2' >assembly</span> </a><a href='wordinfo.php?w=he&lang=ENG' style='text-decoration: none' >
+                <span id='token_2_38591_2-4' class='aligned'  data-ref='sen_38591_sen_3' >he</span> </a><a href='wordinfo.php?w=returned&lang=ENG' style='text-decoration: none' >
+                <span id='token_2_38591_2-5' class='aligned'  data-ref='sen_38591_sen_3' >returned</span> </a><a href='wordinfo.php?w=to&lang=ENG' style='text-decoration: none' >
+                <span id='token_2_38591_2-6' class='aligned'  data-ref='sen_38591_sen_4' >to</span> </a><a href='wordinfo.php?w=Cordoba&lang=ENG' style='text-decoration: none' >
+                <span id='token_2_38591_2-7' class='aligned'  data-ref='sen_38591_sen_4' >Cordoba</span> </a><a href='wordinfo.php?w=and&lang=ENG' style='text-decoration: none' >
+                <span id='token_2_38591_2-8' class='aligned'  data-ref='sen_38591_sen_6' >and</span> </a><a href='wordinfo.php?w=on&lang=ENG' style='text-decoration: none' >
+                <span id='token_2_38591_2-9' class='aligned'  data-ref='sen_38591_sen_5' >on</span> </a><a href='wordinfo.php?w=the&lang=ENG' style='text-decoration: none' >
+                <span id='token_2_38591_2-10' class='aligned'  data-ref='sen_38591_sen_5' >the</span> </a><a href='wordinfo.php?w=very&lang=ENG' style='text-decoration: none' >
+                <span id='token_2_38591_2-11' class='aligned'  data-ref='sen_38591_sen_6' >very</span> </a><a href='wordinfo.php?w=same&lang=ENG' style='text-decoration: none' >
+                <span id='token_2_38591_2-12' class='aligned'  data-ref='sen_38591_sen_6' >same</span> </a><a href='wordinfo.php?w=day&lang=ENG' style='text-decoration: none' >
+                <span id='token_2_38591_2-13' class='aligned'  data-ref='sen_38591_sen_5' >day</span> </a><a href='wordinfo.php?w=in&lang=ENG' style='text-decoration: none' >
+                <span id='token_2_38591_2-14' class='aligned'  data-ref='sen_38591_sen_7' >in</span> </a><a href='wordinfo.php?w=the&lang=ENG' style='text-decoration: none' >
+                <span id='token_2_38591_2-15' class='aligned'  data-ref='sen_38591_sen_7' >the</span> </a><a href='wordinfo.php?w=afternoon&lang=ENG' style='text-decoration: none' >
+                <span id='token_2_38591_2-16' class='aligned'  data-ref='sen_38591_sen_7' >afternoon</span> </a><a href='wordinfo.php?w=,&lang=ENG' style='text-decoration: none' >
+                <span id='token_2_38591_2-17' class='notAligned'  data-ref='notAligned' >,</span> </a><a href='wordinfo.php?w=when&lang=ENG' style='text-decoration: none' >
+                <span id='token_2_38591_2-18' class='aligned'  data-ref='sen_38591_sen_8' >when</span> </a><a href='wordinfo.php?w=he&lang=ENG' style='text-decoration: none' >
+                <span id='token_2_38591_2-19' class='aligned'  data-ref='sen_38591_sen_9' >he</span> </a><a href='wordinfo.php?w=was&lang=ENG' style='text-decoration: none' >
+                <span id='token_2_38591_2-20' class='aligned'  data-ref='sen_38591_sen_9' >was</span> </a><a href='wordinfo.php?w=going&lang=ENG' style='text-decoration: none' >
+                <span id='token_2_38591_2-21' class='aligned'  data-ref='sen_38591_sen_9' >going</span> </a><a href='wordinfo.php?w=to&lang=ENG' style='text-decoration: none' >
+                <span id='token_2_38591_2-22' class='aligned'  data-ref='sen_38591_sen_10' >to</span> </a><a href='wordinfo.php?w=the&lang=ENG' style='text-decoration: none' >
+                <span id='token_2_38591_2-23' class='aligned'  data-ref='sen_38591_sen_11' >the</span> </a><a href='wordinfo.php?w=basilica&lang=ENG' style='text-decoration: none' >
+                <span id='token_2_38591_2-24' class='aligned'  data-ref='sen_38591_sen_11' >basilica</span> </a><a href='wordinfo.php?w=,&lang=ENG' style='text-decoration: none' >
+                <span id='token_2_38591_2-25' class='notAligned'  data-ref='notAligned' >,</span> </a><a href='wordinfo.php?w=a&lang=ENG' style='text-decoration: none' >
+                <span id='token_2_38591_2-26' class='aligned'  data-ref='sen_38591_sen_12' >a</span> </a><a href='wordinfo.php?w=certain&lang=ENG' style='text-decoration: none' >
+                <span id='token_2_38591_2-27' class='aligned'  data-ref='sen_38591_sen_12' >certain</span> </a><a href='wordinfo.php?w=Minucius&lang=ENG' style='text-decoration: none' >
+                <span id='token_2_38591_2-28' class='aligned'  data-ref='sen_38591_sen_13' >Minucius</span> </a><a href='wordinfo.php?w=Silon&lang=ENG' style='text-decoration: none' >
+                <span id='token_2_38591_2-29' class='aligned'  data-ref='sen_38591_sen_14' >Silon</span> </a><a href='wordinfo.php?w=,&lang=ENG' style='text-decoration: none' >
+                <span id='token_2_38591_2-30' class='notAligned'  data-ref='notAligned' >,</span> </a><a href='wordinfo.php?w=a&lang=ENG' style='text-decoration: none' >
+                <span id='token_2_38591_2-31' class='aligned'  data-ref='sen_38591_sen_15' >a</span> </a><a href='wordinfo.php?w=client&lang=ENG' style='text-decoration: none' >
+                <span id='token_2_38591_2-32' class='aligned'  data-ref='sen_38591_sen_15' >client</span> </a><a href='wordinfo.php?w=of&lang=ENG' style='text-decoration: none' >
+                <span id='token_2_38591_2-33' class='aligned'  data-ref='sen_38591_sen_17' >of</span> </a><a href='wordinfo.php?w=Lucius&lang=ENG' style='text-decoration: none' >
+                <span id='token_2_38591_2-34' class='aligned'  data-ref='sen_38591_sen_16' >Lucius</span> </a><a href='wordinfo.php?w=Racilius&lang=ENG' style='text-decoration: none' >
+                <span id='token_2_38591_2-35' class='aligned'  data-ref='sen_38591_sen_17' >Racilius</span> </a><a href='wordinfo.php?w=,&lang=ENG' style='text-decoration: none' >
+                <span id='token_2_38591_2-36' class='notAligned'  data-ref='notAligned' >,</span> </a><a href='wordinfo.php?w=gave&lang=ENG' style='text-decoration: none' >
+                <span id='token_2_38591_2-37' class='aligned'  data-ref='sen_38591_sen_18' >gave</span> </a><a href='wordinfo.php?w=him&lang=ENG' style='text-decoration: none' >
+                <span id='token_2_38591_2-38' class='aligned'  data-ref='sen_38591_sen_19' >him</span> </a><a href='wordinfo.php?w=a&lang=ENG' style='text-decoration: none' >
+                <span id='token_2_38591_2-39' class='aligned'  data-ref='sen_38591_sen_20' >a</span> </a><a href='wordinfo.php?w=petition&lang=ENG' style='text-decoration: none' >
+                <span id='token_2_38591_2-40' class='aligned'  data-ref='sen_38591_sen_20' >petition</span> </a><a href='wordinfo.php?w=,&lang=ENG' style='text-decoration: none' >
+                <span id='token_2_38591_2-41' class='notAligned'  data-ref='notAligned' >,</span> </a><a href='wordinfo.php?w=as&lang=ENG' style='text-decoration: none' >
+                <span id='token_2_38591_2-42' class='aligned'  data-ref='sen_38591_sen_21' >as</span> </a><a href='wordinfo.php?w=if&lang=ENG' style='text-decoration: none' >
+                <span id='token_2_38591_2-43' class='aligned'  data-ref='sen_38591_sen_21' >if</span> </a><a href='wordinfo.php?w=he&lang=ENG' style='text-decoration: none' >
+                <span id='token_2_38591_2-44' class='aligned'  data-ref='sen_38591_sen_22' >he</span> </a><a href='wordinfo.php?w=was&lang=ENG' style='text-decoration: none' >
+                <span id='token_2_38591_2-45' class='aligned'  data-ref='sen_38591_sen_22' >was</span> </a><a href='wordinfo.php?w=demanding&lang=ENG' style='text-decoration: none' >
+                <span id='token_2_38591_2-46' class='aligned'  data-ref='sen_38591_sen_22' >demanding</span> </a><a href='wordinfo.php?w=something&lang=ENG' style='text-decoration: none' >
+                <span id='token_2_38591_2-47' class='aligned'  data-ref='sen_38591_sen_23' >something</span> </a><a href='wordinfo.php?w=from&lang=ENG' style='text-decoration: none' >
+                <span id='token_2_38591_2-48' class='aligned'  data-ref='sen_38591_sen_24' >from</span> </a><a href='wordinfo.php?w=him&lang=ENG' style='text-decoration: none' >
+                <span id='token_2_38591_2-49' class='aligned'  data-ref='sen_38591_sen_25' >him</span> </a><a href='wordinfo.php?w=in&lang=ENG' style='text-decoration: none' >
+                <span id='token_2_38591_2-50' class='aligned'  data-ref='sen_38591_sen_26' >in</span> </a><a href='wordinfo.php?w=the&lang=ENG' style='text-decoration: none' >
+                <span id='token_2_38591_2-51' class='aligned'  data-ref='sen_38591_sen_26' >the</span> </a><a href='wordinfo.php?w=manner&lang=ENG' style='text-decoration: none' >
+                <span id='token_2_38591_2-52' class='aligned'  data-ref='sen_38591_sen_26' >manner</span> </a><a href='wordinfo.php?w=of&lang=ENG' style='text-decoration: none' >
+                <span id='token_2_38591_2-53' class='aligned'  data-ref='sen_38591_sen_26' >of</span> </a><a href='wordinfo.php?w=a&lang=ENG' style='text-decoration: none' >
+                <span id='token_2_38591_2-54' class='aligned'  data-ref='sen_38591_sen_27' >a</span> </a><a href='wordinfo.php?w=soldier&lang=ENG' style='text-decoration: none' >
+                <span id='token_2_38591_2-55' class='aligned'  data-ref='sen_38591_sen_27' >soldier</span> </a><a href='wordinfo.php?w=.&lang=ENG' style='text-decoration: none' >
+                <span id='token_2_38591_2-56' class='notAligned'  data-ref='notAligned' >.</span> </a><a href='wordinfo.php?w=Then&lang=ENG' style='text-decoration: none' >
+                <span id='token_2_38591_2-57' class='aligned'  data-ref='sen_38591_sen_28' >Then</span> </a><a href='wordinfo.php?w=,&lang=ENG' style='text-decoration: none' >
+                <span id='token_2_38591_2-58' class='notAligned'  data-ref='notAligned' >,</span> </a><a href='wordinfo.php?w=when&lang=ENG' style='text-decoration: none' >
+                <span id='token_2_38591_2-59' class='aligned'  data-ref='sen_38591_sen_50' >when</span> </a><a href='wordinfo.php?w=Silon&lang=ENG' style='text-decoration: none' >
+                <span id='token_2_38591_2-60' class='notAligned'  data-ref='notAligned' >Silon</span> </a><a href='wordinfo.php?w=had&lang=ENG' style='text-decoration: none' >
+                <span id='token_2_38591_2-61' class='aligned'  data-ref='sen_38591_sen_51' >had</span> </a><a href='wordinfo.php?w=insinuated&lang=ENG' style='text-decoration: none' >
+                <span id='token_2_38591_2-62' class='aligned'  data-ref='sen_38591_sen_51' >insinuated</span> </a><a href='wordinfo.php?w=himself&lang=ENG' style='text-decoration: none' >
+                <span id='token_2_38591_2-63' class='aligned'  data-ref='sen_38591_sen_52' >himself</span> </a><a href='wordinfo.php?w=behind&lang=ENG' style='text-decoration: none' >
+                <span id='token_2_38591_2-64' class='aligned'  data-ref='sen_38591_sen_29' >behind</span> </a><a href='wordinfo.php?w=Racilius&lang=ENG' style='text-decoration: none' >
+                <span id='token_2_38591_2-65' class='aligned'  data-ref='sen_38591_sen_30' >Racilius</span> </a><a href='wordinfo.php?w=(&lang=ENG' style='text-decoration: none' >
+                <span id='token_2_38591_2-66' class='notAligned'  data-ref='notAligned' >(</span> </a><a href='wordinfo.php?w=for&lang=ENG' style='text-decoration: none' >
+                <span id='token_2_38591_2-67' class='aligned'  data-ref='sen_38591_sen_31' >for</span> </a><a href='wordinfo.php?w=he&lang=ENG' style='text-decoration: none' >
+                <span id='token_2_38591_2-68' class='aligned'  data-ref='sen_38591_sen_32' >he</span> </a><a href='wordinfo.php?w=covered&lang=ENG' style='text-decoration: none' >
+                <span id='token_2_38591_2-69' class='aligned'  data-ref='sen_38591_sen_33' >covered</span> </a><a href='wordinfo.php?w=one&lang=ENG' style='text-decoration: none' >
+                <span id='token_2_38591_2-70' class='notAligned'  data-ref='notAligned' >one</span> </a><a href='wordinfo.php?w=side&lang=ENG' style='text-decoration: none' >
+                <span id='token_2_38591_2-71' class='aligned'  data-ref='sen_38591_sen_34' >side</span> </a><a href='wordinfo.php?w=of&lang=ENG' style='text-decoration: none' >
+                <span id='token_2_38591_2-72' class='aligned'  data-ref='sen_38591_sen_35' >of</span> </a><a href='wordinfo.php?w=Cassius&lang=ENG' style='text-decoration: none' >
+                <span id='token_2_38591_2-73' class='aligned'  data-ref='sen_38591_sen_35' >Cassius</span> </a><a href='wordinfo.php?w=)&lang=ENG' style='text-decoration: none' >
+                <span id='token_2_38591_2-74' class='notAligned'  data-ref='notAligned' >)</span> </a><a href='wordinfo.php?w=as&lang=ENG' style='text-decoration: none' >
+                <span id='token_2_38591_2-75' class='aligned'  data-ref='sen_38591_sen_36' >as</span> </a><a href='wordinfo.php?w=if&lang=ENG' style='text-decoration: none' >
+                <span id='token_2_38591_2-76' class='aligned'  data-ref='sen_38591_sen_36' >if</span> </a><a href='wordinfo.php?w=he&lang=ENG' style='text-decoration: none' >
+                <span id='token_2_38591_2-77' class='aligned'  data-ref='sen_38591_sen_37' >he</span> </a><a href='wordinfo.php?w=was&lang=ENG' style='text-decoration: none' >
+                <span id='token_2_38591_2-78' class='aligned'  data-ref='sen_38591_sen_37' >was</span> </a><a href='wordinfo.php?w=seeking&lang=ENG' style='text-decoration: none' >
+                <span id='token_2_38591_2-79' class='aligned'  data-ref='sen_38591_sen_37' >seeking</span> </a><a href='wordinfo.php?w=an&lang=ENG' style='text-decoration: none' >
+                <span id='token_2_38591_2-80' class='aligned'  data-ref='sen_38591_sen_38' >an</span> </a><a href='wordinfo.php?w=answer&lang=ENG' style='text-decoration: none' >
+                <span id='token_2_38591_2-81' class='aligned'  data-ref='sen_38591_sen_38' >answer</span> </a><a href='wordinfo.php?w=—&lang=ENG' style='text-decoration: none' >
+                <span id='token_2_38591_2-82' class='notAligned'  data-ref='notAligned' >—</span> </a><a href='wordinfo.php?w=room&lang=ENG' style='text-decoration: none' >
+                <span id='token_2_38591_2-83' class='aligned'  data-ref='sen_38591_sen_39' >room</span> </a><a href='wordinfo.php?w=had&lang=ENG' style='text-decoration: none' >
+                <span id='token_2_38591_2-84' class='aligned'  data-ref='sen_38591_sen_42' >had</span> </a><a href='wordinfo.php?w=quickly&lang=ENG' style='text-decoration: none' >
+                <span id='token_2_38591_2-85' class='aligned'  data-ref='sen_38591_sen_41' >quickly</span> </a><a href='wordinfo.php?w=been&lang=ENG' style='text-decoration: none' >
+                <span id='token_2_38591_2-86' class='aligned'  data-ref='sen_38591_sen_42' >been</span> </a><a href='wordinfo.php?w=made&lang=ENG' style='text-decoration: none' >
+                <span id='token_2_38591_2-87' class='aligned'  data-ref='sen_38591_sen_42' >made</span> </a><a href='wordinfo.php?w=for&lang=ENG' style='text-decoration: none' >
+                <span id='token_2_38591_2-88' class='notAligned'  data-ref='notAligned' >for</span> </a><a href='wordinfo.php?w=him&lang=ENG' style='text-decoration: none' >
+                <span id='token_2_38591_2-89' class='notAligned'  data-ref='notAligned' >him</span> </a><a href='wordinfo.php?w=—&lang=ENG' style='text-decoration: none' >
+                <span id='token_2_38591_2-90' class='notAligned'  data-ref='notAligned' >—</span> </a><a href='wordinfo.php?w=he&lang=ENG' style='text-decoration: none' >
+                <span id='token_2_38591_2-91' class='aligned'  data-ref='sen_38591_sen_48' >he</span> </a><a href='wordinfo.php?w=grabbed&lang=ENG' style='text-decoration: none' >
+                <span id='token_2_38591_2-92' class='aligned'  data-ref='sen_38591_sen_48' >grabbed</span> </a><a href='wordinfo.php?w=Cassius&lang=ENG' style='text-decoration: none' >
+                <span id='token_2_38591_2-93' class='notAligned'  data-ref='notAligned' >Cassius</span> </a><a href='wordinfo.php?w=,&lang=ENG' style='text-decoration: none' >
+                <span id='token_2_38591_2-94' class='notAligned'  data-ref='notAligned' >,</span> </a><a href='wordinfo.php?w=who&lang=ENG' style='text-decoration: none' >
+                <span id='token_2_38591_2-95' class='aligned'  data-ref='sen_38591_sen_49' >who</span> </a><a href='wordinfo.php?w=was&lang=ENG' style='text-decoration: none' >
+                <span id='token_2_38591_2-96' class='aligned'  data-ref='sen_38591_sen_49' >was</span> </a><a href='wordinfo.php?w=facing&lang=ENG' style='text-decoration: none' >
+                <span id='token_2_38591_2-97' class='aligned'  data-ref='sen_38591_sen_49' >facing</span> </a><a href='wordinfo.php?w=away&lang=ENG' style='text-decoration: none' >
+                <span id='token_2_38591_2-98' class='aligned'  data-ref='sen_38591_sen_49' >away</span> </a><a href='wordinfo.php?w=from&lang=ENG' style='text-decoration: none' >
+                <span id='token_2_38591_2-99' class='notAligned'  data-ref='notAligned' >from</span> </a><a href='wordinfo.php?w=him&lang=ENG' style='text-decoration: none' >
+                <span id='token_2_38591_2-100' class='notAligned'  data-ref='notAligned' >him</span> </a><a href='wordinfo.php?w=,&lang=ENG' style='text-decoration: none' >
+                <span id='token_2_38591_2-101' class='notAligned'  data-ref='notAligned' >,</span> </a><a href='wordinfo.php?w=with&lang=ENG' style='text-decoration: none' >
+                <span id='token_2_38591_2-102' class='aligned'  data-ref='sen_38591_sen_43' >with</span> </a><a href='wordinfo.php?w=his&lang=ENG' style='text-decoration: none' >
+                <span id='token_2_38591_2-103' class='aligned'  data-ref='sen_38591_sen_43' >his</span> </a><a href='wordinfo.php?w=left&lang=ENG' style='text-decoration: none' >
+                <span id='token_2_38591_2-104' class='aligned'  data-ref='sen_38591_sen_43' >left</span> </a><a href='wordinfo.php?w=hand&lang=ENG' style='text-decoration: none' >
+                <span id='token_2_38591_2-105' class='aligned'  data-ref='sen_38591_sen_43' >hand</span> </a><a href='wordinfo.php?w=and&lang=ENG' style='text-decoration: none' >
+                <span id='token_2_38591_2-106' class='aligned'  data-ref='sen_38591_sen_44' >and</span> </a><a href='wordinfo.php?w=with&lang=ENG' style='text-decoration: none' >
+                <span id='token_2_38591_2-107' class='aligned'  data-ref='sen_38591_sen_44' >with</span> </a><a href='wordinfo.php?w=his&lang=ENG' style='text-decoration: none' >
+                <span id='token_2_38591_2-108' class='aligned'  data-ref='sen_38591_sen_44' >his</span> </a><a href='wordinfo.php?w=right&lang=ENG' style='text-decoration: none' >
+                <span id='token_2_38591_2-109' class='aligned'  data-ref='sen_38591_sen_44' >right</span> </a><a href='wordinfo.php?w=struck&lang=ENG' style='text-decoration: none' >
+                <span id='token_2_38591_2-110' class='aligned'  data-ref='sen_38591_sen_47' >struck</span> </a><a href='wordinfo.php?w=him&lang=ENG' style='text-decoration: none' >
+                <span id='token_2_38591_2-111' class='notAligned'  data-ref='notAligned' >him</span> </a><a href='wordinfo.php?w=twice&lang=ENG' style='text-decoration: none' >
+                <span id='token_2_38591_2-112' class='aligned'  data-ref='sen_38591_sen_45' >twice</span> </a><a href='wordinfo.php?w=with&lang=ENG' style='text-decoration: none' >
+                <span id='token_2_38591_2-113' class='aligned'  data-ref='sen_38591_sen_46' >with</span> </a><a href='wordinfo.php?w=a&lang=ENG' style='text-decoration: none' >
+                <span id='token_2_38591_2-114' class='aligned'  data-ref='sen_38591_sen_46' >a</span> </a><a href='wordinfo.php?w=dagger&lang=ENG' style='text-decoration: none' >
+                <span id='token_2_38591_2-115' class='aligned'  data-ref='sen_38591_sen_46' >dagger</span> </a><a href='wordinfo.php?w=.&lang=ENG' style='text-decoration: none' >
+                <span id='token_2_38591_2-116' class='notAligned'  data-ref='notAligned' >.</span> </a></div>
+                  </div>
+                  <div class='row'>
+                    <div class='col-md-6' ><br><div class="progress" style="width: 95%">
+          <div class="progress-bar progress-bar-danger progress-bar-striped" style="width: 13%"> ( 8 )
+           13% LAT
+          </div>
+          <div class="progress-bar progress-bar-success " style="width: 87%"> ( 54 )
+            87%  LAT - ENG
+          </div>
+        </div></div>
+                    <div class='col-md-6'><br><div class="progress" style="width: 95%">
+          <div class="progress-bar progress-bar-success " style="width: 81%"> ( 94 )
+            81%  LAT - ENG
+          </div>
+          <div class="progress-bar progress-bar-danger progress-bar-striped" style="width: 19%"> ( 22 )
+            19% ENG
+          </div>
+
+        </div></div>
+                  </div></div></div>                </div>
+<!--                <div class="col-md-12" style="margin: 4px">-->
+<!--                    <button type="button" class="btn btn-default" data-toggle="modal" data-target="#embedModal" onclick="buildEmbedLink()">-->
+<!--                        Embed-->
+<!--                    </button>-->
+<!--                    <button type="button" class="btn btn-default" data-toggle="modal" data-target="#translationPairsModal">-->
+<!--                        Show Translation Pairs-->
+<!--                    </button>-->
+<!--                    <button type="button" class="btn btn-default" data-toggle="modal" data-target="#translationPairsStatModal" onclick="drawTranslationPairsBarChart()">-->
+<!--                        Alignment Statistics-->
+<!--                    </button>-->
+<!--                    <button type="button" class="btn btn-default" data-toggle="modal" data-target="#alignmentGeometryModal">-->
+<!--                        Alignment Geometry-->
+<!--                    </button>-->
+<!--                </div>-->
+
+                <div class="modal fade" id="embedModal" tabindex="-1" role="dialog" aria-labelledby="embedModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="embedModalLabel">Get Embed Link</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <form class="">
+                    <input type="hidden" name="text_id" id="text_id" value="38591">
+                    <div class="row">
+                        <div class="col-md-8">
+                            <div class="input-group-sm form-check">
+                                <input type="checkbox" class="form-check-input" id="title_checkbox" checked onchange="buildEmbedLink()">
+                                <label class="checkBoxLabel" for="title_checkbox">Title</label>
+                            </div>
+                            <div class="input-group-sm form-check">
+                                <input type="checkbox" class="form-check-input" id="alignedby_checkbox" checked onchange="buildEmbedLink()">
+                                <label class="checkBoxLabel" for="alignedby_checkbox">Aligned By</label>
+                            </div>
+                            <div class="input-group-sm form-check">
+                                <input type="checkbox" class="form-check-input" id="passageinfo_checkbox" onchange="buildEmbedLink()">
+                                <label class="checkBoxLabel" for="passageinfo_checkbox">Passage Information (Created on, ..etc)</label>
+                            </div>
+                            <div class="input-group-sm form-check">
+                                <input type="checkbox" class="form-check-input" id="progressbar_checkbox"  onchange="buildEmbedLink()">
+                                <label class="checkBoxLabel" for="progressbar_checkbox">Progress Bar</label>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="input-group input-group-sm">
+                                <span class="checkBoxLabel">Width </span>
+                                <div class="input-group input-group-sm">
+                                    <input type="text" class="form-control" value="600" name="iframe_width"
+                                           id="iframe_width" aria-describedby="width_label" checked onchange="buildEmbedLink()">
+                                    <span class="input-group-addon"  id="width_label">Pixel</span>
+                                </div>
+                            </div>
+                            <div class="input-group input-group-sm" style="margin-top: 5px">
+                                <span class="checkBoxLabel">Height </span>
+                                <div class="input-group input-group-sm">
+                                    <input type="text" class="form-control" value="600" name="iframe_height"
+                                           id="iframe_height" aria-describedby="height_label" checked onchange="buildEmbedLink()">
+                                    <span class="input-group-addon" id="height_label">Pixel</span>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <div class="input-group col-md-12">
+                        <input type="text" class="form-control" id="embed_url" value='' >
+<!--                        <span class="input-group-btn">-->
+<!--                            <button class="btn btn-primary" type="button" onclick="copyEmbedLink()">Copy Link</button>-->
+<!--                        </span>-->
+
+                    </div>
+
+                </form>
+            </div>
+        </div>
+    </div>
+</div>                <div class="modal fade" id="translationPairsModal" tabindex="-1" role="dialog" aria-labelledby="translationPairsModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="translationPairsModalLabel">Translation Pairs</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body" style="max-height: 400px;overflow-y: scroll;">
+                                <div style="margin: 10px">
+                    <span>Translation Pairs</span> <span class=" badge">51</span>
+                    <span style="margin-left:15px ">Unique Translation Pairs</span> <span class=" badge">49</span>
+                    <a href="downloadTp.php?id=38591"> <button class="btn btn-default btn-sm" style="margin-left:15px;margin-top:-5px; float: right " >Download</button></a>
+                </div>
+                <table class='table table-hover'><tr><th>LAT</th><th>ENG</th><th>Frequency</th></tr><tr><td>cum</td><td>when</td><td>2</td></tr><tr><td>quasi</td><td>as if</td><td>2</td></tr><tr><td>se</td><td>himself</td><td>1</td></tr><tr><td>Silo</td><td>Silon</td><td>1</td></tr><tr><td>aliquid</td><td>something</td><td>1</td></tr><tr><td>postularet</td><td>he was demanding</td><td>1</td></tr><tr><td>libellum</td><td>a petition</td><td>1</td></tr><tr><td>ei</td><td>him</td><td>1</td></tr><tr><td>tradit</td><td>gave</td><td>1</td></tr><tr><td>Racili</td><td>of Racilius</td><td>1</td></tr><tr><td>L.</td><td>Lucius</td><td>1</td></tr><tr><td>cliens</td><td>a client</td><td>1</td></tr><tr><td>quidam</td><td>a certain</td><td>1</td></tr><tr><td>Minucius</td><td>Minucius</td><td>1</td></tr><tr><td>eo</td><td>him</td><td>1</td></tr><tr><td>basilicam</td><td>the basilica</td><td>1</td></tr><tr><td>in</td><td>to</td><td>1</td></tr><tr><td>iret</td><td>he was going</td><td>1</td></tr><tr><td>postmeridiano tempore</td><td>in the afternoon</td><td>1</td></tr><tr><td>eoque ipso</td><td>very same and</td><td>1</td></tr><tr><td>die</td><td>the day on</td><td>1</td></tr><tr><td>Cordubam</td><td>to Cordoba</td><td>1</td></tr><tr><td>se recepit</td><td>he returned</td><td>1</td></tr><tr><td>contione</td><td>the assembly</td><td>1</td></tr><tr><td>ab</td><td>from</td><td>1</td></tr><tr><td>miles</td><td>a soldier</td><td>1</td></tr><tr><td>ut</td><td>in the manner of</td><td>1</td></tr><tr><td>loco</td><td>room</td><td>1</td></tr><tr><td>auersum</td><td>who was facing away</td><td>1</td></tr><tr><td>corripit</td><td>he grabbed</td><td>1</td></tr><tr><td>ferit</td><td>struck</td><td>1</td></tr><tr><td>pugione</td><td>with a dagger</td><td>1</td></tr><tr><td>bis</td><td>twice</td><td>1</td></tr><tr><td>dextraque</td><td>and with his right</td><td>1</td></tr><tr><td>sinistra</td><td>with his left hand</td><td>1</td></tr><tr><td>dato</td><td>had been made</td><td>1</td></tr><tr><td>celeriter</td><td>quickly</td><td>1</td></tr><tr><td>responsum</td><td>an answer</td><td>1</td></tr><tr><td>insinuasset</td><td>had insinuated</td><td>1</td></tr><tr><td>peteret</td><td>he was seeking</td><td>1</td></tr><tr><td>Cassi</td><td>of Cassius</td><td>1</td></tr><tr><td>latus</td><td>side</td><td>1</td></tr><tr><td>tegebat</td><td>covered</td><td>1</td></tr><tr><td>is</td><td>he</td><td>1</td></tr><tr><td>nam</td><td>for</td><td>1</td></tr><tr><td>Racilium</td><td>Racilius</td><td>1</td></tr><tr><td>post</td><td>behind</td><td>1</td></tr><tr><td>deinde</td><td>Then</td><td>1</td></tr><tr><td>Ex</td><td>After</td><td>1</td></tr></table>
+            </div>
+        </div>
+    </div>
+</div>                <div class="modal fade" id="alignmentGeometryModal" tabindex="-1" role="dialog" aria-labelledby="alignmentGeometryModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="alignmentGeometryModalLabel">Alignment Matrix</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body" style="height: 350px">
+                                <div id="dotmatrix_div" style="width: 550px; height: 350px"></div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script>
+    google.charts.load('current', {packages: ['corechart']});
+
+    //function drawTranslationPairsBarChart() {
+    //
+    //    var data = google.visualization.arrayToDataTable([
+    //        //['Type', 'Frequency', { role: 'style' },{ role: 'annotation' }],
+    //        //['1-1', ////, '#225e93', ////],
+    //        //['1-N', ////, '#dab731', ////],            // RGB value
+    //        //['N-1', ////, '#f09641', ////],            // English color name
+    //        //['N-N', ////, '#890d38', ////],
+    //        ['Type', 'Frequency', { role: 'annotation' }],
+    //           //    ]);
+    //
+    //    var options = {
+    //        title: 'Translation Pairs Statistics',
+    //        width: 550,
+    //        height: 300,
+    //        legend: 'none',
+    //
+    //        hAxis: {
+    //            title: 'Translation Pair Type',
+    //        },
+    //        bar: {groupWidth: '65%'},
+    //        vAxis: {
+    //            title: 'Frequency',
+    //            format: 'decimal',
+    //        }
+    //    };
+    //
+    //    var chart = new google.visualization.ColumnChart(
+    //        document.getElementById('barchart_div'));
+    //
+    //    chart.draw(data, options);
+    //}
+</script>                <div class="modal fade" id="translationPairsStatModal" tabindex="-1" role="dialog" aria-labelledby="translationPairsStatModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="translationPairsStatModalLabel">Alignment Statistics</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body" style="height: 400px">
+                
+<!--                <button type="button" class="btn btn-default" onclick="exportDiagram()">-->
+<!--                    Export-->
+<!--                </button>-->
+                <div id="barchart_div" style="width: 550px; height: 350px"></div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script>
+    // function exportDiagram(){
+    //     html2canvas(document.querySelector("#barchart_div")).then(canvas => {
+    //         //document.body.appendChild(canvas)
+    //         canvas.toDataURL("image/png");
+    //     });
+    // }
+    google.charts.load('current', {packages: ['corechart']});
+
+    function drawTranslationPairsBarChart() {
+
+        var data = google.visualization.arrayToDataTable([
+            //['Type', 'Frequency', { role: 'style' },{ role: 'annotation' }],
+            //['1-1', //, '#225e93', //],
+            //['1-N', //, '#dab731', //],            // RGB value
+            //['N-1', //, '#f09641', //],            // English color name
+            //['N-N', //, '#890d38', //],
+            ['Type', 'Frequency', { role: 'annotation' }],
+           ['1-1', 24, 24], ['1-N', 24, 24], ['N-N', 3, 3],         ]);
+
+        var options = {
+            title: 'Alignment Statistics',
+            width: 550,
+            height: 300,
+            legend: 'none',
+
+            hAxis: {
+                title: 'Alignment Type',
+            },
+            bar: {groupWidth: '65%'},
+            vAxis: {
+                title: 'Frequency',
+                format: 'decimal',
+            }
+        };
+
+        var chart = new google.visualization.ColumnChart(
+            document.getElementById('barchart_div'));
+
+        chart.draw(data, options);
+    }
+</script>            </div>
+        </div>
+    </div>
+    <div id="footer">
+    Alexander von Humboldt-Lehrstuhl f&uuml;r Digital Humanities - Creative Commons Attribution-ShareAlike 4.0 International License &#169;	2016 <br> Implemented by Tariq Yousef
+</div></body>
+
+    <script>
+        (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+                (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+            m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+        })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+        ga('create', 'UA-92347513-2', 'auto');
+        ga('send', 'pageview');
+
+    </script>
+    <script src="js/utilities.js"></script>
+
+</html>

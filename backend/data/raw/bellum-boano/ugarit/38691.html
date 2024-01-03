@@ -1,0 +1,424 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+        <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta http-equiv="content-type" content="text/html; charset=utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="keywords" content="Alignment, Translation, Dynamic lexicon, translation pairs, alignment editor, translation alignment editor, ancient languages, ancient greek, lexicon, ugarit">
+    <meta name="description" content="Ugarit is a Translation alignment editor enables users to align their texts manually at sentence and word levels">
+    <meta name="author" content="Tariq Yousef. tariq@informatik.uni-leipzig.de">
+    <title> UGARIT - Translation Alignment Editor ::: Alexander von Humboldt Lehrstuhl für Digital Humanities - Univerity Of Leipzig</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+    <script src="js/html2canvas.min.js"></script>
+    <script src="js/embed.js"></script>
+    <link href="css/style.css" rel="stylesheet">
+
+</head>
+<body>
+    <div class="mainContainer">
+        <!-- Wrapper Class for Responsive Footer -->
+        <div class="wrapper left" style=" margin:auto">
+            <!-- navbar -->
+            
+<!-- navbar -->
+<nav class="navbar navbar-default" style="border-radius: 5px 5px 0px 0px">
+  <div class="container-fluid">
+    <div>
+      <ul class="nav navbar-nav">
+          <li><a class="navbar-brand" style="padding-top: 10px" href="index.php"><img src="images/logo.png" width="120"></a></li>
+          <li><a href="index.php"><i class="glyphicon glyphicon-home"></i>  Home</a></li>
+          <!--<li><a href="tvtest.php"><i class="fa fa-th-list"></i>  Test your Translation Vocabulary<span style="color: red; font-size: 10px">(<b>New</b>)</span></a> </li> -->
+                    <li><a href="bib.php">Bibliography</a></li>
+          <li><a href="guidelines.php">Alignment Guidelines</a></li>
+          <li><a href="howto.php">How To</a></li>
+          <li><a href="about.php">About</a></li>
+
+
+          
+
+       <!--
+        <li><a href="#" ><i class="glyphicon glyphicon-tag"></i> Entities</a></li>       
+        -->
+        <li><a href="#" > </a></li>
+        <li><a href="#" > </a></li> 
+        <li><a href="#" > </a></li>                 
+  
+      </ul>
+                <ul class="nav navbar-nav navbar-right">
+            <li ><a href="signup.php"><i class="glyphicon glyphicon-user" aria-hidden="true"></i> New Account</a></li>
+            <li ><a href="login.php"><i class="fa fa-sign-in" aria-hidden="true"></i> Log in</a></li>
+            </ul>
+
+            </div>
+
+  </div>
+</nav>    
+
+            <div class="row" style=" margin:auto; width: 98%">
+                <div class="col-md-12"  style="margin: 4px">
+                    <button type="button" class="btn btn-default" data-toggle="modal" data-target="#embedModal" onclick="buildEmbedLink()">
+                        Embed
+                    </button>
+                    <button type="button" class="btn btn-default" data-toggle="modal" data-target="#translationPairsModal">
+                        Show Translation Pairs
+                    </button>
+                    <button type="button" class="btn btn-default" data-toggle="modal" data-target="#translationPairsStatModal" onclick="drawTranslationPairsBarChart()">
+                        Alignment Statistics
+                    </button>
+                    <button type="button" class="hidden btn btn-default" data-toggle="modal" data-target="#alignmentGeometryModal">
+                        Alignment Geometry
+                    </button>
+                </div>
+                <div class="col-md-12" >
+                    <div class='ParallelSentence' style='border: 1px solid #EEE; border-radius: 5px; padding:10px;margin:5px;'><span id='Block38691'    class="fa fa-minus-square" aria-hidden="true"></span><span id='Block38691_2'  class="fa fa-plus-square" aria-hidden="true" style='display: none'></span><h4> <i class="fa fa-file-text-o" aria-hidden="true"></i> <a href='text.php?id=38691'>481</a></h4><h5><a href='userProfile.php?userid=143818'>Valeria Irene Boano</a> / <a href='userProfile.php?userid=143818&tgid=14779'>De Bello Alexandrino</a></h5>        <div class='row'><ul class='userinfo'><li><i class="fa fa-calendar" aria-hidden="true"></i>  Created on 2023-07-31 16:54:26</li><li><i class="fa fa-calendar" aria-hidden="true"></i> Modified on 2023-12-21 17:53:45</li><li> <i class="fa fa-user" aria-hidden="true"></i> Aligned by <a href='userProfile.php?userid=143818'><b>Valeria Irene Boano</b></a></li></ul></div><div class='alignmentBlock' id='alignmentBlock38691' style='display: block'><div class='row'>
+                    <div class='col-md-6' style=' direction: ltr;'><span class="badge" style='background-color:#ff944d;'>Latin</span>  </div>
+                    <div class='col-md-6' style=' direction: ltr;'><span class="badge" style='background-color:#993333;'>English</span>  </div>
+                </div><div class='row'>
+                    <div class='col-md-6 userinfo'></div>
+                    <div class='col-md-6 userinfo'></div>
+                  </div>
+                  <div class='row'>
+                    <div class='col-md-6'  style='direction: ltr; ' id='styledText_38691_1'><a href='wordinfo.php?w=Cum&lang=LAT' style='text-decoration: none' ><span id='token_1_38691_1-1' class='aligned' 
+                  data-ref='sen_38691_sen_1' >Cum</span></a> <a href='wordinfo.php?w=diu&lang=LAT' style='text-decoration: none' ><span id='token_1_38691_1-2' class='aligned' 
+                  data-ref='sen_38691_sen_4' >diu</span></a> <a href='wordinfo.php?w=dubitasset&lang=LAT' style='text-decoration: none' ><span id='token_1_38691_1-3' class='aligned' 
+                  data-ref='sen_38691_sen_3' >dubitasset</span></a> <a href='wordinfo.php?w=Cassius&lang=LAT' style='text-decoration: none' ><span id='token_1_38691_1-4' class='aligned' 
+                  data-ref='sen_38691_sen_2' >Cassius</span></a> <a href='wordinfo.php?w=quid&lang=LAT' style='text-decoration: none' ><span id='token_1_38691_1-5' class='aligned' 
+                  data-ref='sen_38691_sen_5' >quid</span></a> <a href='wordinfo.php?w=sibi&lang=LAT' style='text-decoration: none' ><span id='token_1_38691_1-6' class='aligned' 
+                  data-ref='sen_38691_sen_6' >sibi</span></a> <a href='wordinfo.php?w=faciendum&lang=LAT' style='text-decoration: none' ><span id='token_1_38691_1-7' class='aligned' 
+                  data-ref='sen_38691_sen_7' >faciendum</span></a> <a href='wordinfo.php?w=quidue&lang=LAT' style='text-decoration: none' ><span id='token_1_38691_1-8' class='aligned' 
+                  data-ref='sen_38691_sen_8' >quidue</span></a> <a href='wordinfo.php?w=Lepido&lang=LAT' style='text-decoration: none' ><span id='token_1_38691_1-9' class='aligned' 
+                  data-ref='sen_38691_sen_10' >Lepido</span></a> <a href='wordinfo.php?w=esset&lang=LAT' style='text-decoration: none' ><span id='token_1_38691_1-10' class='aligned' 
+                  data-ref='sen_38691_sen_9' >esset</span></a> <a href='wordinfo.php?w=credendum&lang=LAT' style='text-decoration: none' ><span id='token_1_38691_1-11' class='aligned' 
+                  data-ref='sen_38691_sen_9' >credendum</span></a> <a href='wordinfo.php?w=neque&lang=LAT' style='text-decoration: none' ><span id='token_1_38691_1-12' class='aligned' 
+                  data-ref='sen_38691_sen_11' >neque</span></a> <a href='wordinfo.php?w=ullum&lang=LAT' style='text-decoration: none' ><span id='token_1_38691_1-13' class='aligned' 
+                  data-ref='sen_38691_sen_13' >ullum</span></a> <a href='wordinfo.php?w=exitum&lang=LAT' style='text-decoration: none' ><span id='token_1_38691_1-14' class='aligned' 
+                  data-ref='sen_38691_sen_14' >exitum</span></a> <a href='wordinfo.php?w=consili&lang=LAT' style='text-decoration: none' ><span id='token_1_38691_1-15' class='aligned' 
+                  data-ref='sen_38691_sen_15' >consili</span></a> <a href='wordinfo.php?w=sui&lang=LAT' style='text-decoration: none' ><span id='token_1_38691_1-16' class='aligned' 
+                  data-ref='sen_38691_sen_16' >sui</span></a> <a href='wordinfo.php?w=reperiret&lang=LAT' style='text-decoration: none' ><span id='token_1_38691_1-17' class='aligned' 
+                  data-ref='sen_38691_sen_12' >reperiret</span></a> <a href='wordinfo.php?w=si&lang=LAT' style='text-decoration: none' ><span id='token_1_38691_1-18' class='aligned' 
+                  data-ref='sen_38691_sen_17' >si</span></a> <a href='wordinfo.php?w=permaneret&lang=LAT' style='text-decoration: none' ><span id='token_1_38691_1-19' class='aligned' 
+                  data-ref='sen_38691_sen_18' >permaneret</span></a> <a href='wordinfo.php?w=in&lang=LAT' style='text-decoration: none' ><span id='token_1_38691_1-20' class='aligned' 
+                  data-ref='sen_38691_sen_19' >in</span></a> <a href='wordinfo.php?w=sententia&lang=LAT' style='text-decoration: none' ><span id='token_1_38691_1-21' class='aligned' 
+                  data-ref='sen_38691_sen_20' >sententia</span></a> <a href='wordinfo.php?w=,&lang=LAT' style='text-decoration: none' ><span id='token_1_38691_1-22' class='notAligned' 
+                  data-ref='notAligned' >,</span></a> <a href='wordinfo.php?w=postulat&lang=LAT' style='text-decoration: none' ><span id='token_1_38691_1-23' class='aligned' 
+                  data-ref='sen_38691_sen_21' >postulat</span></a> <a href='wordinfo.php?w=uti&lang=LAT' style='text-decoration: none' ><span id='token_1_38691_1-24' class='aligned' 
+                  data-ref='sen_38691_sen_22' >uti</span></a> <a href='wordinfo.php?w=munitiones&lang=LAT' style='text-decoration: none' ><span id='token_1_38691_1-25' class='aligned' 
+                  data-ref='sen_38691_sen_23' >munitiones</span></a> <a href='wordinfo.php?w=disicerentur&lang=LAT' style='text-decoration: none' ><span id='token_1_38691_1-26' class='aligned' 
+                  data-ref='sen_38691_sen_24' >disicerentur</span></a> <a href='wordinfo.php?w=sibique&lang=LAT' style='text-decoration: none' ><span id='token_1_38691_1-27' class='aligned' 
+                  data-ref='sen_38691_sen_25' >sibique</span></a> <a href='wordinfo.php?w=liber&lang=LAT' style='text-decoration: none' ><span id='token_1_38691_1-28' class='aligned' 
+                  data-ref='sen_38691_sen_27' >liber</span></a> <a href='wordinfo.php?w=exitus&lang=LAT' style='text-decoration: none' ><span id='token_1_38691_1-29' class='aligned' 
+                  data-ref='sen_38691_sen_28' >exitus</span></a> <a href='wordinfo.php?w=daretur&lang=LAT' style='text-decoration: none' ><span id='token_1_38691_1-30' class='aligned' 
+                  data-ref='sen_38691_sen_26' >daretur</span></a> <a href='wordinfo.php?w=.&lang=LAT' style='text-decoration: none' ><span id='token_1_38691_1-31' class='notAligned' 
+                  data-ref='notAligned' >.</span></a> </div>
+                    <div class='col-md-6' style='direction: ltr;  ' id='styledText_38691_2'><a href='wordinfo.php?w=When&lang=ENG' style='text-decoration: none' >
+                <span id='token_2_38691_2-1' class='aligned'  data-ref='sen_38691_sen_1' >When</span> </a><a href='wordinfo.php?w=Cassius&lang=ENG' style='text-decoration: none' >
+                <span id='token_2_38691_2-2' class='aligned'  data-ref='sen_38691_sen_2' >Cassius</span> </a><a href='wordinfo.php?w=had&lang=ENG' style='text-decoration: none' >
+                <span id='token_2_38691_2-3' class='aligned'  data-ref='sen_38691_sen_3' >had</span> </a><a href='wordinfo.php?w=hesitated&lang=ENG' style='text-decoration: none' >
+                <span id='token_2_38691_2-4' class='aligned'  data-ref='sen_38691_sen_3' >hesitated</span> </a><a href='wordinfo.php?w=for&lang=ENG' style='text-decoration: none' >
+                <span id='token_2_38691_2-5' class='aligned'  data-ref='sen_38691_sen_4' >for</span> </a><a href='wordinfo.php?w=a&lang=ENG' style='text-decoration: none' >
+                <span id='token_2_38691_2-6' class='aligned'  data-ref='sen_38691_sen_4' >a</span> </a><a href='wordinfo.php?w=long&lang=ENG' style='text-decoration: none' >
+                <span id='token_2_38691_2-7' class='aligned'  data-ref='sen_38691_sen_4' >long</span> </a><a href='wordinfo.php?w=time&lang=ENG' style='text-decoration: none' >
+                <span id='token_2_38691_2-8' class='aligned'  data-ref='sen_38691_sen_4' >time</span> </a><a href='wordinfo.php?w=as&lang=ENG' style='text-decoration: none' >
+                <span id='token_2_38691_2-9' class='aligned'  data-ref='sen_38691_sen_5' >as</span> </a><a href='wordinfo.php?w=to&lang=ENG' style='text-decoration: none' >
+                <span id='token_2_38691_2-10' class='aligned'  data-ref='sen_38691_sen_5' >to</span> </a><a href='wordinfo.php?w=what&lang=ENG' style='text-decoration: none' >
+                <span id='token_2_38691_2-11' class='aligned'  data-ref='sen_38691_sen_5' >what</span> </a><a href='wordinfo.php?w=he&lang=ENG' style='text-decoration: none' >
+                <span id='token_2_38691_2-12' class='aligned'  data-ref='sen_38691_sen_6' >he</span> </a><a href='wordinfo.php?w=should&lang=ENG' style='text-decoration: none' >
+                <span id='token_2_38691_2-13' class='aligned'  data-ref='sen_38691_sen_7' >should</span> </a><a href='wordinfo.php?w=do&lang=ENG' style='text-decoration: none' >
+                <span id='token_2_38691_2-14' class='aligned'  data-ref='sen_38691_sen_7' >do</span> </a><a href='wordinfo.php?w=and&lang=ENG' style='text-decoration: none' >
+                <span id='token_2_38691_2-15' class='aligned'  data-ref='sen_38691_sen_8' >and</span> </a><a href='wordinfo.php?w=how&lang=ENG' style='text-decoration: none' >
+                <span id='token_2_38691_2-16' class='aligned'  data-ref='sen_38691_sen_8' >how</span> </a><a href='wordinfo.php?w=much&lang=ENG' style='text-decoration: none' >
+                <span id='token_2_38691_2-17' class='aligned'  data-ref='sen_38691_sen_8' >much</span> </a><a href='wordinfo.php?w=trust&lang=ENG' style='text-decoration: none' >
+                <span id='token_2_38691_2-18' class='aligned'  data-ref='sen_38691_sen_9' >trust</span> </a><a href='wordinfo.php?w=he&lang=ENG' style='text-decoration: none' >
+                <span id='token_2_38691_2-19' class='aligned'  data-ref='sen_38691_sen_9' >he</span> </a><a href='wordinfo.php?w=should&lang=ENG' style='text-decoration: none' >
+                <span id='token_2_38691_2-20' class='aligned'  data-ref='sen_38691_sen_9' >should</span> </a><a href='wordinfo.php?w=place&lang=ENG' style='text-decoration: none' >
+                <span id='token_2_38691_2-21' class='aligned'  data-ref='sen_38691_sen_9' >place</span> </a><a href='wordinfo.php?w=in&lang=ENG' style='text-decoration: none' >
+                <span id='token_2_38691_2-22' class='aligned'  data-ref='sen_38691_sen_10' >in</span> </a><a href='wordinfo.php?w=Lepidus&lang=ENG' style='text-decoration: none' >
+                <span id='token_2_38691_2-23' class='aligned'  data-ref='sen_38691_sen_10' >Lepidus</span> </a><a href='wordinfo.php?w=,&lang=ENG' style='text-decoration: none' >
+                <span id='token_2_38691_2-24' class='notAligned'  data-ref='notAligned' >,</span> </a><a href='wordinfo.php?w=and&lang=ENG' style='text-decoration: none' >
+                <span id='token_2_38691_2-25' class='aligned'  data-ref='sen_38691_sen_11' >and</span> </a><a href='wordinfo.php?w=discovered&lang=ENG' style='text-decoration: none' >
+                <span id='token_2_38691_2-26' class='aligned'  data-ref='sen_38691_sen_12' >discovered</span> </a><a href='wordinfo.php?w=no&lang=ENG' style='text-decoration: none' >
+                <span id='token_2_38691_2-27' class='aligned'  data-ref='sen_38691_sen_13' >no</span> </a><a href='wordinfo.php?w=outcome&lang=ENG' style='text-decoration: none' >
+                <span id='token_2_38691_2-28' class='aligned'  data-ref='sen_38691_sen_14' >outcome</span> </a><a href='wordinfo.php?w=for&lang=ENG' style='text-decoration: none' >
+                <span id='token_2_38691_2-29' class='aligned'  data-ref='sen_38691_sen_15' >for</span> </a><a href='wordinfo.php?w=his&lang=ENG' style='text-decoration: none' >
+                <span id='token_2_38691_2-30' class='aligned'  data-ref='sen_38691_sen_16' >his</span> </a><a href='wordinfo.php?w=plan&lang=ENG' style='text-decoration: none' >
+                <span id='token_2_38691_2-31' class='aligned'  data-ref='sen_38691_sen_15' >plan</span> </a><a href='wordinfo.php?w=if&lang=ENG' style='text-decoration: none' >
+                <span id='token_2_38691_2-32' class='aligned'  data-ref='sen_38691_sen_17' >if</span> </a><a href='wordinfo.php?w=he&lang=ENG' style='text-decoration: none' >
+                <span id='token_2_38691_2-33' class='aligned'  data-ref='sen_38691_sen_18' >he</span> </a><a href='wordinfo.php?w=persisted&lang=ENG' style='text-decoration: none' >
+                <span id='token_2_38691_2-34' class='aligned'  data-ref='sen_38691_sen_18' >persisted</span> </a><a href='wordinfo.php?w=in&lang=ENG' style='text-decoration: none' >
+                <span id='token_2_38691_2-35' class='aligned'  data-ref='sen_38691_sen_19' >in</span> </a><a href='wordinfo.php?w=his&lang=ENG' style='text-decoration: none' >
+                <span id='token_2_38691_2-36' class='notAligned'  data-ref='notAligned' >his</span> </a><a href='wordinfo.php?w=opinion&lang=ENG' style='text-decoration: none' >
+                <span id='token_2_38691_2-37' class='aligned'  data-ref='sen_38691_sen_20' >opinion</span> </a><a href='wordinfo.php?w=,&lang=ENG' style='text-decoration: none' >
+                <span id='token_2_38691_2-38' class='notAligned'  data-ref='notAligned' >,</span> </a><a href='wordinfo.php?w=he&lang=ENG' style='text-decoration: none' >
+                <span id='token_2_38691_2-39' class='aligned'  data-ref='sen_38691_sen_21' >he</span> </a><a href='wordinfo.php?w=demanded&lang=ENG' style='text-decoration: none' >
+                <span id='token_2_38691_2-40' class='aligned'  data-ref='sen_38691_sen_21' >demanded</span> </a><a href='wordinfo.php?w=that&lang=ENG' style='text-decoration: none' >
+                <span id='token_2_38691_2-41' class='aligned'  data-ref='sen_38691_sen_22' >that</span> </a><a href='wordinfo.php?w=the&lang=ENG' style='text-decoration: none' >
+                <span id='token_2_38691_2-42' class='aligned'  data-ref='sen_38691_sen_23' >the</span> </a><a href='wordinfo.php?w=fortifications&lang=ENG' style='text-decoration: none' >
+                <span id='token_2_38691_2-43' class='aligned'  data-ref='sen_38691_sen_23' >fortifications</span> </a><a href='wordinfo.php?w=be&lang=ENG' style='text-decoration: none' >
+                <span id='token_2_38691_2-44' class='aligned'  data-ref='sen_38691_sen_24' >be</span> </a><a href='wordinfo.php?w=broken&lang=ENG' style='text-decoration: none' >
+                <span id='token_2_38691_2-45' class='aligned'  data-ref='sen_38691_sen_24' >broken</span> </a><a href='wordinfo.php?w=up&lang=ENG' style='text-decoration: none' >
+                <span id='token_2_38691_2-46' class='aligned'  data-ref='sen_38691_sen_24' >up</span> </a><a href='wordinfo.php?w=and&lang=ENG' style='text-decoration: none' >
+                <span id='token_2_38691_2-47' class='aligned'  data-ref='sen_38691_sen_25' >and</span> </a><a href='wordinfo.php?w=that&lang=ENG' style='text-decoration: none' >
+                <span id='token_2_38691_2-48' class='notAligned'  data-ref='notAligned' >that</span> </a><a href='wordinfo.php?w=a&lang=ENG' style='text-decoration: none' >
+                <span id='token_2_38691_2-49' class='aligned'  data-ref='sen_38691_sen_27' >a</span> </a><a href='wordinfo.php?w=free&lang=ENG' style='text-decoration: none' >
+                <span id='token_2_38691_2-50' class='aligned'  data-ref='sen_38691_sen_27' >free</span> </a><a href='wordinfo.php?w=exit&lang=ENG' style='text-decoration: none' >
+                <span id='token_2_38691_2-51' class='aligned'  data-ref='sen_38691_sen_28' >exit</span> </a><a href='wordinfo.php?w=be&lang=ENG' style='text-decoration: none' >
+                <span id='token_2_38691_2-52' class='aligned'  data-ref='sen_38691_sen_26' >be</span> </a><a href='wordinfo.php?w=given&lang=ENG' style='text-decoration: none' >
+                <span id='token_2_38691_2-53' class='aligned'  data-ref='sen_38691_sen_26' >given</span> </a><a href='wordinfo.php?w=to&lang=ENG' style='text-decoration: none' >
+                <span id='token_2_38691_2-54' class='aligned'  data-ref='sen_38691_sen_25' >to</span> </a><a href='wordinfo.php?w=him&lang=ENG' style='text-decoration: none' >
+                <span id='token_2_38691_2-55' class='aligned'  data-ref='sen_38691_sen_25' >him</span> </a><a href='wordinfo.php?w=.&lang=ENG' style='text-decoration: none' >
+                <span id='token_2_38691_2-56' class='notAligned'  data-ref='notAligned' >.</span> </a></div>
+                  </div>
+                  <div class='row'>
+                    <div class='col-md-6' ><br><div class="progress" style="width: 95%">
+          <div class="progress-bar progress-bar-danger progress-bar-striped" style="width: 6%"> ( 2 )
+           6% LAT
+          </div>
+          <div class="progress-bar progress-bar-success " style="width: 94%"> ( 29 )
+            94%  LAT - ENG
+          </div>
+        </div></div>
+                    <div class='col-md-6'><br><div class="progress" style="width: 95%">
+          <div class="progress-bar progress-bar-success " style="width: 91%"> ( 51 )
+            91%  LAT - ENG
+          </div>
+          <div class="progress-bar progress-bar-danger progress-bar-striped" style="width: 9%"> ( 5 )
+            9% ENG
+          </div>
+
+        </div></div>
+                  </div></div></div>                </div>
+<!--                <div class="col-md-12" style="margin: 4px">-->
+<!--                    <button type="button" class="btn btn-default" data-toggle="modal" data-target="#embedModal" onclick="buildEmbedLink()">-->
+<!--                        Embed-->
+<!--                    </button>-->
+<!--                    <button type="button" class="btn btn-default" data-toggle="modal" data-target="#translationPairsModal">-->
+<!--                        Show Translation Pairs-->
+<!--                    </button>-->
+<!--                    <button type="button" class="btn btn-default" data-toggle="modal" data-target="#translationPairsStatModal" onclick="drawTranslationPairsBarChart()">-->
+<!--                        Alignment Statistics-->
+<!--                    </button>-->
+<!--                    <button type="button" class="btn btn-default" data-toggle="modal" data-target="#alignmentGeometryModal">-->
+<!--                        Alignment Geometry-->
+<!--                    </button>-->
+<!--                </div>-->
+
+                <div class="modal fade" id="embedModal" tabindex="-1" role="dialog" aria-labelledby="embedModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="embedModalLabel">Get Embed Link</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <form class="">
+                    <input type="hidden" name="text_id" id="text_id" value="38691">
+                    <div class="row">
+                        <div class="col-md-8">
+                            <div class="input-group-sm form-check">
+                                <input type="checkbox" class="form-check-input" id="title_checkbox" checked onchange="buildEmbedLink()">
+                                <label class="checkBoxLabel" for="title_checkbox">Title</label>
+                            </div>
+                            <div class="input-group-sm form-check">
+                                <input type="checkbox" class="form-check-input" id="alignedby_checkbox" checked onchange="buildEmbedLink()">
+                                <label class="checkBoxLabel" for="alignedby_checkbox">Aligned By</label>
+                            </div>
+                            <div class="input-group-sm form-check">
+                                <input type="checkbox" class="form-check-input" id="passageinfo_checkbox" onchange="buildEmbedLink()">
+                                <label class="checkBoxLabel" for="passageinfo_checkbox">Passage Information (Created on, ..etc)</label>
+                            </div>
+                            <div class="input-group-sm form-check">
+                                <input type="checkbox" class="form-check-input" id="progressbar_checkbox"  onchange="buildEmbedLink()">
+                                <label class="checkBoxLabel" for="progressbar_checkbox">Progress Bar</label>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="input-group input-group-sm">
+                                <span class="checkBoxLabel">Width </span>
+                                <div class="input-group input-group-sm">
+                                    <input type="text" class="form-control" value="600" name="iframe_width"
+                                           id="iframe_width" aria-describedby="width_label" checked onchange="buildEmbedLink()">
+                                    <span class="input-group-addon"  id="width_label">Pixel</span>
+                                </div>
+                            </div>
+                            <div class="input-group input-group-sm" style="margin-top: 5px">
+                                <span class="checkBoxLabel">Height </span>
+                                <div class="input-group input-group-sm">
+                                    <input type="text" class="form-control" value="600" name="iframe_height"
+                                           id="iframe_height" aria-describedby="height_label" checked onchange="buildEmbedLink()">
+                                    <span class="input-group-addon" id="height_label">Pixel</span>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <div class="input-group col-md-12">
+                        <input type="text" class="form-control" id="embed_url" value='' >
+<!--                        <span class="input-group-btn">-->
+<!--                            <button class="btn btn-primary" type="button" onclick="copyEmbedLink()">Copy Link</button>-->
+<!--                        </span>-->
+
+                    </div>
+
+                </form>
+            </div>
+        </div>
+    </div>
+</div>                <div class="modal fade" id="translationPairsModal" tabindex="-1" role="dialog" aria-labelledby="translationPairsModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="translationPairsModalLabel">Translation Pairs</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body" style="max-height: 400px;overflow-y: scroll;">
+                                <div style="margin: 10px">
+                    <span>Translation Pairs</span> <span class=" badge">28</span>
+                    <span style="margin-left:15px ">Unique Translation Pairs</span> <span class=" badge">28</span>
+                    <a href="downloadTp.php?id=38691"> <button class="btn btn-default btn-sm" style="margin-left:15px;margin-top:-5px; float: right " >Download</button></a>
+                </div>
+                <table class='table table-hover'><tr><th>LAT</th><th>ENG</th><th>Frequency</th></tr><tr><td>exitus</td><td>exit</td><td>1</td></tr><tr><td>ullum</td><td>no</td><td>1</td></tr><tr><td>Cassius</td><td>Cassius</td><td>1</td></tr><tr><td>dubitasset</td><td>had hesitated</td><td>1</td></tr><tr><td>diu</td><td>for a long time</td><td>1</td></tr><tr><td>quid</td><td>to what as</td><td>1</td></tr><tr><td>sibi</td><td>he</td><td>1</td></tr><tr><td>faciendum</td><td>should do</td><td>1</td></tr><tr><td>quidue</td><td>and how much</td><td>1</td></tr><tr><td>esset credendum</td><td>trust he should place</td><td>1</td></tr><tr><td>Lepido</td><td>in Lepidus</td><td>1</td></tr><tr><td>neque</td><td>and</td><td>1</td></tr><tr><td>reperiret</td><td>discovered</td><td>1</td></tr><tr><td>exitum</td><td>outcome</td><td>1</td></tr><tr><td>liber</td><td>a free</td><td>1</td></tr><tr><td>consili</td><td>for plan</td><td>1</td></tr><tr><td>sui</td><td>his</td><td>1</td></tr><tr><td>si</td><td>if</td><td>1</td></tr><tr><td>permaneret</td><td>he persisted</td><td>1</td></tr><tr><td>in</td><td>in</td><td>1</td></tr><tr><td>sententia</td><td>opinion</td><td>1</td></tr><tr><td>postulat</td><td>he demanded</td><td>1</td></tr><tr><td>uti</td><td>that</td><td>1</td></tr><tr><td>munitiones</td><td>the fortifications</td><td>1</td></tr><tr><td>disicerentur</td><td>be broken up</td><td>1</td></tr><tr><td>sibique</td><td>and to him</td><td>1</td></tr><tr><td>daretur</td><td>be given</td><td>1</td></tr><tr><td>Cum</td><td>When</td><td>1</td></tr></table>
+            </div>
+        </div>
+    </div>
+</div>                <div class="modal fade" id="alignmentGeometryModal" tabindex="-1" role="dialog" aria-labelledby="alignmentGeometryModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="alignmentGeometryModalLabel">Alignment Matrix</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body" style="height: 350px">
+                                <div id="dotmatrix_div" style="width: 550px; height: 350px"></div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script>
+    google.charts.load('current', {packages: ['corechart']});
+
+    //function drawTranslationPairsBarChart() {
+    //
+    //    var data = google.visualization.arrayToDataTable([
+    //        //['Type', 'Frequency', { role: 'style' },{ role: 'annotation' }],
+    //        //['1-1', ////, '#225e93', ////],
+    //        //['1-N', ////, '#dab731', ////],            // RGB value
+    //        //['N-1', ////, '#f09641', ////],            // English color name
+    //        //['N-N', ////, '#890d38', ////],
+    //        ['Type', 'Frequency', { role: 'annotation' }],
+    //           //    ]);
+    //
+    //    var options = {
+    //        title: 'Translation Pairs Statistics',
+    //        width: 550,
+    //        height: 300,
+    //        legend: 'none',
+    //
+    //        hAxis: {
+    //            title: 'Translation Pair Type',
+    //        },
+    //        bar: {groupWidth: '65%'},
+    //        vAxis: {
+    //            title: 'Frequency',
+    //            format: 'decimal',
+    //        }
+    //    };
+    //
+    //    var chart = new google.visualization.ColumnChart(
+    //        document.getElementById('barchart_div'));
+    //
+    //    chart.draw(data, options);
+    //}
+</script>                <div class="modal fade" id="translationPairsStatModal" tabindex="-1" role="dialog" aria-labelledby="translationPairsStatModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="translationPairsStatModalLabel">Alignment Statistics</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body" style="height: 400px">
+                
+<!--                <button type="button" class="btn btn-default" onclick="exportDiagram()">-->
+<!--                    Export-->
+<!--                </button>-->
+                <div id="barchart_div" style="width: 550px; height: 350px"></div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script>
+    // function exportDiagram(){
+    //     html2canvas(document.querySelector("#barchart_div")).then(canvas => {
+    //         //document.body.appendChild(canvas)
+    //         canvas.toDataURL("image/png");
+    //     });
+    // }
+    google.charts.load('current', {packages: ['corechart']});
+
+    function drawTranslationPairsBarChart() {
+
+        var data = google.visualization.arrayToDataTable([
+            //['Type', 'Frequency', { role: 'style' },{ role: 'annotation' }],
+            //['1-1', //, '#225e93', //],
+            //['1-N', //, '#dab731', //],            // RGB value
+            //['N-1', //, '#f09641', //],            // English color name
+            //['N-N', //, '#890d38', //],
+            ['Type', 'Frequency', { role: 'annotation' }],
+           ['1-1', 13, 13], ['1-N', 14, 14], ['N-N', 1, 1],         ]);
+
+        var options = {
+            title: 'Alignment Statistics',
+            width: 550,
+            height: 300,
+            legend: 'none',
+
+            hAxis: {
+                title: 'Alignment Type',
+            },
+            bar: {groupWidth: '65%'},
+            vAxis: {
+                title: 'Frequency',
+                format: 'decimal',
+            }
+        };
+
+        var chart = new google.visualization.ColumnChart(
+            document.getElementById('barchart_div'));
+
+        chart.draw(data, options);
+    }
+</script>            </div>
+        </div>
+    </div>
+    <div id="footer">
+    Alexander von Humboldt-Lehrstuhl f&uuml;r Digital Humanities - Creative Commons Attribution-ShareAlike 4.0 International License &#169;	2016 <br> Implemented by Tariq Yousef
+</div></body>
+
+    <script>
+        (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+                (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+            m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+        })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+        ga('create', 'UA-92347513-2', 'auto');
+        ga('send', 'pageview');
+
+    </script>
+    <script src="js/utilities.js"></script>
+
+</html>
