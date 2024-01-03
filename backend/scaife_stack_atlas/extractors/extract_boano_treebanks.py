@@ -5,13 +5,16 @@ import conllu
 import tqdm
 from thefuzz import process
 
+from scaife_stack_atlas.extractors.extract_hilleary_treebanks import (
+    extract_syntax_trees,
+)
+
 
 VERSION_URN = "urn:cts:latinLit:phi0428.phi001.dll-ed-lat1:"
 
 
-def main():
+def extract_references(treebank_path):
     text_path = Path("data/library/phi0428/phi001/phi0428.phi001.dll-ed-lat1.txt")
-    treebank_path = Path("data/raw/bellum-boano/BellumAlexandrinumTagged_mod.conllu")
 
     ref_to_text = {}
     for l in text_path.read_text().splitlines():
@@ -35,3 +38,18 @@ def main():
     with treebank_path.open("w") as f:
         for row in data:
             f.write(row.serialize())
+
+
+def extract_trees(treebank_path):
+    version_path_lookup = {
+        "urn:cts:latinLit:phi0428.phi001.dll-ed-lat1:": treebank_path
+    }
+    for version, input_path in version_path_lookup.items():
+        extract_syntax_trees(version, input_path)
+
+
+# NOTE: This needs to be ran via python manage.py shell
+def main():
+    treebank_path = Path("data/raw/bellum-boano/BellumAlexandrinumTagged_mod.conllu")
+    extract_references(treebank_path)
+    extract_trees(treebank_path)
