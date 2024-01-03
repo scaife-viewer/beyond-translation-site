@@ -1,0 +1,37 @@
+{
+  "urn": "urn:cts:greekLit:tlg0011.tlg002:",
+  "group_urn": "urn:cts:greekLit:tlg0011:",
+  "node_kind": "work",
+  "lang": "grc",
+  "title": [
+    {
+      "lang": "eng",
+      "value": "Antigone"
+    }
+  ],
+  "versions": [
+    {
+      "urn": "urn:cts:greekLit:tlg0011.tlg002.perseus-grc2:",
+      "node_kind": "version",
+      "version_kind": "edition",
+      "lang": "grc",
+      "first_passage_urn": "urn:cts:greekLit:tlg0011.tlg002.perseus-grc2:1-30",
+      "default_toc_urn": "urn:cite:scaife-viewer:toc.antigone",
+      "citation_scheme": [
+        "line"
+      ],
+      "label": [
+        {
+          "lang": "eng",
+          "value": "Antigone"
+        }
+      ],
+      "description": [
+        {
+          "lang": "eng",
+          "value": "Sophocles, creator; Sophocles with an English translation Vol 1; Storr, Francis, 1839-1919, editor, translator. London, New York: W. Heinemann, The Macmillan Co. 1912."
+        }
+      ]
+    }
+  ]
+}

@@ -22,25 +22,23 @@ master_entries = []
 for book, toc_entries in folios_by_book.items():
     urnish = f"toc.iliad-folio-ref-{book}"
     toc_path = Path(f"data/tocs/{urnish}.json")
-    master_entries.append(
-        {"title": f"{book}", "uri": f"urn:cite:scaife-viewer:{urnish}"}
-    )
     root_entry = {
         "title": "↵",
         "uri": "urn:cite:scaife-viewer:toc.iliad-folio-ref-root",
     }
     data = {
         "@id": f"urn:cite:scaife-viewer:{urnish}",
-        "title": f"Folio for Iliad Book {book}",
-        "description": "Mapping between book / line boundaries to Venetus A folios",
+        "title": f"{book}",
+        "uri": f"urn:cite:scaife-viewer:{urnish}",
+        # TODO: Distinguish between entry title and TOC title
+        # "title": f"Folios for Iliad {book}",
         "items": [root_entry] + toc_entries,
     }
-    with toc_path.open("w") as f:
-        json.dump(data, f, indent=2, ensure_ascii=False)
+    master_entries.append(data)
 
-root_toc_path = Path("data/tocs/toc.iliad-folio-ref-root.json")
+root_toc_path = Path("data/annotations/tocs/iliad-folios/toc.iliad-folios.json")
 data = {
-    "@id": "urn:cite:scaife-viewer:toc.iliad-folio-root",
+    "@id": "urn:cite:scaife-viewer:toc.iliad-folio-ref-root",
     "title": "Iliad Books by Folio Ref",
     "description": "Mapping between book / line boundaries to Venetus A folios",
     "items": master_entries,
