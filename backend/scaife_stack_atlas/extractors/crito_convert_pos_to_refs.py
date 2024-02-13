@@ -1,8 +1,6 @@
 import csv
 from pathlib import Path
 
-from scaife_viewer.atlas.models import Node
-
 
 # Fixed a ref at L209
 input_path = Path("data/raw/crito-shamsian/wegner-corrected-finalized-versions.csv")
