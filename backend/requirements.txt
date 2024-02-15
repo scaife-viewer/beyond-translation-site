@@ -10,7 +10,7 @@ gunicorn==20.0.0
 # TODO: Package in scaife-viewer-atlas
 jsonlines==2.0.0
 more_itertools==8.12.0
-pandas==2.2.0
+pandas<2
 pygtrie==2.5.0
 PyICU>=2.9,<3
 requests>=2.0.6
