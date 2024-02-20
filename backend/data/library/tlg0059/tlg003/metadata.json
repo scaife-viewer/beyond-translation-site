@@ -31,6 +31,66 @@
       ]
     },
     {
+      "urn": "urn:cts:greekLit:tlg0059.tlg003.perseus-eng1:",
+      "node_kind": "version",
+      "version_kind": "translation",
+      "lang": "eng",
+      "first_passage_urn": "urn:cts:greekLit:tlg0059.tlg003.perseus-eng1:43a",
+      "citation_scheme": ["stephanus_number", "sentence"],
+      "label": [
+        {
+          "lang": "eng",
+          "value": "Crito (English sentences)"
+        }
+      ],
+      "description": [
+        {
+          "lang": "eng",
+          "value": "???"
+        }
+      ]
+    },
+    {
+      "urn": "urn:cts:greekLit:tlg0059.tlg003.perseus-eng2:",
+      "node_kind": "version",
+      "version_kind": "translation",
+      "lang": "eng",
+      "first_passage_urn": "urn:cts:greekLit:tlg0059.tlg003.perseus-eng2:43a",
+      "citation_scheme": ["stephanus_number", "sentence"],
+      "label": [
+        {
+          "lang": "eng",
+          "value": "Crito (English sentences 2)"
+        }
+      ],
+      "description": [
+        {
+          "lang": "eng",
+          "value": "???"
+        }
+      ]
+    },
+    {
+      "urn": "urn:cts:greekLit:tlg0059.tlg003.perseus-ger1:",
+      "node_kind": "version",
+      "version_kind": "translation",
+      "lang": "ger",
+      "first_passage_urn": "urn:cts:greekLit:tlg0059.tlg003.perseus-ger1:43a",
+      "citation_scheme": ["stephanus_number", "sentence"],
+      "label": [
+        {
+          "lang": "eng",
+          "value": "Crito (German sentences)"
+        }
+      ],
+      "description": [
+        {
+          "lang": "eng",
+          "value": "???"
+        }
+      ]
+    },
+    {
       "urn": "urn:cts:greekLit:tlg0059.tlg003.perseus-far1:",
       "node_kind": "version",
       "version_kind": "translation",
@@ -47,6 +107,46 @@
         {
           "lang": "eng",
           "value": "Translated and Aligned by Farnoosh Shamsian"
+        }
+      ]
+    },
+    {
+      "urn": "urn:cts:greekLit:tlg0059.tlg003.perseus-far2:",
+      "node_kind": "version",
+      "version_kind": "translation",
+      "lang": "far",
+      "first_passage_urn": "urn:cts:greekLit:tlg0059.tlg003.perseus-far2:43a",
+      "citation_scheme": ["stephanus_number", "sentence"],
+      "label": [
+        {
+          "lang": "eng",
+          "value": "Crito (Persian sentences 2)"
+        }
+      ],
+      "description": [
+        {
+          "lang": "eng",
+          "value": "Translated and Aligned by ???"
+        }
+      ]
+    },
+    {
+      "urn": "urn:cts:greekLit:tlg0059.tlg003.perseus-kur1:",
+      "node_kind": "version",
+      "version_kind": "translation",
+      "lang": "kur",
+      "first_passage_urn": "urn:cts:greekLit:tlg0059.tlg003.perseus-kur1:43a",
+      "citation_scheme": ["stephanus_number", "sentence"],
+      "label": [
+        {
+          "lang": "eng",
+          "value": "Crito (Kurdish sentences)"
+        }
+      ],
+      "description": [
+        {
+          "lang": "eng",
+          "value": "Translated and Aligned by ???"
         }
       ]
     }
