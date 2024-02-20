@@ -207,7 +207,7 @@ SV_ATLAS_INGESTION_PIPELINE = [
     "scaife_stack_atlas.temp.create_gorman_collection",
     "scaife_stack_atlas.temp.set_glaux_attributions",
     "scaife_stack_atlas.temp.create_glaux_collection",
-    "scaife_stack_atlas.temp.create_persian_greek_alignment",
+    "scaife_stack_atlas.temp.create_persian_greek_alignments",
     "scaife_stack_atlas.temp.add_translations_to_trees",
     "scaife_stack_atlas.temp.add_glosses_to_trees",
     "scaife_stack_atlas.temp.import_grammatical_entries",

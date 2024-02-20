@@ -231,43 +231,53 @@ def create_glaux_collection(reset=False):
     tas.update(collection=collection)
 
 
-# TODO: English too?
-def create_persian_greek_alignment(reset=True):
-    alignment_urn = (
-        "urn:cite2:scaife-viewer:alignment.v1:iliad-greek-farsi-sentence-alignment"
-    )
-    if reset:
-        TextAlignment.objects.filter(urn=alignment_urn).delete()
-    path = Path(
-        "data/annotations/text-alignments/iliad-greek-farsi-sentence-alignment.json"
-    )
-    process_file(path)
-    ta = TextAlignment.objects.get(urn=alignment_urn)
+def get_base_record_urn(alignment_urn):
+    slug = alignment_urn.rsplit(":", maxsplit=1)[1]
+    return f"urn:cite2:scaife-viewer:alignment-record.v1:{slug}"
 
-    logger.info(f"Extracting tokens for {alignment_urn}")
-    # NOTE: This assumes a whole lot of processing; eventually we want to make this a bit smarter
-    record_lookup = defaultdict(list)
-    versions = list(ta.versions.all())
-    for version in versions:
-        text_parts = get_lowest_citable_nodes(version)
-        for idx, text_part in enumerate(text_parts):
-            record_lookup[idx].append(text_part.tokens.all().only("id"))
 
-    logger.info(f"Creating records for {alignment_urn}")
-    base_record_urn = "urn:cite2:scaife-viewer:alignment-record.v1:iliad-greek-farsi-sentence-alignment"
-    for idx, row in record_lookup.items():
-        record = TextAlignmentRecord(
-            idx=idx,
-            alignment=ta,
-            urn=f"{base_record_urn}_{idx}",
-        )
-        record.save()
-        for version_obj, tokens in zip(versions, row):
-            relation_obj = TextAlignmentRecordRelation(
-                version=version_obj, record=record
+def create_persian_greek_alignments(reset=True):
+    alignment_urn_path_pairs = [
+        (
+            "urn:cite2:scaife-viewer:alignment.v1:iliad-greek-farsi-sentence-alignment",
+            "data/annotations/text-alignments/iliad-greek-farsi-sentence-alignment.json",
+        ),
+        (
+            "urn:cite2:scaife-viewer:alignment.v1:crito-greek-farsi-sentence-alignment",
+            "data/annotations/text-alignments/crito-sentence-alignment-shamsian.json",
+        ),
+    ]
+    for alignment_urn, path in alignment_urn_path_pairs:
+        if reset:
+            TextAlignment.objects.filter(urn=alignment_urn).delete()
+        process_file(Path(path))
+        ta = TextAlignment.objects.get(urn=alignment_urn)
+
+        logger.info(f"Extracting tokens for {alignment_urn}")
+        # NOTE: This assumes a whole lot of processing; eventually we want to make this a bit smarter
+        record_lookup = defaultdict(list)
+        versions = list(ta.versions.all())
+        for version in versions:
+            text_parts = get_lowest_citable_nodes(version)
+            for idx, text_part in enumerate(text_parts):
+                record_lookup[idx].append(text_part.tokens.all().only("id"))
+
+        logger.info(f"Creating records for {alignment_urn}")
+
+        base_record_urn = get_base_record_urn(alignment_urn)
+        for idx, row in record_lookup.items():
+            record = TextAlignmentRecord(
+                idx=idx,
+                alignment=ta,
+                urn=f"{base_record_urn}_{idx}",
             )
-            relation_obj.save()
-            relation_obj.tokens.set(tokens)
+            record.save()
+            for version_obj, tokens in zip(versions, row):
+                relation_obj = TextAlignmentRecordRelation(
+                    version=version_obj, record=record
+                )
+                relation_obj.save()
+                relation_obj.tokens.set(tokens)
 
 
 def add_iliad_english_persian_translations():

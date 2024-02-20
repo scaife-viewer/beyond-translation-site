@@ -1,0 +1,15 @@
+{
+  "urn": "urn:cite2:scaife-viewer:alignment.v1:crito-greek-farsi-sentence-alignment",
+  "label": "Crito Greek / Farsi Sentence Alignment",
+  "format": "atlas-standoff-annotation",
+  "enable_prototype": true,
+  "display_options": {
+    "hovering_enabled": false
+  },
+  "parallel": "true",
+  "versions": [
+    "urn:cts:greekLit:tlg0059.tlg003.perseus-grc2b1:",
+    "urn:cts:greekLit:tlg0059.tlg003.perseus-far1:"
+  ],
+  "records": []
+}
