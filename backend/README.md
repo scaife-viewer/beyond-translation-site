@@ -45,6 +45,49 @@ Create a superuser:
 
 Browse to `/admin/library/`
 
+## Adding new text content
+TODO: Write up the metadata spec and provide instructions.
+
+See work done in https://github.com/scaife-viewer/beyond-translation-site/pull/126/files as a starting point.
+
+Following the convention from that pull request, you would need to have directories, metadata JSON files and the flat text file organized in the structure below:
+```shell
+data/
+├─ library/
+│  ├─ <textgroup>/
+│  │  ├─ metadata.json  # texgroup metadata
+│  │  ├─ <work>/
+│  │  │  ├─ metadata.json  # work and version metadata
+│  │  │  ├─ <version>.txt  # version content
+```
+
+`<version>.txt` would contain content organized as follows:
+
+```
+<ref> <content>
+```
+
+The portion of the line before the first space is used as the text part reference.  Positions in the reference are separated with periods, e.g.:
+
+- book 1 line  1 as 1.1
+- page 1 as 1
+- volume 1 page 1 section 1 as 1.1.1
+
+Everything after the first space is considered the text part content.
+
+For [urn:cts:greekLit:tlg0012.tlg001.parrish-eng1](https://github.com/scaife-viewer/beyond-translation-site/blob/ea234d9a352ca869281df7ce606b002e9cb0f742/backend/data/library/tlg0012/tlg001/tlg0012.tlg001.parrish-eng1.txt#L1)
+
+```
+1.1 Sing, goddess, the godlike wrath of Achilles, son of Peleus,
+```
+
+The ref is `1.1`.
+
+The content is:
+```
+Sing, goddess, the godlike wrath of Achilles, son of Peleus,
+```
+
 ## Sample Queries
 
 Retrieve a list of versions.
