@@ -17,7 +17,7 @@ RUN yarn build
 # # # # # # # # # # # # # # # # # # # # # # # #
 # backend
 # # # # # # # # # # # # # # # # # # # # # # # #
-FROM python:3.9 AS backend-build
+FROM python:3.12 AS backend-build
 WORKDIR /opt/scaife-stack/src/
 RUN pip install --disable-pip-version-check --upgrade pip setuptools wheel virtualenv
 ENV PATH="/opt/scaife-stack/bin:${PATH}" VIRTUAL_ENV="/opt/scaife-stack"

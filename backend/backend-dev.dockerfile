@@ -1,4 +1,4 @@
-FROM python:3.9 AS build
+FROM python:3.12 AS build
 WORKDIR /opt/scaife-stack/src/
 RUN pip install --disable-pip-version-check --upgrade pip setuptools wheel virtualenv
 ENV PATH="/opt/scaife-stack/bin:${PATH}" VIRTUAL_ENV="/opt/scaife-stack"
@@ -7,7 +7,7 @@ RUN set -x \
     && virtualenv /opt/scaife-stack \
     && pip install -r requirements-dev.txt
 
-FROM python:3.9
+FROM python:3.12
 ENV PYTHONUNBUFFERED=1 \
     PYTHONDONTWRITEBYTECODE=1 \
     PYTHONPATH=/opt/scaife-stack/src/ \

@@ -367,3 +367,28 @@ pytest
 Transliteration requires installing the [PyICU](https://pypi.org/project/PyICU/) bindings.
 
 See the documentation ["Installing PyICU"](https://gitlab.pyicu.org/main/pyicu#installing-pyicu) for additional instructions for your operating system.
+
+For macOS, you can try the following:
+
+Install `icu4c`:
+```
+brew install icu4c
+```
+
+Determine the installed version:
+```
+ls $HOMEBREW_CELLAR/icu4c
+```
+
+In my case, it was 73.2
+
+Set up required environment variables for the PyICU build process.
+
+```
+export ICU_VERSION=73  # required because PyICU detects this using
+                       # pkg-config, but icu4c does not register
+                       # itself with pkg-config in recent versions
+export PYICU_INCLUDES=$HOMEBREW_CELLAR/icu4c/73.2/include
+export PYICU_LFLAGS=-L$HOMEBREW_CELLAR/icu4c/73.2/lib
+pip install "PyICU>=2.9,<3"
+```
