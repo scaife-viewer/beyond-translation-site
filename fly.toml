@@ -1,0 +1,40 @@
+# fly.toml app configuration file generated for beyond-translation-bos on 2024-04-30T08:31:47-05:00
+#
+# See https://fly.io/docs/reference/configuration/ for information about how to use this file.
+#
+
+app = 'beyond-translation-bos'
+primary_region = 'bos'
+kill_signal = 'SIGINT'
+kill_timeout = '5s'
+
+[build]
+  dockerfile = 'heroku.dockerfile'
+
+[env]
+  HEROKU_APP_NAME = 'beyond-translation'
+
+[[services]]
+  protocol = 'tcp'
+  internal_port = 8000
+  auto_stop_machines = true
+  auto_start_machines = true
+  min_machines_running = 0
+  processes = ['app']
+
+  [[services.ports]]
+    port = 80
+    handlers = ['http']
+    force_https = true
+
+  [[services.ports]]
+    port = 443
+    handlers = ['tls', 'http']
+
+  [services.concurrency]
+    type = 'connections'
+    hard_limit = 25
+    soft_limit = 20
+
+[[vm]]
+  size = 'shared-cpu-1x'
