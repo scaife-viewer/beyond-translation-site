@@ -1,0 +1,10 @@
+steps:
+- name: gcr.io/cloud-builders/docker
+  args:
+  - build
+  - --tag=gcr.io/scaife-viewer/beyond-translation-site:$TAG_NAME
+  - "-f"
+  - heroku.dockerfile
+  - "."
+images:
+- gcr.io/scaife-viewer/beyond-translation-site:$TAG_NAME

@@ -231,6 +231,32 @@ def create_glaux_collection(reset=False):
     tas.update(collection=collection)
 
 
+def create_gio_collection(reset=False):
+    collection_urn = (
+        "urn:cite2:beyond-translation:text_annotation_collection.atlas_v1:gio_trees"
+    )
+    if reset:
+        TextAnnotation.objects.filter(collection__urn=collection_urn).update(
+            collection=None
+        )
+        TextAnnotationCollection.objects.filter(urn=collection_urn).delete()
+
+    tas = TextAnnotation.objects.filter(
+        urn__startswith="urn:cite2:scaife-viewer:syntaxTree.v1:syntaxTree-tlg2022-tlg007-gio-"
+    )
+    collection = TextAnnotationCollection.objects.create(
+        label="gregorycrane/gio-perseus-work-summer-2023",
+        data={
+            "source": {
+                "title": "Perseus Work Summer 2023",
+                "url": "https://drive.google.com/drive/u/0/folders/1BtRykc421o5zocP1Ii08a0lAt5iOuZaa",
+            }
+        },
+        urn=collection_urn,
+    )
+    tas.update(collection=collection)
+
+
 # TODO: English too?
 def create_persian_greek_alignment(reset=True):
     alignment_urn = (
